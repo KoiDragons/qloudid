@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nangia/bank-id": "^2.0"
+    }
+}
