@@ -1,0 +1,46 @@
+.blue_txt {
+	color: #23c1f4;
+}
+.black_txt {
+	color: #000000;
+}
+.undr_line {
+	text-decoration: underline;
+}
+.dark_grey_txt {
+	color: #4a4a4a;
+}
+.white_txt {
+	color: #FFFFFF;
+}
+.white_shd_txt {
+	color: #FFFFFF;
+	text-shadow:0 1px 1px #333;
+}
+.darkblue_txt {
+	color: #2f69b3;
+}
+.midgrey_txt {
+	color: #6b6f74;
+}
+.bluegreen_txt{
+	color: #00587c;
+}
+.cyanblue_txt {
+	color: #3691c0;
+}
+.green_txt {
+	color: #7db921;
+}
+.yellow_txt {
+	color: #fcaf17;
+}
+.lgtblue_txt {
+	color: #22b8fe;
+}
+.lgtgrey_txt {
+	color: #939598;
+}
+.grey_txt {
+	color: #5b5b5b;
+}

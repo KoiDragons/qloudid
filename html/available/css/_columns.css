@@ -1,0 +1,65 @@
+/* Columns */
+.column_m {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.on_clmn {
+	width: 100%;
+	float: left;
+}
+.tw_clmn {
+	width: 50%;
+	float: left;
+}
+.tw_clmn_sep {
+	background: url(../images/line.png) repeat-y 50% 0px;
+}
+.thr_clmn {
+	width: 33.3%;
+	float: left;
+}
+.for_clmn {
+	width: 25%;
+	float: left;
+}
+.fiv_clmn {
+	width: 20%;
+	float: left;
+}
+.twth_clmn {
+	float: left;
+	width: 65%;
+}
+.onth_clmn {
+	float: left;
+	width: 35%;
+}
+.onfth_clmn {
+	float: left;
+	width: 25%;
+}
+.thfth_clmn {
+	float: left;
+	width: 75%;
+}
+.swt_clmn {
+	float: left;
+	width: 70%;
+}
+.tht_clmn {
+	float: left;
+	width: 30%;
+}
+.forfth_clmn {
+	float: left;
+	width: 80%;
+}
+.onefth_clmn {
+	float: left;
+	width: 20%;
+}
+.six_clmn {
+	float: left;
+	width: 16.66%;
+}

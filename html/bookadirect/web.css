@@ -1,0 +1,63 @@
+/* ====== GIBSON ====== */
+@font-face {
+  font-family: 'Gibson';
+  font-display: swap;
+  src: url('/fonts/gibson-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/gibson-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/gibson-regular.woff') format('woff'),
+    /* Modern BrowÂ§s */ url('/fonts/gibson-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('/fonts/gibson-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-display: swap;
+  font-weight: bold;
+  src: url('/fonts/gibson-bold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/gibson-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/gibson-bold.woff') format('woff'),
+    /* Modern Browsers */ url('/fonts/gibson-bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('/fonts/gibson-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Gibson';
+  font-display: swap;
+  font-weight: 600;
+  src: url('/fonts/gibson-semibold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/gibson-semibold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/gibson-semibold.woff') format('woff'),
+    /* Modern Browsers */ url('/fonts/gibson-semibold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('/fonts/gibson-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* ====== GIBSON ====== */
+
+/* ====== BROWN STD ====== */
+
+@font-face {
+  font-family: 'Brown';
+  font-display: swap;
+  src: url('/fonts/brown-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/brown-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/brown-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Brown';
+  font-display: swap;
+  font-weight: bold;
+  src: url('/fonts/brown-bold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/brown-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/brown-bold.woff') format('woff');
+}
+
+/**
+ * ---------------deprecated---------------
+ * IT IS NOT RECOMMENDED TO EDIT THIS FILE.
+ * ---------------deprecated---------------
+ * We now have support for SCSS, and CSS Modules.
+ * So to avoid naming conflicts and tricky global css,
+ * it is preffered to instead create a module for your component,
+ * or if you do need to use global css, create a file in src/styles,
+ * and import it appropriately.
+ */

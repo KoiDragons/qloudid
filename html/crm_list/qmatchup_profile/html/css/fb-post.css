@@ -1,0 +1,18 @@
+#fb-prime-comment-template, 
+#fb-sub-comment-template{
+	display: none;
+}
+
+/* Sub comments holder */
+
+.fb-comment-action-show-liked[data-count="0"],
+.fb-comment-action-show-liked[data-count="0"] + span{
+	display: none;
+}
+.fb-comments-count:before,
+.fb-shares-count:before{
+	content: attr(data-count)' ';
+}
+.fb-comment-view-more-count:before{
+	content: attr(data-count)' of 'attr(data-total);
+}

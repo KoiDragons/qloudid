@@ -1,0 +1,1952 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+		<link rel="stylesheet" type="text/css" media="all" href="css/idcard.css">
+		<link href="css/jquery-ui-1.10.4.custom.html" rel="stylesheet" media="all">
+		<title>Qmatchup</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<div class="column_m header blue_bg">
+			<div class="fixed_header blue_bg">
+				<div class="wrap">
+					<div class="logo padt10"><a href="#"><img src="images/qmatchup_logo.png" alt="Qmatchup" title="Bisswise" /></a></div>
+					<div class="search">
+						<div class="fleft">
+							<input type="text" name="Search" class="search_fld"/>
+						</div>
+						<div class="fleft">
+							<input type="submit" value="" class="search_btn">
+						</div>
+					</div>
+					<div class="top_menu">
+						<ul class="menulist sf-menu">
+							<li><a href="#">+kowak...</a></li>
+							<li class="app_menu">
+								<a href="#"></a>
+								<ul>
+									<li>
+										<div class="top_arrow"></div>
+									</li>
+									<li>
+										<div class="application_menu pad20">
+											<ol>
+												<li> <a href="#" class="business_prof"> <span></span> Business Profile </a> </li>
+												<li> <a href="#" class="swedBank"> <span></span> SwedBank </a> </li>
+												<li> <a href="#" class="posted_jobs"> <span></span> Posted Jobs </a> </li>
+												<li> <a href="#" class="proposals"> <span></span> Proposals </a> </li>
+												<li> <a href="#" class="bids"> <span></span> Bids </a> </li>
+												<li> <a href="#" class="invoice"> <span></span> Invoice </a> </li>
+											</ol>
+											<div class="padb20">
+												<div class="line"></div>
+											</div>
+											<div class="column_m"> <a href="#" class="contractor_btn"><span></span>Become a Contractor</a> </div>
+											<div class="clear"></div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="noti_menu">
+								<a href="#"><span>5</span></a>
+								<ul>
+									<li>
+										<div class="top_arrow"></div>
+									</li>
+									<li>
+										<div class="notification_menu padtb15">
+											<div class="lgtgrey_txt fsz13 padrl15">You have <span class="dark_grey_txt">(12)</span> new Notifications</div>
+											<ol class="">
+												<li><a href="#"> <span class="fright notification_type">Bid now</span><span class="user_name">Lisa Wong</span><span class="notification_reason">Invitated you for a Bid</span> </a></li>
+												<li><a href="#"> <span class="fright notification_type">Bid now</span><span class="user_name">Lisa Wong</span><span class="notification_reason">Invitated you for a Bid</span> </a></li>
+												<li><a href="#"> <span class="fright notification_type">Bid now</span><span class="user_name">Lisa Wong</span><span class="notification_reason">Invitated you for a Bid</span> </a></li>
+												<li><a href="#"> <span class="fright notification_type">Bid now</span><span class="user_name">Lisa Wong</span><span class="notification_reason">Invitated you for a Bid</span> </a></li>
+												<li><a href="#"> <span class="fright notification_type">Bid now</span><span class="user_name">Lisa Wong</span><span class="notification_reason">Invitated you for a Bid</span> </a></li>
+											</ol>
+											<div class="talc clear all_notification"><a href="#">View all notifications</a></div>
+											<div class="clear"></div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="msg_ico">
+								<a href="#"><span>5</span></a>
+								<ul>
+									<li>
+										<div class="top_arrow"></div>
+									</li>
+									<li>
+										<div class="emailupdate_menu padtb15">
+											<div class="lgtgrey_txt fsz13 padrl15">You have <span class="dark_grey_txt">(6)</span> new mails</div>
+											<ol>
+												<li>
+													<div class="user_pic"><a href="#"><img src="images/email_user_mini_pic1.jpg" width="38" height="38" alt="email" title="email"></a></div>
+													<div class="mail_content"> <a href="#"> <span class="mail_time">Just Now</span> <span class="mail_sender"> Lisa Wong </span> <span class="mail_subject">Re : Request for Invoice </span></a> </div>
+												</li>
+												<li>
+													<div class="user_pic"><a href="#"><img src="images/email_user_mini_default.jpg" width="38" height="38" alt="email" title="email"></a></div>
+													<div class="mail_content"> <a href="#"> <span class="mail_time">2:03 am</span> <span class="mail_sender"> Lisa Wong </span> <span class="mail_subject">Re : Request for Invoice </span></a> </div>
+												</li>
+												<li>
+													<div class="user_pic"><a href="#"><img src="images/email_user_mini_pic1.jpg" width="38" height="38" alt="email" title="email"></a></div>
+													<div class="mail_content"> <a href="#"> <span class="mail_time">5:23 am</span> <span class="mail_sender"> Lisa Wong </span> <span class="mail_subject">Re : Request for Invoice </span></a> </div>
+												</li>
+												<li>
+													<div class="user_pic"><a href="#"><img src="images/email_user_mini_pic2.jpg" width="38" height="38" alt="email" title="email"></a></div>
+													<div class="mail_content"> <a href="#"> <span class="mail_time">7:47 pm</span> <span class="mail_sender"> Lisa Wong </span> <span class="mail_subject">Re : Request for Invoice </span></a> </div>
+												</li>
+											</ol>
+											<div class="talc clear all_notification"><a href="#">View all mails</a></div>
+											<div class="clear"></div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="setting_mnu">
+								<a href="#"></a>
+								<ul>
+									<li>
+										<div class="top_arrow"></div>
+									</li>
+									<li>
+										<div class="setting_menu pad15">
+											<div class="fsz13">Sign in as</div>
+											<ol class="">
+												<li><a href="#">Telezales</a></li>
+												<li><a href="#">Kowaken Ghirmai</a></li>
+												<li>
+													<div class="line martb10"></div>
+												</li>
+												<li><a href="#">Setting</a></li>
+												<li><a href="#">FAQs</a></li>
+												<li><a href="#">Policies</a></li>
+												<li><a href="#">Report Problem</a></li>
+												<li>
+													<div class="line marb10"></div>
+												</li>
+												<li><a href="#">Logout</a></li>
+											</ol>
+											<div class="clear"></div>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+		
+		<!-- CONTENT -->
+		<div class="column_m container zindx5">
+			<div class="wrap">
+				
+				<!-- Hey -->
+				<div class="column_m">
+					<div class="padtb30">
+						<h1 class="padb5 talc fsz50">Hey, Kowaken</h1>
+						<p class="pad0 talc fsz16">This is your account</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<div class="column_m padt15">
+					
+					<div class="back_button fsz16">
+						<a href="index.html">Back</a>
+					</div>
+					
+					<!-- Right content -->
+					<div class="right_container fright">
+						
+						<!-- Account activity 2 -->
+						<div class="column_m scroll_menu_header mart10 padb30 white_bg" data-text="Account activity 2" id="activity_table">
+							<!-- tabs header -->
+							<div class="container tab-header talc dark_grey_txt">
+								<ul class="tab-header tab-header-custom">
+									<li>
+										<a href="#" class="dblock active" data-id="tab_total">
+											<span class="count">2</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-id="tab_screening">
+											<span class="count">0</span>
+											<span>Opportunity</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-id="tab_interview">
+											<span class="count">0</span>
+											<span>Proposal</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-id="tab_facetoface">
+											<span class="count">0</span>
+											<span>Order</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-id="tab_offered">
+											<span class="count">0</span>
+											<span>Billing</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-id="tab_hireddeclined">
+											<span class="count">0</span>
+											<span>Hired / Declined</span>
+										</a>
+									</li>
+									<div class="clear"></div>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<!-- tabs content -->
+							<div class="container padt30 fsz14 dark_grey_txt">
+								<div class="tab-content pad25" id="tab_total">
+									<form method="post" action="">
+										<table class="wi_100" cellpadding="0" cellspacing="0">
+											<thead class="fsz13">
+												<tr>
+													<th class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Company</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Vacancy</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">My Status</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Reason</div>
+													</th>
+													<th class="wi_36p pad5 brdb tall">
+														<div class="padtb5">Convert</div>
+													</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">September</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check3" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check4" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check5" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check6" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">August</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check7" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check8" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check9" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check10" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check11" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check12" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</form>
+								</div>
+								<div class="tab-content pad25" id="tab_screening">
+									<form method="post" action="">
+										<table class="wi_100" cellpadding="0" cellspacing="0">
+											<thead class="fsz13">
+												<tr>
+													<th class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Company</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Vacancy</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">My Status</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Reason</div>
+													</th>
+													<th class="wi_36p pad5 brdb tall">
+														<div class="padtb5">Convert</div>
+													</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">September</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 2</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">August</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</form>
+									<div class="container padt25 tall fsz16">
+										<a href="#" class="vex_addaddress_caller add_icon">Add Opportunity</a>
+									</div>
+								</div>
+								<div class="tab-content pad25" id="tab_interview">
+									<form method="post" action="">
+										<table class="wi_100" cellpadding="0" cellspacing="0">
+											<thead class="fsz13">
+												<tr>
+													<th class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Company</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Vacancy</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">My Status</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Reason</div>
+													</th>
+													<th class="wi_36p pad5 brdb tall">
+														<div class="padtb5">Convert</div>
+													</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">September</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 3</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">August</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</form>
+									<div class="container padt25 tall fsz16">
+										<a href="#" class="vex_addaddress_caller add_icon">Add Proposal</a>
+									</div>
+								</div>
+								<div class="tab-content pad25" id="tab_facetoface">
+									<form method="post" action="">
+										<table class="wi_100" cellpadding="0" cellspacing="0">
+											<thead class="fsz13">
+												<tr>
+													<th class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Company</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Vacancy</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">My Status</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Reason</div>
+													</th>
+													<th class="wi_36p pad5 brdb tall">
+														<div class="padtb5">Convert</div>
+													</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">September</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 4</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">August</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</form>
+									<div class="container padt25 tall fsz16">
+										<a href="#" class="vex_addaddress_caller add_icon">Add Order</a>
+									</div>
+								</div>
+								<div class="tab-content pad25" id="tab_offered">
+									<form method="post" action="">
+										<table class="wi_100" cellpadding="0" cellspacing="0">
+											<thead class="fsz13">
+												<tr>
+													<th class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Company</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Vacancy</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">My Status</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Reason</div>
+													</th>
+													<th class="wi_36p pad5 brdb tall">
+														<div class="padtb5">Convert</div>
+													</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">September</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 5</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">August</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</form>
+									<div class="container padt25 tall fsz16">
+										<a href="#" class="vex_addaddress_caller add_icon">Add Billing</a>
+									</div>
+								</div>
+								<div class="tab-content pad25" id="tab_hireddeclined">
+									<form method="post" action="">
+										<table class="wi_100" cellpadding="0" cellspacing="0">
+											<thead class="fsz13">
+												<tr>
+													<th class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Company</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Vacancy</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">My Status</div>
+													</th>
+													<th class="pad5 brdb tall">
+														<div class="padtb5">Reason</div>
+													</th>
+													<th class="wi_36p pad5 brdb tall">
+														<div class="padtb5">Convert</div>
+													</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">September</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 6</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall" colspan="6">
+														<div class="padtb5 bold">August</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check0" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+												<tr>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><input type="checkbox" name="check1" class="check"  /></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Qmatch Inc</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">DU001 Salesperson 1</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5">Accepted</div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"></div>
+													</td>
+													<td class="pad5 brdb tall">
+														<div class="padtb5"><a href="#" class="dblue_btn min_height">Convert</a></div>
+													</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</form>
+									<div class="container padt25 tall fsz16">
+										<a href="#" class="vex_addaddress_caller add_icon">Add Hired / Declined</a>
+									</div>
+								</div>
+							</div>
+							<div class="talc">
+								<a href="account_activity2.html" class="dblue_btn marrl15 fsz16" target="_self">Show more</a>
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="column_m padt30 zindx10">
+			<div class="column_m footermain">
+				<div class="wrap">
+					<div class="column_m padt30">
+						<div class="for_clmn">
+							<h2 class="fsz26 cyanblue_txt bold font_opnsns">QMatchup</h2>
+							<p class="lgn_hight_20">Qmatchup helps clients proqure prequalified outsourcing services. With our global network of pre qualified contractors we have helped thousands of clients get exactly what they whant, when they whant it. </p>
+						</div>
+						<div class="for_clmn">
+							<div class="marrl30 padrl30 blue_left_brd talc">
+								<div class="center_bx footer_green_ico icon1 marb10"> </div>
+								<h2 class="darkblue_txt bold">Know more!</h2>
+								<ul class="footer_link_list">
+									<li><a href="#">About</a></li>
+									<li><a href="#">How it works</a></li>
+									<li><a href="#">Additionals</a></li>
+									<li><a href="#">Blog</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="for_clmn talc">
+							<div class="padrl30 blue_left_brd blue_right_brd talc">
+								<div class="center_bx footer_green_ico icon2 marb10"> </div>
+								<h2 class="darkblue_txt bold">Need Help!</h2>
+								<ul class="footer_link_list">
+									<li>Call us at : 1 888 341</li>
+									<li>Email : <a href="mailto:support@qmatchup.com">support@qmatchup.com</a></li>
+									<li><a href="#">Helpcenter</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="for_clmn talc">
+							<div class="padl30">
+								<div class="center_bx footer_green_ico icon3 marb10"> </div>
+								<h2 class="darkblue_txt bold">Need Help!</h2>
+								<p>Get monthly updates from Qmatchup in your inbox. Read our latest news & buzz.</p>
+								<ul class="social_hori_color_list">
+									<li><a href="#" class="fb"></a></li>
+									<li><a href="#" class="tw"></a></li>
+									<li><a href="#" class="sk"></a></li>
+									<li class="last"><a href="#" class="rs"></a></li>
+								</ul>
+								<div class="wi_70 center_bx padt10"> <a href="#" class="green_btn dblock min_height">Subscribe Newsletter</a> </div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+						<div class="column_m grey_ico_bx padt20">
+							<div class="for_clmn">
+								<h2 class="darkblue_txt fsz16 padb5">Q Outsourcing </h2>
+								<div class="grey_icon icon1"></div>
+								<p> We care a lot about how people communicate. </p>
+							</div>
+							<div class="for_clmn">
+								<h2 class="darkblue_txt fsz16 padb5">Q Purchase</h2>
+								<div class="grey_icon icon2"></div>
+								<p>Has helped over 29342 companies with their projects.</p>
+							</div>
+							<div class="for_clmn">
+								<h2 class="darkblue_txt fsz16 padb5">Q Hire</h2>
+								<div class="grey_icon icon3"></div>
+								<p>Industry specialists project faciliators supervices.</p>
+							</div>
+							<div class="for_clmn">
+								<h2 class="darkblue_txt fsz16 padb5">Q Staffing</h2>
+								<div class="grey_icon icon4"></div>
+								<p>Continiously expanding and updates our tools.</p>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="dark_footer column_m">
+				<div class="wrap">
+					<div class="column_m padt15">
+						<div class="left_sidebar">
+							<h2 class="fsz30 pad0 font_opnsns">QMATCHUP</h2>
+						</div>
+						<div class="right_container">
+							<ul class="footer_nav_list">
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">News</a></li>
+								<li><a href="#">Contact</a></li>
+								<li class=""><a href="#">Sitemap</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="column_m padtb10"> &copy; 1998 – 2014 QMatchup, Inc. All rights reserved. </div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Vex phone/cart -->
+		<div id="vex_modal_content" class="hide"></div>
+		
+		<!-- Vex add phone -->
+		<div id="vex_modal_addphone_content" class="hide">
+			<div class="vex_inner padt10">
+				<h3 class="brdb talc fsz20">Add number</h3>
+				<form action="" method="post" >
+					<div class="container">
+						<div class="pad15">
+							<label for="inputPhoneNumber" class="dblock marb10 uppercase bold">ENTER NUMBER</label>
+							<input type="text" name="inputPhoneNumber" id="inputPhoneNumber" class="wi_100 dblock bs_border pad10" placeholder="Start with +" required="required" />
+						</div>
+						<div class="pad15">
+							<button type="submit" class="wi_100 dblue_btn">Create</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<!-- Vex address -->
+		<div id="vex_modal_address_content" class="hide">
+			<div class="vex_inner padt10">
+				<h3 class="brdb talc fsz20">Add address details</h3>
+				<form action="" method="post">
+					<div class="container">
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputAddressName" class="dblock marb10 uppercase bold">Address</label>
+								<input type="text" name="inputAddressName" id="inputAddressName" class="wi_100 dblock bs_border pad10" placeholder="Enter your address" required="required" />
+							</div>
+						</div>
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputAddressZip" class="dblock marb10 uppercase bold">Zip code</label>
+								<input type="text" name="inputAddressZip" id="inputAddressZip" class="wi_100 dblock bs_border pad10" placeholder="Enter your zip code" required="required" />
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputAddressCity" class="dblock marb10 uppercase bold">City</label>
+								<input type="text" name="inputAddressCity" id="inputAddressCity" class="wi_100 dblock bs_border pad10" required="required" />
+							</div>
+						</div>
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputAddressCountry" class="dblock marb10 uppercase bold">Country</label>
+								<select name="inputAddressCountry" id="inputAddressCountry" class="default wi_100 dblock bs_border pad10" required="required">
+									<option value="" disabled="disabled" data-i18n="title.select_country">Choose your country</option>
+									<option value="AF">Afghanistan</option>
+									<option value="AL">Albania</option>
+									<option value="DZ">Algeria</option>
+									<option value="AS">American Samoa</option>
+									<option value="AD">Andorra</option>
+									<option value="AO">Angola</option>
+									<option value="AI">Anguilla</option>
+									<option value="AQ">Antarctica</option>
+									<option value="AG">Antigua and Barbuda</option>
+									<option value="AR">Argentina</option>
+									<option value="AM">Armenia</option>
+									<option value="AW">Aruba</option>
+									<option value="AU">Australia</option>
+									<option value="AT">Austria</option>
+									<option value="AZ">Azerbaijani Republic</option>
+									<option value="BS">Bahamas</option>
+									<option value="BH">Bahrain</option>
+									<option value="BD">Bangladesh</option>
+									<option value="BB">Barbados</option>
+									<option value="BY">Belarus</option>
+									<option value="BE">Belgium</option>
+									<option value="BZ">Belize</option>
+									<option value="BJ">Benin</option>
+									<option value="BM">Bermuda</option>
+									<option value="BT">Bhutan</option>
+									<option value="BO">Bolivia</option>
+									<option value="BA">Bosnia and Herzegovina</option>
+									<option value="BW">Botswana</option>
+									<option value="BR">Brazil</option>
+									<option value="VG">British Virgin Islands</option>
+									<option value="BN">Brunei Darussalam</option>
+									<option value="BG">Bulgaria</option>
+									<option value="BF">Burkina Faso</option>
+									<option value="BI">Burundi</option>
+									<option value="MP">CNMI</option>
+									<option value="KH">Cambodia</option>
+									<option value="CM">Cameroon</option>
+									<option value="CA">Canada</option>
+									<option value="CV">Cape Verde</option>
+									<option value="BQ">Caribbean Netherlands</option>
+									<option value="KY">Cayman Islands</option>
+									<option value="CF">Central African Republic</option>
+									<option value="TD">Chad</option>
+									<option value="CL">Chile</option>
+									<option value="CN">China</option>
+									<option value="CO">Colombia</option>
+									<option value="KM">Comoros</option>
+									<option value="CG">Congo</option>
+									<option value="CK">Cook Islands</option>
+									<option value="CR">Costa Rica</option>
+									<option value="CI">Cote d'Ivoire</option>
+									<option value="HR">Croatia</option>
+									<option value="CU">Cuba</option>
+									<option value="CY">Cyprus</option>
+									<option value="CZ">Czech Republic</option>
+									<option value="CD">Democratic Republic of the Congo</option>
+									<option value="DK">Denmark</option>
+									<option value="DJ">Djibouti</option>
+									<option value="DM">Dominica</option>
+									<option value="DO">Dominican Republic</option>
+									<option value="EC">Ecuador</option>
+									<option value="EG">Egypt</option>
+									<option value="SV">El Salvador</option>
+									<option value="GQ">Equatorial Guinea</option>
+									<option value="ER">Eritrea</option>
+									<option value="EE">Estonia</option>
+									<option value="ET">Ethiopia</option>
+									<option value="FK">Falkland Islands</option>
+									<option value="FO">Faroe Islands</option>
+									<option value="FJ">Fiji</option>
+									<option value="FI">Finland</option>
+									<option value="FR">France</option>
+									<option value="GF">French Guiana</option>
+									<option value="PF">French Polynesia</option>
+									<option value="GA">Gabonese Republic</option>
+									<option value="GM">Gambia</option>
+									<option value="GE">Georgia</option>
+									<option value="DE">Germany</option>
+									<option value="GH">Ghana</option>
+									<option value="GI">Gibraltar</option>
+									<option value="GR">Greece</option>
+									<option value="GL">Greenland</option>
+									<option value="GD">Grenada</option>
+									<option value="GP">Guadeloupe</option>
+									<option value="GU">Guam</option>
+									<option value="GT">Guatemala</option>
+									<option value="GN">Guinea</option>
+									<option value="GW">Guinea-Bissau</option>
+									<option value="GY">Guyana</option>
+									<option value="HT">Haiti</option>
+									<option value="HN">Honduras</option>
+									<option value="HK">Hongkong, China</option>
+									<option value="HU">Hungary</option>
+									<option value="IS">Iceland</option>
+									<option value="IN">India</option>
+									<option value="ID">Indonesia</option>
+									<option value="IR">Iran</option>
+									<option value="IQ">Iraq</option>
+									<option value="IE">Ireland</option>
+									<option value="IL">Israel</option>
+									<option value="IT">Italy</option>
+									<option value="JM">Jamaica</option>
+									<option value="JP">Japan</option>
+									<option value="JO">Jordan</option>
+									<option value="KZ">Kazakhstan</option>
+									<option value="KE">Kenya</option>
+									<option value="KI">Kiribati</option>
+									<option value="KP">Korea (Democratic People's Republic of)</option>
+									<option value="KR">Korea (Republic of)</option>
+									<option value="KW">Kuwait</option>
+									<option value="KG">Kyrgyzstan</option>
+									<option value="LA">Laos</option>
+									<option value="LV">Latvia</option>
+									<option value="LB">Lebanon</option>
+									<option value="LS">Lesotho</option>
+									<option value="LR">Liberia</option>
+									<option value="LY">Libya</option>
+									<option value="LI">Liechtenstein</option>
+									<option value="LT">Lithuania</option>
+									<option value="LU">Luxembourg</option>
+									<option value="MO">Macao, China</option>
+									<option value="MK">Macedonia</option>
+									<option value="MG">Madagascar</option>
+									<option value="MW">Malawi</option>
+									<option value="MY">Malaysia</option>
+									<option value="MV">Maldives</option>
+									<option value="ML">Mali</option>
+									<option value="MT">Malta</option>
+									<option value="MH">Marshall Islands</option>
+									<option value="MQ">Martinique</option>
+									<option value="MR">Mauritania</option>
+									<option value="MU">Mauritius</option>
+									<option value="YT">Mayotte</option>
+									<option value="MX">Mexico</option>
+									<option value="FM">Micronesia</option>
+									<option value="MD">Moldova</option>
+									<option value="MC">Monaco</option>
+									<option value="MN">Mongolia</option>
+									<option value="ME">Montenegro</option>
+									<option value="MS">Montserrat</option>
+									<option value="MA">Morocco</option>
+									<option value="MZ">Mozambique</option>
+									<option value="MM">Myanmar</option>
+									<option value="NA">Namibia</option>
+									<option value="NR">Nauru</option>
+									<option value="NP">Nepal</option>
+									<option value="NL">Netherlands</option>
+									<option value="AN">Netherlands Antilles</option>
+									<option value="NC">New Caledonia</option>
+									<option value="NZ">New Zealand</option>
+									<option value="NI">Nicaragua</option>
+									<option value="NE">Niger</option>
+									<option value="NG">Nigeria</option>
+									<option value="NU">Niue</option>
+									<option value="NO">Norway</option>
+									<option value="OM">Oman</option>
+									<option value="PK">Pakistan</option>
+									<option value="PW">Palau</option>
+									<option value="PS">Palestine</option>
+									<option value="PA">Panama</option>
+									<option value="PG">Papua New Guinea</option>
+									<option value="PY">Paraguay</option>
+									<option value="PE">Peru</option>
+									<option value="PH">Philippines</option>
+									<option value="PL">Poland</option>
+									<option value="PT">Portugal</option>
+									<option value="PR">Puerto Rico</option>
+									<option value="QA">Qatar</option>
+									<option value="RE">Reunion</option>
+									<option value="RO">Romania</option>
+									<option value="RU">Russia</option>
+									<option value="RW">Rwanda</option>
+									<option value="SH">Saint Helena</option>
+									<option value="KN">Saint Kitts and Nevis</option>
+									<option value="LC">Saint Lucia</option>
+									<option value="PM">Saint Pierre and Miquelon</option>
+									<option value="VC">Saint Vincent and the Grenadines</option>
+									<option value="WS">Samoa</option>
+									<option value="SM">San Marino</option>
+									<option value="ST">Sao Tome and Principe</option>
+									<option value="SA">Saudi Arabia</option>
+									<option value="SN">Senegal</option>
+									<option value="RS">Serbia</option>
+									<option value="SC">Seychelles</option>
+									<option value="SL">Sierra Leone</option>
+									<option value="SG">Singapore</option>
+									<option value="SX">Sint Marteen</option>
+									<option value="SK">Slovakia</option>
+									<option value="SI">Slovenia</option>
+									<option value="SB">Solomon Islands</option>
+									<option value="SO">Somalia</option>
+									<option value="ZA">South Africa</option>
+									<option value="SS">South Sudan</option>
+									<option value="ES">Spain</option>
+									<option value="LK">Sri Lanka</option>
+									<option value="SD">Sudan</option>
+									<option value="SR">Suriname</option>
+									<option value="SZ">Swaziland</option>
+									<option value="SE">Sweden</option>
+									<option value="CH">Switzerland</option>
+									<option value="SY">Syria</option>
+									<option value="TW">Taiwan</option>
+									<option value="TJ">Tajikistan</option>
+									<option value="TZ">Tanzania</option>
+									<option value="TH">Thailand</option>
+									<option value="TL">Timor-Leste</option>
+									<option value="TG">Togo</option>
+									<option value="TK">Tokelau</option>
+									<option value="TO">Tonga</option>
+									<option value="TT">Trinidad and Tobago</option>
+									<option value="TN">Tunisia</option>
+									<option value="TR">Turkey</option>
+									<option value="TM">Turkmenistan</option>
+									<option value="TC">Turks &amp; Caicos</option>
+									<option value="TV">Tuvalu</option>
+									<option value="AE">UAE</option>
+									<option value="VI">US Virgin Islands</option>
+									<option value="UG">Uganda</option>
+									<option value="UA">Ukraine</option>
+									<option value="GB">United Kingdom</option>
+									<option value="US">United States</option>
+									<option value="UY">Uruguay</option>
+									<option value="UZ">Uzbekistan</option>
+									<option value="VU">Vanuatu</option>
+									<option value="VA">Vatican</option>
+									<option value="VE">Venezuela</option>
+									<option value="VN">Vietnam</option>
+									<option value="WF">Wallis and Futuna</option>
+									<option value="YE">Yemen</option>
+									<option value="ZM">Zambia</option>
+									<option value="ZW">Zimbabwe</option>
+								</select>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="container pad15 talc fsz16">
+						<button type="submit" class="dblue_btn">Add</button>
+					</div>
+					<div class="clear"></div>
+				</form>
+			</div>
+		</div>
+		
+		<!-- Vex payment -->
+		<div id="vex_modal_payment_content" class="hide">
+			<div class="vex_inner padt10">
+				<h3 class="brdb talc fsz20">Add card details</h3>
+				<!-- first form -->
+				<form action="" method="post" class="form_1" >
+					<div class="container">
+						<div class="on_clmn">
+							<div class="pad15">
+								<label for="inputCardNumber" class="dblock marb10 uppercase bold">Card number</label>
+								<input type="text" name="inputCardNumber" id="inputCardNumber" class="wi_100 dblock bs_border pad10" placeholder="1111 2222 3333 4444" required="required" />
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+						<div class="on_clmn">
+							<div class="padtb15">
+								<div class="padrl15">
+									<label class="dblock marb10 uppercase bold">Expiry date</label>
+								</div>
+								<div class="tw_clmn">
+									<div class="padrl15">
+										<select name="inputMonth" id="inputMonth" class="default wi_100 dblock bs_border pad10" required="required">
+											<option value="" disabled="disabled">Month</option>
+											<option value="01">01</option>
+											<option value="02">02</option>
+											<option value="03">03</option>
+											<option value="04">04</option>
+											<option value="05">05</option>
+											<option value="06">06</option>
+											<option value="07">07</option>
+											<option value="08">08</option>
+											<option value="09">09</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+											<option value="01">01</option>
+											<option value="02">02</option>
+											<option value="03">03</option>
+											<option value="04">04</option>
+											<option value="05">05</option>
+											<option value="06">06</option>
+											<option value="07">07</option>
+											<option value="08">08</option>
+											<option value="09">09</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+										</select>
+									</div>
+								</div>
+								<div class="tw_clmn">
+									<div class="padrl15">
+										<select name="inputYear" id="inputYear" class="default wi_100 dblock bs_border pad10" required="required">
+											<option value="" disabled="disabled">Year</option>
+											<option value="2016">2016</option>
+											<option value="2017">2017</option>
+											<option value="2018">2018</option>
+											<option value="2019">2019</option>
+											<option value="2020">2020</option>
+											<option value="2021">2021</option>
+											<option value="2022">2022</option>
+											<option value="2023">2023</option>
+											<option value="2024">2024</option>
+											<option value="2025">2025</option>
+											<option value="2026">2026</option>
+											<option value="2027">2027</option>
+											<option value="2028">2028</option>
+											<option value="2029">2029</option>
+											<option value="2030">2030</option>
+											<option value="2016">2016</option>
+											<option value="2017">2017</option>
+											<option value="2018">2018</option>
+											<option value="2019">2019</option>
+											<option value="2020">2020</option>
+											<option value="2021">2021</option>
+											<option value="2022">2022</option>
+											<option value="2023">2023</option>
+											<option value="2024">2024</option>
+											<option value="2025">2025</option>
+											<option value="2026">2026</option>
+											<option value="2027">2027</option>
+											<option value="2028">2028</option>
+											<option value="2029">2029</option>
+											<option value="2030">2030</option>
+										</select>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+						<div class="on_clmn">
+							<div class="padtb15">
+								<div class="padrl15">
+									<label for="inputSecCode" class="dblock marb10 uppercase bold">Security code</label>
+								</div>
+								<div class="tw_clmn">
+									<div class="padrl15">
+										<input type="text" name="inputSecCode" id="inputSecCode" class="wi_100 dblock bs_border pad10" required="required" />
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="container pad15 fsz16">
+						<div class="wi_20 fleft tall">&nbsp;</div>
+						<div class="wi_60 fleft padt10 talc">
+							1 of 2
+						</div>
+						<div class="wi_20 fright talr">
+							<button type="submit" class="dblue_btn">Next</button>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</form>
+				
+				<!-- second form -->
+				<form action="" method="post" class="form_2 hide">
+					<div class="container">
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputCardName" class="dblock marb10 uppercase bold">Name</label>
+								<input type="text" name="inputCardName" id="inputCardName" class="wi_100 dblock bs_border pad10" placeholder="Enter your name" required="required" />
+							</div>
+						</div>
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputCardEmail" class="dblock marb10 uppercase bold">Email</label>
+								<input type="text" name="inputCardEmail" id="inputCardEmail" class="wi_100 dblock bs_border pad10" placeholder="Your receipt will be sent to this email" required="required" />
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputCardAddress" class="dblock marb10 uppercase bold">Address</label>
+								<input type="text" name="inputCardAddress" id="inputCardAddress" class="wi_100 dblock bs_border pad10" placeholder="Enter your address" required="required" />
+							</div>
+						</div>
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputCardZip" class="dblock marb10 uppercase bold">Zip code</label>
+								<input type="text" name="inputCardZip" id="inputCardZip" class="wi_100 dblock bs_border pad10" required="required" />
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputCardCity" class="dblock marb10 uppercase bold">City</label>
+								<input type="text" name="inputCardCity" id="inputCardCity" class="wi_100 dblock bs_border pad10" required="required" />
+							</div>
+						</div>
+						<div class="tw_clmn">
+							<div class="pad15">
+								<label for="inputCardCountry" class="dblock marb10 uppercase bold">Country</label>
+								<select name="inputCardCountry" id="inputCardCountry" class="default wi_100 dblock bs_border pad10" required="required">
+									<option value="" disabled="disabled" data-i18n="title.select_country">Choose your country</option>
+									<option value="AF">Afghanistan</option>
+									<option value="AL">Albania</option>
+									<option value="DZ">Algeria</option>
+									<option value="AS">American Samoa</option>
+									<option value="AD">Andorra</option>
+									<option value="AO">Angola</option>
+									<option value="AI">Anguilla</option>
+									<option value="AQ">Antarctica</option>
+									<option value="AG">Antigua and Barbuda</option>
+									<option value="AR">Argentina</option>
+									<option value="AM">Armenia</option>
+									<option value="AW">Aruba</option>
+									<option value="AU">Australia</option>
+									<option value="AT">Austria</option>
+									<option value="AZ">Azerbaijani Republic</option>
+									<option value="BS">Bahamas</option>
+									<option value="BH">Bahrain</option>
+									<option value="BD">Bangladesh</option>
+									<option value="BB">Barbados</option>
+									<option value="BY">Belarus</option>
+									<option value="BE">Belgium</option>
+									<option value="BZ">Belize</option>
+									<option value="BJ">Benin</option>
+									<option value="BM">Bermuda</option>
+									<option value="BT">Bhutan</option>
+									<option value="BO">Bolivia</option>
+									<option value="BA">Bosnia and Herzegovina</option>
+									<option value="BW">Botswana</option>
+									<option value="BR">Brazil</option>
+									<option value="VG">British Virgin Islands</option>
+									<option value="BN">Brunei Darussalam</option>
+									<option value="BG">Bulgaria</option>
+									<option value="BF">Burkina Faso</option>
+									<option value="BI">Burundi</option>
+									<option value="MP">CNMI</option>
+									<option value="KH">Cambodia</option>
+									<option value="CM">Cameroon</option>
+									<option value="CA">Canada</option>
+									<option value="CV">Cape Verde</option>
+									<option value="BQ">Caribbean Netherlands</option>
+									<option value="KY">Cayman Islands</option>
+									<option value="CF">Central African Republic</option>
+									<option value="TD">Chad</option>
+									<option value="CL">Chile</option>
+									<option value="CN">China</option>
+									<option value="CO">Colombia</option>
+									<option value="KM">Comoros</option>
+									<option value="CG">Congo</option>
+									<option value="CK">Cook Islands</option>
+									<option value="CR">Costa Rica</option>
+									<option value="CI">Cote d'Ivoire</option>
+									<option value="HR">Croatia</option>
+									<option value="CU">Cuba</option>
+									<option value="CY">Cyprus</option>
+									<option value="CZ">Czech Republic</option>
+									<option value="CD">Democratic Republic of the Congo</option>
+									<option value="DK">Denmark</option>
+									<option value="DJ">Djibouti</option>
+									<option value="DM">Dominica</option>
+									<option value="DO">Dominican Republic</option>
+									<option value="EC">Ecuador</option>
+									<option value="EG">Egypt</option>
+									<option value="SV">El Salvador</option>
+									<option value="GQ">Equatorial Guinea</option>
+									<option value="ER">Eritrea</option>
+									<option value="EE">Estonia</option>
+									<option value="ET">Ethiopia</option>
+									<option value="FK">Falkland Islands</option>
+									<option value="FO">Faroe Islands</option>
+									<option value="FJ">Fiji</option>
+									<option value="FI">Finland</option>
+									<option value="FR">France</option>
+									<option value="GF">French Guiana</option>
+									<option value="PF">French Polynesia</option>
+									<option value="GA">Gabonese Republic</option>
+									<option value="GM">Gambia</option>
+									<option value="GE">Georgia</option>
+									<option value="DE">Germany</option>
+									<option value="GH">Ghana</option>
+									<option value="GI">Gibraltar</option>
+									<option value="GR">Greece</option>
+									<option value="GL">Greenland</option>
+									<option value="GD">Grenada</option>
+									<option value="GP">Guadeloupe</option>
+									<option value="GU">Guam</option>
+									<option value="GT">Guatemala</option>
+									<option value="GN">Guinea</option>
+									<option value="GW">Guinea-Bissau</option>
+									<option value="GY">Guyana</option>
+									<option value="HT">Haiti</option>
+									<option value="HN">Honduras</option>
+									<option value="HK">Hongkong, China</option>
+									<option value="HU">Hungary</option>
+									<option value="IS">Iceland</option>
+									<option value="IN">India</option>
+									<option value="ID">Indonesia</option>
+									<option value="IR">Iran</option>
+									<option value="IQ">Iraq</option>
+									<option value="IE">Ireland</option>
+									<option value="IL">Israel</option>
+									<option value="IT">Italy</option>
+									<option value="JM">Jamaica</option>
+									<option value="JP">Japan</option>
+									<option value="JO">Jordan</option>
+									<option value="KZ">Kazakhstan</option>
+									<option value="KE">Kenya</option>
+									<option value="KI">Kiribati</option>
+									<option value="KP">Korea (Democratic People's Republic of)</option>
+									<option value="KR">Korea (Republic of)</option>
+									<option value="KW">Kuwait</option>
+									<option value="KG">Kyrgyzstan</option>
+									<option value="LA">Laos</option>
+									<option value="LV">Latvia</option>
+									<option value="LB">Lebanon</option>
+									<option value="LS">Lesotho</option>
+									<option value="LR">Liberia</option>
+									<option value="LY">Libya</option>
+									<option value="LI">Liechtenstein</option>
+									<option value="LT">Lithuania</option>
+									<option value="LU">Luxembourg</option>
+									<option value="MO">Macao, China</option>
+									<option value="MK">Macedonia</option>
+									<option value="MG">Madagascar</option>
+									<option value="MW">Malawi</option>
+									<option value="MY">Malaysia</option>
+									<option value="MV">Maldives</option>
+									<option value="ML">Mali</option>
+									<option value="MT">Malta</option>
+									<option value="MH">Marshall Islands</option>
+									<option value="MQ">Martinique</option>
+									<option value="MR">Mauritania</option>
+									<option value="MU">Mauritius</option>
+									<option value="YT">Mayotte</option>
+									<option value="MX">Mexico</option>
+									<option value="FM">Micronesia</option>
+									<option value="MD">Moldova</option>
+									<option value="MC">Monaco</option>
+									<option value="MN">Mongolia</option>
+									<option value="ME">Montenegro</option>
+									<option value="MS">Montserrat</option>
+									<option value="MA">Morocco</option>
+									<option value="MZ">Mozambique</option>
+									<option value="MM">Myanmar</option>
+									<option value="NA">Namibia</option>
+									<option value="NR">Nauru</option>
+									<option value="NP">Nepal</option>
+									<option value="NL">Netherlands</option>
+									<option value="AN">Netherlands Antilles</option>
+									<option value="NC">New Caledonia</option>
+									<option value="NZ">New Zealand</option>
+									<option value="NI">Nicaragua</option>
+									<option value="NE">Niger</option>
+									<option value="NG">Nigeria</option>
+									<option value="NU">Niue</option>
+									<option value="NO">Norway</option>
+									<option value="OM">Oman</option>
+									<option value="PK">Pakistan</option>
+									<option value="PW">Palau</option>
+									<option value="PS">Palestine</option>
+									<option value="PA">Panama</option>
+									<option value="PG">Papua New Guinea</option>
+									<option value="PY">Paraguay</option>
+									<option value="PE">Peru</option>
+									<option value="PH">Philippines</option>
+									<option value="PL">Poland</option>
+									<option value="PT">Portugal</option>
+									<option value="PR">Puerto Rico</option>
+									<option value="QA">Qatar</option>
+									<option value="RE">Reunion</option>
+									<option value="RO">Romania</option>
+									<option value="RU">Russia</option>
+									<option value="RW">Rwanda</option>
+									<option value="SH">Saint Helena</option>
+									<option value="KN">Saint Kitts and Nevis</option>
+									<option value="LC">Saint Lucia</option>
+									<option value="PM">Saint Pierre and Miquelon</option>
+									<option value="VC">Saint Vincent and the Grenadines</option>
+									<option value="WS">Samoa</option>
+									<option value="SM">San Marino</option>
+									<option value="ST">Sao Tome and Principe</option>
+									<option value="SA">Saudi Arabia</option>
+									<option value="SN">Senegal</option>
+									<option value="RS">Serbia</option>
+									<option value="SC">Seychelles</option>
+									<option value="SL">Sierra Leone</option>
+									<option value="SG">Singapore</option>
+									<option value="SX">Sint Marteen</option>
+									<option value="SK">Slovakia</option>
+									<option value="SI">Slovenia</option>
+									<option value="SB">Solomon Islands</option>
+									<option value="SO">Somalia</option>
+									<option value="ZA">South Africa</option>
+									<option value="SS">South Sudan</option>
+									<option value="ES">Spain</option>
+									<option value="LK">Sri Lanka</option>
+									<option value="SD">Sudan</option>
+									<option value="SR">Suriname</option>
+									<option value="SZ">Swaziland</option>
+									<option value="SE">Sweden</option>
+									<option value="CH">Switzerland</option>
+									<option value="SY">Syria</option>
+									<option value="TW">Taiwan</option>
+									<option value="TJ">Tajikistan</option>
+									<option value="TZ">Tanzania</option>
+									<option value="TH">Thailand</option>
+									<option value="TL">Timor-Leste</option>
+									<option value="TG">Togo</option>
+									<option value="TK">Tokelau</option>
+									<option value="TO">Tonga</option>
+									<option value="TT">Trinidad and Tobago</option>
+									<option value="TN">Tunisia</option>
+									<option value="TR">Turkey</option>
+									<option value="TM">Turkmenistan</option>
+									<option value="TC">Turks &amp; Caicos</option>
+									<option value="TV">Tuvalu</option>
+									<option value="AE">UAE</option>
+									<option value="VI">US Virgin Islands</option>
+									<option value="UG">Uganda</option>
+									<option value="UA">Ukraine</option>
+									<option value="GB">United Kingdom</option>
+									<option value="US">United States</option>
+									<option value="UY">Uruguay</option>
+									<option value="UZ">Uzbekistan</option>
+									<option value="VU">Vanuatu</option>
+									<option value="VA">Vatican</option>
+									<option value="VE">Venezuela</option>
+									<option value="VN">Vietnam</option>
+									<option value="WF">Wallis and Futuna</option>
+									<option value="YE">Yemen</option>
+									<option value="ZM">Zambia</option>
+									<option value="ZW">Zimbabwe</option>
+								</select>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="container pad15 fsz16">
+						<div class="wi_20 fleft tall">
+							<a href="#" class="back_btn lgtgrey_btn">Back</a>
+						</div>
+						<div class="wi_60 fleft padt10 talc">
+							2 of 2
+						</div>
+						<div class="wi_20 fright talr">
+							<button type="submit" class="dblue_btn">Confirm</button>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<!-- Vex styles -->
+		<link rel="stylesheet" href="css/vex.css" />
+		<link rel="stylesheet" href="css/vex-theme-os.css" />
+		
+		
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+		<script type="text/javascript" src="js/superfish.js"></script> 
+		<script type="text/javascript" src="js/icheck.js"></script> 
+		<script type="text/javascript" src="js/jquery.selectric.min.js"></script>
+		<script type="text/javascript" src="js/vex.combined.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+	</body>
+</html>

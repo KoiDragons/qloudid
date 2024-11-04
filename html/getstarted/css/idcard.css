@@ -1,0 +1,48 @@
+.right_number{
+	width: 25px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -25px;
+}
+.right_number span{
+	display: block;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    -moz-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    -ms-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    -o-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+#scroll_menu .active{
+	color: #3691c0;
+}
+
+.fixed_header{
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header{
+	z-index: 30;
+}
+/* Scroll fix */
+
+.scroll-fix{
+	height: 0;
+	position: relative;
+	z-index: 30;
+}
+.scroll-fix-wrap{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.scroll-fix.affix .scroll-fix-wrap{
+	position: fixed;
+	top: 75px;
+}
