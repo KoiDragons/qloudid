@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Qmatchup</title>
+		<!-- Styles -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/jquery-ui.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/stylenew.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/keepcss/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
+		<link href="<?php echo $path;?>html/kincss/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/modulesnewy_bg.css" />
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+		<!-- Scripts -->
+		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
+	
+	<script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-11097556-8']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+<script>
+			function changeClass(link)
+			{
+				
+				$(".class-toggler").removeClass('active');
+				
+			}
+			function checkFlag()
+			{
+				if($(".popupShow").hasClass('active'))
+				{
+					$(".popupShow").removeClass('active')
+					$(".popupShow").attr('style','display:none');
+				}
+				
+			}
+			function togglePopup()
+			{
+				if($(".popupShow").hasClass('active'))
+				{
+					$(".popupShow").removeClass('active')
+					$(".popupShow").attr('style','display:none');
+				}
+				else
+				{
+					$(".popupShow").addClass('active')
+					$(".popupShow").attr('style','display:block');
+				}
+			}
+			function closePop()
+			{
+				document.getElementById("popup_fade").style.display='none';
+				$("#popup_fade").removeClass('active');
+				document.getElementById("person_informed").style.display='none';
+				$(".person_informed").removeClass('active');
+			}
+			function getLocation(id)
+			{
+			if(id==0)
+			{
+				document.getElementById("location").innerHTML="";
+				$("#get_location").attr('style','display:none');
+				$("#ttlTime").attr('style','display:none');
+			}
+			else
+			{
+				$('#app_mar').removeClass('marb35');
+			$("#get_location").attr('style','display:block');	
+			$("#ttlTime").attr('style','display:block');
+			var send_data={};
+			send_data.app_id=id;
+			$.ajax({
+						type:"POST",
+						url: "../locationInfo/<?php echo $data['cid']; ?>",
+						data:send_data,
+						dataType:"text",
+						contentType: "application/x-www-form-urlencoded;charset=utf-8",
+						success: function(data1){
+						
+							document.getElementById("location").innerHTML=data1;
+						
+						}
+					});
+			}
+			}
+			
+			function assignApp()
+			{
+				$('#error_msg_form').html('');
+				if($('#app').val()==0)
+				{
+					$('#error_msg_form').html('Please select a app first!!');
+					return false;
+				}
+				if($('#totl_time').val()=='' || $('#totl_time').val()<=0)
+				{
+					$('#error_msg_form').html('Please enter total desk!!');
+					return false;
+				}
+				if($('#location').val()==0)
+				{
+					$('#error_msg_form').html('Please select a location!!');
+					return false;
+				}
+					document.getElementById('save_indexing').submit();
+				
+			}
+			
+			
+			
+			
+		</script>
+			
+			
+</head>
+
+<?php $path1 = $path."html/usercontent/images/"; ?>
+		
+		<body class="white_bg ffamily_avenir" >
+		 
+	<div class="column_m header   bs_bb lgtgrey2_bg hidden-xs">
+         <div class="wi_100 hei_65p xs-pos_fix padtb0 padr10 lgtgrey2_bg"  >
+            <div class="fleft padrl0 bg_babdbc padtbz10" >
+               <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
+                  <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
+                     <li class="first last" style="margin: 0 30px 0 0;">
+				 
+                        <a href="../appsLocationInfo/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+					 
+                     </li>
+                  </ul>
+               </div>
+            </div>
+			 
+			  
+            <div class="clear"></div>
+         </div>
+      </div>
+		 
+		 
+	<div class="column_m header xs-hei_55p  bs_bb  xs-white_bg visible-xs">
+				<div class="wi_100 xs-hei_55p hei_65p pos_fix padtb5 padrl10  xs-white_bg">
+					 
+					<div class="visible-xs visible-sm fleft padrl0">
+							<div class="flag_top_menu flefti  padb10 wi_70p " style=" padding : 10px 0 0 0;">
+							<ul class="menulist sf-menu  fsz14">
+								 
+								<li class="first last" style="margin: 0 30px 0 0;">
+									<a href="../appsLocationInfo/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+								</li>
+								
+								
+								
+								
+								
+							</ul>
+						</div>
+				
+					</div>
+					  
+					
+				</div>
+			</div>
+	
+	<div class="clear"></div>
+	<!-- /menu -->
+	
+	<div class="column_m xs-padtb10 talc lgn_hight_22 fsz16 mart40 xs-mart20 " id="loginBank" onclick="checkFlag();"  >
+				<div class="wrap maxwi_100 padrl15 md-padrl0 lg-padrl0">
+					
+					
+					<!-- Center content -->
+					<div class="wi_500p maxwi_100 pos_rel zi5 marrla pad10 mart40 xs-mart0 xs-pad0">
+								<div class="padb20 xxs-padb0 ">		
+							
+									<h1 class="marb0  xxs-talc talc fsz100   xxs-fsz45 padb10 trn  black_txt ffamily_avenir"  >Apps</h1>
+									</div>
+									<div class="mart20 xs-marb20 marb35  xxs-talc talc ffamily_avenir"> <a href="#" class="black_txt fsz25  xs-fsz20 xxs-talc talc edit-text jain_drop_company trn ffamily_avenir" >Please select app and location.</a></div>
+							<!-- Leave for security protection, read docs for details -->
+							
+								 
+									
+									<form action="../updateLocationInfo/<?php echo $data['cid']; ?>" method="POST" name="save_indexing" id="save_indexing">
+									
+									<div class="on_clmn mart10 xxs-mart10 marb35" id="app_mar">
+										
+										<div class="pos_rel">
+										<select class="default_view wi_100 mart0 trans_bg nobrdt nobrdl nobrdr red_f5a0a5_txt brdb_red_ff2828 ffamily_avenir dropdown-bg  fsz18 xxs-minhei_60p  minhei_65p tall padl0" name="app" id="app"  style="text-align-last:center;" onchange="getLocation(this.value);">
+										<option value="0"   class="lgtgrey2_bg lgt_grey_txt fsz16 tall" >--Select--</option>
+												<?php  foreach($downloadedApps as $category => $value) 
+															{
+																$category = htmlspecialchars($category); 
+															?>
+															
+															<option value="<?php echo $value['id']; ?>"   class="lgtgrey2_bg lgt_grey_txt fsz16 tall"><?php echo $value['app_name']; ?></option>
+														<?php 	}	?>                            
+											</select>
+									</div>
+									</div>
+									 <div class="on_clmn mart20 " id="ttlTime" style="display:none">
+										
+										<div class="pos_rel">
+										<input type="number" name="totl_time" id="totl_time" min="1" value="1" class="wi_100  pad10   talc  minhei_65p fsz18 nobrdt nobrdl nobrdr red_f5a0a5_txt xxs-minhei_60p brdb_red_ff2828 ffamily_avenir "  >
+									</div>
+									</div>
+									<div class="on_clmn mart20 marb35" id="get_location" style="display:none">
+										
+										<div class="pos_rel">
+										<select class="default_view wi_100 mart0 trans_bg nobrdt nobrdl nobrdr red_f5a0a5_txt brdb_red_ff2828 ffamily_avenir dropdown-bg  fsz18 xxs-minhei_60p  minhei_65p tall padl0" name="location" id="location"  style="text-align-last:center;">
+												                             
+											</select>
+									</div>
+									</div>
+									
+									<div class="valm fsz20 red_txt ffamily_avenir" id="error_msg_form"> </div>
+								<div class="clear" id=""></div>
+							<div class="padtb20 xxs-talc talc ">
+								
+								<button type="button" name="forward" class="forword minhei_55p  fsz18 red_ff2828_bg   ffamily_avenir" onclick="assignApp();">Registrera</button>
+								
+							</div>
+							<!-- /bottom-wizard -->
+						</form>
+						
+					
+					</div>
+					<!-- /Wizard container -->
+			</div>
+			<!-- /content-right-->
+		</div>
+		<!-- /row-->
+		<div id="popup_fade" class="opa0 opa55_a black_bg"></div>
+	</div>
+	 
+	 
+<script type="text/javascript" src="<?php echo $path; ?>html/vacancycontent/js/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/vex.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/vex-theme-default.css" />
+		
+		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.cropit.js"></script>
+		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/vex.combined.min.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/vacancycontent/js/slick.min.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/vacancycontent/js/superfish.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/vacancycontent/js/icheck.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/vacancycontent/js/jquery.selectric.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/vacancycontent/applicantCss/modules.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/usercontent/js/custom.js"></script>
+</body>
+</html>
