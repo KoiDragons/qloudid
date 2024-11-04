@@ -1,0 +1,9 @@
+total person in line color :- R125 G143 B190
+
+total operators color :- R125 G143 B190
+
+Bg color :- R26 G40 B79
+
+Box bg :- R37, G53, B96
+
+date color :- R125 G143 B190

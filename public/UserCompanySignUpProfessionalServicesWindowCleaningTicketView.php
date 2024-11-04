@@ -1,0 +1,1645 @@
+﻿<!doctype html>
+
+
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Qmatchup</title>
+		<!-- Styles -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/jquery-ui.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/stylenew.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/css/floatingLabel.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/keepcss/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/modulesnewy_bg.css" />
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
+	   <script>
+	   function changeDisplay()
+		{
+			if($('#qrMenu').hasClass('hidden'))
+			{
+				$('#qrMenu').removeClass('hidden')
+				
+				$('#qrMenu').css('display','block');
+			}
+			else
+				{
+				$('#qrMenu').addClass('hidden')
+				$('#qrMenu').css('display','none');
+			}
+		}	
+
+function changeDisplay1()
+		{
+			if($('#qrMenu1').hasClass('hidden'))
+			{
+				$('#qrMenu1').removeClass('hidden')
+				
+				$('#qrMenu1').css('display','block');
+			}
+			else
+				{
+				$('#qrMenu1').addClass('hidden')
+				$('#qrMenu1').css('display','none');
+			}
+		}		
+	   function updateExposureType(id)
+	   {
+		  $('#exposure_info_detail').val(id); 
+		}
+	   
+	   function updateReachableType(id)
+	   {
+		$('#reachable_info_detail').val(id);    
+	   }
+	   function updatePagesType(id)
+	   {
+		  $("#pages_info_detail").val(id); 
+		}
+	   
+	   function updateFurnitureType(id)
+	   {
+		   $("#furniture_info_detail").val(id);
+	   }
+	   
+	   function updatePriceType(id)
+	   {
+		   $("#price_info").val(id);
+	   }
+	   
+									
+	   function updatePropertyType(id)
+	   {
+		   $("#property_type_detail").val(id);
+	   }
+	   function updateMaterialType(id)
+	   {
+		   $("#material_info_detail").val(id);
+	   }
+	   function updateInclutionType(id)
+	   {
+		   var getValue=$('#inclusion_type_detail').val();
+			if($('#'+id).hasClass('checked'))
+			{
+				$('#'+id).removeClass('checked');
+				getValue = getValue.replace(id+",", "");
+				$("#inclusion_type_detail").val(getValue);
+			}
+			else
+			{
+				$('#'+id).addClass('checked');
+				getValue=getValue+id+',';
+				$("#inclusion_type_detail").val(getValue);
+			}
+	   }
+	     
+	  function submitform()
+		{
+			 
+			$("#errorMsg1").html('');
+			
+			
+			if($("#property_type_detail").val()=="" || $("#property_type_detail").val()==0)
+			{
+				
+				$("#errorMsg1").html('Please select property type');
+				return false;
+			}
+			
+			if($("#total_window").val()==null || $("#total_window").val()=="")
+			{
+				
+				$("#errorMsg1").html('Please enter total window');
+				return false;
+			}
+			
+			if($("#total_window").val()==0)
+			{
+				
+				$("#errorMsg1").html('window cant be 0');
+				return false;
+			}
+			
+			if(isNaN($("#total_window").val()))
+			{
+				
+				$("#errorMsg1").html('Total window must be a numeric value');
+				return false;
+			}
+			
+			 
+			 
+			 document.getElementById('save_indexing').submit();
+		}      
+	  </script>
+	  
+	
+	</head>
+	
+	<body class="white_bg ffamily_avenir">
+		
+		
+			<!-- HEADER -->
+	<div class="column_m header   bs_bb lgtgrey2_bg hidden-xs">
+         <div class="wi_100 hei_65p xs-pos_fix padtb0 padr10 lgtgrey2_bg">
+            <div class="fleft padrl0 bg_babdbc padtbz10" style="background-color: #c12219 !important;">
+               <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
+                  <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
+                     <li class="first last" style="margin: 0 30px 0 0;">
+				 
+                        <a href="../../../../../../professionalServicesList/<?php echo $data['domain_id']; ?>/<?php echo $data['area_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['todo_id']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left white_txt" aria-hidden="true"></i></a>
+					 
+                     </li>
+                  </ul>
+               </div>
+            </div>
+			 
+			<div class="top_menu frighti padt20 padb10 hidden-xs">
+				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows">  
+					<li class="last">
+						<a href="javascript:void(0);" class="lgn_hight_s1 fsz18" onclick="changeDisplay();"><span class="fas fa-globe black_txt" aria-hidden="true"></span></a>
+						<ul id="qrMenu" class="hidden" >
+							<li class="first">
+								<div class="top_arrow"></div>
+							</li>
+							<li class="last">
+								<div class="setting_menu pad15">
+									 
+									<ol class="">
+									 
+                  <li><a href="javascript:void(0);" class="dropdown-item changedText" tolang="en">English</a></li>
+				  <li><a href="javascript:void(0);" class="dropdown-item changedText show_popup_modal" tolang="sv">Swedish</a></li>
+                  <li><a href="javascript:void(0);" class="dropdown-item changedText" tolang="ru">Russian</a></li>
+                  
+                  
+                  <li>
+				  
+				  
+                    <div class="line marb10"></div>
+                  </li>
+										
+										
+										 
+									</ol>
+									<div class="clear"></div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>  
+			
+		  
+            <div class="clear"></div>
+         </div>
+      </div>
+		 	<div class="column_m header hei_60p bs_bb lgtgrey2_bg visible-xs">
+				<div class="wi_100 hei_60p xs-pos_fix padtb5 padrl0 lgtgrey2_bg">
+				<div class="visible-xs visible-sm fleft padrl0">
+							<div class="flag_top_menu flefti  padb10 wi_70p " style=" padding : 10px 0 0 0;">
+							<ul class="menulist sf-menu fsz14">
+								 
+								<li class="first last" style="margin: 0 30px 0 0;">
+                        <a href="../../../../../../professionalServicesList/<?php echo $data['domain_id']; ?>/<?php echo $data['area_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['todo_id']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left txt_c12219" aria-hidden="true"></i></a>
+                     </li>
+								 
+								
+								
+								
+							</ul>
+						</div>
+				
+					</div>					 
+				  
+			<div class="top_menu frighti padt10 padb10" style="width:150px !important;">
+				<ul class="menulist sf-menu  fsz16 ">
+					 
+       			
+					<li style="margin-right:20px !important;">
+						<a href="javascript:void(0);" class="lgn_hight_s1 fsz25 sf-with-ul" onclick="changeDisplay1();"><span class="black_txt fas fa-globe"></span></a>
+						<ul id="qrMenu1" class="hidden" style="display: none;">
+							<li class="first">
+								<div class="top_arrow"></div>
+							</li>
+							<li class="last">
+								<div class="setting_menu pad15">
+									 
+									<ol class="">
+									 
+                  <li><a href="javascript:void(0);" class="dropdown-item changedText" tolang="en" onclick="changeDisplay1();">English</a></li>
+				  <li><a href="javascript:void(0);" class="dropdown-item changedText show_popup_modal" tolang="sv" onclick="changeDisplay1();">Swedish</a></li>
+                  <li><a href="javascript:void(0);" class="dropdown-item changedText" tolang="ru" onclick="changeDisplay1();">Russian</a></li>
+                  
+                  
+                  <li>
+				  
+				  
+                    <div class="line marb10"></div>
+                  </li>
+										
+										
+										 
+									</ol>
+									<div class="clear"></div>
+								</div>
+							</li> 
+							 
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+				
+				 
+				<div class="clear"></div>
+			</div>
+		</div> 
+		 
+		 
+	<div class="clear"></div>
+		
+		<div class="column_m pos_rel">
+			
+			 
+			<!-- CONTENT -->
+			<div class="column_m talc lgn_hight_22 fsz16 mart40   "    >
+				<div class="wrap maxwi_100 padrl0 xs-padrl25 xsi-padrl134">
+					
+					 
+					<!-- Center content -->
+					<div class="wi_500p maxwi_100 pos_rel zi5 marrla pad10   xs-pad0">
+							<div class="padb0 xxs-padb0 ">		
+							
+									<h1 class="changedText marb0  xxs-tall talc fsz65 xxs-fsz45 lgn_hight_65 xxs-lgn_hight_50 padb0 black_txt trn ffamily_avenir"  >Window</h1>
+									</div>
+									<div class="mart10 marb5 xxs-tall talc  xs-padb0 padb35 ffamily_avenir"> <a href="#" class="black_txt fsz25  xs-fsz20 xxs-talc talc edit-text jain_drop_company trn lgn_hight_20 changedText" >Please inform us about your requirement below</a></div>
+					 <div class="clear"></div>
+									
+						 
+									 
+									  
+									  <form action="../../../../../../addProfessionalServiceWindowCleaningRequest/<?php echo $data['catg_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['subcatg_id']; ?>/<?php echo $data['domain_id']; ?>/<?php echo $data['area_id']; ?>/<?php echo $data['todo_id']; ?>" method="POST" id="save_indexing" name="save_indexing" accept-charset="ISO-8859-1" class="checkout__item js-tabs-item">
+									 	<div class="marrl0 padb15 brdb fsz16 white_bg tall padt35">
+								<a href="#profile1" class="expander-toggler white_txt xs-fsz16 tall tabblueBGcolor padrl30 padtb10 brdrad5 active" style="background-color: #c12219 !important;"><span class="changedText">Your needs</span>
+								<span class="dnone_pa fa fa-chevron-down fright dark_grey_txt "></span><span class="dnone diblock_pa fa fa-chevron-up padr15 fright dark_grey_txt "></span></a></div>
+								
+								<div id="profile1" class=" " style="display:block;">	
+									
+									  <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="changedText edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt">Building type</span>
+													 <span class="changedText edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt ">What type of building does it apply to?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									  <div id="propertyTypeInfo" class="padt10">
+									<div class="clear"></div>
+									<?php 
+												foreach($propertyType as $category => $value) 
+												{
+													
+													
+												?> 	
+										<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updatePropertyType(<?php echo $value['id']; ?>)"><input data-testid="test-checkbox-Walls" name="property_type" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText"><?php echo $value['property_type']; ?></label></div>
+															
+															</div>
+															
+												<?php } ?>	
+										<input type="hidden" id="property_type_detail" name="property_type_detail" />
+														
+										</div>
+										<div class="clear"></div>
+										 <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Type</span>
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">What type of window does it apply to?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									  <div id="furnitureInfo" class="padt10">
+									<div class="clear"></div>
+									<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateFurnitureType(1)"><input data-testid="test-checkbox-Walls" name="furniture_info" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Default window</label></div>
+															
+															</div>
+															
+											<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateFurnitureType(2)"><input data-testid="test-checkbox-Walls" name="furniture_info" type="radio" class="css-radio-1lgzhz8" checked></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Paned windows</label></div>
+															
+															</div>	
+										<input type="hidden" id="furniture_info_detail" name="furniture_info_detail" value="2" />
+															
+										</div>
+										
+									 <div class="clear"></div>
+									 <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Total window</span>
+													 <span class="changedText edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt ">How many windows does it apply to?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									 <div class="on_clmn">
+											 
+											<div class="pos_rel">
+												
+												<input type="number" name="total_window" id="total_window" placeholder="First name" class="white_bg  brdb_new brd_width_2 nobrdt nobrdr nobrdl  tall minhei_65p fsz20 padl10 black_txt ffamily_avenir light_grey_bg floating__input padt25" fdprocessedid="x4hy36"> 
+												
+											 <label for="total_window" class="floating__label tall nobold padl10" data-content="Total window">
+											<span class="hidden--visually">
+											  First name</span></label>
+											</div>
+											 
+											 
+											</div>
+											
+									 	<div class="clear"></div>
+									 
+									  <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Pages</span>
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">How many pages should be polished?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									  <div id="furnitureInfo" class="padt10">
+									<div class="clear"></div>
+									<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updatePagesType(2)"><input data-testid="test-checkbox-Walls" name="pages_info" type="radio" class="css-radio-1lgzhz8" checked></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">2 Pages</label></div>
+															
+															</div>
+															
+											<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updatePagesType(4)"><input data-testid="test-checkbox-Walls" name="pages_info" type="radio" class="css-radio-1lgzhz8" ></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">4 Pages</label></div>
+															
+															</div>	
+															
+													<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updatePagesType(6)"><input data-testid="test-checkbox-Walls" name="pages_info" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">6 Pages</label></div>
+															
+															</div>	
+										<input type="hidden" id="pages_info_detail" name="pages_info_detail" value="2" />
+															
+										</div>
+										
+									 <div class="clear"></div>
+								 	 <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Frames</span>
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">Should window frames be cleaned and dried?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									  <div id="materialInfo" class="padt10">
+									<div class="clear"></div>
+									<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateMaterialType(1)"><input data-testid="test-checkbox-Walls" name="material_info" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Yes</label></div>
+															
+															</div>
+															
+											<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateMaterialType(0)"><input data-testid="test-checkbox-Walls" name="material_info" type="radio" class="css-radio-1lgzhz8" checked></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">No</label></div>
+															
+															</div>	
+
+										<input type="hidden" id="material_info_detail" name="material_info_detail" value="0" />	
+										</div>
+											
+									
+									 <div class="clear"></div>
+									  <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Exposure</span>
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">Have the windows been exposed to paint, soot or other hard dirt and need special washing?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									  <div id="exposureInfo" class="padt10">
+									<div class="clear"></div>
+									<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateExposureType(1)"><input data-testid="test-checkbox-Walls" name="exposure_info" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Yes</label></div>
+															
+															</div>
+															
+											<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateExposureType(0)"><input data-testid="test-checkbox-Walls" name="exposure_info" type="radio" class="css-radio-1lgzhz8" checked></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">No</label></div>
+															
+															</div>	
+															
+																<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateExposureType(2)"><input data-testid="test-checkbox-Walls" name="exposure_info" type="radio" class="css-radio-1lgzhz8" ></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Dont know</label></div>
+															
+															</div>	
+
+										<input type="hidden" id="exposure_info_detail" name="exposure_info_detail" value="0" />	
+										</div>
+											
+									
+									 <div class="clear"></div>
+									
+									  <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Reachable</span>
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">Are the windows hard to reach so that a ladder is needed?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									  <div id="exposureInfo" class="padt10">
+									<div class="clear"></div>
+									<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateReachableType(1)"><input data-testid="test-checkbox-Walls" name="reachable_info" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Yes</label></div>
+															
+															</div>
+															
+											<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateReachableType(0)"><input data-testid="test-checkbox-Walls" name="reachable_info" type="radio" class="css-radio-1lgzhz8" checked></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">No</label></div>
+															
+															</div>	
+															
+																<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateReachableType(2)"><input data-testid="test-checkbox-Walls" name="reachable_info" type="radio" class="css-radio-1lgzhz8" ></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Dont know</label></div>
+															
+															</div>	
+															
+															<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updateReachableType(3)"><input data-testid="test-checkbox-Walls" name="reachable_info" type="radio" class="css-radio-1lgzhz8" ></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">I am not sure</label></div>
+															
+															</div>	
+
+										<input type="hidden" id="reachable_info_detail" name="reachable_info_detail" value="0" />	
+										</div>
+											
+									
+									 <div class="clear"></div>
+									
+								 	
+									 
+									 
+								 	 <div id="PriceInfo" class="padt10">
+									 <div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													<span class="edit-text bold padt0 jain2 dblock   brdclr_lgtgrey2 fsz18 xs-padt0 black_txt changedText">Price</span>
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">Do you want a fixed price or a price per hour?</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+									<div class="clear"></div>
+									<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updatePriceType(1)"><input data-testid="test-checkbox-Walls" name="price_info" type="radio" class="css-radio-1lgzhz8" checked></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Fixed price</label></div>
+															
+															</div>
+															
+											<div data-testid="Walls-amenity-item" class="css-39yi7y lgtgrey_bg">
+										<div class="css-nj7s2c lgtgrey_bg" style="justify-content: left !important;"> 
+											<div class="css-1sjqbna padrl20">
+														<a href="javascript:void(0);" onclick="updatePriceType(2)"><input data-testid="test-checkbox-Walls" name="price_info" type="radio" class="css-radio-1lgzhz8"></a>
+														</div>
+											<label for="oven" class="css-14q70q1 changedText">Price per hour</label></div>
+															
+															</div>	 
+									 			<input type="hidden" id="price_info" name="price_info" value="1" />	
+															
+										</div>
+									</div>
+									
+									
+										
+										<div class="marrl0 padb15 brdb fsz16 white_bg tall padt35">
+								<a href="#profile2" class="expander-toggler white_txt xs-fsz16 tall tabblueBGcolor padrl30 padtb10 brdrad5 active " style="background-color: #c12219 !important;"><span class="changedText">Other information</span>
+								<span class="dnone_pa fa fa-chevron-down fright dark_grey_txt "></span><span class="dnone diblock_pa fa fa-chevron-up padr15 fright dark_grey_txt "></span></a></div>
+								
+								<div id="profile2" class=" " style="display:none;">	
+									
+											
+											<div class="column_m container fsz14 dark_grey_txt">
+												<div class="white_bg  bg_fffbcc_a ">
+										<div class="container padt20 padb5 brdrad1 fsz14 dark_grey_txt padrl0">
+											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+												
+												<!--<div class="clear hidden-xs"></div>-->
+												
+												<div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12">
+													
+													
+													
+													<div class="fleft wi_100  xs-mar0 xs-padt10">
+													
+													 <span class="edit-text   jain2 dblock   brdclr_lgtgrey2 fsz14  black_txt changedText">Description</span> 
+													 </div>
+													 
+													<div class="clear"></div>
+												
+												
+												
+												
+												
+												
+											</div>
+											<div class="clear"></div>
+										</div>
+										
+											</div>
+											
+											</div>
+													
+											 
+										 <div class="clear"></div>
+										 
+										
+											 
+									</div>
+									 
+										<div class="on_clmn mart20 ">
+											 
+											<div class="pos_rel"><textarea class="texteditor "  id="product_information" name="product_information"> 
+										 </textarea></div>
+										</div>
+											
+											
+												 
+											
+											<div class="on_clmn padt10">
+											 
+										  
+											 
+											<div class="pos_rel">
+												
+												<select id="carried_for" name="carried_for" class="wi_100 white_bg padt25 brd_width_2 brdb_new nobrdt nobrdr nobrdl tall minhei_65p fsz20 padl10 black_txt ffamily_avenir light_grey_bg floating__input padt25 custom-select" fdprocessedid="u205l">
+														
+														<option value="1" class="changedText">Private person</option>
+														<option value="2" class="changedText">Company</option>
+														<option value="3" class="changedText">Community</option>
+														<option value="4" class="changedText">Goverment</option>
+														</select>
+												 <label for="carried_for" class="floating__label tall nobold padl10" data-content="The assignment must be carried out for">
+											<span class="hidden--visually">
+											  Last name</span></label>
+											 
+											 
+											 
+											</div>
+											</div>
+											
+										 	
+											<div class="on_clmn padt10">
+											 
+										  
+										
+											<div class="pos_rel">
+												
+												<select id="begin_info" name="begin_info" class="wi_100 white_bg padt25 brd_width_2 brdb_new nobrdt nobrdr nobrdl tall minhei_65p fsz20 padl10 black_txt ffamily_avenir light_grey_bg floating__input padt25 custom-select" fdprocessedid="u205l">
+														
+														<option value="1" class="changedText">As soon as possible</option>
+														<option value="3" class="changedText">Within 1 month</option>
+														<option value="4" class="changedText">Within 3 months</option>
+														<option value="5" class="changedText">Within 6 months</option>
+														<option value="6" class="changedText">Within 12 months</option>
+														<option value="7" class="changedText">Timing less important</option>
+														 
+														</select>
+												 <label for="begin_info" class="floating__label tall nobold padl10" data-content="When will the assignment begin">
+											<span class="hidden--visually">
+											  Last name</span></label>
+											 
+											 
+											 
+											</div>
+											</div>		 
+											 
+											
+											 </div>
+				
+										<div class="clear"></div>
+										 
+					 </form>
+					  <div id="errorMsg1" class="fsz20 red_txt padtb20 tall"></div>
+					   <div class="clear"></div>
+					   
+					   <div class="padt20 xxs-talc talc padb50">
+								
+								<a href="javascript:void(0);" onclick="submitform();"><button type="button" name="forward" class="bold forword minhei_55p  fsz16 padrl70 nobold" style="border-radius: 50px; background: #000000; color: #ffffff;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" class="changedText">Send your application</font></font></button></a>
+								
+							</div>
+					 
+									</div>
+				<div class="clear"></div>
+			</div>
+			
+			
+			<!-- CONTENT -->
+			
+		</div>
+		 
+		
+		<div class="clear"></div>
+		<div class="hei_80p hidden-xs"></div>
+		
+		
+		<!-- Popup fade -->
+		<div id="popup_fade" class="opa0 opa55_a black_bg"></div>
+		
+	</div>
+	
+	
+	<div class="popup_modal wi_350p maxwi_90 pos_fix pos_cen zi50 bs_bb white_bg fsz14 brdrad5 " id="edit_department">
+		<div class="modal-content pad25  nobrdb talc brdrad5 ">
+			
+			
+			
+			<h2 class="marb10 pad0 bold fsz24 black_txt">Verifiera en motpart…</h2>
+			
+			<div class="wi_100 dflex fxwrap_w marrla marb20 tall">
+				
+				
+				
+				<div class="wi_100 marb0 talc">
+					
+					<span class="valm fsz16">Be din motpart, privatperson eller företag att legitimera sig innan ett möte eller affär. Välj ur du vill skicka din förfrågan, sms, email eller med Qloud ID kod. </span>
+				</div>
+				
+				
+			</div>
+			
+			
+			
+			
+			<div class="on_clmn padb10">
+				
+				<div class="pos_rel ">
+					
+					<input type="text" id="d_name1" name="d_name1" class="wi_100 default_view  rbrdr pad10 mart5 hei_50p llgrey_txt fsz18 lgtgrey2_bg brdrad5" placeholder="avdelning ">
+				</div>
+			</div>
+			
+			
+			<div class="on_clmn mart10 marb20">
+				<input type="button" value="Prova gratis" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="editDepartment();">
+				<input type="hidden" id="did" name="did" />
+			</div>
+			
+			
+		</div>
+	</div>
+	
+	
+	<!-- Slide fade -->
+	<div id="slide_fade"></div>
+	
+	<!-- Menu list fade -->
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="menulist-fade" data-target="#menulist-dropdown,#menulist-fade" data-classes="active" data-toggle-type="separate"></a>
+	
+	
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery-ui.min.js"></script>
+	
+	<!--<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/icheck.js"></script>-->
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.selectric.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/modules.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercss/js/custom.js"></script>
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script>
+		function updatePopup(id,id1)
+		{
+			$("#did").val(id);
+			$("#d_name1").val(id1);
+			
+		}
+		// Charts
+		google.charts.load('current', { 'packages': ['corechart'] });
+		
+		
+		// Line Chart
+		google.charts.setOnLoadCallback(drawLineChartInhouse);
+		function drawLineChartInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawLineChartStaffing);
+		function drawLineChartStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawLineChartRecruiting);
+		function drawLineChartRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawLineChartBackgroundChecks);
+		function drawLineChartBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		// Donut Chart
+		// - yearly
+		google.charts.setOnLoadCallback(drawDonutChartYearlyInhouse);
+		function drawDonutChartYearlyInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartYearlyStaffing);
+		function drawDonutChartYearlyStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartYearlyRecruiting);
+		function drawDonutChartYearlyRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartYearlyBackgroundChecks);
+		function drawDonutChartYearlyBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		// - monthly
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyInhouse);
+		function drawDonutChartMonthlyInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyStaffing);
+		function drawDonutChartMonthlyStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyRecruiting);
+		function drawDonutChartMonthlyRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyBackgroundChecks);
+		function drawDonutChartMonthlyBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		// - daily
+		google.charts.setOnLoadCallback(drawDonutChartDailyInhouse);
+		function drawDonutChartDailyInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartDailyStaffing);
+		function drawDonutChartDailyStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartDailyRecruiting);
+		function drawDonutChartDailyRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartDailyBackgroundChecks);
+		function drawDonutChartDailyBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		tinyMCE.init({
+			selector: '.texteditor',
+			plugins: ["advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker", "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking", "table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker textpattern"],
+			toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | bullist numlist ",
+			//toolbar2: "cut copy paste | searchreplace | bullist numlist | outdent indent blockquote | undo redo | link unlink anchor image media code | insertdatetime preview | forecolor backcolor",
+			//toolbar3: "table | hr removeformat | subscript superscript | charmap emoticons | print fullscreen | ltr rtl | spellchecker | visualchars visualblocks nonbreaking template pagebreak restoredraft",
+			menubar: false,
+			toolbar_items_size: 'small',
+			style_formats: [
+			{
+				title: 'Bold text',
+				inline: 'b'
+			},
+			{
+				title: 'Red text',
+				inline: 'span',
+				styles:
+				{
+					color: '#ff0000'
+				}
+			},
+			{
+				title: 'Red header',
+				block: 'h1',
+				styles:
+				{
+					color: '#ff0000'
+				}
+			},
+			{
+				title: 'Example 1',
+				inline: 'span',
+				classes: 'example1'
+			},
+			{
+				title: 'Example 2',
+				inline: 'span',
+				classes: 'example2'
+			},
+			{
+				title: 'Table styles'
+			},
+			{
+				title: 'Table row 1',
+				selector: 'tr',
+				classes: 'tablerow1'
+			}],
+			templates: [
+			{
+				title: 'Test template 1',
+				content: 'Test 1'
+			},
+			{
+				title: 'Test template 2',
+				content: 'Test 2'
+			}]
+		});
+	</script>
+</body>
+
+</html>
