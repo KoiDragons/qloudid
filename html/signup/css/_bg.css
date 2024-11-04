@@ -1,0 +1,60 @@
+/* Background colors */
+.white_bg {
+	background: #FFF;
+}
+.grey_bg {
+	background: #EFEFEF;
+}
+.light_grey_bg {
+	background: #f7f7f7;
+}
+.white_shd_bg {
+	background: #FFF;
+	border:#DDDDDD 1px solid;
+	box-shadow: 0 0 3px #CCCCCC;
+	-moz-box-shadow: 0 0 3px #CCCCCC;
+	-webkit-box-shadow: 0 0 3px #CCCCCC;
+	-ms-box-shadow: 0 0 3px #CCCCCC;
+	-o-box-shadow: 0 0 3px #CCCCCC;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.blue_brdr_bx {
+	border: #b1e4f4 5px solid;
+}
+.blue_bg_brdr_bx {
+	border: #d5f2fd 1px solid;
+	background: #f5fcff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+.blue_bg {
+	background: #3691c0;
+}
+.dblue_bg {
+	background: #1479ad;
+}
+.cyanblue_bg {
+	background: #19b699;
+}
+.green_bg {
+	background: #72bf44;
+}
+.lgtblue_bg {
+	background: #e9f7fe;
+}
+.lgtgrey_bg {
+	background: #f5f5f5;
+}
+.grey_bg {
+	background: #efefef;
+}
+.orange_bg {
+	background: #f9aa20;
+}

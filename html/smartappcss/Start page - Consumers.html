@@ -1,0 +1,1660 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Qmatchup</title>
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/icofont.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../../constructor.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../../responsive.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/modules.css" />
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body class="font_poppins fsz14">
+	
+	<!-- HEADER -->
+	<div class="header header_small hei_autoi bs_bb">
+		<div class="wi_100 hei_40p pos_fix zi100 trf_z0">
+			<div class="padtb5 padrl10">
+				<div class="visible-xs visible-sm fleft">
+					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
+				</div>
+				<div class="logo hidden-xs hidden-sm marr15">
+					<a href="#"> <img src="images/qmatchup_logo_blue.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+				</div>
+				<div class="hidden-xs hidden-sm fleft padl10">
+					<div class="languages">
+						<a href="#" id="language_selector" class="padrl10"></a>
+						<ul class="wi_100 mar0 pad5 blue_bg">
+							<li class="dblock">
+								<a href="#" class="pad5" data-lang="eng"><img src="images/slide/flag_us.png" width="24" height="16" title="US" alt="US" />
+								</a>
+							</li>
+							<li class="dblock">
+								<a href="#" class="pad5" data-lang="swd"><img src="images/slide/flag_sw.png" width="24" height="16" title="Sweden" alt="Sweden" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fright xs-dnone sm-dnone">
+					<ul class="mar0 pad0">
+						<li class="dblock fright pos_rel">
+							<form class="dblock bot0 right0 mar0 pad0">
+								<div class="dflex pos_rel zi5">
+									<input type="email" name="email" placeholder="Din e-post" class="wi_150p hei_30p flex_1 dblock fleft bs_bb padrl10 brd brdradtl3 nobrdr fsz12" />
+									<button type="submit" class="translate hei_30pi dblock bs_bb padrl25 nobrd brdradrb3 btnorange_bg btnhorange_bg_h uppercase bold fsz12 font_helvetica white_txt" id="usermenu_singup" data-en="KOM IGÅNG" data-sw="KOM IGÅNG">KOM IGÅNG</button>
+									<div class="clear"></div>
+								</div>
+							</form>
+						</li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="http://www.qmatchup.com/beta/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 blue3_txt white_txt_h" data-en="Sign In" data-sw="Logga In">Sign In</a> </li>
+					</ul>
+				</div>
+				<div class="top_menu top_menu_custom mart2">
+					<ul class="menulist">
+						<li class="xs-mar0i sm-mar0i">
+							<a href="#" class="class-toggler" data-target="#menulist-dropdown,#menulist-fade" data-classes="active" data-toggle-type="separate"> <img src="images/top-menu.png" width="26" height="22" class="dblock" /> </a>
+							<ul class="dblocki_a" id="menulist-dropdown">
+								<li>
+									<div class="top_arrow"></div>
+								</li>
+								<li>
+									<!-- MAIN -->
+									<div class="tab-content application_menu pad20" id="tab-main">
+										<ol class="tab-header">
+											<li>
+												<a href="#" data-id="tab-per" class="business_prof">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Personal</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus" class="swedBank">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Business</a>
+											</li>
+										</ol>
+										<div class="clear"></div>
+									</div>
+									<!-- PERSONAL -->
+									<div class="tab-content application_menu pad20" id="tab-per">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="images/product icons/icon-1.png" width="45" height="45" title="" alt="" />
+													</div>Cloud ID</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="images/product icons/icon-2.png" width="45" height="45" title="" alt="" />
+													</div>Verify</a>
+											</li>
+											<li>
+												<a href="#" class="posted_jobs">
+													<div><img src="images/product icons/icon-3.png" width="45" height="45" title="" alt="" />
+													</div>Activate</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-main"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- BUSINESS -->
+									<div class="tab-content application_menu pad20" id="tab-bus">
+										<ol class="tab-header">
+											<li>
+												<a href="#" data-id="tab-bus-cld" class="business_prof">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Cloud ID</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-vrf" class="swedBank">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Verify</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-act" class="posted_jobs">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Activate</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-eng" class="proposals">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Engage </a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-main"><span></span> Back to Qmatchup</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Cloud ID -->
+									<div class="tab-content application_menu pad20" id="tab-bus-cld">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="images/product icons/icon-4.png" width="45" height="45" title="" alt="" />
+													</div>Business</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="images/product icons/icon-5.png" width="45" height="45" title="" alt="" />
+													</div>Employees</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Verify -->
+									<div class="tab-content application_menu pad20" id="tab-bus-vrf">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="images/product icons/icon-6.png" width="45" height="45" title="" alt="" />
+													</div>Basic - Free</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="images/product icons/icon-7.png" width="45" height="45" title="" alt="" />
+													</div>Full - Paid</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Activate -->
+									<div class="tab-content application_menu pad20" id="tab-bus-act">
+										<ol class="tab-header">
+											<li>
+												<a href="#" data-id="tab-bus-act-org" class="business_prof">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>By organization</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-act-ind" class="swedBank">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>By industry</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-act-top" class="posted_jobs">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>By topic</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- - by organization -->
+									<div class="tab-content application_menu pad20 active" id="tab-bus-act-org" style="display: block;">
+										<ol>
+											<li>
+												<a href="zoho_hr_portal4_subscription.html" class="business_prof">
+													<div><img src="images/product icons/icon-8.png" width="45" height="45" title="" alt="" />
+													</div>HR Portal</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal4_subscription.html" class="swedBank">
+													<div><img src="images/product icons/icon-9.png" width="45" height="45" title="" alt="" />
+													</div>Sales</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal4_subscription.html" class="posted_jobs">
+													<div><img src="images/product icons/icon-10.png" width="45" height="45" title="" alt="" />
+													</div>Marketing</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- - by industry -->
+									<div class="tab-content application_menu pad20" id="tab-bus-act-ind">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="images/product icons/icon-11.png" width="45" height="45" title="" alt="" />
+													</div>Telemarketing</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="images/product icons/icon-1.png" width="45" height="45" title="" alt="" />
+													</div>Lawyers</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- - by topic -->
+									<div class="tab-content application_menu pad20" id="tab-bus-act-top">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="images/product icons/icon-2.png" width="45" height="45" title="" alt="" />
+													</div>Miljöplus</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Engage -->
+									<div class="tab-content application_menu pad20" id="tab-bus-eng">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Employees</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Customers</a>
+											</li>
+											<li>
+												<a href="#" class="posted_jobs">
+													<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Suppliers</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="zoho_hr_portal7_subscription.html" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Erbjudande</a> </div>
+				<div class="clear"></div>
+		</div>
+		</div>
+	</div>
+	
+	<!-- HERO SLIDER -->
+	<div class="wi_100 ovfl_hid padt120 xs-padt40 bgir_norep bgip_c bgis_cov bg_6985ed" style="background-image: url(images/smart/smart-bg.jpg);">
+		<div class="slick-slider wi_100 padrl50 xs-padrl30" data-slick-settings="dots:false,arrows:true,infinite:true,speed:750,fade:true,slidesToShow:1,slidesToScroll:1,prevArrow:<button type=&quot;button&quot; class=&quot;wi_55p hei_50p dblock pos_abs zi5 top50 left0 xs-left-20 padr15 xs-padr0 nobrd brdradrb25pc bg_e6 bg_f_h talc fsz0 curp trans_all2&quot;><span class=&quot;sr-only&quot;>Previous</span><img src=&quot;images/smart/icon-prev.png&quot; width=&quot;15&quot; height=&quot;17&quot; title=&quot;Previous&quot; alt=&quot;Previous&quot;></button>,nextArrow:<button type=&quot;button&quot; class=&quot;wi_55p hei_50p dblock pos_abs zi5 top50 right0 xs-right-20 padl15 xs-padl0 nobrd brdradtl25pc bg_e6 bg_f_h talc fsz0 curp trans_all2&quot;><span class=&quot;sr-only&quot;>Next</span><img src=&quot;images/smart/icon-next.png&quot; width=&quot;15&quot; height=&quot;17&quot; title=&quot;Next&quot; alt=&quot;Next&quot;></button>">
+
+			<div class="dblock">
+				<div class="wi_1200p maxwi_100 minwi_0 minhei_100vh-70p xs-minhei_100vh-40p dflex alit_c marrla">
+					<div class="wi_50 xxs-wi_100 padtb30 padrl15 txt_f">
+						<h2 class="mar0 pad0 xxs-talc lgn_hight_s1 md-lgn_hight_s08 lg-lgn_hight_s07 fntwei_600 fsz100 xxs-fsz60 md-fsz130 lg-fsz160 txt_f">Smart</h2>
+						<div class="padl5 xxs-padl0 xxs-talc fsz24 xxs-fsz18 md-fsz28 lg-fsz34">A wallet for your digital identities</div>
+						<div class="wi_100 dnone xxs-dblock mart15 talc">
+							<img src="images/smart/hero-1.png" class="wi_auto maxwi_100 hei_auto maxhei_350p marrla" width="570" height="818" title="Smart" alt="Smart">	
+						</div>
+						<div class="mart15 padl5 xxs-padl0 lgn_hight_s18 md-fsz15 lg-fsz15">
+							Lorem Ipsum is simply dummy text of the printing and typesetting indus orem Ipsum has been the industry's standard dummy text ever since the when an own printer took a galley
+						</div>
+						<div class="dflex fxwrap_w xxs-justc_c mart15 marl-10 xxs-marl-15">
+							<a href="#" class="wi_175p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n uppercase bold fsz13 txt_f">
+								<div class="wi_100 hei_100 opa0_ph pos_abs zi-1 top0 left0 brd brdclr_f brdrad50 trans_opa2"></div>
+								<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+								<span class="icofont icofont-download-alt marr5 fsz14"></span>
+								Download
+							</a>
+							<a href="#" class="wi_175p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n uppercase bold fsz13 txt_f">
+								<div class="wi_100 hei_100 opa0_ph pos_abs zi-1 top0 left0 brd brdclr_f brdrad50 trans_opa2"></div>
+								<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+								Learn more
+							</a>
+						</div>
+					</div>
+					<div class="wi_50 hei_100vh-70p xs-hei_100vh-40p dflex xxs-dnone alit_c justc_c padrl15">
+						<img src="images/smart/hero-1.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="570" height="818" title="Smart" alt="Smart">
+					</div>
+				</div>
+			</div>
+			
+			<div class="dblock">
+				<div class="wi_1200p maxwi_100 minwi_0 minhei_100vh-70p xs-minhei_100vh-40p dflex alit_c marrla">
+					<div class="wi_50 xxs-wi_100 padtb30 padrl15 txt_f">
+						<h2 class="mar0 pad0 xxs-talc lgn_hight_s1 md-lgn_hight_s08 lg-lgn_hight_s07 fntwei_600 fsz100 xxs-fsz60 md-fsz130 lg-fsz160 txt_f">Cool</h2>
+						<div class="padl5 xxs-padl0 xxs-talc fsz24 xxs-fsz18 md-fsz28 lg-fsz34">Ready to showcase your app</div>
+						<div class="wi_100 dnone xxs-dblock mart15 talc">
+							<img src="images/smart/hero-2.png" class="wi_auto maxwi_100 hei_auto maxhei_350p marrla" width="570" height="818" title="Smart" alt="Smart">	
+						</div>
+						<div class="mart15 padl5 xxs-padl0 lgn_hight_s18 md-fsz15 lg-fsz15">
+							Lorem Ipsum is simply dummy text of the printing and typesetting indus orem Ipsum has been the industry's standard dummy text ever since the when an own printer took a galley
+						</div>
+						<div class="dflex fxwrap_w xxs-justc_c mart15 marl-10 xxs-marl-15">
+							<a href="#" class="wi_175p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n uppercase bold fsz13 txt_f">
+								<div class="wi_100 hei_100 opa0_ph pos_abs zi-1 top0 left0 brd brdclr_f brdrad50 trans_opa2"></div>
+								<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+								<span class="icofont icofont-download-alt marr5 fsz14"></span>
+								Download
+							</a>
+							<a href="#" class="wi_175p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n uppercase bold fsz13 txt_f">
+								<div class="wi_100 hei_100 opa0_ph pos_abs zi-1 top0 left0 brd brdclr_f brdrad50 trans_opa2"></div>
+								<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+								Learn more
+							</a>
+						</div>
+					</div>
+					<div class="wi_50 hei_100vh-70p xs-hei_100vh-40p dflex xxs-dnone alit_c justc_c padrl15">
+						<img src="images/smart/hero-2.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="570" height="818" title="Smart" alt="Smart">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<!-- FEATURES -->
+	<div class="wi_1200p maxwi_100 marrla padt40 sm-padt55 md-padt70 lg-padt90 padrl15">
+		<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+			Amazing Features
+			<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+		</h2>
+		<div class="dflex fxwrap_w alit_s mart-25 sm-mart-20 md-mart-15 lg-mart-5 marrl-15 talc">
+			<div class="wi_33 xxs-wi_100 maxwi_100 xxs-maxwi_320p dflex alit_s mart30 xxs-marrla padrl15">
+				<div class="wi_100 padtb25 md-padtb35 lg-padtb50 padrl15 md-padrl30 lg-padrl30 bxsh_013390_14415516503_h brdrad5 bg_f txt_708198 trans_all2">
+					<div class="maxwi_80 marb15 md-marb30 lg-marb45">
+						<img src="images/smart/feature-1.png" width="227" height="192" class="maxwi_100 hei_auto valm" title="Free Support" alt="Free Support" />
+					</div>
+					<h3 class="marb15 md-marb20 lg-marb25 pad0 fntwei_600 txt_59687c txt_a549e9_ph">Free Support</h3>
+					<div class="lgn_hight_s2">
+						Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been standard.
+					</div>
+				</div>
+			</div>
+			<div class="wi_33 xxs-wi_100 maxwi_100 xxs-maxwi_320p dflex alit_s mart30 xxs-marrla padrl15">
+				<div class="wi_100 padtb25 md-padtb35 lg-padtb50 padrl15 md-padrl30 lg-padrl30 bxsh_013390_14415516503_h brdrad5 bg_f txt_708198 trans_all2">
+					<div class="maxwi_80 marb15 md-marb30 lg-marb45">
+						<img src="images/smart/feature-1.png" width="227" height="192" class="maxwi_100 hei_auto valm" title="Free Support" alt="Free Support" />
+					</div>
+					<h3 class="marb15 md-marb20 lg-marb25 pad0 fntwei_600 txt_59687c txt_a549e9_ph">Free Support</h3>
+					<div class="lgn_hight_s2">
+						Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been standard.
+					</div>
+				</div>
+			</div>
+			<div class="wi_33 xxs-wi_100 maxwi_100 xxs-maxwi_320p dflex alit_s mart30 xxs-marrla padrl15">
+				<div class="wi_100 padtb25 md-padtb35 lg-padtb50 padrl15 md-padrl30 lg-padrl30 bxsh_013390_14415516503_h brdrad5 bg_f txt_708198 trans_all2">
+					<div class="maxwi_80 marb15 md-marb30 lg-marb45">
+						<img src="images/smart/feature-1.png" width="227" height="192" class="maxwi_100 hei_auto valm" title="Free Support" alt="Free Support" />
+					</div>
+					<h3 class="marb15 md-marb20 lg-marb25 pad0 fntwei_600 txt_59687c txt_a549e9_ph">Free Support</h3>
+					<div class="lgn_hight_s2">
+						Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been standard.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mart25 xs-mart50 talc">
+			<img src="images/smart/features-photo.png" width="1022" height="250" class="maxwi_100 hei_auto valm" title="Amazing Features" alt="Amazing Features" />
+		</div>
+	</div>
+	
+	
+	<!-- ABOUT -->
+	<div class="wi_100 ovfl_hid bg_f2f4f5">
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_c pos_rel marrla">
+			<div class="wi_50 xs-wi_100 padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+				<h2 class="marb30 pad0 tall xs-talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+					About smart
+					<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla bg_a549e9"></div>
+				</h2>
+				<div class="mart15 talj lgn_hight_s18 md-fsz15 lg-fsz15">
+					<p class="sm-padb20 md-padb25 lg-padb25">Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the  dummy text of the printing anprinting <a href="#" class="bold txt_a549e9">Amazing Smart app landing page</a> Lorem Ipsum has been the industry's standard dummy text ever since the when.Lorem Ipsum is simply text of the y Lorem Ipsum has been the industry's standard dndustry's standard dumummy text ever since the when an Lorem Ipsum.</p>
+					<p class="sm-padb20 md-padb25 lg-padb25">Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text mmy text of tof the  dummy text of the printing anprinting and typeseing. industry Lorem Ipsum has been.</p>
+				</div>
+				<div class="dflex fxwrap_w xs-justc_c mart15 marl-30 xs-marl-15">
+					<a href="#" class="wi_230p xs-wi_auto maxwi_100 hei_75p xs-hei_55p dflex alit_c justc_c pos_rel zi1 mart15 marl30 xs-marl15 padrl30 brd brdwi_2 brdclr_32baf1 brdrad50 bg_32baf1_h txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+						<span class="icofont icofont-brand-apple marr8 fsz27"></span>
+						<span>
+							Available on the<br/>
+							<big class="fsz18 xs-fsz16">App Store</big>
+						</span>
+					</a>
+					<a href="#" class="wi_230p xs-wi_auto maxwi_100 hei_75p xs-hei_55p dflex alit_c justc_c pos_rel zi1 mart15 marl30 xs-marl15 padrl30 brd brdwi_2 brdclr_32baf1 brdrad50 bg_32baf1_h txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+						<span class="icofont icofont-brand-android-robot marr8 fsz27"></span>
+						<span>
+							Available on the<br/>
+							<big class="fsz18 xs-fsz16">Google Play</big>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="wi_50 minhei_600p lg-minhei_100vh xs-dnone padrl15">
+				<div class="wi_50vw hei_100 dflex alit_fe justc_fe pos_abs top0 left50 talr">
+					<img src="images/smart/about-photo.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="945" height="975" title="Smart" alt="Smart">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- AMAZING FEATURES -->
+	<div class="wi_100 ovfl_hid bgir_norep bgip_c bgis_cov bg_6985ed txt_f" style="background-image: url(images/smart/smart-bg.jpg);">
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_c pos_rel marrla padt40 sm-padt55 md-padt70 lg-padt90 padb70 xs-padb30 md-padb50">
+			<div class="wi_100">
+				<h2 class="marb30 pad0 padrl15 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_f">
+					Amazing Features
+					<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_f"></div>
+				</h2>
+				<div class="padrl15 talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">
+					Lorem Ipsum is simply dummy text of the printing and typesetting indus<br> 
+					orem Ipsum has been the industry's standard dummy text ever since the when an own printer<br>
+					took a galley of type and scrambled it to make.
+				</div>
+				<div class="dflex fxwrap_w md-fxwrap_nw lg-fxwrap_nw alit_fs md-alit_c padt50 sm-padt60 md-padt80 lg-padt100">
+					<div class="wi_50 xs-wi_100 flex_1 padrl15 talr xs-tall order_2 md-order_1 lg-order_1">
+						<div class="dflex alit_c padtb15 sm-padtb20 md-padtb30 lg-padtb40">
+							<div class="flex_1 xs-order_2">
+								<h3 class="marb10 pad0 fntwei_600 txt_f">Application records</h3>
+								<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem</div>
+							</div>
+							<div class="wi_80p xxs-wi_60p hei_80p xxs-hei_60p fxshrink_0 dflex xs-order_1 alit_c justc_c pos_rel zi1 xs-marr15 marl20 xs-marl0">
+								<div class="wi_100 hei_100 opa30 pos_abs zi-1 top0 left0 brd brdrad100 brdclr_f"></div>
+								<img src="images/smart/af-icon-1.png" width="36" height="36" title="Application records" alt="Application records" />
+							</div>
+						</div>
+						<div class="dflex alit_c padtb15 sm-padtb20 md-padtb30 lg-padtb40">
+							<div class="flex_1 xs-order_2">
+								<h3 class="marb10 pad0 fntwei_600 txt_f">Best for business</h3>
+								<div class="lgn_hight_s18">Lorem Ipsum is simply dummyof the print typeseing ing and typeseing</div>
+							</div>
+							<div class="wi_80p xxs-wi_60p hei_80p xxs-hei_60p fxshrink_0 dflex xs-order_1 alit_c justc_c pos_rel zi1 xs-marr15 marl20 xs-marl0">
+								<div class="wi_100 hei_100 opa30 pos_abs zi-1 top0 left0 brd brdrad100 brdclr_f"></div>
+								<img src="images/smart/af-icon-2.png" width="36" height="36" title="Best for business" alt="Best for business" />
+							</div>
+						</div>
+						<div class="dflex alit_c padtb15 sm-padtb20 md-padtb30 lg-padtb40">
+							<div class="flex_1 xs-order_2">
+								<h3 class="marb10 pad0 fntwei_600 txt_f">Full free chat</h3>
+								<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem</div>
+							</div>
+							<div class="wi_80p xxs-wi_60p hei_80p xxs-hei_60p fxshrink_0 dflex xs-order_1 alit_c justc_c pos_rel zi1 xs-marr15 marl20 xs-marl0">
+								<div class="wi_100 hei_100 opa30 pos_abs zi-1 top0 left0 brd brdrad100 brdclr_f"></div>
+								<img src="images/smart/af-icon-3.png" width="36" height="36" title="Application records" alt="Application records" />
+							</div>
+						</div>
+					</div>
+					<div class="wi_100 md-wi_230p lg-wi_263p fxshrink_0 order_1 md-order_2 lg-order_2 md-marrl15 lg-marrl30 marb30 md-marb0">
+						<img src="images/smart/amazing-features-photo.png" class="wi_100 maxwi_270p hei_auto dblock marrla" width="263" height="535" title="Amazing Features" alt="Amazing Features" />
+					</div>
+					<div class="wi_50 xs-wi_100 flex_1 order_3 padrl15 tall">
+						<div class="dflex alit_c padtb15 sm-padtb20 md-padtb30 lg-padtb40">
+							<div class="wi_80p xxs-wi_60p hei_80p xxs-hei_60p fxshrink_0 dflex alit_c justc_c pos_rel zi1 marr20">
+								<div class="wi_100 hei_100 opa30 pos_abs zi-1 top0 left0 brd brdrad100 brdclr_f"></div>
+								<img src="images/smart/af-icon-4.png" width="36" height="36" title="Retina ready" alt="Retina ready" />
+							</div>
+							<div class="flex_1">
+								<h3 class="marb10 pad0 fntwei_600 txt_f">Retina ready</h3>
+								<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typeseing industry</div>
+							</div>
+						</div>
+						<div class="dflex alit_c padtb15 sm-padtb20 md-padtb30 lg-padtb40">
+							<div class="wi_80p xxs-wi_60p hei_80p xxs-hei_60p fxshrink_0 dflex alit_c justc_c pos_rel zi1 marr20">
+								<div class="wi_100 hei_100 opa30 pos_abs zi-1 top0 left0 brd brdrad100 brdclr_f"></div>
+								<img src="images/smart/af-icon-5.png" width="36" height="36" title="Secure extra" alt="Secure extra" />
+							</div>
+							<div class="flex_1">
+								<h3 class="marb10 pad0 fntwei_600 txt_f">Secure extra</h3>
+								<div class="lgn_hight_s18">Dummy text of the printing and typese ing industry Lorem Ipsum has</div>
+							</div>
+						</div>
+						<div class="dflex alit_c padtb15 sm-padtb20 md-padtb30 lg-padtb40">
+							<div class="wi_80p xxs-wi_60p hei_80p xxs-hei_60p fxshrink_0 dflex alit_c justc_c pos_rel zi1 marr20">
+								<div class="wi_100 hei_100 opa30 pos_abs zi-1 top0 left0 brd brdrad100 brdclr_f"></div>
+								<img src="images/smart/af-icon-6.png" width="36" height="36" title="Night vision" alt="Night vision" />
+							</div>
+							<div class="flex_1">
+								<h3 class="marb10 pad0 fntwei_600 txt_f">Night vision</h3>
+								<div class="lgn_hight_s18">Lorem Ipsum is simply dummy of the printing and industr Lorem Ipsum.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- DESIGN -->
+	<div class="wi_100 ovfl_hid">
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_c marrla padt40 sm-padt55 md-padt70 lg-padt90 padb70 xs-padb30 md-padb50">
+			<div class="wi_50 xs-wi_100 dflex fxwrap_w alit_c padrl15 txt_708198">
+				<h2 class="wi_100 marb30 pad0 tall xs-talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+					<img src="images/smart/design-icon.png" class="xs-wi_50p xs-hei_auto dblock xs-marrla marb5" width="69" height="72" title="Beautiful, unique Vibrant &amp; Modern Design " alt="Beautiful, unique Vibrant &amp; Modern Design ">
+					Beautiful, unique Vibrant &amp; Modern Design 
+					<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla bg_a549e9"></div>
+				</h2>
+				<div class="wi_100 xxs-wi_100 xs-wi_50 dnone xs-dblock order_2 xxs-order_1 mart15 padl15 xxs-padl0 talc">
+					<img src="images/smart/design-1.png" class="wi_auto maxwi_100 hei_auto maxhei_350p marrla" width="585" height="525" title="Beautiful, unique Vibrant &amp; Modern Design" alt="Beautiful, unique Vibrant &amp; Modern Design">	
+				</div>
+				<div class="wi_100 xxs-wi_100 xs-wi_50 order_1 xxs-order_2 mart15 padr15 xxs-padr0 talj lgn_hight_s18 md-fsz15 lg-fsz15">
+					<p class="sm-padb20 md-padb25 lg-padb25">Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the  dummy text of the printing anprinting <a href="#" class="bold txt_a549e9">Amazing Smart app landing page</a> Lorem Ipsum has been the industry's standard dummy text ever since the when.Lorem Ipsum is simply text of the y Lorem Ipsum has been the industry's standard dndustry's standard dumummy text ever since the when an Lorem Ipsum.</p>
+				</div>
+			</div>
+			<div class="wi_50 xs-dnone padrl15">
+				<img src="images/smart/design-1.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="585" height="525" title="Beautiful, unique Vibrant &amp; Modern Design" alt="Beautiful, unique Vibrant &amp; Modern Design">
+			</div>
+		</div>
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_c marrla padt40 sm-padt55 md-padt70 lg-padt90 padb70 xs-padb30 md-padb50">
+			<div class="wi_50 xs-dnone padrl15">
+				<img src="images/smart/design-2.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="585" height="700" title="Beautiful, unique Vibrant &amp; Modern Design" alt="Beautiful, unique Vibrant &amp; Modern Design">
+			</div>
+			<div class="wi_50 xs-wi_100 dflex fxwrap_w alit_c padrl15 txt_708198">
+				<h2 class="wi_100 marb30 pad0 tall xs-talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+					<img src="images/smart/design-icon.png" class="xs-wi_50p xs-hei_auto dblock xs-marrla marb5" width="69" height="72" title="Beautiful, unique Vibrant &amp; Modern Design " alt="Beautiful, unique Vibrant &amp; Modern Design ">
+					Beautiful, unique Vibrant &amp; Modern Design 
+					<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla bg_a549e9"></div>
+				</h2>
+				<div class="wi_100 xxs-wi_100 xs-wi_50 dnone xs-dblock mart15 padr15 xxs-padr0 talc">
+					<img src="images/smart/design-2.png" class="wi_auto maxwi_100 hei_auto maxhei_350p marrla" width="585" height="700" title="Beautiful, unique Vibrant &amp; Modern Design" alt="Beautiful, unique Vibrant &amp; Modern Design">	
+				</div>
+				<div class="wi_100 xxs-wi_100 xs-wi_50 mart15 padl15 xxs-padl0 talj lgn_hight_s18 md-fsz15 lg-fsz15">
+					<p class="sm-padb20 md-padb25 lg-padb25">Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the  dummy text of the printing anprinting <a href="#" class="bold txt_a549e9">Amazing Smart app landing page</a> Lorem Ipsum has been the industry's standard dummy text ever since the when.Lorem Ipsum is simply text of the y Lorem Ipsum has been the industry's standard dndustry's standard dumummy text ever since the when an Lorem Ipsum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- HOW IT WORKS -->
+	<div class="wi_100 ovfl_hid bg_f2f4f5">
+		<div class="wi_1200p maxwi_100 marrla padt40 sm-padt55 md-padt70 lg-padt90 padb70 xs-padb30 md-padb50">
+			<h2 class="wi_100 marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+				How it works ?
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+			</h2>
+			
+			<div class="pos_rel">
+				<div id="how-it-works-controls" class="wi_50p lg-wi_75p dflex fxdir_col alit_c pos_abs zi5 pos_cenY right15p lg-right30p">
+					<style class="dnone">
+						.slick-custom-dots li{
+							display: block;
+							margin: 15px auto 0 auto;
+						}
+						.slick-custom-dots li button{
+							width: 18px;
+							height: 18px;
+							display: block;
+							position: relative;
+							margin: 0 auto;
+							padding: 0;
+							border: none;
+							background: none;
+							line-height: 0;
+							font-size: 0;
+							cursor: pointer;
+							transition: all 0.2s ease-in-out;
+						}
+						.slick-custom-dots li button:before, .slick-custom-dots li button:after{
+							content: '';
+							width: 100%;
+							height: 100%;
+							position: absolute;
+							top: 0;
+							left: 0;
+							box-sizing: border-box;
+							transition: all 0.2s ease-in-out;
+						}
+						.slick-custom-dots li button:before{
+							display: block;
+							border: 2px solid #bcbcbc;
+							border-radius: 100%;
+						}
+						.slick-custom-dots li button:after{
+							content: "\f01d";
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							opacity: 0;
+							border-radius: 100%;
+							background: linear-gradient(129deg, #32baf1, #a549e9);
+							text-transform: none;
+							line-height: 1;
+							font-family: 'IcoFont' !important;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							-webkit-font-smoothing: antialiased;
+							-moz-osx-font-smoothing: grayscale;
+							font-size: 24px;
+							color: #fff;
+						}
+						.slick-custom-dots li button:hover:before{
+							border-color: #a549e9;
+						}
+						.slick-custom-dots li.slick-active button{
+							width: 50px;
+							height: 50px;
+							padding-top: 3px;
+							border: none;
+						}
+						.slick-custom-dots li.slick-active button:before{
+							opacity: 0;
+						}
+						.slick-custom-dots li.slick-active button:after{
+							opacity: 1;
+						}
+						@media (min-width: 1200px){
+							.slick-custom-dots li.slick-active button{
+								width: 75px;
+								height: 75px;
+								padding-top: 0;
+							}
+							.slick-custom-dots li button:after{
+								font-size: 29px;
+							}
+						}
+					</style>
+				</div>
+				<div class="slick-slider wi_100 marb0i padr65 lg-padr100" data-slick-settings="dots:true,arrows:true,infinite:true,speed:750,fade:true,slidesToShow:1,slidesToScroll:1,appendArrows:#how-it-works-controls,appendDots:#how-it-works-controls,prevArrow:<button type=&quot;button&quot; class=&quot;wi_21p hei_21p order_1 dblock pos_sta marb25 pad0 padl1 brd brdwi_2 brdclr_bc brdclr_a549e9_h brdrad50 bg_trans talc fsz14 txt_bc txt_a549e9_h curp trans_all2&quot;><span class=&quot;sr-only&quot;>Previous</span><span class=&quot;fa fa-angle-up bold&quot;></span></button>, nextArrow:<button type=&quot;button&quot; class=&quot;wi_21p hei_21p order_3 dblock pos_sta mart25 pad0 padt1 padl1 brd brdwi_2 brdclr_bc brdclr_a549e9_h brdrad50 bg_trans talc fsz14 txt_bc txt_a549e9_h curp trans_all2&quot;><span class=&quot;sr-only&quot;>Next</span><span class=&quot;fa fa-angle-down bold&quot;></span></button>,dotsClass:slick-custom-dots order_2 dblock mar0 mart-15 pad0">
+	
+					<div class="dblock">
+						<div class="wi_100 minwi_0 dflex alit_c">
+							<div class="wi_50 xs-wi_100 sm-wi_100 dflex fxwrap_w alit_c padt30 padrl15 md-padr30 lg-padr60 txt_708198">
+								<h3 class="wi_100 order_1 marb15 pad0 tall fntwei_300 fsz22 sm-fsz24 md-fsz26 lg-fsz28 txt_a549e9">First tab title - How to install?</h3>
+								<div class="wi_100 order_2 lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typese ing industry Lorem Ipsum has been the undustry's standard dummy text Lorem is simply dummy</div>
+								<div class="wi_100 xxs-wi_100 xs-wi_50 sm-wi_50 order_4 xxs-order_3 dnone xs-dblock sm-dblock mart15 xxs-padr0 xs-padl15 sm-padl15">
+									<img src="images/smart/how-it-works-photo.png" class="wi_auto maxwi_100 hei_auto maxhei_350p dblock marr0 marla xxs-marrla" width="556" height="576" title="First tab title - How to install?" alt="First tab title - How to install?">	
+								</div>
+								<div class="wi_100 xxs-wi_100 xs-wi_50 sm-wi_50 order_3 xxs-order_4 mart40 xxs-padr0 xs-padr15 sm-padr15">
+									<div class="dflex alit_fs padtb15 sm-padtb20 md-padtb25 lg-padtb30">
+										<div class="wi_44p xs-wi_36p hei_44p xs-hei_36p fxshrink_0 dflex alit_c justc_c mart5 marr15 xs-marr10 brdrad3 bglgrad_129_32baf1_a549e9 bg_6985ed">
+											<img src="images/smart/how-it-works-1.png" width="25" height="25" title="Confing your mobile" alt="Confing your mobile" />
+										</div>
+										<div class="flex_1">
+											<h4 class="marb5 pad0 fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19 txt_59687c">Confing your mobile</h4>
+											<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typing indus try Lorem Ipsum</div>
+										</div>
+									</div>
+									<div class="dflex alit_fs padtb15 sm-padtb20 md-padtb25 lg-padtb30">
+										<div class="wi_44p xs-wi_36p hei_44p xs-hei_36p fxshrink_0 dflex alit_c justc_c mart5 marr15 xs-marr10 brdrad3 bglgrad_129_32baf1_a549e9 bg_6985ed">
+											<img src="images/smart/how-it-works-1.png" width="25" height="25" title="Confing your mobile" alt="Confing your mobile" />
+										</div>
+										<div class="flex_1">
+											<h4 class="marb5 pad0 fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19 txt_59687c">Confing your mobile</h4>
+											<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typing indus try Lorem Ipsum</div>
+										</div>
+									</div>
+									<div class="dflex alit_fs padtb15 sm-padtb20 md-padtb25 lg-padtb30">
+										<div class="wi_44p xs-wi_36p hei_44p xs-hei_36p fxshrink_0 dflex alit_c justc_c mart5 marr15 xs-marr10 brdrad3 bglgrad_129_32baf1_a549e9 bg_6985ed">
+											<img src="images/smart/how-it-works-1.png" width="25" height="25" title="Confing your mobile" alt="Confing your mobile" />
+										</div>
+										<div class="flex_1">
+											<h4 class="marb5 pad0 fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19 txt_59687c">Confing your mobile</h4>
+											<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typing indus try Lorem Ipsum</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wi_50 xs-dnone sm-dnone padrl15">
+								<img src="images/smart/how-it-works-photo.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="556" height="576" title="First tab title - How to install?" alt="First tab title - How to install?">
+							</div>
+						</div>
+					</div>
+					<div class="dblock">
+						<div class="wi_100 minwi_0 dflex alit_c">
+							<div class="wi_50 xs-wi_100 sm-wi_100 dflex fxwrap_w alit_c padt30 padrl15 md-padr30 lg-padr60 txt_708198">
+								<h3 class="wi_100 order_1 marb15 pad0 tall fntwei_300 fsz22 sm-fsz24 md-fsz26 lg-fsz28 txt_a549e9">Second tab title - How to use?</h3>
+								<div class="wi_100 order_2 lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typese ing industry Lorem Ipsum has been the undustry's standard dummy text Lorem is simply dummy</div>
+								<div class="wi_100 xxs-wi_100 xs-wi_50 sm-wi_50 order_4 xxs-order_3 dnone xs-dblock sm-dblock mart15 xxs-padr0 xs-padl15 sm-padl15">
+									<img src="images/smart/how-it-works-photo.png" class="wi_auto maxwi_100 hei_auto maxhei_350p dblock marr0 marla xxs-marrla" width="556" height="576" title="First tab title - How to install?" alt="First tab title - How to install?">	
+								</div>
+								<div class="wi_100 xxs-wi_100 xs-wi_50 sm-wi_50 order_3 xxs-order_4 mart40 xxs-padr0 xs-padr15 sm-padr15">
+									<div class="dflex alit_fs padtb15 sm-padtb20 md-padtb25 lg-padtb30">
+										<div class="wi_44p xs-wi_36p hei_44p xs-hei_36p fxshrink_0 dflex alit_c justc_c mart5 marr15 xs-marr10 brdrad3 bglgrad_129_32baf1_a549e9 bg_6985ed">
+											<img src="images/smart/how-it-works-1.png" width="25" height="25" title="Confing your mobile" alt="Confing your mobile" />
+										</div>
+										<div class="flex_1">
+											<h4 class="marb5 pad0 fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19 txt_59687c">Confing your mobile</h4>
+											<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typing indus try Lorem Ipsum</div>
+										</div>
+									</div>
+									<div class="dflex alit_fs padtb15 sm-padtb20 md-padtb25 lg-padtb30">
+										<div class="wi_44p xs-wi_36p hei_44p xs-hei_36p fxshrink_0 dflex alit_c justc_c mart5 marr15 xs-marr10 brdrad3 bglgrad_129_32baf1_a549e9 bg_6985ed">
+											<img src="images/smart/how-it-works-1.png" width="25" height="25" title="Confing your mobile" alt="Confing your mobile" />
+										</div>
+										<div class="flex_1">
+											<h4 class="marb5 pad0 fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19 txt_59687c">Confing your mobile</h4>
+											<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typing indus try Lorem Ipsum</div>
+										</div>
+									</div>
+									<div class="dflex alit_fs padtb15 sm-padtb20 md-padtb25 lg-padtb30">
+										<div class="wi_44p xs-wi_36p hei_44p xs-hei_36p fxshrink_0 dflex alit_c justc_c mart5 marr15 xs-marr10 brdrad3 bglgrad_129_32baf1_a549e9 bg_6985ed">
+											<img src="images/smart/how-it-works-1.png" width="25" height="25" title="Confing your mobile" alt="Confing your mobile" />
+										</div>
+										<div class="flex_1">
+											<h4 class="marb5 pad0 fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19 txt_59687c">Confing your mobile</h4>
+											<div class="lgn_hight_s18">Lorem Ipsum is simply dummy text of the printing and typing indus try Lorem Ipsum</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wi_50 xs-dnone sm-dnone padrl15">
+								<img src="images/smart/how-it-works-photo.png" class="wi_auto maxwi_100 hei_auto maxhei_100" width="556" height="576" title="First tab title - How to install?" alt="First tab title - How to install?">
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<!-- BEST SCREENSHOT -->
+	<div class="wi_100 ovfl_hid">
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_c pos_rel marrla padt40 sm-padt55 md-padt70 lg-padt90 padb70 xs-padb30 md-padb50 txt_708198">
+			<div class="wi_100">
+				<h2 class="marb30 pad0 padrl15 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+					Best Screenshot
+					<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+				</h2>
+				<div class="padrl15 talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">
+					Lorem Ipsum is simply dummy text of the printing and <br>
+ 					typeseing industry Lorem Ipsum has been the industry's standard<br>
+ 					dummy text Lorem is simply dummy text of the printing and
+				</div>
+				<div id="screenshot-slider" class="slick-slider sm-mart15 md-mart25 lg-mart35 padrl55 xs-padrl40 xl-padrl0" data-slick-settings="dots:false,arrows:true,infinite:true,centerMode:true,centerPadding:&quot;20px&quot;,speed:500,slidesToShow:5,slidesToScroll:1,prevArrow:<button type=&quot;button&quot; class=&quot;wi_50p xs-wi_36p hei_50p xs-hei_36p dblock pos_abs zi5 pos_cenY left5p xl-left-65p pad0 nobrd brdrad50 bg_d3 curp trans_all2&quot;><span class=&quot;sr-only&quot;>Previous</span><div class=&quot;wi_100 hei_100 dflex alit_c justc_c opa0_ph pos_abs zi1 top0 left0 brdrad50 bg_d3 trans_opa2&quot;><img src=&quot;images/smart/icon-arrow.png&quot; class=&quot;dblock marl-4&quot; width=&quot;15&quot; height=&quot;17&quot; title=&quot;Previous&quot; alt=&quot;Previous&quot; /></div><div class=&quot;wi_100 hei_100 dflex alit_c justc_c opa0 opa1_ph pos_abs zi2 top0 left0 brdrad50 bglgrad_129_32baf1_a549e9 bg_6985ed trans_opa2&quot;><img src=&quot;images/smart/icon-arrow-hover.png&quot; class=&quot;dblock marl-4&quot; width=&quot;15&quot; height=&quot;17&quot; title=&quot;Previous&quot; alt=&quot;Previous&quot; /></div></button>,           nextArrow:<button type=&quot;button&quot; class=&quot;wi_50p xs-wi_36p hei_50p xs-hei_36p dblock pos_abs zi5 pos_cenY right5p xl-right-65p pad0 nobrd brdrad50 bg_d3 curp trans_all2&quot;><span class=&quot;sr-only&quot;>Next</span><div class=&quot;wi_100 hei_100 dflex alit_c justc_c opa0_ph pos_abs zi1 top0 left0 brdrad50 bg_d3 trans_opa2&quot;><img src=&quot;images/smart/icon-arrow.png&quot; class=&quot;dblock marl4 scale-11&quot; width=&quot;15&quot; height=&quot;17&quot; title=&quot;Next&quot; alt=&quot;Next&quot; /></div><div class=&quot;wi_100 hei_100 dflex alit_c justc_c opa0 opa1_ph pos_abs zi2 top0 left0 brdrad50 bglgrad_129_32baf1_a549e9 bg_6985ed trans_opa2&quot;><img src=&quot;images/smart/icon-arrow-hover.png&quot; class=&quot;dblock marl4 scale-11&quot; width=&quot;15&quot; height=&quot;17&quot; title=&quot;Next&quot; alt=&quot;Next&quot; /></div></button>" data-slick-md-settings="slidesToShow:3,slidesToScroll:1,variableWidth:true" data-slick-xs-settings="slidesToShow:1,slidesToScroll:1,variableWidth:true">
+					<div class="dblock opa30 pos_rel zi1 trans_all2">
+						<div class="marrl-10 trans_all2">
+							<img src="images/smart/screenshot-1.png" class="maxwi_100 hei_auto marrla bxsh_0030_2430110018" width="255" height="457" title="Best Screenshot" alt="Best Screenshot" />	
+						</div>
+					</div>
+					<div class="dblock opa30 pos_rel zi1 trans_all2">
+						<div class="marrl-10 trans_all2">
+							<img src="images/smart/screenshot-1.png" class="maxwi_100 hei_auto marrla bxsh_0030_2430110018" width="255" height="457" title="Best Screenshot" alt="Best Screenshot" />
+						</div>
+					</div>
+					<div class="dblock opa30 pos_rel zi1 trans_all2">
+						<div class="marrl-10 trans_all2">
+							<img src="images/smart/screenshot-1.png" class="maxwi_100 hei_auto marrla bxsh_0030_2430110018" width="255" height="457" title="Best Screenshot" alt="Best Screenshot" />
+						</div>
+					</div>
+					<div class="dblock opa30 pos_rel zi1 trans_all2">
+						<div class="marrl-10 trans_all2">
+							<img src="images/smart/screenshot-1.png" class="maxwi_100 hei_auto marrla bxsh_0030_2430110018" width="255" height="457" title="Best Screenshot" alt="Best Screenshot" />
+						</div>
+					</div>
+					<div class="dblock opa30 pos_rel zi1 trans_all2">
+						<div class="marrl-10 trans_all2">
+							<img src="images/smart/screenshot-1.png" class="maxwi_100 hei_auto marrla bxsh_0030_2430110018" width="255" height="457" title="Best Screenshot" alt="Best Screenshot" />
+						</div>
+					</div>
+					<div class="dblock opa30 pos_rel zi1 trans_all2">
+						<div class="marrl-10 trans_all2">
+							<img src="images/smart/screenshot-1.png" class="maxwi_100 hei_auto marrla bxsh_0030_2430110018" width="255" height="457" title="Best Screenshot" alt="Best Screenshot" />
+						</div>
+					</div>
+				</div>
+				<style class="dnone">
+					#screenshot-slider .slick-track{
+						display: flex;
+						align-items: center;
+						padding-top: 30px;
+						padding-bottom: 30px;
+					}
+					#screenshot-slider .slick-slide{
+						width: 255px;
+						max-width: calc(100vw - 130px);
+						transform: scale(0.84);
+					}
+					#screenshot-slider .slick-slide.slick-center{
+						opacity: 1;
+						z-index: 2;
+						transform: scale(1);
+					}
+					#screenshot-slider .slick-slide.slick-center > div{
+						margin-right: 0;
+						margin-left: 0;
+					}
+					@media (min-width: 1200px){
+						#screenshot-slider .slick-slide{
+							width: auto;
+						}
+					}
+				</style>
+				
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- DOWNLOAD -->
+	<div class="wi_100 ovfl_hid bgir_norep bgip_c bgis_cov bg_6985ed" style="background-image: url(images/smart/download-bg.jpg);">
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_c pos_rel marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+			<div class="wi_100">
+				<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_f">
+					Download SmartApp
+					<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_f"></div>
+				</h2>
+				<div class="dflex xs-fxdir_col xs-fxwrap_w lg-fxwrap_w alit_c justc_c marrl-12 sm-padt15 md-padt30 lg-padt40">
+					<a href="#" class="wi_33 xs-wi_250p lg-wi_300p hei_80p xs-hei_60p lg-hei_100p dflex alit_c justc_c pos_rel zi1 mart15 marrl12 padrl30 bxsh_06150_292627034_h brdrad50 bg_f0f5f9 txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+						<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+						<span class="icofont icofont-brand-apple marr8 fsz27"></span>
+						<span>
+							Available on the<br>
+							<big class="fsz18 xs-fsz16">App Store</big>
+						</span>
+					</a>
+					<a href="#" class="wi_33 xs-wi_250p lg-wi_300p hei_80p xs-hei_60p lg-hei_100p dflex alit_c justc_c pos_rel zi1 mart15 marrl12 padrl30 bxsh_06150_292627034_h brdrad50 bg_f0f5f9 txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+						<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+						<span class="icofont icofont-brand-android-robot marr8 fsz27"></span>
+						<span>
+							Available on the<br>
+							<big class="fsz18 xs-fsz16">Google Play</big>
+						</span>
+					</a>
+					<a href="#" class="wi_33 xs-wi_250p lg-wi_300p hei_80p xs-hei_60p lg-hei_100p dflex alit_c justc_c pos_rel zi1 mart15 marrl12 padrl30 bxsh_06150_292627034_h brdrad50 bg_f0f5f9 txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+						<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+						<span class="icofont icofont-brand-windows marr8 fsz27"></span>
+						<span>
+							Available on the<br>
+							<big class="fsz18 xs-fsz16">Window Store</big>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	
+	<!-- FAQ -->
+	<div class="wi_100 ovfl_hid bg_f2f4f5">
+		<div class="wi_1200p maxwi_100 minwi_0 dflex alit_s marrla">
+			<div class="wi_50 xs-wi_100 dflex alit_c">
+				<div class="wi_100 padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+					<h2 class="marb30 pad0 tall xs-talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+						FAQs
+						<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla bg_a549e9"></div>
+					</h2>
+					<div class="hide-base padt15 sm-padt30 md-padt45 lg-padt55 txt_708198">
+						<div class="marb12 bxsh_00150_2430110009 brdrad5 bg_f">
+							<a href="#" class="expander-toggler wi_100 minhei_48p dflex alit_c pos_rel padtb10 padr50 padl20 brdrad5 bg_f bg_a549e9_a fntwei_600 fsz16 sm-fsz17 txt_516074 txt_a549e9_h txt_f_ai trans_all2" data-target="#faq-1" data-hide="all" data-hide-base=".hide-base">
+								<span>What is the Start App?</span>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0_pa pos_abs zi1 pos_cenY right20p brdrad100 bg_dee1e5 fsz12 txt_1246b8"><span class="padl1 icofont icofont-plus"></span></div>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0 opa1_pa pos_abs zi2 pos_cenY right20p brdrad100 bg_f fsz12 txt_a549e9"><span class="padl1 icofont icofont-minus"></span></div>
+							</a>
+							<div class="dnone brdrad5 bg_f" id="faq-1">
+								<div class="padtbl20 padr26">
+									<div class="custom-scroll hei_150p ovfl_auto padr20 lgn_hight_s18">
+										Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="marb12 bxsh_00150_2430110009 brdrad5 bg_f">
+							<a href="#" class="expander-toggler wi_100 minhei_48p dflex alit_c pos_rel padtb10 padr50 padl20 brdrad5 bg_f bg_a549e9_a fntwei_600 fsz16 sm-fsz17 txt_516074 txt_a549e9_h txt_f_ai trans_all2" data-target="#faq-2" data-hide="all" data-hide-base=".hide-base">
+								<span>Where can i download this app?</span>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0_pa pos_abs zi1 pos_cenY right20p brdrad100 bg_dee1e5 fsz12 txt_1246b8"><span class="padl1 icofont icofont-plus"></span></div>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0 opa1_pa pos_abs zi2 pos_cenY right20p brdrad100 bg_f fsz12 txt_a549e9"><span class="padl1 icofont icofont-minus"></span></div>
+							</a>
+							<div class="dnone brdrad5 bg_f" id="faq-2">
+								<div class="padtbl20 padr26">
+									<div class="custom-scroll hei_150p ovfl_auto padr20 lgn_hight_s18">
+										Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="marb12 bxsh_00150_2430110009 brdrad5 bg_f">
+							<a href="#" class="expander-toggler wi_100 minhei_48p dflex alit_c pos_rel padtb10 padr50 padl20 brdrad5 bg_f bg_a549e9_a fntwei_600 fsz16 sm-fsz17 txt_516074 txt_a549e9_h txt_f_ai trans_all2" data-target="#faq-3" data-hide="all" data-hide-base=".hide-base">
+								<span>How to install this app?</span>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0_pa pos_abs zi1 pos_cenY right20p brdrad100 bg_dee1e5 fsz12 txt_1246b8"><span class="padl1 icofont icofont-plus"></span></div>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0 opa1_pa pos_abs zi2 pos_cenY right20p brdrad100 bg_f fsz12 txt_a549e9"><span class="padl1 icofont icofont-minus"></span></div>
+							</a>
+							<div class="dnone brdrad5 bg_f" id="faq-3">
+								<div class="padtbl20 padr26">
+									<div class="custom-scroll hei_150p ovfl_auto padr20 lgn_hight_s18">
+										Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="marb12 bxsh_00150_2430110009 brdrad5 bg_f">
+							<a href="#" class="expander-toggler wi_100 minhei_48p dflex alit_c pos_rel padtb10 padr50 padl20 brdrad5 bg_f bg_a549e9_a fntwei_600 fsz16 sm-fsz17 txt_516074 txt_a549e9_h txt_f_ai trans_all2" data-target="#faq-4" data-hide="all" data-hide-base=".hide-base">
+								<span>Is this app useful for business purpose?</span>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0_pa pos_abs zi1 pos_cenY right20p brdrad100 bg_dee1e5 fsz12 txt_1246b8"><span class="padl1 icofont icofont-plus"></span></div>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0 opa1_pa pos_abs zi2 pos_cenY right20p brdrad100 bg_f fsz12 txt_a549e9"><span class="padl1 icofont icofont-minus"></span></div>
+							</a>
+							<div class="dnone brdrad5 bg_f" id="faq-4">
+								<div class="padtbl20 padr26">
+									<div class="custom-scroll hei_150p ovfl_auto padr20 lgn_hight_s18">
+										Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="marb12 bxsh_00150_2430110009 brdrad5 bg_f">
+							<a href="#" class="expander-toggler wi_100 minhei_48p dflex alit_c pos_rel padtb10 padr50 padl20 brdrad5 bg_f bg_a549e9_a fntwei_600 fsz16 sm-fsz17 txt_516074 txt_a549e9_h txt_f_ai trans_all2" data-target="#faq-5" data-hide="all" data-hide-base=".hide-base">
+								<span>How to update this every day?</span>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0_pa pos_abs zi1 pos_cenY right20p brdrad100 bg_dee1e5 fsz12 txt_1246b8"><span class="padl1 icofont icofont-plus"></span></div>
+								<div class="wi_24p hei_24p dflex alit_c justc_c opa0 opa1_pa pos_abs zi2 pos_cenY right20p brdrad100 bg_f fsz12 txt_a549e9"><span class="padl1 icofont icofont-minus"></span></div>
+							</a>
+							<div class="dnone brdrad5 bg_f" id="faq-5">
+								<div class="padtbl20 padr26">
+									<div class="custom-scroll hei_150p ovfl_auto padr20 lgn_hight_s18">
+										Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typeseing indury Lorem Ipsum has been the industry's standard dummy text ever since the when an Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the indusn the industry's stry's standard dummy.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wi_50 dflex xs-dnone alit_fe justc_fe padrl15">
+				<img src="images/smart/faq-photo.png" class="wi_auto maxwi_100 hei_auto maxhei_100 dblock" width="585" height="800" title="FAQs" alt="FAQs">
+			</div>
+		</div>
+		<style>
+			.custom-scroll::-webkit-scrollbar{
+				width: 12px;
+				height: 12px;
+				padding: 0 3px;
+				border-radius: 20px;
+    			background: #e9e9e9;
+			}
+			.custom-scroll::-webkit-scrollbar-button{
+				width: 12px;
+				height: 12px;
+			}
+			.custom-scroll::-webkit-scrollbar-track{
+				width: 100px;
+			}
+			.custom-scroll::-webkit-scrollbar-thumb{
+				border-right: 3px solid #e9e9e9;
+				border-left: 3px solid #e9e9e9;
+				background: #a549e9;
+			}
+		</style>
+	</div>
+	
+	
+	<!-- TEAM -->
+	<div class="wi_100 ovfl_hid">
+		<div class="wi_1200p maxwi_100 marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+			<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+				Innovative Team
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+			</h2>
+			<div class="talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">
+				Lorem Ipsum is simply dummy text of the printing and<br>
+ 				typeseing industry Lorem Ipsum has been the industry's standard<br>
+ 				dummy text Lorem is simply dummy text of the printing and
+			</div>
+			
+			<div class="dflex fxwrap_w xs-fxdir_col alit_s xs-alit_c sm-padt15 md-padt30 lg-padt45 marrl-15 lg-marrl-30 talc">
+				<div class="style_base wi_33 xs-wi_100 maxwi_100 xs-maxwi_350p dflex alit_s mart30 xxs-marrla padrl15 lg-padrl30">
+					<div class="wi_100 pos_rel bxsh_0030_2430110018 brdrad5 bg_f txt_708198">
+						<div class="hei-pad-77 brdradtr5 bgir_norep bgip_c bgis_cov bg_f0f5f9" style="background-image: url(images/smart/team-1.jpg)"></div>
+						<div class="padtb20 padrl15 md-pad30 lg-pad40">
+							<h3 class="mar0 pad0 fsz16 sm-fsz17 md-fsz18 lg-fsz19 fntwei_600 txt_a549e9">Free Support</h3>
+							<div class="mart-3 fntwei_600">Founder &amp; CEO</div>
+							<div class="mart20 xs-mart10 lgn_hight_s18">
+								Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been standard.
+							</div>
+							<div class="wi_100 dflex fxwrap_w alit_c justc_c opa0 opa1_sbh xs-opa1i sm-opa1i md-pos_abs lg-pos_abs bot-17p left0 mart20 trans_opa2">
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-facebook"></span>
+								</a>
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-twitter"></span>
+								</a>
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-google-plus"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="style_base wi_33 xs-wi_100 maxwi_100 xs-maxwi_350p dflex alit_s mart30 xxs-marrla padrl15 lg-padrl30">
+					<div class="wi_100 pos_rel bxsh_0030_2430110018 brdrad5 bg_f txt_708198">
+						<div class="hei-pad-77 brdradtr5 bgir_norep bgip_c bgis_cov bg_f0f5f9" style="background-image: url(images/smart/team-1.jpg)"></div>
+						<div class="padtb20 padrl15 md-pad30 lg-pad40">
+							<h3 class="mar0 pad0 fsz16 sm-fsz17 md-fsz18 lg-fsz19 fntwei_600 txt_a549e9">Free Support</h3>
+							<div class="mart-3 fntwei_600">Founder &amp; CEO</div>
+							<div class="mart20 xs-mart10 lgn_hight_s18">
+								Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been standard.
+							</div>
+							<div class="wi_100 dflex fxwrap_w alit_c justc_c opa0 opa1_sbh xs-opa1i sm-opa1i md-pos_abs lg-pos_abs bot-17p left0 mart20 trans_opa2">
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-facebook"></span>
+								</a>
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-twitter"></span>
+								</a>
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-google-plus"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="style_base wi_33 xs-wi_100 maxwi_100 xs-maxwi_350p dflex alit_s mart30 xxs-marrla padrl15 lg-padrl30">
+					<div class="wi_100 pos_rel bxsh_0030_2430110018 brdrad5 bg_f txt_708198">
+						<div class="hei-pad-77 brdradtr5 bgir_norep bgip_c bgis_cov bg_f0f5f9" style="background-image: url(images/smart/team-1.jpg)"></div>
+						<div class="padtb20 padrl15 md-pad30 lg-pad40">
+							<h3 class="mar0 pad0 fsz16 sm-fsz17 md-fsz18 lg-fsz19 fntwei_600 txt_a549e9">Free Support</h3>
+							<div class="mart-3 fntwei_600">Founder &amp; CEO</div>
+							<div class="mart20 xs-mart10 lgn_hight_s18">
+								Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been standard.
+							</div>
+							<div class="wi_100 dflex fxwrap_w alit_c justc_c opa0 opa1_sbh xs-opa1i sm-opa1i md-pos_abs lg-pos_abs bot-17p left0 mart20 trans_opa2">
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-facebook"></span>
+								</a>
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-twitter"></span>
+								</a>
+								<a href="#" class="wi_34p hei_34p dflex alit_c justc_c marrl3 brd brdclr_708198 brdclr_a549e9_h brdrad100 bg_f bg_a549e9_h txt_61 txt_f_h trans_all2">
+									<span class="icofont icofont-social-google-plus"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- STATISTICS -->
+	<div class="wi_100 ovfl_hid bgir_norep bgip_c bgis_cov bg_6985ed" style="background-image: url(images/smart/statistics-bg.jpg);">
+		<div class="wi_1200p maxwi_100 marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_f">
+			
+			<div class="dflex fxwrap_w alit_fs xxs-mart-30 xs-mart-20 sm-mart-10 marrl-15 marb30 xxs-marb0 xs-marb10 xs-mar sm-marb20 lg-padtb20 talc fntwei_600 fsz16 sm-fsz17 md-fsz18 lg-fsz19">
+				<div class="wi_25 xs-wi_50 mart30 padrl15">
+					<img src="images/smart/stat-1.png" class="maxwi_100 hei_auto dblock marrla marb5 xs-marb0" width="70" height="50" title="" alt="" />
+					<h3 class="mar0 xs-pad0 uppercase fntwei_600 fsz32 sm-fsz38 md-fsz44 lg-fsz50 txt_f">200K</h3>
+					<div>App Download</div>
+				</div>
+				<div class="wi_25 xs-wi_50 mart30 padrl15">
+					<img src="images/smart/stat-2.png" class="maxwi_100 hei_auto dblock marrla marb5 xs-marb0" width="70" height="50" title="" alt="" />
+					<h3 class="mar0 xs-pad0 uppercase fntwei_600 fsz32 sm-fsz38 md-fsz44 lg-fsz50 txt_f">50K</h3>
+					<div>Likes</div>
+				</div>
+				<div class="wi_25 xs-wi_50 mart30 padrl15">
+					<img src="images/smart/stat-3.png" class="maxwi_100 hei_auto dblock marrla marb5 xs-marb0" width="70" height="50" title="" alt="" />
+					<h3 class="mar0 xs-pad0 uppercase fntwei_600 fsz32 sm-fsz38 md-fsz44 lg-fsz50 txt_f">95%</h3>
+					<div>Active Users</div>
+				</div>
+				<div class="wi_25 xs-wi_50 mart30 padrl15">
+					<img src="images/smart/stat-4.png" class="maxwi_100 hei_auto dblock marrla marb5 xs-marb0" width="70" height="50" title="" alt="" />
+					<h3 class="mar0 xs-pad0 uppercase fntwei_600 fsz32 sm-fsz38 md-fsz44 lg-fsz50 txt_f">10+</h3>
+					<div>5 Star Ratings</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<!-- TRUSTED BY -->
+	<div class="wi_100 ovfl_hid bg_f2f4f5">
+		<div class="wi_1200p maxwi_100 marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+			<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+				Trusted by 1000+ clients
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+			</h2>
+			<div class="talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">
+				Lorem Ipsum is simply dummy text of the printing and <br>
+ 				typeseing industry Lorem Ipsum has been the industry's standard<br>
+ 				dummy text Lorem is simply dummy text of the printing and
+			</div>
+			
+			<div id="trusted-slider" class="slick-slider sm-mart15 md-mart25 lg-mart35 marrl-15 xxs-marrl-70 lg-marrl-50 marb0i xs-padrl40 xl-padrl0" data-slick-settings="dots:true,arrows:false,infinite:true,speed:500,slidesToShow:2,slidesToScroll:1,dotsClass:custom-dots" data-slick-xs-settings="slidesToShow:1,slidesToScroll:1">
+				
+				<div class="dblock padtb30 padrl30 lg-padrl50">
+					<div class="pos_rel zi2 pad30 xxs-pad20 sm-pad25 bxsh_00240_2430110009 brdrad6 bg_f">
+						<div class="wi_100 dflex alit_c">
+							<div class="wi_90p hei_90p fxshrink_0 marr30 bxsh_0030_2430110018 brdrad100 bgir_norep bgip_c bgis_cov bg_f" style="background-image: url(images/smart/trusted-default.png)"></div>
+							<div class="flex_1">
+								<h3 class="mar0 pad0 fntwei_600 fsz17 xs-fsz16 txt_a549e9">Mr. Jhon Due</h3>
+								<div class="mart-4 fntwei_600">Founder at Smart Technologies</div>
+							</div>
+						</div>
+						<div class="mart20 md-mart30 lg-mart40 lgn_hight_s18">
+							Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the industry standard dummy text Lorem is simply.
+						</div>
+					</div>
+					<div class="hei_15p pos_rel zi1 marrl15 bxsh_00240_2430110009 brdradbl6 bg_f"></div>
+				</div>
+				<div class="dblock padtb30 padrl30 lg-padrl50">
+					<div class="pos_rel zi2 pad30 xxs-pad20 sm-pad25 bxsh_00240_2430110009 brdrad6 bg_f">
+						<div class="wi_100 dflex alit_c">
+							<div class="wi_90p hei_90p fxshrink_0 marr30 bxsh_0030_2430110018 brdrad100 bgir_norep bgip_c bgis_cov bg_f" style="background-image: url(images/smart/trusted-default.png)"></div>
+							<div class="flex_1">
+								<h3 class="mar0 pad0 fntwei_600 fsz17 xs-fsz16 txt_a549e9">Mr. Jhon Due</h3>
+								<div class="mart-4 fntwei_600">Founder at Smart Technologies</div>
+							</div>
+						</div>
+						<div class="mart20 md-mart30 lg-mart40 lgn_hight_s18">
+							Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the industry standard dummy text Lorem is simply.
+						</div>
+					</div>
+					<div class="hei_15p pos_rel zi1 marrl15 bxsh_00240_2430110009 brdradbl6 bg_f"></div>
+				</div>
+				<div class="dblock padtb30 padrl30 lg-padrl50">
+					<div class="pos_rel zi2 pad30 xxs-pad20 sm-pad25 bxsh_00240_2430110009 brdrad6 bg_f">
+						<div class="wi_100 dflex alit_c">
+							<div class="wi_90p hei_90p fxshrink_0 marr30 bxsh_0030_2430110018 brdrad100 bgir_norep bgip_c bgis_cov bg_f" style="background-image: url(images/smart/trusted-default.png)"></div>
+							<div class="flex_1">
+								<h3 class="mar0 pad0 fntwei_600 fsz17 xs-fsz16 txt_a549e9">Mr. Jhon Due</h3>
+								<div class="mart-4 fntwei_600">Founder at Smart Technologies</div>
+							</div>
+						</div>
+						<div class="mart20 md-mart30 lg-mart40 lgn_hight_s18">
+							Lorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been the industry standard dummy text Lorem is simply.
+						</div>
+					</div>
+					<div class="hei_15p pos_rel zi1 marrl15 bxsh_00240_2430110009 brdradbl6 bg_f"></div>
+				</div>
+				
+			</div>
+			<style class="dnone">
+				.custom-dots{
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: center;
+					position: static;
+					margin: 10px 0 0 0;
+					padding: 0 15px 0 30px;
+				}
+				.custom-dots li{
+					display: block;
+					margin: 0;
+					padding: 0;
+				}
+				.custom-dots button{
+					width: auto;
+					height: auto;
+					display: block;
+					margin: 0;
+					padding: 5px;
+					box-shadow: none;
+					border: none;
+					background: none;
+					line-height: 0;
+					font-size: 0;
+					color: transparent;
+					cursor: pointer;
+				}
+				.custom-dots button:before{
+					content: '';
+					width: 12px;
+					height: 12px;
+					display: block;
+					box-sizing: border-box;
+					border: 1px solid #a549e9;
+					border-radius: 12px;
+					transition: background-color 0.2s ease-in-out;
+				}
+				.custom-dots li.slick-active button:before,
+				.custom-dots button:hover:before{
+					background-color: #a549e9;
+				}
+				@media (min-width: 576px){
+					.custom-dots{
+						padding-right: 15px;
+						padding-left: 15px;
+					}
+				}
+			</style>
+		</div>
+	</div>
+	
+	
+	<!-- PRICING -->
+	<div class="wi_100 ovfl_hid pos_rel zi1">
+		<div class="wi_100 hei_390p pos_abs zi-1 top0 left0 bgir_norep bgip_c bgis_cov bg_6985ed" style="background-image: url(images/smart/pricing-bg.jpg);"></div>
+		<div class="wi_1200p maxwi_100 marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+			<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_f">
+				Our Pricing
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_f"></div>
+			</h2>
+			<div class="dflex xs-fxdir_col alit_c justc_c mart-40 sm-mart-25 md-mart-15 lg-mart0 padb25">
+				
+				<div class="wi_365p maxwi_33 xs-maxwi_100 pos_rel zi1 mart55 bxsh_0030_2430110018 brdrad10 bg_f">
+					<div class="hei_100p md-hei_125p lg-hei_150p dflex fxdir_col alit_c justc_c padtb10 padrl15 brdradtr10 bg_f2f4f5 talc">
+						<h3 class="pad0 fntwei_700 fsz16 sm-fsz18 md-fsz19 lg-fsz20 txt_4b535e">Basic Plan</h3>
+						<div class="mart4 lgn_hight_s1 txt_a549e9">
+							<span class="fsz18 sm-fsz20 md-fsz22 lg-fsz22">$</span>
+							<big class="fntwei_700 fsz36 sm-fsz39 md-fsz42 lg-fsz45">49</big>
+							<span class="fsz16 sm-fsz17 md-fsz18 lg-fsz18">/pm</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+							<span>Limited Install</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+							<span>Unlimited Download</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+							<span>Free One Year Support</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-close wi_36p dblock pos_abs pos_cenY left15p talc txt_ff0000"></span>
+							<span>Free 15GB Linux Hosting</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-close wi_36p dblock pos_abs pos_cenY left15p talc txt_ff0000"></span>
+							<span>30GB Storage</span>
+						</div>
+					</div>
+					<div class="mart15 md-mart25 lg-mart35">
+						<a href="#" class="wi_195p maxwi_90 hei_50p dflex alit_c justc_c pos_rel zi1 marrla marb-25 brdrad100 bg_f uppercase talc fntwei_600 fsz13 txt_a549e9 txt_f_h trans_all2">
+							<div class="wi_100 hei_100 opa0_ph pos_abs zi-1 top0 left0 brd brdclr_a549e9 brdrad100 bg_f trans_opa2"></div>
+							<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 bglgrad_r_46c8ff_81d37e bg_62cec1 brdrad100 bg_f trans_opa2"></div>
+							<span>Order now</span>
+						</a>
+					</div>
+				</div>
+				
+				<div class="wi_365p maxwi_33 xs-maxwi_100 pos_rel zi2 mart55 marrl-15 bxsh_0030_2430110018 brdrad10 bg_f">
+					<div class="hei_100p md-hei_125p lg-hei_150p dflex fxdir_col alit_c justc_c padtb10 padrl15 brdradtr10 bglgrad_r_46c8ff_81d37e bg_62cec1 talc">
+						<h3 class="pad0 fntwei_700 fsz16 sm-fsz18 md-fsz19 lg-fsz20 txt_f">Premium Plan</h3>
+						<div class="mart4 lgn_hight_s1 txt_f">
+							<span class="fsz18 sm-fsz20 md-fsz22 lg-fsz22">$</span>
+							<big class="fntwei_700 fsz36 sm-fsz39 md-fsz42 lg-fsz45">99</big>
+							<span class="fsz16 sm-fsz17 md-fsz18 lg-fsz18">/pm</span>
+						</div>
+					</div>
+					<div class="brdb brdclr_f3f1f1">
+						<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+							<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+								<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+								<span>Limited Install</span>
+							</div>
+						</div>
+						<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+							<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+								<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+								<span>Unlimited Download</span>
+							</div>
+						</div>
+						<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+							<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+								<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+								<span>Free One Year Support</span>
+							</div>
+						</div>
+						<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+							<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+								<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+								<span>Free 15GB Linux Hosting</span>
+							</div>
+						</div>
+						<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+							<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+								<span class="fa fa-close wi_36p dblock pos_abs pos_cenY left15p talc txt_ff0000"></span>
+								<span>30GB Storage</span>
+							</div>
+						</div>
+						<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+							<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+								<span class="fa fa-close wi_36p dblock pos_abs pos_cenY left15p talc txt_ff0000"></span>
+								<span>Unlimited Data</span>
+							</div>
+						</div>
+					</div>
+					<div class="mart15 md-mart25 lg-mart35">
+						<a href="#" class="wi_195p maxwi_90 hei_50p dflex alit_c justc_c pos_rel zi1 marrla marb-25 brdrad100 bg_f uppercase talc fntwei_600 fsz13 txt_f">
+							<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bglgrad_r_46c8ff_81d37e bg_62cec1 brdrad100 bg_f"></div>
+							<span>Order now</span>
+						</a>
+					</div>
+				</div>
+				
+				<div class="wi_365p maxwi_33 xs-maxwi_100 pos_rel zi1 mart55 bxsh_0030_2430110018 brdrad10 bg_f">
+					<div class="hei_100p md-hei_125p lg-hei_150p dflex fxdir_col alit_c justc_c padtb10 padrl15 brdradtr10 bg_f2f4f5 talc">
+						<h3 class="pad0 fntwei_700 fsz16 sm-fsz18 md-fsz19 lg-fsz20 txt_4b535e">Basic Plan</h3>
+						<div class="mart4 lgn_hight_s1 txt_a549e9">
+							<span class="fsz18 sm-fsz20 md-fsz22 lg-fsz22">$</span>
+							<big class="fntwei_700 fsz36 sm-fsz39 md-fsz42 lg-fsz45">150</big>
+							<span class="fsz16 sm-fsz17 md-fsz18 lg-fsz18">/pm</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+							<span>Limited Install</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+							<span>Unlimited Download</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-check wi_36p dblock pos_abs pos_cenY left15p talc txt_2dc100"></span>
+							<span>Free One Year Support</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-close wi_36p dblock pos_abs pos_cenY left15p talc txt_ff0000"></span>
+							<span>Free 15GB Linux Hosting</span>
+						</div>
+					</div>
+					<div class="minhei_60p md-minhei_65p lg-minhei_70p dflex alit_c justc_c brdt brdclr_f3f1f1">
+						<div class="wi_255p maxwi_100 pos_rel padtb10 padr30 padl51">
+							<span class="fa fa-close wi_36p dblock pos_abs pos_cenY left15p talc txt_ff0000"></span>
+							<span>30GB Storage</span>
+						</div>
+					</div>
+					<div class="mart15 md-mart25 lg-mart35">
+						<a href="#" class="wi_195p maxwi_90 hei_50p dflex alit_c justc_c pos_rel zi1 marrla marb-25 brdrad100 bg_f uppercase talc fntwei_600 fsz13 txt_a549e9 txt_f_h trans_all2">
+							<div class="wi_100 hei_100 opa0_ph pos_abs zi-1 top0 left0 brd brdclr_a549e9 brdrad100 bg_f trans_opa2"></div>
+							<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 bglgrad_r_46c8ff_81d37e bg_62cec1 brdrad100 bg_f trans_opa2"></div>
+							<span>Order now</span>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- BLOG -->
+	<div class="wi_100 ovfl_hid bg_f2f4f5">
+		<div class="wi_1200p maxwi_100 marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_708198">
+			<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+				Latest Blog Post
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+			</h2>
+			<div class="talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">
+				Lorem Ipsum is simply dummy text of the printing and<br>
+ 				typeseing industry Lorem Ipsum has been the industry's standard<br>
+ 				dummy text Lorem is simply dummy text of the printing and
+			</div>
+			
+			<div class="dflex fxwrap_w xs-fxdir_col alit_s xs-alit_c sm-padt15 md-padt30 lg-padt45 marrl-15 lg-marrl-30">
+				
+				<div class="wi_33 xs-wi_100 maxwi_100 xs-maxwi_350p dflex alit_s mart30 xxs-marrla padrl15 lg-padrl30">
+					<div class="wi_100 dflex fxdir_col alit_s pos_rel brdrad5">
+						<div class="pos_rel zi2 bxsh_04100_243011003 brdrad5 bg_f">
+							<a href="#" class="wi_100 hei-pad-66 fxshrink_0 dblock brdradtr5 bgir_norep bgip_c bgis_cov bg_f0f5f9 txtdec_n" style="background-image: url(images/smart/team-1.jpg)"></a>
+							<div class="padtb20 padrl15 md-padtb25 md-padrl20 lg-pad30">
+								<div class="marb10 xs-marb5 fsz13 txt_a0aec0">
+									By <a href="#" class="txt_a0aec0">Admin</a>
+									<span class="marrl5">|</span>
+									<a href="#" class="txt_a0aec0">(20) Comments</a>
+								</div>
+								<h3 class="mar0 pad0 fsz18  md-fsz20 lg-fsz22 fntwei_600 txt_516074">A process behind app</h3>
+								<strong class="fntwei_600 fsz12 txt_516074">May 24, 2017</strong>
+								<div class="mart20 xs-mart10 lgn_hight_s18">
+									Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been the unsdustry's standard dummy text ever since the.
+								</div>
+							</div>
+						</div>
+						<a href="#" class="wi_100 minhei_45p md-minhei_50p lg-minhei_55p fxshrink_0 dflex alit_c pos_rel zi1 mart-5 padt15 padrl15 md-padrl20 lg-padrl30 padb10 bxsh_04100_243011003_h brdradbl5 bglgrad_r_32baf1_a549e9 bg_6985ed uppercase txt_f trans_all2">Read more</a>
+					</div>
+				</div>
+				<div class="wi_33 xs-wi_100 maxwi_100 xs-maxwi_350p dflex alit_s mart30 xxs-marrla padrl15 lg-padrl30">
+					<div class="wi_100 dflex fxdir_col alit_s pos_rel brdrad5">
+						<div class="pos_rel zi2 bxsh_04100_243011003 brdrad5 bg_f">
+							<a href="#" class="wi_100 hei-pad-66 fxshrink_0 dblock brdradtr5 bgir_norep bgip_c bgis_cov bg_f0f5f9 txtdec_n" style="background-image: url(images/smart/team-1.jpg)"></a>
+							<div class="padtb20 padrl15 md-padtb25 md-padrl20 lg-pad30">
+								<div class="marb10 xs-marb5 fsz13 txt_a0aec0">
+									By <a href="#" class="txt_a0aec0">Admin</a>
+									<span class="marrl5">|</span>
+									<a href="#" class="txt_a0aec0">(20) Comments</a>
+								</div>
+								<h3 class="mar0 pad0 fsz18  md-fsz20 lg-fsz22 fntwei_600 txt_516074">A process behind app</h3>
+								<strong class="fntwei_600 fsz12 txt_516074">May 24, 2017</strong>
+								<div class="mart20 xs-mart10 lgn_hight_s18">
+									Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been the unsdustry's standard dummy text ever since the.
+								</div>
+							</div>
+						</div>
+						<a href="#" class="wi_100 minhei_45p md-minhei_50p lg-minhei_55p fxshrink_0 dflex alit_c pos_rel zi1 mart-5 padt15 padrl15 md-padrl20 lg-padrl30 padb10 bxsh_04100_243011003_h brdradbl5 bglgrad_r_32baf1_a549e9 bg_6985ed uppercase txt_f trans_all2">Read more</a>
+					</div>
+				</div>
+				<div class="wi_33 xs-wi_100 maxwi_100 xs-maxwi_350p dflex alit_s mart30 xxs-marrla padrl15 lg-padrl30">
+					<div class="wi_100 dflex fxdir_col alit_s pos_rel brdrad5">
+						<div class="pos_rel zi2 bxsh_04100_243011003 brdrad5 bg_f">
+							<a href="#" class="wi_100 hei-pad-66 fxshrink_0 dblock brdradtr5 bgir_norep bgip_c bgis_cov bg_f0f5f9 txtdec_n" style="background-image: url(images/smart/team-1.jpg)"></a>
+							<div class="padtb20 padrl15 md-padtb25 md-padrl20 lg-pad30">
+								<div class="marb10 xs-marb5 fsz13 txt_a0aec0">
+									By <a href="#" class="txt_a0aec0">Admin</a>
+									<span class="marrl5">|</span>
+									<a href="#" class="txt_a0aec0">(20) Comments</a>
+								</div>
+								<h3 class="mar0 pad0 fsz18  md-fsz20 lg-fsz22 fntwei_600 txt_516074">A process behind app</h3>
+								<strong class="fntwei_600 fsz12 txt_516074">May 24, 2017</strong>
+								<div class="mart20 xs-mart10 lgn_hight_s18">
+									Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been the unsdustry's standard dummy text ever since the.
+								</div>
+							</div>
+						</div>
+						<a href="#" class="wi_100 minhei_45p md-minhei_50p lg-minhei_55p fxshrink_0 dflex alit_c pos_rel zi1 mart-5 padt15 padrl15 md-padrl20 lg-padrl30 padb10 bxsh_04100_243011003_h brdradbl5 bglgrad_r_32baf1_a549e9 bg_6985ed uppercase txt_f trans_all2">Read more</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<!-- SUBSCRIPTION -->
+	<div class="wi_100 ovfl_hid pos_rel zi1">
+		<div class="wi_1200p maxwi_100 marrla padt40 sm-padt55 md-padt70 lg-padt90 padrl15 txt_708198">
+			<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_a549e9">
+				Sunscribe us
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_a549e9"></div>
+			</h2>
+			<div class="talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">Subscribe to our Newsletter to get first Gift voucher by Start</div>
+			<form>
+				<div class="maxwi_600p ovfl_hid dflex alit_c mart30 sm-mart40 md-mart50 lg-mart60 marrla brdrad100 bg_f6f7f8" style="box-shadow: 0 6px 15px 0 rgba(0, 9, 128, 0.12)">
+					<div class="flex_1">
+						<label for="subscription-email" class="sr-only">Subscription email</label>
+						<input type="email" name="email" id="subscription-email" class="wi_100 hei_42p dblock padtb5 padr40 padl20 nobrd bg_trans font_poppins fsz14 txt_708198" placeholder="enter your email id here" />	
+					</div>
+					<div class="wi_150p xxs-wi_auto fxshrink_0 marl-30">
+						<button type="submit" class="wi_100 hei_42p dblock pos_rel zi1 mar0 padtb5 padrl20 nobrd brdrad100 bg_81d37e uppercase talc letspc_1 fntwei_600 fsz13 txt_f curp 708198">
+							<div class="wi_100 hei_100 opa0_ph pos_abs top0 left0 zi-1 brdrad100 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+							<span>Submit</span>
+						</button>
+					</div>
+				</div>
+			</form>
+			
+			
+			<div class="dflex xs-dblock alit_s mart60 xxs-mart40 sm-mart80 md-mart100 lg-mart120 brdrad10 bgir_norep bgip_c bgis_cov bg_6985ed txt_f" style="background-image: url(images/smart/smart-bg.jpg);">
+				
+				<div class="wi_43 xs-wi_100 fxshrink_0 padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl30 xxs-padrl15 md-padrl60 lg-padrl80 brdr xs-nobrdr xs-brdb">
+					<h3 class="marb10 md-marb20 lg-marb30 pad0 fntwei_600 fsz19 sm-fsz21 md-fsz23 lg-fsz25 txt_f">Contact Info</h3>
+					<div class="lgn_hight_s18">
+						Lorem Ipsum is simply dummy text of the printing and typesetting indus orem Ipsum has been the industrys.
+					</div>
+					<div class="dflex alit_fs mart15 md-mart25 lg-mart35">
+						<div class="wi_40p hei_40p dflex alit_c justc_c marr15 brd brdclr_f brdrad100 talc">
+							<span class="dblock icofont icofont-ui-dial-phone fsz17"></span>
+						</div>
+						<div class="flex_1 mart-1">
+							<h4 class="mar0 pad0 fsz17 sm-fsz18 md-fsz20 lg-fsz21 txt_f">Call us</h4>
+							<a href="tel:+911234567890" class="txt_f">+91 123 456 7890</a>
+						</div>
+					</div>
+					<div class="dflex alit_fs mart15 md-mart25 lg-mart35">
+						<div class="wi_40p hei_40p dflex alit_c justc_c marr15 brd brdclr_f brdrad100 talc">
+							<span class="dblock icofont icofont-email fsz17"></span>
+						</div>
+						<div class="flex_1 mart-1">
+							<h4 class="mar0 pad0 fsz17 sm-fsz18 md-fsz20 lg-fsz21 txt_f">Email us</h4>
+							<a href="mailto:support@gmail.com" class="txt_f">support@gmail.com</a>
+						</div>
+					</div>
+					<div class="dflex alit_fs mart15 md-mart25 lg-mart35">
+						<div class="wi_40p hei_40p dflex alit_c justc_c marr15 brd brdclr_f brdrad100 talc">
+							<span class="dblock icofont icofont-location-pin fsz17"></span>
+						</div>
+						<div class="flex_1 mart-1">
+							<h4 class="mar0 pad0 fsz17 sm-fsz18 md-fsz20 lg-fsz21 txt_f">Location</h4>
+							<span>125 Business, Evenue, Houston, USA</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="xs-wi_100 flex_1 padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl30 xxs-padrl15 md-padrl60 lg-padrl80">
+					<h3 class="marb10 md-marb20 lg-marb30 pad0 fntwei_600 fsz19 sm-fsz21 md-fsz23 lg-fsz25 txt_f">Send us message!</h3>
+					<form>
+						<div class="marb35">
+							<label for="message-name" class="sr-only">Name</label>
+							<input type="text" name="name" id="message-name" class="wi_100 hei_22p dblock mar0 pad0 nobrd brdb bg_trans font_poppins fsz14 txt_f" placeholder="Name" />
+						</div>
+						<div class="marb35">
+							<label for="message-email" class="sr-only">Email</label>
+							<input type="email" name="email" id="message-email" class="wi_100 hei_22p dblock mar0 pad0 nobrd brdb bg_trans font_poppins fsz14 txt_f" placeholder="Email" />
+						</div>
+						<div class="marb35">
+							<label for="message-phone" class="sr-only">Phone</label>
+							<input type="text" name="phone" id="message-phone" class="wi_100 hei_22p dblock mar0 pad0 nobrd brdb bg_trans font_poppins fsz14 txt_f" placeholder="Phone" />
+						</div>
+						<div class="marb35">
+							<label for="message-message" class="sr-only">Message</label>
+							<textarea name="message" rows="5" id="message-message" class="wi_100 dblock mar0  padtrl0 padb5 nobrd brdb bg_trans font_poppins fsz14 txt_f" placeholder="Message"></textarea>
+						</div>
+						<div class="padt10">
+							<button type="submit" class="wi_175p hei_45p dblock pos_rel zi1 mar0 xs-marrla padtb5 padrl20 bxsh_06150_292627034 nobrd brdrad100 bg_81d37e uppercase talc letspc_1 fntwei_600 fsz13 txt_f curp 708198">
+								<div class="wi_100 hei_100 opa0_ph pos_abs top0 left0 zi-1 brdrad100 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+								<span>Submit</span>
+							</button>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="wi_100 hei_80p pos_abs zi-1 bot0 left0 bg_313a47"></div>
+	</div>
+	
+	
+	<!-- FOOTER -->
+	<div class="wi_100 ovfl_hid bg_313a47">
+		<div class="wi_1200p maxwi_100 marrla padtb40 sm-padtb55 md-padtb70 lg-padtb90 padrl15 txt_f">
+			<h2 class="marb30 pad0 talc fntwei_300 fsz28 sm-fsz32 md-fsz36 lg-fsz40 txt_f">
+				Download Smart Now
+				<div class="wi_50p maxwi_100 hei_4p mart5 marrla bg_f"></div>
+			</h2>
+			<div class="talc lgn_hight_s17 fsz16 xs-fsz14 sm-fsz15">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+			
+			<div class="dflex xs-fxdir_col xs-fxwrap_w lg-fxwrap_w alit_c justc_c marrl-12 padt15 md-padt20 lg-padt30">
+				<a href="#" class="wi_240p hei_60p dflex alit_c justc_c pos_rel zi1 mart15 marrl12 padrl30 bxsh_06150_292627034_h brdrad50 bg_f0f5f9 txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-brand-apple marr8 fsz27"></span>
+					<span>
+						Available on the<br>
+						<big class="fsz18 xs-fsz16">App Store</big>
+					</span>
+				</a>
+				<a href="#" class="wi_240p hei_60p dflex alit_c justc_c pos_rel zi1 mart15 marrl12 padrl30 bxsh_06150_292627034_h brdrad50 bg_f0f5f9 txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-brand-android-robot marr8 fsz27"></span>
+					<span>
+						Available on the<br>
+						<big class="fsz18 xs-fsz16">Google Play</big>
+					</span>
+				</a>
+				<a href="#" class="wi_240p hei_60p dflex alit_c justc_c pos_rel zi1 mart15 marrl12 padrl30 bxsh_06150_292627034_h brdrad50 bg_f0f5f9 txtdec_n lgn_hight_s1 fsz13 txt_708198 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-brand-windows marr8 fsz27"></span>
+					<span>
+						Available on the<br>
+						<big class="fsz18 xs-fsz16">Window Store</big>
+					</span>
+				</a>
+			</div>
+			
+			<div class="dflex fxwrap_w alit_c justc_c padt25 sm-padt45 md-padt55 lg-padt65">
+				<a href="#" class="wi_50p hei_50p dflex alit_c justc_c pos_rel zi1 mart10 marrl5 brdrad100 bg_505762 txtdec_n fsz17 txt_9 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-social-facebook"></span>
+				</a>
+				<a href="#" class="wi_50p hei_50p dflex alit_c justc_c pos_rel zi1 mart10 marrl5 brdrad100 bg_505762 txtdec_n fsz17 txt_9 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-social-twitter"></span>
+				</a>
+				<a href="#" class="wi_50p hei_50p dflex alit_c justc_c pos_rel zi1 mart10 marrl5 brdrad100 bg_505762 txtdec_n fsz17 txt_9 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-social-google-plus"></span>
+				</a>
+				<a href="#" class="wi_50p hei_50p dflex alit_c justc_c pos_rel zi1 mart10 marrl5 brdrad100 bg_505762 txtdec_n fsz17 txt_9 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-social-pinterest"></span>
+				</a>
+				<a href="#" class="wi_50p hei_50p dflex alit_c justc_c pos_rel zi1 mart10 marrl5 brdrad100 bg_505762 txtdec_n fsz17 txt_9 txt_f_h trans_all2">
+					<div class="wi_100 hei_100 opa0 opa1_ph pos_abs zi-1 top0 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
+					<span class="icofont icofont-social-youtube-play"></span>
+				</a>
+			</div>
+			
+			<div class="mart25 talc fsz13 txt_708198">
+				&copy; Copyright 2017 Smart. Designed by <a href="#" class="txtdec_n txt_a549e9">Kalanidhi Themes</a>
+			</div>
+			
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.selectric.js"></script>
+	<script type="text/javascript" src="../../modules.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

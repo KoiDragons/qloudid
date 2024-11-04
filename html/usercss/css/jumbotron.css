@@ -1,0 +1,695 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/opensans_light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans.woff') format('woff');
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.spacer-top {
+    margin-top: 30px !important;
+}
+.clearfix{
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	display: block;
+}
+.clearfix:before{
+	content: '';
+	display: block;
+	clear: both;
+}
+.spacer-bottom-xxs {
+	margin-bottom: 5px !important;
+}
+
+#vex_modal_content{
+	display: none;
+}
+.full-modal a:not(.btn){
+	color: #55aeea;
+}
+ 
+ .tool_item{
+ 	width: 50%;
+ 	float: left;
+ 	padding: 0 15px;
+ }
+
+/* Add a very small space on bottom
+---------------------------- */
+.spacer-bottom-xs {
+	margin-bottom: 10px !important;
+}
+
+/* Add a small space on bottom
+---------------------------- */
+.spacer-bottom-sm {
+	margin-bottom: 15px !important;
+}
+
+/* Add a medium space on bottom
+---------------------------- */
+.spacer-bottom-md {
+	margin-bottom: 20px !important;
+}
+
+/* Add a space on bottom
+---------------------------- */
+.spacer-bottom {
+	margin-bottom: 30px !important;
+}
+
+/* Add a large space on bottom
+---------------------------- */
+.spacer-bottom-lg {
+	margin-bottom: 40px !important;
+}
+
+/* Add a xlarge space on bottom
+---------------------------- */
+.spacer-bottom-xlg {
+	margin-bottom: 50px !important;
+}
+
+/* Add a very small space on left
+---------------------------- */
+.spacer-left-xxs {
+	margin-left: 5px !important;
+}
+
+/* Add a very small space on left
+---------------------------- */
+.spacer-left-xs {
+	margin-left: 10px !important;
+}
+
+/* Add a small space on left
+---------------------------- */
+.spacer-left-sm {
+	margin-left: 15px !important;
+}
+
+/* Add a medium space on left
+---------------------------- */
+.spacer-left-md {
+	margin-left: 20px !important;
+}
+
+/* Add a space on left
+---------------------------- */
+.spacer-left {
+	margin-left: 30px !important;
+}
+
+/* Add a large space on left
+---------------------------- */
+.spacer-left-lg {
+	margin-left: 40px !important;
+}
+
+/* Add a xlarge space on left
+---------------------------- */
+.spacer-left-xlg {
+	margin-left: 50px !important;
+}
+
+/* Add a very small space on right
+---------------------------- */
+.spacer-right-xxs {
+	margin-right: 5px !important;
+}
+
+/* Add a very small space on right
+---------------------------- */
+.spacer-right-xs {
+	margin-right: 10px !important;
+}
+
+/* Add a small space on right
+---------------------------- */
+.spacer-right-sm {
+	margin-right: 15px !important;
+}
+
+/* Add a medium space on right
+---------------------------- */
+.spacer-right-md {
+	margin-right: 20px !important;
+}
+
+/* Add a space on right
+---------------------------- */
+.spacer-right {
+	margin-right: 30px !important;
+}
+
+/* Add a large space on right
+---------------------------- */
+.spacer-right-lg {
+	margin-right: 40px !important;
+}
+
+/* Add a xlarge space on right
+---------------------------- */
+.spacer-right-xlg {
+	margin-right: 50px !important;
+}
+
+/* Add a very small space on top
+---------------------------- */
+.spacer-top-xxs {
+	margin-top: 5px !important;
+}
+
+/* Add a very small space on top
+---------------------------- */
+.spacer-top-xs {
+	margin-top: 10px !important;
+}
+
+/* Add a small space on top
+---------------------------- */
+.spacer-top-sm {
+	margin-top: 15px !important;
+}
+
+/* Add a medium space on top
+---------------------------- */
+.spacer-top-md {
+	margin-top: 20px !important;
+}
+
+/* Add a space on top
+---------------------------- */
+.spacer-top {
+	margin-top: 30px !important;
+}
+
+/* Add a large space on top
+---------------------------- */
+.spacer-top-lg {
+	margin-top: 40px !important;
+}
+
+/* Add a xlarge space on top
+---------------------------- */
+.spacer-top-xlg {
+	margin-top: 50px !important;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn {
+	/* box model properties */
+	padding: 7px 11px;
+	
+	/* typography definitions */
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+	/* background and borders */
+	border-color: #ccc;
+
+	/* additional properties */
+	outline: none;
+	border-radius: 3px;
+	white-space: normal;
+}
+
+/* Default
+---------------------------- */
+
+.btn-default,
+.btn-default:focus {
+	/* typography definitions */
+	color: rgba(0, 0, 0, 0.87);
+	
+	/* background and borders */
+	border-color: #d7d7d8;
+}
+.btn-default:hover,
+.btn-default:active,
+.open .dropdown-toggle.btn-default {
+	/* typography definitions */
+	color: rgba(0, 0, 0, 0.87);
+	
+	/* background and borders */
+	background-color: #f8f8f9;
+	border-color: #d7d7d8;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Primary
+---------------------------- */
+
+.btn-primary,
+.btn-primary:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #4ca4e0; /* [RSL] */
+	border-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary {
+	/* background and borders */
+	background-color: #55aeea; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Success
+---------------------------- */
+
+.btn-success,
+.btn-success:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #1ab394; /* [RSL] */
+	border-color: transparent;
+}
+.btn-success:hover,
+.btn-success:active,
+.open .dropdown-toggle.btn-success {
+	/* background and borders */
+	background-color: #24c1a3; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+.btn-success.disabled, 
+.btn-success[disabled], 
+fieldset[disabled] .btn-success, 
+.btn-success.disabled:hover, 
+.btn-success[disabled]:hover, 
+fieldset[disabled] .btn-success:hover, 
+.btn-success.disabled:focus, 
+.btn-success[disabled]:focus, 
+fieldset[disabled] .btn-success:focus, 
+.btn-success.disabled.focus, 
+.btn-success.focus[disabled], 
+fieldset[disabled] .btn-success.focus, 
+.btn-success.disabled:active, 
+.btn-success[disabled]:active, 
+fieldset[disabled] .btn-success:active, 
+.btn-success.disabled.active, 
+.btn-success.active[disabled], 
+fieldset[disabled] .btn-success.active {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #1ab394; /* [RSL] */
+	border-color: transparent;
+}
+
+/* Info
+---------------------------- */
+
+.btn-info,
+.btn-info:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #23c6c8; /* [RSL] */
+	border-color: transparent;
+}
+.btn-info:hover,
+.btn-info:active,
+.open .dropdown-toggle.btn-info {
+	/* background and borders */
+	background-color: #2dd0d2; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Warning
+---------------------------- */
+
+.btn-warning,
+.btn-warning:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #f37e46; /* [RSL] */
+	border-color: transparent;
+}
+.btn-warning:hover,
+.btn-warning:active,
+.open .dropdown-toggle.btn-warning {
+	/* background and borders */
+	background-color: #fd8850; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Danger
+---------------------------- */
+
+.btn-danger,
+.btn-danger:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #d64d3f; /* [RSL] */
+	border-color: transparent;
+}
+.btn-danger:hover,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+	/* background and borders */
+	background-color: #f56c5e; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Tikky
+---------------------------- */
+
+.btn-tikky,
+.btn-tikky:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #3e576e; /* [RSL] */
+	border-color: transparent;
+}
+.btn-tikky:hover,
+.btn-tikky:active,
+.open .dropdown-toggle.btn-tikky {
+	/* background and borders */
+	background-color: #486178; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Plain
+---------------------------- */
+
+.btn-plain,
+.btn-plain:focus {
+	/* typography definitions */
+	color: #fff;               /* [RSL] */
+	
+	/* background and borders */
+	background-color: #a3b1b2; /* [RSL] */
+	border-color: transparent;
+}
+.btn-plain:hover,
+.btn-plain:active,
+.open .dropdown-toggle.btn-plain {
+	/* background and borders */
+	background-color: #adbbbc; /* [RSL] */
+	border-color: transparent;
+	
+	/* additional properties */
+	box-shadow: none;
+}
+
+/* Button size
+---------------------------- */
+
+.btn-sm,
+.btn-group-sm > .btn, .btn-sm {
+	/* box model properties */
+    padding: 4px 7px;
+	
+	/* typography definitions */
+    font-size: 12px;
+	line-height: 1.4;
+}
+.btn-xs {
+	/* box model properties */
+	padding: 2px 6px;
+	
+	/* typography definitions */
+	font-size: 11px;
+}
+.btn-lg {
+	/* box model properties */
+    padding: 12px 14px;
+	
+	/* typography definitions */
+    font-size: 15px;
+}
+.btn-sm,
+.btn-group-sm > .btn, .btn-sm {
+	/* box model properties */
+    padding: 4px 7px;
+	
+	/* typography definitions */
+    font-size: 12px;
+	line-height: 1.4;
+}
+.btn-xs {
+	/* box model properties */
+	padding: 2px 6px;
+	
+	/* typography definitions */
+	font-size: 11px;
+}
+.btn-lg {
+	/* box model properties */
+    padding: 12px 14px;
+	
+	/* typography definitions */
+    font-size: 15px;
+}
+
+.full-modal {
+	/* box model properties */
+	padding: 10px;
+	
+	/* typography definitions */
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:16px;
+}
+.full-modal h1,.full-modal h2,.full-modal h3,.full-modal h4,.full-modal h5,.full-modal h6, 
+.full-modal .h1, .full-modal .h2, .full-modal .h3, .full-modal .h4, .full-modal .h5, .full-modal .h6 {
+    font-weight: 400;
+    line-height: 1.42857;
+    font-family: 'Open Sans', sans-serif;
+}
+.full-modal p {
+	margin: 0;
+	padding: 0;
+	/* typography definitions */
+	font-size:16px;
+	font-weight:400;
+}
+.full-modal-nav {
+	/* box model properties */
+	margin-top: 20px 30px 0;
+}
+.full-modal-header {
+	/* box model properties */
+	padding: 15px 30px;
+}
+.full-modal-content {
+	/* box model properties */
+	margin: 0 30px 0 30px;
+	padding: 30px;
+	
+	/* background and borders */
+	background: #fff;
+	
+	/* additional properties */
+	border-radius: 4px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+.full-modal-actions {
+	/* box model properties */
+	margin-top: 5px;
+	
+	/* additional properties */
+	float: right;
+}
+
+
+
+.jumbotron {
+	/* background and borders */
+	background: none !important;
+}
+.jumbotron h1 {
+	/* box model properties */
+	margin-top: 5px;
+	padding: 0;
+	
+	/* typography definitions */
+	font-size: 38px; 
+	font-weight: 300; 
+}
+.jumbotron h2 {
+	/* box model properties */
+	margin-top: 5px;
+	
+	/* typography definitions */
+	font-weight: 300;
+}
+.jumbotron h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+
+.jumbotron-white {
+	/* background and borders */
+	
+}
+.jumbotron-dark {
+	/* background and borders */
+	background: #3e4a62 !important;
+	
+	/* typography definitions */
+	color: #fff;
+}
+
+
+.todolist {
+	/* box model properties */
+	list-style: none;
+
+	/* additional properties */
+	margin: 0;
+	padding: 0;
+}
+   
+
+.todolist > li.active > div .todolist-input i:before {
+	/* typography definitions */
+	color: #1ab394;
+
+	/* additional properties */
+	content: "\f058";
+	opacity: 1;
+}
+.todolist > li.active > div .todolist-title a,
+.todolist > li.active > div .todolist-title {
+	/* typography definitions */
+	text-decoration: line-through;
+}
+.todolist > li.active > div .todolist-title a,
+.todolist > li.active > div .todolist-status {
+	/* typography definitions */
+	color: #1ab394;
+}
+.todolist > li {
+	/* box model properties */
+	margin-bottom: -1px;
+	
+	/* background and borders */
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.todolist-input i {
+	/* box model properties */
+	width: 18px;
+
+	/* typography definitions */
+	text-align: center;
+	color: #999;
+}
+.todolist-input, 
+.todolist-title,
+.todolist-status {
+	/* box model properties */
+	display: table-cell;
+	padding: 10px;
+} 
+.todolist-title {
+	/* box model properties */
+	width: 100%;
+}
+.todolist-title,
+.todolist-status {	
+	/* typography definitions */
+	font-size: 12px;
+}
+.todolist-input {	
+	/* typography definitions */
+	font-size: 14px;
+	text-align: center;
+}
+.todolist-lg {
+	
+}
+.todolist-lg .todolist-title,
+.todolist-lg .todolist-status {	
+	/* typography definitions */
+	font-size: 16px;
+}
+.todolist-lg .todolist-input, 
+.todolist-lg .todolist-title,
+.todolist-lg .todolist-status {
+	/* box model properties */
+	padding: 15px 10px;
+}
+.todolist-lg .todolist-input i.fa-lg {
+	/* additional properties */
+	vertical-align: -5%;
+}
+
+

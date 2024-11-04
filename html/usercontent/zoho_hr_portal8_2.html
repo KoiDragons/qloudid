@@ -1,0 +1,1426 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Qmatchup</title>
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="constructor.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="responsive.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/modules.css" />
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		var currentLang = 'sv';
+	</script>
+</head>
+
+<body class="white_bg xs-grey_bg sm-grey_bg">
+
+	<!-- HEADER -->
+	<div class="column_m header header_small bs_bb white_bg">
+		<div class="wi_100 hei_40p xs-pos_fix padtb5 padrl10 white_bg">
+			<div class="visible-xs visible-sm fleft">
+				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
+			</div>
+			<div class="logo hidden-xs hidden-sm marr15">
+				<a href="#"> <img src="images/qmatchup_logo_blue.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+			</div>
+			<div class="hidden-xs hidden-sm fleft padl10">
+				<div class="languages">
+					<a href="#" id="language_selector" class="padrl10"></a>
+					<ul class="wi_100 mar0 pad5 blue_bg">
+						<li class="dblock">
+							<a href="#" class="pad5" data-lang="eng"><img src="images/slide/flag_us.png" width="24" height="16" title="US" alt="US" />
+							</a>
+						</li>
+						<li class="dblock">
+							<a href="#" class="pad5" data-lang="swd"><img src="images/slide/flag_sw.png" width="24" height="16" title="Sweden" alt="Sweden" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fright xs-dnone sm-dnone">
+				<ul class="mar0 pad0">
+					<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="http://www.qmatchup.com/beta/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 blue3_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
+				</ul>
+			</div>
+			<div class="top_menu top_menu_custom mart2">
+				<ul class="menulist">
+					<li class="xs-mar0i sm-mar0i">
+						<a href="#" class="class-toggler" data-target="#menulist-dropdown,#menulist-fade" data-classes="active" data-toggle-type="separate"> <img src="images/top-menu.png" width="26" height="22" class="dblock" /> </a>
+						<ul class="dblocki_a" id="menulist-dropdown">
+							<li>
+								<div class="top_arrow"></div>
+							</li>
+							<li>
+								<!-- MAIN -->
+								<div class="tab-content application_menu pad20" id="tab-main">
+									<ol class="tab-header">
+										<li>
+											<a href="#" data-id="tab-per" class="business_prof">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Personal</a>
+										</li>
+										<li>
+											<a href="#" data-id="tab-bus" class="swedBank">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Business</a>
+										</li>
+									</ol>
+									<div class="clear"></div>
+								</div>
+								<!-- PERSONAL -->
+								<div class="tab-content application_menu pad20" id="tab-per">
+									<ol>
+										<li>
+											<a href="#" class="business_prof">
+												<div><img src="images/product icons/icon-1.png" width="45" height="45" title="" alt="" />
+												</div>Cloud ID</a>
+										</li>
+										<li>
+											<a href="#" class="swedBank">
+												<div><img src="images/product icons/icon-2.png" width="45" height="45" title="" alt="" />
+												</div>Verify</a>
+										</li>
+										<li>
+											<a href="#" class="posted_jobs">
+												<div><img src="images/product icons/icon-3.png" width="45" height="45" title="" alt="" />
+												</div>Activate</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-main"><span></span> Back to Business</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- BUSINESS -->
+								<div class="tab-content application_menu pad20" id="tab-bus">
+									<ol class="tab-header">
+										<li>
+											<a href="#" data-id="tab-bus-cld" class="business_prof">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Cloud ID</a>
+										</li>
+										<li>
+											<a href="#" data-id="tab-bus-vrf" class="swedBank">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Verify</a>
+										</li>
+										<li>
+											<a href="#" data-id="tab-bus-act" class="posted_jobs">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Activate</a>
+										</li>
+										<li>
+											<a href="#" data-id="tab-bus-eng" class="proposals">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Engage </a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-main"><span></span> Back to Qmatchup</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- Cloud ID -->
+								<div class="tab-content application_menu pad20" id="tab-bus-cld">
+									<ol>
+										<li>
+											<a href="#" class="business_prof">
+												<div><img src="images/product icons/icon-4.png" width="45" height="45" title="" alt="" />
+												</div>Business</a>
+										</li>
+										<li>
+											<a href="#" class="swedBank">
+												<div><img src="images/product icons/icon-5.png" width="45" height="45" title="" alt="" />
+												</div>Employees</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- Verify -->
+								<div class="tab-content application_menu pad20" id="tab-bus-vrf">
+									<ol>
+										<li>
+											<a href="#" class="business_prof">
+												<div><img src="images/product icons/icon-6.png" width="45" height="45" title="" alt="" />
+												</div>Basic - Free</a>
+										</li>
+										<li>
+											<a href="#" class="swedBank">
+												<div><img src="images/product icons/icon-7.png" width="45" height="45" title="" alt="" />
+												</div>Full - Paid</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- Activate -->
+								<div class="tab-content application_menu pad20" id="tab-bus-act">
+									<ol class="tab-header">
+										<li>
+											<a href="#" data-id="tab-bus-act-org" class="business_prof">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>By organization</a>
+										</li>
+										<li>
+											<a href="#" data-id="tab-bus-act-ind" class="swedBank">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>By industry</a>
+										</li>
+										<li>
+											<a href="#" data-id="tab-bus-act-top" class="posted_jobs">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>By topic</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- - by organization -->
+								<div class="tab-content application_menu pad20 active" id="tab-bus-act-org" style="display: block;">
+									<ol>
+										<li>
+											<a href="zoho_hr_portal4_subscription.html" class="business_prof">
+												<div><img src="images/product icons/icon-8.png" width="45" height="45" title="" alt="" />
+												</div>HR Portal</a>
+										</li>
+										<li>
+											<a href="zoho_hr_portal4_subscription.html" class="swedBank">
+												<div><img src="images/product icons/icon-9.png" width="45" height="45" title="" alt="" />
+												</div>Sales</a>
+										</li>
+										<li>
+											<a href="zoho_hr_portal4_subscription.html" class="posted_jobs">
+												<div><img src="images/product icons/icon-10.png" width="45" height="45" title="" alt="" />
+												</div>Marketing</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- - by industry -->
+								<div class="tab-content application_menu pad20" id="tab-bus-act-ind">
+									<ol>
+										<li>
+											<a href="#" class="business_prof">
+												<div><img src="images/product icons/icon-11.png" width="45" height="45" title="" alt="" />
+												</div>Telemarketing</a>
+										</li>
+										<li>
+											<a href="#" class="swedBank">
+												<div><img src="images/product icons/icon-1.png" width="45" height="45" title="" alt="" />
+												</div>Lawyers</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- - by topic -->
+								<div class="tab-content application_menu pad20" id="tab-bus-act-top">
+									<ol>
+										<li>
+											<a href="#" class="business_prof">
+												<div><img src="images/product icons/icon-2.png" width="45" height="45" title="" alt="" />
+												</div>Miljöplus</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+									<div class="clear"></div>
+								</div>
+								<!-- Engage -->
+								<div class="tab-content application_menu pad20" id="tab-bus-eng">
+									<ol>
+										<li>
+											<a href="#" class="business_prof">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Employees</a>
+										</li>
+										<li>
+											<a href="#" class="swedBank">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Customers</a>
+										</li>
+										<li>
+											<a href="#" class="posted_jobs">
+												<div><img src="images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+												</div>Suppliers</a>
+										</li>
+									</ol>
+									<div class="padb20">
+										<div class="line"></div>
+									</div>
+									<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+									<div class="clear"></div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="zoho_hr_portal7_subscription.html" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Erbjudande</a> </div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+
+	<div class="column_m pos_rel">
+
+		<!-- SUB-HEADER -->
+		<div class="sub_header white_bg">
+			<div class="wrap maxwi_100 sub_header_brdclr_dblue bs_bb padt5 padrl10">
+
+				<!-- Tab header -->
+				<ul class="dflex hidden-xs hidden-sm alit_s justc_c mar0 pad0">
+					<li class="dflex alself_fs marrl10 padrl5">
+						<div class="minwi_100p pos_rel padr20">
+							<img src="images/icons/tp-active.png" class="wi_auto hei_75p dblock marrla " alt="">
+							<div class="hei_60p pos_abs top0 right0 brdr"></div>
+						</div>
+					</li>
+					<li class="dflex alit_s marrl10 padrl5">
+						<a href="zoho_hr_portal8_0.html" class="minwi_100p dblock padb15 brdb brdwi_3 brdclr_trans brdclr_pred2_h brdclr_pred2_a talc fsz14 fsz15_a txt_f2f1f1 pred2_txt_a">
+							<span class="fa fa-user hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></span>
+							<span class="dblock mart10">My profile</span>
+						</a>
+					</li>
+					<li class="dflex alit_s marrl10 padrl5">
+						<a href="zoho_hr_portal8.html" class="minwi_100p dblock padb15 brdb brdwi_3 brdclr_trans brdclr_pred2_h brdclr_pred2_a talc fsz14 fsz15_a txt_f2f1f1 pred2_txt_a">
+							<span class="fa fa-building-o hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></span>
+							<span class="dblock mart10">Organization</span>
+						</a>
+					</li>
+					<li class="dflex alit_s marrl10 padrl5">
+						<a href="zoho_hr_portal8_1.html" class="minwi_100p dblock padb15 brdb brdwi_3 brdclr_trans brdclr_pred2_h brdclr_pred2_a talc fsz14 fsz15_a txt_f2f1f1 pred2_txt_a">
+							<span class="fa fa-industry hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></span>
+							<span class="dblock mart10">Industrial</span>
+						</a>
+					</li>
+					<li class="dflex alit_s marrl10 padrl5">
+						<a href="zoho_hr_portal8_2.html" class="minwi_100p dblock padb15 brdb brdwi_3 brdclr_trans brdclr_pred2_h brdclr_pred2_a talc fsz14 fsz15_a txt_f2f1f1 pred2_txt_a active">
+							<span class="fa fa-file-text-o hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></span>
+							<span class="dblock mart10">Topic</span>
+						</a>
+					</li>
+					<li class="dflex alit_s marrl10 padrl5">
+						<a href="zoho_hr_portal8_2_newsletter.html" class="minwi_100p dblock padb15 brdb brdwi_3 brdclr_trans brdclr_pred2_h brdclr_pred2_a talc fsz14 fsz15_a txt_f2f1f1 pred2_txt_a">
+							<span class="fa fa-file-text-o hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></span>
+							<span class="dblock mart10">Newsletter</span>
+						</a>
+					</li>
+				</ul>
+
+				<!-- Mobile -->
+				<div class="top_menu top_menu_custom dnone xs-dblock sm-dblock martb15">
+					<ul class="menulist">
+						<li class="xs-mar0i sm-mar0i">
+							<a href="#" class="class-toggler" data-target="#menulist2-dropdown,#menulist2-fade" data-classes="active">
+								<img src="images/top-menu.png" width="26" height="22" class="dblock">
+							</a>
+							<ul class="dblocki_a" id="menulist2-dropdown">
+								<li>
+									<div class="top_arrow"></div>
+								</li>
+								<li>
+									<div class="application_menu pad20">
+										<ol class="tab-header">
+											<li>
+												<a>
+													<img src="images/icons/tp-active.png" width="45" height="45" title="" alt="">
+												</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal8_0.html">
+													<div class="fa fa-star hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></div>
+													My profile
+												</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal8.html">
+													<div class="fa fa-building-o hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></div>
+													Organization
+												</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal8_1.html">
+													<div class="fa fa-industry hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></div>
+													Industrial
+												</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal8_2.html">
+													<div class="fa fa-file-text-o hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></div>
+													Topic
+												</a>
+											</li>
+											<li>
+												<a href="zoho_hr_portal8_2_newsletter.html">
+													<div class="fa fa-file-text-o hei_35p dflex alit_c justc_c talc fsz20 black_txt pred2_txt_ph pred2_txt_pa"></div>
+													Newsletter
+												</a>
+											</li>
+										</ol>
+										<div class="clear"></div>
+									</div>
+
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+
+
+		<!-- Top info -->
+		<div class="scroll-fix column_m container">
+			<div class="scroll-fix-wrap white_bg">
+				<div class="wrap maxwi_100">
+					<ul class="mar0 pad0 padb15 talc fsz15">
+						<li class="diblock marrl10 padrl5"> <a href="#" class="show_popup_modal dblock padtb15 fsz14 fsz15_a txt_f2f1f1 pred2_txt_h pred2_txt_a bold_a" data-target="#sales_popup">Enviroment</a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+
+		<!-- CONTENT -->
+		<div class="column_m container padt10">
+			<div class="wrap maxwi_100 padrl15 md-padrl0 lg-padrl0">
+
+				<!-- Left sidebar -->
+				<div class="wi_240p fleft">
+					<div class="fsz14">
+						<div class="hidden-xs hidden-sm marrl10 padr20">
+							<img src="images/ms.png" class="wi_100 hei_auto dblock brd brdclr_white" />
+						</div>
+
+						<div id="scroll_menu" class="xs-wi_240p sm-wi_240p xs-pos_fixi zi50 xs-top65pi xs-top50pi sm-pos_fixi sm-top65pi sm-top50pi xs-bxsh_2220_03 sm-bxsh_2220_03 padt15 padr20 xs-padr0 sm-padr0 lgtgrey2_bg fsz14 hidden-xs hidden-sm">
+							<ul class="mar0 pad0">
+								<li class="dblock padrb10 padl8">
+									<a href="zoho_hr_portal8_2.html" class="hei_26p dflex alit_c pos_rel padrl10 blue_bg_h green_bg_ai dark_grey_txt white_txt_h white_txt_a active">
+										<span class="fa fa-info-circle wi_20p dnone_pa"></span>
+										<span class="valm">About</span>
+										<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p green_bg rotate45"></div>
+									</a>
+								</li>
+								<li class="dblock padrb10 padl8">
+									<a href="#" class="hei_26p dflex alit_c pos_rel padrl10 blue_bg_h green_bg_ai dark_grey_txt white_txt_h white_txt_a">
+										<span class="fa fa-users wi_20p dnone_pa"></span>
+										<span class="valm">Employees</span>
+										<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p green_bg rotate45"></div>
+									</a>
+								</li>
+								<li class="dblock padrb10 padl8">
+									<a href="#" class="hei_26p dflex alit_c pos_rel padrl10 blue_bg_h green_bg_ai dark_grey_txt white_txt_h white_txt_a">
+										<span class="fa fa-cube wi_20p dnone_pa"></span>
+										<span class="valm">Products</span>
+										<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p green_bg rotate45"></div>
+									</a>
+								</li>
+								<li class="dblock padrb10 padl8">
+									<a href="zoho_hr_portal8_2_jobs.html" class="hei_26p dflex alit_c pos_rel padrl10 blue_bg_h green_bg_ai dark_grey_txt white_txt_h white_txt_a">
+										<span class="fa fa-gear wi_20p dnone_pa"></span>
+										<span class="valm">Jobs</span>
+										<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p green_bg rotate45"></div>
+									</a>
+								</li>
+								<li class="dblock padrb10 padl8">
+									<a href="#" class="hei_26p dflex alit_c pos_rel padrl10 blue_bg_h green_bg_ai dark_grey_txt white_txt_h white_txt_a">
+										<span class="fa fa-retweet wi_20p dnone_pa"></span>
+										<span class="valm">Resellers</span>
+										<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p green_bg rotate45"></div>
+									</a>
+								</li>
+								<li class="dblock padrb10 padl8">
+									<a href="#" class="hei_26p dflex alit_c pos_rel padrl10 blue_bg_h green_bg_ai dark_grey_txt white_txt_h white_txt_a">
+										<span class="fa fa-star wi_20p dnone_pa"></span>
+										<span class="valm">Preferred supplier</span>
+										<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p green_bg rotate45"></div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Center content -->
+				<div class="wi_720p col-xs-12 col-sm-12 fleft pos_rel">
+
+					<!-- About us -->
+					<div class="marrl10 white_bg">
+						<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20 bxsh_0060_03 brdrad1 fsz14 dark_grey_txt">
+							<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+								<div class="wi_100 pos_abs xs-pos_sta top0 right0">
+									<div class="dflex alit_c justc_fe mart-10 marr-10">
+										<div class="pos_rel">
+											<a href="#" class="show_popup_modal dblock opa50 opa1_h pad10 trans_opa2" data-target="#collaborators-modal">
+												<img src="images/icons/add-person-to-group-24.svg">
+											</a>
+											<div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenX padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2">
+												<span class="dblock padrl8">Add collaborator</span>
+											</div>
+										</div>
+										<div class="pos_rel">
+											<a href="#" class="show_popup_modal dblock opa50 opa1_h pad10 trans_opa2" data-target="#reset-pass-modal">
+												<img src="images/icons/reset-password-24.svg">
+											</a>
+											<div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenX padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2">
+												<span class="dblock padrl8">Reset password</span>
+											</div>
+										</div>
+										<div class="pos_rel">
+											<a href="#" class="class-toggler dblock opa50 opa1_h pad10 trans_opa2" data-target="#organization-move,#organization-move-fade" data-classes="active">
+												<img src="images/icons/move-to-another-organization-24.svg">
+											</a>
+											<div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenX padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2">
+												<span class="dblock padrl8">Move to another organization</span>
+											</div>
+											<div class="wi_270p dnone dblocki_a pos_abs zi40 top100 right-20p xxs-right-100p pad10 bxsh_02100_105112113_05 brd bg_f" id="organization-move">
+												<h2 class="mar0 padtrl8 padb0 fsz20">Move to organization</h2>
+												<div class="minhei_180p padt10 padrl6">
+													<div class="pos_rel mart10">
+														<a href="#" class="dblock pad8 bg_f bg_e5_h txt_0 trans_all2">qmatchup.com</a>
+														<div class="opa0_nsibh opa50 pos_abs zi1 top100 pos_cenX padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2">
+															<span class="dblock padrl8">qmatchup.com</span>
+															<span class="dblock padrl8">qmatchup.com</span>
+														</div>
+													</div>
+												</div>
+												<div class="brdt">
+													<a href="#" class="chained-trigger wi_100 dblock pad10 bg_e5_h uppercase talc bold fsz13 txt_0 trans_all2" data-targets=".show_popup_modal,.class-toggler" data-actions="click">Create new</a>
+													<a href="#" class="show_popup_modal dnone" data-target="#new-organization-modal">Show modal</a>
+													<a href="#" class="class-toggler dnone" data-target="#organization-move,#organization-move-fade" data-classes="active">Close popup</a>
+												</div>
+											</div>
+										</div>
+										<div class="pos_rel">
+											<a href="#" class="class-toggler dblock opa50 opa1_h pad10 trans_opa2" data-target="#add-userto-group,#add-userto-group-fade" data-classes="active">
+												<img src="images/icons/add-person-to-group-24.svg">
+											</a>
+											<div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenX padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2">
+												<span class="dblock padrl8">Add user to group</span>
+											</div>
+											<div class="wi_300p maxwi_100vw-45p dnone dblocki_a pos_abs zi40 top100 right-20p xxs-right-50p pad10 bxsh_02100_105112113_05 brd bg_f" id="add-userto-group">
+												<h2 class="mar0 padtrl8 padb0 fsz20">Add to group</h2>
+												<form>
+													<div class="minhei_200p dflex fxdir_col padt10 padrl6">
+														<div class="wi_100 fxshrink_0 pos_rel mart10">
+															<span class="fa fa-search pos_abs pos_cenY left0 padt1 txt_6"></span>
+															<label id="add-to-group-search" class="sr-only">Search group by email address</label>
+															<input type="search" name="search" id="add-to-group-search" class="wi_100 mart5 padtb10 padr0 padl20 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Search group by email address" />
+														</div>
+														<div class="dflex flex_1 justc_c alit_c fsz20 txt_0">
+															<span>No groups found</span>
+														</div>
+													</div>
+												</form>
+												<div class="brdt">
+													<a href="#" class="wi_100 dblock pad10 bg_e5_h uppercase talc bold fsz13 txt_0 trans_all2">Manage groups</a>
+												</div>
+											</div>
+										</div>
+										<div class="pos_rel">
+											<a href="#" class="class-toggler dblock opa50 opa1_h pad10 trans_opa2" data-target="#more,#more-fade" data-classes="active">
+												<img src="images/icons/more.svg">
+											</a>
+											<div class="wi_120p dnone dblocki_a pos_abs zi40 top100 right-20p bxsh_02100_105112113_05 brd bg_f" id="more">
+												<div>
+													<a href="#" class="chained-trigger wi_100 dblock pad15 bg_e7e9f5_h fsz14 txt_0 trans_all2" data-targets=".show_popup_modal,.class-toggler" data-actions="click">Rename</a>
+													<a href="#" class="show_popup_modal dnone" data-target="#more-rename-modal">Show modal</a>
+													<a href="#" class="class-toggler dnone" data-target="#more,#more-fade" data-classes="active">Close popup</a>
+												</div>
+												<div>
+													<a href="#" class="chained-trigger wi_100 dblock pad15 bg_e7e9f5_h fsz14 txt_0 trans_all2" data-targets=".show_popup_modal,.class-toggler" data-actions="click">Restore data</a>
+													<a href="#" class="show_popup_modal dnone" data-target="#more-restore-modal">Show modal</a>
+													<a href="#" class="class-toggler dnone" data-target="#more,#more-fade" data-classes="active">Close popup</a>
+												</div>
+												<div>
+													<a href="#" class="chained-trigger wi_100 dblock pad15 bg_e7e9f5_h fsz14 txt_0 trans_all2" data-targets=".show_popup_modal,.class-toggler" data-actions="click">Suspend</a>
+													<a href="#" class="show_popup_modal dnone" data-target="#more-suspend-modal">Show modal</a>
+													<a href="#" class="class-toggler dnone" data-target="#more,#more-fade" data-classes="active">Close popup</a>
+												</div>
+												<div>
+													<a href="#" class="chained-trigger wi_100 dblock pad15 bg_e7e9f5_h fsz14 txt_0 trans_all2" data-targets=".show_popup_modal,.class-toggler" data-actions="click">Delete</a>
+													<a href="#" class="show_popup_modal dnone" data-target="#more-delete-modal">Show modal</a>
+													<a href="#" class="class-toggler dnone" data-target="#more,#more-fade" data-classes="active">Close popup</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="idcard_header wi_100 xs-wi_70 xs-order_2 bs_bb marb10 xs-padl5 sm-padl5">
+									<h2 class="dnone xs-dblock padb15 uppercase bold fsz18">Cloud ID Business</h2>
+									<div>
+										<img src="images/flag.png" width="40" class="marr5 valm">
+										<span class="valm bold xs-nobold fsz24 xs-fsz15">Business</span>
+										<span class="dblock xs-dnone bold fsz14">Cloud ID</span>
+									</div>
+									<div class="dnone xs-dblock mart10">
+										<img src="images/score.png" width="40" class="marr5 valm">
+										<span class="valm bold xs-nobold fsz24 xs-fsz15">100/70</span>
+									</div>
+								</div>
+								<!--<div class="clear hidden-xs"></div>-->
+								<div class="wi_30 xs-order_1">
+									<img src="images/ms.png" class="wi_100 hei_auto dblock brd brdwi_2 brdclr_lightgrey" />
+									<div class="hidden-xs mart10 bold talc uppercase fsz16"> Veteran </div>
+								</div>
+								<div class="wi_70 xs-wi_100 xs-order_3 xs-padt10 fsz12">
+									<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span class="bold">Company identification number</span> <span class="editable edit-text jain dblock brdb brdclr_lgtgrey2 fsz20">125113</span> </div>
+									<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span class="bold">Company name</span> <span class="editable edit-text jain1 dblock brdb brdclr_lgtgrey2 fsz16">Qmatchup Inc</span> </div>
+									<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span class="bold">Industry</span> <span class="edit-select dblock brdb brdclr_lgtgrey2 curp fsz16" data-options="Staffing & Recruiting">Staffing & Recruiting</span> </div>
+									<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span class="bold">Visiting address</span> <span class="editable edit-address dblock brdb brdclr_lgtgrey2 fsz16">Sweden</span> </div>
+									<div class="container marrl-2 padl15 xs-pad0">
+										<div class="fleft wi_50 bs_bb padrl2"> <span class="bold">Zipcode</span> <span class="editable edit-text jain11 dblock brdb brdclr_lgtgrey2 uppercase curt fsz16">-</span> </div>
+										<div class="fleft wi_50 bs_bb padrl2"> <span class="bold">City</span> <span class="editable  edit-text jain12 dblock brdb brdclr_lgtgrey2 uppercase wordb_ba curt fsz16">-</span> </div>
+										<div class="clear marb10"></div>
+
+										<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span class="bold">Founded</span> <span class="editable edit-datepicker jain2 dblock brdb brdclr_lgtgrey2 uppercase curp fsz16">01/03/2017</span> </div>
+										<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span class="bold">Annual Turnover</span> <span class="editable edit-select jain4 dblock brdb brdclr_lgtgrey2 uppercase curp fsz16" data-options="0,< 1 tkr, 1 - 499 tkr, 500 - 999 tkr, 1000 - 9999 tkr, 10 000 - 49 999 tkr, 50 000 - 499 999 tkr, > 499 999 tkr">< 1 tkr</span> </div>
+										<div class="clear visible-xs visible-sm marb10"></div>
+										<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span class="bold">Employee Size</span> <span class="editable edit-select jain5 dblock brdb brdclr_lgtgrey2 uppercase curp fsz16" data-options="0,1 - 4,5 - 9,10 - 19,20 - 49,50 - 99,100 - 199,200 - 999,> 1000">5 - 9</span> </div>
+										<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span class="bold">Validated Until</span> <span class="editable edit-datepicker jain3 dblock brdb brdclr_lgtgrey2 uppercase curp fsz16">01/04/2017</span> </div>
+										<div class="clear visible-xs visible-sm marb10"></div>
+
+										<input type="hidden" id="company_id" value="1" />
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="qapscore_bord hidden-xs" style="position: absolute;z-index: 1;top: 130px;right: 40px;">
+									<div class="score">100</div>
+									<div class="score scorelevel">75</div>
+								</div>
+								<!--<div class="clear hidden-xs"></div>-->
+
+								<div class="right_number hidden-xs bold talc fsz14"> <span>5500040N</span> </div>
+								<!-- <div class="clear hidden-xs"></div>-->
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					
+					<div class="hei_10p marrl10 lgtgrey_bg"></div>
+					
+					<!-- Contact us -->
+					<div class="marrl10 white_bg">
+						<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20 bxsh_0060_03 brdrad1 fsz14 dark_grey_txt">
+							<h2 class="mar0 marb10 pad0 fsz26 txt_007dbb">Här finns vi</h2>
+							<div class="marb25 padb15 brdb">
+								<form>
+									<label for="form-location">Select Location</label>
+									<select name="location" class="wi_100 maxwi_200p dblock mart5 pad10 bxsh_i023_0_01 brd brdclr_c brdrad2 bg_f7 fsz14">
+										<option value="Argentina">Argentina</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Bangladesh">Bangladesh</option><option value="Belgium">Belgium</option><option value="Bolivia">Bolivia</option><option value="Brazil">Brazil</option><option value="Canada">Canada</option><option value="Chile">Chile</option><option value="Colombia">Colombia</option><option value="Costa Rica">Costa Rica</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Finland">Finland</option><option value="France">France</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Greece">Greece</option><option value="Guatemala">Guatemala</option><option value="Honduras">Honduras</option><option value="Hungary">Hungary</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Ireland">Ireland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Japan">Japan</option><option value="Kenya">Kenya</option><option value="Korea">Korea</option><option value="Latvia">Latvia</option><option value="Maghreb">Maghreb</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Mashreq">Mashreq</option><option value="Mexico">Mexico</option><option value="Netherlands">Netherlands</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Nigeria">Nigeria</option><option value="Norway">Norway</option><option value="Pakistan">Pakistan</option><option value="Panama">Panama</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="South Africa">South Africa</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Taiwan">Taiwan</option><option value="Thailand">Thailand</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Turkey">Turkey</option><option value="USA">USA</option><option value="Ukraine">Ukraine</option><option value="Unilever headquarters">Unilever headquarters</option><option value="United Kingdom">United Kingdom</option><option value="Uruguay">Uruguay</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>
+									</select>
+								</form>
+							</div>
+							<div>
+								<h3 class="mar0 marb10 pad0 uppercase bold fsz20 txt_004976">Argentina</h3>
+								<div id="gmap" class="wi_100 hei_290p bxsh_014_0_03 brdrad5" data-lat="29.7280456" data-lng="-95.52129709999997" data-zoom="17" data-title="Metropolis"></div>
+								<div class="dflex fxwrap_w alit_s marrl-15">
+									<div class="wi_50 xs-wi_100 mart15 padrl15 brdr xs-nobrd">
+										<p>Unilever de Argentina S.A.<br>Alf. H. Bouchard 4191<br>(B1605BNA)<br>Munro, Pdo. de Vicente López<br>Pcia. de Buenos Aires</p>
+									</div>
+									<div class="wi_50 xs-wi_100 mart15 padrl15">
+										<p>
+											<a href="tel:+08008886666">0800-888-6666</a><br>
+											<a href="//www.unilever.com.ar/" title="www.unilever.com.ar Link opens in a new window" target="_blank" class="external">www.unilever.com.ar</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+					<div class="hei_10p marrl10 lgtgrey_bg"></div>
+
+					<!-- Other -->
+					<div class="bs_bb padrl10">
+						<div class="dflex fxwrap_w padb10 padrl5 lgtgrey2_bg">
+
+							<div class="wi_50 xs-wi_100 padtb10 padrl10">
+								<h3 class="padtb10 fsz28">Lånedetaljer</h3>
+								<ul class="mar0 pad0">
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Lånebelopp:</strong>
+										<span class="talr">1 000 000 SEK</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Löptid:</strong>
+										<span class="talr">36 månader</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Amortering:</strong>
+										<span class="talr">0%</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Säkerhet:</strong>
+										<span class="talr">Pant i fastighet,  Moderbolagsborgen</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Syfte:</strong>
+										<span class="talr">Investeringskapital</span>
+									</li>
+								</ul>
+							</div>
+
+							<div class="wi_50 xs-wi_100 padtb10 padrl10">
+								<h3 class="padtb10 fsz28">Företagsinformation</h3>
+								<ul class="mar0 pad0">
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Legalt bolagsnamn:</strong>
+										<span class="talr">Stenbacksskolan 5 AB</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Företagsform:</strong>
+										<span class="talr">AB</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Registreringsår:</strong>
+										<span class="talr">1 april 2015</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Verksamhet:</strong>
+										<span class="talr">Uthyrning och förvaltning a...</span>
+									</li>
+									<li class="wi_100 dflex justc_sb mar0 pad0 padtb8 brdb">
+										<strong>Säte:</strong>
+										<span class="talr">Örebro län</span>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Statistic -->
+					<div class="marrl10 padt40 xxs-padt0 padb20 xxs-padb0 white_bg">
+
+						<!-- Locations -->
+						<div class="dflex fxwrap_w alit_s bsa_bb fsz14 xs-fsz15">
+
+							<div class="wi_30 xs-wi_100 xxs-padt40 padrl10">
+								<h3 class="xs-dnone marb20 pad0 brdb fsz15">
+										<span class="dblock padb15 brdb brdwi_3 brdclr_trans">Contact</span>
+									</h3>
+								<h2 class="dnone xs-dblock padb15 talc bold fsz28">Contact</h2>
+
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-phone wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="tel:+71234567890" class="dark_grey_txt">+7 123 456 78 90</a>
+								</div>
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-envelope wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="mailto:test@test.com" class="dark_grey_txt">test@test.com</a>
+								</div>
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-globe wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="http://google.com" class="dark_grey_txt" target="_blank">google.com</a>
+								</div>
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-facebook-square wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="http://google.com" class="marr10 dark_grey_txt" target="_blank">Facebook</a>
+									<a href="#" class="show_popup_modal" data-target="#social-modal">+Add</a> <span class="marrl5">/</span> <a href="#" class="show_popup_modal" data-target="#social-modal">Create</a>
+								</div>
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-twitter-square wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="http://google.com" class="marr10 dark_grey_txt" target="_blank">Twitter</a>
+									<a href="#" class="show_popup_modal" data-target="#social-modal">+Add</a> <span class="marrl5">/</span> <a href="#" class="show_popup_modal" data-target="#social-modal">Create</a>
+								</div>
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-instagram wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="http://google.com" class="marr10 dark_grey_txt" target="_blank">Instagram</a>
+									<a href="#" class="show_popup_modal" data-target="#social-modal">+Add</a> <span class="marrl5">/</span> <a href="#" class="show_popup_modal" data-target="#social-modal">Create</a>
+								</div>
+								<div class="dflex alit_c marb20">
+									<span class="fa fa-linkedin-square wi_20p fxshrink_0 marr5 fsz14 linkblue_txt"></span>
+									<a href="http://google.com" class="marr10 dark_grey_txt" target="_blank">LinkedIn</a>
+									<a href="#" class="show_popup_modal" data-target="#social-modal">+Add</a> <span class="marrl5">/</span> <a href="#" class="show_popup_modal" data-target="#social-modal">Create</a>
+								</div>
+							</div>
+
+							<div class="wi_70 xs-wi_100 brdl xs-nobrd">
+
+								<div class="xs-dnone padrl10">
+									<ul class="tab-header mar0 marb20 pad0 brdb fsz15">
+										<li class="diblock marr20 padrl10">
+											<a href="#" class="diblock padb15 brdb brdwi_3 brdclr_trans brdclr_dblue_h brdclr_dblue_a grey_txt dblue_txt_a active" data-id="tab-Business">Business info</a>
+										</li>
+										<li class="diblock marr20 padrl10">
+											<a href="#" class="diblock padb15 brdb brdwi_3 brdclr_trans brdclr_dblue_h brdclr_dblue_a grey_txt dblue_txt_a" data-id="tab-Mission">Mission</a>
+										</li>
+										<li class="diblock marr20 padrl10">
+											<a href="#" class="diblock padb15 brdb brdwi_3 brdclr_trans brdclr_dblue_h brdclr_dblue_a grey_txt dblue_txt_a" data-id="tab-Vision">Vision</a>
+										</li>
+										<li class="diblock marr20 padrl10">
+											<a href="#" class="diblock padb15 brdb brdwi_3 brdclr_trans brdclr_dblue_h brdclr_dblue_a grey_txt dblue_txt_a" data-id="tab-CSR">CSR</a>
+										</li>
+									</ul>
+								</div>
+
+								<!-- Business info -->
+								<div class="tab-content dnone xs-dblock_i padrl10 xs-padt40 xs-padb20 xs-white_bg" id="tab-Business">
+									<h2 class="dnone xs-dblock padb15 tall bold fsz18">Business info</h2>
+									<p>Ok this post is going to definitely be off topic!! But since I know you guys better, here we go.</p>
+									<div class="dnone sm-dblocki md-dblocki lg-dblocki" id="business-rm">
+										<p>Recently bought the base EU4 and I know there are a ton of EU4 players here. What are your opinions of the DLCs? Essentials and those that aren't worth a damn.</p>
+										<p>Note: I am aware there is a group for EU4, but I kind of know you guys. Bear with me and I will delete this post once I get the info I need. Thanks you guys are awesome.</p>
+									</div>
+									<div class="dnone xs-dblock padt20 brdt talc bold fsz18">
+										<a href="#" class="toggle-btn" data-toggle-id="business-rm">Visa detaljer</a>
+									</div>
+								</div>
+
+								<!-- Mission -->
+								<div class="tab-content dnone xs-dblock_i padrl10 xs-padt40 xs-padb20" id="tab-Mission">
+									<h2 class="dnone xs-dblock padb15 tall bold fsz18">Mission</h2>
+									<p>Recently bought the base EU4 and I know there are a ton of EU4 players here. What are your opinions of the DLCs? Essentials and those that aren't worth a damn.</p>
+									<div class="dnone sm-dblocki md-dblocki lg-dblocki" id="mission-rm">
+										<p>Note: I am aware there is a group for EU4, but I kind of know you guys. Bear with me and I will delete this post once I get the info I need. Thanks you guys are awesome.</p>
+										<p>Ok this post is going to definitely be off topic!! But since I know you guys better, here we go.</p>
+									</div>
+									<div class="dnone xs-dblock padt20 brdt talc bold fsz18">
+										<a href="#" class="toggle-btn" data-toggle-id="mission-rm">Visa detaljer</a>
+									</div>
+								</div>
+
+								<!-- Vision -->
+								<div class="tab-content dnone xs-dblock_i padrl10 xs-padt40 xs-padb20 xs-white_bg" id="tab-Vision">
+									<h2 class="dnone xs-dblock padb15 tall bold fsz18">Vision</h2>
+									<p>Note: I am aware there is a group for EU4, but I kind of know you guys. Bear with me and I will delete this post once I get the info I need. Thanks you guys are awesome.</p>
+									<div class="dnone sm-dblocki md-dblocki lg-dblocki" id="vision-rm">
+										<p>Ok this post is going to definitely be off topic!! But since I know you guys better, here we go.</p>
+										<p>Recently bought the base EU4 and I know there are a ton of EU4 players here. What are your opinions of the DLCs? Essentials and those that aren't worth a damn.</p>
+									</div>
+									<div class="dnone xs-dblock padt20 brdt talc bold fsz18">
+										<a href="#" class="toggle-btn" data-toggle-id="vision-rm">Visa detaljer</a>
+									</div>
+								</div>
+
+								<!-- CSR -->
+								<div class="tab-content dnone xs-dblock_i padrl10 xs-padt40 xs-padb20" id="tab-CSR">
+									<h2 class="dnone xs-dblock padb15 tall bold fsz18">CSR</h2>
+									<p>Ok this post is going to definitely be off topic!! But since I know you guys better, here we go.</p>
+									<div class="dnone sm-dblocki md-dblocki lg-dblocki" id="csr-rm">
+										<p>Recently bought the base EU4 and I know there are a ton of EU4 players here. What are your opinions of the DLCs? Essentials and those that aren't worth a damn.</p>
+										<p>Note: I am aware there is a group for EU4, but I kind of know you guys. Bear with me and I will delete this post once I get the info I need. Thanks you guys are awesome.</p>
+									</div>
+									<div class="dnone xs-dblock padt20 brdt talc bold fsz18">
+										<a href="#" class="toggle-btn" data-toggle-id="csr-rm">Visa detaljer</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="clear"></div>
+
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="hei_80p"></div>
+
+	</div>
+
+	<!-- Social modal -->
+	<div class="popup_modal wi_400p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="social-modal">
+		<div class="modal-content pad25 brd nobrdb">
+			<form>
+				<h3 class="marb25 pad0 uppercase talc bold fsz16 dark_grey_txt">Connect to social contact</h3>
+				<div class="marb15">
+					<label>
+						<span>Name</span>
+						<input type="text" name="name" class="wi_100 mart5 pad10 brd" />
+					</label>
+				</div>
+				<div class="marb15">
+					<label>
+						<span>Password</span>
+						<input type="password" name="password" class="wi_100 mart5 pad10 brd" />
+					</label>
+				</div>
+				<div class="talc">
+					<button type="submit" class="dblue_btn">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<!-- Add collaborators modal -->
+	<div class="popup_modal wi_600p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb bxsh_0350_0_2 brdrad1 white_bg fsz14 txt_0_87" id="collaborators-modal">
+        <div class="modal-header padtrl15">
+            <h3 class="pos_rel mar0 pad0 padb15 brdb lgn_hight_19 bold fsz18 dark_grey_txt">
+                Collaborators
+            </h3>
+        </div>
+		<div class="modal-content pad15">
+			<div id="collaborators-container">
+				<div class="collaborator-row dflex alit_c pos_rel">
+					<div class="wi_40p hei_40p dflex fxshrink_0 alit_c justc_c bxsh_0111_001 brd brdwi_2 brdclr_f brdrad50 bg_ff7a59 uppercase fsz20 txt_f">K</div>
+					<div class="flex_1 padr40 padl15 fsz13">
+						<div>
+							<strong>Kowaken Ghirmai</strong>
+							<i>(owner)</i>
+						</div>
+						<div class="txt_0_54">kowaken.ghirmai@qmatchup.com</div>
+					</div>
+				</div>
+			</div>
+			<form id="collaborators-form">
+				<div class="dflex alit_c pos_rel mart10">
+					<div class="wi_40p hei_40p dflex fxshrink_0 alit_c justc_c brd brdclr_7f brdrad50 uppercase fsz20 txt_f">
+						<img src="images/icons/add-person.svg" width="18" height="24" class="dblock opa50" alt="Collaborator" />
+					</div>
+					<div class="flex_1 padr40 padl15 fsz13">
+						<input type="text" name="name" id="collaborators-lookup" class="wi_100 dblock nobrd" placeholder="Person or email to share with" />
+                        <div class="dnone dblock_pa pos_abs pos_cenY right0">
+                            <button type="submit" class="dblock opa50 opa1_h mar0 pad3 nobrd bg_trans curp trans_opa2">
+                                <img src="images/icons/check.svg" width="18" height="18" class="dblock">
+                            </button>
+                            <div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2">
+                                <span class="dblock padrl8">Add collaborator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</form>
+        </div>
+        <div class="modal-footer mart5 padtb10 padrl15 bg_ed talr">
+			<button type="button" class="close_popup_modal marl5 padtb5 padrl15 nobrd brdrad3 trans_bg bg_0_08_h uppercase bold fsz13 txt_0_87 curp trans_all2">Cancel</button>
+			<button type="submit" class="marl5 padtb5 padrl15 nobrd brdrad3 trans_bg bg_0_08_h uppercase bold fsz13 txt_0_87 curp trans_all2">Save</button>
+        </div>
+	</div>
+
+	<!-- Reset password modal -->
+	<div class="popup_modal wi_600p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="reset-pass-modal">
+		<div class="modal-content pad25 brd">
+
+			<h3 class="pos_rel marb25 pad0 padr40 bold fsz20 dark_grey_txt">
+				Reset password
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+			<div class="tab-header">
+				<a href="#" class="ws_now txt_0_a active" data-id="reset-pass-set">Set password</a>
+				<span class="padrl5">|</span>
+				<a href="#" class="ws_now txt_0_a" data-id="reset-pass-auto">Auto-generate password</a>
+			</div>
+
+			<div class="tab-content padt20" id="reset-pass-set">
+				<form>
+					<div class="wi_100 minhei_190p padb15">
+						<div class="dflex fxwrap_w alit_fs padb5">
+							<div class="wi_175p maxwi_100 marr15 marb15">
+								<label for="reset-pass-password" class="sr-only">Password</label>
+								<input type="password" name="password" id="reset-pass-password" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Type Password" />
+							</div>
+							<div class="wi_175p maxwi_100 marr15 marb15">
+								<label for="reset-pass-retype" class="sr-only">Password</label>
+								<input type="password" name="retype-password" id="reset-pass-retype" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Retype Password" />
+							</div>
+						</div>
+						<div class="marb25">
+							<span>Password strength:</span>
+							<span class="password-strength"></span>
+							<div class="wi_175p maxwi_100 mart5 bg_e0">
+								<div class="maxwi_100 hei_3p" data-weak="bg_fc3" data-good="bg_69c" data-strong="bg_008000"></div>
+							</div>
+						</div>
+						<label>
+							<input type="checkbox" name="require-change" value="1" />
+							<span class="marl5">Require a change of password in the next sign in</span>
+						</label>
+					</div>
+					<div class="talr">
+						<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+						<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="tab-content padt20" id="reset-pass-auto">
+				<form>
+					<div class="wi_100 minhei_190p padb15">
+						<div class="dflex fxwrap_w alit_fs padb10">
+							<div class="wi_175p maxwi_100 marr15 marb15">
+								<input type="password" name="password" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f trans_bg font_helvetica" value="qweqweqweqwe" disabled />
+							</div>
+							<div class="wi_175p maxwi_100 marr15 marb15">
+								<input type="password" name="retype-password" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f trans_bg font_helvetica" value="qweqweqweqwe" disabled />
+							</div>
+						</div>
+						<label>
+							<input type="checkbox" name="require-change" value="1" />
+							<span class="marl5">Require a change of password in the next sign in</span>
+						</label>
+					</div>
+					<div class="talr">
+						<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+						<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Submit</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- New organization modal -->
+	<div class="popup_modal wi_430p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="new-organization-modal">
+		<div class="modal-content pad25 brd">
+			<h3 class="pos_rel marb15 pad0 padr40 bold fsz20 dark_grey_txt">
+				Create new organization
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+			<form>
+				<div class="marb15">
+					<label for="new-organization-name" class="sr-only">Name of the organization</label>
+					<input type="text" name="name" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Name of the organization" />
+				</div>
+				<div class="marb15">
+					<label for="new-organization-description" class="sr-only">Description (optional)</label>
+					<textarea row="3" name="name" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Description (optional)"></textarea>
+				</div>
+				<div class="marb15 padt15">
+					<label for="new-organization-under" class="txt_0">Place this organization under:</label>
+					<select name="name" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica">
+						<option value="1">qmatchup.com</option>
+						<option value="2">google.com</option>
+						<option value="3">yandex.ru</option>
+					</select>
+				</div>
+				<div class="mart30 talr">
+					<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+					<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Create Organization</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- More - rename -->
+	<div class="popup_modal wi_640p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="more-rename-modal">
+		<div class="modal-content pad25 brd">
+
+			<h3 class="pos_rel marb25 pad0 padr40 bold fsz20 dark_grey_txt">
+				Rename user
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+
+			<div class="marb30">
+				Before renaming this user, ask the user to sign out of his or her account. After you rename this user:
+				<ul class="padl15">
+					<li>All contacts in the user's Google Talk chat list are removed.</li>
+					<li>The user might not be able to use chat for up to 3 days.</li>
+					<li>The rename operation can take up to 10 minutes.</li>
+					<li>The user's current address (bot-first@spam1-samf.com) becomes an alias to ensure email delivery.</li>
+					<li>The new name might not be available for up to 10 minutes.</li>
+				</ul>
+			</div>
+
+			<form>
+				<div class="wi_100 minhei_190p padb15">
+					<div class="dflex fxwrap_w alit_fs padb5">
+						<div class="wi_175p maxwi_100 marr15 marb15">
+							<label for="more-rename-fname" class="">First name</label>
+							<input type="text" name="first-name" id="more-rename-fname" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" value="Kowaken" />
+						</div>
+						<div class="wi_175p maxwi_100 marr15 marb15">
+							<label for="more-rename-lname" class="">Last name</label>
+							<input type="text" name="last-name" id="more-rename-lname" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" value="Ghirmai" />
+						</div>
+					</div>
+					<div class="wi_365p maxwi_100 dflex alit_fe padb5">
+						<div class="flex_1 marb15">
+							<label for="more-rename-fname" class="">Primary email address</label>
+							<input type="text" name="first-name" id="more-rename-fname" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" value="Kowaken" />
+						</div>
+						<div class="fxshrink_0 marb15 padb10">
+							<span>@qmatchup.com</span>
+						</div>
+					</div>
+				</div>
+				<div class="talr">
+					<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+					<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Rename user</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<!-- More - restore -->
+	<div class="popup_modal wi_550p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="more-restore-modal">
+		<div class="modal-content pad25 brd">
+
+			<h3 class="pos_rel marb25 pad0 padr40 bold fsz20 dark_grey_txt">
+				Restore data
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+			<form>
+				<div class="marb30">
+					<p>Select data range and target services for data restore. <a href="#">Learn more</a>
+					</p>
+
+					<div class="wi_100 dflex xxs-fxwrap_w alit_c marb20 padb5">
+						<div class="wi_50 xxs-wi_100 maxwi_100 flex_1 pos_rel marr15 marb15">
+							<label for="more-restore-from" class="sr-only">From date</label>
+							<input type="text" name="from" id="more-restore-from" class="datepicker2 wi_100 mart5 padtbl10 padr30 brd brdclr_dblue_f font_helvetica" placeholder="From" />
+							<span class="fa fa-calendar-o pos_abs zi2 pos_cenY right8p padt1"></span>
+						</div>
+						<div class="wi_50 xxs-wi_100 maxwi_100 flex_1 pos_rel marr15 marb15">
+							<label for="more-restore-to" class="sr-only">To date</label>
+							<input type="text" name="to" id="more-restore-to" class="datepicker2 wi_100 mart5 padtbl10 padr30 brd brdclr_dblue_f font_helvetica" placeholder="To" />
+							<span class="fa fa-calendar-o pos_abs zi2 pos_cenY right8p padt1"></span>
+						</div>
+						<div class="fxshrink_0 marb15">
+							GMT+2:00
+						</div>
+					</div>
+
+					<div class="padtb5">
+						<label>
+							<input type="radio" name="source" value="drive" />
+							<img src="images/icons/drive-32.png" width="28" height="28" class="marr5 marl10 valm" />
+							<span class="valm">Drive</span>
+						</label>
+					</div>
+					<div class="padtb5">
+						<label>
+							<input type="radio" name="source" vaue="gmail" />
+							<img src="images/icons/google_plus_32dp.png" width="28" height="28" class="marr5 marl10 valm" />
+							<span class="valm">Gmail</span>
+						</label>
+					</div>
+
+				</div>
+
+
+				<div class="mart20 talr">
+					<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+					<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Restore data</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<!-- More - suspend -->
+	<div class="popup_modal wi_480p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="more-suspend-modal">
+		<div class="modal-content pad25 brd">
+
+			<h3 class="pos_rel marb25 pad0 padr40 bold fsz20 dark_grey_txt">
+				Suspend Kowaken Ghirmai
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+
+			<div class="marb30">
+				This user will not be able to:
+				<ul class="padl15">
+					<li>Login to spam1-samf.com</li>
+					<li>Access services like Gmail, Drive, Calendar, but data will not be deleted</li>
+					<li>Receive invites sent to Gmail and Calendar</li>
+				</ul>
+				<p>
+					Gmail delegates of the user (if any) will stop seeing him in Account Chooser
+					<br> You will be able to activate this user later
+				</p>
+				<p>
+					<strong class="txt_dd4b39">User license fees still apply to suspended users</strong>
+				</p>
+			</div>
+
+			<form>
+				<div class="talr">
+					<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+					<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Suspend user</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<!-- More - delete -->
+	<div class="popup_modal wi_550p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="more-delete-modal">
+		<div class="modal-content pad25 brd">
+
+			<h3 class="pos_rel marb25 pad0 padr40 bold fsz20 dark_grey_txt">
+				User Deletion
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+			<form>
+				<div class="marb30">
+					<p>Before deleting this account, you have the option to transfer data associated with the account to a new owner.</p>
+
+					<div class="fsz13">
+						Select data to transfer:
+						<div class="martb10">
+							<label>
+								<input type="checkbox" name="drive-docs" />
+								<img src="images/icons/drive-32.png" width="28" height="28" class="marr5 marl10 valm" />
+								<strong class="valm">
+									Drive and Docs
+								</strong>
+							</label>
+							<div class="padt15 padb10 padl30">
+								<label>
+									<input type="checkbox" name="shared" />
+									<span>Also include data that is not shared with anyone</span>
+								</label>
+							</div>
+						</div>
+						<div class="martb10">
+							<label>
+								<input type="checkbox" name="google+pages" />
+								<img src="images/icons/google_plus_32dp.png" width="28" height="28" class="marr5 marl10 valm" />
+								<strong class="valm">
+									Google+ Pages
+								</strong>
+							</label>
+							<div class="padt15 padb10 padl30">
+								Data from all Brand Accounts will be transferred to a new primary owner. This includes Google+ Pages & Google My Business.
+							</div>
+						</div>
+						<div class="mart20">
+							<strong>Note:</strong> All data associated with this account (except data associated with the Google services selected above) will be deleted. <a href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="talr">
+					<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+					<button type="submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp">Assign a new owner for this data</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+
+	<!-- Popup fade -->
+	<div id="popup_fade" class="opa0 opa55_a black_bg"></div>
+
+
+	<!-- Menu list fade -->
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="menulist-fade" data-target="#menulist-dropdown,#menulist-fade" data-classes="active" data-toggle-type="separate"></a>
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="menulist2-fade" data-target="#menulist2-dropdown,#menulist2-fade" data-classes="active" data-toggle-type="separate"></a>
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="organization-move-fade" data-target="#organization-move,#organization-move-fade" data-classes="active" data-toggle-type="separate"></a>
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="add-userto-group-fade" data-target="#add-userto-group,#add-userto-group-fade" data-classes="active" data-toggle-type="separate"></a>
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="more-fade" data-target="#more,#more-fade" data-classes="active" data-toggle-type="separate"></a>
+
+
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/icheck.js"></script>
+	<script type="text/javascript" src="js/jquery.selectric.js"></script>
+	<script type="text/javascript" src="modules.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	
+	
+	
+	
+	<script>
+		
+		// Collborators autocomplete
+		var $col_cont = $('#collaborators-container'),
+            $col_form = $("#collaborators-form"),
+			$lookup = $("#collaborators-lookup");
+			
+		if($col_cont[0] && $lookup[0]){
+			$lookup
+                .on('change keyup', function(){
+                    var $this = $(this),
+                        $parent = $this.parent();
+                    if($this.val().trim().length > 0){
+                        $parent.addClass('active');
+                    }
+                    else{
+                        $parent.removeClass('active');
+                    }
+                })
+                .autocomplete({
+                    source: function(request, response) {
+                        $.ajax({
+                            url: "collaborators.php",
+                            data: {
+                                filter: request.term
+                            }
+                        })
+                        .done(function(data){
+                            data = JSON.parse(data);
+                            response(data);
+                            /*
+                            if(data.length > 0){
+                                response(data);
+                            }
+                            else{
+                                data.push({'id' : -1, 'label' : 'No matches found'});
+                                response(data);
+                            }
+                            */
+                        });
+                    },
+                    minLength: 1,
+                    select: function( event, ui ) {
+                        var item = ui.item;
+                        if(item.id !== -1){
+                            $lookup.data('item', item);
+                            event.target.value = item['label'];
+                        }
+                        else{
+                            $lookup.removeData('item');
+                            event.target.value = '';
+                        }
+                        return false;
+                    }
+			    });
+            $col_form.on('submit', function(){
+                var item = $lookup.data('item'),
+                    val = $lookup.val().trim();
+                
+                if(item && val === item['label']){
+                    console.log(1);
+                    var col_html = '<div class="collaborator-row dflex alit_c pos_rel mart10">';
+                    if(item.image){
+                        col_html += '<div class="wi_40p hei_40p dflex fxshrink_0 alit_c justc_c bxsh_0111_001 brd brdwi_2 brdclr_f brdrad50 bg_ff7a59 bgir_norep bgip_c bgis_cov" style="background-image: url(' + item.image + ')"></div>';
+                    }
+                    else{
+                        var fl = item['first-name'] ? item['first-name'].charAt(0) : (item['last-name'] ? item['last-name'].charAt(0) : (item['email'] ? item['email'].charAt(0) : '?'));
+                        col_html += '<div class="wi_40p hei_40p dflex fxshrink_0 alit_c justc_c bxsh_0111_001 brd brdwi_2 brdclr_f brdrad50 bg_ff7a59 uppercase fsz20 txt_f">' + fl.toUpperCase() + '</div>';
+                    }
+                            
+                    col_html += '<div class="flex_1 padr40 padl15 fsz13">';
+                    if(item['first-name'] || item['last-name']){
+                        col_html += '<div><strong>' + item['first-name'] + ' ' + item['last-name'] +  '</strong></div>';
+                    }
+                    if(item['email']){
+                        col_html += '<div class="txt_0_54">' + item['email'] + '</div>';
+                    }
+                    col_html += '</div><div class="pos_abs pos_cenY right0"><a href="#" class="remove_closest dblock opa50 opa1_h pad3 trans_opa2" data-target=".collaborator-row"><img src="images/icons/close-icon.svg" width="18" height="18" class="dblock" class="Delete"></a><div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2"><span class="dblock padrl8">Delete</span></div></div></div>';
+                        
+                    $col_cont.append(col_html);
+
+                    $lookup
+                        .val('')
+                        .parent()
+                            .removeClass('active');
+                }
+                else{
+                    if(val.length > 3 && val.indexOf('@') > -1 && val.indexOf('.') > -1){
+                        console.log(2);
+                        var col_html = '<div class="collaborator-row dflex alit_c pos_rel mart10">';
+                        col_html += '<div class="wi_40p hei_40p dflex fxshrink_0 alit_c justc_c bxsh_0111_001 brd brdwi_2 brdclr_f brdrad50 bg_ff7a59 uppercase fsz20 txt_f">' + val.charAt(0).toUpperCase() + '</div>';
+                        col_html += '<div class="flex_1 padr40 padl15 fsz13">';
+                        col_html += '<div><strong>' + val +  '</strong></div>';
+                        col_html += '</div><div class="pos_abs pos_cenY right0"><a href="#" class="remove_closest dblock opa50 opa1_h pad3 trans_opa2" data-target=".collaborator-row"><img src="images/icons/close-icon.svg" width="18" height="18" class="dblock" class="Delete"></a><div class="opa0_nsibh opa50 xs-opa1 pos_abs zi1 top100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f trans_all2"><span class="dblock padrl8">Delete</span></div></div></div>';
+                        $col_cont.append(col_html);
+
+                        $lookup
+                            .val('')
+                            .parent()
+                                .removeClass('active');
+                    }
+                }
+                return false;
+            });
+		}
+		
+		
+		// Google maps JS
+		function initMap(){
+			var google_map = document.getElementById('gmap');
+			if (google_map){
+				var map_zoom = parseInt(google_map.getAttribute('data-zoom')),
+					map_lat = parseFloat(google_map.getAttribute('data-lat')),
+					map_lng = parseFloat(google_map.getAttribute('data-lng')),
+					title = google_map.getAttribute('data-title');
+					//content_info = google_map.getAttribute('data-content');
+					
+				map_zoom = map_zoom ? map_zoom : 12;
+				map_lat = map_lat ? map_lat : -12.043333;
+				map_lng = map_lng ? map_lng : -77.028333;
+				
+				var myLatLng = {
+					lat: map_lat,
+					lng: map_lng
+				};
+				
+				var map = new google.maps.Map(google_map, {
+					zoom: map_zoom,
+					center: myLatLng
+				});
+				
+				/*
+				var noPoi = [{
+					featureType: "poi",
+					stylers: [{
+						visibility: "off"
+					}]
+				}];
+				
+				map.setOptions({
+					styles: noPoi
+				});
+				*/
+				if (title) {
+					var marker = new google.maps.Marker({
+						position: myLatLng,
+						map: map,
+						title: title
+					});
+					
+					var infowindow = new google.maps.InfoWindow({
+						content: title,
+						maxWidth: 230,
+						//pixelOffset: new google.maps.Size(-177, 150)
+					});
+					//infowindow.open(map, marker);
+					google.maps.event.addListener(marker, 'click', function() {
+						infowindow.open(map, marker);
+					});
+				}
+				
+			}
+		}
+	</script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap"></script>
+	
+</body>
+
+</html>
