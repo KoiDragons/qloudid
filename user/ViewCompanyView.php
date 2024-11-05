@@ -1,0 +1,2641 @@
+﻿<!doctype html>
+<?php
+			function base64_to_jpeg($base64_string, $output_file) {
+    // open the output file for writing
+    $ifp = fopen( $output_file, 'wb' ); 
+
+    // split the string on commas
+    // $data[ 0 ] == "data:image/png;base64"
+    // $data[ 1 ] == <actual base64 string>
+    $data = explode( ',', $base64_string );
+//print_r($data); die;
+    // we could add validation here with ensuring count( $data ) > 1
+    fwrite( $ifp, base64_decode( $data[1] ) );
+
+    // clean up the file resource
+    fclose( $ifp ); 
+
+    return $output_file; 
+}
+		$path1 = "../../html/usercontent/images/";
+		//echo $companyDetail ['profile_pic']; die;
+	if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDetail ['profile_pic'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$companyDetail ['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp.jpg' );  $imgs='../../../'.$imgs; } else { $value_a="../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../html/usercontent/images/default-profile-pic.jpg"; } }  else {  $imgs="../../../../html/usercontent/images/default-profile-pic.jpg"; $value_a="../../../../html/usercontent/images/default-profile-pic.jpg"; } ?>
+
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Qmatchup</title>
+		<!-- Styles -->
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/jquery-ui.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/style.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/css/modules.css" />
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+		<!-- Scripts -->
+		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
+		
+		<script>
+			
+			
+			var available_yes=0;
+		</script>
+		
+		<script>
+			function removeActive()
+			{
+				$("#menulist-dropdown2").removeClass('active');
+				$("#menulist-dropdown3").removeClass('active');
+				$("#menulist-dropdown4").removeClass('active');
+			}
+			function rActive()
+			{
+				
+				$("#menulist-dropdown3").removeClass('active');
+				$("#menulist-dropdown4").removeClass('active');
+			}
+			function raActive()
+			{
+				
+				$("#menulist-dropdown2").removeClass('active');
+				$("#menulist-dropdown4").removeClass('active');
+			}
+			function rbActive()
+			{
+				
+				$("#menulist-dropdown3").removeClass('active');
+				$("#menulist-dropdown2").removeClass('active');
+			}
+			
+			var currentLang = 'sv';
+		</script>
+	</head>
+	
+	<body class="white_bg">
+	
+	<!-- HEADER -->
+	<div class="column_m header xs-header bs_bb white_bg" >
+			<div class="wi_100 hei_65p xs-pos_fix padtb5 padrl10 white_bg brdb" >
+				<div class="visible-xs visible-sm fleft">
+					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
+				</div>
+				<div class="logo hidden-xs hidden-sm marr15 padt15 wi_125p">
+					<a href="#"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				</div>
+				<div class="hidden-xs hidden-sm fleft padl10 padr30 padt15">
+					<div class="languages">
+						<a href="#" id="language_selector" class="padrl10"><img src="<?php echo $path; ?>html/usercontent/images/slide/flag_sw.png" width="24" height="16" title="US" alt="US" /></a>
+						<ul class="wi_100 mar0 pad5 blue_bg">
+							<li class="dblock">
+								<a href="#" class="pad5" data-lang="eng"><img src="<?php echo $path; ?>html/usercontent/images/slide/flag_sw.png" width="24" height="16" title="US" alt="US" />
+								</a>
+							</li>
+							<li class="dblock">
+								<a href="#" class="pad5" data-lang="swd"><img src="<?php echo $path; ?>html/usercontent/images/slide/flag_sw.png" width="24" height="16" title="Sweden" alt="Sweden" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fright xs-dnone sm-dnone padt10">
+					<ul class="mar0 pad0">
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Close" data-sw="Close">Close</a> </li>
+					</ul>
+				</div>
+				<div class="top_menu top_menu_custom mart12 ">
+					<ul class="menulist">
+						<li class="xs-mar0i sm-mar0i padt10">
+							<a href="#" class="class-toggler" data-target="#menulist-dropdown,#menulist-fade" data-classes="active" data-toggle-type="separate"> <span class="fa fa-qrcode black_txt fsz26"></span> </a>
+							<ul class="dblocki_a" id="menulist-dropdown">
+								<li>
+									<div class="top_arrow"></div>
+								</li>
+								<li>
+									<!-- MAIN -->
+									<div class="tab-content application_menu pad20" id="tab-main">
+										<ol class="tab-header">
+											<li>
+												<a href="#" data-id="tab-per" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Personal</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Business</a>
+											</li>
+										</ol>
+										<div class="clear"></div>
+									</div>
+									<!-- PERSONAL -->
+									<div class="tab-content application_menu pad20" id="tab-per">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-1.png" width="45" height="45" title="" alt="" />
+													</div>Cloud ID</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-2.png" width="45" height="45" title="" alt="" />
+													</div>Verify</a>
+											</li>
+											<li>
+												<a href="#" class="posted_jobs">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-3.png" width="45" height="45" title="" alt="" />
+													</div>Activate</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-main"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- BUSINESS -->
+									<div class="tab-content application_menu pad20" id="tab-bus">
+										<ol class="tab-header">
+											<li>
+												<a href="#" data-id="tab-bus-cld" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Cloud ID</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-vrf" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Verify</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-act" class="posted_jobs">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Activate</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-eng" class="proposals">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Engage </a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-main"><span></span> Back to Qmatchup</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Cloud ID -->
+									<div class="tab-content application_menu pad20" id="tab-bus-cld">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-4.png" width="45" height="45" title="" alt="" />
+													</div>Business</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-5.png" width="45" height="45" title="" alt="" />
+													</div>Employees</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Verify -->
+									<div class="tab-content application_menu pad20" id="tab-bus-vrf">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-6.png" width="45" height="45" title="" alt="" />
+													</div>Basic - Free</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-7.png" width="45" height="45" title="" alt="" />
+													</div>Full - Paid</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Activate -->
+									<div class="tab-content application_menu pad20" id="tab-bus-act">
+										<ol class="tab-header">
+											<li>
+												<a href="#" data-id="tab-bus-act-org" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>By organization</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-act-ind" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>By industry</a>
+											</li>
+											<li>
+												<a href="#" data-id="tab-bus-act-top" class="posted_jobs">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>By topic</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- - by organization -->
+									<div class="tab-content application_menu pad20 active" id="tab-bus-act-org" style="display: block;">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-8.png" width="45" height="45" title="" alt="" />
+													</div>HR Portal</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-9.png" width="45" height="45" title="" alt="" />
+													</div>Sales</a>
+											</li>
+											<li>
+												<a href="#" class="posted_jobs">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-10.png" width="45" height="45" title="" alt="" />
+													</div>Marketing</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- - by industry -->
+									<div class="tab-content application_menu pad20" id="tab-bus-act-ind">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-11.png" width="45" height="45" title="" alt="" />
+													</div>Telemarketing</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-1.png" width="45" height="45" title="" alt="" />
+													</div>Lawyers</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- - by topic -->
+									<div class="tab-content application_menu pad20" id="tab-bus-act-top">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/product icons/icon-2.png" width="45" height="45" title="" alt="" />
+													</div>Miljöplus</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus-act"><span></span> Back to Activate</a> </div>
+										<div class="clear"></div>
+									</div>
+									<!-- Engage -->
+									<div class="tab-content application_menu pad20" id="tab-bus-eng">
+										<ol>
+											<li>
+												<a href="#" class="business_prof">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Employees</a>
+											</li>
+											<li>
+												<a href="#" class="swedBank">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Customers</a>
+											</li>
+											<li>
+												<a href="#" class="posted_jobs">
+													<div><img src="<?php echo $path; ?>html/usercontent/images/dropbox icons/folder.png" width="45" height="45" title="" alt="" />
+													</div>Suppliers</a>
+											</li>
+										</ol>
+										<div class="padb20">
+											<div class="line"></div>
+										</div>
+										<div class="column_m tab-header"> <a href="#" class="contractor_btn" data-id="tab-bus"><span></span> Back to Business</a> </div>
+										<div class="clear"></div>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear" id=""></div>
+		
+	<div class="column_m pos_rel">
+			
+			<!-- SUB-HEADER -->
+			
+			
+			
+			
+			<!-- CONTENT -->
+			<div class="column_m container zi5 mart40 xs-mart20" onclick="removeActive();">
+				<div class="wrap maxwi_100 padrl15 md-padrl0 lg-padrl0">
+					
+					
+					<!-- Center content -->
+					<div class="wi_720p maxwi_100 col-xs-12 col-sm-12 pos_rel zi5 marrla  xs-pad0">
+						<div class="wrap maxwi_100 pos_rel zi10 xs-padrl0">
+								<div class=" bs_bb padb15 black_txt">
+						
+						<h1 class="edit-text jain padb5 talc fsz50 black_txt xs-fsz35 uppercase " id="dFJHdit4c3R6VlhXelY0bXdXTUtxUT09">STORE YOUR DATA</h1>
+						<p class="pad0 talc fsz20 xs-fsz16">Please store your data here</p>
+					</div>
+				</div>
+						
+						
+						<div class=" lgtgrey2_bg brdrad3 mart5" >
+							
+							<div class="container pad25 padb20 xs-pad10 xs-padt10 xs-padb20  brdrad1 fsz14 dark_grey_txt lgtgrey2_bg">
+								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall lgtgrey2_bg">
+									
+									<div class="idcard_header wi_100 xs-wi_70 xs-order_2 bs_bb marb10 xs-padl15 sm-padl5 hidden-xs">
+										<h2 class="dnone xs-dblock padb15 uppercase bold fsz18 trn">Cloud ID Business</h2>
+										<div>
+											<img src="<?php echo $path;?>html/usercontent/images/flag.png" width="40" class="marr5 valm">
+											<span class="valm bold xs-nobold fsz24 xs-fsz15 trn">Business</span>
+											<span class="dblock xs-dnone bold fsz14 trn">Passport</span>
+										</div>
+										<div class="dnone xs-dblock mart10 marb20">
+											<img src="<?php echo $path;?>html/usercontent/images/score.png" width="40" class="marr5 valm">
+											<span class="valm bold xs-nobold fsz24 xs-fsz15">100/70</span>
+										</div>
+									</div>
+									<!--<div class="clear hidden-xs"></div>-->
+									<div class="wi_30 xs-order_1 xs-wi_100">
+										<div class="wp_columns_upload wp_columns_upload_custom marb20 brd brdclr_white">
+											<div class="imgwrap nobrd bgis_coni">
+												<div class="cropped_image <?php if($companyDetail ['profile_pic']!=null) { echo "cropped_image_added"; } ?>" style="background-image: <?php echo $value_a; ?>;" ></div>
+												
+											</div>
+											<div class="qapscore_bord hidden-xs brdrad5" style="position: absolute; z-index: 1; top: 205px; right: -5px;">
+												
+												<div class="scorenew scorelevelnew">A+</div>
+											</div>
+										</div>
+										
+									</div>
+									<div class="wi_70 xs-wi_100 xs-order_4 xs-padt10 fsz12">
+										<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span>Organisationsnummer</span> <span class=" edit-text jain dblock brdb_new brdclr_lgtgrey2 fsz20"><?php echo $companyDetail['cid']; ?></span> </div>
+										<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span>Företagsnamn</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16"><?php echo $companyDetail['company_name']; ?></span> </div>
+										<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 padb10"> <span>Industri</span> <span class="edit-select dblock brdb_new brdclr_lgtgrey2 curp fsz16" data-options="Staffing &amp; Recruiting"><?php echo $companyDetail['industry']; ?></span> </div>
+										
+										<div class="container marrl-2 padl15 xs-pad0">
+											<div class="fleft wi_25 bs_bb padrl2"> <span>Besöksadress</span> <span class=" edit-address dblock brdb_new brdclr_lgtgrey2 fsz16"><?php if($companyDetail['address']==null || $companyDetail['address']=="") echo "-"; else echo $companyDetail['address']; ?></span> </div>
+											<div class="fleft wi_25 bs_bb padrl2"> <span>Post nr</span> <span class=" edit-text jain12 dblock brdb_new brdclr_lgtgrey2 wordb_ba curt fsz16"><?php if($companyDetail['zip']==null || $companyDetail['zip']=="") echo "-"; else echo $companyDetail['zip']; ?></span> </div>
+											<div class="fleft wi_25 bs_bb padrl2"> <span>Stad</span> <span class=" edit-text jain11 dblock brdb_new brdclr_lgtgrey2 curt fsz16"><?php if($companyDetail['city']==null || $companyDetail['city']=="") echo "-"; else echo html_entity_decode($companyDetail['city']); ?></span> </div>
+											
+											<div class="fleft wi_25 bs_bb padrl2"> <span>Land</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16" data-list="countries-list" ><?php if($companyDetail['country']==null || $companyDetail['country']=="") echo "-"; else echo $companyDetail['country']; ?></span> </div>
+											<datalist id="countries-list">
+												<option value="Abkhazia"></option>
+												<option value="Afghanistan"></option>
+												<option value="Albania"></option>
+												<option value="Algeria"></option>
+												<option value="American Samoa"></option>
+												<option value="Andorra"></option>
+												<option value="Angola"></option>
+												<option value="Anguilla"></option>
+												<option value="Antigua and Barbuda"></option>
+												<option value="Argentina"></option>
+												<option value="Armenia"></option>
+												<option value="Aruba"></option>
+												<option value="Ascension"></option>
+												<option value="Australia"></option>
+												<option value="Australian External Territories"></option>
+												<option value="Austria"></option>
+												<option value="Azerbaijan"></option>
+												<option value="Bahamas"></option>
+												<option value="Bahrain"></option>
+												<option value="Bangladesh"></option>
+												<option value="Barbados"></option>
+												<option value="Barbuda"></option>
+												<option value="Belarus"></option>
+												<option value="Belgium"></option>
+												<option value="Belize"></option>
+												<option value="Benin"></option>
+												<option value="Bermuda"></option>
+												<option value="Bhutan"></option>
+												<option value="Bolivia"></option>
+												<option value="Bosnia and Herzegovina"></option>
+												<option value="Botswana"></option>
+												<option value="Brazil"></option>
+												<option value="British Indian Ocean Territory"></option>
+												<option value="British Virgin Islands"></option>
+												<option value="Brunei"></option>
+												<option value="Bulgaria"></option>
+												<option value="Burkina Faso"></option>
+												<option value="Burundi"></option>
+												<option value="Cambodia"></option>
+												<option value="Cameroon"></option>
+												<option value="Canada"></option>
+												<option value="Cape Verde"></option>
+												<option value="Cayman Islands"></option>
+												<option value="Central African Republic"></option>
+												<option value="Chad"></option>
+												<option value="Chile"></option>
+												<option value="China"></option>
+												<option value="Christmas Island"></option>
+												<option value="Cocos-Keeling Islands"></option>
+												<option value="Colombia"></option>
+												<option value="Comoros"></option>
+												<option value="Congo"></option>
+												<option value="Congo, Dem. Rep. of (Zaire)"></option>
+												<option value="Cook Islands"></option>
+												<option value="Costa Rica"></option>
+												<option value="Croatia"></option>
+												<option value="Cuba"></option>
+												<option value="Curacao"></option>
+												<option value="Cyprus"></option>
+												<option value="Czech Republic"></option>
+												<option value="Denmark"></option>
+												<option value="Diego Garcia"></option>
+												<option value="Djibouti"></option>
+												<option value="Dominica"></option>
+												<option value="Dominican Republic"></option>
+												<option value="East Timor"></option>
+												<option value="Easter Island"></option>
+												<option value="Ecuador"></option>
+												<option value="Egypt"></option>
+												<option value="El Salvador"></option>
+												<option value="Equatorial Guinea"></option>
+												<option value="Eritrea"></option>
+												<option value="Estonia"></option>
+												<option value="Ethiopia"></option>
+												<option value="Falkland Islands"></option>
+												<option value="Faroe Islands"></option>
+												<option value="Fiji"></option>
+												<option value="Finland"></option>
+												<option value="France"></option>
+												<option value="French Antilles"></option>
+												<option value="French Guiana"></option>
+												<option value="French Polynesia"></option>
+												<option value="Gabon"></option>
+												<option value="Gambia"></option>
+												<option value="Georgia"></option>
+												<option value="Germany"></option>
+												<option value="Ghana"></option>
+												<option value="Gibraltar"></option>
+												<option value="Greece"></option>
+												<option value="Greenland"></option>
+												<option value="Grenada"></option>
+												<option value="Guadeloupe"></option>
+												<option value="Guam"></option>
+												<option value="Guatemala"></option>
+												<option value="Guinea"></option>
+												<option value="Guinea-Bissau"></option>
+												<option value="Guyana"></option>
+												<option value="Haiti"></option>
+												<option value="Honduras"></option>
+												<option value="Hong Kong SAR China"></option>
+												<option value="Hungary"></option>
+												<option value="Iceland"></option>
+												<option value="India"></option>
+												<option value="Indonesia"></option>
+												<option value="Iran"></option>
+												<option value="Iraq"></option>
+												<option value="Ireland"></option>
+												<option value="Israel"></option>
+												<option value="Italy"></option>
+												<option value="Ivory Coast"></option>
+												<option value="Jamaica"></option>
+												<option value="Japan"></option>
+												<option value="Jordan"></option>
+												<option value="Kazakhstan"></option>
+												<option value="Kenya"></option>
+												<option value="Kiribati"></option>
+												<option value="Kuwait"></option>
+												<option value="Kyrgyzstan"></option>
+												<option value="Laos"></option>
+												<option value="Latvia"></option>
+												<option value="Lebanon"></option>
+												<option value="Lesotho"></option>
+												<option value="Liberia"></option>
+												<option value="Libya"></option>
+												<option value="Liechtenstein"></option>
+												<option value="Lithuania"></option>
+												<option value="Luxembourg"></option>
+												<option value="Macau SAR China"></option>
+												<option value="Macedonia"></option>
+												<option value="Madagascar"></option>
+												<option value="Malawi"></option>
+												<option value="Malaysia"></option>
+												<option value="Maldives"></option>
+												<option value="Mali"></option>
+												<option value="Malta"></option>
+												<option value="Marshall Islands"></option>
+												<option value="Martinique"></option>
+												<option value="Mauritania"></option>
+												<option value="Mauritius"></option>
+												<option value="Mayotte"></option>
+												<option value="Mexico"></option>
+												<option value="Micronesia"></option>
+												<option value="Midway Island"></option>
+												<option value="Moldova"></option>
+												<option value="Monaco"></option>
+												<option value="Mongolia"></option>
+												<option value="Montenegro"></option>
+												<option value="Montserrat"></option>
+												<option value="Morocco"></option>
+												<option value="Myanmar"></option>
+												<option value="Namibia"></option>
+												<option value="Nauru"></option>
+												<option value="Nepal"></option>
+												<option value="Netherlands"></option>
+												<option value="Netherlands Antilles"></option>
+												<option value="Nevis"></option>
+												<option value="New Caledonia"></option>
+												<option value="New Zealand"></option>
+												<option value="Nicaragua"></option>
+												<option value="Niger"></option>
+												<option value="Nigeria"></option>
+												<option value="Niue"></option>
+												<option value="Norfolk Island"></option>
+												<option value="North Korea"></option>
+												<option value="Northern Mariana Islands"></option>
+												<option value="Norway"></option>
+												<option value="Oman"></option>
+												<option value="Pakistan"></option>
+												<option value="Palau"></option>
+												<option value="Palestinian Territory"></option>
+												<option value="Panama"></option>
+												<option value="Papua New Guinea"></option>
+												<option value="Paraguay"></option>
+												<option value="Peru"></option>
+												<option value="Philippines"></option>
+												<option value="Poland"></option>
+												<option value="Portugal"></option>
+												<option value="Puerto Rico"></option>
+												<option value="Qatar"></option>
+												<option value="Reunion"></option>
+												<option value="Romania"></option>
+												<option value="Russia"></option>
+												<option value="Rwanda"></option>
+												<option value="Samoa"></option>
+												<option value="San Marino"></option>
+												<option value="Saudi Arabia"></option>
+												<option value="Senegal"></option>
+												<option value="Serbia"></option>
+												<option value="Seychelles"></option>
+												<option value="Sierra Leone"></option>
+												<option value="Singapore"></option>
+												<option value="Slovakia"></option>
+												<option value="Slovenia"></option>
+												<option value="Solomon Islands"></option>
+												<option value="South Africa"></option>
+												<option value="South Georgia and the South Sandwich Islands"></option>
+												<option value="South Korea"></option>
+												<option value="Spain"></option>
+												<option value="Sri Lanka"></option>
+												<option value="Sudan"></option>
+												<option value="Suriname"></option>
+												<option value="Swaziland"></option>
+												<option value="Sweden"></option>
+												<option value="Switzerland"></option>
+												<option value="Syria"></option>
+												<option value="Taiwan"></option>
+												<option value="Tajikistan"></option>
+												<option value="Tanzania"></option>
+												<option value="Thailand"></option>
+												<option value="Timor Leste"></option>
+												<option value="Togo"></option>
+												<option value="Tokelau"></option>
+												<option value="Tonga"></option>
+												<option value="Trinidad and Tobago"></option>
+												<option value="Tunisia"></option>
+												<option value="Turkey"></option>
+												<option value="Turkmenistan"></option>
+												<option value="Turks and Caicos Islands"></option>
+												<option value="Tuvalu"></option>
+												<option value="U.S. Virgin Islands"></option>
+												<option value="Uganda"></option>
+												<option value="Ukraine"></option>
+												<option value="United Arab Emirates"></option>
+												<option value="United Kingdom"></option>
+												<option value="United States"></option>
+												<option value="Uruguay"></option>
+												<option value="Uzbekistan"></option>
+												<option value="Vanuatu"></option>
+												<option value="Venezuela"></option>
+												<option value="Vietnam"></option>
+												<option value="Wake Island"></option>
+												<option value="Wallis and Futuna"></option>
+												<option value="Yemen"></option>
+												<option value="Zambia"></option>
+												<option value="Zanzibar"></option>
+												<option value="Zimbabwe"></option>
+											</datalist>
+											
+											<div class="clear marb5"></div>
+											
+											
+											
+											
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span>Skapad</span> <span class=" edit-datepicker jain2 dblock brdb_new brdclr_lgtgrey2 curp fsz16"><?php echo $companyDetail['founded']; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span>Omsättning</span> <span class=" edit-select jain4 dblock brdb_new brdclr_lgtgrey2 curp fsz16" data-options="0,< 1 tkr, 1 - 499 tkr, 500 - 999 tkr, 1000 - 9999 tkr, 10 000 - 49 999 tkr, 50 000 - 499 999 tkr, > 499 999 tkr">&lt; 1 tkr</span> </div>
+											<div class="clear visible-xs visible-sm marb10"></div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2"> <span>Storlek</span> <span class=" edit-select jain5 dblock brdb_new brdclr_lgtgrey2 curp fsz16" data-options="0,1 - 4,5 - 9,10 - 19,20 - 49,50 - 99,100 - 199,200 - 999,> 1000">5 - 9</span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2 hidden"> <span>Validated Until</span> <span class=" edit-datepicker jain3 dblock brdb_new brdclr_lgtgrey2 curp fsz16">01/04/2017</span> </div>
+											<div class="clear visible-xs visible-sm marb10"></div>
+											
+											<input type="hidden" id="company_id" value="1">
+										</div>
+									</div>
+									
+									
+									
+									<div class="right_number hidden-xs bold talc fsz14"> <span><?php echo $verificationId['v_id']; ?></span> </div>
+									<!-- <div class="clear hidden-xs"></div>-->
+								</div>
+								<div class=" mart20 talc fsz16  "> <a href="https://www.qloudid.com/user/index.php/Company/companyAccount/<?php echo $data['cid']; ?>" class="dblue_btn trn brdrad3" data-trn-key="Uppdatera ">Uppdatera </a> </div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						
+						<div class=" mart30 xs-marrl0 sm-marrl0 ">
+							
+							<div class="marb0 ">
+								<h2 class="fleft mar0 padb5 fsz15">Post adress</h2>
+								<div class="fright pos_rel padb5 fsz13">
+									<a href="#" class="class-toggler" data-target="#profile-dropdown3,#profile-fade1" data-classes="active">
+										<span>Kort förklaring</span>
+										<span class="fa fa-angle-down"></span>
+									</a>
+									<div id="profile-dropdown3" class="wi_320p maxwi_100vw-30p dnone dblock_a pos_abs zi40 top100 right-10p bxsh_0060_03 brdrad3 bg_f txt_a5b2bd ">
+										<div class="minwi_0 dflex alit_c padtb10 padrl15 bg_f9">
+											<div class="ovfl_hid flex_1 pos_rel brdrad10 bg_e3e8eb">
+												<div class="hei_8p ovfl_hid brdrad10 bglgrad_r_3298d6_63c7b0" style="width: 60%"></div>
+											</div>
+											<span class="fxshrink_0 marl15">Step 4/5</span>
+										</div>
+										<div class="padtb30 padrl15 talc">
+											<div class="marb10">
+												<span class="fa fa-envelope-open-o fsz40"></span>
+											</div>
+											<h3 class="marb10 pad0 bold fsz16 txt_485761">Get copies of your email into Help Scout</h3>
+											<div class="mart10">
+												Don't worry, we'll just make a copy. The emails in your original mailbox will remain untouched.
+											</div>
+											<div class="mart20">
+												<a href="#" class="diblock padtb10 padrl15 brdrad3 bg_3197d6 bg_4aa7e7_h fsz16 txt_f">Forward a Copy of Your Email</a>
+											</div>
+											<div class="mart20">
+												Then verify that it's set up by <a href="#">sending a test email</a>.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						<div class=" lgtgrey2_bg mart5  brdrad3" style="">
+							<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20   fsz14 dark_grey_txt  ">
+								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+									
+									<!--<div class="clear hidden-xs"></div>-->
+									
+									<div class="wi_100 xs-wi_100 xs-order_3 xs-padt10 fsz12">
+										<div class="container marrl-2  xs-marrl0 xs-padl0">
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10"> <span class="trn" data-trn-key="Adress">Adress</span> <span class=" edit-address dblock brdb_new brdclr_lgtgrey2 fsz16 addrs1"><?php if($companyDetail['delivery_address']!="" || $companyDetail['delivery_address']!= null) echo $companyDetail['delivery_address']; else echo "-"; ?> </span></div>
+											
+											<div class="fleft wi_10 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10 "> <span class="trn" data-trn-key="Post nr">Post nr</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16 zip1"><?php if($companyDetail['d_zip']!="" || $companyDetail['d_zip']!= null) echo $companyDetail['d_zip']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0  "> <span class="trn" data-trn-key="Stad">Stad</span> <span class=" edit-text jain2 dblock brdb_new brdclr_lgtgrey2 fsz16 city1"><?php if($companyDetail['d_city']!="" || $companyDetail['d_city']!= null) echo $companyDetail['d_city']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25xs-wi_50 sm-wi_50  bs_bb padrl2 padl15 xs-padl0"> <span>Land</span> <span class=" edit-select cntry1 dblock brdb_new brdclr_lgtgrey2 fsz16" data-options="<?php echo $country; ?>" ><?php if($companyDetail['d_country']!="" || $companyDetail['d_country']!= null) echo $companyDetail['d_country']; else echo "Sweden"; ?></span> </div>
+											<datalist id="countries-list">
+												<option value="Abkhazia"></option>
+												<option value="Afghanistan"></option>
+												<option value="Albania"></option>
+												<option value="Algeria"></option>
+												<option value="American Samoa"></option>
+												<option value="Andorra"></option>
+												<option value="Angola"></option>
+												<option value="Anguilla"></option>
+												<option value="Antigua and Barbuda"></option>
+												<option value="Argentina"></option>
+												<option value="Armenia"></option>
+												<option value="Aruba"></option>
+												<option value="Ascension"></option>
+												<option value="Australia"></option>
+												<option value="Australian External Territories"></option>
+												<option value="Austria"></option>
+												<option value="Azerbaijan"></option>
+												<option value="Bahamas"></option>
+												<option value="Bahrain"></option>
+												<option value="Bangladesh"></option>
+												<option value="Barbados"></option>
+												<option value="Barbuda"></option>
+												<option value="Belarus"></option>
+												<option value="Belgium"></option>
+												<option value="Belize"></option>
+												<option value="Benin"></option>
+												<option value="Bermuda"></option>
+												<option value="Bhutan"></option>
+												<option value="Bolivia"></option>
+												<option value="Bosnia and Herzegovina"></option>
+												<option value="Botswana"></option>
+												<option value="Brazil"></option>
+												<option value="British Indian Ocean Territory"></option>
+												<option value="British Virgin Islands"></option>
+												<option value="Brunei"></option>
+												<option value="Bulgaria"></option>
+												<option value="Burkina Faso"></option>
+												<option value="Burundi"></option>
+												<option value="Cambodia"></option>
+												<option value="Cameroon"></option>
+												<option value="Canada"></option>
+												<option value="Cape Verde"></option>
+												<option value="Cayman Islands"></option>
+												<option value="Central African Republic"></option>
+												<option value="Chad"></option>
+												<option value="Chile"></option>
+												<option value="China"></option>
+												<option value="Christmas Island"></option>
+												<option value="Cocos-Keeling Islands"></option>
+												<option value="Colombia"></option>
+												<option value="Comoros"></option>
+												<option value="Congo"></option>
+												<option value="Congo, Dem. Rep. of (Zaire)"></option>
+												<option value="Cook Islands"></option>
+												<option value="Costa Rica"></option>
+												<option value="Croatia"></option>
+												<option value="Cuba"></option>
+												<option value="Curacao"></option>
+												<option value="Cyprus"></option>
+												<option value="Czech Republic"></option>
+												<option value="Denmark"></option>
+												<option value="Diego Garcia"></option>
+												<option value="Djibouti"></option>
+												<option value="Dominica"></option>
+												<option value="Dominican Republic"></option>
+												<option value="East Timor"></option>
+												<option value="Easter Island"></option>
+												<option value="Ecuador"></option>
+												<option value="Egypt"></option>
+												<option value="El Salvador"></option>
+												<option value="Equatorial Guinea"></option>
+												<option value="Eritrea"></option>
+												<option value="Estonia"></option>
+												<option value="Ethiopia"></option>
+												<option value="Falkland Islands"></option>
+												<option value="Faroe Islands"></option>
+												<option value="Fiji"></option>
+												<option value="Finland"></option>
+												<option value="France"></option>
+												<option value="French Antilles"></option>
+												<option value="French Guiana"></option>
+												<option value="French Polynesia"></option>
+												<option value="Gabon"></option>
+												<option value="Gambia"></option>
+												<option value="Georgia"></option>
+												<option value="Germany"></option>
+												<option value="Ghana"></option>
+												<option value="Gibraltar"></option>
+												<option value="Greece"></option>
+												<option value="Greenland"></option>
+												<option value="Grenada"></option>
+												<option value="Guadeloupe"></option>
+												<option value="Guam"></option>
+												<option value="Guatemala"></option>
+												<option value="Guinea"></option>
+												<option value="Guinea-Bissau"></option>
+												<option value="Guyana"></option>
+												<option value="Haiti"></option>
+												<option value="Honduras"></option>
+												<option value="Hong Kong SAR China"></option>
+												<option value="Hungary"></option>
+												<option value="Iceland"></option>
+												<option value="India"></option>
+												<option value="Indonesia"></option>
+												<option value="Iran"></option>
+												<option value="Iraq"></option>
+												<option value="Ireland"></option>
+												<option value="Israel"></option>
+												<option value="Italy"></option>
+												<option value="Ivory Coast"></option>
+												<option value="Jamaica"></option>
+												<option value="Japan"></option>
+												<option value="Jordan"></option>
+												<option value="Kazakhstan"></option>
+												<option value="Kenya"></option>
+												<option value="Kiribati"></option>
+												<option value="Kuwait"></option>
+												<option value="Kyrgyzstan"></option>
+												<option value="Laos"></option>
+												<option value="Latvia"></option>
+												<option value="Lebanon"></option>
+												<option value="Lesotho"></option>
+												<option value="Liberia"></option>
+												<option value="Libya"></option>
+												<option value="Liechtenstein"></option>
+												<option value="Lithuania"></option>
+												<option value="Luxembourg"></option>
+												<option value="Macau SAR China"></option>
+												<option value="Macedonia"></option>
+												<option value="Madagascar"></option>
+												<option value="Malawi"></option>
+												<option value="Malaysia"></option>
+												<option value="Maldives"></option>
+												<option value="Mali"></option>
+												<option value="Malta"></option>
+												<option value="Marshall Islands"></option>
+												<option value="Martinique"></option>
+												<option value="Mauritania"></option>
+												<option value="Mauritius"></option>
+												<option value="Mayotte"></option>
+												<option value="Mexico"></option>
+												<option value="Micronesia"></option>
+												<option value="Midway Island"></option>
+												<option value="Moldova"></option>
+												<option value="Monaco"></option>
+												<option value="Mongolia"></option>
+												<option value="Montenegro"></option>
+												<option value="Montserrat"></option>
+												<option value="Morocco"></option>
+												<option value="Myanmar"></option>
+												<option value="Namibia"></option>
+												<option value="Nauru"></option>
+												<option value="Nepal"></option>
+												<option value="Netherlands"></option>
+												<option value="Netherlands Antilles"></option>
+												<option value="Nevis"></option>
+												<option value="New Caledonia"></option>
+												<option value="New Zealand"></option>
+												<option value="Nicaragua"></option>
+												<option value="Niger"></option>
+												<option value="Nigeria"></option>
+												<option value="Niue"></option>
+												<option value="Norfolk Island"></option>
+												<option value="North Korea"></option>
+												<option value="Northern Mariana Islands"></option>
+												<option value="Norway"></option>
+												<option value="Oman"></option>
+												<option value="Pakistan"></option>
+												<option value="Palau"></option>
+												<option value="Palestinian Territory"></option>
+												<option value="Panama"></option>
+												<option value="Papua New Guinea"></option>
+												<option value="Paraguay"></option>
+												<option value="Peru"></option>
+												<option value="Philippines"></option>
+												<option value="Poland"></option>
+												<option value="Portugal"></option>
+												<option value="Puerto Rico"></option>
+												<option value="Qatar"></option>
+												<option value="Reunion"></option>
+												<option value="Romania"></option>
+												<option value="Russia"></option>
+												<option value="Rwanda"></option>
+												<option value="Samoa"></option>
+												<option value="San Marino"></option>
+												<option value="Saudi Arabia"></option>
+												<option value="Senegal"></option>
+												<option value="Serbia"></option>
+												<option value="Seychelles"></option>
+												<option value="Sierra Leone"></option>
+												<option value="Singapore"></option>
+												<option value="Slovakia"></option>
+												<option value="Slovenia"></option>
+												<option value="Solomon Islands"></option>
+												<option value="South Africa"></option>
+												<option value="South Georgia and the South Sandwich Islands"></option>
+												<option value="South Korea"></option>
+												<option value="Spain"></option>
+												<option value="Sri Lanka"></option>
+												<option value="Sudan"></option>
+												<option value="Suriname"></option>
+												<option value="Swaziland"></option>
+												<option value="Sweden"></option>
+												<option value="Switzerland"></option>
+												<option value="Syria"></option>
+												<option value="Taiwan"></option>
+												<option value="Tajikistan"></option>
+												<option value="Tanzania"></option>
+												<option value="Thailand"></option>
+												<option value="Timor Leste"></option>
+												<option value="Togo"></option>
+												<option value="Tokelau"></option>
+												<option value="Tonga"></option>
+												<option value="Trinidad and Tobago"></option>
+												<option value="Tunisia"></option>
+												<option value="Turkey"></option>
+												<option value="Turkmenistan"></option>
+												<option value="Turks and Caicos Islands"></option>
+												<option value="Tuvalu"></option>
+												<option value="U.S. Virgin Islands"></option>
+												<option value="Uganda"></option>
+												<option value="Ukraine"></option>
+												<option value="United Arab Emirates"></option>
+												<option value="United Kingdom"></option>
+												<option value="United States"></option>
+												<option value="Uruguay"></option>
+												<option value="Uzbekistan"></option>
+												<option value="Vanuatu"></option>
+												<option value="Venezuela"></option>
+												<option value="Vietnam"></option>
+												<option value="Wake Island"></option>
+												<option value="Wallis and Futuna"></option>
+												<option value="Yemen"></option>
+												<option value="Zambia"></option>
+												<option value="Zanzibar"></option>
+												<option value="Zimbabwe"></option>
+											</datalist>
+											
+											
+										</div>
+										
+									</div>
+									
+									
+									
+									
+									<div class="right_number hidden-xs bold talc fsz14"> <span><?php echo $verificationId['v_id']; ?></span> </div>
+									<!-- <div class="clear hidden-xs"></div>-->
+								</div>
+								<div class=" mart20 talc fsz16  "> <a href="https://www.qloudid.com/user/index.php/Company/companyAccount/<?php echo $data['cid']; ?>" class="dblue_btn trn brdrad3" data-trn-key="Uppdatera ">Uppdatera </a> </div>
+								<div class="clear"></div>
+							</div>
+						</div>		
+						
+						<div class=" mart30 xs-marrl0 sm-marrl0 ">
+							
+							<div class="marb0 ">
+								<h2 class="fleft mar0 padb5 fsz15">Telefonnummer</h2>
+								<div class="fright pos_rel padb5 fsz13">
+									<a href="#" class="class-toggler" data-target="#profile-dropdown4,#profile-fade1" data-classes="active">
+										<span>Kort förklaring</span>
+										<span class="fa fa-angle-down"></span>
+									</a>
+									<div id="profile-dropdown4" class="wi_320p maxwi_100vw-30p dnone dblock_a pos_abs zi40 top100 right-10p bxsh_0060_03 brdrad3 bg_f txt_a5b2bd ">
+										<div class="minwi_0 dflex alit_c padtb10 padrl15 bg_f9">
+											<div class="ovfl_hid flex_1 pos_rel brdrad10 bg_e3e8eb">
+												<div class="hei_8p ovfl_hid brdrad10 bglgrad_r_3298d6_63c7b0" style="width: 60%"></div>
+											</div>
+											<span class="fxshrink_0 marl15">Step 4/5</span>
+										</div>
+										<div class="padtb30 padrl15 talc">
+											<div class="marb10">
+												<span class="fa fa-envelope-open-o fsz40"></span>
+											</div>
+											<h3 class="marb10 pad0 bold fsz16 txt_485761">Get copies of your email into Help Scout</h3>
+											<div class="mart10">
+												Don't worry, we'll just make a copy. The emails in your original mailbox will remain untouched.
+											</div>
+											<div class="mart20">
+												<a href="#" class="diblock padtb10 padrl15 brdrad3 bg_3197d6 bg_4aa7e7_h fsz16 txt_f">Forward a Copy of Your Email</a>
+											</div>
+											<div class="mart20">
+												Then verify that it's set up by <a href="#">sending a test email</a>.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						<div class=" lgtgrey2_bg mart5  brdrad3" style="">
+							<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20 xs-padl0  fsz14 dark_grey_txt  ">
+								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+									
+									<!--<div class="clear hidden-xs"></div>-->
+									
+									<div class="fleft wi_33 bs_bb marl15  padrl2"> <span>Land</span> <span class=" edit-select jain1 dblock brdb_new brdclr_lgtgrey2 fsz16 c_phone"  data-post-action="add_phone_country" id="passport-country"><?php if($companyDetail['phone_country']!="" || $companyDetail['phone_country']!= null) echo $companyDetail['phone_country']; else echo "Sweden"; ?></span> </div>
+									<datalist id="countries-list">
+										<option value="Abkhazia"></option>
+										<option value="Afghanistan"></option>
+										<option value="Albania"></option>
+										<option value="Algeria"></option>
+										<option value="American Samoa"></option>
+										<option value="Andorra"></option>
+										<option value="Angola"></option>
+										<option value="Anguilla"></option>
+										<option value="Antigua and Barbuda"></option>
+										<option value="Argentina"></option>
+										<option value="Armenia"></option>
+										<option value="Aruba"></option>
+										<option value="Ascension"></option>
+										<option value="Australia"></option>
+										<option value="Australian External Territories"></option>
+										<option value="Austria"></option>
+										<option value="Azerbaijan"></option>
+										<option value="Bahamas"></option>
+										<option value="Bahrain"></option>
+										<option value="Bangladesh"></option>
+										<option value="Barbados"></option>
+										<option value="Barbuda"></option>
+										<option value="Belarus"></option>
+										<option value="Belgium"></option>
+										<option value="Belize"></option>
+										<option value="Benin"></option>
+										<option value="Bermuda"></option>
+										<option value="Bhutan"></option>
+										<option value="Bolivia"></option>
+										<option value="Bosnia and Herzegovina"></option>
+										<option value="Botswana"></option>
+										<option value="Brazil"></option>
+										<option value="British Indian Ocean Territory"></option>
+										<option value="British Virgin Islands"></option>
+										<option value="Brunei"></option>
+										<option value="Bulgaria"></option>
+										<option value="Burkina Faso"></option>
+										<option value="Burundi"></option>
+										<option value="Cambodia"></option>
+										<option value="Cameroon"></option>
+										<option value="Canada"></option>
+										<option value="Cape Verde"></option>
+										<option value="Cayman Islands"></option>
+										<option value="Central African Republic"></option>
+										<option value="Chad"></option>
+										<option value="Chile"></option>
+										<option value="China"></option>
+										<option value="Christmas Island"></option>
+										<option value="Cocos-Keeling Islands"></option>
+										<option value="Colombia"></option>
+										<option value="Comoros"></option>
+										<option value="Congo"></option>
+										<option value="Congo, Dem. Rep. of (Zaire)"></option>
+										<option value="Cook Islands"></option>
+										<option value="Costa Rica"></option>
+										<option value="Croatia"></option>
+										<option value="Cuba"></option>
+										<option value="Curacao"></option>
+										<option value="Cyprus"></option>
+										<option value="Czech Republic"></option>
+										<option value="Denmark"></option>
+										<option value="Diego Garcia"></option>
+										<option value="Djibouti"></option>
+										<option value="Dominica"></option>
+										<option value="Dominican Republic"></option>
+										<option value="East Timor"></option>
+										<option value="Easter Island"></option>
+										<option value="Ecuador"></option>
+										<option value="Egypt"></option>
+										<option value="El Salvador"></option>
+										<option value="Equatorial Guinea"></option>
+										<option value="Eritrea"></option>
+										<option value="Estonia"></option>
+										<option value="Ethiopia"></option>
+										<option value="Falkland Islands"></option>
+										<option value="Faroe Islands"></option>
+										<option value="Fiji"></option>
+										<option value="Finland"></option>
+										<option value="France"></option>
+										<option value="French Antilles"></option>
+										<option value="French Guiana"></option>
+										<option value="French Polynesia"></option>
+										<option value="Gabon"></option>
+										<option value="Gambia"></option>
+										<option value="Georgia"></option>
+										<option value="Germany"></option>
+										<option value="Ghana"></option>
+										<option value="Gibraltar"></option>
+										<option value="Greece"></option>
+										<option value="Greenland"></option>
+										<option value="Grenada"></option>
+										<option value="Guadeloupe"></option>
+										<option value="Guam"></option>
+										<option value="Guatemala"></option>
+										<option value="Guinea"></option>
+										<option value="Guinea-Bissau"></option>
+										<option value="Guyana"></option>
+										<option value="Haiti"></option>
+										<option value="Honduras"></option>
+										<option value="Hong Kong SAR China"></option>
+										<option value="Hungary"></option>
+										<option value="Iceland"></option>
+										<option value="India"></option>
+										<option value="Indonesia"></option>
+										<option value="Iran"></option>
+										<option value="Iraq"></option>
+										<option value="Ireland"></option>
+										<option value="Israel"></option>
+										<option value="Italy"></option>
+										<option value="Ivory Coast"></option>
+										<option value="Jamaica"></option>
+										<option value="Japan"></option>
+										<option value="Jordan"></option>
+										<option value="Kazakhstan"></option>
+										<option value="Kenya"></option>
+										<option value="Kiribati"></option>
+										<option value="Kuwait"></option>
+										<option value="Kyrgyzstan"></option>
+										<option value="Laos"></option>
+										<option value="Latvia"></option>
+										<option value="Lebanon"></option>
+										<option value="Lesotho"></option>
+										<option value="Liberia"></option>
+										<option value="Libya"></option>
+										<option value="Liechtenstein"></option>
+										<option value="Lithuania"></option>
+										<option value="Luxembourg"></option>
+										<option value="Macau SAR China"></option>
+										<option value="Macedonia"></option>
+										<option value="Madagascar"></option>
+										<option value="Malawi"></option>
+										<option value="Malaysia"></option>
+										<option value="Maldives"></option>
+										<option value="Mali"></option>
+										<option value="Malta"></option>
+										<option value="Marshall Islands"></option>
+										<option value="Martinique"></option>
+										<option value="Mauritania"></option>
+										<option value="Mauritius"></option>
+										<option value="Mayotte"></option>
+										<option value="Mexico"></option>
+										<option value="Micronesia"></option>
+										<option value="Midway Island"></option>
+										<option value="Moldova"></option>
+										<option value="Monaco"></option>
+										<option value="Mongolia"></option>
+										<option value="Montenegro"></option>
+										<option value="Montserrat"></option>
+										<option value="Morocco"></option>
+										<option value="Myanmar"></option>
+										<option value="Namibia"></option>
+										<option value="Nauru"></option>
+										<option value="Nepal"></option>
+										<option value="Netherlands"></option>
+										<option value="Netherlands Antilles"></option>
+										<option value="Nevis"></option>
+										<option value="New Caledonia"></option>
+										<option value="New Zealand"></option>
+										<option value="Nicaragua"></option>
+										<option value="Niger"></option>
+										<option value="Nigeria"></option>
+										<option value="Niue"></option>
+										<option value="Norfolk Island"></option>
+										<option value="North Korea"></option>
+										<option value="Northern Mariana Islands"></option>
+										<option value="Norway"></option>
+										<option value="Oman"></option>
+										<option value="Pakistan"></option>
+										<option value="Palau"></option>
+										<option value="Palestinian Territory"></option>
+										<option value="Panama"></option>
+										<option value="Papua New Guinea"></option>
+										<option value="Paraguay"></option>
+										<option value="Peru"></option>
+										<option value="Philippines"></option>
+										<option value="Poland"></option>
+										<option value="Portugal"></option>
+										<option value="Puerto Rico"></option>
+										<option value="Qatar"></option>
+										<option value="Reunion"></option>
+										<option value="Romania"></option>
+										<option value="Russia"></option>
+										<option value="Rwanda"></option>
+										<option value="Samoa"></option>
+										<option value="San Marino"></option>
+										<option value="Saudi Arabia"></option>
+										<option value="Senegal"></option>
+										<option value="Serbia"></option>
+										<option value="Seychelles"></option>
+										<option value="Sierra Leone"></option>
+										<option value="Singapore"></option>
+										<option value="Slovakia"></option>
+										<option value="Slovenia"></option>
+										<option value="Solomon Islands"></option>
+										<option value="South Africa"></option>
+										<option value="South Georgia and the South Sandwich Islands"></option>
+										<option value="South Korea"></option>
+										<option value="Spain"></option>
+										<option value="Sri Lanka"></option>
+										<option value="Sudan"></option>
+										<option value="Suriname"></option>
+										<option value="Swaziland"></option>
+										<option value="Sweden"></option>
+										<option value="Switzerland"></option>
+										<option value="Syria"></option>
+										<option value="Taiwan"></option>
+										<option value="Tajikistan"></option>
+										<option value="Tanzania"></option>
+										<option value="Thailand"></option>
+										<option value="Timor Leste"></option>
+										<option value="Togo"></option>
+										<option value="Tokelau"></option>
+										<option value="Tonga"></option>
+										<option value="Trinidad and Tobago"></option>
+										<option value="Tunisia"></option>
+										<option value="Turkey"></option>
+										<option value="Turkmenistan"></option>
+										<option value="Turks and Caicos Islands"></option>
+										<option value="Tuvalu"></option>
+										<option value="U.S. Virgin Islands"></option>
+										<option value="Uganda"></option>
+										<option value="Ukraine"></option>
+										<option value="United Arab Emirates"></option>
+										<option value="United Kingdom"></option>
+										<option value="United States"></option>
+										<option value="Uruguay"></option>
+										<option value="Uzbekistan"></option>
+										<option value="Vanuatu"></option>
+										<option value="Venezuela"></option>
+										<option value="Vietnam"></option>
+										<option value="Wake Island"></option>
+										<option value="Wallis and Futuna"></option>
+										<option value="Yemen"></option>
+										<option value="Zambia"></option>
+										<option value="Zanzibar"></option>
+										<option value="Zimbabwe"></option>
+									</datalist>
+									
+									<div class="clear marb5"></div>
+									
+									<div class="fleft wi_50 bs_bb padrl2">
+										<span>Telefon nr</span>
+										<div class="dflex alit_c pos_rel brdb_new brdclr_lgtgrey2">
+											<span class="padr5" id="phone-country-flag"><img src="<?php echo $path;?>html/usercontent/images/flags/default.png" height="18" class="dblock"></span>
+											<span class="padr5 uppercase fsz16" id="phone-country"></span>
+											<span class=" edit-phone dblock flex_1 uppercase wordb_ba curt fsz16 phone"><?php if($companyDetail['phone']!="" || $companyDetail['phone']!= null) echo $companyDetail['phone']; else echo "-"; ?></span>
+										</div>
+									</div>
+									<div class="right_number hidden-xs bold talc fsz14"> <span><?php echo $verificationId['v_id']; ?></span> </div>
+									
+								</div>
+								
+								
+								
+								<div class=" mart20 talc fsz16  "> <a href="https://www.qloudid.com/user/index.php/Company/companyAccount/<?php echo $data['cid']; ?>" class="dblue_btn trn brdrad3" data-trn-key="Uppdatera ">Uppdatera </a> </div>
+								<div class="clear"></div>
+								
+								<!-- <div class="clear hidden-xs"></div>-->
+							</div>
+							<div class="clear"></div>
+							
+						</div>
+						
+						
+						<div class=" mart30 xs-marrl0 sm-marrl0 ">
+							
+							<div class="marb0">
+								<h2 class="fleft mar0 padb5 fsz15">Email</h2>
+								<div class="fright pos_rel padb5 fsz13">
+									<a href="#" class="class-toggler" data-target="#profile-dropdown5,#profile-fade1" data-classes="active">
+										<span>Kort förklaring</span>
+										<span class="fa fa-angle-down"></span>
+									</a>
+									<div id="profile-dropdown5" class="wi_320p maxwi_100vw-30p dnone dblock_a pos_abs zi40 top100 right-10p bxsh_0060_03 brdrad3 bg_f txt_a5b2bd ">
+										<div class="minwi_0 dflex alit_c padtb10 padrl15 bg_f9">
+											<div class="ovfl_hid flex_1 pos_rel brdrad10 bg_e3e8eb">
+												<div class="hei_8p ovfl_hid brdrad10 bglgrad_r_3298d6_63c7b0" style="width: 60%"></div>
+											</div>
+											<span class="fxshrink_0 marl15">Step 4/5</span>
+										</div>
+										<div class="padtb30 padrl15 talc">
+											<div class="marb10">
+												<span class="fa fa-envelope-open-o fsz40"></span>
+											</div>
+											<h3 class="marb10 pad0 bold fsz16 txt_485761">Get copies of your email into Help Scout</h3>
+											<div class="mart10">
+												Don't worry, we'll just make a copy. The emails in your original mailbox will remain untouched.
+											</div>
+											<div class="mart20">
+												<a href="#" class="diblock padtb10 padrl15 brdrad3 bg_3197d6 bg_4aa7e7_h fsz16 txt_f">Forward a Copy of Your Email</a>
+											</div>
+											<div class="mart20">
+												Then verify that it's set up by <a href="#">sending a test email</a>.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						<div class=" lgtgrey2_bg mart5  brdrad3" style="">
+							<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20   fsz14 dark_grey_txt  ">
+								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+									
+									<!--<div class="clear hidden-xs"></div>-->
+									
+									<div class="wi_100 xs-wi_100 xs-order_3 xs-padt10 fsz12">
+										<div class="wi_50 xs-wi_100 sm-wi_100 marl15 xs-mar0 "> <span class="trn" data-trn-key="E-post">E-post</span> <span class=" edit-address dblock brdb_new brdclr_lgtgrey2 fsz16 email"><?php if($companyDetail['company_email']!="" || $companyDetail['company_email']!= null) echo $companyDetail['company_email']; else echo "-"; ?> </span></div>
+										
+										
+										
+										
+										
+										
+										<div class="right_number hidden-xs bold talc fsz14"> <span><?php echo $verificationId['v_id']; ?></span> </div>
+										<!-- <div class="clear hidden-xs"></div>-->
+									</div>
+									
+									<div class="clear"></div>
+								</div>
+								<div class=" mart20 talc fsz16  "> <a href="https://www.qloudid.com/user/index.php/Company/companyAccount/<?php echo $data['cid']; ?>" class="dblue_btn trn brdrad3" data-trn-key="Uppdatera ">Uppdatera </a> </div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						<div class=" mart30 xs-marrl0 sm-marrl0 ">
+							
+							<div class="marb0">
+								<h2 class="fleft mar0 padb5 fsz15">For Suppliers </h2>
+								<div class="fright pos_rel padb5 fsz13">
+									<a href="#" class="class-toggler" data-target="#profile-dropdown6,#profile-fade1" data-classes="active">
+										<span>Kort förklaring</span>
+										<span class="fa fa-angle-down"></span>
+									</a>
+									<div id="profile-dropdown6" class="wi_320p maxwi_100vw-30p dnone dblock_a pos_abs zi40 top100 right-10p bxsh_0060_03 brdrad3 bg_f txt_a5b2bd ">
+										<div class="minwi_0 dflex alit_c padtb10 padrl15 bg_f9">
+											<div class="ovfl_hid flex_1 pos_rel brdrad10 bg_e3e8eb">
+												<div class="hei_8p ovfl_hid brdrad10 bglgrad_r_3298d6_63c7b0" style="width: 60%"></div>
+											</div>
+											<span class="fxshrink_0 marl15">Step 4/5</span>
+										</div>
+										<div class="padtb30 padrl15 talc">
+											<div class="marb10">
+												<span class="fa fa-envelope-open-o fsz40"></span>
+											</div>
+											<h3 class="marb10 pad0 bold fsz16 txt_485761">Get copies of your email into Help Scout</h3>
+											<div class="mart10">
+												Don't worry, we'll just make a copy. The emails in your original mailbox will remain untouched.
+											</div>
+											<div class="mart20">
+												<a href="#" class="diblock padtb10 padrl15 brdrad3 bg_3197d6 bg_4aa7e7_h fsz16 txt_f">Forward a Copy of Your Email</a>
+											</div>
+											<div class="mart20">
+												Then verify that it's set up by <a href="#">sending a test email</a>.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						<div class=" lgtgrey2_bg mart5  brdrad3" style="">
+							<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20   fsz14 dark_grey_txt  ">
+								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+									
+									<!--<div class="clear hidden-xs"></div>-->
+									
+									<div class="wi_100 xs-wi_100 xs-order_3 xs-padt10 fsz12">
+										<div class="container marrl-2 padl15 xs-marrl0 padl0">
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10"> <span class="trn" data-trn-key="Faktura adress">Faktura adress</span> <span class=" edit-address dblock brdb_new brdclr_lgtgrey2 fsz16 addrssi"><?php if($companyDetail['si_address']!="" || $companyDetail['si_address']!= null) echo $companyDetail['si_address']; else echo "-"; ?> </span></div>
+											
+											<div class="fleft wi_10 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10 "> <span class="trn" data-trn-key="Post nr">Post nr</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16 zipsi"><?php if($companyDetail['si_zip']!="" || $companyDetail['si_zip']!= null) echo $companyDetail['si_zip']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10 "> <span class="trn" data-trn-key="Stad">Stad</span> <span class=" edit-text jain2 dblock brdb_new brdclr_lgtgrey2 fsz16 citysi"><?php if($companyDetail['si_city']!="" || $companyDetail['si_city']!= null) echo $companyDetail['si_city']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2 padl15 padb10 xs-padl0"> <span>Land</span> <span class=" edit-select cntrysi dblock brdb_new brdclr_lgtgrey2 fsz16"  ><?php if($companyDetail['si_country']!="" || $companyDetail['si_country']!= null) echo $companyDetail['si_country']; else echo "Sweden"; ?></span> </div>
+											
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10"> <span class="trn" data-trn-key="Leveransadress">Leveransadress</span> <span class=" edit-address dblock brdb_new brdclr_lgtgrey2 fsz16 addrssd"><?php if($companyDetail['sd_address']!="" || $companyDetail['sd_address']!= null) echo $companyDetail['sd_address']; else echo "-"; ?> </span></div>
+											
+											<div class="fleft wi_10 xs-wi_50 sm-wi_50 marl15 xs-mar0  padb10"> <span class="trn" data-trn-key="Post nr">Post nr</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16 zipsd"><?php if($companyDetail['sd_zip']!="" || $companyDetail['sd_zip']!= null) echo $companyDetail['sd_zip']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0  padb10"> <span class="trn" data-trn-key="Stad">Stad</span> <span class=" edit-text jain2 dblock brdb_new brdclr_lgtgrey2 fsz16 citysd"><?php if($companyDetail['sd_city']!="" || $companyDetail['sd_city']!= null) echo $companyDetail['sd_city']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2 padl15 padb10 xs-padl0"> <span>Land</span> <span class=" edit-select cntrysd dblock brdb_new brdclr_lgtgrey2 fsz16"  ><?php if($companyDetail['sd_country']!="" || $companyDetail['sd_country']!= null) echo $companyDetail['sd_country']; else echo "Sweden"; ?></span> </div>
+											<datalist id="countries-list">
+												<option value="Abkhazia"></option>
+												<option value="Afghanistan"></option>
+												<option value="Albania"></option>
+												<option value="Algeria"></option>
+												<option value="American Samoa"></option>
+												<option value="Andorra"></option>
+												<option value="Angola"></option>
+												<option value="Anguilla"></option>
+												<option value="Antigua and Barbuda"></option>
+												<option value="Argentina"></option>
+												<option value="Armenia"></option>
+												<option value="Aruba"></option>
+												<option value="Ascension"></option>
+												<option value="Australia"></option>
+												<option value="Australian External Territories"></option>
+												<option value="Austria"></option>
+												<option value="Azerbaijan"></option>
+												<option value="Bahamas"></option>
+												<option value="Bahrain"></option>
+												<option value="Bangladesh"></option>
+												<option value="Barbados"></option>
+												<option value="Barbuda"></option>
+												<option value="Belarus"></option>
+												<option value="Belgium"></option>
+												<option value="Belize"></option>
+												<option value="Benin"></option>
+												<option value="Bermuda"></option>
+												<option value="Bhutan"></option>
+												<option value="Bolivia"></option>
+												<option value="Bosnia and Herzegovina"></option>
+												<option value="Botswana"></option>
+												<option value="Brazil"></option>
+												<option value="British Indian Ocean Territory"></option>
+												<option value="British Virgin Islands"></option>
+												<option value="Brunei"></option>
+												<option value="Bulgaria"></option>
+												<option value="Burkina Faso"></option>
+												<option value="Burundi"></option>
+												<option value="Cambodia"></option>
+												<option value="Cameroon"></option>
+												<option value="Canada"></option>
+												<option value="Cape Verde"></option>
+												<option value="Cayman Islands"></option>
+												<option value="Central African Republic"></option>
+												<option value="Chad"></option>
+												<option value="Chile"></option>
+												<option value="China"></option>
+												<option value="Christmas Island"></option>
+												<option value="Cocos-Keeling Islands"></option>
+												<option value="Colombia"></option>
+												<option value="Comoros"></option>
+												<option value="Congo"></option>
+												<option value="Congo, Dem. Rep. of (Zaire)"></option>
+												<option value="Cook Islands"></option>
+												<option value="Costa Rica"></option>
+												<option value="Croatia"></option>
+												<option value="Cuba"></option>
+												<option value="Curacao"></option>
+												<option value="Cyprus"></option>
+												<option value="Czech Republic"></option>
+												<option value="Denmark"></option>
+												<option value="Diego Garcia"></option>
+												<option value="Djibouti"></option>
+												<option value="Dominica"></option>
+												<option value="Dominican Republic"></option>
+												<option value="East Timor"></option>
+												<option value="Easter Island"></option>
+												<option value="Ecuador"></option>
+												<option value="Egypt"></option>
+												<option value="El Salvador"></option>
+												<option value="Equatorial Guinea"></option>
+												<option value="Eritrea"></option>
+												<option value="Estonia"></option>
+												<option value="Ethiopia"></option>
+												<option value="Falkland Islands"></option>
+												<option value="Faroe Islands"></option>
+												<option value="Fiji"></option>
+												<option value="Finland"></option>
+												<option value="France"></option>
+												<option value="French Antilles"></option>
+												<option value="French Guiana"></option>
+												<option value="French Polynesia"></option>
+												<option value="Gabon"></option>
+												<option value="Gambia"></option>
+												<option value="Georgia"></option>
+												<option value="Germany"></option>
+												<option value="Ghana"></option>
+												<option value="Gibraltar"></option>
+												<option value="Greece"></option>
+												<option value="Greenland"></option>
+												<option value="Grenada"></option>
+												<option value="Guadeloupe"></option>
+												<option value="Guam"></option>
+												<option value="Guatemala"></option>
+												<option value="Guinea"></option>
+												<option value="Guinea-Bissau"></option>
+												<option value="Guyana"></option>
+												<option value="Haiti"></option>
+												<option value="Honduras"></option>
+												<option value="Hong Kong SAR China"></option>
+												<option value="Hungary"></option>
+												<option value="Iceland"></option>
+												<option value="India"></option>
+												<option value="Indonesia"></option>
+												<option value="Iran"></option>
+												<option value="Iraq"></option>
+												<option value="Ireland"></option>
+												<option value="Israel"></option>
+												<option value="Italy"></option>
+												<option value="Ivory Coast"></option>
+												<option value="Jamaica"></option>
+												<option value="Japan"></option>
+												<option value="Jordan"></option>
+												<option value="Kazakhstan"></option>
+												<option value="Kenya"></option>
+												<option value="Kiribati"></option>
+												<option value="Kuwait"></option>
+												<option value="Kyrgyzstan"></option>
+												<option value="Laos"></option>
+												<option value="Latvia"></option>
+												<option value="Lebanon"></option>
+												<option value="Lesotho"></option>
+												<option value="Liberia"></option>
+												<option value="Libya"></option>
+												<option value="Liechtenstein"></option>
+												<option value="Lithuania"></option>
+												<option value="Luxembourg"></option>
+												<option value="Macau SAR China"></option>
+												<option value="Macedonia"></option>
+												<option value="Madagascar"></option>
+												<option value="Malawi"></option>
+												<option value="Malaysia"></option>
+												<option value="Maldives"></option>
+												<option value="Mali"></option>
+												<option value="Malta"></option>
+												<option value="Marshall Islands"></option>
+												<option value="Martinique"></option>
+												<option value="Mauritania"></option>
+												<option value="Mauritius"></option>
+												<option value="Mayotte"></option>
+												<option value="Mexico"></option>
+												<option value="Micronesia"></option>
+												<option value="Midway Island"></option>
+												<option value="Moldova"></option>
+												<option value="Monaco"></option>
+												<option value="Mongolia"></option>
+												<option value="Montenegro"></option>
+												<option value="Montserrat"></option>
+												<option value="Morocco"></option>
+												<option value="Myanmar"></option>
+												<option value="Namibia"></option>
+												<option value="Nauru"></option>
+												<option value="Nepal"></option>
+												<option value="Netherlands"></option>
+												<option value="Netherlands Antilles"></option>
+												<option value="Nevis"></option>
+												<option value="New Caledonia"></option>
+												<option value="New Zealand"></option>
+												<option value="Nicaragua"></option>
+												<option value="Niger"></option>
+												<option value="Nigeria"></option>
+												<option value="Niue"></option>
+												<option value="Norfolk Island"></option>
+												<option value="North Korea"></option>
+												<option value="Northern Mariana Islands"></option>
+												<option value="Norway"></option>
+												<option value="Oman"></option>
+												<option value="Pakistan"></option>
+												<option value="Palau"></option>
+												<option value="Palestinian Territory"></option>
+												<option value="Panama"></option>
+												<option value="Papua New Guinea"></option>
+												<option value="Paraguay"></option>
+												<option value="Peru"></option>
+												<option value="Philippines"></option>
+												<option value="Poland"></option>
+												<option value="Portugal"></option>
+												<option value="Puerto Rico"></option>
+												<option value="Qatar"></option>
+												<option value="Reunion"></option>
+												<option value="Romania"></option>
+												<option value="Russia"></option>
+												<option value="Rwanda"></option>
+												<option value="Samoa"></option>
+												<option value="San Marino"></option>
+												<option value="Saudi Arabia"></option>
+												<option value="Senegal"></option>
+												<option value="Serbia"></option>
+												<option value="Seychelles"></option>
+												<option value="Sierra Leone"></option>
+												<option value="Singapore"></option>
+												<option value="Slovakia"></option>
+												<option value="Slovenia"></option>
+												<option value="Solomon Islands"></option>
+												<option value="South Africa"></option>
+												<option value="South Georgia and the South Sandwich Islands"></option>
+												<option value="South Korea"></option>
+												<option value="Spain"></option>
+												<option value="Sri Lanka"></option>
+												<option value="Sudan"></option>
+												<option value="Suriname"></option>
+												<option value="Swaziland"></option>
+												<option value="Sweden"></option>
+												<option value="Switzerland"></option>
+												<option value="Syria"></option>
+												<option value="Taiwan"></option>
+												<option value="Tajikistan"></option>
+												<option value="Tanzania"></option>
+												<option value="Thailand"></option>
+												<option value="Timor Leste"></option>
+												<option value="Togo"></option>
+												<option value="Tokelau"></option>
+												<option value="Tonga"></option>
+												<option value="Trinidad and Tobago"></option>
+												<option value="Tunisia"></option>
+												<option value="Turkey"></option>
+												<option value="Turkmenistan"></option>
+												<option value="Turks and Caicos Islands"></option>
+												<option value="Tuvalu"></option>
+												<option value="U.S. Virgin Islands"></option>
+												<option value="Uganda"></option>
+												<option value="Ukraine"></option>
+												<option value="United Arab Emirates"></option>
+												<option value="United Kingdom"></option>
+												<option value="United States"></option>
+												<option value="Uruguay"></option>
+												<option value="Uzbekistan"></option>
+												<option value="Vanuatu"></option>
+												<option value="Venezuela"></option>
+												<option value="Vietnam"></option>
+												<option value="Wake Island"></option>
+												<option value="Wallis and Futuna"></option>
+												<option value="Yemen"></option>
+												<option value="Zambia"></option>
+												<option value="Zanzibar"></option>
+												<option value="Zimbabwe"></option>
+											</datalist>
+											
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 marl15 xs-mar0  "> <span class="trn" data-trn-key="Vat">VAT</span> <span class=" edit-text jain2 dblock brdb_new brdclr_lgtgrey2 fsz16 vat"><?php if($companyDetail['vat']!="" || $companyDetail['vat']!= null) echo $companyDetail['vat']; else echo "-"; ?></span> </div>
+											
+										</div>
+										
+									</div>
+									
+									
+									
+									
+									<div class="right_number hidden-xs bold talc fsz14"> <span><?php echo $verificationId['v_id']; ?></span> </div>
+									<!-- <div class="clear hidden-xs"></div>-->
+								</div>
+								
+								<div class=" mart20 talc fsz16  "> <a href="https://www.qloudid.com/user/index.php/Company/companyAccount/<?php echo $data['cid']; ?>" class="dblue_btn trn brdrad3" data-trn-key="Uppdatera ">Uppdatera </a> </div>
+								<div class="clear"></div>
+							</div>
+							
+						</div>		
+						
+						<div class=" mart30 xs-marrl0 sm-marrl0 ">
+							
+							<div class="marb0">
+								<h2 class="fleft mar0 padb5 fsz15">For Customers</h2>
+								<div class="fright pos_rel padb5 fsz13">
+									<a href="#" class="class-toggler" data-target="#profile-dropdown7,#profile-fade1" data-classes="active">
+										<span>Kort förklaring</span>
+										<span class="fa fa-angle-down"></span>
+									</a>
+									<div id="profile-dropdown7" class="wi_320p maxwi_100vw-30p dnone dblock_a pos_abs zi40 top100 right-10p bxsh_0060_03 brdrad3 bg_f txt_a5b2bd ">
+										<div class="minwi_0 dflex alit_c padtb10 padrl15 bg_f9">
+											<div class="ovfl_hid flex_1 pos_rel brdrad10 bg_e3e8eb">
+												<div class="hei_8p ovfl_hid brdrad10 bglgrad_r_3298d6_63c7b0" style="width: 60%"></div>
+											</div>
+											<span class="fxshrink_0 marl15">Step 4/5</span>
+										</div>
+										<div class="padtb30 padrl15 talc">
+											<div class="marb10">
+												<span class="fa fa-envelope-open-o fsz40"></span>
+											</div>
+											<h3 class="marb10 pad0 bold fsz16 txt_485761">Get copies of your email into Help Scout</h3>
+											<div class="mart10">
+												Don't worry, we'll just make a copy. The emails in your original mailbox will remain untouched.
+											</div>
+											<div class="mart20">
+												<a href="#" class="diblock padtb10 padrl15 brdrad3 bg_3197d6 bg_4aa7e7_h fsz16 txt_f">Forward a Copy of Your Email</a>
+											</div>
+											<div class="mart20">
+												Then verify that it's set up by <a href="#">sending a test email</a>.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						<div class=" lgtgrey2_bg mart5  brdrad3" style="">
+							<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20   fsz14 dark_grey_txt  ">
+								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
+									
+									<div class="wi_70 xs-wi_100 xs-order_3 xs-padt10 fsz12">
+										<div class="wi_50 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10"> <span class="trn" data-trn-key="Bankgiro med OCR">Bankgiro med OCR</span> <span class=" edit-text bankgiro_med dblock brdb_new brdclr_lgtgrey2 fsz20"><?php if($companyDetail['bankgiro_med']!="" || $companyDetail['bankgiro_med']!= null) echo $companyDetail['bankgiro_med']; else echo "-"; ?></span> </div>
+										<div class="wi_50 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10 "> <span class="trn" data-trn-key="Bankgiro utan OCR">Bankgiro utan OCR</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16 bankgiro_utan"><?php if($companyDetail['bankgiro_utan']!="" || $companyDetail['bankgiro_utan']!= null) echo $companyDetail['bankgiro_utan']; else echo "-"; ?></span> </div>
+										
+										<div class="wi_50 xs-wi_50 sm-wi_50 marl15 xs-mar0 padb10 "> <span class="trn" data-trn-key="IBAN">IBAN</span> <span class=" edit-text jain1 dblock brdb_new brdclr_lgtgrey2 fsz16 iban"><?php if($companyDetail['iban']!="" || $companyDetail['iban']!= null) echo $companyDetail['iban']; else echo "-"; ?></span> </div>
+										<div class="container marrl-2 padl15 xs-padl0 xs-marrl0">
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2 padb10"> <span class="trn" data-trn-key="BIC">BIC</span> <span class=" edit-text dblock brdb_new brdclr_lgtgrey2 uppercase curt fsz16 bic"><?php if($companyDetail['bic']!="" || $companyDetail['bic']!= null) echo $companyDetail['bic']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_25 xs-wi_50 sm-wi_50 bs_bb padrl2 padb10"> <span class="trn" data-trn-key="Bank">Bank</span> <span class=" edit-text dblock brdb_new brdclr_lgtgrey2 uppercase curt fsz16 bank"><?php if($companyDetail['bank']!="" || $companyDetail['bank']!= null) echo $companyDetail['bank']; else echo "-"; ?></span> </div>
+											<div class="fleft wi_30  xs-wi_50 sm-wi_50 bs_bb padrl2 "> <span class="trn" data-trn-key="F-skattebevis">F-skattebevis</span> <span class=" edit-select dblock brdb_new brdclr_lgtgrey2 uppercase curt fsz16 ftax" data-options="Yes,No"><?php echo $companyDetail['f_tax']; ?></span> </div>
+											
+										</div>
+										
+										
+										
+										
+										
+										<div class="right_number hidden-xs bold talc fsz14"> <span><?php echo $verificationId['v_id']; ?></span> </div>
+										<!-- <div class="clear hidden-xs"></div>-->
+									</div>
+									
+								</div>
+								<div class=" mart20 talc fsz16  "> <a href="https://www.qloudid.com/user/index.php/Company/companyAccount/<?php echo $data['cid']; ?>" class="dblue_btn trn brdrad3" data-trn-key="Uppdatera ">Uppdatera </a> </div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						
+						
+						<div class="clear"></div>
+					</div>
+					
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="hei_80p"></div>
+		
+		
+		<!-- Edit news popup -->
+			<div class="popup_modal wi_600p maxwi_90 pos_fix pos_cen zi50 bs_bb brdb brdwi_10 brdclr_dblue white_bg fsz14 " id="gratis_popup">
+				<div class="modal-content pad25 brd nobrdb talc">
+					<form method="POST" >
+						<h3 class="marb25 pad0 uppercase fsz16 dark_grey_txt">TJÄNSTEN är en del av vårt premiuminnehåll</h3>
+						<div class="marb20">
+							<img src="<?php echo $path; ?>html/usercontent/images/gratis.png" class="maxwi_100 hei_auto" />
+						</div>
+						<h2 class="marb10 pad0 bold fsz24 black_txt">Passa på att bli medlem nu!</h2>
+						<span><!--<p>Visserligen kanske du just nu inte är i behov av att</p>--></span>
+						<div class="wi_75 dflex fxwrap_w marrla marb20 tall">
+							<div class="wi_50 marb10">
+								<img src="<?php echo $path; ?>html/usercontent/images/checkmark.png" width="20" class="marr5 valm">
+								<span class="valm">Hålla dig  uppdaterad inom arbetsrätt</span>
+							</div>
+							<!--<div class="wi_50 marb10">
+								<img src="<?php echo $path; ?>html/usercontent/images/checkmark.png" width="20" class="marr5 valm">
+								<span class="valm">Läsa nyheter och  följa trender </span>
+							</div>-->
+							<div class="wi_50 marb10">
+								<img src="<?php echo $path; ?>html/usercontent/images/checkmark.png" width="20" class="marr5 valm">
+								<span class="valm">Använda smarta webblösningar</span>
+							</div>
+							<div class="wi_50 marb10">
+								<img src="<?php echo $path; ?>html/usercontent/images/checkmark.png" width="20" class="marr5 valm">
+								<span class="valm">Rekrytera eller hyra in personal från över 3000 kvalitetssäkrade leverantörer</span>
+							</div>
+							<div class="wi_50 marb10">
+								<img src="<?php echo $path; ?>html/usercontent/images/checkmark.png" width="20" class="marr5 valm">
+								<span class="valm">Utföra bakgrundskontroller på din personal eller nästa rekryt </span>
+							</div>
+							<!--<div class="wi_50 marb10">
+								<img src="<?php echo $path; ?>html/usercontent/images/checkmark.png" width="20" class="marr5 valm">
+								<span class="valm">Men nästa gång behovet dyker upp då finns allting färdigt.</span>
+							</div>-->
+						</div>
+						
+						<div class="marb10">
+							<input type="text" id="email_text" name="email_text" class="wi_320p maxwi_100 hei_38p diblock brd brdrad2 talc fsz18" placeholder="Skriv in din e-postadress" />
+						</div>
+						<div>
+							<input type="button" value="Prova gratis" class="wi_320p maxwi_100 hei_50p diblock nobrd brdrad50 blue_bg dblue_bg_h fsz18 white_txt curp"/>
+							<input type="hidden" id="indexing_savee" name="indexing_savee" >
+						</div>
+						<div class="marb10 padtb10 pos_rel">
+							<div class="wi_100 pos_abs zi1 pos_cenY brdt"></div>
+							<span class="diblock pos_rel zi2 padrl10 white_bg">
+								eller om du redan har en prenumeration
+							</span>
+						</div>
+						<div class="padb0">
+							<a href="#" class="diblock padrl15 brd brdclr_dblue brdrad50 white_bg blue_bg_h lgn_hight_30 dark_grey_txt white_txt_h">Logga in</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+		
+		
+		<!-- Sales popup -->
+		<div class="popup_modal wi_600p maxwi_90 pos_fix pos_cen zi50 bs_bb brdb brdwi_10 brdclr_dblue white_bg fsz14 " id="sales_popup">
+			<div class="modal-content pad25 brd nobrdb talc">
+				<form>
+					<h3 class="marb25 pad0 uppercase fsz16 dark_grey_txt">Artikeln är en del av vårt premiuminnehåll</h3>
+					<div class="wi_100 dtable marb30 brdt brdl brdclr_white">
+						<div class="dtrow">
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+						</div>
+						<div class="dtrow">
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+						</div>
+						<div class="dtrow">
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-toggler wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+						</div>
+					</div>
+					<div class="marb25">
+						<input type="text" class="wi_320p maxwi_100 hei_38p diblock brd brdrad2 talc fsz18" placeholder="Skriv in din e-postadress" /> </div>
+					<div>
+						<button type="submit" class="wi_320p maxwi_100 hei_50p diblock nobrd brdrad50 blue_bg dblue_bg_h fsz18 white_txt curp">Prova gratis</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		
+		<!-- Marketing popup -->
+		<div class="popup_modal wi_600p maxwi_90 pos_fix pos_cen zi50 bs_bb brdb brdwi_10 brdclr_dblue white_bg fsz14 " id="marketing_popup">
+			<div class="modal-content pad25 brd nobrdb talc">
+				<form>
+					<h3 class="marb25 pad0 uppercase fsz16 dark_grey_txt">Artikeln är en del av vårt premiuminnehåll</h3>
+					<div class="setter-base wi_100 dtable marb30 brdt brdl brdclr_white">
+						<div class="dtrow">
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+						</div>
+						<div class="dtrow">
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+						</div>
+						<div class="dtrow">
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+							<a href="#" class="class-setter wi_33 hei_100p dtcell brdr brdb brdclr_white lgtgrey2_bg valm talc" data-classes="active" data-closest=".setter-base"> <span class="dblock marb10 talc">Projects</span> <span class="wi_60p hei_60p dblock dnone_pa marrla brdrad50 green_bg talc uppercase lgn_hight_60 white_txt">HR</span> <span class="wi_60p hei_60p dnone dblock_pa marrla brdrad50 red_bg talc uppercase lgn_hight_60 white_txt">HR</span> </a>
+						</div>
+					</div>
+					<div class="marb25">
+						<input type="text" class="wi_320p maxwi_100 hei_38p diblock brd brdrad2 talc fsz18" placeholder="Skriv in din e-postadress" /> </div>
+					<div>
+						<button type="submit" class="wi_320p maxwi_100 hei_50p diblock nobrd brdrad50 blue_bg dblue_bg_h fsz18 white_txt curp">Prova gratis</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		
+		<!-- Popup fade -->
+		<div id="popup_fade" class="opa0 opa55_a black_bg"></div>
+		
+	</div>
+
+	<div class="popup_modal wi_430p maxwi_90 opa0 opa1_a pos_fix pos_cen zi50 bs_bb white_bg fsz14" id="gratis_popup_company">
+		<div class="modal-content pad25 brd">
+			<h3 class="pos_rel marb15 pad0 padr40 bold fsz20 dark_grey_txt">
+				Add Company
+				<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-close dblock"></span></a>
+			</h3>
+			<form method="POST" action="createCompanyAccount" id="save_indexing_company" name="save_indexing_company"  accept-charset="ISO-8859-1">
+				
+				<div class="marb15 "  >
+					<label for="new-organization-name" class="sr-only">Company Name</label>
+					<input type="text" id="company_name_add" name="company_name_add" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Company Name">
+				</div>
+				
+				<div class="marb15 padt15"  >
+					<label for="new-organization-name" class="sr-only">Website</label>
+					<input type="text" id="company_website" name="company_website" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Website">
+				</div>
+				
+				<div class="marb15 padt15"  >
+					<label for="new-organization-name" class="sr-only">Company Email</label>
+					<input type="text" id="company_email" name="company_email" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" placeholder="Company Email">
+				</div>
+				
+				<div class="marb15 padt15">
+					<label for="new-organization-under" class="txt_0">Industry</label>
+					<select name="inds" id= "inds" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" >
+						
+						<option value="0">--Select--</option>
+						<?php  foreach($resultIndus as $category => $value) 
+							{
+								$category = htmlspecialchars($category); 
+								echo '<option value="'. $value['id'] .'">'. $value['name'] .'</option>';
+							}
+						?>
+					</select>
+				</div>
+				
+				<div class="marb15 padt15">
+					<label for="new-organization-under" class="txt_0">Country</label>
+					<select name="cntry" id= "cntry" class="wi_100 mart5 padtb10 padrl0 nobrd brdb brdclr_dblue_f font_helvetica" >
+						
+						<option value="0">--Select--</option>
+						<?php  foreach($resultContry as $category => $value) 
+							{
+								$category = htmlspecialchars($category); 
+								echo '<option value="'. $value['id'] .'">'. $value['country_name'] .'</option>';
+							}
+						?>
+					</select>
+				</div>
+				
+				
+				<div class="mart30 talr">
+					<button type="button" class="close_popup_modal marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_0 curp">Cancel</button>
+					<input type="button" value="Submit" class="marl5 pad8 nobrd trans_bg uppercase bold fsz14 txt_3367d6 curp" onclick="validateAddCompany();" />
+					<input type="hidden" name="indexing_save_company" id="indexing_save_company" />
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	
+	
+	<!-- CALLBACK 
+		<div class="column_m zi10 frtred_bg">
+		<div class="wrap maxwi_100 padtb60 padrl15 talc white_txt fsz16">
+		<h2 class="padb15 fsz44 white_txt">Räkna ut kostnaden för ditt medlemskap</h2>
+		<p class="padb15 uppercase">Välj medlemskap, ange postnummer och antal anställda och se årskostnad</p>
+		<form>
+		<div class="dflex fxwrap_w justc_c marrl-5">
+		<div class="wi_25 sm-wi_33 xs-wi_33 xxs-wi_100 bs_bb marb15 padrl5">
+		<label class="sr-only" for="callback-select">Type</label>
+		<select class="wi_100 jui-select" id="callback-select" data-button-classes="wi_100_i hei_36p padt9 padrl15 nobrd frtdred_bg_i white_txt_i" data-icon-classes="fa fa-angle-down marr-10 bgi_none_i txtind0" data-menu-classes="fsz16">
+		<option value="1">Företagare</option>
+		<option value="2">Nystartad företagare</option>
+		<option value="3">Ung företagare</option>
+		<option value="4">Student</option>
+		<option value="5">Stödjande</option>
+		</select>
+		</div>
+		<div class="wi_25 sm-wi_33 xs-wi_33 xxs-wi_100 bs_bb marb15 padrl5">
+		<label class="sr-only" for="callback-text">Ange ditt postnummer</label>
+		<input type="text" class="wi_100 hei_36p padrl10 nobrd brdrad3 frtdred_bg fsz16 white_txt" id="callback-text" placeholder="Ange ditt postnummer" /> </div>
+		<div class="wi_25 sm-wi_33 xs-wi_33 xxs-wi_100 bs_bb marb15 padrl5">
+		<label class="sr-only" for="callback-number">Ange antal anställda</label>
+		<input type="number" class="wi_100 hei_36p padrl10 nobrd brdrad3 frtdred_bg fsz16 white_txt" id="callback-number" placeholder="Ange antal anställda" /> </div>
+		<div class="wi_100p xxs-wi_100 bs_bb marb15 padrl5">
+		<button type="submit" class="wi_100 hei_36p nobrd brdrad3 white_bg frtgrey_bg_h fsz16 frtred_txt curp trans_all2">Räkna ut</button>
+		</div>
+		</div>
+		</form>
+		<p class="padt15 padb15 uppercase"> <a href="#" class="white_txt" target="_blank">Läs mer om medlemskapet</a> </p>
+		</div>
+		</div>
+		<div class="clear"></div>
+	-->
+	
+	<!-- ADVANTAGES 
+		<div class="column_m zi10 frtlgrey_bg">
+		<div class="wrap maxwi_100 padt30 padb10 padrl15 fsz16 dark_grey_txt">
+		<h2 class="padb15 talc fsz44 dark_grey_txt">Förmåner &amp; Försäkringar</h2>
+		<p class="padb15 uppercase talc">Ingår i ditt medlemskap</p>
+		<div class="slick-slider dflex alit_s marrl-15 padt15" data-slick-settings="dots:true,arrows:false,infinite:true,slidesToShow:4,slidesToScroll:1" data-slick-sm-settings="dots:true,arrows:false,infinite:true,slidesToShow:3,slidesToScroll:1" data-slick-xs-settings="dots:true,arrows:false,infinite:true,slidesToShow:2,slidesToScroll:1" data-slick-xxs-settings="dots:true,arrows:false,infinite:true,slidesToShow:1,slidesToScroll:1">
+		<div class="pos_rel marb30 padrl15 padb40">
+		<div> <img src="<?php echo $path;?>html/usercontent/images/news/foretagarna1.jpg" width="265" height="177" class="wi_100 hei_auto dblock marb15" title="Affärsnätverket" alt="Affärsnätverket" />
+		<h3 class="padb10 fsz24 dark_grey_txt">Affärsnätverket</h3>
+		<div> Hitta andra företagare och få nya kunder med Företagarnas Affärsnätverk. Sök medlemmar, beställ offerter och gör affärer! </div> <a href="#" class="dblock pos_abs bot0 left15p undln_h bold frtgreen_txt">Läs mer</a> </div>
+		</div>
+		<div class="pos_rel marb30 padrl15 padb40">
+		<div> <img src="<?php echo $path;?>html/usercontent/images/news/foretagarna2.jpg" width="265" height="177" class="wi_100 hei_auto dblock marb15" title="Försäkringar" alt="Försäkringar" />
+		<h3 class="padb10 fsz24 dark_grey_txt">Försäkringar</h3>
+		<div> Omfattande försäkringspaket anpassat för dig som företagare. Vi har försäkringar för dig, ditt företag och dina anställda. </div> <a href="#" class="dblock pos_abs bot0 left15p undln_h bold frtgreen_txt">Läs mer</a> </div>
+		</div>
+		<div class="pos_rel marb30 padrl15 padb40">
+		<div> <img src="<?php echo $path;?>html/usercontent/images/news/foretagarna3.jpg" width="265" height="177" class="wi_100 hei_auto dblock marb15" title="Rådgivningen" alt="Rådgivningen" />
+		<h3 class="padb10 fsz24 dark_grey_txt">Rådgivningen</h3>
+		<div> Ring våra jurister kostnadsfritt när du behöver hjälp med en juridisk fråga! Eller sök rätt på svaret i vår FAQ. </div> <a href="#" class="dblock pos_abs bot0 left15p undln_h bold frtgreen_txt">Läs mer</a> </div>
+		</div>
+		<div class="pos_rel marb30 padrl15 padb40">
+		<div> <img src="<?php echo $path;?>html/usercontent/images/news/foretagarna4.jpg" width="265" height="177" class="wi_100 hei_auto dblock marb15" title="Förmåner" alt="Förmåner" />
+		<h3 class="padb10 fsz24 dark_grey_txt">Förmåner</h3>
+		<div> Spar tid och pengar genom att nyttja våra medlemsförmåner. Erbjudanden och rabatter på allt från bilar, drivmedel, resor, telefoni och hårdvara. </div> <a href="#" class="dblock pos_abs bot0 left15p undln_h bold frtgreen_txt">Läs mer</a> </div>
+		</div>
+		</div>
+		</div>
+		<style>
+		.slick-dots li button:before {
+		font-size: 15px;
+		color: #00c0a9!important;
+		}
+		</style>
+		</div>
+		<div class="clear"></div>
+	-->
+	
+	
+	<!-- New client modal -->
+	
+	<!-- Slide fade -->
+	<div id="slide_fade"></div>
+	
+	<!-- Menu list fade -->
+	<a href="#" class="class-toggler wi_100 hei_100 dnone dblock_a pos_abs zi30" id="menulist-fade" data-target="#menulist-dropdown,#menulist-fade" data-classes="active" data-toggle-type="separate"></a>
+	
+	
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/superfish.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/icheck.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.selectric.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/modules.js"></script>
+	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/custom.js"></script>
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script>
+		
+		// Charts
+		google.charts.load('current', { 'packages': ['corechart'] });
+		
+		
+		// Line Chart
+		google.charts.setOnLoadCallback(drawLineChartInhouse);
+		function drawLineChartInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawLineChartStaffing);
+		function drawLineChartStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawLineChartRecruiting);
+		function drawLineChartRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawLineChartBackgroundChecks);
+		function drawLineChartBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Day', 'Upcoming', 'Incoming'],
+			['MON', 100, 60],
+			['TUE', 90, 60],
+			['WED', 105, 50],
+			['THU', 115, 45],
+			['FRI', 110, 50],
+			['SAT', 112, 52],
+			['SUN', 200, 48]
+			]);
+			
+			var options = {
+				curveType: 'function',
+				chartArea : {
+					width: '100%',
+					height: 160,
+					top: 20,
+				},
+				pointSize: 5,
+				colors: ['#3691c0', '#ba03d9']
+			};
+			
+			var chart = new google.visualization.LineChart(document.getElementById('line-chart-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		// Donut Chart
+		// - yearly
+		google.charts.setOnLoadCallback(drawDonutChartYearlyInhouse);
+		function drawDonutChartYearlyInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartYearlyStaffing);
+		function drawDonutChartYearlyStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartYearlyRecruiting);
+		function drawDonutChartYearlyRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartYearlyBackgroundChecks);
+		function drawDonutChartYearlyBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 38],
+			['other', 22],
+			['23-30 y.o.', 26],
+			['18-22 y.o.', 14]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-yearly-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		// - monthly
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyInhouse);
+		function drawDonutChartMonthlyInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyStaffing);
+		function drawDonutChartMonthlyStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyRecruiting);
+		function drawDonutChartMonthlyRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartMonthlyBackgroundChecks);
+		function drawDonutChartMonthlyBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 48],
+			['other', 12],
+			['23-30 y.o.', 16],
+			['18-22 y.o.', 24]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-monthly-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		// - daily
+		google.charts.setOnLoadCallback(drawDonutChartDailyInhouse);
+		function drawDonutChartDailyInhouse() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-Inhouse'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartDailyStaffing);
+		function drawDonutChartDailyStaffing() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-Staffing'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartDailyRecruiting);
+		function drawDonutChartDailyRecruiting() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-Recruiting'));
+			chart.draw(data, options);
+		}
+		
+		google.charts.setOnLoadCallback(drawDonutChartDailyBackgroundChecks);
+		function drawDonutChartDailyBackgroundChecks() {
+			var data = google.visualization.arrayToDataTable([
+			['Age range', 'Attendance'],
+			['< 18 y.o.', 53],
+			['other', 16],
+			['23-30 y.o.', 21],
+			['18-22 y.o.', 10]
+			
+			]);
+			
+			var options = {
+				pieHole: 0.8,
+				chartArea : {
+					width: 320,
+					height: 150,
+					top: 20,
+				},
+				pieStartAngle : -90,
+				legend: {
+					position: 'right',
+					alignment: 'center',
+					textStyle: {
+						fontSize: 13,
+						color: '#c6c8ca',
+					}
+				},
+				pieSliceText : 'none',
+				colors: ['#ba03d9', '#f7f7f7', '#85db18', '#3691c0']
+			};
+			
+			var chart = new google.visualization.PieChart(document.getElementById('donut-chart-daily-BackgroundChecks'));
+			chart.draw(data, options);
+		}
+		
+		
+		tinyMCE.init({
+			selector: '.texteditor',
+			plugins: ["advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker", "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking", "table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker textpattern"],
+			toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | bullist numlist ",
+			//toolbar2: "cut copy paste | searchreplace | bullist numlist | outdent indent blockquote | undo redo | link unlink anchor image media code | insertdatetime preview | forecolor backcolor",
+			//toolbar3: "table | hr removeformat | subscript superscript | charmap emoticons | print fullscreen | ltr rtl | spellchecker | visualchars visualblocks nonbreaking template pagebreak restoredraft",
+			menubar: false,
+			toolbar_items_size: 'small',
+			style_formats: [
+			{
+				title: 'Bold text',
+				inline: 'b'
+			},
+			{
+				title: 'Red text',
+				inline: 'span',
+				styles:
+				{
+					color: '#ff0000'
+				}
+			},
+			{
+				title: 'Red header',
+				block: 'h1',
+				styles:
+				{
+					color: '#ff0000'
+				}
+			},
+			{
+				title: 'Example 1',
+				inline: 'span',
+				classes: 'example1'
+			},
+			{
+				title: 'Example 2',
+				inline: 'span',
+				classes: 'example2'
+			},
+			{
+				title: 'Table styles'
+			},
+			{
+				title: 'Table row 1',
+				selector: 'tr',
+				classes: 'tablerow1'
+			}],
+			templates: [
+			{
+				title: 'Test template 1',
+				content: 'Test 1'
+			},
+			{
+				title: 'Test template 2',
+				content: 'Test 2'
+			}]
+		});
+	</script>
+</body>
+
+</html>

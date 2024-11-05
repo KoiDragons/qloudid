@@ -1,0 +1,581 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Qmatchup</title>
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path; ?>html/search/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/search/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/search/css/style.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/search/css/modules.css" />
+		<script type="text/javascript" src="<?php echo $path; ?>html/search/js/jquery.js"></script>
+	</head>
+	<body class="lgtgrey2_bg">
+		
+		<!-- CONTENT -->
+		<div class="column_m container zi5">
+			<div class="wrap maxwi_100">
+				
+				<!-- Content -->
+				<div class="column_m bs_bb padrbl15">
+					
+					<!-- Search and filter -->
+					<div class="marb30 brdb">
+						<form action="" method="post">
+														
+							<div class="wd_search default-controls">
+								
+								<div class="bgcolor-light xs-wi_100_30p fright bs_bb xs-marrl-15 xs-padrl15 xs-lgtgrey_bg talr">
+									<div class="xs-wi_100 dflex padt10">
+										<div class="expanding-input wi_120p hei_40p dinlblck flex_1 pos_rel marr3 valm">
+											<div class="expanding-input-wrap wi_100 wi_250p_a xs-wi_100_a hei_40p bs_bb pos_abs top0 right0 brd brdrad3 white_bg trans_all3">
+												<div class="hide-when-active wi_100 pos_abs top0 left0 lgn_hight_40 talc"> <span class="fa fa-search fsz18i clr-light"></span> <span>Sok</span> </div>
+												<input type="text" class="wi_100 hei_100 pos_abs top0 left0 bs_bb padrl30 nobrd" /> <span class="fa fa-search show-when-active pos_abs top0 left0 padl5 lgn_hight_40 fsz18i"></span>
+												<a href="#" class="deactivate show-when-active pos_abs top0 right0 padr5 dark_grey_txt"> <span class="fa fa-close fleft lgn_hight_40 fsz18i"></span> </a>
+											</div>
+										</div>
+										<a href="#" data-target=".wd_filters" data-base=".wd_search" class="expander-toggler hei_40p dinlblck bs_bb marr3 padrl15 brd brdrad3 lgn_hight_38 white_bg valm fsz14 clr-default">
+											<span class="hidden-xs">
+												<span class="fa fa-angle-down down marr5"></span>
+												<span class="fa fa-angle-up up marr5"></span>
+												Filter
+											</span>
+											<span class="fa fa-phone visible-xs lgn_hight_38 fsz20"></span>
+										</a>
+										<a href="crm_list.html" class="hei_40p dinlblck bs_bb padrl15 brd brdrad3 lgn_hight_38 white_bg valm fsz14 red_txt">
+											<span class="fa fa-close lgn_hight_38 fsz20"></span>
+										</a>
+									</div>
+									<div class="clear marb10"></div>
+									<div class="filter_crumbs filter_crumbs_1 fsz13_333"> <a href="#" class="clear_filters clr-default">Clear filters</a> </div>
+								</div>
+								<div class="clear"></div>
+								<div class="wd_filters bgcolor-light clr-default marb15 hide">
+									<div class="wd_filters_wrap brd">
+										<div class="padt15"></div>
+										<div class="clear"></div>
+										
+										<!--Dynamic Radio -->
+										<div class="filter-base for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="padrl10">
+												<h3 class="fsz14 clr-default">Category</h3>
+												<!-- add/search radio filter -->
+												<div class="filter-add marb5 padt5 fsz13_333"> <a href="#" data-id="#filter-add-category">See all categories</a> </div>
+											</div>
+										</div>
+										
+										<!-- Text/Checkbox filter -->
+										<div class="filter-base for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="padrl10">
+												<h3 class="fsz14 clr-default">Location</h3>
+												<!-- Text filter -->
+												<div class="filter filter-text marb5 fsz13_333">
+													<input type="text" name="location_search" placeholder="Search locations" class="wi_100 hei_32p bs_bb dblock padrl8 brdrad2 fsz14" data-list="#location_search_dl" /> </div>
+												<!-- Checkbox filters -->
+												<div class="filter filter-additional-permanent filter-checkbox marb5 fsz13_333">
+													<label>
+														<input type="checkbox" name="any_location" value="0" /> <span class="marl5 valm">Any location</span> </label>
+												</div>
+											</div>
+										</div>
+										
+										<!-- Radio/Checkbox filter -->
+										<div class="filter-base for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="padrl10">
+												<h3 class="fsz14 clr-default">Earned amount</h3>
+												<div class="filter filter-radio marb5 fsz13_333">
+													<label>
+														<input type="radio" name="radio1" value="0" checked="checked" /> <span class="marl5 valm">
+																									Any amount earned
+																									<span class="count">(0)</span> </span>
+													</label>
+												</div>
+												<div class="filter filter-radio marb5 fsz13_333">
+													<label>
+														<input type="radio" name="radio1" value="3" data-text="$1k+ earned" data-additional="checkbox1" /> <span class="marl5 valm">
+																									$1k+ earned
+																									<span class="count">(0)</span> </span>
+													</label>
+												</div>
+												<div class="filter filter-radio marb5 fsz13_333">
+													<label>
+														<input type="radio" name="radio1" value="3" data-text="No earnings yet" data-additional="checkbox1" /> <span class="marl5 valm">
+																									No earnings yet
+																									<span class="count">(0)</span> </span>
+													</label>
+												</div>
+												<!-- additional filter -->
+												<div class="filter filter-additional filter-checkbox marb5 padt5 fsz13_333">
+													<label>
+														<input type="checkbox" name="checkbox1" value="3" data-text="Last 6 months only" /> <span class="marl5 valm">
+																									Within last 6 months only
+																								</span> </label>
+												</div>
+											</div>
+										</div>
+										
+										<!-- Text/Checkbox filter with Additional Text filter -->
+										<div class="for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="filter-base padrl10">
+												<h3 class="fsz14 clr-default">Tests</h3>
+												<!-- Text filter -->
+												<div class="filter filter-text marb5 fsz13_333">
+													<input type="text" name="location_search" placeholder="Search tests" class="wi_100 hei_32p bs_bb dblock padrl8 brdrad2 fsz14" data-list="#tests_search_dl" /> </div>
+												<div class="filter filter-additional filter-select marb5 fsz14 style-white">
+													<select class="selectric" name="test_scores">
+														<option value="30">Scored in the Top 30%</option>
+														<option value="10">Scored in the Top 10%</option>
+													</select>
+												</div>
+												<!-- Checkbox filters -->
+												<div class="filter filter-additional-permanent filter-checkbox marb5 fsz13_333">
+													<label>
+														<input type="checkbox" name="any_test" value="0" /> <span class="marl5 valm">Any test</span> </label>
+												</div>
+											</div>
+										</div>
+										<div class="clear"></div>
+										
+										<!-- Two values range filter -->
+										<div class="filter-base for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="padrl10">
+												<h3 class="fsz14 clr-default">Price</h3>
+												<!-- Text filter -->
+												<div class="filter filter-range pos_rel marb5 fsz13_333">
+													<input type="text" name="area_search" placeholder="Price" class="wi_100 hei_32p bs_bb dblock padrl8 brdrad2 fsz14" data-list="#price_search_dl" />
+													<a href="#" class="range-trigger wi_100 hei_100 dblock pos_abs top0 left0 padtr5 talr lgn_hight_22"> <span class="fa fa-angle-down"></span> </a>
+												</div>
+											</div>
+										</div>
+										
+										<!-- Two values range filter -->
+										<div class="filter-base for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="padrl10">
+												<h3 class="fsz14 clr-default">Area</h3>
+												<!-- Text filter -->
+												<div class="filter filter-range pos_rel marb5 fsz13_333">
+													<input type="text" name="price_search" placeholder="Area" class="wi_100 hei_32p bs_bb dblock padrl8 brdrad2 fsz14" data-list="#area_search_dl" />
+													<a href="#" class="range-trigger wi_100 hei_100 dblock pos_abs top0 left0 padtr5 talr lgn_hight_22"> <span class="fa fa-angle-down"></span> </a>
+												</div>
+											</div>
+										</div>
+										
+										<!-- Sliding checkbox filter -->
+										<div class="filter-base for_clmn xs-wi_50 xxs-wi_100 marb15">
+											<div class="padrl10">
+												<h3 class="fsz14 clr-default">Convert</h3>
+												<!-- Slide filter -->
+												<div class="filter filter-slide-checkbox filter-slide-checkbox-green pos_rel marb5 fsz13_333">
+													<input type="checkbox" name="convert_bool" class="default" data-true="Yes" data-false="No" data-text="Convert" /> </div>
+											</div>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="clear"></div>
+							
+							<p class="padtb10 tall fsz16">Search results: 10</p>
+						</form>
+					</div>
+					
+					
+						
+						<div class="wi_100 dflex">
+							
+							<!-- Results -->
+							<div class="flex_1 padl15">
+									<table class="wi_100 " cellpadding="10" cellspacing="0">
+										<tbody>
+											<tr>
+												<td class="wi_100 brdb">Facebook</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Facebook</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Facebook</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Facebook</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Almatv</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Apple</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Anglea</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+											<tr>
+												<td class="wi_100 brdb">Ario</td>
+												<td class="brdb ws_now"><a href="#">Add to CRM</a></td>
+											</tr>
+										</tbody>
+									</table>
+							</div>
+						</div>
+						
+					
+					
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="hei_80p"></div>
+		
+		
+		<!-- Dynamic filter menu -->
+		<ul class="filter-add-menu filter-add-radio hide" id="filter-add-category">
+		<li class="has-submenu">
+			<a href="#" class="dblock" data-text="Web, Mobile &amp; Software Dev" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1">
+				Web, Mobile &amp; Software Dev<span class="fa fa-chevron-right fright"></span>
+			</a>
+			<ul>
+				<li>
+					<a href="#" class="dlock" data-text="Web, Mobile &amp; Software Dev" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1">
+						All subcategories <span class="count">(0)</span>
+					</a>
+				</li>
+				<li class="has-submenu">
+					<a href="" class="dblock" data-text="Software Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu11">
+						Software Development<span class="count">(0)</span><span class="fa fa-chevron-right fright"></span>
+					</a>
+					<ul>
+						<li>
+							<a href="#" class="dlock" data-text="Web, Mobile &amp; Software Dev" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1">
+								All subcategories <span class="count">(0)</span>
+							</a> 
+						</li>
+						<li class="has-submenu">
+							<a href="" class="dblock" data-text="Software Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu111">
+								Software Development<span class="count">(0)</span><span class="fa fa-chevron-right fright"></span>
+							</a>
+							<ul>
+								<li>
+									<a href="#" class="dlock" data-text="Web, Mobile &amp; Software Dev" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1">
+										All subcategories <span class="count">(0)</span>
+									</a>
+								</li>
+								<li>
+									<a href="" class="dblock" data-text="Software Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1111">
+										Software Development<span class="count">(0)</span>
+									</a> 
+								</li>
+								<li>
+									<a href="" class="dblock" data-text="Ecommerce Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1112">
+										Ecommerce Development<span class="count">(0)</span>
+									</a> 
+								</li>
+								<li>
+									<a href="" class="dblock" data-text="Game Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu1113">
+										Game Development<span class="count">(0)</span>
+									</a> 
+								</li>
+							</ul>
+							<div class="clear"></div> 
+						</li>
+						<li>
+							<a href="" class="dblock" data-text="Ecommerce Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu112">
+								Ecommerce Development<span class="count">(0)</span>
+							</a> 
+						</li>
+						<li>
+							<a href="" class="dblock" data-text="Game Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu113">
+								Game Development<span class="count">(0)</span>
+							</a> 
+						</li>
+					</ul>
+					<div class="clear"></div> 
+				</li>
+				<li>
+					<a href="" class="dblock" data-text="Ecommerce Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu12">
+						Ecommerce Development<span class="count">(0)</span>
+					</a> 
+				</li>
+				<li>
+					<a href="" class="dblock" data-text="Game Development" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu13">
+						Game Development<span class="count">(0)</span>
+					</a> 
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</li>
+		<li class="has-submenu">
+			<a href="#" class="dblock" data-text="IT &amp; Networking" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu2">
+				IT &amp; Networking<span class="fa fa-chevron-right fright"></span>
+			</a>
+			<ul>
+				<li>
+					<a href="#" class="dlock" data-text="IT &amp; Networking" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu2">
+						All subcategories <span class="count">(0)</span>
+					</a> 
+				</li>
+				<li>
+					<a href="" class="dblock" data-text="Database Administration" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu21">
+						Database Administration<span class="count">(0)</span>
+					</a> 
+				</li>
+				<li>
+					<a href="" class="dblock" data-text="ERP / CRM Software" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu22">
+						ERP / CRM Software<span class="count">(0)</span>
+					</a> 
+				</li>
+				<li>
+					<a href="" class="dblock" data-text="Information Security" data-category="Category" data-additional="checkbox1" data-name="radio2" data-value="submenu23">
+						Information Security<span class="count">(0)</span>
+					</a> 
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</li>
+	</ul>
+	
+	<!-- Locations input datalist -->
+	<ul class="filter-datalist-menu filter-text-datalist-menu filter-add-checkbox hide" id="location_search_dl">
+		<li disabled="disabled">
+			<span class="dblock">
+				Regions
+			</span>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Africa" data-category="Location" data-value="africa" data-name="africa">
+				Africa
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Antarctica" data-category="Location" data-value="antarctica" data-name="antarctica">
+				Antarctica
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Asia" data-category="Location" data-value="asia" data-name="asia">
+				Asia
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Europe" data-category="Location" data-value="europe" data-name="europe">
+				Europe
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Oceania" data-category="Location" data-value="oceania" data-name="oceania">
+				Oceania
+			</a>
+		</li>
+		<li disabled="disabled">
+			<span class="dblock">
+				Countries
+			</span>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Albania" data-category="Location" data-value="albania" data-name="albania">
+				Albania
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Kazakhstan" data-category="Location" data-value="kazakhstan" data-name="kazakhstan">
+				Kazakhstan
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Russia" data-category="Location" data-value="russia" data-name="russia">
+				Russia
+			</a>
+		</li>
+	</ul>
+	
+	<!-- Tests input datalist -->
+	<ul class="filter-datalist-menu filter-text-datalist-menu filter-add-checkbox hide" id="tests_search_dl">
+		<li>
+			<a href="#" class="dblock" data-text="3ds Max 9" data-category="Test" data-additional="test_scores" data-value="3ds_Max_9" data-name="3ds_Max_9">
+				3ds Max 9
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Accounting Principles" data-category="Test" data-additional="test_scores" data-value="Accounting_Principles" data-name="Accounting_Principles">
+				Accounting Principles
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Accounting Skills Test" data-category="Test" data-additional="test_scores" data-value="Accounting_Skills_Test" data-name="Accounting_Skills_Test">
+				Accounting Skills Test
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Accounts Payable" data-category="Test" data-additional="test_scores" data-value="Accounts_Payable" data-name="Accounts_Payable">
+				Accounts Payable
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Adobe Flash CS3" data-category="Test" data-additional="test_scores" data-value="Adobe_Flash_CS3" data-name="Adobe_Flash_CS3">
+				Adobe Flash CS3
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Adobe Illustrator" data-category="Test" data-additional="test_scores" data-value="Adobe_Illustrator" data-name="Adobe_Illustrator">
+				Adobe Illustrator
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="C++ Programming" data-category="Test" data-additional="test_scores" data-value="C++_Programming" data-name="C++_Programming">
+				C++ Programming
+			</a>
+		</li>
+		<li>
+			<a href="#" class="dblock" data-text="Compiler Design" data-category="Test" data-additional="test_scores" data-value="compiler_design" data-name="compiler_design">
+				Compiler Design
+			</a>
+		</li>
+	</ul>
+	
+	<!-- Filter input datalist -->
+	<div class="filter-datalist-menu filter-range-datalist-menu hide" id="area_search_dl">
+		<!-- * NOTE
+			- data-weight is required for min/max relationships
+			- based on it max values will be hidden if min is selected and otherwise
+		-->
+		<div class="filter-range-menu-wrap">
+			<ul class="filter-range-menu-min wi_50 fleft bs_bb mar0 pad0">
+				<li disabled="disabled">
+					<span class="dblock">Min</span>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="10m²" data-category="Area" data-weight="10">10m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="20m²" data-category="Area" data-weight="20">20m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="30m²" data-category="Area" data-weight="30">30m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="40m²" data-category="Area" data-weight="40">40m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="50m²" data-category="Area" data-weight="50">50m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="60m²" data-category="Area" data-weight="60">60m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="70m²" data-category="Area" data-weight="70">70m²</a>
+				</li>
+			</ul>
+			<ul class="filter-range-menu-max wi_50 fleft bs_bb mar0 pad0">
+				<li disabled="disabled">
+					<span class="dblock">Max</span>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="10m²" data-category="Area" data-weight="10">10m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="20m²" data-category="Area" data-weight="20">20m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="30m²" data-category="Area" data-weight="30">30m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="40m²" data-category="Area" data-weight="40">40m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="50m²" data-category="Area" data-weight="50">50m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="60m²" data-category="Area" data-weight="60">60m²</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="70m²" data-category="Area" data-weight="70">70m²</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="padtb10 talr">
+			<button class="datalist-menu-close marr5 lgtgrey_btn min_height">OK</button>
+		</div>
+	</div>
+	
+	<!-- Filter input datalist -->
+	<div class="filter-datalist-menu filter-range-datalist-menu hide" id="price_search_dl">
+		<div class="filter-range-menu-wrap">
+			<ul class="filter-range-menu-min wi_50 fleft bs_bb mar0 pad0">
+				<li disabled="disabled">
+					<span class="dblock">Min</span>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="50 kr" data-category="Price" data-weight="0">50 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="100 tkr" data-category="Price" data-weight="10">100 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="200 tkr" data-category="Price" data-weight="20">200 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="300 tkr" data-category="Price" data-weight="30">300 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="400 tkr" data-category="Price" data-weight="40">400 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="500 tkr" data-category="Price" data-weight="50">500 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="750 tkr" data-category="Price" data-weight="60">750 000</a>
+				</li>
+			</ul>
+			<ul class="filter-range-menu-max wi_50 fleft bs_bb mar0 pad0">
+				<li disabled="disabled">
+					<span class="dblock">Max</span>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="50 kr" data-category="Price" data-weight="0">50 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="100 tkr" data-category="Price" data-weight="10">100 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="200 tkr" data-category="Price" data-weight="20">200 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="300 tkr" data-category="Price" data-weight="30">300 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="400 tkr" data-category="Price" data-weight="40">400 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="500 tkr" data-category="Price" data-weight="50">500 000</a>
+				</li>
+				<li>
+					<a href="#" class="dblock" data-text="750 tkr" data-category="Price" data-weight="60">750 000</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="padtb10 talr">
+			<button class="datalist-menu-close marr5 lgtgrey_btn min_height">OK</button>
+		</div>
+	</div>
+	
+		
+		<script type="text/javascript" src="<?php echo $path; ?>html/search/js/jquery-ui.min.js"></script> 
+		<script type="text/javascript" src="<?php echo $path; ?>html/search/js/superfish.js"></script> 
+		<script type="text/javascript" src="<?php echo $path; ?>html/search/js/icheck.js"></script> 
+		<script type="text/javascript" src="<?php echo $path; ?>html/search/js/jquery.selectric.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>html/modules.js"></script><script type="text/javascript" src="<?php echo $path; ?>html/search/js/custom.js"></script>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+man or women
+
+
+how tall are you
+
+145cm to 150cm 151 to 160 up to 190cm to 2mtrs
+
+weight
+
+thin normal athletic oversize
+
+body tatoo
+
+yes no
+
+
+smoke 
+yes no
+
+drink 
+yes no
+
+tobbacoo
+
+yes no
+
+civil status
+single married
+
+children
+yes no
+
+if they have then how many  add more children also boy girl
+age with numeric field
+
+
+
+
+
+
+
+

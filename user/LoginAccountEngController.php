@@ -1,0 +1,241 @@
+<?php
+	require_once 'LoginAccountModel.php';
+	require_once '../configs/utility.php';
+	class LoginAccountEngController
+	{
+		
+		
+		public static function index()
+		{
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../";
+				
+				if(isset($_GET['next']))
+				{
+					$data=array();
+					$data['client']=$_GET['next'];
+					if(isset($_GET['apply']))
+					{
+						$data['apply']=$_GET['apply'];
+					}
+					else if(isset($_GET['purchase']))
+					{
+						$data['purchase']=$_GET['purchase'];
+					}
+					else if(isset($_GET['login']))
+					{
+						$data['login']=$_GET['login'];
+					}
+				}
+				
+				require_once('LoginAccountEngView.php');
+				} else {
+				
+				if(isset($_GET['next']))
+				{
+					//echo $_GET['apply']; die;
+					if(isset($_GET['apply']))
+					{
+						if($_GET['apply']==1){
+							header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=1");
+						}
+						else
+						{
+							header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=2&job_id=".$_GET['job_id']);
+						}
+						
+						die;
+					}
+					else if(isset($_GET['purchase']))
+					
+					{
+						header("location:../../walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&purchase=1");
+						die;
+					}
+					else if(isset($_GET['login']))
+					
+					{
+						header("location:../../walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&login=1");
+						die;
+					}
+					else
+					{
+						header("location:../../walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz");
+						die;
+					}
+					
+					//setcookie('rememberme', $result['cookie'], $expire,'/'); exit(0);
+				}
+				else
+				{
+					header("location:AboutQmatchupOmOss");
+					//setcookie('rememberme', $result['cookie'],$expire,'/'); //exit(0);
+				}
+			}
+		}
+		
+		public static function loginUser()
+		{
+			//print_r($_POST); //die;	
+			if(isset($_POST['email']) && isset($_POST['password']))
+			{
+				$model = new LoginAccountModel();
+				$data = array();
+				
+				$data['email']    = cleanMe($_POST['email']);
+				$data['password'] = md5($_POST['password']);
+				
+				$result = $model->LoginAccount($data);
+				//echo $result; die;
+				if($result['result'] == 0 || $result['result'] == 1)
+				{
+					echo 0; 
+				}
+				else if($result['result'] == 3)
+				{
+					if(isset($_SESSION['rememberme']))
+					{
+						setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "qloudid.com");
+					}
+					echo 1;
+					//die;
+				}
+				exit();
+				
+			}
+			
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../../";
+				
+				if(isset($_GET['next']))
+				{
+					$data=array();
+					$data['client']=$_GET['next'];
+					if(isset($_GET['apply']))
+					{
+						$data['apply']=$_GET['apply'];
+					}
+				}
+				
+				require_once('LoginAjaxView.php');
+			} 
+		}
+		
+		
+		public static function loginAccount($a = null, $b = null, $c = null)
+		{
+			
+			$model = new LoginAccountModel();
+			if (isset($_POST['username']) && isset($_POST['password']))
+            $data = array();
+			$expire = time() + 60 * 60;
+			if(isset($_GET['next']))
+			{
+				$data['client'] =$_GET['next'];   
+			}		
+			$data['email']    = cleanMe($_POST['username']);
+			$data['password'] = md5($_POST['password']);
+			
+			$result = $model->LoginAccount($data);
+			
+			$path   = "../../../";
+			if ($result['result'] == 1) {
+				$warning = warning(0);
+				if(isset($_GET['next']))
+				{
+					if(isset($_GET['apply']))
+					{
+						if($_GET['apply']==1){
+							header("location:../LoginWrong?next=".$data['client']."&apply=1");
+						}
+						else
+						{
+							header("location:../LoginWrong?next=".$data['client']."&apply=2");
+						}
+					}
+					else if(isset($_GET['purchase']))
+					
+					{
+						header("location:../LoginWrong?next=".$data['client']."&purchase=1");
+						die;
+					}
+					else if(isset($_GET['login']))
+					
+					{
+						header("location:../LoginWrong?next=".$data['client']."&login=1");
+						die;
+					}
+					
+					else
+					{
+						header("location:../LoginWrong?next=".$data['client']);
+					}
+				}
+				else
+				{
+					header("location:../LoginWrong");
+				}
+				} else if ($result['result'] == 0) {
+				require_once('LoginErrorView.php');
+				} else if ($result['result'] == 2) {
+				start_Session($result['id']);
+				header("location:../PersonalRequests/sentRequests");
+				} else if ($result['result'] == 3) {
+				start_Session($result['id']);
+				if(isset($_GET['next']))
+				{
+					//echo $_GET['apply']; die;
+					if(isset($_GET['apply']))
+					{
+						if($_GET['apply']==1){
+							header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=1");
+						}
+						else
+						{
+							header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=2");
+						}
+						
+						die;
+					}
+					else if(isset($_GET['purchase']))
+					
+					{
+						header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&purchase=1");
+						die;
+					}
+					else if(isset($_GET['login']))
+					
+					{
+						header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&login=1");
+						die;
+					}
+					else
+					{
+						header("location:../../../walk/authorize.php?response_type=code&client_id=".$data['client']."&state=xyz");
+					}
+					//setcookie('rememberme', $result['cookie'], $expire,'/'); exit(0);
+				}
+				else
+				{
+					header("location:../AboutQmatchupOmOss");
+					//setcookie('rememberme', $result['cookie'],$expire,'/'); //exit(0);
+				}
+				} else if ($result['result'] == 4) {
+				$warning = warning(2);
+				
+				header("location:https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailAccount/".$data['email']);
+				//setcookie('rememberme', $result['cookie'],$expire, '/'); exit(0);
+				} else if ($result['result'] == 5) {
+				$warning = warning(3);
+				
+				header("location:../LoginWrong");
+				
+			}
+		}
+		
+	}
+	
+	
+?>

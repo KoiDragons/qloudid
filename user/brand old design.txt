@@ -1,0 +1,1062 @@
+<div class="bsa_bb txt_0_87 padt5" id="keep">
+							<div class="wrap maxwi_100  padrl2 xs-padrl0   fsz16 ">
+								<div class="wi_100  fxwrap_w justc_c alit_s tall ">
+									<div class="dflex fxwrap_w alit_s" id="more_boxes">
+										<!-- keep block -->
+										<?php if($aboutUsCount==0) { ?>
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padrl10 xs-padrl0 ">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-A">
+												<input type="checkbox" name="keep-A-check" id="keep-A-check" class="keep-checker default sr-only">
+												<label for="keep-A-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_popup_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0 activepopup" data-target="#gratis_popup_company_search"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-A-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_3.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">About us on Qmatchup</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-A-item-1">
+															<input type="checkbox" name="keep-A-check-1" id="keep-A-check-1" class="default sr-only dnonei">
+															<label for="keep-A-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-A-item-2">
+															<input type="checkbox" name="keep-A-check-2" id="keep-A-check-2" class="default sr-only dnonei">
+															<label for="keep-A-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-A-item-3">
+															<input type="checkbox" name="keep-A-check-3" id="keep-A-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-A-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-A-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-A-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+													</div>
+										</div>
+										
+										<?php } else { ?>
+											<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padr10  xs-padr0" onclick="getLink();">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-A">
+												<input type="checkbox" name="keep-A-check" id="keep-A-check" class="keep-checker default sr-only">
+												<label for="keep-A-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_popup_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0 activepopup" data-target="#gratis_popup_company_searched" onclick="getLink();"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-A-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_3.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">About us on Qmatchup</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-A-item-1">
+															<input type="checkbox" name="keep-A-check-1" id="keep-A-check-1" class="default sr-only dnonei">
+															<label for="keep-A-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-A-item-2">
+															<input type="checkbox" name="keep-A-check-2" id="keep-A-check-2" class="default sr-only dnonei">
+															<label for="keep-A-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-A-item-3">
+															<input type="checkbox" name="keep-A-check-3" id="keep-A-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-A-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-A-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-A-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										<?php } ?>
+										
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padl10  xs-padl0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-B">
+												<input type="checkbox" name="keep-B-check" id="keep-B-check" class="keep-checker default sr-only">
+												<label for="keep-B-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=eEFnQmlhS29sYjZHZXVZN01QajNVdz09&state=xyz&login=1" class="wi_100 hei_100_15p dblock pos_abs zi1 top0 left0 activepopup" ></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-B-image-1" style="width: 59.3258%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_5.jpg" width="792" height="543" class="wi_100 hei_auto dblock">
+														</div>
+														<div class="keep-image" id="keep-B-image-2" style="width: 40.6742%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_6.jpg" width="1200" height="1200" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Activate Workplace</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-B-item-1">
+															<input type="checkbox" name="keep-B-check-1" id="keep-B-check-1" class="default sr-only dnonei">
+															<label for="keep-B-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-B-item-2">
+															<input type="checkbox" name="keep-B-check-2" id="keep-B-check-2" class="default sr-only dnonei">
+															<label for="keep-B-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-B-item-3">
+															<input type="checkbox" name="keep-B-check-3" id="keep-B-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-B-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-B-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=eEFnQmlhS29sYjZHZXVZN01QajNVdz09&state=xyz&login=1" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-B-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										
+										</div>
+								</div>
+							</div>
+						</div>
+						
+                        
+						<div class="clear"></div>
+						
+						
+						
+					
+						<div class="bsa_bb txt_0_87" id="keep">
+							<div class="wrap maxwi_100  padrl2 xs-padrl0   fsz16 ">
+								<div class="wi_100  fxwrap_w justc_c alit_s tall ">
+									<div class="dflex fxwrap_w alit_s" id="more_boxes">
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padr10  xs-padr0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-1">
+												<input type="checkbox" name="keep-1-check" id="keep-1-check" class="keep-checker default sr-only">
+												<label for="keep-1-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-1-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_1.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">About us</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-1-item-1">
+															<input type="checkbox" name="keep-1-check-1" id="keep-1-check-1" class="default sr-only dnonei">
+															<label for="keep-1-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-1-item-2">
+															<input type="checkbox" name="keep-1-check-2" id="keep-1-check-2" class="default sr-only dnonei">
+															<label for="keep-1-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-1-item-3">
+															<input type="checkbox" name="keep-1-check-3" id="keep-1-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-1-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-1-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-1-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										<!-- keep block -->
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padl10  xs-padl0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-2">
+												<input type="checkbox" name="keep-2-check" id="keep-2-check" class="keep-checker default sr-only">
+												<label for="keep-2-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-2-image-1" style="width: 47.2731%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_2.jpg" width="700" height="520" class="wi_100 hei_auto dblock">
+														</div>
+														
+														<div class="keep-image" id="keep-2-image-2" style="width: 52.7269%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_4.jpg" width="1030" height="686" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Career page</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-2-item-1">
+															<input type="checkbox" name="keep-2-check-1" id="keep-2-check-1" class="default sr-only dnonei">
+															<label for="keep-2-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-2-item-2">
+															<input type="checkbox" name="keep-2-check-2" id="keep-2-check-2" class="default sr-only dnonei">
+															<label for="keep-2-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-2-item-3">
+															<input type="checkbox" name="keep-2-check-3" id="keep-2-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-2-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-2-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/user/index.php/LedigaJobb/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-2-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+													</div>
+										</div>
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padr10 xs-padr0 ">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-3">
+												<input type="checkbox" name="keep-3-check" id="keep-3-check" class="keep-checker default sr-only">
+												<label for="keep-3-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-3-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_3.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Resellers</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-3-item-1">
+															<input type="checkbox" name="keep-3-check-1" id="keep-3-check-1" class="default sr-only dnonei">
+															<label for="keep-3-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl txt_21" id="keep-3-item-2">
+															<input type="checkbox" name="keep-3-check-2" id="keep-3-check-2" class="default sr-only dnonei">
+															<label for="keep-3-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-3-item-3">
+															<input type="checkbox" name="keep-3-check-3" id="keep-3-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-3-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-3-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-3-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padl10  xs-padl0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-4">
+												<input type="checkbox" name="keep-4-check" id="keep-4-check" class="keep-checker default sr-only">
+												<label for="keep-4-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-4-image-1" style="width: 59.3258%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_5.jpg" width="792" height="543" class="wi_100 hei_auto dblock">
+														</div>
+														<div class="keep-image" id="keep-4-image-2" style="width: 40.6742%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_6.jpg" width="1200" height="1200" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Suppliers</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-4-item-1">
+															<input type="checkbox" name="keep-4-check-1" id="keep-4-check-1" class="default sr-only dnonei">
+															<label for="keep-4-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-4-item-2">
+															<input type="checkbox" name="keep-4-check-2" id="keep-4-check-2" class="default sr-only dnonei">
+															<label for="keep-4-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-4-item-3">
+															<input type="checkbox" name="keep-4-check-3" id="keep-4-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-4-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-4-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="https://www.qloudid.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-4-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+                        
+						<div class="clear"></div>
+						
+						
+						
+						<div class="bsa_bb txt_0_87" id="keep">
+							<div class="wrap maxwi_100  padrl2 xs-padrl0 padb60  fsz16 ">
+								<div class="wi_100  fxwrap_w justc_c alit_s tall">
+									<div class="dflex fxwrap_w alit_s " id="more_boxes">
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padr10 xs-padr0 ">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-5">
+												<input type="checkbox" name="keep-5-check" id="keep-5-check" class="keep-checker default sr-only">
+												<label for="keep-5-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-5-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_1.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Single Sign On</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-5-item-1">
+															<input type="checkbox" name="keep-5-check-1" id="keep-5-check-1" class="default sr-only dnonei">
+															<label for="keep-5-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-5-item-2">
+															<input type="checkbox" name="keep-5-check-2" id="keep-5-check-2" class="default sr-only dnonei">
+															<label for="keep-5-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-5-item-3">
+															<input type="checkbox" name="keep-5-check-3" id="keep-5-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-5-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-5-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-5-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										<!-- keep block -->
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padl10  xs-padl0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-6">
+												<input type="checkbox" name="keep-6-check" id="keep-6-check" class="keep-checker default sr-only">
+												<label for="keep-6-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-6-image-1" style="width: 47.2731%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_2.jpg" width="700" height="520" class="wi_100 hei_auto dblock">
+														</div>
+														
+														<div class="keep-image" id="keep-6-image-2" style="width: 52.7269%;">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_4.jpg" width="1030" height="686" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Checkout Reg</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-6-item-1">
+															<input type="checkbox" name="keep-6-check-1" id="keep-6-check-1" class="default sr-only dnonei">
+															<label for="keep-6-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-6-item-2">
+															<input type="checkbox" name="keep-6-check-2" id="keep-6-check-2" class="default sr-only dnonei">
+															<label for="keep-6-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-6-item-3">
+															<input type="checkbox" name="keep-6-check-3" id="keep-6-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-6-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-6-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-6-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padr10  xs-padr0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-7">
+												<input type="checkbox" name="keep-7-check" id="keep-7-check" class="keep-checker default sr-only">
+												<label for="keep-7-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-7-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_3.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Job Applications</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-7-item-1">
+															<input type="checkbox" name="keep-7-check-1" id="keep-7-check-1" class="default sr-only dnonei">
+															<label for="keep-7-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-7-item-2">
+															<input type="checkbox" name="keep-7-check-2" id="keep-7-check-2" class="default sr-only dnonei">
+															<label for="keep-7-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-7-item-3">
+															<input type="checkbox" name="keep-7-check-3" id="keep-7-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-7-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-7-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-7-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+										<div class="wi_50 xs-wi_50 xxs-wi_100  alit_s marb10 padl10  xs-padl0">
+											<div class="keep-block pos_rel marb10 brdrad2 bg_f trans_bgc1" id="keep-8">
+												<input type="checkbox" name="keep-8-check" id="keep-8-check" class="keep-checker default sr-only">
+												<label for="keep-8-check" class="wi_26p hei_26p dblock opa0 opa1_ph opa1_sibc pos_abs zi5 top-8p left-8p bxsh_0111_001 brdrad50 bg_f bg_6f_sibc curp trans_all1">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check.svg" width="18" height="18" class="dblock opa1 opa0_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/check-white.svg" width="18" height="18" class="dblock opa0 opa1_psibc pos_abs pos_cen trans_opa1" alt="Check">
+													<div class="opa0_nph opa80 pos_abs zi1 top100 left0 mart5 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Select note</span>
+													</div>
+												</label>
+												<div class="wi_100 hei_100 pos_abs zi-1 top0 left0 bxsh_0_trans_0_trans_02150_0_3_ph bxsh_0004_6f_sibc brdrad2 trans_bxsh1"></div>
+												<a href="#" class="keep-pin dblock pos_abs zi5 top4p right4p pad5">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin.svg" width="18" height="18" class="dblock dnone_pa opa50 opa1_h trans_opa1" alt="Pin note">
+													<img src="<?php echo $path;?>html/keepcss/images/icons/pin_active.svg" width="18" height="18" class="dnone dblock_pa" alt="Unpin note">
+													<div class="dblock dnone_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Pin note</span>
+													</div>
+													<div class="dnone dblock_pa opa0_nph opa80 pos_abs zi1 top100 right0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+														<span class="dblock padrl8">Unpin note</span>
+													</div>
+												</a>
+												<div class="minhei_60p pos_rel">
+													<a href="#" class="show_keep_modal wi_100 hei_100_15p dblock pos_abs zi1 top0 left0"></a>
+													<div class="keep-images dflex fxwrap_w alit_c">
+														
+														<div class="keep-image" id="keep-8-image-1">
+															<img src="<?php echo $path;?>html/keepcss/images/boximage_3.jpg" width="300" height="300" class="wi_100 hei_auto dblock">
+														</div>
+													</div>
+													<div class="dnone dblock_siba"><img src="<?php echo $path;?>html/keepcss/images/loader-line-2.gif" width="160" height="20" class="maxwi_100 hei_auto dblock marrla"></div>
+													<h4 class="keep-title wi_100-15p mar0 marb16 padt16 padr16 padb0 padl16 bold fsz17 txt_0_87">Clean records</h4>
+													<div class="keep-list padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-8-item-1">
+															<input type="checkbox" name="keep-8-check-1" id="keep-8-check-1" class="default sr-only dnonei">
+															<label for="keep-8-check-1" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Copy folder (inclusive documents) and rename</span>
+														</div>
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-8-item-2">
+															<input type="checkbox" name="keep-8-check-2" id="keep-8-check-2" class="default sr-only dnonei">
+															<label for="keep-8-check-2" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">(All documents) will also be copied</span>
+														</div>
+													</div>
+													<div class="keep-completed marb16 padr16 padl16">
+														<div class="keep-list-item pos_rel padtb5 padl0 txt_21" id="keep-8-item-3">
+															<input type="checkbox" name="keep-8-check-3" id="keep-8-check-3" class="default sr-only dnonei" checked>
+															<label for="keep-8-check-3" class="wi_14p hei_14p dblock opa1_h_i opa54_sibc pos_abs zi5 pos_cenY left0 brd brdclr_21 brdrad2 bg_21_sibc curp trans_opa1 dnonei">
+																<div class="wi_10p hei_6p opa0 opa1_psibc pos_abs top1p left1p brd brdclr_f nobrdt nobrdr rotate-45"></div>
+															</label>
+															<span class="keep-list-title opa54_sibc txtdec_lt_sibc">Rename folder</span>
+														</div>
+													</div>
+													<div class="keep-metas dflex fxwrap_w alit_c marb10 padr16 padl16">
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-8-meta-1">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete</span>
+																</div>
+															</a>
+														</div>
+														<div class="keep-meta maxwi_100 minhei_24p dflex alit_c pos_rel marb6 marr6 xs-padr15 sm-padr15 brdrad2 bg_0_08" id="keep-8-meta-2">
+															<span class="maxwi_100 dflex alit_c opa1 opa0_ph padtb3 padrl5 txtdec_n">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</span>
+															<a href="#" class="wi_100 maxwi_100 minwi_0 hei_100 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-clock.svg" width="18" height="18" class="meta-icon opa54" alt="Remind">
+																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">Tomorrow, 8:00 AM</span>
+															</a>
+															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
+																<img src="<?php echo $path;?>html/keepcss/images/icons/icon-close.svg" width="14" height="14" class="opa54" alt="Delete">
+																<div class="opa0_nph opa80 xs-opa1 pos_abs zi1 bot100 pos_cenXZ0 padtb5 brdrad5 black_bg ws_now bold fsz12 txt_f pointev_n trans_all2">
+																	<span class="dblock padrl8">Delete reminder</span>
+																</div>
+															</a>
+														</div>
+													</div>
+												</div>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					
