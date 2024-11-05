@@ -6,7 +6,7 @@ $myurl = explode( '/', $uri_parts[0] );
 array_shift($myurl);
 array_shift($myurl);
 array_shift($myurl);
-array_shift($myurl);
+//array_shift($myurl);
  
 require_once $myurl[1].'Controller.php';
 

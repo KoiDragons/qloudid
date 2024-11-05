@@ -1,7 +1,7 @@
 <?php
 class AppModel{
 
-   static public static function createConnection()
+   public static function createConnection()
    {
    	ini_set('memory_limit', '-1');
    	 	 $username = "root";
