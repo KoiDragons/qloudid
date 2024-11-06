@@ -1,4 +1,4 @@
-<?php echo 'jain'; die; ?>
+ 
 <html style=""><head>
 		<meta name="description" content="On Qloud ID, you can store, share, revoke or delete your data online">
 		<meta name="google-site-verification" content="fAZkhLH9sxgymYB5B7htwd1QSN8AXDY-6BP8UfGr68c">
