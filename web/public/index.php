@@ -7,13 +7,13 @@ $myurl = explode( '/', $uri_parts[0] );
 //array_shift($myurl);
 array_shift($myurl);
 array_shift($myurl);
- print_r($myurl[1]); die;
-require_once $myurl[1].'Controller.php';
+ 
+require_once $myurl[3].'Controller.php';
 
 if(!isset($myurl[2])){
 	$myurl[2] = "index";
 }
 
-call_user_func_array(array($myurl[1].'Controller' , $myurl[2] ), array_slice($myurl, 3) ) ;
+call_user_func_array(array($myurl[3].'Controller' , $myurl[2] ), array_slice($myurl, 3) ) ;
 
 ?>
