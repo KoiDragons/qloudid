@@ -8,9 +8,9 @@ $myurl = explode( '/', $uri_parts[0] );
 //array_shift($myurl);
 //array_shift($myurl);
 //array_shift($myurl);
-//array_shift($myurl);
-//print_r($myurl); echo $myurl[3].'Controller.php'; die;
-require_once $myurl[3].'Controller.php';
+array_shift($myurl);
+print_r($myurl); echo $myurl[1].'Controller.php'; die;
+require_once $myurl[1].'Controller.php';
 
 if(!isset($myurl[2])){
 	$myurl[2] = "index";
