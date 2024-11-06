@@ -16,6 +16,6 @@ if(!isset($myurl[2])){
 	$myurl[2] = "index";
 }
 //print_r($myurl);  
-call_user_func_array(array($myurl[3].'Controller' , $myurl[2] ), array_slice($myurl, 4) ) ;
+call_user_func_array(array($myurl[1].'Controller' , $myurl[2] ), array_slice($myurl, 4) ) ;
 
 ?>
