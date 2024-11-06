@@ -37,60 +37,65 @@
   </head>
 <body class="dark" style="background: #131922">
 <script>
- var phcode='<?php echo $profileEditDetails['phone_otp']; ?>';
-  
-	    function submitform()
-		{
-			 
-			$("#errorMsg1").html('');
-			/*if($("#unique_id").val()!=uniqueID)
-			{
-				
-				$("#errorMsg1").html('Please enter correct unique ID');
-				return false;
-			}*/
-			
-			if($("#otp1").val()=="" || $("#otp1").val()==null)
-			{
-				
-				$("#errorMsg1").html('Please enter OTP received on your phone');
-				return false;
-			}
-			
-			if($("#otp2").val()=="" || $("#otp2").val()==null)
-			{
-				
-				$("#errorMsg1").html('Please enter OTP received on your phone');
-				return false;
-			}		
+    
 
-			if($("#otp3").val()=="" || $("#otp3").val()==null)
-			{
-				
-				$("#errorMsg1").html('Please enter OTP received on your phone');
-				return false;
-			}	
 
-			if($("#otp4").val()=="" || $("#otp4").val()==null)
+function submitform()
 			{
+				$("#error_msg_form").html('');
+				if($("#uphno").val()=="")
+				{
+					$("#error_msg_form").html('Please enter phone number.!!');
+					
+					return false;
+				}
+				if($("#uphno").val().charAt(0)==0) 
+				{
+					$("#error_msg_form").html('Phone number cant start with Zero');
+					return false;
+				}
+				if(isNaN($("#uphno").val())) 
+				{
+					$("#error_msg_form").html('Phone number must be a numeric value');
+					return false;
+				}
+				if($("#uphno").val().length<5) 
+				{
+					$("#error_msg_form").html('Phone number must be minimum five digit');
+					return false;
+				}
+				if($("#uphno").val()==0) 
+				{
+					$("#error_msg_form").html('Phone number can not be Zero');
+					return false;
+				}
+				if($("#uphno").val()==$("#userPhone").val())
+				{
+					$("#error_msg_form").html('Please enter other phone number. you are using same number now!!');
+					
+					return false;
+				}
+				document.getElementById('save_indexing').submit();
+					
+				}
 				
-				$("#errorMsg1").html('Please enter OTP received on your phone');
-				return false;
-			}	
-			
-			var pcode1=$("#otp1").val()+$("#otp2").val()+$("#otp3").val()+$("#otp4").val();
-			 if(pcode1!=phcode)
-			{
+		
+		
+		function checkEmail(id) {
 				
-				$("#errorMsg1").html('Please enter correct phone otp');
-				return false;
+				var email = document.getElementById(id);
+				var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				
+				if (!filter.test(email.value)) {
+					$("#errorMsg1").html('Please enter valid email address ');
+					email.focus();
+					return false;
+				}
+				else
+				return true; 
+				
+				
 			}
-			
-			 
-			  
-			  	document.getElementById('save_indexing').submit();	
-			 
-		}      
 		
 		 
 	
@@ -107,7 +112,7 @@
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="padding: 10px !important; background:#10161d!important; /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center" style="padding:0px 15px;">
-<a class="header__logo xs-fsz25 changedText" href="addUsername" style="
+<a class="header__logo xs-fsz25 changedText" href="userAccount" style="
    
    "><img class="some-icon-dark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1010px-Apple_logo_white.svg.png?20220821122232" alt="Fleet" style="
     width: 20px;
@@ -259,8 +264,8 @@
 			
 </div>
 
-	 	<a href="../AddCompany" class="header_item " style="margin-left:0px;"><div class="header_item_language js-header-item" style="border-left: 0px solid !important;">
-<button class="header__head js-header-head fsz14 hidden-xs changedText bold" style="color:#777E90">Add workplace</button>
+	 	<a href="#" class="header_item " style="margin-left:0px;"><div class="header_item_language js-header-item" style="border-left: 0px solid !important;">
+<button class="header__head js-header-head fsz14 hidden-xs changedText bold" style="color:#777E90">To do</button>
 
 </div></a>
 
@@ -327,9 +332,10 @@
 <button class="header__burger js-header-burger"></button>
 </div>
 </header>
-<!-- outer content-->
-<div class="outer__inner mart100" >
-  <div class="section work xs-padrl25 marb80i xs-marb25i hidde hidden-xs" style=" ">
+
+ <!-- outer content-->
+<div class="outer__inner mart100">
+     <div class="section work xs-padrl25 marb80i xs-marb25i hidde hidden-xs" style=" ">
           <div class="work__center center" style="
     display: flex !important;
     align-items: center !important;
@@ -343,29 +349,37 @@
              
              </div>
         </div>
-<div class="section-mb80 checkout checkout_stays">
-<div class="checkout__center center xxs-padrl25">
-
-<div class="checkout__wrapper xs-flexD">
-<div class="browse__head wi_50  xs-wi_100">
-
-<div class="travel__subtitle changedText " style="
+ 
+<div class="travel__center center   padb136 xs-padrl25" style="/*border-bottom:2px solid #23262F;*/  max-width: 1132px;
+    padding-right: 0px;
+    padding-left: 0px;">
+   
+   <div class="travel__row " style="margin-bottom: 15px;">
+      <div class="travel__col " style="padding-right: 0px;  max-width:595px; margin-bottom:0px;">
+         <div class="travel__list xs-marb0" style="
+            max-width: 425px; margin-bottom:60px;
+            ">
+            <div class="travel__item xs-marb40">
+               
+                
+                <div class="travel__subtitle changedText  " style="
                   line-height: 1.2;
                   font-size: 60px;
                   
 				  font-weight:100
-                  ">Verify Your Identity
+                  ">Phone
 </div>
             <div class="travel__content changedText xs-fsz27" style=" line-height: 1.4;
                   color: #787f91;
 				   line-height: 1.4;
                   font-size: 27px;
-                  ">Confirm your update request using otp received on phone</div>
- <div class="visible-xs">
+                  ">Please update your personal phone number
+</div>
+<div class="visible-xs">
  <div class=" xs-product__rating  xs-padb10  visible-xs " style="border-bottom: 4px solid #282D34 !important; display: flex !important;
         align-items: center !important;
         margin-right: 200px !important;
-        border-image: linear-gradient(45deg, limegreen 0%, yellow 20%, green 40%, teal 60%, royalblue 80%, turquoise 100%) 1 / 1 / 0 stretch !important;
+       border-image: linear-gradient(45deg, limegreen 0%, yellow 20%, green 40%, teal 60%, royalblue 80%, turquoise 100%) 1 / 1 / 0 stretch !important;
         border-width: 4px !important; 
     padding-top: 25px;
     margin-right: 200px;
@@ -373,52 +387,88 @@
 
 </div>
  </div>
- 
-</div>
+         </div>
 
- 
-<div class="checkout__inner js-tabs wi_50">
-
+          </div>
+      </div>
+     
+  <div class="upload__wrapper  " style=" max-width:595px;  padding-right: 0px;">
 <div class="checkout__list">
 
-<div class="checkout__section xsi-nobrdt  xsi-padt0 nobrd" style="margin-top:0px; padding-top:0px;  border:none; padding-bottom:136px; ">
  
-<form class="checkout__item js-tabs-item" action="<?php if($profileEditDetails['basic_details']==1) echo 'updateUserBasicDetails'; else if($profileEditDetails['address_details']==1) echo 'updateUserAddressDetails'; else if($profileEditDetails['bank_details']==1) echo 'updateUserBankDetails'; else if($profileEditDetails['phone_details']==1) echo 'updateUserPhoneDetails'; ?>" method="POST" id="save_indexing" name="save_indexing" accept-charset="ISO-8859-1"  style="display: block;">
+<form class="checkout__item js-tabs-item" action="saveUserPhoneUpdate" method="POST" id="save_indexing" name="save_indexing" accept-charset="ISO-8859-1"  style="display: block;">
  
- 
+   
 <div class="checkout__fieldset">
-<div class="field__label changedText" style="color:#787f91;">Add SMS code</div>
-<div class="login__code" style="margin-bottom:48px; justify-content: left;">
 
-              <div class="login__number" >
-                <input type="text" name="otp1" id="otp1" min="1" max="9">
-              </div>
-              <div class="login__number" >
-                 <input type="text" name="otp2" id="otp2" min="1" max="9">
-              </div>
-              <div class="login__number" >
-                 <input type="text" name="otp3" id="otp3" min="1" max="9">
-              </div>
-              <div class="login__number" >
-               <input type="text" name="otp4" id="otp4" min="1" max="9">
-              </div>
-			   
-            </div>
+ 
+
+ <div class="upload__row">
+  <div class="upload__col upload__col_w30">
+<div class="field">
+<div class="field__label changedText" style="color:#787f91;">Country</div>
+<div class="field__wrap">
+<select  class="xs-fieldData"  name="pcountry" id="pcountry" style="height: 48px;
+    padding: 0 14px; border-color: #353945;
+    color: grey; border-radius: 12px;
+      background: transparent; width:100%;" fdprocessedid="8mc52" disabled>
+				 <?php  foreach($countryOption as $category => $value) 
+															{
+																$category = htmlspecialchars($category); 
+															?>
+                         	<option value="<?php echo $value['id']; ?>"  <?php if($row_summary['country_of_residence']==$value['id']) echo 'selected'; ?> class='changedText'><?php echo $value['country_name']; ?> </option>
+																											
+															<?php } ?>					 
+																											 	 
+                          </select>
+</div>
+</div>
+</div>
+<div class="upload__col upload__col_w70">
+<div class="field">
+<div class="field__label changedText" style="color:#787f91;">Phone number</div>
+<div class="field__wrap">
+<input class="field__input xs-fieldData" name="uphno" id="uphno" value="<?php if($resultOrg1['phone_number']!="" || $resultOrg1['phone_number']!= null) echo $resultOrg1['phone_number']; else echo "0"; ?>" placeholder="e. g. abc"  type="text"   style=" color:grey; ">
+</div>
+</div>
+</div>
+ 
+</div>
+ 
+ <div class="checkout__fieldset">
+ <input type="hidden" id="user_id" name="user_id"  value="0" /> 
  
  
-  
- <div id="errorMsg1" class="fsz20 red_txt padtb20 tall changedText"></div>
- <a class="button checkout__button changedText" href="javascript:void(0);"  onclick="submitform();" >Submit</a>
+<a class="button checkout__button changedText mart35" href="javascript:void(0);"  onclick="submitform();" >Submit</a>
+
+ </div>
+ 
+ 
+ <div id="error_msg_form" class="fsz20 red_txt padtb20 tall changedText"></div>
+ 
  </form>
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-<!-- footer-->
- </div>
-<div class="popup popup_login mfp-hide" id="popup-login">
+   </div>
+   </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="popup popup_login mfp-hide" id="popup-login">
 <div class="login">
 <div class="login__item">
 <div class="login__title h3">Sign up on Fleet</div>

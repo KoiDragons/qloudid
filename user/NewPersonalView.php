@@ -464,7 +464,7 @@
  
 <div class="checkout__controls">
  
-<a href="#"><button class="checkout__edit"  >
+<a href="updateAddressDetail"><button class="checkout__edit"  >
 <svg class="icon icon-arrow-next">
 <use xlink:href="#icon-arrow-next" style="fill:#52d4f4;"></use>
 </svg>
@@ -492,7 +492,7 @@
  
 <div class="checkout__controls">
  
-<a href="#"><button class="checkout__edit"  >
+<a href="updateBankDetail"><button class="checkout__edit"  >
 <svg class="icon icon-arrow-next">
 <use xlink:href="#icon-arrow-next" style="fill:#52d4f4;"></use>
 </svg>

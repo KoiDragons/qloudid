@@ -2,6 +2,75 @@
 	require_once('../AppModel.php');
 	class NewPersonalModel extends AppModel
 	{
+		
+		function updateUserPhoneDetails($data)
+		{
+		$dbCon = AppModel::createConnection();
+		$stmt = $dbCon->prepare("select * from user_profile_update_info where user_id=?");
+				/* bind parameters for markers */
+		$stmt->bind_param("i", $data['user_id']);
+		$stmt->execute();
+		$result = $stmt->get_result();
+		$posted_value = $result->fetch_assoc();
+	 
+		$stmt = $dbCon->prepare("update user_profiles set phone_number=? where user_logins_id=?");
+		/* bind parameters for markers */
+        $stmt->bind_param("si", $posted_value['phone_number'],$data['user_id']);
+        $stmt->execute();
+		
+		$stmt = $dbCon->prepare("select user_logins.id,first_name,concat_ws(' ', first_name, last_name) as name,first_name,email,passport_image,get_started_wizard_status,grading_status,country_of_residence,country_name,user_logins.created_on from user_logins left join country on country.id=user_logins.country_of_residence where user_logins.id = ?");
+			/* bind parameters for markers */
+		$cont=1;
+		$stmt->bind_param("i", $data['user_id']);
+		$stmt->execute();
+		$result = $stmt->get_result();
+		$row = $result->fetch_assoc();
+		
+		$stmt = $dbCon->prepare("select user_logins.id,first_name,concat_ws(' ', first_name, last_name) as name,first_name,email,passport_image,get_started_wizard_status,grading_status,country_of_residence,country_name,user_logins.created_on from user_logins left join country on country.id=user_logins.country_of_residence left join user_profiles on user_profiles.user_logins_id=user_logins.id where user_logins.country_of_residence = ? and phone_number=?");
+			/* bind parameters for markers */
+		$cont=1;
+		$stmt->bind_param("is", $row['country_of_residence'],$posted_value['phone_number']);
+		$stmt->execute();
+		$result = $stmt->get_result();
+		$row = $result->fetch_assoc();		
+		$phone_number='';
+		$stmt = $dbCon->prepare("update user_profiles set phone_number=? where user_logins_id=?");
+		/* bind parameters for markers */
+        $stmt->bind_param("si", $phone_number,$row['id']);
+        $stmt->execute();
+		
+		
+		$this->deleteProfileEditDetails($data);
+		$stmt->close();
+		$dbCon->close();
+		return 1;
+			
+		}
+		
+		
+		
+		function updateUserBankDetails($data)
+		{
+		$dbCon = AppModel::createConnection();
+		$stmt = $dbCon->prepare("select * from user_profile_update_info where user_id=?");
+				/* bind parameters for markers */
+		$stmt->bind_param("i", $data['user_id']);
+		$stmt->execute();
+		$result = $stmt->get_result();
+		$posted_value = $result->fetch_assoc();
+	 
+		$stmt = $dbCon->prepare("update user_profiles set clearing_number=?,bank_account_number=?,language=? where user_logins_id=?");
+		/* bind parameters for markers */
+        $stmt->bind_param("sssi", $posted_value['clearing_number'],$posted_value['account_number'],$posted_value['bank_name'],$data['user_id']);
+        $stmt->execute();
+		$this->deleteProfileEditDetails($data);
+		$stmt->close();
+		$dbCon->close();
+		return 1;
+			
+		}
+		
+		
 		function updateUserAddressDetails($data)
 		{
 				$dbCon = AppModel::createConnection();
@@ -51,6 +120,102 @@
 		return 1;
 			
 		}
+		
+		
+		function saveUserBankUpdate($data)
+		{
+		$dbCon = AppModel::createConnection();
+		 
+				$ad=1;
+				$code=mt_rand(1111,9999); 
+				$_POST['langu']=htmlentities($_POST['langu'],ENT_NOQUOTES, 'ISO-8859-1');
+				$_POST['clear_number']=htmlentities($_POST['clear_number'],ENT_NOQUOTES, 'ISO-8859-1');
+				$_POST['bank_acc']=htmlentities($_POST['bank_acc'],ENT_NOQUOTES, 'ISO-8859-1');
+			 
+				$stmt = $dbCon->prepare("insert into user_profile_update_info(phone_otp,bank_name,clearing_number,account_number,user_id,bank_details) values(?,?,?,?,?,?)");
+				/* bind parameters for markers */
+				$stmt->bind_param("isssii",$code,$_POST['langu'],$_POST['clear_number'],$_POST['bank_acc'],$data['user_id'],$ad);
+				$stmt->execute();
+				
+				$stmt = $dbCon->prepare("select country_of_residence,phone_number from user_logins left join user_profiles on user_profiles.user_logins_id=user_logins.id where user_logins.id=?");
+			
+				/* bind parameters for markers */
+				$stmt->bind_param("i", $data['user_id']);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				$row = $result->fetch_assoc();
+				$stmt = $dbCon->prepare("select country_code,country_name from phone_country_code where id=?");
+					
+					/* bind parameters for markers */
+				$stmt->bind_param("i", $row['country_of_residence']);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				$row_country = $result->fetch_assoc();
+					
+					 
+				$subject='Verify update';
+				$emailContent='Please verify your details using code - '.$code;
+				$to            = '+'.trim($row_country['country_code']).''.trim($row['phone_number']);
+					 
+				try{
+				$res=json_decode(sendSms($subject, $to, $emailContent),true);
+				}
+				catch(Exception $e) {
+						 
+					   
+				}
+			$stmt->close();
+			$dbCon->close();
+			return 1;
+	}
+		
+		function saveUserPhoneUpdate($data)
+		{
+		$dbCon = AppModel::createConnection();
+		 
+				$ad=1;
+				$code=mt_rand(1111,9999); 
+				
+				$stmt = $dbCon->prepare("insert into user_profile_update_info(phone_otp,phone_number,user_id,phone_details) values(?,?,?,?)");
+				/* bind parameters for markers */
+				$stmt->bind_param("isii",$code,$_POST['uphno'],$data['user_id'],$ad);
+				$stmt->execute();
+				
+				$stmt = $dbCon->prepare("select country_of_residence,phone_number from user_logins left join user_profiles on user_profiles.user_logins_id=user_logins.id where user_logins.id=?");
+			
+				/* bind parameters for markers */
+				$stmt->bind_param("i", $data['user_id']);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				$row = $result->fetch_assoc();
+				$stmt = $dbCon->prepare("select country_code,country_name from phone_country_code where id=?");
+					
+					/* bind parameters for markers */
+				$stmt->bind_param("i", $row['country_of_residence']);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				$row_country = $result->fetch_assoc();
+					
+					 
+				$subject='Verify update';
+				$emailContent='Please verify your details using code - '.$code;
+				$to            = '+'.trim($row_country['country_code']).''.trim($_POST['uphno']);
+					 
+				try{
+				$res=json_decode(sendSms($subject, $to, $emailContent),true);
+				}
+				catch(Exception $e) {
+						 
+					   
+				}
+			$stmt->close();
+			$dbCon->close();
+			return 1;
+	}
+		
+		
+		
+		
 		
 		function saveUserAddressUpdate($data)
 		{
@@ -107,7 +272,7 @@
 				$row_country = $result->fetch_assoc();
 					
 					 
-				/*$subject='Verify update';
+				$subject='Verify update';
 				$emailContent='Please verify your details using code - '.$code;
 				$to            = '+'.trim($row_country['country_code']).''.trim($row['phone_number']);
 					 
@@ -117,7 +282,7 @@
 				catch(Exception $e) {
 						 
 					   
-				}*/
+				}
 			$stmt->close();
 			$dbCon->close();
 			return 1;
@@ -11312,7 +11477,7 @@ House rules
 			$dbCon = AppModel::createConnection();
 			
 			$org=array();
-			$stmt = $dbCon->prepare("select id,country_name from country where id>-1 and id<240 order by country_name");
+			$stmt = $dbCon->prepare("select id,country_name,country_code from phone_country_code order by country_name");
 			/* bind parameters for markers */
 			$cont=1;
 			

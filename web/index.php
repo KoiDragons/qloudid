@@ -1,3 +1,3 @@
 <?php 
-header('location:https://www.safeqloud.herokuapp.com/public/index.php/QloudidPersonal');
+header('location:http://www.safeqloud.herokuapp.com/public/index.php/QloudidPersonal');
 ?>

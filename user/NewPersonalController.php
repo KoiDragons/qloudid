@@ -460,6 +460,50 @@
 		}
 		
 		
+		public static function saveUserPhoneUpdate()
+		{
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../";
+				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				} else {
+				
+				 
+				$path         = "../../../";
+				$data=array();
+				$data['user_id']=$_SESSION['user_id'];
+				 
+				$model1       = new NewPersonalModel();
+				require_once('../configs/smsMandril.php');
+				$saveUserPhoneUpdate    = $model1->saveUserPhoneUpdate($data);
+				header('location:verifyProfileDetails');
+			}
+			
+		}
+		
+		
+		public static function saveUserBankUpdate()
+		{
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../";
+				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				} else {
+				
+				 
+				$path         = "../../../";
+				$data=array();
+				$data['user_id']=$_SESSION['user_id'];
+				 
+				$model1       = new NewPersonalModel();
+				require_once('../configs/smsMandril.php');
+				$saveUserBankUpdate    = $model1->saveUserBankUpdate($data);
+				header('location:verifyProfileDetails');
+			}
+			
+		}
+		
+		
 		public static function verifyProfileDetails()
 		{
 			$valueNew = checkLogin();
@@ -484,6 +528,25 @@
 			
 		}
 		
+		public static function updateUserPhoneDetails()
+		{
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../";
+				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				} else {
+				
+				 
+				$path         = "../../../";
+				$data=array();
+				$data['user_id']=$_SESSION['user_id'];
+				 
+				$model1       = new NewPersonalModel();
+				$updateUserPhoneDetails    = $model1->updateUserPhoneDetails($data);
+				header('location:userAccount'); 
+			}
+			
+		}
 		
 		public static function updateUserBasicDetails()
 		{
@@ -521,6 +584,27 @@
 				 
 				$model1       = new NewPersonalModel();
 				$updateUserAddressDetails    = $model1->updateUserAddressDetails($data);
+				header('location:userAccount'); 
+			}
+			
+		}
+		
+		
+			public static function updateUserBankDetails()
+		{
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../";
+				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				} else {
+				
+				 
+				$path         = "../../../";
+				$data=array();
+				$data['user_id']=$_SESSION['user_id'];
+				 
+				$model1       = new NewPersonalModel();
+				$updateUserBankDetails    = $model1->updateUserBankDetails($data);
 				header('location:userAccount'); 
 			}
 			
@@ -5436,7 +5520,35 @@
 			
 		}
 		
-		public static function updateBankDetail($co = null)
+		public static function updatePhoneDetail()
+		{
+			$valueNew = checkLogin();
+			if ($valueNew == 0) {
+				$path = "../../";
+				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				} else {
+				
+				if(isset($_SESSION['rememberme_qid'])){
+					
+					setcookie('rememberme_qid', $_SESSION['rememberme_qid'], time()+ (30*60*60*24), '/');
+				}
+				$path         = "../../../";
+				$data=array();
+				$data['user_id']=$_SESSION['user_id'];
+				$model1       = new NewPersonalModel();
+				
+				$resultOrg    = $model1->userAccount($data);
+				$userBankid    = $model1->userBankid($data);
+				$resultOrg1    = $model1->employeeAccount($data);
+				$countryOption    = $model1->countryOption($data);
+				$row_summary    = $model1->userSummary($data);
+				require_once('NewPersonalPhonedetailView.php');
+				 
+			}
+			
+		}
+		
+		public static function updateBankDetail()
 		{
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {

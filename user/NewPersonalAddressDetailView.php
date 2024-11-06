@@ -611,7 +611,7 @@ function submitform()
  </div>
  
  
- <div id="errorMsg1" class="fsz20 red_txt padtb20 tall changedText"></div>
+ <div id="error_msg_form" class="fsz20 red_txt padtb20 tall changedText"></div>
  
  </form>
 </div>
