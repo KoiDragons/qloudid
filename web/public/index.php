@@ -7,15 +7,15 @@ $myurl = explode( '/', $uri_parts[0] );
 
 //array_shift($myurl);
 //array_shift($myurl);
-//array_shift($myurl);
 array_shift($myurl);
-print_r($myurl); echo $myurl[1].'Controller.php'; die;
+array_shift($myurl);
+ 
 require_once $myurl[1].'Controller.php';
 
 if(!isset($myurl[2])){
 	$myurl[2] = "index";
 }
-print_r($myurl);  
+//print_r($myurl);  
 call_user_func_array(array($myurl[3].'Controller' , $myurl[2] ), array_slice($myurl, 4) ) ;
 
 ?>
