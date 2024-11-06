@@ -9,7 +9,7 @@ array_shift($myurl);
 array_shift($myurl);
  
 require_once $myurl[3].'Controller.php';
-
+echo $myurl[2]; die;
 if(!isset($myurl[2])){
 	$myurl[2] = "index";
 }
