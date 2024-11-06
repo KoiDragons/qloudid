@@ -15,7 +15,7 @@ require_once $myurl[3].'Controller.php';
 if(!isset($myurl[2])){
 	$myurl[2] = "index";
 }
-print_r($myurl[2]); die;
-call_user_func_array(array($myurl[3].'Controller' , $myurl[2] ), array_slice($myurl, 3) ) ;
+ 
+call_user_func_array(array($myurl[3].'Controller' , $myurl[2] )) ;
 
 ?>
