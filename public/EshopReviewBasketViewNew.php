@@ -81,7 +81,7 @@
                   <div class="wishlists__counter">You added <?php echo count($selectedProducts); ?> items to wishlists</div>
                 </div>
                 <div class="sorting__location">
-                 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"> <button class="button-stroke sorting__button js-sorting-button"><span>Pay with Qloud ID</span>
+                 <a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"> <button class="button-stroke sorting__button js-sorting-button"><span>Pay with Qloud ID</span>
                     
                   </button></a>
                   
@@ -141,7 +141,7 @@
 					<?php } ?>	
 					
 					 <div class="receipt xs-margin0 visible-xs " style="border: none;    background: #141416; padding:0; margin:0; width:100%;">
-					<a class="button receipt__button " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><span>Pay with Qloud ID</span>
+					<a class="button receipt__button " href="https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><span>Pay with Qloud ID</span>
                   </a>
 				  </div>
               </div>

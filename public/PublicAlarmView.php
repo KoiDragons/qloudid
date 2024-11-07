@@ -89,7 +89,7 @@
 					 
 						 
 					 		 
-												<a href="<?php if ($valueNew==1) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/NoffaAlarm/listChildren/'; else echo 'https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginInfo/'; ?><?php echo $data['cid']; ?>">
+												<a href="<?php if ($valueNew==1) echo 'https://www.safeqloud.com/company/index.php/NoffaAlarm/listChildren/'; else echo 'https://www.safeqloud.com/user/index.php/LoginAccount/loginInfo/'; ?><?php echo $data['cid']; ?>">
 												<div class="column_m container  marb5   fsz14 dark_grey_txt">
 												<div class="lgtgrey_bg bg_fffbcc_a ">
 										<div class="container padtb15  brdrad1 fsz14 dark_grey_txt padrl10">

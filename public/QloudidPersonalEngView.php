@@ -88,7 +88,7 @@
 			function changeHeader()
 			{
 				
-				window.location.href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/QloudidPersonal";
+				window.location.href="https://www.safeqloud.com/public/index.php/QloudidPersonal";
 				
 			}
 			function checkFlag()
@@ -160,8 +160,8 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
 	 
 	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Business</a></li>
 		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Private</a></li>					
@@ -224,8 +224,8 @@
                   <li><a href="#" class="fsz20">Personal</a></li>
 				   
                   <li><a href="CorporateServicesEng" class="fsz20">Business</a></li>
-                  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
-                   <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" class="fsz20">Sign in</a></li> 
+                  <li><a href="https://www.safeqloud.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                   <li><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" class="fsz20">Sign in</a></li> 
                   <li>
                     <div class="line marb10"></div>
                   </li>

@@ -202,7 +202,7 @@
 									 			 					
 									<div class="clear"></div>
 		
-									<div class="talc padtb20 ffamily_avenir  mart35"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><input type="button" value="Pay with Qloud ID" class="forword minhei_55p bluergb_bg fsz18 padrl80"  ></a> </div> 
+									<div class="talc padtb20 ffamily_avenir  mart35"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><input type="button" value="Pay with Qloud ID" class="forword minhei_55p bluergb_bg fsz18 padrl80"  ></a> </div> 
 								
 								<div class="talc padtb20 ffamily_avenir  "> <a href="../guestCheckout/<?php echo $data['cid']; ?>" class="fsz18" >Add manually</a> </div> 
 									

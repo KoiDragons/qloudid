@@ -96,7 +96,7 @@
 										else
 										{
 											 
-										window.location.href ="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/"+data2;
+										window.location.href ="https://www.safeqloud.com/public/index.php/BookingInformation/precheckedPersons/"+data2;
 										}
 										}
 										});	

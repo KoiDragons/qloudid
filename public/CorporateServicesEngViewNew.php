@@ -49,7 +49,7 @@
 <div class="outer">
 <!-- header-->
 <header class="header js-header authorization xs-padding032" style="border-bottom: 1px solid #dbdcdd;/* box-shadow: inset 0 -1px 0 0 #23262F; */">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" style="
     background-color: #3B71FE;
     padding: 10px;
     color: white;
@@ -88,18 +88,18 @@
 
 		
 
-			<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
-<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
 			
 </div>
 
@@ -145,7 +145,7 @@
 <header class=" js-header header_border bgcolor_F4B400 xs-padding2424 hidden" style="
 border-bottom: 1px solid #787f91;
 ">
-<div class="header__center center"><a class="header__logo" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
+<div class="header__center center"><a class="header__logo" href="https://www.safeqloud.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
 <div class="header__wrapper js-header-wrapper">
 <div class="header__item header__item_dropdown js-header-item">
 <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to login using Qloud ID
@@ -223,17 +223,17 @@ border-bottom: 1px solid #787f91;
 <div class="travel__wrapper">
 <div class="travel__slider js-slider-travel slick-initialized slick-slider"><button type="button" class="slick-prev slick-arrow" style=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" fill="none" viewBox="0 0 14 9"><path fill-rule="evenodd" d="M4.909.265a1 1 0 0 0-1.413.057l-3.231 3.5a1 1 0 0 0 0 1.357l3.231 3.5a1 1 0 0 0 1.47-1.357L3.284 5.5H13a1 1 0 1 0 0-2H3.284l1.682-1.822A1 1 0 0 0 4.909.265z" fill="#777e91"></path></svg></button>
 <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 908px;"><div class="travel__gallery slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 454px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
-<div class="travel__bg"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/travel-pic-1@2x.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/travel-pic-1.jpg" alt="Travel"></div>
+<div class="travel__bg"><img srcset="https://www.safeqloud.com/html/fleet/img/content/travel-pic-1@2x.jpg" src="https://www.safeqloud.com/html/fleet/img/content/travel-pic-1.jpg" alt="Travel"></div>
 <div class="travel__group">
-<div class="travel__preview"><img class="some-icon" srcset="http://www.qricis.com/html/smartappcss/images/websiteimages/wifi.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="http://www.qricis.com/html/smartappcss/images/websiteimages/wifi.jpg" src="http://www.qricis.com/html/smartappcss/images/websiteimages/wifi.jpg" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="http://www.qricis.com/html/smartappcss/images/websiteimages/wifi.jpg" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="http://www.qricis.com/html/smartappcss/images/websiteimages/wifi.jpg" src="http://www.qricis.com/html/smartappcss/images/websiteimages/wifi.jpg" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
 </div>
 </div><div class="travel__gallery slick-slide" data-slick-index="1" aria-hidden="true" style="width: 454px; position: relative; left: -454px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-<div class="travel__bg"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/travel-pic-1@2x.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/travel-pic-1.jpg" alt="Travel"></div>
+<div class="travel__bg"><img srcset="https://www.safeqloud.com/html/fleet/img/content/travel-pic-1@2x.jpg" src="https://www.safeqloud.com/html/fleet/img/content/travel-pic-1.jpg" alt="Travel"></div>
 <div class="travel__group">
-<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1@2x.png" src="https://www.safeqloud.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
 </div>
 </div></div></div>
 

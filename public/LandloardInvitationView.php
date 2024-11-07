@@ -230,30 +230,30 @@
                 window.top.window.outerWidth = window.screen.width
             } catch (e) { }
         </script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
-		<link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/animated/images/favicon.ico">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/workplacestart/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/workplacestart/css/style.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/workplacestart/constructor.css">
+		<link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/animated/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/workplacestart/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/workplacestart/css/style.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/workplacestart/constructor.css">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/constructor.css">
 		
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/workplacestart/css/modules.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/workplacestart/css/modules.css">
 		
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/workplacestart/css/jquery.bxslider.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/css/jquery-ui.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/css/slick.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/css/slick-theme.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/css/style.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/workplacestart/css/jquery.bxslider.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/css/slick.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/css/slick-theme.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/css/style.css">
 		
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/responsive.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/responsive.css">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/css/stylenew.css">
 		<link rel="stylesheet" type="text/css" media="all" href="html/smartappcss/constructor.css">
 		<link rel="stylesheet" type="text/css" media="all" href="html/smartappcss/responsive.css">
 		<link rel="stylesheet" type="text/css" media="all" href="html/smartappcss/css/modules.css">
 		<link rel="stylesheet" type="text/css" media="all" href="html/smartappcss/css/icofont.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/constructor.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/responsive.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/css/modules.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/constructor.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/responsive.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/css/modules.css">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/constructor.css">
 		
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/responsive.css">
@@ -4345,7 +4345,7 @@
 			function changeHeader()
 			{
 				
-				window.location.href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/QloudidPersonal";
+				window.location.href="https://www.safeqloud.com/public/index.php/QloudidPersonal";
 				
 			}
 			function checkFlag()
@@ -4417,7 +4417,7 @@
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
 						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt red_bg ffamily_avenir brdrad5" data-en="Sign in" data-sw="Sign in">Panic button</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 white_txt ffamily_avenir padt5">Sign up</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 white_txt ffamily_avenir padt5">Sign up</a></li>
 	 
 	  				
 					</ul>
@@ -4479,8 +4479,8 @@
                   <li><a href="#" class="fsz20">Personal</a></li>
 				   
                   <li><a href="CorporateServicesEng" class="fsz20">Business</a></li>
-                  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
-                   <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" class="fsz20">Sign in</a></li> 
+                  <li><a href="https://www.safeqloud.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                   <li><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" class="fsz20">Sign in</a></li> 
                   <li class="last">
                     <div class="line marb10"></div>
                   </li>
@@ -5290,16 +5290,16 @@ function showSlides(n,id) {
 </style>
 </div> 
 		
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/autosize.min.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/autosize.min.js"></script>
 		
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/superfish.js"></script>
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/icheck.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/superfish.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/icheck.js"></script>
 		
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/jquery.selectric.js"></script>
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/modules.js"></script>
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/custom.js"></script>
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/js/keep.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/jquery.selectric.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/modules.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/custom.js"></script>
+		<script type="text/javascript" src="https://www.safeqloud.com/html/keepcss/js/keep.js"></script>
 		<script type="text/javascript" src="<?php echo $path; ?>html/usercontent/js/jquery.cropit.js"></script>
 		<script type="text/javascript" src="<?php echo $path; ?>html/usercontent/js/vex.combined.min.js"></script>
 		<script type="text/javascript" src="<?php echo $path; ?>html/usercontent/js/jquery-ui.min.js"></script>

@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -658,7 +658,7 @@ function updateUserFields(id)
 {
 			if(id==1)
 				{
-					window.location.href='https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/mannualPaymentCompanyInfo/<?php echo $data['domain_id']; ?>/<?php echo $data['job_id']; ?>';
+					window.location.href='https://www.safeqloud.com/public/index.php/UserCompanySignUp/mannualPaymentCompanyInfo/<?php echo $data['domain_id']; ?>/<?php echo $data['job_id']; ?>';
 				}
 	 
 }

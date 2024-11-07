@@ -82,12 +82,12 @@
 			$rowImage = $result->fetch_assoc();
 			 if(empty($rowImage))
 			 {
-				$rowImage['image_path']="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/10.png"; 
+				$rowImage['image_path']="https://www.safeqloud.com/html/usercontent/images/dstricts/10.png"; 
 			 }
 			 else
 			 {
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowImage['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImage['image_path']);  
+			$rowImage['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);  
 			 }
 			
 			$stmt->close();

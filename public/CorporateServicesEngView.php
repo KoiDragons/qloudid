@@ -92,7 +92,7 @@
 			function changeHeader()
 			{
 				
-				window.location.href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/QloudidPersonal";
+				window.location.href="https://www.safeqloud.com/public/index.php/QloudidPersonal";
 				
 			}
 			function checkFlag()
@@ -165,9 +165,9 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 white_txt ffamily_avenir padt5">Sign up</a></li>
-	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Developer</a></li>	
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 white_txt ffamily_avenir padt5">Sign up</a></li>
+	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Developer</a></li>	
 	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Business</a></li>
 		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="QloudidPersonalEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Private</a></li>	
 
@@ -231,8 +231,8 @@
                   <li><a href="QloudidPersonalEng" class="fsz20">Personal</a></li>
 				   
                   <li><a href="#" class="fsz20">Business</a></li>
-                  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
-                   <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="fsz20">Sign in</a></li> 
+                  <li><a href="https://www.safeqloud.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                   <li><a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="fsz20">Sign in</a></li> 
                   <li>
                     <div class="line marb10"></div>
                   </li>
@@ -399,14 +399,14 @@
 						
 					</div>
 
- <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+ <a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Login</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"> </a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir"></a> </div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"> </a><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp?demo=true"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir"></a> </div>
 				</div> 
 			</div>
 			
@@ -443,14 +443,14 @@
 						
 					</div>
 
- <a href="https://safeqloud-228cbc38a2be.herokuapp.com/demo/index.php/DemoSign"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+ <a href="https://www.safeqloud.com/demo/index.php/DemoSign"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Sign in</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"> </a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/demo/index.php/DemoSign"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir"></a> </div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"> </a><a href="https://www.safeqloud.com/demo/index.php/DemoSign"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir"></a> </div>
 				</div> 
 			</div>
 			
@@ -488,14 +488,14 @@
 						
 					</div>
 
- <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+ <a href="https://www.safeqloud.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Payment</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"> </a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir"></a> </div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"> </a><a href="https://www.safeqloud.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir"></a> </div>
 				</div> 
 			</div>
 			

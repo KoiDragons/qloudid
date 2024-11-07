@@ -9,9 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
-			<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/modulesnewy_bg.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
+			<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/css/modulesnewy_bg.css" />
 		
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -354,7 +354,7 @@ function readURL2(input) {
 		
 
 			
-<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>

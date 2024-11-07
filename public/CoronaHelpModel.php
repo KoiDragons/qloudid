@@ -207,7 +207,7 @@ class CoronaHelpModel extends AppModel
 			
 				$to=$_POST['email'];
 				$subject = "Corona - Please verify your email";
-				$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+				$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 				$surl=getShortUrl($url);			
 				$emailContent ='<html><head></head><body><div style="margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding:0">
 
@@ -461,7 +461,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
@@ -830,7 +830,7 @@ width: 960px;
 			
 			$to=$rowE['email'];
 			$subject = "Corona - Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='<html><head></head><body><div style="margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding:0">
 
@@ -1084,7 +1084,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
@@ -1509,7 +1509,7 @@ width: 960px;
 				
 				$to=$_POST['email'];
 				$subject = "Corona - Please verify your email";
-				$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+				$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 				$surl=getShortUrl($url);			
 				$emailContent ='<html><head></head><body><div style="margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding:0">
 
@@ -1763,7 +1763,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
@@ -2137,7 +2137,7 @@ width: 960px;
 			
 			$to=$rowE['email'];
 			$subject = "Corona - Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='<html><head></head><body><div style="margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding:0">
 
@@ -2391,7 +2391,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/'.$encd.'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
@@ -2855,7 +2855,7 @@ width: 960px;
 			
 				$to=$rowP['email'];
 				$subject = "Please verify your email";
-				$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+				$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 				$surl=getShortUrl($url);			
 				$emailContent ='After activation you can use :-'.$_POST['email'].' as username and your social security number as password to login to your account.Please activate your help account using this link. '.$surl;
 				 
@@ -2891,7 +2891,7 @@ width: 960px;
 			
 			$to=$rowP['email'];
 			$subject = "Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='Please activate your help account using this link. '.$surl;
 			sendEmail($subject, $to, $emailContent);
@@ -2905,7 +2905,7 @@ width: 960px;
 			$encd=$this->encrypt_decrypt('encrypt',$rowC['id']);
 			$to=$rowP['email'];
 			$subject = "Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='Please activate your help account using this link. '.$surl;
 			sendEmail($subject, $to, $emailContent);
@@ -2943,7 +2943,7 @@ width: 960px;
 			
 			$to=$rowS['email'];
 			$subject = "Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='Please activate your help account using this link. '.$surl;
 			sendEmail($subject, $to, $emailContent);
@@ -2956,7 +2956,7 @@ width: 960px;
 			$encd=$this->encrypt_decrypt('encrypt',$rowC['id']);
 			$to=$rowS['email'];
 			$subject = "Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='Please activate your help account using this link. '.$surl;
 			sendEmail($subject, $to, $emailContent);
@@ -2995,7 +2995,7 @@ width: 960px;
 			
 			$to=$rowE['email'];
 			$subject = "Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='Please activate your help account using this link. '.$surl;
 			sendEmail($subject, $to, $emailContent);
@@ -3008,7 +3008,7 @@ width: 960px;
 			$encd=$this->encrypt_decrypt('encrypt',$rowC['id']);
 			$to=$rowE['email'];
 			$subject = "Please verify your email";
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateVolunteer/".$encd;
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateVolunteer/".$encd;
 			$surl=getShortUrl($url);			
 			$emailContent ='Please activate your help account using this link. '.$surl;
 			 

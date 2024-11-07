@@ -45,7 +45,7 @@
 		
 	function loadNewWindow()
 	{
-		window.open('https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>','_blank');  
+		window.open('https://www.safeqloud.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>','_blank');  
 		
 	}
      
@@ -85,7 +85,7 @@ else
 			{
 				/*if(user_id==0)
 				{
-					window.location.href ="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>";
+					window.location.href ="https://www.safeqloud.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>";
 				}*/
 				send_data1.orderRef='<?php echo $verifyIP; ?>';
 				a = setInterval(ajaxSend, timeInterval);
@@ -143,7 +143,7 @@ else
 						}
 						else 
 						{
-							//window.open('https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/LoginAccount/loginPickapro','_blank'); 
+							//window.open('https://www.safeqloud.com/pickapro/index.php/LoginAccount/loginPickapro','_blank'); 
 							//customWindow.close();
 							document.getElementById("save_indexing_user").submit();
 							

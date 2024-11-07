@@ -25,7 +25,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 	
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="refresh" content="60;https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/DropinQueue/welcomeGuest/<?php echo $data['lid']; ?>" />
+		<meta http-equiv="refresh" content="60;https://www.safeqloud.com/public/index.php/DropinQueue/welcomeGuest/<?php echo $data['lid']; ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Qmatchup</title>
 		<!-- Styles -->

@@ -147,7 +147,7 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
 	 
 	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Business</a></li>
@@ -211,8 +211,8 @@
                   <li><a href="QloudidPersonalEng" class="fsz20">Personal</a></li>
 				   
                   <li><a href="CorporateServicesEng" class="fsz20">Business</a></li>
-                  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
-                   <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="fsz20">Sign in</a></li> 
+                  <li><a href="https://www.safeqloud.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                   <li><a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="fsz20">Sign in</a></li> 
                   <li>
                     <div class="line marb10"></div>
                   </li>
@@ -430,7 +430,7 @@
 						<div class="wi_100 dflex xs-fxdir_col alit_s xs-alit_c justc_c mart0 brdb_new padb30">
 							<div class="wi_33 xs-wi_100 maxwi_400p flex_1 xs-brdb padr30">
 								<span class="icon icon1"></span>
-								<img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/workplace/8.png" class="wi_100 hei_auto dblock marb10">
+								<img src="https://www.safeqloud.com/html/usercontent/images/workplace/8.png" class="wi_100 hei_auto dblock marb10">
 
 								
 								
@@ -548,11 +548,11 @@
 			<!-- primary menu -->
 			<div class="tab-content active" id="mob-primary-menu" style="display: block;">
 				<div class="wi_100 dflex alit_s justc_sb talc fsz16 xxs-fsz12">
-					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CompanyConsentPlatform/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/public/index.php/CompanyConsentPlatform/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 						<span>One time</span>
 					</a>
-					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/public/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-file-text-o"></span></div>
 						<span>Ongoing</span>
 					</a>
@@ -564,7 +564,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/public/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-image"></span></div>
 						<span>Store it</span>
 					</a>
@@ -594,7 +594,7 @@
 						</a>
 					</li>
 					<li class="dblock mar0 padrl15 brdb_new">
-						<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+						<a href="https://www.safeqloud.com/public/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 							<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 							Inform relatives
 						</a>

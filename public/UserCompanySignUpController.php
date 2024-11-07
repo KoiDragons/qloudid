@@ -1577,7 +1577,7 @@ class UserCompanySignUpController
 		$data=array();
 		$data['verification_id']=cleanMe($a);
 		$updateSellerReview    = $model1->updateSellerReview($data); 
-		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin');  
+		header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin');  
 		 
 		}
 		
@@ -1630,7 +1630,7 @@ class UserCompanySignUpController
 		else
 		{
 			$updateReservationVerificationInfo    = $model1->updateReservationVerificationInfo($data);
-			header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin'); die;
+			header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin'); die;
 		}
 		}
 		
@@ -2323,7 +2323,7 @@ class UserCompanySignUpController
 		$data['invitation_id']=cleanMe($a);
 		$invitationDetail    = $model1->invitationDetail($data);
 		$verifyEmployeeDetailCreateAccount    = $model1->verifyEmployeeDetailCreateAccount($data);
-		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin');
+		header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin');
 		 
 		}
 		
@@ -2368,11 +2368,11 @@ class UserCompanySignUpController
 				{
 					if($data['domain_id']=='dllSSkw4cURDVW94V0o4RENKTVRmdz09')
 					{
-					header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/thanksUserCompanySignUp/'.$data['domain_id']); die;	
+					header('location:https://www.safeqloud.com/public/index.php/UserCompanySignUp/thanksUserCompanySignUp/'.$data['domain_id']); die;	
 					}
 					else
 					{
-						header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin'); die;
+						header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin'); die;
 					}
 					
 					
@@ -2380,7 +2380,7 @@ class UserCompanySignUpController
 				}
 				else
 				{
-					header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/thanksUserSignUp/'.$data['domain_id']); die;
+					header('location:https://www.safeqloud.com/public/index.php/UserCompanySignUp/thanksUserSignUp/'.$data['domain_id']); die;
 				}
 			}
 			 if($_POST['subscription_type']<=1)
@@ -2390,7 +2390,7 @@ class UserCompanySignUpController
 				 {
 					$data['cid']=$result;
 					$result2    = $model1->updateLicenceCompany($data);
-					header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin'); 	 
+					header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin'); 	 
 				 }
 				 else
 				 {
@@ -2448,7 +2448,7 @@ class UserCompanySignUpController
 			require_once('../configs/testMandril.php');
 			require_once('../lib/url_shortener.php');
 		$updateCompanyCardPayment    = $model1->updateCompanyCardPayment($data);
-		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin'); 
+		header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin'); 
 		
 		}
 		
@@ -2464,7 +2464,7 @@ class UserCompanySignUpController
 			$result    = $model1->addUserDetails($data);
 			$data['user_id']=$result;
 			$userSignupMarketplaces    = $model1->userSignupMarketplaces($data);
-			header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/ShareMonitor/shareMonitorRequestList');
+			header('location:https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorRequestList');
 		}
 		
 		public static function thanksUserSignUp($a=null)

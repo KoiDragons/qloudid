@@ -253,7 +253,7 @@
 		 
  <div class="hidden-xs">
 		  <div class="header__item header__item_user js-header-item" style="display:block;">
-            <button class="header__head js-header-head" fdprocessedid="0sxouf" style="margin-right:0px;"><a class="header__login " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin" data-effect="mfp-zoom-in" style="display:block; background:#f67f00; margin-left:0px;">
+            <button class="header__head js-header-head" fdprocessedid="0sxouf" style="margin-right:0px;"><a class="header__login " href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin" data-effect="mfp-zoom-in" style="display:block; background:#f67f00; margin-left:0px;">
             <svg class="icon icon-user padtb5" style="width:35px; height:35px;">
               <use xlink:href="#icon-user" style="fill:black"></use>
             </svg></a></button>

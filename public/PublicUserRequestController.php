@@ -33,7 +33,7 @@
 			//print_r($checkVerified); die;
 			if($checkVerified['is_approved'] !=0 )
 			{
-				header("location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/ConnectionAlreadyVerified"); 
+				header("location:https://www.safeqloud.com/public/index.php/ConnectionAlreadyVerified"); 
 				die;
 			}
 			$path = "../../../../";

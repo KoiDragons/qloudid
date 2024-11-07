@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	 
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
-	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -250,7 +250,7 @@
                                        
                                       <div class="changedText categories__subtitle txt_f67f00">Business</div>
                                       </a>
-			     <a class="categories__item  bg_E7E7E7 " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/invoiceAddressesUser/<?php echo $data['checkout_id']; ?>" style="padding: 20px; font-size:14px; border-radius:6px; "  >
+			     <a class="categories__item  bg_E7E7E7 " href="https://www.safeqloud.com/public/index.php/BookingInformation/invoiceAddressesUser/<?php echo $data['checkout_id']; ?>" style="padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91">Personal</div>
                                       </a>

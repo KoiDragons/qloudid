@@ -2769,7 +2769,7 @@
 										
 										
 										<div class="imgwrap nobrd ">
-								<div class="cropped_image  grey_brd5 " style="background-image: https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data" name="image-data"></div>
+								<div class="cropped_image  grey_brd5 " style="background-image: https://www.safeqloud.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data" name="image-data"></div>
 											<div class="subimg_load">
 												<a href="#" class="load_button" style="background: #FFF;color: #999; display:none;">Change</a>
 												
@@ -2790,7 +2790,7 @@
 										
 										
 										<div class="imgwrap nobrd ">
-								<div class="cropped_image  grey_brd5 " style="background-image: https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data2" name="image-data2"></div>
+								<div class="cropped_image  grey_brd5 " style="background-image: https://www.safeqloud.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data2" name="image-data2"></div>
 											<div class="subimg_load">
 												<a href="#" class="load_button" style="background: #FFF;color: #999; display:none;">Change</a>
 												

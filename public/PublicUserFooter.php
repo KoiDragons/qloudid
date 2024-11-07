@@ -13,10 +13,10 @@
 						<div class="wi_20 marb40">
 							<h3 class="marb20 pad0 uppercase letspc_15 bold fsz14 txt_787e89">PAGES</h3>
 							<ul class="mar0 pad0 fsz14">
-								<li class="dblock lgn_hight_35"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/QloudidPersonal" class="txt_787e89">Qloud ID Privat</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CorporateServices" class="txt_787e89">Qloud ID Business</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Appstore" class="txt_787e89">App Market</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/PublicNews" class="txt_787e89">Partners</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/QloudidPersonal" class="txt_787e89">Qloud ID Privat</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/CorporateServices" class="txt_787e89">Qloud ID Business</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/Appstore" class="txt_787e89">App Market</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/PublicNews" class="txt_787e89">Partners</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Developers</a></li>
 							</ul>
 						</div>

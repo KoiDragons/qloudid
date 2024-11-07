@@ -10,7 +10,7 @@
     
      
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -444,7 +444,7 @@
 		
 
 			
-<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
@@ -573,7 +573,7 @@ function updateUserFields(id)
 {
 			if(id==1)
 				{
-					window.location.href='https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpJobEmailInfo/<?php echo $data['domain_id']; ?>/<?php echo $data['job_id']; ?>';
+					window.location.href='https://www.safeqloud.com/public/index.php/UserCompanySignUp/signUpJobEmailInfo/<?php echo $data['domain_id']; ?>/<?php echo $data['job_id']; ?>';
 				}
 	 
 }

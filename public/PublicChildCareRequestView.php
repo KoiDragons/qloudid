@@ -173,7 +173,7 @@
 					</div>
 					
 					<div class="dflex fxwrap_w xxs-justc_c   marl-10 xxs-marl-15 hidden">
-							<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
+							<a href="https://www.safeqloud.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
 								<div class="wi_100 hei_120 opa0_ph pos_abs zi-1 top5 left0  bglgrad_r_46c8ff_81d37e bg_62cec1 xs-nobrd  xs-bg_62cec1 brdrad50 xs-bglgrad_r_46c8ff_81d37e trans_opa2"></div>
 								<div class="wi_100 hei_120 opa0 opa1_ph pos_abs zi-1 top5 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
 								 

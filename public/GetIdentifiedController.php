@@ -21,7 +21,7 @@
 			$checkVerified = $model->checkVerified($data);
 			if($checkVerified !=0 )
 			{
-			header("location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/ConnectionAlreadyVerified"); 
+			header("location:https://www.safeqloud.com/public/index.php/ConnectionAlreadyVerified"); 
 			die;
 			}
 			$getInformation = $model->getInformation($data);	

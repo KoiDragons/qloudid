@@ -217,7 +217,7 @@ you agree that these conditions shall apply to those services and your order.</d
 <div class="faq__col" style="
     width: 200px;
 ">
-<div class="faq__nav"><a class="faq__link   " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/privacy" style="font-size:18px;">
+<div class="faq__nav"><a class="faq__link   " href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/privacy" style="font-size:18px;">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg>Privacy</a>
@@ -225,11 +225,11 @@ you agree that these conditions shall apply to those services and your order.</d
 <svg class="icon icon-circle-and-square">
 <use xlink:href="#icon-circle-and-square"></use>
 </svg>Terms of use</a>
-					<a class="faq__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/cookie" style="font-size:18px;">
+					<a class="faq__link  " href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/cookie" style="font-size:18px;">
 <svg class="icon icon-lightning">
 <use xlink:href="#icon-lightning"></use>
 </svg>Cookie</a>
-					<a class="faq__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/codeofConduct" style="font-size:18px;">
+					<a class="faq__link  " href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/codeofConduct" style="font-size:18px;">
 <svg class="icon icon-lightning">
 <use xlink:href="#icon-lightning"></use>
 </svg>Code of conduct</a>

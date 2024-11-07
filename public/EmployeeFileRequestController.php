@@ -20,7 +20,7 @@ class EmployeeFileRequestController
 		require_once('../configs/smsMandril.php');
 		require_once('../lib/url_shortener.php');
 		$updateFile = $model->updateFile();
-		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/brokers/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09');
+		header('location:https://www.safeqloud.com/public/index.php/UserCompanySignUp/brokers/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09');
 	
 	}
 	

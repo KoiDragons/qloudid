@@ -8,8 +8,8 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>html/fleet/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>html/fleet/img/favicon.ico">
-      <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">

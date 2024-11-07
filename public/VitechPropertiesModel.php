@@ -1783,7 +1783,7 @@ function rentPoposerEmployeeDetail($data)
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading changedText" >'.str_ireplace('&','and',html_entity_decode($row['category_name'])).'</span><span class="aprtSubheading changedText" id="service'.$row['id'].'">'.$rowTodoSelectedCount['num'].' services selected</span>
 								</div>
@@ -2714,7 +2714,7 @@ From '.$rowInfo['checkin_date'].' to '.$rowInfo['checkout_date'].'
                           <table border="0" cellspacing="0" cellpadding="0" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;">
                             <tbody><tr>
                               <td align="center" valign="center" width="100%" class="Button-primary-wrapper" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);">
-                              <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/startVerification/'.$data['checkid'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Confirm booking</a>                                </td>
+                              <a href="https://www.safeqloud.com/public/index.php/BookingInformation/startVerification/'.$data['checkid'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Confirm booking</a>                                </td>
                             </tr>
                           </tbody></table>
                         

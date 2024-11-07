@@ -120,18 +120,18 @@
 						<ul class="mar0 pad0 sf-menu fsz16">
 							
 							
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/QloudidPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/public/index.php/QloudidPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
 							
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServices"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/public/index.php/CorporateServices"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
 							
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel   "> <a href="#" class="translate hei_30pi dblock padrl20 brdb_b_pink  lgn_hight_30 pink_txt " data-en="Partners" data-sw="Partners">Partners</a> </li>
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InformRelatives"   class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h hidden" data-en="sos" data-sw="sos">SOS <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/public/index.php/InformRelatives"   class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h hidden" data-en="sos" data-sw="sos">SOS <span class="fa fa-heart red_txt"></span> F&F </a> </li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_black brdrad5 marl20"> <a href="https://www.qmatchup.com/beta/company/index.php/PublicAboutUs/companyAccount/N0ZvS0gycGRubUx4MlpxeTJNY1czZz09"   class="translate hei_30pi dblock padrl20   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-							<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
+							<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
 						</ul>
 					</div>
 					
-					<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
+					<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
 					<div class="clear"></div>
 					
 				</div>
@@ -235,7 +235,7 @@
 									<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40">Hantera kriser...</h2>
 									<div class="lgn_hight_30 fsz26 xs-fsz18">Ett webbaserat besökssystem som förenklar hantering av besökare, höjer säkerheten och förmedlar ett professionellt första intryck. </div>
 									<div class="mart20 tall"> 
-										<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicAboutQmatchup"><input type="button" value="Mer om Krishantering" class="padl20 nobrd wi_60 maxwi_500p minhei_50p dflex  alit_c opa90_h brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+										<a href="https://www.safeqloud.com/public/index.php/PublicAboutQmatchup"><input type="button" value="Mer om Krishantering" class="padl20 nobrd wi_60 maxwi_500p minhei_50p dflex  alit_c opa90_h brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 									</div>
 								</div>
 							</div>

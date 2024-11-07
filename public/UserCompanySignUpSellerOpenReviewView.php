@@ -29,17 +29,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
-     <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-	 <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
+     <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+	 <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
      
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/css/app.minblack.css">
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.js"></script>
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.minblack.css">
+		<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/jquery.js"></script>
 	  
-	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -477,7 +477,7 @@ function changeDisplay1()
     
 ">Thank you for considering leaving a review about your experience with me. Your feedback helps us improve and assists future homeowners.</div>
 </div>
-<a class="button main__button   talc     changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
+<a class="button main__button   talc     changedText" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
      background: #f67f00;
      margin-top: 3px;
      /* margin-bottom: 55px; */
@@ -518,7 +518,7 @@ function changeDisplay1()
     
 ">Thank you for considering leaving a review about your experience with me. Your feedback helps us improve and assists future homeowners.</div>
 </div>
-<a class="button main__button xs-tall talc xs-fleft   changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
+<a class="button main__button xs-tall talc xs-fleft   changedText" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
      background: #f67f00;
      margin-top: 3px;
      /* margin-bottom: 55px; */
@@ -1017,7 +1017,7 @@ function changeDisplay2()
 <div class="destinations__center center" style="border-bottom:1px solid #23262F;padding-bottom: 10px;max-width: 1132px;padding-top: 0px;">
               </div>
 
-<a class="button main__button   tall   fleft  changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
+<a class="button main__button   tall   fleft  changedText" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
      background: #ffffff;
      margin-top: 40px;
      /* margin-bottom: 55px; */
@@ -1058,7 +1058,7 @@ function changeDisplay2()
     
 ">Thank you for considering leaving a review about your experience with me. Your feedback helps us improve and assists future homeowners.</div>
 </div>
-<a class="button main__button xs-tall talc xs-fleft   changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
+<a class="button main__button xs-tall talc xs-fleft   changedText" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/sellerReviewInformation/<?php echo $data['verification_id']; ?>" style="
      background: #cddd39;
      margin-top: 3px;
      /* margin-bottom: 55px; */

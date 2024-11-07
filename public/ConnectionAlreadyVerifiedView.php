@@ -169,7 +169,7 @@
 					<div class="fright xs-dnone sm-dnone">
 						<ul class="mar0 pad0">
 							<div class="hidden-xs hidden-sm padtrl10">
-								<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt">
+								<a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt">
 									
 									<span class="valm">Stäng sida</span>
 								</a>

@@ -77,7 +77,7 @@
 						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 black_txt ffamily_avenir brdrad5" data-en="Sign in" data-sw="Sign in" style="
     border: 2px solid black;
 ">Sign up</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Security</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Security</a></li>
 	
 	<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="http://www.qricis.com/servicestore.html" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">ServiceStore</a></li>
 		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="http://www.qricis.com/features.html" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Features</a></li><li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="http://www.qricis.com/gettxp.html" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt ffamily_avenir padt5">Start</a></li>					

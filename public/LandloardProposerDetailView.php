@@ -53,7 +53,7 @@
     ================================================== -->
     <section id="intro" class="s-intro">
 
-        <div class="s-intro__bg" style="background-image: url('https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/bgimage4.jpeg');"></div>
+        <div class="s-intro__bg" style="background-image: url('https://www.safeqloud.com/html/usercontent/images/dstricts/bgimage4.jpeg');"></div>
 
   
  

@@ -306,7 +306,7 @@
 					?> 
 			  
 			   <a class="card  " href="../../../../../professionalHomeRepairSubCategoryList/<?php echo $data['catg_id']; ?>/<?php echo $value['enc']; ?>/<?php echo $data['domain_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['city_id']; ?>/<?php echo $data['todo_id']; ?>" style=" border-radius: 12px; <?php if($i%3==0) echo 'margin: 32px 16px 0px 0px !important;'; ?>">
-                  <div class="card__preview"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://www.safeqloud.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://www.safeqloud.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  display:<?php if($value['display_name_allowed']==1) echo 'block;'; else echo 'none'; ?>"><?php echo $value['ticket_title']; ?></div>
                   </div>
                   </a>
@@ -315,7 +315,7 @@
 						<?php } else { ?> 
 						
 						<a class="card  " href="../../../../../homeRepairRequestInfo/<?php echo $data['catg_id']; ?>/<?php echo $value['enc']; ?>/<?php echo $data['domain_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['city_id']; ?>/<?php echo $data['todo_id']; ?>" style=" border-radius: 12px; <?php if($i%3==0) echo 'margin: 32px 16px 0px 0px !important;'; ?>">
-                  <div class="card__preview"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://www.safeqloud.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://www.safeqloud.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  display:<?php if($value['display_name_allowed']==1) echo 'block;'; else echo 'none'; ?>"><?php echo $value['ticket_title']; ?></div>
                   </div>
                   </a>

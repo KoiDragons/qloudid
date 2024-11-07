@@ -66,8 +66,8 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
 	 
 	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Business</a></li>
 		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Private</a></li>					
@@ -130,8 +130,8 @@
                   <li><a href="QloudidPersonal" class="fsz20">Personal</a></li>
 				   
                   <li><a href="CorporateServicesEng" class="fsz20">Business</a></li>
-                  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
-                   <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" class="fsz20">Sign in</a></li> 
+                  <li><a href="https://www.safeqloud.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                   <li><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" class="fsz20">Sign in</a></li> 
                   <li class="last">
                     <div class="line marb10"></div>
                   </li>
@@ -236,7 +236,7 @@
 <li>All this information will be added to a array and decrypted to send to qloudid </li>
 <li>$id= $this -> encrypt_decrypt('encrypt',$newData);</li>
 <li>This data will be sent to qloudid with url like this (you can send in post as well) </li>
-<li>https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Curl/addEmployee/$id;</li>
+<li>https://www.safeqloud.com/user/index.php/Curl/addEmployee/$id;</li>
  </ul>
 
 
@@ -248,7 +248,7 @@
 <li>All this information will be added to a array and decrypted to send to qloudid </li>
 <li>$id= $this -> encrypt_decrypt('encrypt',$newData);</li>
 <li>This data will be sent to qloudid with url like this (you can send in post as well) </li>
-<li>https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Curl/editEmployee/$id</li>
+<li>https://www.safeqloud.com/user/index.php/Curl/editEmployee/$id</li>
  </ul>
 
 <p class="black_txt padt10  padb0"><strong>Now you can add relieving information on employee and send this to qloudid if it is invited or uninvited employee. Here is information required to be sent to qloudid</strong></p>
@@ -257,7 +257,7 @@
 <li>All this information will be added to a array and decrypted to send to qloudid </li>
 <li>$id= $this -> encrypt_decrypt('encrypt',$newData);</li>
 <li>This data will be sent to qloudid with url like this (you can send in post as well) </li>
-<li>https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Curl/ relieveEmployee/$id</li>
+<li>https://www.safeqloud.com/user/index.php/Curl/ relieveEmployee/$id</li>
  </ul>									
 
 <p class="black_txt padt10  padb0"><strong>Employee will be relieved on next date that is given on relieving </strong></p>

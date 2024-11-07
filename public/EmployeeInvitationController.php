@@ -34,7 +34,7 @@
 				$invationInformation    = $model1->brokerInvationInformation($data);
 				 if($invationInformation['is_approved']!=0)
 				 {
-					header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin'); die;	 
+					header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin'); die;	 
 				 }
 				require_once('EmployeeInvitationUserCompanyDetailsVerifyView.php');
 			}	
@@ -118,7 +118,7 @@
 		$data['request_id']=cleanMe($a);
 		 
 		$approveUserEmployeeRequest    = $model1->approveUserEmployeeRequest($data);
-		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin');
+		header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin');
 		 
 		}
 		
@@ -134,7 +134,7 @@
 		$_POST['domain_id']=0;
 		$data['user_id']    = $model1->createUser($_POST);
 		$approveBrokerInvitation    = $model1->approveBrokerInvitation($data);
-		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin');
+		header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin');
 		 
 		}
 		

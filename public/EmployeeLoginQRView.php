@@ -216,7 +216,7 @@
 						
 							<div class="padb10  talc padt20" >
 										<div class="padrl0 ">
-											<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/EmployeeLogin/expressLogin/<?php echo $data['eid']; ?>"  class="white_brd wi_50 hei_auto xs-wi_100">
+											<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.safeqloud.com/company/index.php/EmployeeLogin/expressLogin/<?php echo $data['eid']; ?>"  class="white_brd wi_50 hei_auto xs-wi_100">
 											
 										</div>
 									</div>

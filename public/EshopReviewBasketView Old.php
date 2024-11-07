@@ -43,7 +43,7 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt   ffamily_avenir" data-en="Logga in" data-sw="Logga in" style="background-color: #000000;">Logga in</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt   ffamily_avenir" data-en="Logga in" data-sw="Logga in" style="background-color: #000000;">Logga in</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Vår metod</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Om CBD</a></li>
 	 
@@ -235,7 +235,7 @@
 								</div>
 								 
 							</div>
-							<div class="talr padtb20 ffamily_avenir  "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><input type="button" value="Qloud ID Pay" class="forword minhei_55p  fsz18     ffamily_avenir"  ></a> </div> 
+							<div class="talr padtb20 ffamily_avenir  "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><input type="button" value="Qloud ID Pay" class="forword minhei_55p  fsz18     ffamily_avenir"  ></a> </div> 
 								<div class="talr padtb20 ffamily_avenir  "> <a href="../guestCheckout/<?php echo $data['cid']; ?>"  ><input type="button" value="Add manually" class="forword minhei_55p  fsz18     ffamily_avenir"  ></a> </div> 
 						
 						<div class="clear"></div>

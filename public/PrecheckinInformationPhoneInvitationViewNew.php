@@ -14,10 +14,10 @@
     
    
 	 <script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
-	<link rel="stylesheet" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css">
-	<link rel="stylesheet" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css">
-	 <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/css/app.min.pannelNew.css">
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/constructor.css">
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/responsive.css">
+	 <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.min.pannelNew.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -309,7 +309,7 @@ function changeDisplay1()
 		
 
 			
-<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>

@@ -164,7 +164,7 @@
 								</div>
 						
 						<div class="mart20 talc">
-						<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount"><input type="button" value="Logga in" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
+						<a href="https://www.safeqloud.com/user/index.php/LoginAccount"><input type="button" value="Logga in" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
 						
 					</div>
 					</div><div class="clear"></div>

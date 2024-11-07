@@ -143,7 +143,7 @@
 						<div class="on_clmn marb20  mart40 brdt padt10">
 				<div class="tw_clmn padrl0 xs-padrl0 wi_30">
 				<label class="dblock fsz12 fleft">
-				 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/visitors/<?php echo $data['cid']; ?>/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"> <span class="marl5 fsz16 xs-fsz16 valm ">Mannually</span> </a></label>
+				 <a href="https://www.safeqloud.com/company/index.php/Company/visitors/<?php echo $data['cid']; ?>/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"> <span class="marl5 fsz16 xs-fsz16 valm ">Mannually</span> </a></label>
 				</div>
 				 
 				</div>

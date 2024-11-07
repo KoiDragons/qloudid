@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -471,20 +471,20 @@
 </div>
 </div>
 <!-- scripts-->
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<!--<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>-->
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<!--<script src="https://www.safeqloud.com/html/fleet/js/lib/nouislider.min.js"></script>-->
+<script src="https://www.safeqloud.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/demo.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/app.js"></script>
  
 <!-- svg sprite-->
 <div style="display: none"><svg width="0" height="0">

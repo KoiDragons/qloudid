@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
      
-    <link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/bookadirect/main.css" />
       <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/bookadirect/reactloadingbar.css" />
@@ -15,8 +15,8 @@
 	  <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
-		   <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+		   <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
         <script src="<?php echo $path; ?>html/bookadirect/no-pollution.js"></script>
         <script src="<?php echo $path; ?>html/bookadirect/mobile-detect.min.js"></script>
         <link rel="stylesheet" href="<?php echo $path; ?>html/bookadirect/react-loading-bar.css" media="all" onload="this.media=&quot;all&quot;">

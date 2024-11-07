@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
   <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
-     <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-	 <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+     <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+	 <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
      
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/css/app.minblack.css">
-		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.js"></script>
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.minblack.css">
+		<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/jquery.js"></script>
 	  
-	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -51,7 +51,7 @@
   
  <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important; /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo xs-fsz20 changedText " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicAppStore" style="
+<a class="header__logo xs-fsz20 changedText " href="https://www.safeqloud.com/public/index.php/PublicAppStore" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -286,9 +286,9 @@
 ">
 <div class="main__preview xxs-padrl8">
 <picture>
-<source media="(max-width: 767px)" srcset="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else if($getAppsPermissionDetail['app_id']==57) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/bg/ipropose.jpeg';  else if($getAppsPermissionDetail['app_id']>13) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>">
+<source media="(max-width: 767px)" srcset="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else if($getAppsPermissionDetail['app_id']==57) echo 'https://www.safeqloud.com/html/usercontent/images/bg/ipropose.jpeg';  else if($getAppsPermissionDetail['app_id']>13) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>">
 
-<img src="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else if ($getAppsPermissionDetail['app_id']==57) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/bg/ipropose.jpeg'; else if($getAppsPermissionDetail['app_id']>13) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>" alt="Main" style="border-radius:12px;">
+<img src="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else if ($getAppsPermissionDetail['app_id']==57) echo 'https://www.safeqloud.com/html/usercontent/images/bg/ipropose.jpeg'; else if($getAppsPermissionDetail['app_id']>13) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>" alt="Main" style="border-radius:12px;">
 </picture>
 <div class="main__wrap xxs-padrl16   pad345" style="
     /* background: #f67f00ad; */
@@ -303,7 +303,7 @@
 
 <div class="  visible-xs padrl25 padt30">
               <div class="  gallery__list_stays">
-                <div class="gallery__preview  " style="border-radius:8px;"><a class="gallery__view" href="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg';  else if($getAppsPermissionDetail['app_id']==57) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/bg/ipropose.jpeg'; else if($getAppsPermissionDetail['app_id']>13) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?> " data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else if($getAppsPermissionDetail['app_id']==57) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/bg/ipropose.jpeg';  else if($getAppsPermissionDetail['app_id']>13) echo 'https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?> " alt="Gallery" style="border-radius:8px;"></a></div>
+                <div class="gallery__preview  " style="border-radius:8px;"><a class="gallery__view" href="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg';  else if($getAppsPermissionDetail['app_id']==57) echo 'https://www.safeqloud.com/html/usercontent/images/bg/ipropose.jpeg'; else if($getAppsPermissionDetail['app_id']>13) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?> " data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else if($getAppsPermissionDetail['app_id']==57) echo 'https://www.safeqloud.com/html/usercontent/images/bg/ipropose.jpeg';  else if($getAppsPermissionDetail['app_id']>13) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?> " alt="Gallery" style="border-radius:8px;"></a></div>
 										 
 												              </div>
             </div>
@@ -418,7 +418,7 @@
                     <div class="receipt__reviews">(256 <span class="changedText">reviews</span>)</div>
                   </div>
                 </div>
-                <div class="receipt__avatar hidden"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg" alt="Avatar">
+                <div class="receipt__avatar hidden"><img src="https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg" alt="Avatar">
                   <div class="receipt__check">
                     <svg class="icon icon-check">
                       <use xlink:href="#icon-check"></use>
@@ -718,20 +718,20 @@
 
 		 </div>
        <!-- scripts-->
-  <script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<!--<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>-->
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
-<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
+  <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<!--<script src="https://www.safeqloud.com/html/fleet/js/lib/nouislider.min.js"></script>-->
+<script src="https://www.safeqloud.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/demo.js"></script>
+<script src="https://www.safeqloud.com/html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

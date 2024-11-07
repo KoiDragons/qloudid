@@ -528,7 +528,7 @@ moreEventOnRequestExtraFee=1;
 	 
 } 
 	</script>
-<link rel="stylesheet" type="text/css" id="u0" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/tinymce/skins/lightgray/skin.min.css"></head>
+<link rel="stylesheet" type="text/css" id="u0" href="https://www.safeqloud.com/html/usercontent/js/tinymce/skins/lightgray/skin.min.css"></head>
 
 	<body>
 	 <div class="column_m header   bs_bb lgtgrey2_bg hidden-xs">

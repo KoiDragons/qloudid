@@ -63,7 +63,7 @@
 			$to      = $row_user['email'];
 			$subject = "Verification information";
 			
-			$emailContent ='User has confirmed company connection request. Please approve or reject his/her verification.</br> Click <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CompanyVerifiedConnections/companyAccount/'.$enc.'">here</a>';
+			$emailContent ='User has confirmed company connection request. Please approve or reject his/her verification.</br> Click <a href="https://www.safeqloud.com/user/index.php/CompanyVerifiedConnections/companyAccount/'.$enc.'">here</a>';
 			sendEmail($subject, $to, $emailContent);
 			$stmt->close();
 			$dbCon->close();

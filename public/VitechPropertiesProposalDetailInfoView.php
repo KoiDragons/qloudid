@@ -30,7 +30,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
      
-    <link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
 		 
@@ -53,7 +53,7 @@
     
     <link rel="stylesheet" media="all" href="https://dstricts.com/html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -912,7 +912,7 @@ function changeDisplay1()
                       </svg>2 234 000$
                     </div>
                   </div><div class="card__comment wi_70 xxs-wi_80">
-                        <div class="card__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
+                        <div class="card__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
                         <div class="card__text fsz14 changedText">The best 16 passenger small group, intimate and unique, Milford Sound...</div>
                       </div>
                   <div class="profile__control"><a class="button-stroke button-small profile__button changedText" href="#" tabindex="0">Contact</a>

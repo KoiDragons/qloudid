@@ -209,7 +209,7 @@
                     $stmt->execute();
 					$stmt->close();
 					$dbCon->close();
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/restoreUserAccount/" . $data['email'] . "/" . $data['random_hash'];
+			$url="https://www.safeqloud.com/user/index.php/Activation/restoreUserAccount/" . $data['email'] . "/" . $data['random_hash'];
 			 
 			$surl=getShortUrl($url);
 			
@@ -468,7 +468,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/restoreUserAccount/' . $data['email'] . '/' . $data['random_hash'].'" style="border-radius:3px;color:#fedd32;text-decoration:none;background-color:#fedd32;border-top:14px solid #fedd32;border-bottom:14px solid #fedd32;border-left:14px solid #fedd32;border-right:14px solid #fedd32;display:inline-block;border-radius:3px;color:#000000; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/restoreUserAccount/' . $data['email'] . '/' . $data['random_hash'].'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center;"><span><a href="https://www.safeqloud.com/user/index.php/Activation/restoreUserAccount/' . $data['email'] . '/' . $data['random_hash'].'" style="border-radius:3px;color:#fedd32;text-decoration:none;background-color:#fedd32;border-top:14px solid #fedd32;border-bottom:14px solid #fedd32;border-left:14px solid #fedd32;border-right:14px solid #fedd32;display:inline-block;border-radius:3px;color:#000000; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/Activation/restoreUserAccount/' . $data['email'] . '/' . $data['random_hash'].'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
@@ -813,7 +813,7 @@ width: 960px;
 		
 		function sendActivationEmail($data)
 		{
-			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateUser/" . $data['email'] . "/" . $data['random_hash'];
+			$url="https://www.safeqloud.com/user/index.php/Activation/activateUser/" . $data['email'] . "/" . $data['random_hash'];
 			
 			$surl=getShortUrl($url);
 			
@@ -1072,7 +1072,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateUser/' . $data['email'] . '/' . $data['random_hash'].'" style="border-radius:3px;color:#fedd32;text-decoration:none;background-color:#fedd32;border-top:14px solid #fedd32;border-bottom:14px solid #fedd32;border-left:14px solid #fedd32;border-right:14px solid #fedd32;display:inline-block;border-radius:3px;color:#000000; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateUser/' . $data['email'] . '/' . $data['random_hash'].'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center;"><span><a href="https://www.safeqloud.com/user/index.php/Activation/activateUser/' . $data['email'] . '/' . $data['random_hash'].'" style="border-radius:3px;color:#fedd32;text-decoration:none;background-color:#fedd32;border-top:14px solid #fedd32;border-bottom:14px solid #fedd32;border-left:14px solid #fedd32;border-right:14px solid #fedd32;display:inline-block;border-radius:3px;color:#000000; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/Activation/activateUser/' . $data['email'] . '/' . $data['random_hash'].'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">

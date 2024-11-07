@@ -731,7 +731,7 @@ class PrecheckinInformationModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowInfo['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImage['image_path']);
+			$rowInfo['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select concat_ws(' ', first_name,last_name) as name,email from user_logins where id = ?");
         
@@ -760,7 +760,7 @@ class PrecheckinInformationModel extends AppModel
 			$id=$stmt->insert_id; 
 			$id1=$this -> encrypt_decrypt('encrypt',$id); 
 			$url="https://www.dstricts.com/public/index.php/Hotel/verifyInvitationCheckin/".$id1;	
-			$url1="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/invitationInformation/".$id1; 
+			$url1="https://www.safeqloud.com/public/index.php/BookingInformation/invitationInformation/".$id1; 
 			
 			$surl=getShortUrl($url);
 			$surl1=getShortUrl($url1);
@@ -852,7 +852,7 @@ class PrecheckinInformationModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowInfo['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImage['image_path']);
+			$rowInfo['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select concat_ws(' ', first_name,last_name) as name,email from user_logins where id = ?");
         
@@ -873,7 +873,7 @@ class PrecheckinInformationModel extends AppModel
 			$id=$stmt->insert_id; 
 			$id1=$this -> encrypt_decrypt('encrypt',$id); 
 			$url="https://www.dstricts.com/public/index.php/Hotel/verifyInvitationCheckin/".$id1;	
-			$url1="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/addAccountInformation/".$id1;
+			$url1="https://www.safeqloud.com/public/index.php/BookingInformation/addAccountInformation/".$id1;
 			 
 		 $subject='Invitation received';
 			

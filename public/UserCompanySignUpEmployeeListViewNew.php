@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
      
-    <link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     
     <meta name="msapplication-TileColor" content="#da532c">
@@ -18,8 +18,8 @@
     <meta name="twitter:title" content="Fleet – Travel Shopping UI Kit">
     <meta name="twitter:description" content="Epic Travel Shopping Design Kit">
     <meta name="twitter:creator" content="@ui8">
-      <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="og:title" content="Fleet – Travel Shopping UI Kit">
     <meta property="og:type" content="Article">
     

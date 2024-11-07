@@ -205,7 +205,7 @@ function submitFormCom()
 			
 				<div class="fright xs-dnone visible-si padt10">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs visible-si fright pos_rel brdl "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/NewsfeedDetail" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="St&auml;ng sidan" data-sw="St&auml;ng sidan">St&auml;ng sidan</a> </li>
+						<li class="dblock hidden-xs visible-si fright pos_rel brdl "> <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="St&auml;ng sidan" data-sw="St&auml;ng sidan">St&auml;ng sidan</a> </li>
 					</ul>
 				</div>
 				<!--sf-js-enabled sf-arrows hidden-xs-->
@@ -219,7 +219,7 @@ function submitFormCom()
 						
 					</ul>
 				</div>
-				<div class="visible-xs hidden-si fright marr0 padr0 xs-padt5"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/NewsfeedDetail" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+				<div class="visible-xs hidden-si fright marr0 padr0 xs-padt5"> <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>
@@ -361,7 +361,7 @@ function submitFormCom()
 			<!-- primary menu -->
 			<div class="tab-content active" id="mob-primary-menu" style="display: block;">
 				<div class="wi_100 dflex alit_s justc_sb talc fsz16 xxs-fsz12">
-					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/PersonalRequests/sentRequests" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 						<span>One time</span>
 					</a>
@@ -377,11 +377,11 @@ function submitFormCom()
 							</div>
 						</a>
 					</div>
-					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/ConnectKin/connectAccount" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-image"></span></div>
 						<span>Next of kin</span>
 					</a>
-					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/StoreData/userAccount" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/StoreData/userAccount" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_26 xxs-lgn_hight_20 fsz32 xxs-fsz24">
 							<span class="fa fa-file-text-o"></span>
 						</div>
@@ -407,7 +407,7 @@ function submitFormCom()
 						</a>
 					</li>
 					<li class="dblock mar0 padrl15 brdb">
-						<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+						<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 							<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 							Inform relatives
 						</a>

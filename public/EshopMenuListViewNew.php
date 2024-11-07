@@ -56,7 +56,7 @@
     <!-- outer-->
     <div class="outer">
      <header class="header js-header header_border bgcolor_F4B400 xs-padding2424">
-        <div class="header__center center"><a class="header__logo" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" ><button class="button button-stroke button-small header__button" style="border-color:#ff0000; background-color:#ff0000; box-shadow: 0 0 0 2px #ff0000 inset; font-size:18px; min-width: 5em !important;">Close</button></a>
+        <div class="header__center center"><a class="header__logo" href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" ><button class="button button-stroke button-small header__button" style="border-color:#ff0000; background-color:#ff0000; box-shadow: 0 0 0 2px #ff0000 inset; font-size:18px; min-width: 5em !important;">Close</button></a>
           <div class="header__wrapper js-header-wrapper">
             <div class="header__item header__item_dropdown js-header-item">
               <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to shop online using Qloud ID </button>

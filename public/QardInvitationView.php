@@ -214,7 +214,7 @@
 							<div class="padb10 ">
 									<h4 class="bold fsz50 padb10 talc xs-fsz40 xs-talc">Hi <?php echo $employeeDetail['rname']; ?></h4>
 									<h3 class="fsz25 xs-fsz20 padb10 padt10 xs-padt0 brdb_new talc  lgn_hight_30 xs-talc">This is your <?php echo $employeeDetail['name']; ?>. I have ordered digital business card for you. Pls follow instruction so that you can start using it</h3>
-									<p class="fsz18 padt10 talc">Visit your qard <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $employeeDetail['enc']; ?>">here</a></p>
+									<p class="fsz18 padt10 talc">Visit your qard <a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $employeeDetail['enc']; ?>">here</a></p>
 								</div>
 						
 						

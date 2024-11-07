@@ -8,13 +8,13 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>html/fleet/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>html/fleet/img/favicon.ico">
-      <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/css/app.min.pannelStart.css">
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.min.pannelStart.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -173,7 +173,7 @@
                 <div class="browse__slider js-slider-browse">
 				  <?php if($selectedMarketplaceDetail['charge_on_companies']==1) { ?>
 				<a class="browse__card" href="#"  onclick="submitForm(1);">
-                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.jpg" alt="Card" style="width: auto;">
+                                      <div class="browse__preview"><img srcSet="https://www.safeqloud.com/html/usercontent/images/account/1.jpg" src="https://www.safeqloud.com/html/usercontent/images/account/1.jpg" alt="Card" style="width: auto;">
                                         <div class="status-black browse__category">Free</div>
                                       </div>
                                       
@@ -182,7 +182,7 @@
 												 
 				  <?php }   if($selectedMarketplaceDetail['charge_on_buyers']==1) { ?>
 				<a class="browse__card" href="#"  onclick="submitForm(2);">
-                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/2.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/2.jpeg" alt="Card" style="width: auto;">
+                                      <div class="browse__preview"><img srcSet="https://www.safeqloud.com/html/usercontent/images/account/2.jpeg" src="https://www.safeqloud.com/html/usercontent/images/account/2.jpeg" alt="Card" style="width: auto;">
                                         <div class="status-black browse__category">Gold</div>
                                       </div>
                                       
@@ -191,7 +191,7 @@
 												 
 				  <?php }  if($selectedMarketplaceDetail['charge_on_partners']==1) { ?>
 				<a class="browse__card" href="#"  onclick="submitForm(3);">
-                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/2.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/2.jpeg" alt="Card" style="width: auto;">
+                                      <div class="browse__preview"><img srcSet="https://www.safeqloud.com/html/usercontent/images/account/2.jpeg" src="https://www.safeqloud.com/html/usercontent/images/account/2.jpeg" alt="Card" style="width: auto;">
                                         <div class="status-black browse__category">Premium</div>
                                       </div>
                                       

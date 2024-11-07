@@ -1462,7 +1462,7 @@ class BookingInformationModel extends AppModel
 			if(!empty($rowInstaBox))
 			{
 				$encId=$this->encrypt_decrypt('encrypt',$row['id']);
-				$url="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InstaBox/welcome/".$encId;
+				$url="https://www.safeqloud.com/public/index.php/InstaBox/welcome/".$encId;
 				$surl=getShortUrl($url);
 				$subject='Welcome! you have room key available in instabox.';
 				$to      = $rowUser['email'];
@@ -3648,7 +3648,7 @@ class BookingInformationModel extends AppModel
                           <table border="0" cellspacing="0" cellpadding="0" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;">
                             <tbody><tr>
                               <td align="center" valign="center" width="100%" class="Button-primary-wrapper" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);">
-                              <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/precheckedinInfo/'.$data['checkout_id'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Precheckin on web</a>                                </td>
+                              <a href="https://www.safeqloud.com/public/index.php/PrecheckinInformation/precheckedinInfo/'.$data['checkout_id'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Precheckin on web</a>                                </td>
                             </tr>
                           </tbody></table>
                         </td>
