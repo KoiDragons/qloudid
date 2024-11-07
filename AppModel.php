@@ -1,7 +1,7 @@
 <?php
 class AppModel{
 
-   public static function createConnection()
+   /*public static function createConnection()
    {
    	ini_set('memory_limit', '-1');
    	 	 $username = "root";
@@ -19,7 +19,30 @@ class AppModel{
 			return $dbCon;
 		}
 	
+   }*/
+   
+   
+   public static function createConnection()
+   {
+   	ini_set('memory_limit', '-1');
+   	 	 $username = "uzwibh6uamwi41j";
+		 $password = "wwf8Sl@KKTZTy5f7t?UWenE0U";
+	 	 $host = "ne-az-sql-serv1.database.windows.net";
+		 $dbname = "dm2zuwmgnmxsnyf";
+		 //$dbcon=@ mysql_connect('localhost', 'root', '','qloudid');
+		 $dbCon = new mysqli($host, $username, $password,$dbname);
+		
+		if ($dbCon->connect_error) {
+   			 die("Connection failed: " . $dbCon->connect_error);
+		} 
+		else
+		{
+			
+			return $dbCon;
+		}
+	
    }
+   
    
    function encrypt_decrypt($action, $string) 
 	{
