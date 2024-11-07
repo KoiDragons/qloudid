@@ -19,7 +19,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			
 			if(count($dependentsListForCheckin)==0)
@@ -45,7 +45,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			$dobYears    = $model1->dobYears($data);
 			$dobMonthCurrentYear    = $model1->dobMonthCurrentYear($data);
@@ -68,13 +68,13 @@ class PrecheckinInformationController
 			$today=strtotime(date('Y-m-d'));
 				if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				 
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			 else
 			 {
@@ -97,13 +97,13 @@ class PrecheckinInformationController
 			$today=strtotime(date('Y-m-d'));
 				if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				 
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			else
 			header('location:../../precheckedinInfo/'.$data['hotel_checkin_id']);
@@ -139,13 +139,13 @@ class PrecheckinInformationController
 			$today=strtotime(date('Y-m-d'));	
 			if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				
 			if($bookingInformationDetail['checked_in']==1)
 				{
 					 
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/checkedInDetail/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/checkedInDetail/'.$data['hotel_checkin_id']); die;	
 				}	
 				
 			$data['user_id']=$bookingInformationDetail['user_id'];
@@ -162,7 +162,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			
 			require_once('PrecheckinInformationInvitedPersonListViewNew.php');
@@ -188,7 +188,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			require_once('PrecheckinInformationPassportInformationViewNew.php');
 		
@@ -213,7 +213,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			require_once('PrecheckinInformationAddressInformationViewNew.php');
 		
@@ -238,7 +238,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			require_once('PrecheckinInformationCardInformationViewNew.php');
 		
@@ -261,7 +261,7 @@ class PrecheckinInformationController
 				$today=strtotime(date('Y-m-d'));
 				if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				else
 				header('location:../precheckedinInfo/'.$data['hotel_checkin_id']); die;
@@ -269,7 +269,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			else
 			{
@@ -296,7 +296,7 @@ class PrecheckinInformationController
 				$today=strtotime(date('Y-m-d'));
 				if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				else
 				header('location:../precheckedinInfo/'.$data['hotel_checkin_id']); die;
@@ -304,7 +304,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			else
 			{
@@ -330,7 +330,7 @@ class PrecheckinInformationController
 				$today=strtotime(date('Y-m-d'));
 				if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				else
 				header('location:../precheckedinInfo/'.$data['hotel_checkin_id']); die;
@@ -338,7 +338,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			else
 			{
@@ -371,11 +371,11 @@ class PrecheckinInformationController
 				}
 				else if($bookingInformationDetail['checkin_booking_date']<=$today)
 				{
-				header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 				}
 				else if($updatePreCheckinStatus['total_left']==0)
 				{
-					header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+					header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 				}
 				else
 				header('location:../precheckedinInfo/'.$data['hotel_checkin_id']); die;
@@ -398,7 +398,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			require_once('PrecheckinInformationInvitationTypeViewNew.php');
 		
@@ -416,7 +416,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			require_once('PrecheckinInformationEmailInvitationViewNew.php');
 		
@@ -438,12 +438,12 @@ class PrecheckinInformationController
 			$today=strtotime(date('Y-m-d'));
 			if($bookingInformationDetail['checkin_booking_date']<=$today)
 			{
-			header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+			header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 			}
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			else
 			header('location:../precheckedinInfo/'.$data['hotel_checkin_id']);
@@ -464,7 +464,7 @@ class PrecheckinInformationController
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			require_once('PrecheckinInformationPhoneInvitationViewNew.php');
 		
@@ -486,12 +486,12 @@ class PrecheckinInformationController
 			$today=strtotime(date('Y-m-d'));
 			if($bookingInformationDetail['checkin_booking_date']<=$today)
 			{
-			header('location:https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
+			header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/'.$data['hotel_checkin_id']); die;	
 			}
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
 			if($updatePreCheckinStatus['total_left']==0)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PrecheckinInformation/listBookings/'.$data['uid']); die;
 			}
 			else
 			header('location:../precheckedinInfo/'.$data['hotel_checkin_id']);

@@ -9,14 +9,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
-			<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
+			<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/modulesnewy_bg.css" />
 		
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	  
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
@@ -435,7 +435,7 @@ function readURL2(input) {
 		
 
 			
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
@@ -488,8 +488,8 @@ function readURL2(input) {
 <div class="checkout__line " >
                         <div class="checkout__subtitle">Basic details</div>
                       <!--  <div class="checkout__cards">
-                          <div class="checkout__card"><img src="<?php echo $path; ?>/html/fleet/img/content/visa.svg" alt="Visa"></div>
-                          <div class="checkout__card"><img src="<?php echo $path; ?>/html/fleet/img/content/master-card.svg" alt="Master Card"></div>
+                          <div class="checkout__card"><img src="<?php echo $path; ?>html/fleet/img/content/visa.svg" alt="Visa"></div>
+                          <div class="checkout__card"><img src="<?php echo $path; ?>html/fleet/img/content/master-card.svg" alt="Master Card"></div>
                         </div>-->
                       </div>
                       <div class="checkout__fieldset">

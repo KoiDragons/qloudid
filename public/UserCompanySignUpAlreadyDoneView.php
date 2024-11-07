@@ -56,7 +56,7 @@
 						
 						<div class="padt20 talc padb50">
 								
-								<a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $userProffesionalRequest['enc']; ?>">
+								<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $userProffesionalRequest['enc']; ?>">
 								<button type="button" name="forward" class="    bold forword minhei_55p white_txt bg_c12219 brdrad50 fsz16 xs-fsz16 xs-nobold padrl70 xs-padrl50 xs-minhei_65p nobold" style="background: #c12219 !important; border-radius: 50px;"><font style="vertical-align: inherit; "><font style="vertical-align: inherit;">Close & Go back</font></font></button></a>
 									</div>
 							 

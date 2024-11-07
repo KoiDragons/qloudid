@@ -36,7 +36,7 @@
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
     <script>
@@ -344,7 +344,7 @@
                       </svg>2 234 000$
                     </div>
                   </div><div class="card__comment wi_70 xxs-wi_80">
-                        <div class="card__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
+                        <div class="card__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
                         <div class="card__text fsz14 changedText">The best 16 passenger small group, intimate and unique, Milford Sound...</div>
                       </div>
                   <div class="profile__control"><a class="button-stroke button-small profile__button changedText" href="#" tabindex="0">Contact</a>

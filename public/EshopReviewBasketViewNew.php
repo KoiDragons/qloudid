@@ -4,11 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>/html/fleet/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>/html/fleet/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $path; ?>/html/fleet/img/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo $path; ?>/html/fleet/img/site.webmanifest">
-    <link rel="mask-icon" href="<?php echo $path; ?>/html/fleet/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>html/fleet/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>html/fleet/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $path; ?>html/fleet/img/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $path; ?>html/fleet/img/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo $path; ?>html/fleet/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Epic Travel Shopping Design Kit">
@@ -17,17 +17,17 @@
     <meta name="twitter:title" content="Fleet – Travel Shopping UI Kit">
     <meta name="twitter:description" content="Epic Travel Shopping Design Kit">
     <meta name="twitter:creator" content="@ui8">
-    <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>/html/fleet/img/twitter-card.jpg">
+    <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>html/fleet/img/twitter-card.jpg">
     <meta property="og:title" content="Fleet – Travel Shopping UI Kit">
     <meta property="og:type" content="Article">
     <meta property="og:url" content="https://ui8.net/ui8/products/fleet--travel-shopping-ui-design-kit">
-    <meta property="og:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>/html/fleet/img/fb-og-image.jpg">
+    <meta property="og:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>html/fleet/img/fb-og-image.jpg">
     <meta property="og:description" content="Epic Travel Shopping Design Kit">
     <meta property="og:site_name" content="Fleet – Travel Shopping UI Kit">
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	 
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/responsive.css" />
     <script>
@@ -81,7 +81,7 @@
                   <div class="wishlists__counter">You added <?php echo count($selectedProducts); ?> items to wishlists</div>
                 </div>
                 <div class="sorting__location">
-                 <a href="https://www.qloudid.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"> <button class="button-stroke sorting__button js-sorting-button"><span>Pay with Qloud ID</span>
+                 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"> <button class="button-stroke sorting__button js-sorting-button"><span>Pay with Qloud ID</span>
                     
                   </button></a>
                   
@@ -141,7 +141,7 @@
 					<?php } ?>	
 					
 					 <div class="receipt xs-margin0 visible-xs " style="border: none;    background: #141416; padding:0; margin:0; width:100%;">
-					<a class="button receipt__button " href="https://www.qloudid.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><span>Pay with Qloud ID</span>
+					<a class="button receipt__button " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchase/<?php echo $data['cid']; ?>"  ><span>Pay with Qloud ID</span>
                   </a>
 				  </div>
               </div>
@@ -157,20 +157,20 @@
       
     </div>
      <!-- scripts-->
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/slick.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/share-buttons.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/nouislider.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/wNumb.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/moment.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/simpleParallax.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/demo.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/app.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/slick.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.nice-select.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/share-buttons.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.fancybox.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.rateyo.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/nouislider.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/wNumb.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/moment.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/simpleParallax.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/demo.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

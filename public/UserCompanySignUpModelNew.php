@@ -2432,7 +2432,7 @@
                                                                                         style="border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);"
                                                                                     >
                                                                                         <a
-                                                                                            href="https://www.qloudid.com/public/index.php/UserProfessionalServiceRequest/receivedPropertybidList/'.$data['request_id'].'"
+                                                                                            href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserProfessionalServiceRequest/receivedPropertybidList/'.$data['request_id'].'"
                                                                                             style="
                                                                                                 font-family: GT America Medium, Roboto, Helvetica, Arial, sans-serif;
                                                                                                 border-radius: 3px;
@@ -2784,7 +2784,7 @@
                                                                                         style="border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);"
                                                                                     >
                                                                                         <a
-                                                                                            href="https://www.qloudid.com/public/index.php/UserProfessionalServiceRequest/receivedbidList/'.$data['request_id'].'"
+                                                                                            href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserProfessionalServiceRequest/receivedbidList/'.$data['request_id'].'"
                                                                                             style="
                                                                                                 font-family: GT America Medium, Roboto, Helvetica, Arial, sans-serif;
                                                                                                 border-radius: 3px;
@@ -5096,7 +5096,7 @@
                             <tbody>
 <tr>
                               <td align="center" valign="center" width="100%" class="Button-primary-wrapper" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);">
-                              <a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/listUserProperties/'.$data['cid'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Select property</a>                                </td>
+                              <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/listUserProperties/'.$data['cid'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Select property</a>                                </td>
                             </tr>
                           </tbody>
 </table>
@@ -5718,7 +5718,7 @@
 					else
 					{
 					$filename="../estorecss/".$row['profile_pic'].".txt"; $value_a=file_get_contents("../estorecss/".$row['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a); $image = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['profile_pic'].'.jpg' );
-					$row['profile_pic']=str_replace('../','https://www.qloudid.com/',$image);	
+					$row['profile_pic']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$image);	
 					}
 					$org[$j]['images'][$i]['profile_pic']=$row['profile_pic'];
 					$i++;
@@ -5799,7 +5799,7 @@
 			
 			
 			$filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://safeqloud-228cbc38a2be.herokuapp.com/',$imgs);
 			$rowDishes['dish_image']=$imgs;
 			 
 			$stmt->close();
@@ -6513,7 +6513,7 @@
 			 
 			$image=$row1['dish_photo_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['dish_photo_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path1']=str_replace('../','https://www.qloudid.com/',$row1['dish_photo_path']);	
+			$row1['image_path1']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row1['dish_photo_path']);	
 			array_push($org,$row1);	
 			$j++;
 			}
@@ -6579,7 +6579,7 @@
 			 
 			 
 			$filename="../estorecss/".$row['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://safeqloud-228cbc38a2be.herokuapp.com/',$imgs);
 			$row['dish_image']=$imgs;
 			
 			array_push($org,$row);
@@ -6627,7 +6627,7 @@
 			}	
 			
 			$filename="../estorecss/".$rowCategory['subcategory_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowCategory ['subcategory_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowCategory ['subcategory_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$rowCategory['subcategory_image']=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$rowCategory['subcategory_image']=str_replace('../../../../../','https://safeqloud-228cbc38a2be.herokuapp.com/',$imgs);
 			
 			$rowCategory['enc']=$this->encrypt_decrypt('encrypt',$rowCategory['id']);
 			array_push($org,$rowCategory);
@@ -7614,7 +7614,7 @@
                             <tbody>
 <tr>
                               <td align="center" valign="center" width="100%" class="Button-primary-wrapper" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);">
-                              <a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/completeProfile/'.$data['cid'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Complete profile</a>                                </td>
+                              <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/completeProfile/'.$data['cid'].'" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;">Complete profile</a>                                </td>
                             </tr>
                           </tbody>
 </table>
@@ -10245,7 +10245,7 @@ width: 960px;
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading changedText" >'.str_ireplace('&','and',html_entity_decode($row['category_name'])).'</span><span class="aprtSubheading changedText" id="service'.$row['id'].'">'.$rowTodoSelectedCount['num'].' services selected</span>
 								</div>
@@ -10352,7 +10352,7 @@ width: 960px;
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading changedText">'.str_ireplace('&','and',html_entity_decode($row['city_name'])).'</span><span class="aprtSubheading changedText" id="service'.$row['id'].'">'.$rowTodoSelectedCount['num'].' areas selected</span>
 								</div>

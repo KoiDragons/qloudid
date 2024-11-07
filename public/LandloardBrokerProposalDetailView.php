@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
-     <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-	 <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
+     <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
+	 <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
      
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/fleet/css/app.minblack.css">
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.js"></script>
+    <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/css/app.minblack.css">
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.js"></script>
 	  
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -503,7 +503,7 @@ function changeDisplay1()
 ">
 <div class="main__preview xxs-padrl8">
 <picture>
-<source media="(max-width: 767px)" srcset="https://www.qloudid.com/html/usercontent/images/dstricts/bgimage7.jpeg"><img src="https://www.qloudid.com/html/usercontent/images/dstricts/bgimage7.jpeg" alt="Main" class=" " style="padding: 0px !important; border-radius:12px;">
+<source media="(max-width: 767px)" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/bgimage7.jpeg"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/bgimage7.jpeg" alt="Main" class=" " style="padding: 0px !important; border-radius:12px;">
 </picture>
 <div class="main__wrap xxs-padrl16   pad345" style="padding: 100px 180px !important;
     /* background: #f67f00ad; */
@@ -526,7 +526,7 @@ function changeDisplay1()
 
 <div class="  visible-xs padrl25 padt30">
               <div class="  gallery__list_stays">
-                <div class="gallery__preview xs-brdrad10"><a class="gallery__view" href="https://www.qloudid.com/html/usercontent/images/dstricts/boximage13.jpeg" data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="https://www.qloudid.com/html/usercontent/images/dstricts/boximage13.jpeg" alt="Gallery" style="border-radius:8px;"></a></div>
+                <div class="gallery__preview xs-brdrad10"><a class="gallery__view" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/boximage13.jpeg" data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/boximage13.jpeg" alt="Gallery" style="border-radius:8px;"></a></div>
 										 
 												              </div>
             </div>
@@ -984,7 +984,7 @@ function changeDisplay1()
 									  
 										<?php } ?>
 									 <!-- <a class="browse__card" href="#" style="padding:15px; border:1px solid #23262F; border-radius: 12px;">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/html/usercontent/images/gettxp/5.jpeg" src="https://www.qloudid.com/html/usercontent/images/gettxp/5.jpeg" alt="Card">
+                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/gettxp/5.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/gettxp/5.jpeg" alt="Card">
                                         <div class="status-black browse__category hidden">from $230</div>
                                       </div>
                                       <div class="browse__subtitle">Robert Ghirmai</div>
@@ -992,7 +992,7 @@ function changeDisplay1()
                                         CTO
                                       </div></a>
 									  <a class="browse__card" href="#" style="padding:15px; border:1px solid #23262F; border-radius: 12px;">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/html/usercontent/images/gettxp/6.jpeg" src="https://www.qloudid.com/html/usercontent/images/gettxp/6.jpeg" alt="Card">
+                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/gettxp/6.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/gettxp/6.jpeg" alt="Card">
                                         <div class="status-black browse__category hidden">30% off</div>
                                       </div>
                                       <div class="browse__subtitle">Katerina Zelinksky</div>
@@ -1000,7 +1000,7 @@ function changeDisplay1()
                                         Marketing
                                       </div></a>
 									  <a class="browse__card" href="#" style="padding:15px; border:1px solid #23262F; border-radius: 12px;">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/html/usercontent/images/gettxp/7.jpeg" src="https://www.qloudid.com/html/usercontent/images/gettxp/7.jpeg" alt="Card">
+                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/gettxp/7.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/gettxp/7.jpeg" alt="Card">
                                         <div class="status-black browse__category hidden">from $190</div>
                                       </div>
                                       <div class="browse__subtitle">Ana Tikhonova</div>
@@ -1102,7 +1102,7 @@ function changeDisplay1()
 									  
 										<?php } ?>
 									 <!-- <a class="browse__card" href="#" style="padding:15px; border:1px solid #23262F; border-radius: 12px;">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/html/usercontent/images/clubtxp/5.jpeg" src="https://www.qloudid.com/html/usercontent/images/clubtxp/5.jpeg" alt="Card">
+                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/5.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/5.jpeg" alt="Card">
                                         <div class="status-black browse__category hidden">from $230</div>
                                       </div>
                                       <div class="browse__subtitle">Robert Ghirmai</div>
@@ -1110,7 +1110,7 @@ function changeDisplay1()
                                         CTO
                                       </div></a>
 									  <a class="browse__card" href="#" style="padding:15px; border:1px solid #23262F; border-radius: 12px;">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/html/usercontent/images/clubtxp/6.jpeg" src="https://www.qloudid.com/html/usercontent/images/clubtxp/6.jpeg" alt="Card">
+                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/6.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/6.jpeg" alt="Card">
                                         <div class="status-black browse__category hidden">30% off</div>
                                       </div>
                                       <div class="browse__subtitle">Katerina Zelinksky</div>
@@ -1118,7 +1118,7 @@ function changeDisplay1()
                                         Marketing
                                       </div></a>
 									  <a class="browse__card" href="#" style="padding:15px; border:1px solid #23262F; border-radius: 12px;">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/html/usercontent/images/clubtxp/7.jpeg" src="https://www.qloudid.com/html/usercontent/images/clubtxp/7.jpeg" alt="Card">
+                                      <div class="browse__preview"><img srcSet="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/7.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/7.jpeg" alt="Card">
                                         <div class="status-black browse__category hidden">from $190</div>
                                       </div>
                                       <div class="browse__subtitle">Ana Tikhonova</div>
@@ -1636,7 +1636,7 @@ function changeDisplay1()
 				 
 				
 				<div class="destinations__item" style="margin-right: 20px; border-radius: 6px; border: 1px solid rgb(35, 38, 47); padding: 30px; width: 364px;"  >
-                                      <div class="destinations__preview" style="border-radius:6px;"><img srcset="https://www.qloudid.com/html/usercontent/images/clubtxp/8.jpeg" src="https://www.qloudid.com/html/usercontent/images/clubtxp/8.jpeg">
+                                      <div class="destinations__preview" style="border-radius:6px;"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/8.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/8.jpeg">
                                         <div class="status-black destinations__category hidden">from $540 per day</div>
                                       </div> 
                                       <div class="destinations__subtitle changedText" style="line-height: 1.1;  font-size: 25px; color:white; padding-top: 45px;">Find A Broker</div>
@@ -1647,7 +1647,7 @@ function changeDisplay1()
 									  
 									  
 									<div class="destinations__item" style="margin-right: 20px; border-radius: 6px; border: 1px solid rgb(35, 38, 47); padding: 30px; width: 364px;"  >
-                                      <div class="destinations__preview" style="border-radius:6px;"><img srcset="https://www.qloudid.com/html/usercontent/images/clubtxp/10.jpeg" src="https://www.qloudid.com/html/usercontent/images/clubtxp/10.jpeg">
+                                      <div class="destinations__preview" style="border-radius:6px;"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/10.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/10.jpeg">
                                       </div>
                                       <div class="destinations__subtitle changedText" style="line-height: 1.1;  font-size: 25px; color:white; padding-top: 45px;">Brokers BNB</div>
                                       <div class="destinations__content changedText" style=" color: #787f91; font-size: 18px;">Brokers BNB made rental management so simple and safe. The transparent pricing and fast commission payouts are a game-changer!</div>
@@ -1655,7 +1655,7 @@ function changeDisplay1()
 									<div class="destinations__content changedText" style=" color: #787f91; font-size: 18px;">Century 21</div>
 									  </div>
 									  <div class="destinations__item" style="margin-right: 20px; border-radius: 6px; border: 1px solid rgb(35, 38, 47); padding: 30px; width: 364px;"  >
-                                      <div class="destinations__preview" style="border-radius:6px;"><img srcset="https://www.qloudid.com/html/usercontent/images/clubtxp/9.jpeg" src="https://www.qloudid.com/html/usercontent/images/clubtxp/9.jpeg">
+                                      <div class="destinations__preview" style="border-radius:6px;"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/9.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/clubtxp/9.jpeg">
                                         <div class="status-black destinations__category hidden">from $345 per day</div>
                                       </div>
                                       <div class="destinations__subtitle changedText" style="line-height: 1.1;  font-size: 25px; color:white; padding-top: 45px;">Find Developer</div>
@@ -1873,7 +1873,7 @@ function changeDisplay1()
                 <div class="travel__wrapper">
                   <div class="travel__slider js-slider-travel">
 				  <div class="travel__gallery">
-                      <div class="travel__bg" style="border-radius: 12px;"><img srcset="https://www.qloudid.com/html/usercontent/images/dstricts/boximage3.jpeg" src="https://www.qloudid.com/html/usercontent/images/dstricts/boximage3.jpeg" alt="Travel"></div>
+                      <div class="travel__bg" style="border-radius: 12px;"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/boximage3.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/boximage3.jpeg" alt="Travel"></div>
                        
                    </div>
                     
@@ -1949,7 +1949,7 @@ function changeDisplay1()
                 <div class="travel__wrapper">
                   <div class="travel__slider js-slider-travel ">
 				  <div class="travel__gallery">
-                      <div class="travel__bg" style="border-radius: 12px;"><img srcset="https://www.qloudid.com/html/usercontent/images/dstricts/boximage3.jpeg" src="https://www.qloudid.com/html/usercontent/images/dstricts/boximage3.jpeg" alt="Travel"></div>
+                      <div class="travel__bg" style="border-radius: 12px;"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/boximage3.jpeg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/boximage3.jpeg" alt="Travel"></div>
                        
                     </div>
                     
@@ -2222,20 +2222,20 @@ function changeDisplay1()
 </div>
 </div>
 <!-- scripts-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<!--<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<!--<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>-->
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
  
 <!-- svg sprite-->
 <div style="display: none"><svg width="0" height="0">

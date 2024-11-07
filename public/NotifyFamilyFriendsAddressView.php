@@ -234,7 +234,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/public/index.php/NotifyFamilyFriends" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/NotifyFamilyFriends" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -259,7 +259,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/public/index.php/NotifyFamilyFriends" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left " aria-hidden="true"></i></a>
+									<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/NotifyFamilyFriends" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left " aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -313,7 +313,7 @@
 								</div>
 						
 						<div class="mart20 talc">
-					<a href="https://www.qloudid.com/public/index.php/NotifyFamilyFriends">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
+					<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/NotifyFamilyFriends">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
 						
 					</div>
 					</div><div class="clear"></div>

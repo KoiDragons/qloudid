@@ -191,8 +191,8 @@ function checkEmail(id) {
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz20 nobold">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Logga in" data-sw="Logga in">Logga in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfoVolunteer/QkhHaWQzcnBweFU5MDRIMllxY3IzQT09" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Help seeker" data-sw="Help seeker">Help givers</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Logga in" data-sw="Logga in">Logga in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CoronaHelp/detailInfoVolunteer/QkhHaWQzcnBweFU5MDRIMllxY3IzQT09" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Help seeker" data-sw="Help seeker">Help givers</a></li>
 	 
 						
 					</ul>
@@ -231,7 +231,7 @@ function checkEmail(id) {
 					</div>
 					
 					<div class="dflex fxwrap_w xxs-justc_c   marl-10 xxs-marl-15 hidden">
-							<a href="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
+							<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
 								<div class="wi_100 hei_120 opa0_ph pos_abs zi-1 top5 left0  bglgrad_r_46c8ff_81d37e bg_62cec1 xs-nobrd  xs-bg_62cec1 brdrad50 xs-bglgrad_r_46c8ff_81d37e trans_opa2"></div>
 								<div class="wi_100 hei_120 opa0 opa1_ph pos_abs zi-1 top5 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
 								 

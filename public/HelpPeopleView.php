@@ -91,15 +91,15 @@
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt lang_selector" data-value="de" onclick="togglePopup();">  German  </a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Franska</a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Spanska  </a> </div>
 													</li>
 													<li class="last">
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Italienska </a> </div>
 													</li>
 												</ol>
@@ -171,7 +171,7 @@
 			</div>
 			<div class="fright xs-dnone visible_si padt10">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
+						<li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
 					</ul>
 				</div>
 			<!--sf-js-enabled sf-arrows hidden-xs-->
@@ -185,7 +185,7 @@
 						
 				</ul>
 			</div>
-			<div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="diblock padl10 padr10 brdrad3 fsz30 bg_ff5bad white_txt"><i class="fas fa-times " aria-hidden="true"></i></a> </div>
+			<div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="diblock padl10 padr10 brdrad3 fsz30 bg_ff5bad white_txt"><i class="fas fa-times " aria-hidden="true"></i></a> </div>
 			<div class="clear"></div>
 		</div>
 		</div>
@@ -211,7 +211,7 @@
 									<p class=" padt0  xxs-marb30 talc fsz20 padb0  maxwi_100 col-xs-12 col-sm-12 pos_rel zi5 marrla  white_txt trn "  >How do you want to help</p>
 								</div>
 						 
-						<div class="padb20 xs-padrl10"> <a href="https://www.qloudid.com/user/index.php/NotifyFamilyFriends" class="wi_100 maxwi_500p xs-maxwi_250p minhei_60p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 lgtgrey_txt trans_all2 xs-marrl0 brd trn ">Notify family and friends</a> </div>
+						<div class="padb20 xs-padrl10"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/NotifyFamilyFriends" class="wi_100 maxwi_500p xs-maxwi_250p minhei_60p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 lgtgrey_txt trans_all2 xs-marrl0 brd trn ">Notify family and friends</a> </div>
 						 
 						<div class="padb20 xs-padrl10"> <a href="#" class="wi_100 maxwi_500p xs-maxwi_250p minhei_60p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 lgtgrey_txt trans_all2 xs-marrl0 brd trn"  >Report missing people</a> </div>
 						 

@@ -10,11 +10,11 @@
     
      
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
@@ -474,8 +474,8 @@
                       <div class="checkout__line">
                         <div class="checkout__subtitle">Credit Card</div>
                         <div class="checkout__cards">
-                          <div class="checkout__card"><img src="<?php echo $path; ?>/html/fleet/img/content/visa.svg" alt="Visa"></div>
-                          <div class="checkout__card"><img src="<?php echo $path; ?>/html/fleet/img/content/master-card.svg" alt="Master Card"></div>
+                          <div class="checkout__card"><img src="<?php echo $path; ?>html/fleet/img/content/visa.svg" alt="Visa"></div>
+                          <div class="checkout__card"><img src="<?php echo $path; ?>html/fleet/img/content/master-card.svg" alt="Master Card"></div>
                         </div>
                       </div>
                       <div class="checkout__fieldset">
@@ -540,7 +540,7 @@
                     <div class="price__title"><?php if($getPropertyDetailInfo['sellPhrase']=='' || $getPropertyDetailInfo['sellPhrase']==null) echo 'Spectacular views of Queenstown'; else echo $getPropertyDetailInfo['sellPhrase']; ?></div>
                     <div class="price__author">
                       <div class="price__text">Hosted by</div>
-                      <div class="price__avatar"><img src="<?php echo $path; ?>/html/fleet/img/content/avatar.jpg" alt="Avatar"></div>
+                      <div class="price__avatar"><img src="<?php echo $path; ?>html/fleet/img/content/avatar.jpg" alt="Avatar"></div>
                       <div class="price__man"><?php  echo $poposerDetail['first_name']; ?> <?php  echo $poposerDetail['last_name']; ?></div>
                     </div>
                     <div class="price__parameters">

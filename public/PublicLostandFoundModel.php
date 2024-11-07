@@ -110,7 +110,7 @@
 		
 		function sendActivationEmail($data)
 		{
-			$url="https://www.qloudid.com/user/index.php/Activation/activateAccount/" . $data['email'] . "/" . $data['random_hash'];
+			$url="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateAccount/" . $data['email'] . "/" . $data['random_hash'];
 			$surl=getShortUrl($url);
 			
 			$to      = $data['email'];
@@ -396,7 +396,7 @@ Please confirm your registrationto activate your account</p>
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold;"><span><a href="https://www.qloudid.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'].'" style="border-radius:3px;color:#1976d2;text-decoration:none;background-color:#1976d2;border-top:14px solid #1976d2;border-bottom:14px solid #1976d2;border-left:14px solid #1976d2;border-right:14px solid #1976d2;display:inline-block;border-radius:3px;color:#ffffff" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'].'">Confirm</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold;"><span><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'].'" style="border-radius:3px;color:#1976d2;text-decoration:none;background-color:#1976d2;border-top:14px solid #1976d2;border-bottom:14px solid #1976d2;border-left:14px solid #1976d2;border-right:14px solid #1976d2;display:inline-block;border-radius:3px;color:#ffffff" target="_blank" data-saferedirecturl="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'].'">Confirm</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">

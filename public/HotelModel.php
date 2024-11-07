@@ -122,7 +122,7 @@
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowImage['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowImage['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select email,login_status,user_id,purchased_for,delivered_at,delivery_address_id,card_id from user_certificates left join user_logins on user_logins.id=user_certificates.user_id where login_started_for = ?");
         
@@ -252,7 +252,7 @@
 			/* bind parameters for markers */
 			$stmt->bind_param("ssiiiisi", $cuId,$Chargeid,$row['card_id'],$is_buyer_company,$buyer,$row['user_id'],$code,$id);
 			$stmt->execute();
-			$url="https://www.qloudid.com/public/index.php/Hotel/verifyCheckin/".$data['id'];
+			$url="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Hotel/verifyCheckin/".$data['id'];
 			$surl=getShortUrl($url);
 			$to      = $row['email'];
 			$emailContent='<html xmlns="http://www.w3.org/1999/xhtml" style="background-color: rgb(240, 240, 240);"><head>
@@ -1320,7 +1320,7 @@
  
 			sendEmail($subject, $to, $emailContent);
 			
-			$url="https://www.qloudid.com/public/index.php/Hotel/verifyCheckin/".$data['id'];
+			$url="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Hotel/verifyCheckin/".$data['id'];
 			$surl=getShortUrl($url);
 			$to      = $row['email'];
 			
@@ -2380,7 +2380,7 @@
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -2395,7 +2395,7 @@
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -2462,7 +2462,7 @@
 			{
 			$image=$row1['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path']=str_replace('../','https://www.qloudid.com/',$row1['image_path']);	
+			$row1['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row1['image_path']);	
 			array_push($org[$j]['images'],$row1);			
 			}
 			

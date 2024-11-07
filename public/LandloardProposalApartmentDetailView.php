@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
      
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
      
-    	<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
+    	<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
 		 
-			<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+			<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Epic Travel Shopping Design Kit">
@@ -29,7 +29,7 @@
     
     <link rel="stylesheet" media="all" href="https://dstricts.com/html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -451,7 +451,7 @@
 			 
 			 <div class="gallery imageBorder"  >
               <div class="  xs-maxheight390 " style="width:100%;">
-                <div class="gallery__preview xs-brdrad10"><a class="gallery__view  xs-maxheight254" href="https://www.qloudid.com/estorecss/tmp<?php echo str_replace(' ','%20',$getPropertyDetailInfo['imageId']); ?>.jpg" data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="https://www.qloudid.com/estorecss/tmp<?php echo str_replace(' ','%20',$getPropertyDetailInfo['imageId']); ?>.jpg" alt="Gallery"></a></div>
+                <div class="gallery__preview xs-brdrad10"><a class="gallery__view  xs-maxheight254" href="https://safeqloud-228cbc38a2be.herokuapp.com/estorecss/tmp<?php echo str_replace(' ','%20',$getPropertyDetailInfo['imageId']); ?>.jpg" data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/estorecss/tmp<?php echo str_replace(' ','%20',$getPropertyDetailInfo['imageId']); ?>.jpg" alt="Gallery"></a></div>
 					 
               </div>
             </div>
@@ -637,20 +637,20 @@
         </div>
           </div>
        <!-- scripts-->
-   <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+   <script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

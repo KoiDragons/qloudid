@@ -9,12 +9,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
@@ -136,7 +136,7 @@ else
 						}
 						else 
 						{
-							//window.open('https://www.qloudid.com/pickapro/index.php/LoginAccount/loginPickapro','_blank'); 
+							//window.open('https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/LoginAccount/loginPickapro','_blank'); 
 							//customWindow.close();
 							document.getElementById("save_indexing_user").submit();
 							
@@ -224,7 +224,7 @@ NewWindow1 = window.open(Site,
 <body class="dark" style="background: #131922;" onload="checkLogin();">
 
 	<header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important; /* border-bottom: 1px solid #e6e8ec; */">
-	<div class="header__center center xxs-padrl25"><a class="header__logo xs-fsz20 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+	<div class="header__center center xxs-padrl25"><a class="header__logo xs-fsz20 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -381,14 +381,14 @@ NewWindow1 = window.open(Site,
 		
 
 			
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style="
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style="
     color: grey;
 ">Sign in</a>
 			
@@ -515,7 +515,7 @@ box-shadow: 0 0 0 0;
 </button>
 </form>
 
-<a class=" " style="text-decoration:none !important;visibility: none;" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp">
+<a class=" " style="text-decoration:none !important;visibility: none;" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp">
 <div class="receipt__description talc marrla hidden" style="
     background: black;
     border-radius: 50px;

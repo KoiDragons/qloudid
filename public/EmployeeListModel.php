@@ -202,7 +202,7 @@ function companyInfo($data)
 																	background-position: 50%;
 																	border-radius: 10%;" > '.substr($row['first_name'],0,1).' </div> 
 																	 '; }
-							$org=$org.'<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$enc.'" class="black_txt"><div class=" white_bg marb10  brdrad3 box_shadow bg_fffbcc_a" style="">
+							$org=$org.'<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$enc.'" class="black_txt"><div class=" white_bg marb10  brdrad3 box_shadow bg_fffbcc_a" style="">
 										<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20  brdrad1 fsz14 dark_grey_txt">
 											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
 												
@@ -308,7 +308,7 @@ function companyInfo($data)
 																	 </td>'; }
 						
 			$enc=$this -> encrypt_decrypt('encrypt',$row['id']);	
-		$org=$org.'<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$enc.'" class="black_txt"><div class=" white_bg marb10  brdrad3 box_shadow bg_fffbcc_a" style="">
+		$org=$org.'<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$enc.'" class="black_txt"><div class=" white_bg marb10  brdrad3 box_shadow bg_fffbcc_a" style="">
 										<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20  brdrad1 fsz14 dark_grey_txt">
 											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
 												
@@ -423,7 +423,7 @@ function companyInfo($data)
 					$enc=$this -> encrypt_decrypt('encrypt',$row['id']);	
 			
 			
-			$org=$org.'<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$enc.'" class="black_txt"><div class=" white_bg marb10  brdrad3 box_shadow bg_fffbcc_a" style="">
+			$org=$org.'<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$enc.'" class="black_txt"><div class=" white_bg marb10  brdrad3 box_shadow bg_fffbcc_a" style="">
 										<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20  brdrad1 fsz14 dark_grey_txt">
 											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
 												

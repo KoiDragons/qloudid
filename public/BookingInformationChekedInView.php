@@ -374,7 +374,7 @@ Home Repair<br></a>
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Heart Starters
@@ -395,7 +395,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 "><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lost &amp; Found</font></font></h3>
@@ -446,7 +446,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">SoS Help</h3>
@@ -1192,14 +1192,14 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Login</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="2cn32"></a></div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="2cn32"></a></div>
 				</div>
 			</div>
 			
@@ -1235,14 +1235,14 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/demo/index.php/DemoSign"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/demo/index.php/DemoSign"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Sign in</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://www.qloudid.com/demo/index.php/DemoSign"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="4fmiho"></a></div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/demo/index.php/DemoSign"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="4fmiho"></a></div>
 				</div>
 			</div>
 			
@@ -1279,14 +1279,14 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Payment</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://www.qloudid.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="rutr9"></a></div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="rutr9"></a></div>
 				</div>
 			</div>
 			
@@ -1679,7 +1679,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Home Repair</h3>
@@ -1731,7 +1731,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Cleaning</h3>
@@ -1775,7 +1775,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Moving</h3>
@@ -1827,7 +1827,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Renovate</h3>
@@ -2470,14 +2470,14 @@ line-height: 30px;">Uppgradera säkerheten på er förskola med SafeQid + och f�
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Login</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="2cn32"></a></div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="2cn32"></a></div>
 				</div>
 			</div>
 			
@@ -2513,14 +2513,14 @@ line-height: 30px;">Uppgradera säkerheten på er förskola med SafeQid + och f�
 						
 					</div>
 
-<a href="https://www.qloudid.com/demo/index.php/DemoSign"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/demo/index.php/DemoSign"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Sign in</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://www.qloudid.com/demo/index.php/DemoSign"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="4fmiho"></a></div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/demo/index.php/DemoSign"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="4fmiho"></a></div>
 				</div>
 			</div>
 			
@@ -2557,14 +2557,14 @@ line-height: 30px;">Uppgradera säkerheten på er förskola med SafeQid + och f�
 						
 					</div>
 
-<a href="https://www.qloudid.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz90 lgn_hight_95 xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
 ">Payment</h3>
 					<h3 class="marb40 xs-marb20 xs-mart20 pad0 black_txt  fsz25 xs-fsz20" style="
     font-family: Avenir;
 ">Panikknapp i telefonen som hjälper er agera direkt och enligt er krisplan när ett barn är i fara, har skadats eller saknas.  Med Qricis Alarm är all personal redo med verktygen att hantera olyckan innan den har hänt.</h3></a>
 
-<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://www.qloudid.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="rutr9"></a></div>
+<div class="talc padtb20 xs-padt20  ffamily_avenir xxs-nofloat"><a href="#" class="_3S6pHEQs"></a><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/Eshop/itemInformation/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09"><input type="button" value="Läs mer" class="forword minhei_55p  fsz18 bg_green_rgb white_txt  ffamily_avenir" fdprocessedid="rutr9"></a></div>
 				</div>
 			</div>
 			
@@ -2958,7 +2958,7 @@ line-height: 30px;">Uppgradera säkerheten på er förskola med SafeQid + och f�
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Heart Starters
@@ -2979,7 +2979,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">Lost &amp; Found</h3>
@@ -3030,7 +3030,7 @@ Defibrillators can raise survival rates from cardiac arrest from 6% to an incred
 						
 					</div>
 
-<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp?demo=true"><h3 class="mart40 xs-mart0 marb10 xs-marb0 pad0 black_txt  fsz60  xs-fsz45 xxs-lgn_hight_60" style="
     font-family: Avenir;
     line-height: 65px;
 ">SoS Help</h3>

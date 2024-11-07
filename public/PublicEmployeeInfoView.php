@@ -387,7 +387,7 @@
 						}
 						else 
 						{
-							window.location.href="https://www.qloudid.com/public/index.php/EmployeeList/companyAccount/<?php echo $data['eid']; ?>";
+							window.location.href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/EmployeeList/companyAccount/<?php echo $data['eid']; ?>";
 						}
 					}
 				});
@@ -714,7 +714,7 @@
 				<!-- add  menu -->
 				<div class="tab-content padb0 brd white_bg" id="mob-add-menu">
 				<div class="talc">
-					<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" width="100" height="100" class="martb15 pad0 talc  bold fsz16" />
+					<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" width="100" height="100" class="martb15 pad0 talc  bold fsz16" />
 					</div>
 					<ul class="mar0 padrl50 brdrad3 white_bg fsz14 ">
 						<li class="dblock mar0 padrl15 brdb_new">
@@ -774,7 +774,7 @@
 			
 			
 			<div class="pad25  brdradtr10">
-				<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" class="maxwi_100 hei_150p">
+				<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" class="maxwi_100 hei_150p">
 			</div>
 			<ul class="mar0 padrl40  brdrad3  fsz14 ">
 						<li class="dblock mar0 padrl15 brdb_new">
@@ -1059,7 +1059,7 @@
 						
 							<div class="padb10  talc padt20">
 										<div class="padrl0 ">
-											<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://www.qloudid.com/company/index.php/EmployeeLogin/expressLogin/<?php echo $data['eid']; ?>" class="white_brd wi_50 hei_auto xs-wi_100">
+											<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/EmployeeLogin/expressLogin/<?php echo $data['eid']; ?>" class="white_brd wi_50 hei_auto xs-wi_100">
 											
 										</div>
 									</div>

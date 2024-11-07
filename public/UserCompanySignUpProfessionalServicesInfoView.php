@@ -306,7 +306,7 @@
 					?> 
 			  
 			   <a class="card  " href="../../../../../professionalHomeRepairSubCategoryList/<?php echo $data['catg_id']; ?>/<?php echo $value['enc']; ?>/<?php echo $data['domain_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['city_id']; ?>/<?php echo $data['todo_id']; ?>" style=" border-radius: 12px; <?php if($i%3==0) echo 'margin: 32px 16px 0px 0px !important;'; ?>">
-                  <div class="card__preview"><img srcset="https://www.qloudid.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://www.qloudid.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  display:<?php if($value['display_name_allowed']==1) echo 'block;'; else echo 'none'; ?>"><?php echo $value['ticket_title']; ?></div>
                   </div>
                   </a>
@@ -315,7 +315,7 @@
 						<?php } else { ?> 
 						
 						<a class="card  " href="../../../../../homeRepairRequestInfo/<?php echo $data['catg_id']; ?>/<?php echo $value['enc']; ?>/<?php echo $data['domain_id']; ?>/<?php echo $data['whom_id']; ?>/<?php echo $data['city_id']; ?>/<?php echo $data['todo_id']; ?>" style=" border-radius: 12px; <?php if($i%3==0) echo 'margin: 32px 16px 0px 0px !important;'; ?>">
-                  <div class="card__preview"><img srcset="https://www.qloudid.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://www.qloudid.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/rooms/<?php echo $value['id']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  display:<?php if($value['display_name_allowed']==1) echo 'block;'; else echo 'none'; ?>"><?php echo $value['ticket_title']; ?></div>
                   </div>
                   </a>
@@ -381,20 +381,20 @@
 <?php } ?>
  </div>
 <!-- scripts-->
-<script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/slick.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/share-buttons.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/nouislider.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/wNumb.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/moment.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/simpleParallax.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/demo.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/app.js"></script>
+<script src="<?php echo $path; ?>html/fleet/js/lib/jquery.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/slick.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.nice-select.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/share-buttons.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.fancybox.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.rateyo.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/nouislider.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/wNumb.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/moment.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/simpleParallax.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/demo.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

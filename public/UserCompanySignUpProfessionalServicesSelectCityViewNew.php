@@ -69,32 +69,32 @@
 		<div class="header__item header__item_dropdown js-header-item" style="background: #131922">
 
 <div class="header__body js-header-body">
-<div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+<div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-comment">
 <use xlink:href="#icon-comment"></use>
 </svg>Book today</a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Price comparison</a>
-<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg>Become supplier
 </a>
  
 
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Create account
 </a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>How it works
 </a>
-<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Sign in</a></div>
@@ -262,28 +262,28 @@
                 </svg>
               </button>
               <div class="header__body js-header-body" style="z-index:1;">
-                <div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+                <div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-comment">
                       <use xlink:href="#icon-comment"></use>
                     </svg>Book today</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Price comparison</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-home">
                       <use xlink:href="#icon-home"></use>
                     </svg>Become supplier</a>
 					 
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Create account</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>How it works</a>
-					<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Sign in</a>
@@ -292,7 +292,7 @@
               </div>
             </div>
 
-<a class="button button-small header__button   xxs-mart10 changedText hidden-xs   " href="https://www.qloudid.com/pickapro/index.php/LoginAccount/loginPickapro/<?php echo $data['domain_id']; ?>" style="margin-left:35px; min-width:112px; background:transparent; color:#777E90; font-size: 16px;">Login</a>
+<a class="button button-small header__button   xxs-mart10 changedText hidden-xs   " href="https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/LoginAccount/loginPickapro/<?php echo $data['domain_id']; ?>" style="margin-left:35px; min-width:112px; background:transparent; color:#777E90; font-size: 16px;">Login</a>
 			
 
 
@@ -377,20 +377,20 @@
  
 </div>
 <!-- scripts-->
-<script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/slick.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/share-buttons.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/nouislider.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/wNumb.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/moment.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/simpleParallax.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/demo.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/app.js"></script>
+<script src="<?php echo $path; ?>html/fleet/js/lib/jquery.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/slick.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.nice-select.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/share-buttons.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.fancybox.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.rateyo.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/nouislider.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/wNumb.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/moment.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/simpleParallax.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/demo.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/app.js"></script>
     <!-- svg sprite-->
 	  <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

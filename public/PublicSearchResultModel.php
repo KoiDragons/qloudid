@@ -45,7 +45,7 @@ class PublicSearchResultModel extends AppModel
 						$enc=$this->encrypt_decrypt('encrypt',$row['id']);
 									$org=$org.'<tr>
 												
-												<td class="brdb"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -101,7 +101,7 @@ class PublicSearchResultModel extends AppModel
 											$enc=$this->encrypt_decrypt('encrypt',$row['id']);
 											$org=$org.'<tr>
 												
-												<td class="brdb"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -209,7 +209,7 @@ class PublicSearchResultModel extends AppModel
 				$enc=$this->encrypt_decrypt('encrypt',$row['id']);
 											$org=$org.'<tr>
 												
-												<td class="brdb"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -265,7 +265,7 @@ class PublicSearchResultModel extends AppModel
 											$enc=$this->encrypt_decrypt('encrypt',$row['id']);
 											$org=$org.'<tr>
 												
-												<td class="brdb"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												

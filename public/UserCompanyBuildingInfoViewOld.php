@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>/html/fleet/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>/html/fleet/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $path; ?>/html/fleet/img/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo $path; ?>/html/fleet/img/site.webmanifest">
-    <link rel="mask-icon" href="<?php echo $path; ?>/html/fleet/img/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/css/icofont.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/css/slick.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/css/slick-theme.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/css/style.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/constructor.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/responsive.css">
-	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/html/smartappcss/css/modules.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>html/fleet/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>html/fleet/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $path; ?>html/fleet/img/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $path; ?>html/fleet/img/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo $path; ?>html/fleet/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/css/icofont.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/css/slick.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/css/style.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/constructor.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/responsive.css">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/smartappcss/css/modules.css">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Epic Travel Shopping Design Kit">
@@ -27,17 +27,17 @@
     <meta name="twitter:title" content="Fleet – Travel Shopping UI Kit">
     <meta name="twitter:description" content="Epic Travel Shopping Design Kit">
     <meta name="twitter:creator" content="@ui8">
-    <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>/html/fleet/img/twitter-card.jpg">
+    <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>html/fleet/img/twitter-card.jpg">
     <meta property="og:title" content="Fleet – Travel Shopping UI Kit">
     <meta property="og:type" content="Article">
     <meta property="og:url" content="https://ui8.net/ui8/products/fleet--travel-shopping-ui-design-kit">
-    <meta property="og:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>/html/fleet/img/fb-og-image.jpg">
+    <meta property="og:image" content="https://ui8-fleet-html.herokuapp.com/<?php echo $path; ?>html/fleet/img/fb-og-image.jpg">
     <meta property="og:description" content="Epic Travel Shopping Design Kit">
     <meta property="og:site_name" content="Fleet – Travel Shopping UI Kit">
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -253,8 +253,8 @@
                       <div class="checkout__line">
                         <div class="checkout__subtitle">Building details</div>
                       <!--  <div class="checkout__cards">
-                          <div class="checkout__card"><img src="<?php echo $path; ?>/html/fleet/img/content/visa.svg" alt="Visa"></div>
-                          <div class="checkout__card"><img src="<?php echo $path; ?>/html/fleet/img/content/master-card.svg" alt="Master Card"></div>
+                          <div class="checkout__card"><img src="<?php echo $path; ?>html/fleet/img/content/visa.svg" alt="Visa"></div>
+                          <div class="checkout__card"><img src="<?php echo $path; ?>html/fleet/img/content/master-card.svg" alt="Master Card"></div>
                         </div>-->
                       </div>
                       <div class="checkout__fieldset ">
@@ -307,7 +307,7 @@
                     <div class="price__title">Nya Grand Hotel</div>
                     <div class="price__author">
                       <div class="price__text">Hosted by</div>
-                      <div class="price__avatar"><img src="<?php echo $path; ?>/html/fleet/img/content/avatar.jpg" alt="Avatar"></div>
+                      <div class="price__avatar"><img src="<?php echo $path; ?>html/fleet/img/content/avatar.jpg" alt="Avatar"></div>
                       <div class="price__man">Zoe Towne</div>
                     </div>
                     <div class="price__parameters">
@@ -474,20 +474,20 @@
       </div>
     </div>
     <!-- scripts-->
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/slick.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/share-buttons.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/nouislider.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/wNumb.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/moment.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/simpleParallax.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/demo.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/app.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/slick.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.nice-select.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/share-buttons.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.fancybox.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.rateyo.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/nouislider.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/wNumb.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/moment.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/simpleParallax.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/demo.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

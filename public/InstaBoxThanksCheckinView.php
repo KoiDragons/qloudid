@@ -4,7 +4,7 @@
  
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="refresh" content="60;https://www.qloudid.com/public/index.php/InstaBox/welcome/<?php echo $data['hid']; ?>" />
+	<meta http-equiv="refresh" content="60;https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InstaBox/welcome/<?php echo $data['hid']; ?>" />
 	
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -107,7 +107,7 @@
 
 						<div class="padtb20 xxs-talc talc">
 								
-								<a href="https://www.qloudid.com/public/index.php/InstaBox/welcome/<?php echo $data['hid']; ?>"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
+								<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InstaBox/welcome/<?php echo $data['hid']; ?>"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
 								
 							</div>
 									

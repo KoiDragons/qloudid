@@ -52,7 +52,7 @@
 						  
 						if(data2==0)
 						{
-						window.location.href='https://www.qloudid.com/public/index.php/InstaBox/sessionExpired/<?php echo $data['hid']; ?>';	
+						window.location.href='https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InstaBox/sessionExpired/<?php echo $data['hid']; ?>';	
 						}
 					}
 				});

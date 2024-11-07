@@ -67,7 +67,7 @@
 			function changeHeader()
 			{
 				
-				window.location.href="https://www.qloudid.com/public/index.php/QloudidPersonal";
+				window.location.href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/QloudidPersonal";
 				
 			}
 			function checkFlag()
@@ -183,15 +183,15 @@
 						
 						
 						
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Business" data-sw="Business">Business</a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.qloudid.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
-						<li class="dblock hidden hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/public/index.php/InformRelativesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.qloudid.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Sign In" data-sw="Sign In">Sign In</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Business" data-sw="Business">Business</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
+						<li class="dblock hidden hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InformRelativesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Sign In" data-sw="Sign In">Sign In</a> </li>
 					</ul>
 				</div>
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
 				<div class="clear"></div>
 				
 			</div>

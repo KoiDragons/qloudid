@@ -84,7 +84,7 @@ class CoronaHelpController
 		}
 		else if($registerYourself==2)
 		{
-			header('location:https://www.qloudid.com/user/index.php/LoginAccount');
+			header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount');
 		}
 		else
 		{
@@ -107,7 +107,7 @@ class CoronaHelpController
 		}
 		else
 		{
-		header('location:https://www.qloudid.com/user/index.php/LoginAccount');	
+		header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount');	
 		}
 			
 	}

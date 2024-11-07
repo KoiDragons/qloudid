@@ -3,22 +3,22 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Qmatchup</title>
 		<!-- Styles -->
-		<link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
 		
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/jquery-ui.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/stylenew.css">
-		<link href="https://www.qloudid.com/html/kincss/css/style.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/keepcss/constructor.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/floatingLabel.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/stylenew.css">
+		<link href="https://safeqloud-228cbc38a2be.herokuapp.com/html/kincss/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/constructor.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/floatingLabel.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/modulesnewy_bg.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.js"></script>
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
 		 
 		<script type="text/javascript">
 	
@@ -286,7 +286,7 @@ function changeDisplay1()
 											</div>
 												</a>
 											<div class="clear"></div>
-											 <a href="https://www.qloudid.com/pickapro/index.php/Employer/propertyList/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
+											 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/Employer/propertyList/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
 											<div class="column_m container  marb5 mart5   fsz14 dark_grey_txt">
 												<div class="lgtgrey_bg  bg_fffbcc_a ">
 										<div class="container padtb15  brdrad1 fsz14 dark_grey_txt padrl10">
@@ -475,7 +475,7 @@ function changeDisplay1()
 												</a>
 
 											<div class="clear"></div>
-												<a href="https://www.qloudid.com/pickapro/index.php/Employer/serviceRequestReceived/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
+												<a href="https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/Employer/serviceRequestReceived/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
 											<div class="column_m container  marb5 mart5   fsz14 dark_grey_txt">
 												<div class="lgtgrey_bg  bg_fffbcc_a ">
 										<div class="container padtb15  brdrad1 fsz14 dark_grey_txt padrl10">
@@ -512,7 +512,7 @@ function changeDisplay1()
 								 
 											 <div class="clear"></div>
 
-										<a href="https://www.qloudid.com/pickapro/index.php/Employer/serviceRequestBidApproved/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
+										<a href="https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/Employer/serviceRequestBidApproved/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
 											<div class="column_m container  marb5 mart5   fsz14 dark_grey_txt">
 												<div class="lgtgrey_bg  bg_fffbcc_a ">
 										<div class="container padtb15  brdrad1 fsz14 dark_grey_txt padrl10">
@@ -547,7 +547,7 @@ function changeDisplay1()
 											</div>
 												</a>		
 								
-										<a href="https://www.qloudid.com/pickapro/index.php/Employer/peopleForhire/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
+										<a href="https://safeqloud-228cbc38a2be.herokuapp.com/pickapro/index.php/Employer/peopleForhire/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>">	
 											<div class="column_m container  marb5 mart5   fsz14 dark_grey_txt">
 												<div class="lgtgrey_bg  bg_fffbcc_a ">
 										<div class="container padtb15  brdrad1 fsz14 dark_grey_txt padrl10">
@@ -608,18 +608,18 @@ function changeDisplay1()
 				
 			</div>
 		</div>
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/vex.combined.min.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/slick.min.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/superfish.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/icheck.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.selectric.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/tinymce/tinymce.min.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/modules_updatetime.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/custom.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.translate.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/tinymce/tinymce.min.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/vacancycontent/js/custom.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/vex.combined.min.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/slick.min.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/superfish.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/icheck.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.selectric.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/modules_updatetime.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/custom.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.translate.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/vacancycontent/js/custom.js"></script>
 	<script>
 				var tinyMCE_options = {
 					selector: '.texteditor',

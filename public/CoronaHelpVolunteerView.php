@@ -346,7 +346,7 @@ function checkEmail(id) {
 								<div class="tab-content application_menu pad20 active" id="tab-bus-act-org" style="display: block;">
 									<ol>
 										<li style="height: 110px !important; padding-top:10px !important; margin-bottom:10px !important;">
-											<a href="https://www.qloudid.com/public/index.php/NotifyFamilyFriends" class=" " style="font-size:15px !important;">
+											<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/NotifyFamilyFriends" class=" " style="font-size:15px !important;">
 												<div class="padb10"><div class="fa-stack-info" style="width: 63px !important;    height: 65px !important; ">
 																				  <i style="border-radius:  10%;background: #ff5bad; color: #ff5bad" aria-hidden="true" class=" fa-circle fa-stack-2x circle_bg_apps2 minhei_65p"  ></i>
 																				<i class="black_txt  fab fa-affiliatetheme fa-stack-1x fab1 bold pad0 padt20" aria-hidden="true" style="color:#ffffff;  "></i>
@@ -371,7 +371,7 @@ function checkEmail(id) {
 										</li >
 										
 										<li style="height: 110px !important; padding-top:10px !important; margin-bottom:10px !important;">
-											<a href="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfoVolunteer/QkhHaWQzcnBweFU5MDRIMllxY3IzQT09#" class=" " style="font-size:15px !important;">
+											<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CoronaHelp/detailInfoVolunteer/QkhHaWQzcnBweFU5MDRIMllxY3IzQT09#" class=" " style="font-size:15px !important;">
 												<div class="padb10"><div class="fa-stack-info" style="width: 63px !important;    height: 65px !important; ">
 																				  <i style="border-radius:  10%;background: #ff2828; color: #ff2828" aria-hidden="true" class=" fa-circle fa-stack-2x circle_bg_apps2 minhei_65p" ></i>
 																				  <i class="black_txt fab fa-airbnb fa-stack-1x fab1 bold pad0 padt20" aria-hidden="true" style="color:#ffffff;"></i>
@@ -485,8 +485,8 @@ function checkEmail(id) {
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz20 nobold">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Logga in" data-sw="Logga in">Logga in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Help seeker" data-sw="Help seeker">Help seeker</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Logga in" data-sw="Logga in">Logga in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel  "><a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Help seeker" data-sw="Help seeker">Help seeker</a></li>
 	 
 						
 					</ul>
@@ -525,7 +525,7 @@ function checkEmail(id) {
 					</div>
 					
 					<div class="dflex fxwrap_w xxs-justc_c   marl-10 xxs-marl-15 hidden">
-							<a href="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
+							<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
 								<div class="wi_100 hei_120 opa0_ph pos_abs zi-1 top5 left0  bglgrad_r_46c8ff_81d37e bg_62cec1 xs-nobrd  xs-bg_62cec1 brdrad50 xs-bglgrad_r_46c8ff_81d37e trans_opa2"></div>
 								<div class="wi_100 hei_120 opa0 opa1_ph pos_abs zi-1 top5 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
 								 

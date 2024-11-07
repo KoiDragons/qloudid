@@ -38,7 +38,7 @@ class DropoffChildController
 		$checkOpenStatus    = $model->checkOpenStatus($data);
 		if($checkOpenStatus==0)
 				{
-				header('location:https://www.qloudid.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
 				}
 				else 
 				{
@@ -66,7 +66,7 @@ class DropoffChildController
 		$verifyLanguage=$modelp->verifyLanguage();
 		if($checkOpenStatus==0)
 				{
-				header('location:https://www.qloudid.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
 				}
 				else 
 				{
@@ -139,7 +139,7 @@ class DropoffChildController
 				$checkOpenStatus    = $model->checkOpenStatus($data);
 				/*if($checkOpenStatus==0)
 				{
-				header('location:https://www.qloudid.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
 				}
 				else 
 				{*/

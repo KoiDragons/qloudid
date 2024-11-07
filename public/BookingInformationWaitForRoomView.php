@@ -47,7 +47,7 @@ document.body.classList.add("dark");
 <div class="outer">
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="border-bottom: 1px solid #353945;">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" style="
     background-color: #c3271d;
     padding: 10px;
     color: white;
@@ -97,7 +97,7 @@ document.body.classList.add("dark");
 
 
 
-			<a class=" button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style="border:2px solid #333;padding-top: 5px;padding-left: 35px;padding-right: 35px;">Sign in</a>
+			<a class=" button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style="border:2px solid #333;padding-top: 5px;padding-left: 35px;padding-right: 35px;">Sign in</a>
 			
 </div>
 

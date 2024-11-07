@@ -183,7 +183,7 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz20 nobold">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel martb6 "><a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Logga in" data-sw="Logga in">Logga in</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel martb6 "><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Logga in" data-sw="Logga in">Logga in</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel  martb6"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h  lgn_hight_30 black_txt white_txt_h ffamily_avenir" data-en="Help seeker" data-sw="Help seeker">Help seeker</a></li>
 	 
 						

@@ -53,7 +53,7 @@
     ================================================== -->
     <section id="intro" class="s-intro">
 
-        <div class="s-intro__bg" style="background-image: url('https://www.qloudid.com/html/usercontent/images/dstricts/bgimage4.jpeg');"></div>
+        <div class="s-intro__bg" style="background-image: url('https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/bgimage4.jpeg');"></div>
 
   
  
@@ -80,7 +80,7 @@
                        <h5 class="bold" style="font-weight:normal; font-size:30px; color:white; margin-bottom:30px;">Handpicked Rentals for an Unforgettable Stay</h5>
             
                         <div class="counter">
-						<a href="https://www.qloudid.com/public/index.php/VitechProperties/proposalInformation/<?php echo $data['proposal_id']; ?>">  <div class="counter__time " style="padding-right:30px;">
+						<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/VitechProperties/proposalInformation/<?php echo $data['proposal_id']; ?>">  <div class="counter__time " style="padding-right:30px;">
                                 <span style="background: #f67f00;
     border: none;
 	border-radius:3px; font-weight:bold;

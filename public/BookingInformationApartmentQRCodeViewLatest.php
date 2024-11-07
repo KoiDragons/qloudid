@@ -9,12 +9,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
@@ -72,7 +72,7 @@
 										else
 										{
 											 
-										window.location.href ="https://www.qloudid.com/public/index.php/BookingInformation/precheckedPersons/"+data2;
+										window.location.href ="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/precheckedPersons/"+data2;
 										}
 										}
 										});	
@@ -136,18 +136,18 @@
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Owner</button>
 
 </div></a>
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style="
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style="
     color: grey;
 ">Sign in</a>
 			
@@ -162,7 +162,7 @@
 <header class="header js-header header_border bgcolor_F4B400 xs-padding2424 hidden" style="
     border-bottom: 1px solid #353945;
 ">
-<div class="header__center center"><a class="header__logo" href="https://www.qloudid.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
+<div class="header__center center"><a class="header__logo" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
 <div class="header__wrapper js-header-wrapper">
 <div class="header__item header__item_dropdown js-header-item">
 <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to login using Qloud ID
@@ -262,20 +262,20 @@
 <!-- outer content-->
 </div>
 <!-- scripts-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
 <!-- svg sprite-->
 <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

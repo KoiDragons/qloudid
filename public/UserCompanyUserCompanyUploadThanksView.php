@@ -53,7 +53,7 @@
 						
 						<div class="padt20 talc padb50">
 								
-								<a href="https://www.qloudid.com/public/index.php/EmployeeFileRequest/addFileInformation">
+								<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/EmployeeFileRequest/addFileInformation">
 								<button type="button" name="forward" class="xs-white_bg   bold forword minhei_55p white_txt bg_c12219 brdrad50 fsz16 xs-fsz16 xs-nobold padrl70 xs-padrl50 xs-minhei_65p nobold" style="background: #c12219 !important; border-radius: 50px;"><font style="vertical-align: inherit; "><font style="vertical-align: inherit;">Upload file</font></font></button></a>
 									</div>
 							 

@@ -13,7 +13,7 @@
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
     <script>
@@ -49,15 +49,15 @@
  <div class="header__item header__item_dropdown js-header-item" style="background: #131922">
 
 <div class="header__body js-header-body">
-<div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+<div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-comment">
 <use xlink:href="#icon-comment"></use>
 </svg>Book today</a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Price comparison</a>
-<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg>Become supplier
@@ -67,17 +67,17 @@
 <use xlink:href="#icon-email"></use>
 </svg>Pricing</a>
 
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Create account
 </a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>How it works
 </a>
-<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Sign in</a></div>
@@ -240,15 +240,15 @@
                 </svg>
               </button>
               <div class="header__body js-header-body" style="z-index:1;">
-                <div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+                <div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-comment">
                       <use xlink:href="#icon-comment"></use>
                     </svg>Book today</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Price comparison</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-home">
                       <use xlink:href="#icon-home"></use>
                     </svg>Become supplier</a>
@@ -256,15 +256,15 @@
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Pricing</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Create account</a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>How it works</a>
-					<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg>Sign in</a>
@@ -353,7 +353,7 @@
                       </svg>2 234 000$
                     </div>
                   </div><div class="card__comment wi_70 xxs-wi_80">
-                        <div class="card__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
+                        <div class="card__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
                         <div class="card__text fsz14 changedText">The best 16 passenger small group, intimate and unique, Milford Sound...</div>
                       </div>
                   <div class="profile__control"><a class="button-stroke button-small profile__button changedText" href="#" tabindex="0">Contact</a>
@@ -541,19 +541,19 @@
             <div class="adventure__wrapper">
               <div class="adventure__slider js-slider-adventure">
                                 <div class="adventure__item">
-                                  <div class="adventure__preview"><img src="https://www.qloudid.com/html/usercontent/images/how%20it%20works/3.jpg" alt="Adventure"></div>
+                                  <div class="adventure__preview"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/how%20it%20works/3.jpg" alt="Adventure"></div>
                                   <div class="adventure__details">
                                     <div class="adventure__subtitle">Create an account</div><a class="status adventure__places" href="#">9,326 places</a>
                                   </div>
                                 </div>
                                 <div class="adventure__item">
-                                  <div class="adventure__preview"><img src="https://www.qloudid.com/html/usercontent/images/how%20it%20works/4.jpg" alt="Adventure"></div>
+                                  <div class="adventure__preview"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/how%20it%20works/4.jpg" alt="Adventure"></div>
                                   <div class="adventure__details">
                                     <div class="adventure__subtitle">Then add your agents</div><a class="status adventure__places" href="#">12,326 places</a>
                                   </div>
                                 </div>
                                 <div class="adventure__item">
-                                  <div class="adventure__preview"><img src="https://www.qloudid.com/html/usercontent/images/how%20it%20works/6.jpg" alt="Adventure"style="border-radius:100%"></div>
+                                  <div class="adventure__preview"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/how%20it%20works/6.jpg" alt="Adventure"style="border-radius:100%"></div>
                                   <div class="adventure__details">
                                     <div class="adventure__subtitle">And finally follow program</div><a class="status adventure__places" href="#">5,326 places</a>
                                   </div>
@@ -1410,7 +1410,7 @@ Height: 80px; padding: 0 40px;
 			 
 <div class="checkout__inner js-tabs wi_60" style="padding-right:0px;">
 <a class="card card_row " style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview" style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/1.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/1.svg" alt="London - Kings Cross">
+<div class="card__preview" style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/1.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/1.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">
@@ -1431,7 +1431,7 @@ Start by filling out the form - it only takes 2 minutes!
 </div></a>
 
 <a class="card card_row mart20" style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/2.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/2.svg" alt="London - Kings Cross">
+<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/2.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/2.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">
@@ -1452,7 +1452,7 @@ We match you with the top three brokers based on recommendations and past sales.
 </div></a>
 
 <a class="card card_row mart20" style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/3.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/3.svg" alt="London - Kings Cross">
+<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/3.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/3.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">
@@ -1473,7 +1473,7 @@ You choose which broker, if any, you want to proceed with.
 </div></a>
 
 <a class="card card_row mart20" style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/4.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/4.svg" alt="London - Kings Cross">
+<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/4.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/4.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">

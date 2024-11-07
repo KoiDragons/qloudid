@@ -219,7 +219,7 @@
 			
 				<div class="fright xs-dnone visible-si padt10">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs visible-si fright pos_rel brdl "> <a href="https://www.qloudid.com/public/index.php/PublicAppStore" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
+						<li class="dblock hidden-xs visible-si fright pos_rel brdl "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicAppStore" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
 					</ul>
 				</div>
 				<!--sf-js-enabled sf-arrows hidden-xs-->
@@ -233,7 +233,7 @@
 						
 					</ul>
 				</div>
-				<div class="visible-xs hidden-si fright marr0 padr0 xsi-padt10"> <a href="https://www.qloudid.com/public/index.php/PublicAppStore" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+				<div class="visible-xs hidden-si fright marr0 padr0 xsi-padt10"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicAppStore" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>

@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>/html/fleet/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>/html/fleet/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>html/fleet/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>html/fleet/img/favicon.ico">
      <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/constructor.css" />
 	 <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path;?>html/usercontent/responsive.css" />
-    <link rel="manifest" href="<?php echo $path; ?>/html/fleet/img/site.webmanifest">
-    <link rel="mask-icon" href="<?php echo $path; ?>/html/fleet/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="manifest" href="<?php echo $path; ?>html/fleet/img/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo $path; ?>html/fleet/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Epic Travel Shopping Design Kit">
@@ -30,7 +30,7 @@
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -49,7 +49,7 @@
 <div class="outer">
 <!-- header-->
 <header class="header js-header authorization xs-padding032" style="border-bottom: 1px solid #353945;box-shadow: inset 0 -1px 0 0 #23262F; padding:24px 0px !important;">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style="
     background-color: #3B71FE;
     padding: 10px;
     color: white;
@@ -88,18 +88,18 @@
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
 			
 </div>
 
@@ -163,9 +163,9 @@
 <img srcset="https://www.dropbox.com/scl/fi/j9njehllq1njyc7olsspj/037d85b8-52ab-48e4-bf3d-810d5b216825.jpg?rlkey=3tal32cbskacdipe4n23sn5j1&amp;raw=1" src="img/content/travel-pic-1.jpg" class="visible-xs" alt="Travel" style="border: 3px solid white;border-radius: 39px; width: 100%;">
 </div>
 <div class="travel__group">
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
 </div>
 </div></div></div>
 
@@ -736,20 +736,20 @@
 </div>
 </div>
 <!-- scripts-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
 <script src="https://ui8-fleet-html.herokuapp.com/js/lib/jquery.min.js"></script>
 <script src="https://ui8-fleet-html.herokuapp.com/js/lib/slick.min.js"></script>
 <script src="https://ui8-fleet-html.herokuapp.com/js/lib/jquery.nice-select.min.js"></script>

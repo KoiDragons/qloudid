@@ -13,7 +13,7 @@
      
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.minblack.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.minblack.css">
 		<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	  
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
@@ -214,7 +214,7 @@
 ">
 <div class="main__preview xxs-padrl8">
 <picture>
-<source media="(max-width: 767px)" srcset="https://www.qloudid.com/html/usercontent/images/dstricts/bigimage1.webp"><img src="https://www.qloudid.com/html/usercontent/images/dstricts/bigimage1.webp" alt="Main" class="imageBorder">
+<source media="(max-width: 767px)" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/bigimage1.webp"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/bigimage1.webp" alt="Main" class="imageBorder">
 </picture>
 <div class="main__wrap xxs-padrl16   pad345" style="
     /* background: #f67f00ad; */
@@ -238,7 +238,7 @@
           <div class="main__center center">
             <div class="main__preview">
               <picture>
-                <source media="(max-width: 767px)" srcset="<?php echo $path; ?>/html/fleet/img/content/main-pic-mobile-1.jpg"><img src="<?php echo $path; ?>/html/fleet/img/content/main-pic-1.jpg" alt="Main">
+                <source media="(max-width: 767px)" srcset="<?php echo $path; ?>html/fleet/img/content/main-pic-mobile-1.jpg"><img src="<?php echo $path; ?>html/fleet/img/content/main-pic-1.jpg" alt="Main">
               </picture>
               <div class="main__wrap">
                 <h1 class="main__title hero">Ultimate Brokers Platform!</h1>
@@ -307,17 +307,17 @@
               </div>
               <div class="work__list">
                 <div class="work__item">
-                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-1@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-1.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-1@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-1.png" alt="Work"></div>
+                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-1@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-1.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-1@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-1.png" alt="Work"></div>
                   <div class="work__subtitle changedText">Network with Certified Brokers and Spain's Developers</div>
                   <div class="work__content changedText">Join the largest network of brokers and developers at Developer Hub, where innovation meets opportunity.</div>
                 </div>
                 <div class="work__item">
-                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-2@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-2.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-2@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-2.png" alt="Work"></div>
+                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-2@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-2.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-2@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-2.png" alt="Work"></div>
                   <div class="work__subtitle changedText">Experience Our Platform in Action</div>
                   <div class="work__content changedText">Browse a photo carousel of our platform to see how we can help you manage projects, seize new opportunities, and boost sales.</div>
                 </div>
                 <div class="work__item">
-                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-3@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-3.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-3@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-3.png" alt="Work"></div>
+                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-3@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-3.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-3@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-3.png" alt="Work"></div>
                   <div class="work__subtitle changedText">Connecting Brokers Worldwide with Spain's Developers</div>
                   <div class="work__content changedText">Are you a broker looking to sell off-plan properties in Spain online? Our platform helps you streamline the process. Developer Hub provides all current information from Spanish developers about off-plan projects in one place. Increase your sales, download materials for clients, ensure commission transparency, book showrooms, and access marketing materials. Join today. It's free.</div>
                 </div>
@@ -783,20 +783,20 @@
 </div>
 </div>
 <!-- scripts-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<!--<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<!--<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>-->
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
  
 <!-- svg sprite-->
 <div style="display: none"><svg width="0" height="0">

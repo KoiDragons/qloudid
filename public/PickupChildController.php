@@ -19,7 +19,7 @@ class PickupChildController
 		$checkOpenStatus    = $model->checkOpenStatus($data);
 		if($checkOpenStatus==0)
 				{
-				header('location:https://www.qloudid.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
 				}
 				else 
 				{
@@ -54,7 +54,7 @@ class PickupChildController
 		$checkOpenStatus    = $model->checkOpenStatus($data);
 		if($checkOpenStatus==0)
 				{
-				header('location:https://www.qloudid.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
 				}
 				else 
 				{
@@ -110,7 +110,7 @@ class PickupChildController
 				$checkOpenStatus    = $model->checkOpenStatus($data);
 				if($checkOpenStatus==0)
 				{
-				header('location:https://www.qloudid.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/Company/openDay/'.$data['cid']);	 die;
 				}
 				else 
 				{

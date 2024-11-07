@@ -73,7 +73,7 @@ class QloudidAppModel extends AppModel
 					while($rowDishes = $result2->fetch_assoc())
 					{
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://safeqloud-228cbc38a2be.herokuapp.com/',$imgs);
 						array_push($org[$j]['category'][$i]['dishes'],$rowDishes);
 						$org[$j]['category'][$i]['dishes'][$k]['enc']= $this -> encrypt_decrypt('encrypt',$rowDishes['id']);
 						$org[$j]['category'][$i]['dishes'][$k]['dish_image']=$imgs;
@@ -129,7 +129,7 @@ class QloudidAppModel extends AppModel
 						array_push($org,$rowDishes);
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
 						
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://safeqloud-228cbc38a2be.herokuapp.com/',$imgs);
 						$org[$i]['enc']= $this -> encrypt_decrypt('encrypt',$rowDishes['id']);
 						$org[$i]['dish_image']=$imgs;
 						$i++;
@@ -161,7 +161,7 @@ class QloudidAppModel extends AppModel
 					$result2 = $stmt->get_result();
 					$rowDishes = $result2->fetch_assoc();
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://safeqloud-228cbc38a2be.herokuapp.com/',$imgs);
 						$rowDishes['dish_image']=$imgs;
 						$k++;
 			$stmt->close();
@@ -489,19 +489,19 @@ class QloudidAppModel extends AppModel
 			$bigImage=$rowImages['big_image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			$org[0]=$rowImages;
 
 			$bigImage=$rowImages['small_image1_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			$org[1]=$rowImages;
 			
 			$bigImage=$rowImages['small_image2_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			$org[2]=$rowImages;
 			
 			$stmt->close();
@@ -540,19 +540,19 @@ class QloudidAppModel extends AppModel
 			$bigImage=$rowImages['big_image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			$org[$j]['images'][0]=$rowImages;
 
 			$bigImage=$rowImages['small_image1_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			$org[$j]['images'][1]=$rowImages;
 			
 			$bigImage=$rowImages['small_image2_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			$org[$j]['images'][2]=$rowImages;
 			
 			$j++;
@@ -732,7 +732,7 @@ class QloudidAppModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row['image_path']);
 			 
 			 $stmt = $dbCon->prepare("select min(minimum_price) as price from user_apartment_pricing_info where user_address_id=?");
 			
@@ -971,7 +971,7 @@ class QloudidAppModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -986,7 +986,7 @@ class QloudidAppModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -1047,7 +1047,7 @@ class QloudidAppModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -1062,7 +1062,7 @@ class QloudidAppModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -1123,7 +1123,7 @@ class QloudidAppModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -1138,7 +1138,7 @@ class QloudidAppModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -1739,7 +1739,7 @@ class QloudidAppModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowPrice['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowPrice['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImage['image_path']);
 			
 			
 			
@@ -1799,7 +1799,7 @@ class QloudidAppModel extends AppModel
 			 
 			
 			$filename="../estorecss/".$rowPrice['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$rowPrice['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $rowPrice['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowPrice['passport_image'].'.jpg' );
-			$rowPrice['image_path']=str_replace('../','https://www.qloudid.com/',$rowPrice['passport_image']);
+			$rowPrice['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowPrice['passport_image']);
 			
 			
 			
@@ -1994,7 +1994,7 @@ class QloudidAppModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -2009,7 +2009,7 @@ class QloudidAppModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -2053,7 +2053,7 @@ class QloudidAppModel extends AppModel
 			{
 			$image=$row1['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path']=str_replace('../','https://www.qloudid.com/',$row1['image_path']);	
+			$row1['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row1['image_path']);	
 			array_push($org[$j]['images'],$row1);			
 			}
 			
@@ -2110,7 +2110,7 @@ class QloudidAppModel extends AppModel
 			{
 			$image=$row1['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path']=str_replace('../','https://www.qloudid.com/',$row1['image_path']);	
+			$row1['image_path']=str_replace('../','https://safeqloud-228cbc38a2be.herokuapp.com/',$row1['image_path']);	
 			array_push($org[$j]['images'],$row1);			
 			}
 			
@@ -2255,12 +2255,12 @@ class QloudidAppModel extends AppModel
 		}
 		if($row['passport_image']!=null || $row['passport_image']!="") { 
 						 
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs="https://www.qloudid.com/estorecss/logoXXX.png"; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://safeqloud-228cbc38a2be.herokuapp.com/'.$imgs; } else {   $imgs="https://safeqloud-228cbc38a2be.herokuapp.com/estorecss/logoXXX.png"; }
 		$row['image']=$imgs;
 		}
 		else
 		{
-		$row['image']='https://www.qloudid.com/estorecss/logoXXX.png';
+		$row['image']='https://safeqloud-228cbc38a2be.herokuapp.com/estorecss/logoXXX.png';
 		}
 						 
 		$row['enc']=$this -> encrypt_decrypt('encrypt',$row['id']);	
@@ -5555,7 +5555,7 @@ $stmt->bind_param("i", $id);
 		$stmt->execute();
 		$result = $stmt->get_result();
 		$row = $result->fetch_assoc();
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://safeqloud-228cbc38a2be.herokuapp.com/'.$imgs; } else {   $imgs=""; }
 		
 		
 			 
@@ -5679,7 +5679,7 @@ $stmt->bind_param("i", $id);
 		$result = $stmt->get_result();
 		$row = $result->fetch_assoc();
 		
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://safeqloud-228cbc38a2be.herokuapp.com/'.$imgs; } else {   $imgs=""; }
 			 $arry=array();
 			$arry['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8');
 			$arry['last_name']=html_entity_decode($row['last_name'],ENT_NOQUOTES, 'UTF-8');
@@ -5732,7 +5732,7 @@ $stmt->bind_param("i", $id);
 		$result = $stmt->get_result();
 		$rowCompany = $result->fetch_assoc();
 		
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://safeqloud-228cbc38a2be.herokuapp.com/'.$imgs; } else {   $imgs=""; }
 			$stmt->close();
 			$dbCon->close();
 			

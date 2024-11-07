@@ -22,7 +22,7 @@
 		<script type="text/javascript">
 	function changeHeader()
 	{
-	window.location.href='https://www.qloudid.com/public/index.php/UserCompanySignUp/pricingDetail/<?php echo $data['cid']; ?>/<?php echo $data['catg_id']; ?>/<?php echo $data['subcatg_id']; ?>';
+	window.location.href='https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/pricingDetail/<?php echo $data['cid']; ?>/<?php echo $data['catg_id']; ?>/<?php echo $data['subcatg_id']; ?>';
 	}
 function changeLanguage(id)
 		{

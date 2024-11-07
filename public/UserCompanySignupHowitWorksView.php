@@ -9,12 +9,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
@@ -86,15 +86,15 @@
  <div class="header__item header__item_dropdown js-header-item" style="background: #131922">
 
 <div class="header__body js-header-body">
-<div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+<div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-comment">
 <use xlink:href="#icon-comment"></use>
 </svg><span class='changedText'>Book today</span ></a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class='changedText'>Price comparison</span ></a>
-<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg><span class='changedText'>Become supplier</span >
@@ -104,17 +104,17 @@
 <use xlink:href="#icon-email"></use>
 </svg><span class='changedText'>Pricing</span ></a>
 
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class='changedText'>Create account</span >
 </a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class='changedText'>How it works</span >
 </a>
-<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class='changedText'>Sign in</span ></a></div>
@@ -277,15 +277,15 @@
                 </svg>
               </button>
               <div class="header__body js-header-body" style="z-index:1;">
-                <div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+                <div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-comment">
                       <use xlink:href="#icon-comment"></use>
                     </svg><span class='changedText'>Book today</span ></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class='changedText'>Price comparison</span ></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-home">
                       <use xlink:href="#icon-home"></use>
                     </svg><span class='changedText'>Become supplier</span ></a>
@@ -293,15 +293,15 @@
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class='changedText'>Pricing</span ></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class='changedText'>Create account</span ></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class='changedText'>How it works</span ></a>
-					<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+					<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class='changedText'>Sign in</span ></a>
@@ -401,13 +401,13 @@
 <div class="travel__slider js-slider-travel ">
 <div class="travel__gallery">
 <div class="travel__bg">
-<img srcset="https://www.qloudid.com/html/usercontent/images/account/1.svg" src="https://www.qloudid.com/html/usercontent/images/account/1.svg" class="hidden-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
-<img srcset="https://www.qloudid.com/html/usercontent/images/account/1.svg" src="https://www.qloudid.com/html/usercontent/images/account/1.svg" class="visible-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
+<img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" class="hidden-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
+<img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" class="visible-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
 </div>
 <div class="travel__group hidden">
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
 </div>
 </div></div></div>
 
@@ -443,7 +443,7 @@ display:block;">
               </div>
               <div class="work__list">
                 <div class="work__item">
-                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-1@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-1.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-1@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-1.png" alt="Work"></div>
+                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-1@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-1.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-1@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-1.png" alt="Work"></div>
                   <div class="work__subtitle changedText">Fill in the form</div>
                   <div class="work__content changedText" style="font-size:16px;">Start by filling out the form - it only takes 2 minutes!</div>
 				  
@@ -453,7 +453,7 @@ display:block;">
 				 
                 </div>
                 <div class="work__item">
-                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-2@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-2.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-2@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-2.png" alt="Work"></div>
+                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-2@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-2.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-2@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-2.png" alt="Work"></div>
                   <div class="work__subtitle changedText">We match you</div>
                   <div class="work__content changedText" style="font-size:16px;">We match you with the top three brokers based on recommendations and past sales.</div>
 				    
@@ -461,7 +461,7 @@ display:block;">
 				   
                 </div>
                 <div class="work__item">
-                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-3@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-3.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-3@2x.png 2x" src="<?php echo $path; ?>/html/fleet/img/content/work-pic-dark-3.png" alt="Work"></div>
+                  <div class="work__preview"><img class="some-icon" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-3@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-3.png" alt="Work"><img class="some-icon-dark" srcset="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-3@2x.png 2x" src="<?php echo $path; ?>html/fleet/img/content/work-pic-dark-3.png" alt="Work"></div>
                   <div class="work__subtitle changedText">You compare agents</div>
                   <div class="work__content changedText" style="font-size:16px;">You choose which broker, if any, you want to proceed with.</div>
 				 
@@ -778,7 +778,7 @@ display:block;">
                       </svg>2 234 000$
                     </div>
                   </div><div class="card__comment wi_70 xxs-wi_80">
-                        <div class="card__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
+                        <div class="card__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
                         <div class="card__text fsz14 changedText">The best 16 passenger small group, intimate and unique, Milford Sound...</div>
                       </div>
                   <div class="profile__control"><a class="button-stroke button-small profile__button changedText" href="#">Contact</a>
@@ -842,7 +842,7 @@ display:block;">
 			 
 <div class="checkout__inner js-tabs wi_60" style="padding-right:0px;">
 <a class="card card_row " style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview" style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/1.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/1.svg" alt="London - Kings Cross">
+<div class="card__preview" style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/1.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/1.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">
@@ -865,7 +865,7 @@ We do the heavy lifting by matching you with the best brokers for your sale. We 
 </div></a>
 
 <a class="card card_row mart20" style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/2.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/2.svg" alt="London - Kings Cross">
+<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/2.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/2.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">
@@ -888,7 +888,7 @@ We run with open cards. We have a lot of statistics on brokers and make sure you
 </div></a>
 
 <a class="card card_row mart20" style="border: 2px solid #353945;    border-radius: 20px;   " href="#">
-<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>/html/usercontent/images/how it works/3.svg" src="<?php echo $path; ?>/html/usercontent/images/how it works/3.svg" alt="London - Kings Cross">
+<div class="card__preview"  style="width:200px;"><img srcset="<?php echo $path; ?>html/usercontent/images/how it works/3.svg" src="<?php echo $path; ?>html/usercontent/images/how it works/3.svg" alt="London - Kings Cross">
  
 </div>
 <div class="card__body pad2435 xs-pad24" style="background: #131922; ">
@@ -978,7 +978,7 @@ It's more than just numbers that count. We know which brokers former sellers are
                        
                     </div>
                       <div class="card__comment">
-                        <div class="card__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
+                        <div class="card__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
                         <div class="card__text fsz14 changedText">The best 16 passenger small group, intimate and unique, Milford Sound...</div>
                       </div>
                        
@@ -990,7 +990,7 @@ It's more than just numbers that count. We know which brokers former sellers are
   
 	<a class="card card_row hidden" style="border: 2px solid #353945;border-radius: 20px;margin-bottom: 20px;" href="#">
   
- <div class="card__preview width200 xs-wi_100" style=" background: #131922; padding: 30px;"><img srcset="https://www.qloudid.com/estorecss/tmpnew0.99757700%201713352690.jpg" src="https://www.qloudid.com/estorecss/tmpnew0.99757700%201713352690.jpg" alt="London - Kings Cross" style="
+ <div class="card__preview width200 xs-wi_100" style=" background: #131922; padding: 30px;"><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/estorecss/tmpnew0.99757700%201713352690.jpg" src="https://safeqloud-228cbc38a2be.herokuapp.com/estorecss/tmpnew0.99757700%201713352690.jpg" alt="London - Kings Cross" style="
     padding: 20px;
     border-radius: 30px;
 ">
@@ -1026,7 +1026,7 @@ It's more than just numbers that count. We know which brokers former sellers are
                        
                     </div>
                       <div class="card__comment">
-                        <div class="card__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
+                        <div class="card__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-2.jpg" alt="Avatar"></div>
                         <div class="card__text changedText">The best 16 passenger small group, intimate and unique, Milford Sound...</div>
                       </div>
                        

@@ -3,7 +3,7 @@
 	
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="refresh" content="60;https://www.qloudid.com/public/index.php/InstaBox/welcome/<?php echo $data['hid']; ?>" />
+		<meta http-equiv="refresh" content="60;https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/InstaBox/welcome/<?php echo $data['hid']; ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Developer status</title>
 		<!-- Styles -->

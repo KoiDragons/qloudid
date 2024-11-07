@@ -10,8 +10,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -19,7 +19,7 @@
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	 
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -76,15 +76,15 @@
  <div class="header__item header__item_dropdown js-header-item" style="background: #131922">
 
 <div class="header__body js-header-body">
-<div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
+<div class="header__menu"><a class="header__link active" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectCity/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-comment">
 <use xlink:href="#icon-comment"></use>
 </svg><span class="changedText">Book today</span></a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectProposalCity/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Price comparison</span></a>
-<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/signUpEmailInfo/<?php echo $data['domain_id']; ?>">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg><span class="changedText">Become supplier</span>
@@ -94,17 +94,17 @@
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Pricing</span></a>
 
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectSignup/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Create account</span>
 </a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
+<a class="header__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">How it works</span>
 </a>
-<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+<a class="header__link" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Sign in</span></a></div>

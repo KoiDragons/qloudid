@@ -5,32 +5,32 @@
 		<title>Qmatchup</title> 
 		<!-- Styles -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/jquery-ui.min.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/stylenew.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/keepcss/constructor.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css">
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css">
-			<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/bookadirect/main.css" />
-      <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/bookadirect/reactloadingbar.css" />
-      <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/bookadirect/web.css" />
-	  <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/fleet/css/app.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/stylenew.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/keepcss/constructor.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css">
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/modulesnewy_bg.css">
+			<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/bookadirect/main.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/bookadirect/reactloadingbar.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/bookadirect/web.css" />
+	  <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/css/app.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
 		  
-        <script src="https://www.qloudid.com/html/bookadirect/no-pollution.js"></script>
-        <script src="https://www.qloudid.com/html/bookadirect/mobile-detect.min.js"></script>
-        <link rel="stylesheet" href="https://www.qloudid.com/html/bookadirect/react-loading-bar.css" media="all" onload="this.media=&quot;all&quot;">
+        <script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/bookadirect/no-pollution.js"></script>
+        <script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/bookadirect/mobile-detect.min.js"></script>
+        <link rel="stylesheet" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/bookadirect/react-loading-bar.css" media="all" onload="this.media=&quot;all&quot;">
         <link rel="stylesheet" href="https://www.bokadirekt.se/css/ReactToastify.min.css" media="all" onload="this.media=&quot;all&quot;">
 		  <link href="https://www.bokadirekt.se/static/css/main.30188e3e.css" rel="stylesheet">
 		    <link type="texthttps://www.bokadirekt.se/css" rel="stylesheet" charset="UTF-8" href="  https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
 		<script defer="defer" src="https://www.bokadirekt.se/static/js/main.4aa60909.js"></script>
 		    <link type="texthttps://www.bokadirekt.se/css" rel="stylesheet" charset="UTF-8" href="https://www.bokadirekt.se/css/translateelement.css">
 		<!-- Scripts -->
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.js"></script>
-		<script src="https://www.qloudid.com/html/usercontent/js/jquery.translate.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.js"></script>
+		<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.translate.js"></script>
 		<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.en_US.Uy_W5r0_xRM.O/am=AQ/d=1/exm=el_conf/ed=1/rs=AN8SPfqnGJ31YX9wCykS87LeKJFfJ9BlhA/m=el_main"></script> 
 		<script>
 		function getNewCalender(id)
@@ -203,28 +203,28 @@ $(window).on('resize', function() {
 								
 							 </form>
 		<div class="clear"></div>
-		<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+		<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
 	
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery-ui.min.js"></script> 
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/superfish.js"></script> 
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/icheck.js"></script> 
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.selectric.js"></script>
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/custom.js"></script>
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/modules.js"></script>
-		<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/flipqard.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery-ui.min.js"></script> 
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/superfish.js"></script> 
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/icheck.js"></script> 
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/jquery.selectric.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/custom.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/modules.js"></script>
+		<script type="text/javascript" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/js/flipqard.js"></script>
 		<div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">
 <path d="M10.805 6.362c-.26-.26-.682-.26-.943 0L8 8.224 6.138 6.362c-.26-.26-.682-.26-.943 0s-.26.682 0 .943l2.333 2.333c.26.26.682.26.943 0l2.333-2.333c.26-.26.26-.682 0-.943z"></path>

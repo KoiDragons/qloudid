@@ -87,11 +87,11 @@
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" class="translate hei_30pi dblock lgn_hight_30 black_txt  white_txt_h fsz20" >Ring 010-1510125</a> </li>
 						
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.qloudid.com/public/index.php/CorporateServices#" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServices#" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Close" data-sw="Close">Close</a> </li>
 					</ul>
 				</div>
 			
-			<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/public/index.php/CorporateServices#" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+			<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServices#" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 				<div class="clear"></div>
 			
 		</div>

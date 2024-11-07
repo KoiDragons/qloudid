@@ -21,7 +21,7 @@
 		 <script>
 		 function changeHeader()
 			{
-				window.location.href ="https://www.qloudid.com/public/index.php/BookingInformation/invoiceAddressesUser/<?php echo $data['checkout_id']; ?>";
+				window.location.href ="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/invoiceAddressesUser/<?php echo $data['checkout_id']; ?>";
 			}
 		 </script>
 		

@@ -123,16 +123,16 @@
             </div>
         </div> <!-- s-intro__content -->
 <div class="s-intro__notify">
- 	  <a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
+ 	  <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
               How it works
             </button></a>
 			
 			 
 			
-			 <a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/brokers/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
+			 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/brokers/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
               For brokers</button></a>
 			  
-			  			 <a href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
+			  			 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
              Sign in</button></a>
         </div>
 

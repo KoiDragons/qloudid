@@ -87,18 +87,18 @@
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
+<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
 			
 </div>
 
@@ -144,7 +144,7 @@
 <header class="header js-header header_border bgcolor_F4B400 xs-padding2424 hidden" style="
     border-bottom: 1px solid #353945;
 ">
-<div class="header__center center"><a class="header__logo" href="https://www.qloudid.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;"><?php echo $hotelInformation['hotel_name']; ?></button></a>
+<div class="header__center center"><a class="header__logo" href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;"><?php echo $hotelInformation['hotel_name']; ?></button></a>
 <div class="header__wrapper js-header-wrapper">
 <div class="header__item header__item_dropdown js-header-item">
 <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to login using Qloud ID
@@ -253,7 +253,7 @@
 			
 <div class="receipt__head hidden-xs" style="padding:0px;display:block;text-align:center;margin-top: 32px;">
 <div class="receipt__details">
-<div class="price__preview "><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://www.qloudid.com/public/index.php/BookingInformation/verifyHotelCheckinCode/<?php echo $data['hotel_id']; ?>" class="white_brd brdrad5" style="width: 150px;height: 150px;"></div>
+<div class="price__preview "><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/BookingInformation/verifyHotelCheckinCode/<?php echo $data['hotel_id']; ?>" class="white_brd brdrad5" style="width: 150px;height: 150px;"></div>
 </div>
 
 </div>

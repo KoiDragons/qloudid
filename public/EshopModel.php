@@ -76,9 +76,9 @@
 			if(!empty($row)) 
 			{
 			$footer='
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/constructor.css" />
 		 
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/responsive.css" />
 		 
 		
 		<div class="ovfl_hid padrl10 txt_37404a fsz14 white_bg padt30 xxsi-padrl35  padb20">
@@ -158,7 +158,7 @@
 			$footer=$footer.''.$help;
 			if($rowCompany ['profile_pic']!=null) { $filename="../estorecss/".$rowCompany ['profile_pic'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowCompany ['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a); $rowCompany['image_path'] =$value_a; } else { $rowCompany['image_path']="../html/usercontent/images/default-profile-pic.jpg"; } }  else $rowCompany['image_path']="../html/usercontent/images/default-profile-pic.jpg";
 			
-			$rowCompany['image_path']=str_replace("../","https://www.qloudid.com/",$rowCompany['image_path']);
+			$rowCompany['image_path']=str_replace("../","https://safeqloud-228cbc38a2be.herokuapp.com/",$rowCompany['image_path']);
 			 
 			 //echo $rowCompany['image_path']; die;
 			if($row['show_company_logo']==1)
@@ -1562,7 +1562,7 @@
 		 $curl = curl_init();
 
 			curl_setopt_array($curl, array(
-			  CURLOPT_URL => "https://www.qloudid.com/walk/token.php",
+			  CURLOPT_URL => "https://safeqloud-228cbc38a2be.herokuapp.com/walk/token.php",
 			  CURLOPT_RETURNTRANSFER => true,
 			  CURLOPT_ENCODING => "",
 			  CURLOPT_MAXREDIRS => 10,
@@ -1589,7 +1589,7 @@
 		$curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://www.qloudid.com/walk/resource.php",
+  CURLOPT_URL => "https://safeqloud-228cbc38a2be.herokuapp.com/walk/resource.php",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,

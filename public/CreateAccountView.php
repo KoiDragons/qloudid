@@ -281,15 +281,15 @@ function changeClass(link)
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt lang_selector" data-value="de" onclick="togglePopup();">  German  </a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Franska</a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Spanska  </a> </div>
 													</li>
 													<li class="last">
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Italienska </a> </div>
 													</li>
 												</ol>

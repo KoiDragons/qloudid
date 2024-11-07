@@ -8,7 +8,7 @@ class ApplyNowController
     
     public static function index()
     {
-		$path = "../../";
+		$path = "../../../";
     require_once('ApplyNowView.php');
 	
 	}

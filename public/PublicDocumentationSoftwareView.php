@@ -49,7 +49,7 @@
  	  
     <div class="outer">
      <header class="header js-header authorization xs-padt24" style="border-bottom: 1px solid #e6e8ec; height:93px;">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" style="
     background-color: #3B71FE;
     padding: 10px;
     color: white;
@@ -88,7 +88,7 @@
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
@@ -99,7 +99,7 @@
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; box-shadow: 0 0 0 0;">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; box-shadow: 0 0 0 0;">Sign in</a>
 			
 </div>
 
@@ -212,7 +212,7 @@
 <li>All this information will be added to a array and decrypted to send to qloudid </li>
 <li>$id= $this -> encrypt_decrypt('encrypt',$newData);</li>
 <li>This data will be sent to qloudid with url like this (you can send in post as well) </li>
-<li>https://www.qloudid.com/user/index.php/Curl/addEmployee/$id;</li>
+<li>https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Curl/addEmployee/$id;</li>
  </ul>
 
 
@@ -224,7 +224,7 @@
 <li>All this information will be added to a array and decrypted to send to qloudid </li>
 <li>$id= $this -> encrypt_decrypt('encrypt',$newData);</li>
 <li>This data will be sent to qloudid with url like this (you can send in post as well) </li>
-<li>https://www.qloudid.com/user/index.php/Curl/editEmployee/$id</li>
+<li>https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Curl/editEmployee/$id</li>
  </ul>
 
 <p class=" padt10  padb0" style="font-size:18px; word-wrap: break-word; padding-bottom:20px;"><strong>Now you can add relieving information on employee and send this to qloudid if it is invited or uninvited employee. Here is information required to be sent to qloudid</strong></p>
@@ -233,7 +233,7 @@
 <li>All this information will be added to a array and decrypted to send to qloudid </li>
 <li>$id= $this -> encrypt_decrypt('encrypt',$newData);</li>
 <li>This data will be sent to qloudid with url like this (you can send in post as well) </li>
-<li>https://www.qloudid.com/user/index.php/Curl/ relieveEmployee/$id</li>
+<li>https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/Curl/ relieveEmployee/$id</li>
  </ul>									
 
 <p class=" padt10  padb0" style="font-size:18px; word-wrap: break-word;"><strong>Employee will be relieved on next date that is given on relieving </strong></p>

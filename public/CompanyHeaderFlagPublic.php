@@ -57,15 +57,15 @@
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt lang_selector" data-value="de" onclick="togglePopup();">  German  </a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Franska</a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Spanska  </a> </div>
 													</li>
 													<li class="last">
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Italienska </a> </div>
 													</li>
 												</ol>
@@ -155,8 +155,8 @@
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt " data-value="sv" >  Digital ID</a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="https://www.qloudid.com/user/index.php/SamtyckesPlattform" ><img src="<?php echo $path1;?>slide/flag_us.png" width="28" height="28" alt="email" title="email"data-value="en" class="" ></a></div>
-														<div class="mail_content padt10 "> <a href="https://www.qloudid.com/user/index.php/SamtyckesPlattform" class="fsz14 black_txt " data-value="en">  Consent </a> </div>
+														<div class="user_pic padt5"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/SamtyckesPlattform" ><img src="<?php echo $path1;?>slide/flag_us.png" width="28" height="28" alt="email" title="email"data-value="en" class="" ></a></div>
+														<div class="mail_content padt10 "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/SamtyckesPlattform" class="fsz14 black_txt " data-value="en">  Consent </a> </div>
 													</li>
 													<li>
 														<div class="user_pic padt5"><a href="javascript:void(0);" ><img src="<?php echo $path1;?>slide/germanf.png" width="28" height="28" alt="email" title="email"data-value="de" class="" ></a></div>
@@ -176,7 +176,7 @@
 				
 										
                   <li><a href="javascript:void(0);">Digital ID</a></li>
-				  <li><a href="https://www.qloudid.com/user/index.php/SamtyckesPlattform">Consent</a></li>
+				  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/SamtyckesPlattform">Consent</a></li>
                   <li><a href="javascript:void(0);">For companies</a></li>
                   <li><a href="javascript:void(0);">For consumers</a></li>
                   
@@ -192,7 +192,7 @@
 					</li>
 			
 	<li>
-						<a href="https://www.qloudid.com/user/index.php/CreateAccount" class="lgn_hight_s1 fsz16 sf-with-ul "><span class="black_txt">Skapa konto </span></a>
+						<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="lgn_hight_s1 fsz16 sf-with-ul "><span class="black_txt">Skapa konto </span></a>
 						
 					</li>
 				

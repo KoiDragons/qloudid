@@ -526,7 +526,7 @@
 			
 			$to = '+'.trim($row_phone['country_code']).''.trim($_POST['phoneno']);
 			$subject       = "Connect request received!";
-			$url="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/".$data['eid'];
+			$url="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/".$data['eid'];
 			$surl=getShortUrl($url);
 			$emailContent ="You have been invited to visit employee information page. please check here ".$surl;
 			$res=sendSms($subject, $to, $emailContent);
@@ -563,7 +563,7 @@
 			
 			$to = $_POST['email_info'];
 			$subject       = "Connect request received!";
-			$url="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/".$data['eid'];
+			$url="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicEmployeeInfo/companyAccount/".$data['eid'];
 			
 			$emailContent ="You have been invited to visit employee information page. please check <a href='".$url."'>here</a> ";
 			sendEmail($subject, $to, $emailContent);

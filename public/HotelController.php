@@ -58,7 +58,7 @@
 				$codeCheck    = $model->verifyCode($data);
 				if($codeCheck==1)
 				{
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/verifyCheckin/".$data['id']);
+					header("location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/verifyCheckin/".$data['id']);
 				}
 				else
 				{
@@ -159,7 +159,7 @@
 				$data['total_days']=round(($_POST['rz_booking'][1]-$_POST['rz_booking'][0]) / (60 * 60 * 24));
 				
 				$result    = $model->bookingDetails($data);
-				header('location:https://www.qloudid.com/user/index.php/LoginAccount/bookHotel/'.$result);
+				header('location:https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/bookHotel/'.$result);
 			
 		}
 	}

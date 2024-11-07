@@ -101,8 +101,8 @@
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.qloudid.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
 	 
 	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Business</a></li>
 		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="QloudidPersonalEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Private</a></li>					
@@ -165,8 +165,8 @@
                   <li><a href="QloudidPersonalEng" class="fsz20">Personal</a></li>
 				   
                   <li><a href="CorporateServicesEng" class="fsz20">Business</a></li>
-                  <li><a href="https://www.qloudid.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
-                   <li><a href="https://www.qloudid.com/user/index.php/LoginAccount" class="fsz20">Sign in</a></li> 
+                  <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                   <li><a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" class="fsz20">Sign in</a></li> 
                   <li>
                     <div class="line marb10"></div>
                   </li>
@@ -478,7 +478,7 @@ Med ett Qloud ID business tar ni ett kliv mot att bli en mer attraktiv arbetsgiv
 									<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40">Hantera besök...</h2>
 									<div class="lgn_hight_30 fsz26 xs-fsz18">Ett webbaserat besökssystem som förenklar hantering av besökare, höjer säkerheten och förmedlar ett professionellt första intryck. </div>
 									<div class="mart20 tall"> 
-										<a href="https://www.qloudid.com/public/index.php/PublicFastigheter"><input type="button" value="Mer om Besökssysstem" class="padl20 nobrd wi_60 maxwi_500p minhei_50p dflex  alit_c opa90_h brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+										<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicFastigheter"><input type="button" value="Mer om Besökssysstem" class="padl20 nobrd wi_60 maxwi_500p minhei_50p dflex  alit_c opa90_h brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 									</div>
 								</div>
 								
@@ -561,7 +561,7 @@ Med ett Qloud ID business tar ni ett kliv mot att bli en mer attraktiv arbetsgiv
 							<h2 class="padb15 bold fsz40 xs-fsz22 white_txt lgn_hight_40">Teknisk partner </h2>
 							<div class="lgn_hight_30 white_txt">Qloud ID samarbetar med andra förstklassiga tjänster, från tekniska verktyg till smart utvecklad teknik som delar vår säkerhet och integritets-filosofi.   </div>
 							<div class="mart20 tall"> 
-								<a href="https://www.qloudid.com/public/index.php/PublicFastigheter"><input type="button" value="Mer om Teknisk partner" class="padl20  nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+								<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicFastigheter"><input type="button" value="Mer om Teknisk partner" class="padl20  nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 							</div>
 						</div>
 					</div>
@@ -603,7 +603,7 @@ Med ett Qloud ID business tar ni ett kliv mot att bli en mer attraktiv arbetsgiv
 							<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40">Fastighetsägare</h2>
 							<div class="lgn_hight_30">Delar av våra tjänster är utvecklade i nära samarbete med fastighetspartners för att kunna möta kundernas efterfrågan på kvalitativa produkter och tjänster. </div>
 							<div class="mart20 tall"> 
-								<a href="https://www.qloudid.com/public/index.php/PublicFastigheter"><input type="button" value="Mer om Farstighetspartners " class="padl20  wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 brdb_b fsz20 xs-fsz16 darkgrey_txt trans_all2 tall panlyellow_bg nobrd"></a>
+								<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicFastigheter"><input type="button" value="Mer om Farstighetspartners " class="padl20  wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 brdb_b fsz20 xs-fsz16 darkgrey_txt trans_all2 tall panlyellow_bg nobrd"></a>
 							</div>
 						</div>
 						<div class="wi_50 xs-wi_100">

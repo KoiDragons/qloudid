@@ -120,7 +120,7 @@
 			
 			if($rowCompany ['profile_pic']!=null) { $filename="../estorecss/".$rowCompany ['profile_pic'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowCompany ['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a); $rowCompany['image_path'] = $value_a; } else { $rowCompany['image_path']="../html/usercontent/images/default-profile-pic.jpg"; } }  else $rowCompany['image_path']="../html/usercontent/images/default-profile-pic.jpg";
 			
-			$rowCompany['image_path']=str_replace("../","https://www.qloudid.com/",$rowCompany['image_path']);
+			$rowCompany['image_path']=str_replace("../","https://safeqloud-228cbc38a2be.herokuapp.com/",$rowCompany['image_path']);
 			 
 			if($row['show_company_logo']==1)
 			{

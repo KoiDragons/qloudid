@@ -69,7 +69,7 @@
 					<ul class="mar0 pad0">
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25  uppercase lgn_hight_30 black_txt black_txt_h" data-en="About us" data-sw="About us">About us</a> </li>
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue marl20 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga In</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue marl20 "> <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga In</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart2">

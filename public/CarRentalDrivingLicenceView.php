@@ -13,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 	 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
-	 <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
+	 <link rel="stylesheet" media="all" href="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/css/modulesnewy_bg.css">
 	 <script type="text/javascript" src="<?php echo $path; ?>html/usercontent/js/jquery.js"></script> 
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
@@ -395,7 +395,7 @@ function readURL2(input) {
                     <form class="checkout__item js-tabs-item">
                       <div class="checkout__line">
                         <div class="checkout__subtitle">PayPal</div>
-                        <div class="checkout__logo"><img src="<?php echo $path; ?>/html/fleet/img/content/paypal.svg" alt="PayPal"></div>
+                        <div class="checkout__logo"><img src="<?php echo $path; ?>html/fleet/img/content/paypal.svg" alt="PayPal"></div>
                       </div>
                       <div class="checkout__fieldset">
                         <div class="field">
@@ -413,7 +413,7 @@ function readURL2(input) {
 						
                       </div>
                       <div class="checkout__control"><a class="button checkout__button" href="#">Confirm and pay</a>
-                        <div class="checkout__verified"><img src="<?php echo $path; ?>/html/fleet/img/content/paypal-verified.png" alt="PayPal"></div>
+                        <div class="checkout__verified"><img src="<?php echo $path; ?>html/fleet/img/content/paypal-verified.png" alt="PayPal"></div>
                       </div>
                       <label class="checkbox">
                         <input class="checkbox__input" type="checkbox" checked="checked"/><span class="checkbox__inner"><span class="checkbox__tick"></span><span class="checkbox__text">Save Paypal Account</span></span>
@@ -559,20 +559,20 @@ function readURL2(input) {
 <script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.selectric.js"></script>
  
 <script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/custom.js"></script>	
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/slick.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/share-buttons.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/nouislider.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/wNumb.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/moment.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/lib/simpleParallax.min.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/demo.js"></script>
-    <script src="<?php echo $path; ?>/html/fleet/js/app.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/slick.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.nice-select.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/share-buttons.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.fancybox.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.rateyo.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/nouislider.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/wNumb.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/moment.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/lib/simpleParallax.min.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/demo.js"></script>
+    <script src="<?php echo $path; ?>html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

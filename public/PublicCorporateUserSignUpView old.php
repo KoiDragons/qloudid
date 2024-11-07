@@ -1149,7 +1149,7 @@ function readURL2(input) {
 									<div class="mart20 xs-marb20 marb35  xxs-talc talc">
 									 
 									<?php if($data['domain_id_decrypt']==1) { ?>
-									<a href="https://www.qloudid.com/user/index.php/LoginAccount/loginPurchaseVerify?response_type=code&client_id=YzhzVmorMTJWNVBsbHJIQkVYTTRva3JRbTdxcG9aQi9HejFaTGpLT3dvZz0=&state=xyz&purchase=1&total=0" class="txt_777E90 fsz25  xs-fsz20 xxs-talc talc edit-text jain_drop_company trn lgn_hight_30 changedText" >Please click here to use Qloud ID app to complete the purchase.</a></div>
+									<a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginPurchaseVerify?response_type=code&client_id=YzhzVmorMTJWNVBsbHJIQkVYTTRva3JRbTdxcG9aQi9HejFaTGpLT3dvZz0=&state=xyz&purchase=1&total=0" class="txt_777E90 fsz25  xs-fsz20 xxs-talc talc edit-text jain_drop_company trn lgn_hight_30 changedText" >Please click here to use Qloud ID app to complete the purchase.</a></div>
 									<?php } ?>
 									
 									<form action="../../saveDetails/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>" method="POST" name="save_indexing" id="save_indexing" accept-charset="ISO-8859-1">

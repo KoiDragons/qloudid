@@ -28,7 +28,7 @@
 				$getAppsPermissionDetail    = $model1->getAppsPermissionDetail($data);
 				if($getAppsPermissionDetail['image_path']=='')
 				{
-					$getAppsPermissionDetail['image_path']='https://www.qloudid.com/html/usercontent/images/dstricts/logo1.jpeg';
+					$getAppsPermissionDetail['image_path']='https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/logo1.jpeg';
 				}
 				 
 				$data['country_id']=$getAppsPermissionDetail['country_id'];

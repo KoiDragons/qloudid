@@ -93,7 +93,7 @@
                        <h5 class="bold" style="font-weight:bold; color:white;"><?php echo $selectedMarketplaceDetail['subheading_info']; ?></h5>
             
                         <div class="counter">
-						<a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectLocation/<?php echo $data['domain_id']; ?>">  <div class="counter__time " style="padding-right:30px;">
+						<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/selectLocation/<?php echo $data['domain_id']; ?>">  <div class="counter__time " style="padding-right:30px;">
                                 <span style="background: black;
     border: 1px solid #ffffff;
 	border-radius:3px;
@@ -129,16 +129,16 @@
             </div>
         </div> <!-- s-intro__content -->
 <div class="s-intro__notify">
- 	  <a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
+ 	  <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/howItWorks/<?php echo $data['domain_id']; ?>">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
               Why use us
             </button></a>
 			
 			 
 			
-			 <a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/brokers/<?php echo $data['domain_id']; ?>">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
+			 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/UserCompanySignUp/brokers/<?php echo $data['domain_id']; ?>">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
               For brokers</button></a>
 			  
-			  			 <a href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
+			  			 <a href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/emailLogin">   <button type="button" class="btn--stroke btn--small" fdprocessedid="0adb7c" style="padding:0px 20px; 0px;">
              Sign in</button></a>
         </div>
 

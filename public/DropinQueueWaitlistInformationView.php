@@ -25,7 +25,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 	
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="refresh" content="15;https://www.qloudid.com/public/index.php/DropinQueue/waitingInformation/<?php echo $data['lid']; ?>/<?php echo $data['id']; ?>" />
+		<meta http-equiv="refresh" content="15;https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/DropinQueue/waitingInformation/<?php echo $data['lid']; ?>/<?php echo $data['id']; ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Qmatchup</title>
 		<!-- Styles -->
@@ -86,15 +86,15 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt lang_selector" data-value="de" onclick="togglePopup();">  German  </a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/french.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Franska</a> </div>
 													</li>
 													<li>
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/spanish.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Spanska  </a> </div>
 													</li>
 													<li class="last">
-														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>/html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
+														<div class="user_pic padt5"><a href="javascript:void(0);"><img src="<?php echo $path; ?>html/usercontent/images/slide/italian.png" width="28" height="28" alt="email" title="email"></a></div>
 														<div class="mail_content padt10 "> <a href="javascript:void(0);" class="fsz14 black_txt">   Italienska </a> </div>
 													</li>
 												</ol>

@@ -375,7 +375,7 @@ if($getInformation ['profile_pic']!=null) { $filename="../estorecss/".$getInform
 			</div>
 			
 			<div class="mart20 talc">
-				<a href="https://www.qloudid.com/public/index.php/GetIdentified/verifyRequest/<?php echo $data['id']; ?>">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
+				<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/GetIdentified/verifyRequest/<?php echo $data['id']; ?>">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
 				
 			</div>
 		</div><div class="clear"></div>

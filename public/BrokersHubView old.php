@@ -13,7 +13,7 @@
      
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -207,14 +207,14 @@
             <div class="header__body js-header-body">
               <div class="header__title changedText">Notification</div>
               <div class="header__notifications"><a class="header__notification" href="#">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
                     <div class="header__date changedText">1 minute ago</div>
                     <div class="header__status" style="background-color: #3B71FE;"></div>
                   </div></a><a class="header__notification" href="message-center.html">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
@@ -310,13 +310,13 @@
 <div class="travel__slider js-slider-travel ">
 <div class="travel__gallery">
 <div class="travel__bg">
-<img srcset="https://www.qloudid.com/html/usercontent/images/account/1.svg" src="https://www.qloudid.com/html/usercontent/images/account/1.svg" class="hidden-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
-<img srcset="https://www.qloudid.com/html/usercontent/images/account/1.svg" src="https://www.qloudid.com/html/usercontent/images/account/1.svg" class="visible-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
+<img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" class="hidden-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
+<img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/account/1.svg" class="visible-xs" alt="Travel" style=" border-radius: 39px; width: 100%;">
 </div>
 <div class="travel__group hidden">
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
-<div class="travel__preview"><img class="some-icon" srcset="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://www.qloudid.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
+<div class="travel__preview"><img class="some-icon" srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1@2x.png 2x" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark" srcset="https://ui8-fleet-html.herokuapp.com/img/content/appraisal-pic-1@2x.png" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/img/content/appraisal-pic-dark-1.png" alt="Appraisal"></div>
 </div>
 </div></div></div>
 
@@ -353,7 +353,7 @@
             <div class="travel__col" style="padding-right: 0px;">
                <div class="travel__wrapper">
                   <a class="browse__card marrl8" href="#" style="width: 525px;padding: 24px;">
-                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://www.qloudid.com/html/usercontent/images/dstricts/1.avif" src="https://www.qloudid.com/html/usercontent/images/dstricts/1.avif" alt="Card" style=" height:auto;">
+                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/1.avif" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/1.avif" alt="Card" style=" height:auto;">
                      </div>
                   </a>
                </div>
@@ -371,7 +371,7 @@
             <div class="travel__col" style="padding-right: 0px;">
                <div class="travel__wrapper">
                   <a class="browse__card marrl8" href="#" style="width: 525px;padding: 24px;">
-                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://www.qloudid.com/html/usercontent/images/dstricts/2.avif" src="https://www.qloudid.com/html/usercontent/images/dstricts/2.avif" alt="Card" style=" height:auto;">
+                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/2.avif" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/2.avif" alt="Card" style=" height:auto;">
                      </div>
                   </a>
                </div>
@@ -430,7 +430,7 @@
             <div class="travel__col" style="padding-right: 0px;">
                <div class="travel__wrapper">
                   <a class="browse__card marrl8" href="#" style="width: 525px;padding: 24px;">
-                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://www.qloudid.com/html/usercontent/images/dstricts/3.avif" src="https://www.qloudid.com/html/usercontent/images/dstricts/3.avif" alt="Card" style=" height:auto;">
+                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/3.avif" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/3.avif" alt="Card" style=" height:auto;">
                      </div>
                   </a>
                </div>
@@ -624,7 +624,7 @@
             <div class="travel__col" style="padding-right: 0px;">
                <div class="travel__wrapper">
                   <a class="browse__card marrl8" href="#" style="width: 525px;padding: 24px;">
-                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://www.qloudid.com/html/usercontent/images/dstricts/4.avif" src="https://www.qloudid.com/html/usercontent/images/dstricts/4.avif" alt="Card" style=" height:auto;">
+                     <div class="browse__preview" style="/* height: 370px; */border-radius: 12px;margin-bottom: 0px;   "><img srcset="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/4.avif" src="https://safeqloud-228cbc38a2be.herokuapp.com/html/usercontent/images/dstricts/4.avif" alt="Card" style=" height:auto;">
                      </div>
                   </a>
                </div>
@@ -820,20 +820,20 @@
 </div>
 </div>
 <!-- scripts-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-<!--<script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>-->
-<script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-<script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/slick.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/share-buttons.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+<!--<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/nouislider.min.js"></script>-->
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/wNumb.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/moment.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/demo.js"></script>
+<script src="https://safeqloud-228cbc38a2be.herokuapp.com/html/fleet/js/app.js"></script>
  
 <!-- svg sprite-->
 <div style="display: none"><svg width="0" height="0">

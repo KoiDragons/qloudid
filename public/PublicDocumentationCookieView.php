@@ -50,7 +50,7 @@
  	  
     <div class="outer">
     <header class="header js-header authorization xs-padt24" style="border-bottom: 1px solid #e6e8ec; height:93px;">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount" style="
     background-color: #3B71FE;
     padding: 10px;
     color: white;
@@ -89,7 +89,7 @@
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
@@ -100,7 +100,7 @@
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; box-shadow: 0 0 0 0;">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://safeqloud-228cbc38a2be.herokuapp.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; box-shadow: 0 0 0 0;">Sign in</a>
 			
 </div>
 
@@ -167,11 +167,11 @@
               <div class="faq__col" style="
     width: 200px;
 ">
-<div class="faq__nav"><a class="faq__link " href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/privacy" style="font-size:18px;">
+<div class="faq__nav"><a class="faq__link " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/privacy" style="font-size:18px;">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg>Privacy</a>
-					<a class="faq__link  " href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/terms" style="font-size:18px;">
+					<a class="faq__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/terms" style="font-size:18px;">
 <svg class="icon icon-circle-and-square">
 <use xlink:href="#icon-circle-and-square"></use>
 </svg>Terms of use</a>
@@ -179,7 +179,7 @@
 <svg class="icon icon-lightning">
 <use xlink:href="#icon-lightning"></use>
 </svg>Cookie</a>
-					<a class="faq__link " href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/codeofConduct" style="font-size:18px;">
+					<a class="faq__link " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/codeofConduct" style="font-size:18px;">
 <svg class="icon icon-lightning">
 <use xlink:href="#icon-lightning"></use>
 </svg>Code of conduct</a>
@@ -200,12 +200,12 @@
 
 
 <p class="   fsz16" style=" font-size:18px; word-wrap: break-word;">First of developer need a user account on Qloudid and he must be a employee of the company on Qloudid for the company he want to generate API URL. Then he needs to go to </p>
- <p class="fsz16" style=" font-size:18px; word-wrap: break-word;">https://www.qloudid.com/company/index.php/AppsList/appsAccount/"Company_id" </p>
+ <p class="fsz16" style=" font-size:18px; word-wrap: break-word;">https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/AppsList/appsAccount/"Company_id" </p>
 
 <p class=" padt10  padb0" style="padding-bottom:20px;  font-size:18px; word-wrap: break-word;"><strong>if developer already have a developer account he will see list of API's created or he will be asked to request a developer account. After approval of suport team he can continue with following </strong></p>
 <ul class=" fsz16 brdb_new martb0 padb10 padl20 xs-tall ">
 <li class="first">If he want to generate new client id he can click on + and go to :</li>
-<li>https://www.qloudid.com/company/index.php/CreateApps/appsAccount/"Company_id" </li>
+<li>https://safeqloud-228cbc38a2be.herokuapp.com/company/index.php/CreateApps/appsAccount/"Company_id" </li>
 <li>Here he can select which API URL he wants to generate. App name here must be unique i.e. not used by other user or company. Redirect URL is the one where developer wants to redirect after login that he have selected will be completed.</li>
 <li>After submitting the data a new Client id and password will be generated for developer and a tiny URL will be provided to him that he can use on their domain to login with Qloudid.</li>
 <li>When a user want to login on their web they click on Login button like here. Here user need to provide the API generated for the login</li>
@@ -214,13 +214,13 @@
 <li>After successful login if user is employee for more than one company we ask him to select one profile by which he want to be logged in else he is logged in as a user. </li>
 <li>After successful submission of profile user is redirected to added URL</li>
 <li>On qmathup for now we are redirecting on : http://www.qmatchup.com/beta/user/index.php/LoginAccount/loginQloud </li>
-<li>From Qmatchup user need to send request to https://www.qloudid.com/walk/token.php using client id and secret key to generate access token.</li>
+<li>From Qmatchup user need to send request to https://safeqloud-228cbc38a2be.herokuapp.com/walk/token.php using client id and secret key to generate access token.</li>
 <li>Following details are required in request:
 <ul>
 <li class="first">$fields = ['grant_type'=&gt;'authorization_code','code' =&gt; $_GET['code'],'client_id'=&gt;$username, 'client_secret'=&gt;$password] here username is client id and password id secret key</li>
 <li class="last">$headers = array('PHP_AUTH_USER' =&gt; 'username' , 'PHP_AUTH_PW' =&gt; 'password'); here username is client id and password id secret key</li>
 </ul>
-</li><li> As soon as access tokan is received on qmatchup side they need to send the same to https://www.qloudid.com/walk/resource.php?login=1 using curl request</li>
+</li><li> As soon as access tokan is received on qmatchup side they need to send the same to https://safeqloud-228cbc38a2be.herokuapp.com/walk/resource.php?login=1 using curl request</li>
 <li>Here on this Qmatchup is rechecking before they make user logged that if user is not making a cheat and opening URL directly. So they re-verify from their client id and password and user detail from Qloudid.</li>
 <li>This is two way handshaking process used on Qmatchup and Qloudid domain. So they can verify user login securely. Other domains using our API can work as per their requirement they can use two way handshaking or can make user logged in directly after receiving data from Qloudid.</li>
 <li>Data will be sent in json and if user have selected company he will receive data as : {"type":"login","first_name":"Ram","last_name":"kumar","email":"x@x.com",

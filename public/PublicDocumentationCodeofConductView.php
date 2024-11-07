@@ -217,15 +217,15 @@ Members. In order to work with </div>
 <div class="faq__col" style="
     width: 200px;
 ">
-<div class="faq__nav"><a class="faq__link " href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/privacy" style="font-size:18px;">
+<div class="faq__nav"><a class="faq__link " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/privacy" style="font-size:18px;">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg>Privacy</a>
-					<a class="faq__link  " href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/terms" style="font-size:18px;">
+					<a class="faq__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/terms" style="font-size:18px;">
 <svg class="icon icon-circle-and-square">
 <use xlink:href="#icon-circle-and-square"></use>
 </svg>Terms of use</a>
-					<a class="faq__link  " href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/cookie" style="font-size:18px;">
+					<a class="faq__link  " href="https://safeqloud-228cbc38a2be.herokuapp.com/public/index.php/PublicDocumentationSoftware/cookie" style="font-size:18px;">
 <svg class="icon icon-lightning">
 <use xlink:href="#icon-lightning"></use>
 </svg>Cookie</a>
