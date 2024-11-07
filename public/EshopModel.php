@@ -1557,7 +1557,7 @@
 		$fields = ['grant_type'=>'authorization_code','code' => $_GET['code'],'client_id'=>$username, 'client_secret'=>$password];
 		 
 		$headers = array('PHP_AUTH_USER' => $username , 'PHP_AUTH_PW' => $password);
-		$url='http://www.qloudid.com/walk/token.php';
+		$url='http://www.safeqloud.com/walk/token.php';
 		 
 		 $curl = curl_init();
 

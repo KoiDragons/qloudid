@@ -75,7 +75,7 @@
 				<div class="wi_100 xs-hei_40p hei_65p pos_fix padtb5 padrl10">
 					
 						<div class="logo marr15 wi_140p xs-wi_80p xxxs-wi_140p">
-				<a href="https://www.qloudid.com"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 padt5 xxxs-padt20 xs-padt10" style="width: 50px;">

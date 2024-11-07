@@ -87,7 +87,7 @@ class PublicCorporateUserSignUpModel extends AppModel
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -126,7 +126,7 @@ class PublicCorporateUserSignUpModel extends AppModel
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Success</h1>
                                                             </div>

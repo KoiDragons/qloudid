@@ -2534,7 +2534,7 @@
 			while($row = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['image_path'].'.jpg' );
-			$row['image_path1']=str_replace('../','qloudid.com/',$row['image_path1']);
+			$row['image_path1']=str_replace('../','safeqloud.com/',$row['image_path1']);
 			array_push($org,$row);
 			}
 			return $org;
@@ -2557,7 +2557,7 @@
 			while($row = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['image_path'].'.jpg' );
-			$row['image_path1']=str_replace('../','qloudid.com/',$row['image_path1']);
+			$row['image_path1']=str_replace('../','safeqloud.com/',$row['image_path1']);
 			array_push($org,$row);
 			}
 			return $org;

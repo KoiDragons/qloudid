@@ -268,7 +268,7 @@ function empSearch(link)
 			<div class="column_m header xs-hei_55p  bs_bb  " style="background-color:<?php if($corporateColor['bg_color']=="" || $corporateColor['bg_color']==null) echo "#f5f5f5"; else echo $corporateColor['bg_color']; ?>">
 				<div class="wi_100 xs-hei_55p hei_65p pos_fix padtb5 padrl10 " style="background-color:<?php if($corporateColor['bg_color']=="" || $corporateColor['bg_color']==null) echo "#f5f5f5"; else echo $corporateColor['bg_color']; ?>" >
 					<div class="logo  marr15 wi_140p xs-wi_80p hidden-xs hidden-sm visible-xxs">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 					</div>
 					<div class="visible-xs visible-sm fleft padrl10">
 							<div class="flag_top_menu flefti  padb10 " style="width: 70px; padding : 10px 0 0 0;">

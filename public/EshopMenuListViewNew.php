@@ -245,7 +245,7 @@
 				<?php foreach($value['dishes'] as $category => $value2) 
 												{   ?>
 				<a class="browse__card" href="../productInformation/<?php echo $data['cid']; ?>/<?php echo $value2['enc']; ?>">
-                                      <div class="browse__preview" style="background-color:#353535;"><img srcSet="https://qloudid.com/<?php echo str_replace('../','',$value2['dish_image']);?>?h=196" src="<?php echo $value2['dish_image'];?>" alt="Card">
+                                      <div class="browse__preview" style="background-color:#353535;"><img srcSet="https://safeqloud.com/<?php echo str_replace('../','',$value2['dish_image']);?>?h=196" src="<?php echo $value2['dish_image'];?>" alt="Card">
                                         <div class="status-black browse__category">20% off</div>
                                       </div>
                                       <div class="browse__subtitle"><?php echo $value2['dish_name'];?></div>

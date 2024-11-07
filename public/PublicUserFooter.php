@@ -33,7 +33,7 @@
 						<div class="wi_20 marb40">
 							<h3 class="marb20 pad0 uppercase letspc_15 bold fsz14 txt_787e89">Help</h3>
 							<ul class="mar0 pad0 fsz14">
-								<li class="dblock lgn_hight_35"><a href="https://support.qloudid.com" class="txt_787e89">Help Center</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://support.safeqloud.com" class="txt_787e89">Help Center</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Status</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">FAQs</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Chat</a></li>

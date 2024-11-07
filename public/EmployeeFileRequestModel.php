@@ -24,7 +24,7 @@
 					$file = file_get_contents('uploads/employee_csv/'.$micro.''.$_FILES["file1"]["name"], FILE_USE_INCLUDE_PATH);
 					$emails = explode("\n" , $file);
 					$file_a='/uploads/employee_csv/'.$micro.''.$_FILES["file1"]["name"];
-					$file_address='https://qloudid.com/public/'.$file_a;
+					$file_address='https://safeqloud.com/public/'.$file_a;
 					$file_a= str_replace('\\', '/', getcwd().$file_a);
 					 
 					$file_e=encrypt_decrypt('encrypt',$file_a);

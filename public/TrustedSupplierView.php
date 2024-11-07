@@ -47,7 +47,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15">
-					<a href="https://www.qloudid.com"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloudid</h3></a>
+					<a href="https://www.safeqloud.com"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloudid</h3></a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10">
 					<div class="languages">

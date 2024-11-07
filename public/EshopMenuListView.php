@@ -317,7 +317,7 @@ img {vertical-align: middle;}
 <div class="_3BTBTVOM" data-test-target="hero-gallery">
 <div class="_2tXernB8">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://ajfkzjyzgp.cloudimg.io/v7/qloudid.com/<?php echo str_replace('../','',$businessImageDetail['big_image_path']); ?>&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://ajfkzjyzgp.cloudimg.io/v7/safeqloud.com/<?php echo str_replace('../','',$businessImageDetail['big_image_path']); ?>&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
@@ -325,13 +325,13 @@ img {vertical-align: middle;}
 <div class="OI7TZU7N">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
  
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://ajfkzjyzgp.cloudimg.io/v7/qloudid.com/<?php echo str_replace('../','',$businessImageDetail['small_image1_path']); ?>&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://ajfkzjyzgp.cloudimg.io/v7/safeqloud.com/<?php echo str_replace('../','',$businessImageDetail['small_image1_path']); ?>&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
 <div class="_2busJ7MM">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://ajfkzjyzgp.cloudimg.io/v7/qloudid.com/<?php echo str_replace('../','',$businessImageDetail['small_image2_path']); ?>&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://ajfkzjyzgp.cloudimg.io/v7/safeqloud.com/<?php echo str_replace('../','',$businessImageDetail['small_image2_path']); ?>&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
@@ -427,7 +427,7 @@ img {vertical-align: middle;}
                                           <div class="twZ4uihZ"></div>
                                           <div class="_1tZwxF4- _3Wt7gged">
 									<!--	style="background-image: url(&quot;<?php echo $value2['dish_image']; ?>&quot;); background-size: cover; height: 100%; width: 100%;"-->
-                                             <img class="ZVAUHZqh" ci-src="https://qloudid.com/<?php echo str_replace('../','',$value2['dish_image']);?>?h=196" /></div>
+                                             <img class="ZVAUHZqh" ci-src="https://safeqloud.com/<?php echo str_replace('../','',$value2['dish_image']);?>?h=196" /></div>
                                           
                                        </div>
                                     </div>

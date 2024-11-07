@@ -365,7 +365,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 					<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -408,7 +408,7 @@
 				<div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"> <a href="https://www.qloudid.com" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h " data-en="Privat" data-sw="Privat">Privat</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"> <a href="https://www.safeqloud.com" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h " data-en="Privat" data-sw="Privat">Privat</a> </li>
 						
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/public/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/public/index.php/PublicNews"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Partners" data-sw="Partners">Partners</a> </li>

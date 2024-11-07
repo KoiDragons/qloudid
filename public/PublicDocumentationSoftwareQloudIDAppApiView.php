@@ -217,7 +217,7 @@
 
 
 <p class="   fsz16" style="font-size:18px; word-wrap: break-word;">We have an hybrid app that runs on iOS and android both plateforms. If we want to wake Qloud ID app from adroid plateform app we need to hit following url from our app (for now we have developed this for WORQ)</p>
- <p class="    fsz16" style="font-size:18px; word-wrap: break-word;"> https://qloudid.com</p>
+ <p class="    fsz16" style="font-size:18px; word-wrap: break-word;"> https://safeqloud.com</p>
 
 <p class="  padt10  padb0" style="font-size:18px; word-wrap: break-word; padding-bottom:20px;"><strong>If we are using iOS platefporm we need to hit :- com.Qloudid.Url to wake Qloud ID app</strong></p>
 <ul class="  fsz16   martb0 padb20 padl20 xs-tall ">

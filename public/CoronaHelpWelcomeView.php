@@ -177,7 +177,7 @@
 			</div>
 			<div class="fright xs-dnone visible_si padt10 hidden">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="http://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+						<li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="http://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 					</ul>
 				</div>
 			<!--sf-js-enabled sf-arrows hidden-xs-->

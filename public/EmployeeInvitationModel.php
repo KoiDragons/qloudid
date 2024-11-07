@@ -52,7 +52,7 @@
 			
 			 if(empty($rowCompany))
 			 {
-			$_POST['company_email']=$_POST['cid'].'.'.$row_country['country_code'].'@qloudid.com';
+			$_POST['company_email']=$_POST['cid'].'.'.$row_country['country_code'].'@safeqloud.com';
 			$email=$_POST['company_email'];
 			$_POST['adrs1']=$_POST['daddress'];
 			$_POST['port_number']=$_POST['d_port_number'];
@@ -282,7 +282,7 @@
 				$fields['country_name']=$row_country['country_name'];
 				$fields['property_id_qloud']=$property_id;
 				$fields['company_email']=$email;
-				$fields['web']='www.qloudid.com';
+				$fields['web']='www.safeqloud.com';
 				$fields['user_email']=$userrow['email'];
 				$fields['is_admin']=$user_admin;
 				$fields['hash_code']=$hash_code;
@@ -732,7 +732,7 @@
                                                             </tr>
                                                         </tbody>
                                                     </table>
-                                                    <div style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;margin-top:0px;margin-bottom:0px">Visit our website at<span>&nbsp;</span><a href="#" rel="noreferrer" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;text-decoration:underline!important" target="_blank" data-saferedirecturl="#">https://www.qloudid.com</a></div>
+                                                    <div style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;margin-top:0px;margin-bottom:0px">Visit our website at<span>&nbsp;</span><a href="#" rel="noreferrer" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;text-decoration:underline!important" target="_blank" data-saferedirecturl="#">https://www.safeqloud.com</a></div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -988,7 +988,7 @@
                                                             </tr>
                                                         </tbody>
                                                     </table>
-                                                    <div style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;margin-top:0px;margin-bottom:0px">Visit our website at<span>&nbsp;</span><a href="#" rel="noreferrer" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;text-decoration:underline!important" target="_blank" data-saferedirecturl="#">https://www.qloudid.com</a></div>
+                                                    <div style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;margin-top:0px;margin-bottom:0px">Visit our website at<span>&nbsp;</span><a href="#" rel="noreferrer" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:white;font-weight:normal;font-size:16px;line-height:25px;text-decoration:underline!important" target="_blank" data-saferedirecturl="#">https://www.safeqloud.com</a></div>
                                                 </td>
                                             </tr>
                                         </tbody>

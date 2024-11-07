@@ -303,7 +303,7 @@ box-shadow: 0 0 0 0;">
 </div>
 
 
-<a class="visible-xs hidden" style="text-decoration:none !important;" href="https://qloudid.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['domain_id']; ?>/pickapro3_xxxx" id="android">
+<a class="visible-xs hidden" style="text-decoration:none !important;" href="https://safeqloud.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['domain_id']; ?>/pickapro3_xxxx" id="android">
 <div class="receipt__description talc marrla " style="
     background: #101010;
     border-radius: 50px;
@@ -342,7 +342,7 @@ box-shadow: 0 0 0 0;">
 <use xlink:href="#icon-bag"></use>
 </svg></a>
 				
-				<a class="button receipt__button hidden" href="https://qloudid.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['domain_id']; ?>/pickapro3_xxxx" id="android"><span>Shop online</span>
+				<a class="button receipt__button hidden" href="https://safeqloud.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['domain_id']; ?>/pickapro3_xxxx" id="android"><span>Shop online</span>
 <svg class="icon icon-bag">
 <use xlink:href="#icon-bag"></use>
 </svg></a>

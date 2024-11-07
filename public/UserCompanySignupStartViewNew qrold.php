@@ -480,7 +480,7 @@ box-shadow: 0 0 0 0;
 <use xlink:href="#icon-bag"></use>
 </svg></a>
 				
-				<a class="button receipt__button visible-xs hidden" href="https://qloudid.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['domain_id']; ?>/pickapro2_xxxx" id="android"><span class="changedText">Open Qloud ID App</span>
+				<a class="button receipt__button visible-xs hidden" href="https://safeqloud.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['domain_id']; ?>/pickapro2_xxxx" id="android"><span class="changedText">Open Qloud ID App</span>
 <svg class="icon icon-bag">
 <use xlink:href="#icon-bag"></use>
 </svg></a>

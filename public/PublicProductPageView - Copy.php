@@ -110,7 +110,7 @@
 		<div class="wi_100 hei_65p  pos_fix padtb5 padrl10 white_bg">
 			
 			<div class="logo marr15 wi_140p xs-wi_80p xxxs-wi_140p">
-				<a href="https://www.qloudid.com"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 padt5 xxxs-padt20 xm-padt10" style="width: 50px;">
@@ -220,7 +220,7 @@
 		
 		<div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="menulist sf-menu fsz16 black_txt">
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.qloudid.com" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Privat</a></li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.safeqloud.com" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Privat</a></li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.safeqloud.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue ">

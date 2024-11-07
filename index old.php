@@ -1,4 +1,4 @@
-<?php header("location:https://www.qloudid.com/public/index.php/ExploreQloudID"); ?>
+<?php header("location:https://www.safeqloud.com/public/index.php/ExploreQloudID"); ?>
 <html>
 	<head>
 		
@@ -62,9 +62,9 @@
 				
 				<div class="fright xs-dnone sm-dnone">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel "> <a href="http://www.qloudid.com/user/index.php/PublicAboutQmatchup" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Om oss">Om Oss</a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel "> <a href="http://www.qloudid.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="För företag">För företag</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="http://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h bg_f80 " data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel "> <a href="http://www.safeqloud.com/user/index.php/PublicAboutQmatchup" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Om oss">Om Oss</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel "> <a href="http://www.safeqloud.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="För företag">För företag</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="http://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h bg_f80 " data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart2">
@@ -302,7 +302,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="http://www.qloudid.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Login</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="http://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Login</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div><div class="clear"></div>

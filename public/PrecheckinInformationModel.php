@@ -76,7 +76,7 @@ class PrecheckinInformationModel extends AppModel
 			if($data['is_ssn_available']==1)
 			{
 				$_POST['social_number']=$_POST['social_number'];
-				$email=$_POST['social_number'].'@qloudid.com';
+				$email=$_POST['social_number'].'@safeqloud.com';
 			}
 			else
 			{

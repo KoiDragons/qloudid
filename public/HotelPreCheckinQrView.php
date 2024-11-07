@@ -138,7 +138,7 @@
 							
 							 <div class="padt20 xxs-talc talc visible-xs  hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/precheckin/<?php echo $data['id']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Pre checkin</button></a>
+								<a href="https://safeqloud.com/ip/precheckin/<?php echo $data['id']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Pre checkin</button></a>
 								
 							</div>
 						    

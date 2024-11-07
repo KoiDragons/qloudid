@@ -58,7 +58,7 @@
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 " href="https://www.qloudid.com" style="
+<a class="header__logo xs-fsz20 " href="https://www.safeqloud.com" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;

@@ -402,7 +402,7 @@
 	<div class="column_m header xs-hei_55p  bs_bb  lgtgrey2_bg xs-white_bg" id="headerData" >
 				<div class="wi_100 xs-hei_55p hei_65p pos_fix padtb5 padrl10 lgtgrey2_bg xs-white_bg" >
 					<div class="logo  marr15 wi_140p xs-wi_80p hidden-xs hidden-sm visible-xxs">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10 ffamily_avenir"  >Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10 ffamily_avenir"  >Qloud ID</h3> </a>
 					</div>
 					<div class="visible-xs visible-sm fleft padr10">
 							<div class="flag_top_menu flefti  padb10 " style="width: 70px; padding : 10px 0 0 0;">

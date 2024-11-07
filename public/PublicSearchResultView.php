@@ -42,7 +42,7 @@ function submitForm()
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15">
-				<a href="https://www.qloudid.com"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+				<a href="https://www.safeqloud.com"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
 			</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr30">
 				<div class="languages">

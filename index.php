@@ -1,3 +1,3 @@
 <?php 
-header('location:/public/index.php/ApplyNow');
+header('location:/public/index.php/ExploreQloudID');
 ?>
