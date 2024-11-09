@@ -44,7 +44,7 @@
 			$to      = $_POST['memail'];
 			$subject = "Qloudid : Request to become a Board Member";
 						
-			$emailContent ='You are invited to become a board member. Please Sign up <a href="https://www.qloudid.com/user/index.php/CreateAccount">here</a> to check the request.';
+			$emailContent ='You are invited to become a board member. Please Sign up <a href="https://www.safeqloud.com/user/index.php/CreateAccount">here</a> to check the request.';
 			sendEmail($subject, $to, $emailContent);	
 			
 			$stmt = $dbCon->prepare("select country_code from phone_country_code  where country_name=(select country_name from country where id=?)");
@@ -56,7 +56,7 @@
 			$row_phone = $result->fetch_assoc();
 			$to = '+'.trim($row_phone['country_code']).''.trim($_POST['pnumber']);
 			$subject       = "Connect request received!";
-			$url="https://www.qloudid.com/user/index.php/CreateAccount";
+			$url="https://www.safeqloud.com/user/index.php/CreateAccount";
 			$surl=getShortUrl($url);
 			$emailContent ='You are invited to become a board member. Please Sign up '.$surl.' to check the request.';
 			$res=sendSms($subject, $to, $emailContent);
@@ -67,7 +67,7 @@
 			$to      = $_POST['memail'];
 			$subject = "Qloudid : Request to become a Board Member";
 						
-			$emailContent ='You are invited to become a board member. Please click <a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow">here</a> to check the request.';
+			$emailContent ='You are invited to become a board member. Please click <a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow">here</a> to check the request.';
 			sendEmail($subject, $to, $emailContent);	
 			
 			$stmt = $dbCon->prepare("select country_code from phone_country_code  where country_name=(select country_name from country where id=?)");
@@ -79,7 +79,7 @@
 			$row_phone = $result->fetch_assoc();
 			$to = '+'.trim($row_phone['country_code']).''.trim($_POST['pnumber']);
 			$subject       = "Connect request received!";
-			$url="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow";
+			$url="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow";
 			$surl=getShortUrl($url);
 			$emailContent ='You are invited to become a board member. Please check on '.$surl.' to check the request.';
 			$res=sendSms($subject, $to, $emailContent);

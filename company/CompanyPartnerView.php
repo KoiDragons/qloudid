@@ -175,7 +175,7 @@
 						success: function(data1){
 							if(data1==1)
 							{
-								window.location.href ="https://www.qloudid.com/company/index.php/CompanyPartner/partnerInfo/<?php echo $data['cid']; ?>";
+								window.location.href ="https://www.safeqloud.com/company/index.php/CompanyPartner/partnerInfo/<?php echo $data['cid']; ?>";
 							}
 							else
 							{
@@ -354,7 +354,7 @@
 												
 												<div class="dflex xs-dblock fxwrap_w padb0 xs-padt0 xs-padb0">
 													<div class="wi_50 xs-wi_100 order_2 padrl10">
-														<img src="https://www.qloudid.com/html/smartappcss/images/smart/design-1.png" width="642" height="439" class="maxwi_100 hei_auto">
+														<img src="https://www.safeqloud.com/html/smartappcss/images/smart/design-1.png" width="642" height="439" class="maxwi_100 hei_auto">
 													</div>
 													<div class="wi_50 xs-wi_100 padtb0 sm-padtb55 md-padtb70 lg-padtb90 padr20 txt_708198">
 														<h2 class="bold marb20 pad0 tall xs-talc fntwei_300 fsz55 sm-fsz32 md-fsz36 lg-fsz40 black_txt xs-fsz30">Upp till 70% billigare inköp<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla black_bg"></div>

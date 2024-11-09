@@ -358,7 +358,7 @@ function checkFlag()
 										<div class="xs-wi_100 sm-wi_33 xsip-wi_33 wi_33 fleft bs_bb padrb20 talc hidden-xs ">
 													<div class="toggle-parent wi_100 dflex alit_s" >
 														<div class="wi_100 dnone_pa ">
-															<a href="https://www.qloudid.com/company/index.php/Community/listSociety/<?php echo $data['cid']; ?>" class="style_base hei_210p dblock bs_bb pad20 brd brdclr_seggreen_h brdrad5 lgtgrey2_bg_h  box_shadow">
+															<a href="https://www.safeqloud.com/company/index.php/Community/listSociety/<?php echo $data['cid']; ?>" class="style_base hei_210p dblock bs_bb pad20 brd brdclr_seggreen_h brdrad5 lgtgrey2_bg_h  box_shadow">
 																<div class=" ">
 																	<div class="wi_100 hei_90p dflex bs_bb padrl40">
 																		<span class="dblock wi_100 maxwi_100p fsz30 maxhei_100p padtb5"><span class="fa-stack ">
@@ -384,7 +384,7 @@ function checkFlag()
 												</div>
 												
 												
-												<a href="https://www.qloudid.com/company/index.php/Community/listSociety/<?php echo $data['cid']; ?>">
+												<a href="https://www.safeqloud.com/company/index.php/Community/listSociety/<?php echo $data['cid']; ?>">
 													<div class=" white_bg mart5  brdrad3 box_shadow bg_fffbcc_a  marb10 visible-xs "  >
 										<div class="container padtb15 padrl10 brdrad1 fsz14 dark_grey_txt">
 											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">

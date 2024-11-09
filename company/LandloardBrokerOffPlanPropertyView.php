@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,7 +53,7 @@
     
    <header class="header js-header authorization xs-padt24" style="padding: 10px !important; background:#10161d!important; /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center" style="padding:0px 15px;">
-<a class="header__logo xs-fsz25 changedText" href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" style="
+<a class="header__logo xs-fsz25 changedText" href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" style="
    
    "><img class="some-icon-dark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1010px-Apple_logo_white.svg.png?20220821122232" alt="Fleet" style="
     width: 20px;
@@ -219,14 +219,14 @@
             <div class="header__body js-header-body">
               <div class="header__title changedText">Notification</div>
               <div class="header__notifications"><a class="header__notification" href="#">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
                     <div class="header__date changedText">1 minute ago</div>
                     <div class="header__status" style="background-color: #3B71FE;"></div>
                   </div></a><a class="header__notification" href="message-center.html">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
@@ -254,7 +254,7 @@
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Wishlists</span></a></div>
                 <div class="header__menu">
-				<a class="header__link" href="https://www.qloudid.com/company/index.php/Company/companyAccount/<?php echo $data['cid']; ?>">
+				<a class="header__link" href="https://www.safeqloud.com/company/index.php/Company/companyAccount/<?php echo $data['cid']; ?>">
                     <svg class="icon icon-building">
                       <use xlink:href="#icon-building"></use>
                     </svg><span class="changedText">Company details</span></a>
@@ -265,7 +265,7 @@
               </div>
               <div class="header__btns"> 
 			  <a class="button-stroke button-small header__button changedText" href="#" style="background: #3B71FE; box-shadow: none;">Account</a>
-                <a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
+                <a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
               </div>
             </div>
           </div>
@@ -276,7 +276,7 @@
 
  <!-- outer content-->
       <div class="outer__inner   mart25">
-	  <div class="control center" style="margin-bottom:0px;  max-width: 1132px;"><a class="button-stroke button-small control__button" href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>">
+	  <div class="control center" style="margin-bottom:0px;  max-width: 1132px;"><a class="button-stroke button-small control__button" href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>">
                   <svg class="icon icon-arrow-left">
                     <use xlink:href="#icon-arrow-left"></use>
                   </svg><span>Go home</span></a>

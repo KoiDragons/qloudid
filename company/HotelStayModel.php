@@ -4081,7 +4081,7 @@
 		
 		function staffVerificationLink($data)
 		{
-			$url="https://www.qloudid.com/public/index.php/InstaBox/welcome/".$data['hotel_id'];
+			$url="https://www.safeqloud.com/public/index.php/InstaBox/welcome/".$data['hotel_id'];
 			return $surl=getShortUrl($url);
 		}
 		function hotelDetailInfo($data)

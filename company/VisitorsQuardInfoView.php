@@ -60,7 +60,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 			function changeHeader()
 			{
 				
-				window.location.href="https://www.qloudid.com/user/index.php/LoginAccountEng";
+				window.location.href="https://www.safeqloud.com/user/index.php/LoginAccountEng";
 				
 			}
 		

@@ -15,7 +15,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -26,14 +26,14 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new ManageLandloardModel();
 				$updateLandloard   = $model1->updateLandloard($data);
 				$checkPermission    = $model1->checkPermission($data);
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$companyDetail    = $model1->companyDetail($data);
 				$employeesDetail    = $model1->employeesDetail($data);
@@ -62,7 +62,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -83,7 +83,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -106,7 +106,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$path         = "../../../../";

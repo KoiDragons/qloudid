@@ -151,7 +151,7 @@ var dict = {
 						}
 						else
 							{
-							window.location.href ="https://www.qloudid.com/company/index.php/Leveranser/itemDetail/"+data1;
+							window.location.href ="https://www.safeqloud.com/company/index.php/Leveranser/itemDetail/"+data1;
 							}
 						
 						}

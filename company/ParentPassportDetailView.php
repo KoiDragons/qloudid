@@ -272,7 +272,7 @@
 						}
 						else 
 						{
-							window.location.href="https://www.qloudid.com/public/index.php/EmployeeList/companyAccount/<?php echo $data['eid']; ?>";
+							window.location.href="https://www.safeqloud.com/public/index.php/EmployeeList/companyAccount/<?php echo $data['eid']; ?>";
 						}
 					}
 				});

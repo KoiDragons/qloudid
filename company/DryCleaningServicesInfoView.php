@@ -59,7 +59,7 @@
 		}
 		function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/company/index.php/Resturant/resturantInformation/<?php echo $data['cid']; ?>";
+			window.location.href ="https://www.safeqloud.com/company/index.php/Resturant/resturantInformation/<?php echo $data['cid']; ?>";
 		}	
 		</script>
 		

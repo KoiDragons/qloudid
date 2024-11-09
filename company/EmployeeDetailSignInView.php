@@ -172,7 +172,7 @@ if( ios ) {
 							
 							 <div class="padt20 xxs-talc talc visible-xs  hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/<?php echo $verifyIP.'_'.$row_summary['enc']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="https://www.safeqloud.com/ip/<?php echo $verifyIP.'_'.$row_summary['enc']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						    

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -52,7 +52,7 @@
       <!-- header-->
    <header class="header js-header authorization xs-padt24   padtb20" style="height:93px;  /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo " href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileMarketplaceServices/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>" style="
+<a class="header__logo " href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileMarketplaceServices/<?php echo $data['cid']; ?>/<?php echo $data['domain_id']; ?>" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -208,7 +208,7 @@
 </div></a>
 
  
-			<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" class="header__item " ><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" class="header__item " ><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Employee view</button>
 
 </div></a>
@@ -226,14 +226,14 @@
             <div class="header__body js-header-body">
               <div class="header__title changedText">Notification</div>
               <div class="header__notifications"><a class="header__notification" href="#">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
                     <div class="header__date changedText">1 minute ago</div>
                     <div class="header__status" style="background-color: #3B71FE;"></div>
                   </div></a><a class="header__notification" href="message-center.html">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
@@ -256,7 +256,7 @@
                     </svg><span class="changedText">Messages</span></a><a class="header__link" href="#">
                     <svg class="icon icon-home">
                       <use xlink:href="#icon-home"></use>
-                    </svg><span class="changedText">Bookings</span></a><a class="header__link" href="https://www.qloudid.com/user/index.php/AddCompany">
+                    </svg><span class="changedText">Bookings</span></a><a class="header__link" href="https://www.safeqloud.com/user/index.php/AddCompany">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Add company</span></a></div>
@@ -270,7 +270,7 @@
               </div>
               <div class="header__btns"> 
 			  <a class="button-stroke button-small header__button changedText" href="#" style="background: #3B71FE; box-shadow: none;">Account</a>
-                <a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
+                <a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
               </div>
             </div>
           </div>
@@ -329,13 +329,13 @@
                                        
                                       <div class="changedText categories__subtitle txt_f67f00">Projects</div>
                                       </a>
-			       <a class="categories__item  bg_E7E7E7 " href="https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" style="padding: 20px; font-size:14px; border-radius:6px; "  >
+			       <a class="categories__item  bg_E7E7E7 " href="https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" style="padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91">Employee</div>
                                       </a>
 									  
 									  <?php if($data['cid']=='T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09') { ?>
-									  <a class="categories__item  bg_E7E7E7 " href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileServices/<?php echo $data['cid']; ?>" style="padding: 20px; font-size:14px; border-radius:6px; "  >
+									  <a class="categories__item  bg_E7E7E7 " href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileServices/<?php echo $data['cid']; ?>" style="padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91">Marketplaces</div>
                                       </a>

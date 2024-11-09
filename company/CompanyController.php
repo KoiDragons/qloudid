@@ -49,7 +49,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -64,7 +64,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			 
 				$model1       = new CompanyModel();
@@ -79,7 +79,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -108,7 +108,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -118,7 +118,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			//	print_r($_POST);die;
 				$model1       = new CompanyModel();
@@ -148,7 +148,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -158,7 +158,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			//	print_r($_POST);die;
 				$model1       = new CompanyModel();
@@ -172,7 +172,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -182,7 +182,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
 				$model1       = new CompanyModel();
@@ -195,7 +195,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -205,7 +205,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			 
 				$model1       = new CompanyModel();
@@ -219,7 +219,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -233,7 +233,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			 
 				$model1       = new CompanyModel();
@@ -253,7 +253,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -266,7 +266,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			//	print_r($_POST);die;
 				$model1       = new CompanyModel();
@@ -282,7 +282,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -292,7 +292,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanyModel();
 				$currencyOption    = $model1->currencyOption($data);
@@ -307,7 +307,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -317,7 +317,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanyModel();
 				$propertyInfo    = $model1->propertyInfo($data);
@@ -337,7 +337,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -347,7 +347,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanyModel();
 				$propertyInfo    = $model1->propertyInfo($data);
@@ -368,7 +368,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new CompanyModel();
 				
@@ -382,7 +382,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new CompanyModel();
 				
@@ -396,7 +396,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -406,7 +406,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanyModel();
 				$checkOpenStatus    = $model1->checkOpenStatus($data);
@@ -442,7 +442,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new CompanyModel();
 			$reportStartDay = $model1->reportStartDay($data);
@@ -455,7 +455,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -468,7 +468,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$propertyDetailInfo    = $model1->propertyDetailInfo($data);
 				$country    = $model1->countryNames($data);
@@ -497,7 +497,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -510,7 +510,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 				$employeeInformation    = $model1->employeeInformation($data);
@@ -534,7 +534,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['lid']=cleanMe($co);
@@ -867,7 +867,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -877,7 +877,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanyModel();
 				$resultContry    = $model1->userCountryList($data);
@@ -914,7 +914,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -924,7 +924,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanyModel();
 				$resultContry    = $model1->userCountryList($data);
@@ -961,7 +961,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -972,7 +972,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				
@@ -1029,7 +1029,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1042,7 +1042,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				//$visitorsDetailRegularAppointmentToday    = $model->visitorsDetailRegularAppointmentToday($data);
@@ -1090,7 +1090,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -1102,7 +1102,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				$companyDetail    = $model->companyDetail($data);
@@ -1140,7 +1140,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1153,7 +1153,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				$companyDetail    = $model->companyDetail($data);
@@ -1199,7 +1199,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1212,7 +1212,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				$companyDetail    = $model->companyDetail($data);
@@ -1260,7 +1260,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1273,7 +1273,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				$companyDetail    = $model->companyDetail($data);
@@ -1313,7 +1313,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1326,7 +1326,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				$companyDetail    = $model->companyDetail($data);
@@ -1364,7 +1364,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -1376,7 +1376,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				//$visitorsDetailRegularAppointmentToday    = $model->visitorsDetailRegularAppointmentToday($data);
@@ -1415,7 +1415,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1427,7 +1427,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new CompanyModel();
 				//$visitorsDetailRegularAppointmentToday    = $model->visitorsDetailRegularAppointmentToday($data);
@@ -1548,7 +1548,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$data['user_id']=$_SESSION['user_id'];
@@ -1565,7 +1565,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$data['user_id']=$_SESSION['user_id'];
@@ -1616,7 +1616,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($co);
@@ -1632,7 +1632,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($co);
@@ -1648,7 +1648,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($co);
@@ -1664,7 +1664,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($co);
@@ -1680,7 +1680,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				
@@ -1698,7 +1698,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($co);
@@ -1714,7 +1714,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($co);
@@ -1730,7 +1730,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($c);
@@ -1748,7 +1748,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['lid']=cleanMe($c);
@@ -1767,7 +1767,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($c);
@@ -1785,7 +1785,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path="../../../";
 				$model = new CompanyModel();
@@ -1804,7 +1804,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path="../../../";
 				$model = new CompanyModel();
@@ -1822,7 +1822,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path="../../../";
 				$model = new CompanyModel();
@@ -1841,7 +1841,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path="../../../";
 				$model = new CompanyModel();

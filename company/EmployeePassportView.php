@@ -62,7 +62,7 @@
 					<!-- Tab header -->
 					<ul class="dflex alit_s justc_c mar0 pad0" style="justify-content: left;">
 					<li class="dflex alself_fs marrl10 padrl5" style="height:93px;">
-							<a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="minwi_80p dblock  brdb brdwi_3 brdclr_trans brdclr_pblue2_h brdclr_pblue2_a talc fsz14 fsz15_a black_txt pblue2_txt_a pad10"><div class="dflex alit_c pos_rel padr20">
+							<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="minwi_80p dblock  brdb brdwi_3 brdclr_trans brdclr_pblue2_h brdclr_pblue2_a talc fsz14 fsz15_a black_txt pblue2_txt_a pad10"><div class="dflex alit_c pos_rel padr20">
 							
 								<span class="active fa fa-undo hei_75p dflex alit_c justc_c talc  black_txt pblue2_txt_ph pblue2_txt_pa mar10" style="font-size: 40px;"></span>
 								<div class="padl10">

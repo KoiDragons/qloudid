@@ -72,7 +72,7 @@
 					$path = "../../../";
 					require_once('../configs/testMandril.php');
 					$resultPass = $model->sendCreateCompanyEmail($data);
-					header("location:https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow");
+					header("location:https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow");
 				}
 				
 			}

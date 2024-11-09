@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,7 +53,7 @@
 				<div class="wi_100 hei_45p xs-pos_fix padt0 padrl10 black_bg" style="background:#ffe500 !important">
 				
 				 
-			<a href="https://www.qloudid.com/user/index.php/StoreData/identificatorInfo"> <div class=" talc   padt10 padb0 hei_45p black_txt">
+			<a href="https://www.safeqloud.com/user/index.php/StoreData/identificatorInfo"> <div class=" talc   padt10 padb0 hei_45p black_txt">
 					Upload Identificator
 				</div></a>
 			 
@@ -66,7 +66,7 @@
 
 <header class="header js-header authorization xs-padt24   padtb20" style="height:93px;  /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount/selectEmployer" style="
+<a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/user/index.php/LoginAccount/selectEmployer" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -81,7 +81,7 @@
 
 <div class="header__body js-header-body">
 <div class="header__menu"> 
-<a class="header__link" href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout">
+<a class="header__link" href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Logout</a></div>
@@ -231,7 +231,7 @@
 
 </div></a>
 
-<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/Z0lYVncrYmRSZm5BSkJBaVhtN1dPUT09" class="header_item " style="margin-left:0px;"><div class="header_item_language js-header-item" style="border-left: 0px solid !important;">
+<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/Z0lYVncrYmRSZm5BSkJBaVhtN1dPUT09" class="header_item " style="margin-left:0px;"><div class="header_item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Setup</button>
 
 </div></a>
@@ -257,14 +257,14 @@
             <div class="header__body js-header-body">
               <div class="header__title changedText">Notification</div>
               <div class="header__notifications"><a class="header__notification" href="#">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
                     <div class="header__date changedText">1 minute ago</div>
                     <div class="header__status" style="background-color: #3B71FE;"></div>
                   </div></a><a class="header__notification" href="message-center.html">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
@@ -292,7 +292,7 @@
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Wishlists</span></a></div>
                 <div class="header__menu">
-				<a class="header__link" href="https://www.qloudid.com/company/index.php/Company/companyAccount/<?php echo $data['cid']; ?>">
+				<a class="header__link" href="https://www.safeqloud.com/company/index.php/Company/companyAccount/<?php echo $data['cid']; ?>">
                     <svg class="icon icon-building">
                       <use xlink:href="#icon-building"></use>
                     </svg><span class="changedText">Company details</span></a>
@@ -303,7 +303,7 @@
               </div>
               <div class="header__btns"> 
 			  <a class="button-stroke button-small header__button changedText" href="#" style="background: #3B71FE; box-shadow: none;">Account</a>
-                <a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
+                <a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
               </div>
             </div>
           </div>
@@ -408,7 +408,7 @@
 <div class="gallery__preview  ">
 <a class="gallery__view" href="<?php echo $path; ?>html/usercontent/images/bg/ipropose.jpeg" data-fancybox="gallery1" data-caption="Spectacular views of Queenstown"><img src="<?php echo $path; ?>html/usercontent/images/bg/ipropose.jpeg" alt="Gallery"  style="border-radius: 6px;"></a>
 
-<a class="button-white button-small gallery__button xs-marl105 marl500 xs-marb20" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
+<a class="button-white button-small gallery__button xs-marl105 marl500 xs-marb20" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
  <span>Try for free</span></a></div>
  
 </div>
@@ -416,20 +416,20 @@
 <div class="gallery xs-mar0">
 <div class="gallery__list gallery__list_tour xs-mar0">
 <div class="gallery__preview">
-<a class="gallery__view" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>"  data-caption="Spectacular views of Queenstown"><img src="<?php echo $path; ?>html/usercontent/images/bg/ipropose.jpeg" alt="Gallery" style=""></a>
-<a class="button-white button-small gallery__button" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
+<a class="gallery__view" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>"  data-caption="Spectacular views of Queenstown"><img src="<?php echo $path; ?>html/usercontent/images/bg/ipropose.jpeg" alt="Gallery" style=""></a>
+<a class="button-white button-small gallery__button" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
 <svg class="icon icon-image">
 <use xlink:href="#icon-image"></use>
 </svg>
 <span>Try for free</span>
 </a>
 </div>
-<a class="gallery__preview" href="https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/<?php echo $data['cid'];?>"  >
+<a class="gallery__preview" href="https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/<?php echo $data['cid'];?>"  >
  
 <img src="<?php echo $path; ?>html/usercontent/images/bg/iFindExclusive.jpeg" alt="Gallery" style=""></a>
-<a class="gallery__preview" href="https://www.qloudid.com/html/usercontent/images/bg/iHomesell.jpeg" data-fancybox="gallery" style=""><img src="<?php echo $path; ?>html/usercontent/images/bg/iHomesell.jpeg" alt="Gallery" style=""></a>
-<a class="gallery__preview" href="https://www.qloudid.com/company/index.php/LandloardBroker/availableLandloard/<?php echo $data['cid'];?>"  ><img src="<?php echo $path; ?>html/usercontent/images/bg/iAgentpro.jpeg" alt="Gallery" style=""></a>
-<a class="gallery__preview" href="https://www.qloudid.com/company/index.php/VitechProperties/searchRentProperties/<?php echo $data['cid'];?>"  ><img src="<?php echo $path; ?>html/usercontent/images/bg/iProrent.jpeg" alt="Gallery" style=""></a>
+<a class="gallery__preview" href="https://www.safeqloud.com/html/usercontent/images/bg/iHomesell.jpeg" data-fancybox="gallery" style=""><img src="<?php echo $path; ?>html/usercontent/images/bg/iHomesell.jpeg" alt="Gallery" style=""></a>
+<a class="gallery__preview" href="https://www.safeqloud.com/company/index.php/LandloardBroker/availableLandloard/<?php echo $data['cid'];?>"  ><img src="<?php echo $path; ?>html/usercontent/images/bg/iAgentpro.jpeg" alt="Gallery" style=""></a>
+<a class="gallery__preview" href="https://www.safeqloud.com/company/index.php/VitechProperties/searchRentProperties/<?php echo $data['cid'];?>"  ><img src="<?php echo $path; ?>html/usercontent/images/bg/iProrent.jpeg" alt="Gallery" style=""></a>
 </div>
 </div>
 
@@ -471,7 +471,7 @@
                                       <div class="changedText categories__subtitle txt_787f91 ">Proposal</div>
                                       </a>
 												<?php }else { ?>
-												<a class="categories__item  bg_E7E7E7 " href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>" style="padding: 26px; padding-right:20px; padding-left:20px; font-size:14px; border-radius:6px; "  >
+												<a class="categories__item  bg_E7E7E7 " href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/<?php echo $data['cid'];?>" style="padding: 26px; padding-right:20px; padding-left:20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91 ">Proposal</div>
                                       </a>
@@ -511,8 +511,8 @@
  	<?php } else { ?>
 	<div class="brands__item" style=""><a href="<?php echo $value['flow_url']; echo $data['cid']; if($value['marketplace_id_required']==1) echo '/'.$mid; if($value['service_id_required']==1) echo '/'.$value['enc']; ?>"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;"><?php echo $value['subcategory_name']; ?></div></a></div>
 	<?php } }  ?>
-	<div class="brands__item hidden" style=""><a href="https://www.qloudid.com/company/index.php/VitechProperties/cleaningPendingList/<?php echo $data['cid']; ?>"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Clean</div></a></div>
-	<div class="brands__item hidden" style=""><a href="https://www.qloudid.com/company/index.php/VitechProperties/cleaningInspectionPendingList/<?php echo $data['cid']; ?>"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Inspect</div></a></div>
+	<div class="brands__item hidden" style=""><a href="https://www.safeqloud.com/company/index.php/VitechProperties/cleaningPendingList/<?php echo $data['cid']; ?>"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Clean</div></a></div>
+	<div class="brands__item hidden" style=""><a href="https://www.safeqloud.com/company/index.php/VitechProperties/cleaningInspectionPendingList/<?php echo $data['cid']; ?>"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Inspect</div></a></div>
 </div>
 </div>
 </div>

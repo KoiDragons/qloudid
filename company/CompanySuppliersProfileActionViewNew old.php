@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	 
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -76,7 +76,7 @@
 
 <div class="header__body js-header-body">
 <div class="header__menu"> 
-<a class="header__link" href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout">
+<a class="header__link" href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Logout</a></div>
@@ -228,7 +228,7 @@
 
 		
 
-			<a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Logout</button>
 
 </div></a>

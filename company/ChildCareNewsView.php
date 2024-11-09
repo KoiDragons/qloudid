@@ -178,7 +178,7 @@ sendRequest();
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left header_arrow_blue_1e96c3" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left header_arrow_blue_1e96c3" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -194,7 +194,7 @@ sendRequest();
                <div class="flag_top_menu flefti  padb10 wi_70p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul" style="color:#b5c2c9;"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul" style="color:#b5c2c9;"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -232,7 +232,7 @@ sendRequest();
 				  <li>
                     <div class="line martb10"></div>
                   </li>
-                  <li><a href="https://www.qloudid.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="fsz16i" target="_blank"><span class="fas fa-users padr15" > </span>Pick & Drop list</a></li>
+                  <li><a href="https://www.safeqloud.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="fsz16i" target="_blank"><span class="fas fa-users padr15" > </span>Pick & Drop list</a></li>
 				   <li> 
                     <div class="line martb10"></div>
                   </li>
@@ -334,7 +334,7 @@ sendRequest();
                               </li>
 								 
 									 <li class="dblock padrb10 ">
-                                 <a href="https://www.qloudid.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
+                                 <a href="https://www.safeqloud.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
                                     <span class="valm trn" style="letter-spacing: 2px;">Pick & Drop list</span> 
                                     <div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
                                  </a>
@@ -1372,27 +1372,27 @@ sendRequest();
 				<!-- primary menu -->
 				<div class="tab-content active" id="mob-primary-menu" style="display: block;">
 					<div class="wi_100 dflex alit_s justc_sb talc fsz16 xxs-fsz12">
-						<a href="https://www.qloudid.com/company/index.php/ChilldCare/childCareNews/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/company/index.php/ChilldCare/childCareNews/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 							<span>News</span>
 						</a>
-						<a href="https://www.qloudid.com/company/index.php/ChilldCare/helpCenter/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/company/index.php/ChilldCare/helpCenter/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-file-text-o"></span></div>
 							<span>Children</span>
 						</a>
 						<div class="tab-header">
-							<a href="https://www.qloudid.com/company/index.php/ChilldCare/careInfo/<?php echo $data['cid']; ?>" class="dark_grey_txt dblue_txt_h" >
+							<a href="https://www.safeqloud.com/company/index.php/ChilldCare/careInfo/<?php echo $data['cid']; ?>" class="dark_grey_txt dblue_txt_h" >
 								<div class="wi_80p xxs-wi_50p hei_80p xxs-hei_50p pos_rel mart-30 xxs-mart-20 brd lgtblue2_bg brdrad100 talc lgn_hight_40 fsz32">
 									<span class="wi_30p xxs-wi_25p hei_4p dblock pos_abs pos_cen brdrad10 blue_bg"></span>
 									<span class="wi_4p hei_30p xxs-hei_25p dblock pos_abs pos_cen brdrad10 blue_bg"></span>
 								</div>
 							</a>
 						</div>
-						<a href="https://www.qloudid.com/company/index.php/ReceivedChild/attendenceDetail/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/company/index.php/ReceivedChild/attendenceDetail/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-image"></span></div>
 							<span>Absence</span>
 						</a>
-						<a href="https://www.qloudid.com/company/index.php/ChildCareQRCode/childCareAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/company/index.php/ChildCareQRCode/childCareAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_26 xxs-lgn_hight_20 fsz32 xxs-fsz24">
 								<span class="fa fa-file-text-o"></span>
 							</div>

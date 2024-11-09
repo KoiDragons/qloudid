@@ -65,7 +65,7 @@
 		{
 			id=$('#identificator').val();
 			 
-			window.location.href="https://www.qloudid.com/company/index.php/EmployeeDetail/identificatorInfoVerify/<?php echo $data['cid']; ?>/<?php echo $data['eid']; ?>/"+id;
+			window.location.href="https://www.safeqloud.com/company/index.php/EmployeeDetail/identificatorInfoVerify/<?php echo $data['cid']; ?>/<?php echo $data['eid']; ?>/"+id;
 		 
 		 				
 			

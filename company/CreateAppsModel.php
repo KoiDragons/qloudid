@@ -381,35 +381,35 @@ class CreateAppsModel extends AppModel
 		$row = $result->fetch_assoc();
 		if($_POST['app_type']==1)
 		{
-			$url='https://www.qloudid.com/walk/authorize.php?response_type=code&client_id='.$client_id.'&state=xyz&login=1';
+			$url='https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id='.$client_id.'&state=xyz&login=1';
 		}
 		else if($_POST['app_type']==2)
 		{
-			$url='https://www.qloudid.com/walk/authorize.php?response_type=code&client_id='.$client_id.'&state=xyz&apply=2&job_id=';
+			$url='https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id='.$client_id.'&state=xyz&apply=2&job_id=';
 		}
 		else if($_POST['app_type']==3)
 		{
-			$url='https://www.qloudid.com/user/index.php/LoginAccount/loginPurchaseVerify?response_type=code&client_id='.$client_id.'&state=xyz&purchase=1&total=';
+			$url='https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchaseVerify?response_type=code&client_id='.$client_id.'&state=xyz&purchase=1&total=';
 		}
 		else if($_POST['app_type']==4)
 		{
-			$url='https://www.qloudid.com/walk/authorize.php?response_type=code&client_id='.$client_id.'&state=xyz&signin=1';
+			$url='https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id='.$client_id.'&state=xyz&signin=1';
 		}
 		else if($_POST['app_type']==5)
 		{
-			$url='https://www.qloudid.com/user/index.php/LoginAccount/bookHotel?response_type=code&client_id='.$client_id.'&state=xyz&hotel=1';
+			$url='https://www.safeqloud.com/user/index.php/LoginAccount/bookHotel?response_type=code&client_id='.$client_id.'&state=xyz&hotel=1';
 		}
 		else if($_POST['app_type']==6)
 		{
-			$url='https://www.qloudid.com/user/index.php/LoginAccount/checkinHotel?response_type=code&client_id='.$client_id.'&state=xyz&checkin=1';
+			$url='https://www.safeqloud.com/user/index.php/LoginAccount/checkinHotel?response_type=code&client_id='.$client_id.'&state=xyz&checkin=1';
 		}
 		else if($_POST['app_type']==7)
 		{
-			$url='https://www.qloudid.com/user/index.php/LoginAccount/checkinDependent?response_type=code&client_id='.$client_id.'&state=xyz&checkin_dependent=1';
+			$url='https://www.safeqloud.com/user/index.php/LoginAccount/checkinDependent?response_type=code&client_id='.$client_id.'&state=xyz&checkin_dependent=1';
 		}
 		else if($_POST['app_type']==8)
 		{
-			$url='https://www.qloudid.com/user/index.php/LoginAccount/payForDishes?response_type=code&client_id='.$client_id.'&state=xyz&payForDishes=1';
+			$url='https://www.safeqloud.com/user/index.php/LoginAccount/payForDishes?response_type=code&client_id='.$client_id.'&state=xyz&payForDishes=1';
 		}
 		 if(empty($row))
 		 {

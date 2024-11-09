@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,7 +53,7 @@
 	  
     <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 changedText" href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileAction/<?php echo $data['cid']; ?>" style="
+<a class="header__logo xs-fsz20 changedText" href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileAction/<?php echo $data['cid']; ?>" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -284,7 +284,7 @@
                   <div class="nav"><a class="nav__link active changedText" href="#">All</a><a class="nav__link changedText" href="#">Connected</a><a class="nav__link changedText" href="#">Pending</a> </div>
                  
                  <div class="sorting__select">
-               <a href="https://www.qloudid.com/company/index.php/InviteEmployee/selectMethod/<?php echo $data['cid']; ?>">  <button class="button-stroke catalog__button">
+               <a href="https://www.safeqloud.com/company/index.php/InviteEmployee/selectMethod/<?php echo $data['cid']; ?>">  <button class="button-stroke catalog__button">
                   <span class="changedText">Add employee</span>
                 </button></a>
                 </div>

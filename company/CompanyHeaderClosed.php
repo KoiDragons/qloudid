@@ -40,7 +40,7 @@ function checkFlag()
                         <ul class="menulist sf-menu  fsz14">
 
                             <li class="first last" style="margin: 0 30px 0 0;">
-                                <a href="https://www.qloudid.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-bars" aria-hidden="true"></i></a>
+                                <a href="https://www.safeqloud.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-bars" aria-hidden="true"></i></a>
                                  </li>
 
                         </ul>
@@ -59,7 +59,7 @@ function checkFlag()
             <div class="wi_100 hei_65p xs-pos_fix padtb5 padrl10 lgtgrey2_bg">
 
                 <div class="fleft  logo marr15 wi_40p">
-                    <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail">
+                    <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail">
                         <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10 ffamily_avenir" >HQ</h3> </a>
                 </div>
                 <div class="visible-xs visible-sm fleft">
@@ -140,9 +140,9 @@ function checkFlag()
                 <div class="fright xs-dnone visible_si padt10">
                     <ul class="mar0 pad0">
 
-                        <li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase ffamily_avenir lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
+                        <li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase ffamily_avenir lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
 						
-						<li class="dblock hidden-xs visible_si fright pos_rel  "> <a href="https://www.qloudid.com/company/index.php/EmployeeDetail/employeeAtendence/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h fsz20" ><i class="far fa-clock"></i></a> </li>
+						<li class="dblock hidden-xs visible_si fright pos_rel  "> <a href="https://www.safeqloud.com/company/index.php/EmployeeDetail/employeeAtendence/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h fsz20" ><i class="far fa-clock"></i></a> </li>
                     </ul>
                 </div>
                 <!--sf-js-enabled sf-arrows hidden-xs-->
@@ -155,7 +155,7 @@ function checkFlag()
 
                     </ul>
                 </div>
-                <div class="visible-xs visible-xxs fright marr0 xs-padt5 "> <a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt ffamily_avenir">Close</a> </div>
+                <div class="visible-xs visible-xxs fright marr0 xs-padt5 "> <a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt ffamily_avenir">Close</a> </div>
                 <div class="clear"></div>
             </div>
         </div>

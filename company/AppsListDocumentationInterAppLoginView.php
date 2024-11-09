@@ -174,7 +174,7 @@
 <li>com.NoffaPlusApp.Url/{session}</li>
 <li>If session is not equal to 0 we call following API from WORQ sendiing session received as a parameter</li>
 
-<li>https://www.qloudid.com/user/index.php/QloudidApp/verifyInterAppSession</li>
+<li>https://www.safeqloud.com/user/index.php/QloudidApp/verifyInterAppSession</li>
 <li>If session is a valid session we receive a json with values {"user_id":1,"result":1}</li>
 </ul>
 <ul>

@@ -9,9 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
-			<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
+			<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/css/modulesnewy_bg.css" />
 		
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -480,7 +480,7 @@
 					<?php if(count($fetchPropertiesImages)>0) { ?>
 					<img srcset="../../../../../<?php echo $fetchPropertiesImages[0]['image_info']; ?>" src="../../../../../<?php echo $fetchPropertiesImages[0]['image_info']; ?>" alt="Entire serviced classy moutain house">
 					<?php } else { ?>
-					<img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="Entire serviced classy moutain house">
+					<img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="Entire serviced classy moutain house">
 					<?php } ?>
                       <div class="category card__category"><?php if($fetchPropertyTaskInfo['property_status']==1) echo 'Sold'; else echo 'To be sold'; ?></div>
                     </div>

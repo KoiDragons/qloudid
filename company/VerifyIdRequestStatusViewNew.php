@@ -50,12 +50,12 @@
 				<div class="wi_100  txt_708198 pad40 padt80 padb80 marb15  maxwi_100 marrla" style="max-width: 1200px;border-radius: 30px;padding-bottom: 80px;">
 					<div class="marb50 padt0   ">
 						 <?php if($developerCount==2) { ?>
-								<img src="https://www.qloudid.com/html/usercontent/images/account/6t.png" class="maxwi_100 hei_auto  brdrad5" width="400">
+								<img src="https://www.safeqloud.com/html/usercontent/images/account/6t.png" class="maxwi_100 hei_auto  brdrad5" width="400">
 							 
 						 <?php } else if($developerCount==1){ ?>
-						 <img src="https://www.qloudid.com/html/usercontent/images/account/5t.png" class="maxwi_100 hei_auto  brdrad5" width="400">
+						 <img src="https://www.safeqloud.com/html/usercontent/images/account/5t.png" class="maxwi_100 hei_auto  brdrad5" width="400">
 						 <?php } else if($developerCount==0){ ?>
-						 <img src="https://www.qloudid.com/html/usercontent/images/account/3t.png" class="maxwi_100 hei_auto  brdrad5" width="400">
+						 <img src="https://www.safeqloud.com/html/usercontent/images/account/3t.png" class="maxwi_100 hei_auto  brdrad5" width="400">
 						 <?php } ?>
 							</div>
 					
@@ -65,7 +65,7 @@
 						
 						<div class="padt20 talc padb50">
 								
-								<a href="https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>">
+								<a href="https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>">
 								<button type="button" name="forward" class="xs-white_bg   bold forword minhei_55p white_txt bg_c12219 brdrad50 fsz16 xs-fsz16 xs-nobold padrl70 xs-padrl50 xs-minhei_65p nobold" style="background: #c12219 !important; border-radius: 50px;"><font style="vertical-align: inherit; "><font style="vertical-align: inherit;">Close & Go back</font></font></button></a>
 									</div>
 							 

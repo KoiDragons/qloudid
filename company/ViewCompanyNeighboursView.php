@@ -81,7 +81,7 @@ function checkFlag()
 		<div class="wi_100 hei_65p xs-pos_fix padtb5 padrl10 lgtgrey2_bg">
 			
 		<div class="logo marr15 wi_140p xs-wi_80p xxxs-wi_140p">
-				<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 padt5 xxxs-padt20 xs-padt10" style="width: 50px;">
@@ -192,8 +192,8 @@ function checkFlag()
 		<div class="fright xs-dnone visible_si padt10">
 					<ul class="mar0 pad0 fsz14">
 					
-						<li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="https://www.qloudid.com/user/index.php/Bostad/minBostad" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
-						<li class="dblock hidden-xs visible_si fright pos_rel  circle_bg_apps3 brdrad5 marr10 box_shadow" > <a href="https://www.qloudid.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25   lgn_hight_30 black_txt " data-en="Min arbetsprofil" data-sw="Min arbetsprofil">Min Bosted</a> </li>
+						<li class="dblock hidden-xs visible_si fright pos_rel brdl "> <a href="https://www.safeqloud.com/user/index.php/Bostad/minBostad" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
+						<li class="dblock hidden-xs visible_si fright pos_rel  circle_bg_apps3 brdrad5 marr10 box_shadow" > <a href="https://www.safeqloud.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25   lgn_hight_30 black_txt " data-en="Min arbetsprofil" data-sw="Min arbetsprofil">Min Bosted</a> </li>
 					</ul>
 				</div>
 			<!--sf-js-enabled sf-arrows hidden-xs-->
@@ -207,7 +207,7 @@ function checkFlag()
 						
 				</ul>
 			</div>
-			<div class="visible-xs visible-xxs fright marr0 xs-padt5 "> <a href="https://www.qloudid.com/user/index.php/Bostad/minBostad" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+			<div class="visible-xs visible-xxs fright marr0 xs-padt5 "> <a href="https://www.safeqloud.com/user/index.php/Bostad/minBostad" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 			<div class="clear"></div>
 		</div>
 	</div>

@@ -54,7 +54,7 @@ function sendEmailInvitationToEmployee($data)
 			$result = $stmt->get_result();
 			$row = $result->fetch_assoc();
 			$enc=$this -> encrypt_decrypt('encrypt',$row['id']);
-			$url="https://qloudid.com/public/index.php/EmployeeInvitation/verifyDetails/".$enc;
+			$url="https://www.safeqloud.com/public/index.php/EmployeeInvitation/verifyDetails/".$enc;
 			$to            = $_POST[$empEmailid];
 			$subject='Employee invitaion from '.$companyDetail['company_name'];
 			$emailContent='<html><head></head>
@@ -84,7 +84,7 @@ function sendEmailInvitationToEmployee($data)
                                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                                         <tbody>
                                                             <tr>
-                                                                <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="http://click.klarna.es/f/a/PQ8x7X08dZooYu41zakhMQ~~/AABVuwA~/RgRoNYYFP0QXaHR0cHM6Ly93d3cua2xhcm5hLmNvbS9XBXNwY2V1QgpmUQUBU2ZZkFjIUhlrb3dha2VuLmdoaXJtYWlAZ21haWwuY29tWAQAAAAC" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://click.klarna.es/f/a/PQ8x7X08dZooYu41zakhMQ~~/AABVuwA~/RgRoNYYFP0QXaHR0cHM6Ly93d3cua2xhcm5hLmNvbS9XBXNwY2V1QgpmUQUBU2ZZkFjIUhlrb3dha2VuLmdoaXJtYWlAZ21haWwuY29tWAQAAAAC&amp;source=gmail&amp;ust=1718337056152000&amp;usg=AOvVaw3Fdh_8slomy-uTKO2Dq10h"><img src="https://www.qloudid.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
+                                                                <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="http://click.klarna.es/f/a/PQ8x7X08dZooYu41zakhMQ~~/AABVuwA~/RgRoNYYFP0QXaHR0cHM6Ly93d3cua2xhcm5hLmNvbS9XBXNwY2V1QgpmUQUBU2ZZkFjIUhlrb3dha2VuLmdoaXJtYWlAZ21haWwuY29tWAQAAAAC" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://click.klarna.es/f/a/PQ8x7X08dZooYu41zakhMQ~~/AABVuwA~/RgRoNYYFP0QXaHR0cHM6Ly93d3cua2xhcm5hLmNvbS9XBXNwY2V1QgpmUQUBU2ZZkFjIUhlrb3dha2VuLmdoaXJtYWlAZ21haWwuY29tWAQAAAAC&amp;source=gmail&amp;ust=1718337056152000&amp;usg=AOvVaw3Fdh_8slomy-uTKO2Dq10h"><img src="https://www.safeqloud.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -1183,7 +1183,7 @@ function checkPermission($data)
 					</div></td>
 					</tr>
 					<tr>
-					<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
+					<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col"><div style="font-size:14px;">Din kod:  <br />
@@ -1613,7 +1613,7 @@ function checkPermission($data)
                                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                                                     <tbody>
                                                                         <tr>
-                                                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://www.klarna.com/" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.klarna.com/&amp;source=gmail&amp;ust=1723522238441000&amp;usg=AOvVaw2NZlK4_Rg2lcVnGVTtFLBi"><img src="https://www.qloudid.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
+                                                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://www.klarna.com/" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.klarna.com/&amp;source=gmail&amp;ust=1723522238441000&amp;usg=AOvVaw2NZlK4_Rg2lcVnGVTtFLBi"><img src="https://www.safeqloud.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
@@ -1654,7 +1654,7 @@ function checkPermission($data)
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                                     <tbody>
                                                         <tr>
-                                                            <td align="center" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;text-align:center"><a href="https://www.qloudid.com/public/index.php/UserCompanySignUp/invitedEmployeeDetail/'.$data['invitation_id'].'" rel="noreferrer" style="text-align:center;text-decoration:none;display:inline-block;font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;padding:12px 20px;border-radius:21px;background-color:white" target="_blank" data-saferedirecturl="https://www.qloudid.com/public/index.php/UserCompanySignUp/invitedEmployeeDetail/'.$data['invitation_id'].'"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirm request</font></font></a></td>
+                                                            <td align="center" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;text-align:center"><a href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/invitedEmployeeDetail/'.$data['invitation_id'].'" rel="noreferrer" style="text-align:center;text-decoration:none;display:inline-block;font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;padding:12px 20px;border-radius:21px;background-color:white" target="_blank" data-saferedirecturl="https://www.safeqloud.com/public/index.php/UserCompanySignUp/invitedEmployeeDetail/'.$data['invitation_id'].'"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirm request</font></font></a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -1846,7 +1846,7 @@ function checkPermission($data)
 					</div></td>
 					</tr>
 					<tr>
-					<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
+					<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col"><div style="font-size:14px;">Din kod:  <br />

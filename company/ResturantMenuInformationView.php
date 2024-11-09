@@ -39,7 +39,7 @@
 		
 		function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/company/index.php/Resturant/dishesInformation/<?php echo $data['cid']; ?>/<?php echo $data['rid']; ?>";
+			window.location.href ="https://www.safeqloud.com/company/index.php/Resturant/dishesInformation/<?php echo $data['cid']; ?>/<?php echo $data['rid']; ?>";
 		}		
 				
 			</script>
@@ -64,7 +64,7 @@
 			<div class="top_menu frighti padt20 padb10 hidden-xs">
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows">
 					<li class="hidden-xs padr10 first">
-						<a href="https://www.qloudid.com/public/index.php/Resturant/menuInformation/<?php echo $data['rid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Menu</span></a>
+						<a href="https://www.safeqloud.com/public/index.php/Resturant/menuInformation/<?php echo $data['rid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Menu</span></a>
 					</li>
 				 	<li class="hidden  padr10"><a href="../../dishesInformation/<?php echo $data['cid']; ?>/<?php echo $data['rid']; ?>" class="black_txt lgn_hight_s1 fsz18"><span class="valm ffamily_avenir black_txt">Add<i class="fas fa-long-arrow-alt-right fsz18 padl10" aria-hidden="true"></i></span></a>
           
@@ -75,7 +75,7 @@
 			<div class="fright   padtbz10 hidden  "  >
 						<ul class="mar0 pad0">
 						<li class="hidden-xs padr10 first">
-						<a href="https://www.qloudid.com/public/index.php/Resturant/menuInformation/<?php echo $data['rid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Menu</span></a>
+						<a href="https://www.safeqloud.com/public/index.php/Resturant/menuInformation/<?php echo $data['rid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Menu</span></a>
 					</li>
 					<li class="hidden-xs ">
 							<div class="  padtrl10">

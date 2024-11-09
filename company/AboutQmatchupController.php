@@ -10,7 +10,7 @@ class AboutQmatchupController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
 			$path = "../../../../";
 		$data=array();
@@ -30,7 +30,7 @@ class AboutQmatchupController
 			}
 			else
 			{
-		header("location:https://www.qloudid.com/error404.php");
+		header("location:https://www.safeqloud.com/error404.php");
 			}
     require_once('AboutQmatchupView.php');
 	}

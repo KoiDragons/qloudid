@@ -336,7 +336,7 @@
 			}
 			if($row['app_id']!=1 && $row['app_id']!=2 && $row['app_id']!=3 && $row['app_id']!=6  && $row['app_id']!=12 && $row['app_id']!=13 && $row['app_id']!=57)
 			{
-				$row['image_path']='https://www.qloudid.com/html/usercontent/images/dstricts/logo1.jpeg';
+				$row['image_path']='https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg';
 			}
 			$stmt->close();
 			$dbCon->close();

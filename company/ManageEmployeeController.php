@@ -12,7 +12,7 @@ class ManageEmployeeController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -84,7 +84,7 @@ class ManageEmployeeController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			 $model = new ManageEmployeeModel();
 			 $empid    = $model->employeeId($data);
@@ -116,7 +116,7 @@ class ManageEmployeeController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			 $model = new ManageEmployeeModel();
 			 $empid    = $model->employeeId($data);
@@ -147,7 +147,7 @@ class ManageEmployeeController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			 $model = new ManageEmployeeModel();
 			 $empid    = $model->employeeId($data);
@@ -174,7 +174,7 @@ class ManageEmployeeController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();

@@ -287,7 +287,7 @@
 										<!-- Meta -->
 										
 									</a></div><div class="hidden-xs hidden-sm padrl10">
-									<a href="https://www.qloudid.com/company/index.php/LandLoardSearch/LandLoardSearch/<?php echo $data['cid']; ?>/<?php echo $headQuarterID; ?>" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt " >
+									<a href="https://www.safeqloud.com/company/index.php/LandLoardSearch/LandLoardSearch/<?php echo $data['cid']; ?>/<?php echo $headQuarterID; ?>" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt " >
 										
 										<span class="valm"> Add request </span>
 									</a> 

@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -142,7 +142,7 @@ else
 						else 
 						{
 							 
-							//window.open('https://www.qloudid.com/pickapro/index.php/LoginAccount/loginPickapro','_blank'); 
+							//window.open('https://www.safeqloud.com/pickapro/index.php/LoginAccount/loginPickapro','_blank'); 
 							//customWindow.close();
 							document.getElementById("save_indexing_user").submit();
 							
@@ -305,7 +305,7 @@ box-shadow: 0 0 0 0;
 			
 <div class="header__center center" style="
     padding: 0 0px;
-"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+"><a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/user/index.php/LoginAccount" style="
     background-color: #E91E63;
     padding: 10px;
     color: white;
@@ -348,14 +348,14 @@ font-family: Avenir;
 		
 
 			
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style="
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" style="
     color: grey;
 ">Sign in</a>
 			

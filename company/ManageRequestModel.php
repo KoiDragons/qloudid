@@ -398,7 +398,7 @@
 				$org=$org.'<tr class="fsz16">
 				
 				<td class="pad5 brdb tall cn">
-				<a href="https://www.qloudid.com/user/index.php/ManagePermissions/setPermissions/'.$orgId.'"><div class="padtb5 " >'.$row['first_name'].'</div></a>
+				<a href="https://www.safeqloud.com/user/index.php/ManagePermissions/setPermissions/'.$orgId.'"><div class="padtb5 " >'.$row['first_name'].'</div></a>
 				</td>
 				<td class="pad5 brdb tall nm">
 				<div class="padtb5 ">'.$row['last_name'].'</div>

@@ -797,9 +797,9 @@
 			{
 				$id=$stmt->insert_id;
 				$id= $this -> encrypt_decrypt('encrypt',$id);
-				$url="https://www.qloudid.com/public/index.php/PublicChildCareRequest/parentAccount/".$id;
+				$url="https://www.safeqloud.com/public/index.php/PublicChildCareRequest/parentAccount/".$id;
 				$surl=getShortUrl($url);
-				$url1="https://www.qloudid.com/user/index.php/DaycareRequest/updateParentRequest";
+				$url1="https://www.safeqloud.com/user/index.php/DaycareRequest/updateParentRequest";
 				$surl1=getShortUrl($url1);
 				if($_POST['search_phone']!="" || $_POST['search_phone']!=null)
 			{
@@ -934,7 +934,7 @@
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopeBlack.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopeBlack.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#000000;">Hello</h1>
                                                             </div>
@@ -974,11 +974,11 @@
                                                                         </td>
                                                                      </tr>
                                                                      <tr>
-                                                                   <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.qloudid.com/user/index.php/CreateAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.qloudid.com/user/index.php/CreateAccount">Create account</a></span></td>
+                                                                   <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.safeqloud.com/user/index.php/CreateAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.safeqloud.com/user/index.php/CreateAccount">Create account</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">
-                                                                           <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.qloudid.com/user/index.php/CreateAccount
+                                                                           <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.safeqloud.com/user/index.php/CreateAccount
                                                                               <br><br> 
                                                                               <a href="'.$url.'" style="text-decoration:none; color:#3691c0;">Read more</a>
                                                                            </div>
@@ -1230,7 +1230,7 @@
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#ffffff;">Hello</h1>
                                                             </div>
@@ -1263,11 +1263,11 @@
                                                                <table border="0" cellspacing="0" cellpadding="0" align="left">
                                                                   <tbody>
                                                                      <tr>
-                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.qloudid.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.qloudid.com/user/index.php/LoginAccount">Read more</a></span></td>
+                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.safeqloud.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.safeqloud.com/user/index.php/LoginAccount">Read more</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">
-                                                                            <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.qloudid.com/user/index.php/LoginAccount
+                                                                            <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.safeqloud.com/user/index.php/LoginAccount
                                                                               <br><br> 
                                                                               <a href="'.$url.'"style="text-decoration:none; color:#3691c0;">Read more</a>
                                                                            </div>
@@ -1453,7 +1453,7 @@
 			{
 				$id=$stmt->insert_id;
 				$id= $this -> encrypt_decrypt('encrypt',$id);
-				$url="https://www.qloudid.com/public/index.php/PublicChildCareRequest/parentAccount/".$id;
+				$url="https://www.safeqloud.com/public/index.php/PublicChildCareRequest/parentAccount/".$id;
 				$surl=getShortUrl($url);
 				if($_POST['search_phone']!="" || $_POST['search_phone']!=null)
 			{
@@ -1588,7 +1588,7 @@
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopeBlack.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopeBlack.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#000000;">Hello</h1>
                                                             </div>
@@ -1622,11 +1622,11 @@
                                                                   <tbody>
 																    
                                                                      <tr>
-                                                                   <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.qloudid.com/user/index.php/CreateAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.qloudid.com/user/index.php/CreateAccount">Create account</a></span></td>
+                                                                   <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.safeqloud.com/user/index.php/CreateAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.safeqloud.com/user/index.php/CreateAccount">Create account</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">
-                                                                           <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.qloudid.com/user/index.php/CreateAccount
+                                                                           <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.safeqloud.com/user/index.php/CreateAccount
                                                                               <br><br> 
                                                                               <a href="'.$url.'" style="text-decoration:none; color:#3691c0;">Read more</a>
                                                                            </div>
@@ -1878,7 +1878,7 @@
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#ffffff;">Hello</h1>
                                                             </div>
@@ -1911,11 +1911,11 @@
                                                                <table border="0" cellspacing="0" cellpadding="0" align="left">
                                                                   <tbody>
                                                                      <tr>
-                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.qloudid.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.qloudid.com/user/index.php/LoginAccount">Read more</a></span></td>
+                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="http://www.safeqloud.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="http://www.safeqloud.com/user/index.php/LoginAccount">Read more</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">
-                                                                            <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.qloudid.com/user/index.php/LoginAccount
+                                                                            <div style="font-size:16px; text-align:center;">If the button is not working then copy/paste the link in your browser http://www.safeqloud.com/user/index.php/LoginAccount
                                                                               <br><br> 
                                                                               <a href="'.$url.'"style="text-decoration:none; color:#3691c0;">Read more</a>
                                                                            </div>

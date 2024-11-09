@@ -12,7 +12,7 @@ function submitFormCom()
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15">
-				<a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount"> <img src="<?php echo $path;?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount"> <img src="<?php echo $path;?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
 			</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr30">
 				<div class="languages">
@@ -30,7 +30,7 @@ function submitFormCom()
 				</div>
 			</div>
 		<div class="search padt1" style="height:28px;">
-			<form action="https://www.qloudid.com/user/index.php/PrivateSearchResult" method="POST" id="save_indexingcs" name="save_indexingcs" accept-charset="ISO-8859-1">
+			<form action="https://www.safeqloud.com/user/index.php/PrivateSearchResult" method="POST" id="save_indexingcs" name="save_indexingcs" accept-charset="ISO-8859-1">
       <div class="fleft">
         <input type="text" name="message" id="message" class="search_fld hi_wi385" style="height:26px;">
       </div>
@@ -161,7 +161,7 @@ function submitFormCom()
                   </li>
 										
 										
-										<li><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="trn">Logout</a>
+										<li><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="trn">Logout</a>
 										</li>
 									</ol>
 									<div class="clear"></div>

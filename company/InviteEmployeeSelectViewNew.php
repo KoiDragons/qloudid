@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	 
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -300,7 +300,7 @@
  
 <div class="checkout__controls">
  
-<a href="https://www.qloudid.com/company/index.php/InviteEmployee/inviteEmployees/<?php echo $data['lid']; ?>"><button class="checkout__edit"  >
+<a href="https://www.safeqloud.com/company/index.php/InviteEmployee/inviteEmployees/<?php echo $data['lid']; ?>"><button class="checkout__edit"  >
 <svg class="icon icon-arrow-next">
 <use xlink:href="#icon-arrow-next" style="fill:#ff8d4c;"></use>
 </svg>
@@ -323,7 +323,7 @@
  
 <div class="checkout__controls">
  
-<a href="https://www.qloudid.com/company/index.php/InviteEmployee/employeeInfoMore/<?php echo $data['lid']; ?>"><button class="checkout__edit"  >
+<a href="https://www.safeqloud.com/company/index.php/InviteEmployee/employeeInfoMore/<?php echo $data['lid']; ?>"><button class="checkout__edit"  >
 <svg class="icon icon-arrow-next">
 <use xlink:href="#icon-arrow-next" style="fill:#ff8d4c;"></use>
 </svg>
@@ -369,7 +369,7 @@
  
 <div class="checkout__controls">
  
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware"><button class="checkout__edit"  >
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware"><button class="checkout__edit"  >
 <svg class="icon icon-arrow-next">
 <use xlink:href="#icon-arrow-next" style="fill:#ff8d4c;"></use>
 </svg>

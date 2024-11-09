@@ -175,7 +175,7 @@
 					<div class="fright xs-dnone sm-dnone">
 						<ul class="mar0 pad0">
 							<div class="hidden-xs hidden-sm padtrl10">
-								<a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt">
+								<a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt">
 									
 									<span class="valm">Logout</span>
 								</a>
@@ -185,7 +185,7 @@
 							
 						</ul>
 					</div>
-					<div class="visible-xs visible-sm fright marr0 padr0 "> <a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Logout</a> </div>
+					<div class="visible-xs visible-sm fright marr0 padr0 "> <a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Logout</a> </div>
 					<div class="clear"></div>
 					
 				</div>

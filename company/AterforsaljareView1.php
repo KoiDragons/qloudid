@@ -128,7 +128,7 @@
 				</div>
 				<div class="fright xs-dnone sm-dnone padt10">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Close" data-sw="Close">Close</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart12 ">
@@ -366,7 +366,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>

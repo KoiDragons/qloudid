@@ -9,7 +9,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -20,7 +20,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$empid    = $model1->employeeId($data);
@@ -35,7 +35,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -46,7 +46,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			 
@@ -62,7 +62,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -74,7 +74,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -116,7 +116,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -128,7 +128,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -202,7 +202,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -214,7 +214,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -248,7 +248,7 @@ class EmployeeDetailController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -259,7 +259,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new EmployeeDetailModel();
 				$checkPermission    = $model1->checkPermission($data);
@@ -284,7 +284,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -296,21 +296,21 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
 			$isVerificator    = $model1->isVerificator($data);	
 			if($isVerificator==0)
 			{
-			header('location:https://www.qloudid.com/company/index.php/EmployeeDetail/restrictedAccess/'.$data['cid'])	; die;	
+			header('location:https://www.safeqloud.com/company/index.php/EmployeeDetail/restrictedAccess/'.$data['cid'])	; die;	
 			}
 			
 			$employeeIdVerificationCount    = $model1->employeeIdVerificationCount($data);
 			 
 			if($employeeIdVerificationCount['num']>0)
 			{
-			header('location:https://www.qloudid.com/company/index.php/EmployeeDetail/employeeAccount/'.$data['cid'].'/'.$data['eid'])	; die;	
+			header('location:https://www.safeqloud.com/company/index.php/EmployeeDetail/employeeAccount/'.$data['cid'].'/'.$data['eid'])	; die;	
 			}
 			$empid    = $model1->employeeId($data);
 			$data['user_id']=$empid['user_login_id'];
@@ -347,7 +347,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -359,7 +359,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -433,7 +433,7 @@ class EmployeeDetailController
 			 
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -443,7 +443,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new EmployeeDetailModel();
 				$checkPermission    = $model1->checkPermission($data);
@@ -455,7 +455,7 @@ class EmployeeDetailController
 				$developerCount    = $model1->developerCount($data);
 				if($developerCount==1)
 				{
-					header('location:https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid']); die;
 				}
 				else if($developerCount==0 || $developerCount==2)
 				{
@@ -472,7 +472,7 @@ class EmployeeDetailController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -482,7 +482,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new EmployeeDetailModel();
 				$checkPermission    = $model1->checkPermission($data);
@@ -501,7 +501,7 @@ class EmployeeDetailController
 				}
 				else
 				{
-					header('location:https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid']); die;
 				}
 				
 				 
@@ -515,7 +515,7 @@ class EmployeeDetailController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -525,7 +525,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new EmployeeDetailModel();
 				$checkPermission    = $model1->checkPermission($data);
@@ -540,9 +540,9 @@ class EmployeeDetailController
 					$isVerificator    = $model1->isVerificator($data);	
 					if($isVerificator==0)
 					{
-					header('location:https://www.qloudid.com/company/index.php/EmployeeDetail/restrictedAccess/'.$data['cid'])	; die;	
+					header('location:https://www.safeqloud.com/company/index.php/EmployeeDetail/restrictedAccess/'.$data['cid'])	; die;	
 					}
-					header('location:https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid']); die;
 				}
 				else if($developerCount==-1)
 				{
@@ -564,7 +564,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../../";
 			$data=array();
@@ -577,7 +577,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -593,13 +593,13 @@ class EmployeeDetailController
 			$isVerificator    = $model1->isVerificator($data);	
 			if($isVerificator==0)
 			{
-			header('location:https://www.qloudid.com/company/index.php/EmployeeDetail/restrictedAccess/'.$data['cid'])	; die;	
+			header('location:https://www.safeqloud.com/company/index.php/EmployeeDetail/restrictedAccess/'.$data['cid'])	; die;	
 			}	
 			$empid    = $model1->employeeId($data);
 			$employeeIdVerificationCount    = $model1->employeeIdVerificationCount($data);
 			if($employeeIdVerificationCount['num']==1)
 			{
-			header('location:https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid'])	; die;	
+			header('location:https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid'])	; die;	
 			}
 			$data['user_id']=$empid['user_login_id'];
 			$resultOrg1    = $model1->employeeUserAccount($data);
@@ -621,7 +621,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -631,7 +631,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -648,7 +648,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -661,7 +661,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -679,7 +679,7 @@ class EmployeeDetailController
 			$employeeIdVerificationCount    = $model1->employeeIdVerificationCount($data);
 			if($employeeIdVerificationCount['num']==1)
 			{
-			header('location:https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid'])	; die;	
+			header('location:https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/'.$data['cid'])	; die;	
 			}
 			 
 			$row_summary    = $model1->userAccount($data);
@@ -696,7 +696,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -709,7 +709,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -739,7 +739,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -752,7 +752,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -783,7 +783,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -795,7 +795,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -823,7 +823,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -835,7 +835,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -867,7 +867,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../../";
 			$data=array();
@@ -879,7 +879,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_login_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			
             $model1       = new EmployeeDetailModel();
@@ -908,7 +908,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -919,7 +919,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$checkEmployeeAttendence    = $model1->checkEmployeeAttendence($data);
@@ -943,7 +943,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -954,7 +954,7 @@ class EmployeeDetailController
 			$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 			if($employeeCheck==1)
 			{
-			header("location:https://www.qloudid.com/error404.php");
+			header("location:https://www.safeqloud.com/error404.php");
 			}
 			$model1       = new EmployeeDetailModel();
 			$checkEmployeeTime    = $model1->checkEmployeeTime($data);
@@ -979,7 +979,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -990,7 +990,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$checkEmployeeAttendence    = $model1->checkEmployeeAttendence($data);
@@ -1008,7 +1008,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -1019,7 +1019,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$checkEmployeeAttendence    = $model1->checkEmployeeAttendence($data);
@@ -1037,7 +1037,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -1048,7 +1048,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$checkEmployeeAttendence    = $model1->checkEmployeeAttendence($data);
@@ -1066,7 +1066,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -1077,7 +1077,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$updateAttendence = $model1->updateAttendence($data);
@@ -1090,7 +1090,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -1101,7 +1101,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$updateAttendence = $model1->updateExit($data);
@@ -1114,7 +1114,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -1125,7 +1125,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$updateLeave = $model1->updateLeave($data);
@@ -1139,7 +1139,7 @@ class EmployeeDetailController
          $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
             $path         = "../../../../";
 			$data=array();
@@ -1150,7 +1150,7 @@ class EmployeeDetailController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new EmployeeDetailModel();
 			$updateVacationInfo = $model1->updateVacationInfo($data);
@@ -1165,7 +1165,7 @@ class EmployeeDetailController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1187,7 +1187,7 @@ class EmployeeDetailController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1208,7 +1208,7 @@ class EmployeeDetailController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model = new EmployeeDetailModel();
 				$changeDepartment = $model->changeDepartment();

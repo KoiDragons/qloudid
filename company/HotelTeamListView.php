@@ -25,7 +25,7 @@
 		<script>
 		function changeTeam(id)
 		{
-		window.location.href="http://www.qloudid.com/company/index.php/HotelStay/teamListing/<?php echo $data['cid']; ?>/<?php echo $data['lid']; ?>/"+id;	
+		window.location.href="http://www.https://www.safeqloud.com/company/index.php/HotelStay/teamListing/<?php echo $data['cid']; ?>/<?php echo $data['lid']; ?>/"+id;	
 			
 		}
 		

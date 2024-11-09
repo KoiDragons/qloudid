@@ -100,7 +100,7 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                     <tbody>
                                         <tr>
-                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://l.klarna.com/22XC?pid=TRX&amp;c=SE.Monthly.MonthlyCapture.Header&amp;af_adset=Install&amp;af_ad=Link.KlarnaLogo&amp;af_dp=klarna%3A%2F%2F&amp;deep_link_value=&amp;af_param_forwarding=false" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://l.klarna.com/22XC?pid%3DTRX%26c%3DSE.Monthly.MonthlyCapture.Header%26af_adset%3DInstall%26af_ad%3DLink.KlarnaLogo%26af_dp%3Dklarna%253A%252F%252F%26deep_link_value%3D%26af_param_forwarding%3Dfalse&amp;source=gmail&amp;ust=1726305277424000&amp;usg=AOvVaw0oJcf_yuJF78bdmkriuZpy"><img src="https://www.qloudid.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
+                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://l.klarna.com/22XC?pid=TRX&amp;c=SE.Monthly.MonthlyCapture.Header&amp;af_adset=Install&amp;af_ad=Link.KlarnaLogo&amp;af_dp=klarna%3A%2F%2F&amp;deep_link_value=&amp;af_param_forwarding=false" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://l.klarna.com/22XC?pid%3DTRX%26c%3DSE.Monthly.MonthlyCapture.Header%26af_adset%3DInstall%26af_ad%3DLink.KlarnaLogo%26af_dp%3Dklarna%253A%252F%252F%26deep_link_value%3D%26af_param_forwarding%3Dfalse&amp;source=gmail&amp;ust=1726305277424000&amp;usg=AOvVaw0oJcf_yuJF78bdmkriuZpy"><img src="https://www.safeqloud.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -487,7 +487,7 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                     <tbody>
                                         <tr>
-                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://l.klarna.com/22XC?pid=TRX&amp;c=SE.Monthly.MonthlyCapture.Header&amp;af_adset=Install&amp;af_ad=Link.KlarnaLogo&amp;af_dp=klarna%3A%2F%2F&amp;deep_link_value=&amp;af_param_forwarding=false" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://l.klarna.com/22XC?pid%3DTRX%26c%3DSE.Monthly.MonthlyCapture.Header%26af_adset%3DInstall%26af_ad%3DLink.KlarnaLogo%26af_dp%3Dklarna%253A%252F%252F%26deep_link_value%3D%26af_param_forwarding%3Dfalse&amp;source=gmail&amp;ust=1726305277424000&amp;usg=AOvVaw0oJcf_yuJF78bdmkriuZpy"><img src="https://www.qloudid.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
+                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://l.klarna.com/22XC?pid=TRX&amp;c=SE.Monthly.MonthlyCapture.Header&amp;af_adset=Install&amp;af_ad=Link.KlarnaLogo&amp;af_dp=klarna%3A%2F%2F&amp;deep_link_value=&amp;af_param_forwarding=false" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://l.klarna.com/22XC?pid%3DTRX%26c%3DSE.Monthly.MonthlyCapture.Header%26af_adset%3DInstall%26af_ad%3DLink.KlarnaLogo%26af_dp%3Dklarna%253A%252F%252F%26deep_link_value%3D%26af_param_forwarding%3Dfalse&amp;source=gmail&amp;ust=1726305277424000&amp;usg=AOvVaw0oJcf_yuJF78bdmkriuZpy"><img src="https://www.safeqloud.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -711,7 +711,7 @@
 		
 		
 		$enc=$this -> encrypt_decrypt('encrypt',$id);
-		$url="https://www.qloudid.com/public/index.php/LandloardBroker/agreementDetail/".$enc;
+		$url="https://www.safeqloud.com/public/index.php/LandloardBroker/agreementDetail/".$enc;
 		$guestReservationDetail    = $this->guestReservationDetail($data);
 		if($guestReservationDetail['agreement_detail']['full_payment']==1) $paymentTerms= 'Payment is to be paid in full in advance'; else $paymentTerms= 'Payment is to be paid in '.$guestReservationDetail['agreement_detail']['total_installment'].' installments';
 		
@@ -749,7 +749,7 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                     <tbody>
                                         <tr>
-                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://l.klarna.com/22XC?pid=TRX&amp;c=SE.Monthly.MonthlyCapture.Header&amp;af_adset=Install&amp;af_ad=Link.KlarnaLogo&amp;af_dp=klarna%3A%2F%2F&amp;deep_link_value=&amp;af_param_forwarding=false" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://l.klarna.com/22XC?pid%3DTRX%26c%3DSE.Monthly.MonthlyCapture.Header%26af_adset%3DInstall%26af_ad%3DLink.KlarnaLogo%26af_dp%3Dklarna%253A%252F%252F%26deep_link_value%3D%26af_param_forwarding%3Dfalse&amp;source=gmail&amp;ust=1726305277424000&amp;usg=AOvVaw0oJcf_yuJF78bdmkriuZpy"><img src="https://www.qloudid.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
+                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://l.klarna.com/22XC?pid=TRX&amp;c=SE.Monthly.MonthlyCapture.Header&amp;af_adset=Install&amp;af_ad=Link.KlarnaLogo&amp;af_dp=klarna%3A%2F%2F&amp;deep_link_value=&amp;af_param_forwarding=false" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://l.klarna.com/22XC?pid%3DTRX%26c%3DSE.Monthly.MonthlyCapture.Header%26af_adset%3DInstall%26af_ad%3DLink.KlarnaLogo%26af_dp%3Dklarna%253A%252F%252F%26deep_link_value%3D%26af_param_forwarding%3Dfalse&amp;source=gmail&amp;ust=1726305277424000&amp;usg=AOvVaw0oJcf_yuJF78bdmkriuZpy"><img src="https://www.safeqloud.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1569,7 +1569,7 @@
 			$stmt->execute();
 			$result = $stmt->get_result();
 			$row_country = $result->fetch_assoc();
-			$url="https://www.qloudid.com/public/index.php/LandloardBroker/proposerDetail/".$this->encrypt_decrypt('encrypt',$id);
+			$url="https://www.safeqloud.com/public/index.php/LandloardBroker/proposerDetail/".$this->encrypt_decrypt('encrypt',$id);
 			$surl=getShortUrl($url);
 			$subject="Proposal received";
 			$emailContent='Hi '.$_POST['fname'].', I have found great properties for you! Check them out: '.$surl.'. Let me know if you are interested!';
@@ -2052,7 +2052,7 @@
                                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                                                     <tbody>
                                                                         <tr>
-                                                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://www.klarna.com/" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.klarna.com/&amp;source=gmail&amp;ust=1723522238441000&amp;usg=AOvVaw2NZlK4_Rg2lcVnGVTtFLBi"><img src="https://www.qloudid.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
+                                                                            <td valign="middle" style="font-size:20px;line-height:20px;font-weight:bold;vertical-align:middle"><a href="https://www.klarna.com/" rel="noreferrer" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.klarna.com/&amp;source=gmail&amp;ust=1723522238441000&amp;usg=AOvVaw2NZlK4_Rg2lcVnGVTtFLBi"><img src="https://www.safeqloud.com/html/usercontent/images/gettxp/logo.jpeg" alt="Klarna." width="98" height="98" border="0" style="display:block;outline:0px;width:98px;height:98px" class="CToWUd" data-bit="iit"></a></td>
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
@@ -2093,7 +2093,7 @@
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px;padding:0px;border:0px;border-collapse:collapse">
                                                     <tbody>
                                                         <tr>
-                                                            <td align="center" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;text-align:center"><a href="https://www.qloudid.com/company/index.php/LandloardBroker/brokersList/'.$data['rid'].'" rel="noreferrer" style="text-align:center;text-decoration:none;display:inline-block;font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;padding:12px 20px;border-radius:21px;background-color:white" target="_blank" data-saferedirecturl="https://www.qloudid.com/company/index.php/LandloardBroker/brokersList/'.$data['rid'].'"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirm request</font></font></a></td>
+                                                            <td align="center" style="font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;text-align:center"><a href="https://www.safeqloud.com/company/index.php/LandloardBroker/brokersList/'.$data['rid'].'" rel="noreferrer" style="text-align:center;text-decoration:none;display:inline-block;font-family:&quot;Klarna Text&quot;,Arial,sans-serif;color:black;font-weight:bold;font-size:16px;line-height:18px;padding:12px 20px;border-radius:21px;background-color:white" target="_blank" data-saferedirecturl="https://www.safeqloud.com/company/index.php/LandloardBroker/brokersList/'.$data['rid'].'"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirm request</font></font></a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

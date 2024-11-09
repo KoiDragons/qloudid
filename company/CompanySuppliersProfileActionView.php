@@ -42,10 +42,10 @@
 			  <div class="top_menu frighti padt20 padb10 hidden-xs">
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows">
 					<li class="hidden-xs padr10 first">
-						<a href="https://www.qloudid.com/company/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
+						<a href="https://www.safeqloud.com/company/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
 					</li>
 					<li class="hidden-xs padr10 first">
-						<a href="https://www.qloudid.com/company/index.php/CompanyProperty/locationAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Offices</span></a>
+						<a href="https://www.safeqloud.com/company/index.php/CompanyProperty/locationAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Offices</span></a>
 					</li>
 				  </ul>
 			</div>

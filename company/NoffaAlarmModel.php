@@ -324,7 +324,7 @@
 				$row['address']=html_entity_decode($row['address']);
 				array_push($org,$row);
 				$org[$j]['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);
-				if($row['child_image_path']!=null) { $filename="../estorecss/".$row['child_image_path'].".txt";  if (file_exists($filename)) {   $value_a=file_get_contents("../estorecss/".$row['child_image_path'].".txt"); $value_a=str_replace('"','',$value_a); $org[$j]['image_path'] = base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['child_image_path'].'.jpg' ); $org[$j]['image_path']= str_replace('..','https://www.qloudid.com',$org[$j]['image_path']); } else { $org[$j]['image_path']="https://www.qloudid.com/html/usercontent/images/person-male.png"; } }  else $org[$j]['image_path']="https://www.qloudid.com/html/usercontent/images/person-male.png";
+				if($row['child_image_path']!=null) { $filename="../estorecss/".$row['child_image_path'].".txt";  if (file_exists($filename)) {   $value_a=file_get_contents("../estorecss/".$row['child_image_path'].".txt"); $value_a=str_replace('"','',$value_a); $org[$j]['image_path'] = base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['child_image_path'].'.jpg' ); $org[$j]['image_path']= str_replace('..','https://www.qloudid.com',$org[$j]['image_path']); } else { $org[$j]['image_path']="https://www.safeqloud.com/html/usercontent/images/person-male.png"; } }  else $org[$j]['image_path']="https://www.safeqloud.com/html/usercontent/images/person-male.png";
 					$j++;
 			}
 			
@@ -360,7 +360,7 @@
 				$row['address']=html_entity_decode($row['address']); 
 			 	array_push($org,$row);
 				$org[$j]['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);
-				if($row['child_image_path']!=null) { $filename="../estorecss/".$row['child_image_path'].".txt";  if (file_exists($filename)) {   $value_a=file_get_contents("../estorecss/".$row['child_image_path'].".txt"); $value_a=str_replace('"','',$value_a); $org[$j]['image_path'] = base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['child_image_path'].'.jpg' ); $org[$j]['image_path']= str_replace('..','https://www.qloudid.com',$org[$j]['image_path']); } else { $org[$j]['image_path']="https://www.qloudid.com/html/usercontent/images/person-male.png"; } }  else $org[$j]['image_path']="https://www.qloudid.com/html/usercontent/images/person-male.png";
+				if($row['child_image_path']!=null) { $filename="../estorecss/".$row['child_image_path'].".txt";  if (file_exists($filename)) {   $value_a=file_get_contents("../estorecss/".$row['child_image_path'].".txt"); $value_a=str_replace('"','',$value_a); $org[$j]['image_path'] = base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['child_image_path'].'.jpg' ); $org[$j]['image_path']= str_replace('..','https://www.qloudid.com',$org[$j]['image_path']); } else { $org[$j]['image_path']="https://www.safeqloud.com/html/usercontent/images/person-male.png"; } }  else $org[$j]['image_path']="https://www.safeqloud.com/html/usercontent/images/person-male.png";
 				$j++;
 			}
 			 

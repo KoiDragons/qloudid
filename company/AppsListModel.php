@@ -220,7 +220,7 @@ width: 960px;
                            <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
     padding-left: 30px; margin-right: auto;
     margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                               <div class="padb0 xxs-padb0 ">
                                  <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Request</h1>
                               </div>
@@ -693,7 +693,7 @@ width: 960px;
 			 
 			 if($row['api_interface_url']==null || $row['api_interface_url']=='')
 			 {
-			$row['api_interface_url']='https://www.qloudid.com/walk/authorize.php?response_type=code&client_id='.$row['client_id'].'&state=xyz&purchase=1';
+			$row['api_interface_url']='https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id='.$row['client_id'].'&state=xyz&purchase=1';
 			 }
 			 $row['api_interface_url']=getShortUrl($row['api_interface_url']);
 			
@@ -728,7 +728,7 @@ width: 960px;
 		{
 		if($row['api_interface_url']==null || $row['api_interface_url']=='')
 			 {
-			$row['api_interface_url']='https://www.qloudid.com/walk/authorize.php?response_type=code&client_id='.$row['client_id'].'&state=xyz&purchase=1';
+			$row['api_interface_url']='https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id='.$row['client_id'].'&state=xyz&purchase=1';
 			 }
 			 $row['api_interface_url']=getShortUrl($row['api_interface_url']);
 			

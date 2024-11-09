@@ -230,9 +230,9 @@
 			while($row = $result->fetch_assoc())
 			{
 				 
-				$filename="../estorecss/".$row['background_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['background_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['background_image'].'.jpg' );  $row['background_image']=$imgs; } else { $row['background_image']="https://www.qloudid.com/html/usercontent/images/notavailable.jpg"; }
+				$filename="../estorecss/".$row['background_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['background_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['background_image'].'.jpg' );  $row['background_image']=$imgs; } else { $row['background_image']="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg"; }
 				
-				$row['background_image']=str_replace('../','https://www.qloudid.com/',$row['background_image']);
+				$row['background_image']=str_replace('../','https://www.safeqloud.com/',$row['background_image']);
 				array_push($org,$row);
 				$org[$j]['enc']=$this->encrypt_decrypt('encrypt',$row['id']);
 				 
@@ -286,10 +286,10 @@
 																	 } 
 																	 
 																	 else 
-																	 { $imgs='https://qloudid.com/html/usercontent/images/notavailable.jpg'; 
+																	 { $imgs='https://www.safeqloud.com/html/usercontent/images/notavailable.jpg'; 
 																	 }
 																	 
-				 $row['img']=str_replace('../','https://www.qloudid.com/',$imgs);
+				 $row['img']=str_replace('../','https://www.safeqloud.com/',$imgs);
 				array_push($org,$row);
 			}
 			
@@ -341,10 +341,10 @@
 																	 } 
 																	 
 																	 else 
-																	 { $imgs='https://qloudid.com/html/usercontent/images/notavailable.jpg'; 
+																	 { $imgs='https://www.safeqloud.com/html/usercontent/images/notavailable.jpg'; 
 																	 }
 																	 
-				 $row['img']=str_replace('../','https://www.qloudid.com/',$imgs);
+				 $row['img']=str_replace('../','https://www.safeqloud.com/',$imgs);
 				 $row['enc']=$this->encrypt_decrypt('encrypt',$row['professional_subcategory_id']);
 				array_push($org,$row);
 			}
@@ -368,7 +368,7 @@
 			$result = $stmt->get_result();
 			$row = $result->fetch_assoc();
 			$filename="../estorecss/".$row['background_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['background_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['background_image'].'.jpg' );  $row['background_image']=$imgs; } else { $row['background_image']=""; }
-			 $row['background_image']=str_replace('../','https://www.qloudid.com/',$row['background_image']);
+			 $row['background_image']=str_replace('../','https://www.safeqloud.com/',$row['background_image']);
 			$stmt->close();
 			$dbCon->close();
 			return $row;	
@@ -417,9 +417,9 @@
 				{
 					 $row['is_selected']=0;
 				 }
-				$filename="../estorecss/".$row['background_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['background_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['background_image'].'.jpg' );  $row['background_image']=$imgs; } else { $row['background_image']="https://www.qloudid.com/html/usercontent/images/notavailable.jpg"; }
+				$filename="../estorecss/".$row['background_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['background_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['background_image'].'.jpg' );  $row['background_image']=$imgs; } else { $row['background_image']="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg"; }
 				
-				$row['background_image']=str_replace('../','https://www.qloudid.com/',$row['background_image']);
+				$row['background_image']=str_replace('../','https://www.safeqloud.com/',$row['background_image']);
 				array_push($org,$row);
 				$org[$j]['enc']=$this->encrypt_decrypt('encrypt',$row['id']);
 				$key_values = array_column($org, 'is_selected'); 
@@ -567,7 +567,7 @@
 			while($row1 = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row1 ['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row1 ['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $image = $this->base64_to_jpeg( $value_a, '../estorecss/tmpgetstarted'.$row1['sorting_number'].''.$row1['id'].'.jpg' ); } else { $image="../html/usercontent/images/person-male.png"; } 
-				 $row1['image_path']=str_replace('../','https://www.qloudid.com/',$image);
+				 $row1['image_path']=str_replace('../','https://www.safeqloud.com/',$image);
 				 array_push($org,$row1);
 			}
 			$stmt->close();

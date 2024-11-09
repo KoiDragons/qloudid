@@ -132,7 +132,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						success: function(data1){
 							if(data1==1)
 							{
-								window.location.href ="https://www.qloudid.com/company/index.php/DeliveryPickup/pickupInfo/<?php echo $data['cid']; ?>";
+								window.location.href ="https://www.safeqloud.com/company/index.php/DeliveryPickup/pickupInfo/<?php echo $data['cid']; ?>";
 							}
 							else
 							{

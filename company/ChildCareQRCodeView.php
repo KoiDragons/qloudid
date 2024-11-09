@@ -107,7 +107,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left header_arrow_blue_1e96c3" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left header_arrow_blue_1e96c3" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -123,7 +123,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                <div class="flag_top_menu flefti  padb10 wi_70p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -161,7 +161,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 				  <li>
                     <div class="line martb10"></div>
                   </li>
-                  <li><a href="https://www.qloudid.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="fsz16i" target="_blank"><span class="fas fa-users padr15" target="_blank"> </span>Pick & Drop list</a></li>
+                  <li><a href="https://www.safeqloud.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="fsz16i" target="_blank"><span class="fas fa-users padr15" target="_blank"> </span>Pick & Drop list</a></li>
 				   <li>
                     <div class="line martb10"></div>
                   </li>
@@ -263,7 +263,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                               </li>
 								 
 									 <li class="dblock padrb10 ">
-                                 <a href="https://www.qloudid.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
+                                 <a href="https://www.safeqloud.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
                                     <span class="valm trn" style="letter-spacing: 2px;">Pick & Drop list</span> 
                                     <div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
                                  </a>
@@ -334,7 +334,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 				
 				
 				<div class="talc padtb80">
-				<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.qloudid.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" width="200" height="200" class="pad0 talc  bold fsz16" />
+				<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.safeqloud.com/public/index.php/PublicDaycareSelect/daycareAction/<?php echo $data['cid']; ?>" width="200" height="200" class="pad0 talc  bold fsz16" />
 				</div>
 			</div>		
 			

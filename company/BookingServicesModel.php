@@ -364,7 +364,7 @@
 								<a href="#profile1" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
 									 
-								<span class="css-nacvcm hidden-xs"><img src="https://www.qloudid.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
+								<span class="css-nacvcm hidden-xs"><img src="https://www.safeqloud.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">Additional calendar features</span><span class="aprtSubheading">Select a larger date range and view calendar sync</span>
 								</div>
@@ -792,7 +792,7 @@ return $org;
 								<a href="#profile1" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
 									 
-								<span class="css-nacvcm hidden-xs"><img src="https://www.qloudid.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
+								<span class="css-nacvcm hidden-xs"><img src="https://www.safeqloud.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">Additional calendar features</span><span class="aprtSubheading">Select a larger date range and view calendar sync</span>
 								</div>

@@ -1043,7 +1043,7 @@ function displayPhotos($data)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Amenities</span>

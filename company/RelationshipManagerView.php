@@ -109,7 +109,7 @@
 		<div class="wi_100 hei_65p xs-pos_fix padtb5 padrl10 lgtgrey2_bg">
 			
 		<div class="logo  wi_220p xxs-wi_auto">
-				<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Huvudkontor</h3> </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Huvudkontor</h3> </a>
 			</div>
 			<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 padt5 xxxs-padt20 xs-padt10" style="width: 50px;">
@@ -493,7 +493,7 @@
 												
 												<div class="dflex xs-dblock fxwrap_w padb0 xs-padt0 xs-padb0">
 													<div class="wi_50 xs-wi_100  sm-wi_50 xsip-wi_50  order_2 padrl10">
-														<img src="https://www.qloudid.com/html/smartappcss/images/smart/design-1.png" width="642" height="439" class="maxwi_100 hei_auto">
+														<img src="https://www.safeqloud.com/html/smartappcss/images/smart/design-1.png" width="642" height="439" class="maxwi_100 hei_auto">
 													</div>
 													<div class="wi_50 xs-wi_100  sm-wi_50 xsip-wi_50  padtb0  padr20 txt_708198">
 														<h2 class="bold marb20 pad0 tall xs-talc fntwei_300 fsz55 sm-fsz32 md-fsz36 lg-fsz40 black_txt xs-fsz30">Din arbetsgivare. Din <?php echo trim(substr(html_entity_decode($getAppsPermissionDetail['app_name']),0,10)); ?>.<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla black_bg"></div>

@@ -235,14 +235,14 @@
             <div class="header__body js-header-body">
               <div class="header__title changedText">Notification</div>
               <div class="header__notifications"><a class="header__notification" href="#">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
                     <div class="header__date changedText">1 minute ago</div>
                     <div class="header__status" style="background-color: #3B71FE;"></div>
                   </div></a><a class="header__notification" href="message-center.html">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
@@ -270,7 +270,7 @@
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Wishlists</span></a></div>
                 <div class="header__menu">
-				<a class="header__link" href="https://www.qloudid.com/company/index.php/Company/companyAccount/<?php echo $data['cid']; ?>">
+				<a class="header__link" href="https://www.safeqloud.com/company/index.php/Company/companyAccount/<?php echo $data['cid']; ?>">
                     <svg class="icon icon-building">
                       <use xlink:href="#icon-building"></use>
                     </svg><span class="changedText">Company details</span></a>
@@ -281,7 +281,7 @@
               </div>
               <div class="header__btns"> 
 			  <a class="button-stroke button-small header__button changedText" href="#" style="background: #3B71FE; box-shadow: none;">Account</a>
-                <a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
+                <a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
               </div>
             </div>
           </div>

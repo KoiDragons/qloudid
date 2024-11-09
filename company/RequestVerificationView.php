@@ -110,7 +110,7 @@ function checkFlag()
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/Arbetsplats/minArbetsplats" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/Arbetsplats/minArbetsplats" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -120,7 +120,7 @@ function checkFlag()
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows">
 					 
 					<li class="hidden-xs padr10 first">
-						<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Admin</span></a>
+						<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Admin</span></a>
 					</li>
 				  </ul>
 			</div>
@@ -135,7 +135,7 @@ function checkFlag()
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/Arbetsplats/minArbetsplats" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/Arbetsplats/minArbetsplats" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -152,7 +152,7 @@ function checkFlag()
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows">
 					 
 					<li class="  padr10 first" style="margin-right:0px !important;">
-						<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Admin</span></a>
+						<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>"><span class="black_txt pred_txt_h ffamily_avenir">Admin</span></a>
 					</li>
 				  </ul>
 			</div>
@@ -298,7 +298,7 @@ function checkFlag()
 											<?php } ?>
 							 
 								
-								<a href="https://www.qloudid.com/company/index.php/EmployeeDetail/employeeAtendence/<?php echo $data['cid']; ?>">	
+								<a href="https://www.safeqloud.com/company/index.php/EmployeeDetail/employeeAtendence/<?php echo $data['cid']; ?>">	
 								
 								<div class=" white_bg marb5    brdb bg_fffbcc_a  " style=""> <div class="container padtb15  brdrad1 fsz14 dark_grey_txt"> 
 								<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall"> <div class="wi_100 xs-wi_100 xs-order_3 xs-padt0 fsz12"> 
@@ -376,7 +376,7 @@ function checkFlag()
 <div class="clear"></div>
 
 </div>
-<div class="martb10 talc fsz18"><a href="https://www.qloudid.com/company/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" class="txt_cfdbea trans_bg brdb blue_btn  tb_67cff7_bg    trn xxs-brd_width ">Skip this</a>
+<div class="martb10 talc fsz18"><a href="https://www.safeqloud.com/company/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" class="txt_cfdbea trans_bg brdb blue_btn  tb_67cff7_bg    trn xxs-brd_width ">Skip this</a>
 				</div>
 </div>
 <div class="clear"></div>

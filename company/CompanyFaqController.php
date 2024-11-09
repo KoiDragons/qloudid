@@ -15,7 +15,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -26,7 +26,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new CompanyFaqModel();
 				$companyDetail    = $model1->companyDetail($data);

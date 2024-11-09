@@ -8,13 +8,13 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $path; ?>/html/fleet/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $path; ?>/html/fleet/img/favicon.ico">
-      <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/fleet/css/app.min.pannelStart.css">
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.min.pannelStart.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -99,12 +99,12 @@
 <?php if($checkPermission ==1)
 				{ ?>
 <a class="button button-small header__button   xxs-mart10 changedText hidden-xxs   " href="../../CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" style="margin-left:35px; min-width:112px; background:transparent; color:#777E90; font-size: 16px;">Admin view</a>
-			<a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Logout</button>
 
 </div></a>
 				<?php } else { ?>
-				<a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+				<a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Logout</button>
 
 </div></a>
@@ -139,19 +139,19 @@
                 <div class="browse__slider js-slider-browse">
 				 
 				<a class="browse__card" href="#">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/estorecss/tmpnew0.55309500 1707887764.jpg" src="https://www.qloudid.com/estorecss/tmpnew0.55309500 1707887764.jpg" alt="Card" style="width: auto;">
+                                      <div class="browse__preview"><img srcSet="https://www.safeqloud.com/estorecss/tmpnew0.55309500 1707887764.jpg" src="https://www.safeqloud.com/estorecss/tmpnew0.55309500 1707887764.jpg" alt="Card" style="width: auto;">
                                         <div class="status-black browse__category">Profile page</div>
                                       </div>
                                    
                                       </a>
-										<a class="browse__card" href="https://www.qloudid.com/company/index.php/Landloard/listBuildings/<?php echo $data['cid']; ?>">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/estorecss/tmpnew0.55309500 1707887764.jpg" src="https://www.qloudid.com/estorecss/tmpnew0.55309500 1707887764.jpg" alt="Card" style="width: auto;">
+										<a class="browse__card" href="https://www.safeqloud.com/company/index.php/Landloard/listBuildings/<?php echo $data['cid']; ?>">
+                                      <div class="browse__preview"><img srcSet="https://www.safeqloud.com/estorecss/tmpnew0.55309500 1707887764.jpg" src="https://www.safeqloud.com/estorecss/tmpnew0.55309500 1707887764.jpg" alt="Card" style="width: auto;">
                                         <div class="status-black browse__category">Objects</div>
                                       </div>
                                    
                                       </a>		 
 									  <a class="browse__card" href="#">
-                                      <div class="browse__preview"><img srcSet="https://www.qloudid.com/estorecss/tmpnew0.55309500 1707887764.jpg" src="https://www.qloudid.com/estorecss/tmpnew0.55309500 1707887764.jpg" alt="Card" style="width: auto;">
+                                      <div class="browse__preview"><img srcSet="https://www.safeqloud.com/estorecss/tmpnew0.55309500 1707887764.jpg" src="https://www.safeqloud.com/estorecss/tmpnew0.55309500 1707887764.jpg" alt="Card" style="width: auto;">
                                         <div class="status-black browse__category">Reviews</div>
                                       </div>
                                    

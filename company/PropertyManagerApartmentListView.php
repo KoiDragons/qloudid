@@ -23,7 +23,7 @@
 		 <script>
 		 function changeHeader()
 		 {
-			 window.location.href ="https://www.qloudid.com/company/index.php/CompanySuppliers/addPropertyInfo/<?php echo $data['cid']; ?>";
+			 window.location.href ="https://www.safeqloud.com/company/index.php/CompanySuppliers/addPropertyInfo/<?php echo $data['cid']; ?>";
 		 }
 		 </script>
 			

@@ -19,7 +19,7 @@ class ContractorInformationController
 					$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new ContractorInformationModel();
 				$companyDetail    = $model1->companyDetail($data);
@@ -44,7 +44,7 @@ class ContractorInformationController
 					$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new ContractorInformationModel();
 				$companyDetail    = $model1->companyDetail($data);
@@ -69,7 +69,7 @@ class ContractorInformationController
 					$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new ContractorInformationModel();
 				$companyDetail    = $model1->companyDetail($data);
@@ -83,7 +83,7 @@ class ContractorInformationController
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new ContractorInformationModel();
 				$data=array();
@@ -99,7 +99,7 @@ class ContractorInformationController
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new ContractorInformationModel();
 				$data=array();

@@ -21,7 +21,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -31,7 +31,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardInhouseModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -41,7 +41,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -49,7 +49,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			 
 			$listProposals    = $model1->listProposals($data); 
@@ -68,7 +68,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -78,7 +78,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -88,7 +88,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -96,7 +96,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			 
 			$brokerInvoicePaidList    = $model1->brokerInvoicePaidList($data); 
@@ -114,7 +114,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -125,7 +125,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -135,7 +135,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -143,7 +143,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			 
 			$brokerInvoicePaidDetail    = $model1->brokerInvoicePaidDetail($data); 
@@ -163,7 +163,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -174,7 +174,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -184,7 +184,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -192,7 +192,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			require_once('../configs/testMandril.php');
 			require_once('../configs/smsMandril.php');
@@ -214,7 +214,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -225,7 +225,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				
@@ -245,7 +245,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -254,14 +254,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -281,7 +281,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -290,14 +290,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -317,7 +317,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -326,14 +326,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -352,7 +352,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -361,14 +361,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -388,7 +388,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -397,14 +397,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -425,7 +425,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -434,14 +434,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -460,7 +460,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -469,14 +469,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -498,7 +498,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -507,14 +507,14 @@
 				$data['rid']=cleanMe($b);
 				if($data['rid']==null)
 				{
-					header('location:https://www.qloudid.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
+					header('location:https://www.safeqloud.com/company/index.php/LandloardBroker/guestReservationRequestList/'.$data['cid']); die;
 				}
 				$data['page_id']=1;
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$userCountryList    = $model->userCountryList($data);
@@ -537,7 +537,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -549,7 +549,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				
@@ -569,7 +569,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -581,7 +581,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				
@@ -604,7 +604,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -616,7 +616,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				
@@ -642,7 +642,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -653,7 +653,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$data['fapp_id']=62;
@@ -664,7 +664,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -672,7 +672,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 				$brokerRequestList    = $model->brokerRequestList($data);
 				 
@@ -690,7 +690,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -701,7 +701,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$data['fapp_id']=62;
@@ -712,7 +712,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -720,7 +720,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 				$brokerRequestList    = $model->brokerRequestSentList($data);
 				  
@@ -738,7 +738,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -749,7 +749,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$data['fapp_id']=58;
@@ -760,7 +760,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				$model3       = new VitechPropertiesModel();	 
@@ -768,7 +768,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 				$brokerRequestInfo    = $model->brokerRequestInfo($data);
 				 
@@ -785,7 +785,7 @@
 				$model1       = new LandloardBrokerModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -795,7 +795,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -805,7 +805,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -813,7 +813,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			$displayproperties    = $model1->getLandloardApprovedList($data);
 			if(count($displayproperties)==0)
@@ -847,7 +847,7 @@
 				$model1       = new LandloardBrokerModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -858,7 +858,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			 
@@ -879,7 +879,7 @@
 				$model1       = new LandloardBrokerModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -889,7 +889,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -899,7 +899,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -907,7 +907,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			$displayproperties    = $model1->getLandloardApprovedList($data);
 			if(count($displayproperties)==0)
@@ -933,7 +933,7 @@
 				$model1       = new LandloardBrokerModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -945,7 +945,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -955,7 +955,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 
@@ -964,7 +964,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid']); die;
 			}
 			
 			$getLandloardSocietyDetails    = $model1->getLandloardSocietyDetails($data); 
@@ -985,7 +985,7 @@
 				$model1       = new LandloardBrokerModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../../";
 			$data=array();
@@ -998,7 +998,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -1008,7 +1008,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				
@@ -1017,7 +1017,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			
 			$getLandloardBuildingDetails    = $model1->getLandloardBuildingDetails($data); 
@@ -1040,7 +1040,7 @@
 				$model1       = new LandloardBrokerModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1051,7 +1051,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardBrokerModel();
 			$data['fapp_id']=57; $data['app_id']    = $model1->appId($data);
@@ -1061,7 +1061,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 			$model3       = new VitechPropertiesModel();	 
@@ -1069,7 +1069,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			$getLandloardApartmentPropertyList    = $model1->getLandloardApartmentPropertyList($data); 
 			$getLandloardBuildingDetails    = $model1->getLandloardBuildingDetails($data); 
@@ -1089,7 +1089,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -1101,7 +1101,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				$data['fapp_id']=58;
@@ -1112,7 +1112,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -1120,7 +1120,7 @@
 				$contentDetail    = $model3->contentDetail($data);
 				if($employeeSkillCount==0 || $contentDetail==0)
 				{
-				 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+				 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 				}
 				$brokerRequestInfo    = $model->brokerRequestInfo($data);
 				 
@@ -1137,7 +1137,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -1166,7 +1166,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -1178,7 +1178,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				
@@ -1199,7 +1199,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -1211,7 +1211,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				require_once('../configs/testMandril.php');
@@ -1234,7 +1234,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -1246,7 +1246,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				
@@ -1267,7 +1267,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -1279,7 +1279,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model       = new LandloardBrokerModel();
 				

@@ -12,11 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
     
-    <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/fleet/css/app.min.pannelNew.css">
-	 <script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
-	<link rel="stylesheet" href="https://www.qloudid.com/html/usercontent/constructor.css">
-	<link rel="stylesheet" href="https://www.qloudid.com/html/usercontent/responsive.css">
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.min.pannelNew.css">
+	 <script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/jquery.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/constructor.css">
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/responsive.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -66,7 +66,7 @@
 
 <div class="header__body js-header-body">
 <div class="header__menu"> 
-<a class="header__link" href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout">
+<a class="header__link" href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Logout</a></div>
@@ -216,12 +216,12 @@
 
 </div></a>
 
-		<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+		<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Employee view</button>
 
 </div></a>
 
-			<a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Logout</button>
 
 </div></a>
@@ -297,17 +297,17 @@
 			   
 						
 						<a class="card  " href="#" style="margin-left:0px;">
-                  <div class="card__preview"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  ">Company details</div>
                   </div>
                   </a>
 			  <a class="card  " href="../../CompanyCrm/adminAccount/<?php echo $data['cid']; ?>">
-                  <div class="card__preview"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  ">Employees</div>
                   </div>
                   </a>
 					<a class="card  " href="../../VitechProperties/listProperties/<?php echo $data['cid']; ?>">
-                  <div class="card__preview"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category changedText" style="background: white; color:black;  ">Objects</div>
                   </div>
                   </a>	

@@ -90,7 +90,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -113,7 +113,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -251,7 +251,7 @@
 											<a href="../../EmployeeSavedQard/personalAccount/<?php echo $data['eid']; ?>" class="dinlblck mar5 padrl15 brd brdclr_seggreen_h brdclr_segblue_a brdrad40 segblue_bg_a lgn_hight_26 fsz14 midgrey_txt seggreen_txt_h white_txt_a white_txt_ah" >Utforska</a>
 											<a href="#" class="dinlblck mar5 padrl15 brd brdclr_seggreen_h brdclr_segblue_a brdrad40 segblue_bg_a lgn_hight_26 fsz14 midgrey_txt seggreen_txt_h white_txt_a white_txt_ah <?php if(empty($employeeDetail)) echo 'hidden'; ?>" ><?php if(!empty($employeeDetail)) echo $employeeDetail['personal_code']; ?></a>
 
-											<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" target="_blank" class="dinlblck mar5 padrl15  brdclr_seggreen_h brdclr_segblue_a brdrad40 segblue_bg_a lgn_hight_26 fsz14 midgrey_txt seggreen_txt_h white_txt_a white_txt_ah <?php if(empty($employeeDetail)) echo 'hidden'; ?>" ><span class="fas fa-cog fsz22 padl10 lgn_hight_29 valm" aria-hidden="true"></span></a>
+											<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" target="_blank" class="dinlblck mar5 padrl15  brdclr_seggreen_h brdclr_segblue_a brdrad40 segblue_bg_a lgn_hight_26 fsz14 midgrey_txt seggreen_txt_h white_txt_a white_txt_ah <?php if(empty($employeeDetail)) echo 'hidden'; ?>" ><span class="fas fa-cog fsz22 padl10 lgn_hight_29 valm" aria-hidden="true"></span></a>
 											
 										</div>
 							<div class="container   fsz14 dark_grey_txt">
@@ -437,7 +437,7 @@
 							</a>
 						</li>
 						<li class="dblock mar0 padrl15 brdb_new">
-							<a href="https://www.qloudid.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+							<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 								<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 								Inform relatives
 							</a>

@@ -51,7 +51,7 @@
   
  <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important; /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo xs-fsz20 changedText " href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" style="
+<a class="header__logo xs-fsz20 changedText " href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -286,8 +286,8 @@
 ">
 <div class="main__preview xxs-padrl8">
 <picture>
-<source media="(max-width: 767px)" srcset="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.qloudid.com/html/usercontent/images/dstricts/logo1.jpeg'; else if($getAppsPermissionDetail['app_id']==57) echo 'https://www.qloudid.com/html/usercontent/images/bg/ipropose.jpeg';  else if($getAppsPermissionDetail['app_id']>13) echo '<?php echo $path; ?>html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>">
-<img src="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.qloudid.com/html/usercontent/images/dstricts/logo1.jpeg'; else if ($getAppsPermissionDetail['app_id']==57) echo 'https://www.qloudid.com/html/usercontent/images/bg/ipropose.jpeg'; else if($getAppsPermissionDetail['app_id']>13) echo 'https://www.qloudid.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>" alt="Main" style="border-radius:12px;">
+<source media="(max-width: 767px)" srcset="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else if($getAppsPermissionDetail['app_id']==57) echo 'https://www.safeqloud.com/html/usercontent/images/bg/ipropose.jpeg';  else if($getAppsPermissionDetail['app_id']>13) echo '<?php echo $path; ?>html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>">
+<img src="<?php if($getAppsPermissionDetail['app_id']>3 && $getAppsPermissionDetail['app_id']<12) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else if ($getAppsPermissionDetail['app_id']==57) echo 'https://www.safeqloud.com/html/usercontent/images/bg/ipropose.jpeg'; else if($getAppsPermissionDetail['app_id']>13) echo 'https://www.safeqloud.com/html/usercontent/images/dstricts/logo1.jpeg'; else echo $getAppsPermissionDetail['image_path']; ?>" alt="Main" style="border-radius:12px;">
 </picture>
 <div class="main__wrap xxs-padrl16   pad345" style="
     /* background: #f67f00ad; */

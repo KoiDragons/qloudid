@@ -60,7 +60,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 }
 		function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/company/index.php/Landloard/buildingInformation/<?php echo $data['cid']; ?>";
+			window.location.href ="https://www.safeqloud.com/company/index.php/Landloard/buildingInformation/<?php echo $data['cid']; ?>";
 		}	
 		</script>
 		

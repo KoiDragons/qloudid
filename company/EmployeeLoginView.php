@@ -201,7 +201,7 @@
 						else 
 						{
 							
-							window.location.href="http://www.qloudid.com/company/index.php/EmployeeLogin/welcome/"+data1;
+							window.location.href="http://www.https://www.safeqloud.com/company/index.php/EmployeeLogin/welcome/"+data1;
 						}
 					}
 				});

@@ -156,7 +156,7 @@
 						success: function(data1){
 							if(data1==1)
 							{
-								window.location.href ="https://www.qloudid.com/company/index.php/InviteVisitors/visitorsInformation/<?php echo $data['eid']; ?>";
+								window.location.href ="https://www.safeqloud.com/company/index.php/InviteVisitors/visitorsInformation/<?php echo $data['eid']; ?>";
 							}
 							else
 							{

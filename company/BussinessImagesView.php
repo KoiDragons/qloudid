@@ -190,7 +190,7 @@ if($businessDisplayInformation ['small_image2_path']!=null) { $filename="../esto
 						<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 											</a></li> 
 											<li class="dblock padrb10">
-						<a href="https://www.qloudid.com/public/index.php/Eshop/itemInformation/<?php echo $data['cid']; ?>" target="_blank" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt"> <span class="valm trn ltr_space" >E-shop </span> 
+						<a href="https://www.safeqloud.com/public/index.php/Eshop/itemInformation/<?php echo $data['cid']; ?>" target="_blank" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt"> <span class="valm trn ltr_space" >E-shop </span> 
 						<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 						</a></li>
 							<li class="dblock padrb10 first">

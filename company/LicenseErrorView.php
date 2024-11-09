@@ -98,7 +98,7 @@
 
 						<div class="padtb20 xxs-talc talc">
 								
-								<a href="https://www.qloudid.com/company/index.php/Company/openDay/<?php echo $data['cid']; ?>"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
+								<a href="https://www.safeqloud.com/company/index.php/Company/openDay/<?php echo $data['cid']; ?>"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
 								
 							</div>
 									

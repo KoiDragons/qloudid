@@ -167,7 +167,7 @@ class HotelResturantSearchModel extends AppModel
 				$stmt = $dbCon->prepare("INSERT INTO hotel_roomservice_resturant (company_service_info,resturant_id, hotel_company_id, created_on,hotel_property_id) VALUES (?, ?, ?, now(),?)");
 				$stmt->bind_param("iiii", $service_id,$resturant_id,$company_id,$location_id);
 				$stmt->execute();
-				$url="https://www.qloudid.com/company/index.php/Resturant/roomServiceRequests/".$cid."/".$data['id'];
+				$url="https://www.safeqloud.com/company/index.php/Resturant/roomServiceRequests/".$cid."/".$data['id'];
 			$surl=getShortUrl($url);
 			$stmt = $dbCon->prepare("select manage_employee_permissions.id,concat_ws(' ', first_name, last_name) as name,is_admin,user_logins.email from manage_employee_permissions left join user_logins on user_logins.id=manage_employee_permissions.user_id where company_id=? and is_admin=1 limit 0,50");
 			/* bind parameters for markers */
@@ -378,7 +378,7 @@ width: 960px;
                            <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
     padding-left: 30px; margin-right: auto;
     margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopeBlack.png"width="45px;" height="45px;" /></div>
+                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopeBlack.png"width="45px;" height="45px;" /></div>
                               <div class="padb0 xxs-padb0 ">
                                  <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#000;">Request</h1>
                               </div>
@@ -798,7 +798,7 @@ catch(Exception $e) {
 		$rowCompany = $result->fetch_assoc();
 		$cid= $this -> encrypt_decrypt('encrypt',$data['company_id']);  
 			
-			$url="https://www.qloudid.com/company/index.php/Resturant/roomServiceRequests/".$cid."/".$data['id'];
+			$url="https://www.safeqloud.com/company/index.php/Resturant/roomServiceRequests/".$cid."/".$data['id'];
 			$surl=getShortUrl($url);
 			$stmt = $dbCon->prepare("select manage_employee_permissions.id,concat_ws(' ', first_name, last_name) as name,is_admin,user_logins.email from manage_employee_permissions left join user_logins on user_logins.id=manage_employee_permissions.user_id where company_id=? and is_admin=1 limit 0,50");
 			/* bind parameters for markers */
@@ -1009,7 +1009,7 @@ width: 960px;
                            <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
     padding-left: 30px; margin-right: auto;
     margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopeBlack.png"width="45px;" height="45px;" /></div>
+                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopeBlack.png"width="45px;" height="45px;" /></div>
                               <div class="padb0 xxs-padb0 ">
                                  <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#000;">Request</h1>
                               </div>

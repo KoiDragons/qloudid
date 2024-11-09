@@ -65,7 +65,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						}
 						else
 						{
-							window.location.href ="https://www.qloudid.com/company/index.php/RemoteVisitor/activateVisitorsMeeting/<?php echo $data['cid']; ?>";
+							window.location.href ="https://www.safeqloud.com/company/index.php/RemoteVisitor/activateVisitorsMeeting/<?php echo $data['cid']; ?>";
 						
 						}
 						}
@@ -84,7 +84,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						if(data1==0)
 						{
 							alert(data1); return false; 
-							 window.location.href ="https://www.qloudid.com/company/index.php/RemoteVisitor/activateVisitorsMeeting/<?php echo $data['cid']; ?>";
+							 window.location.href ="https://www.safeqloud.com/company/index.php/RemoteVisitor/activateVisitorsMeeting/<?php echo $data['cid']; ?>";
 						}
 						}
 					});

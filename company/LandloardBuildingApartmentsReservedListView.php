@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -443,7 +443,7 @@ function addFileInformaion()
 										   <div class="card card_row"   style="margin-bottom:24px; border:1px solid #23262F ;">
 	 
 					 
-										<div class="card__preview"><img srcset="https://www.qloudid.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" src="https://www.qloudid.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
+										<div class="card__preview"><img srcset="https://www.safeqloud.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" src="https://www.safeqloud.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
                      <div class="category card__category"><?php if($value1['is_reserved']==1) { echo 'Reserved';} else echo 'Reserve'; ?></div>
                   </div>
                   <div class="card__body" style="background: #131922;">

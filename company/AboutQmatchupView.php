@@ -114,7 +114,7 @@
 												</a>
 											</li>
 											<li class="dblock padrb10">
-												<a href="https://www.qloudid.com/company/index.php/EmployeePassport/employeeAccount/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Employee Detail</span>
+												<a href="https://www.safeqloud.com/company/index.php/EmployeePassport/employeeAccount/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Employee Detail</span>
 													<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 												</a>
 											</li>
@@ -144,7 +144,7 @@
 												</a>
 											</li>
 											<li class="dblock padrb10">
-												<a href="https://www.qloudid.com/user/index.php/AboutQmatchupOmOss" data-id="scroll-section-1" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pred2_h brdclr_pred2_a pred2_bg_h pred2_bg_a black_txt white_txt_h white_txt_a"> <span class="valm trn">Om oss</span>
+												<a href="https://www.safeqloud.com/user/index.php/AboutQmatchupOmOss" data-id="scroll-section-1" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pred2_h brdclr_pred2_a pred2_bg_h pred2_bg_a black_txt white_txt_h white_txt_a"> <span class="valm trn">Om oss</span>
 													<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pred2_bg rotate45"></div>
 												</a>
 											</li>
@@ -165,12 +165,12 @@
 										<h4 class="padb5 uppercase ff-sans black_txt trn">Partners</h4>
 										<ul class="marr20 pad0">
 										<li class="dblock padrb10">
-												<a href="https://www.qloudid.com/user/index.php/ApplicationStatus" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Aterförsäljare</span>
+												<a href="https://www.safeqloud.com/user/index.php/ApplicationStatus" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Aterförsäljare</span>
 													<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 												</a>
 											</li>
 											<li class="dblock padrb10">
-												<a href="https://www.qloudid.com/user/index.php/Minkarriar/UserAccount" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Leverantörer</span>
+												<a href="https://www.safeqloud.com/user/index.php/Minkarriar/UserAccount" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Leverantörer</span>
 													<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 												</a>
 											</li>

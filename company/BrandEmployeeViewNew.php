@@ -209,7 +209,7 @@
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/Arbetsplats/minArbetsplats" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/Arbetsplats/minArbetsplats" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -351,7 +351,7 @@
 						 
 						
 						
-						<div class="wi_25-12p marl10"><a href="https://www.qloudid.com/company/index.php/CompanyProperty/locationAccount/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
+						<div class="wi_25-12p marl10"><a href="https://www.safeqloud.com/company/index.php/CompanyProperty/locationAccount/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
 																				  <i class=" fa-circle fa-stack-2x circle_bg_apps2" aria-hidden="true" style="border-radius: 10%;background: #e4e4e4;color: #e4e4e4;"></i>
 																				  <i class="white_txt fas fa-cogs fa-stack-1x fab1 bold pad0" aria-hidden="true" style="color:red;"></i>
 																				</span></a>
@@ -359,7 +359,7 @@
 						</div> 
 
 						
-						<div class="wi_25-12p marl10"><a href="https://www.qloudid.com/company/index.php/ManageEmployee/magazineAccount/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
+						<div class="wi_25-12p marl10"><a href="https://www.safeqloud.com/company/index.php/ManageEmployee/magazineAccount/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
 																				  <i class=" fa-circle fa-stack-2x circle_bg_apps2" aria-hidden="true" style="border-radius: 10%;background: #e4e4e4;color: #e4e4e4;"></i>
 																				   <i class="black_txt far fa-user fa-stack-1x fab1 pad0" aria-hidden="true"></i>
 																				</span></a>
@@ -370,7 +370,7 @@
 						
 	 		<div class="marrl0 wi_500p maxwi_100 dflex xs-fxwrap_w talc padt20 xs-padt0 padb20   xs-padb0 white_bg">
 						<div class="wi_25-12p marl10">
-						<a href="https://www.qloudid.com/company/index.php/ChilldCare/childCareNews/<?php echo $data['cid']; ?>" class="fsz30 ">
+						<a href="https://www.safeqloud.com/company/index.php/ChilldCare/childCareNews/<?php echo $data['cid']; ?>" class="fsz30 ">
 						<span class="fa-stack-info">
 																				  <i style="border-radius: 10%;background: #e4e4e4; color: #e4e4e4;" aria-hidden="true" class=" fa-circle fa-stack-2x circle_bg_apps2"></i>
 																				  <i class="fas fa-child fa-stack-1x fab1 bold pad0" aria-hidden="true" style="color:#fcaf16;"></i>
@@ -380,7 +380,7 @@
 						 
 						
 						 	<div class="wi_25-12p marl10">
-						<a href="https://www.qloudid.com/company/index.php/EmployeeDetail/employeeAtendence/<?php echo $data['cid']; ?>" class="fsz30 ">
+						<a href="https://www.safeqloud.com/company/index.php/EmployeeDetail/employeeAtendence/<?php echo $data['cid']; ?>" class="fsz30 ">
 						<span class="fa-stack-info">
 																				  <i style="border-radius: 10%;background: #e4e4e4; color: #e4e4e4" aria-hidden="true" class=" fa-circle fa-stack-2x circle_bg_apps2"></i>
 																				  <i class="black_txt far fa-clock fa-stack-1x fab1 bold pad0" aria-hidden="true" style="color:rgba(53,205,75,1);"></i>
@@ -390,7 +390,7 @@
 						 
 						
 						
-						<div class="wi_25-12p marl10"><a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
+						<div class="wi_25-12p marl10"><a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $data['eid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
 																				  <i class=" fa-circle fa-stack-2x circle_bg_apps2" aria-hidden="true" style="border-radius: 10%;background: #e4e4e4;color: #e4e4e4;"></i>
 																				  <i class="purple_txt far fa-address-card fa-stack-1x fab1 bold pad0" aria-hidden="true" style="color:purple;"></i>
 																				</span></a>

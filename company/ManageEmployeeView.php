@@ -288,7 +288,7 @@ function empSearch(link)
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/company/index.php/ReceivedChild/requestedApps/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/company/index.php/ReceivedChild/requestedApps/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -311,7 +311,7 @@ function empSearch(link)
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/ReceivedChild/requestedApps/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/ReceivedChild/requestedApps/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -320,7 +320,7 @@ function empSearch(link)
 			 <div class="fright xs-dnone padtbz10 sm-dnone <?php if($checkPermission==0) echo 'hidden'; ?>">
 						<ul class="mar0 pad0">
 							<div class="hidden-xs hidden-sm padtrl10">
-								<a href="https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" class=" diblock padrl0  ws_now lgn_hight_29 fsz16 black_txt">
+								<a href="https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" class=" diblock padrl0  ws_now lgn_hight_29 fsz16 black_txt">
 									
 									<span class="valm ffamily_avenir">Add & view all employees <i class="fas fa-long-arrow-alt-right fsz18 padl10" aria-hidden="true"></i></span>
 								</a>

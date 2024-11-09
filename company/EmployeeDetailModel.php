@@ -86,7 +86,7 @@ class EmployeeDetailModel extends AppModel
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading changedText" >'.str_ireplace('&','and',html_entity_decode($row['category_name'])).'</span><span class="aprtSubheading changedText" id="service'.$row['id'].'">'.$rowTodoSelectedCount['num'].' services selected</span>
 								</div>
@@ -531,7 +531,7 @@ width: 960px;
                            <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
     padding-left: 30px; margin-right: auto;
     margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                               <div class="padb0 xxs-padb0 ">
                                  <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Request</h1>
                               </div>
@@ -2249,7 +2249,7 @@ width: 960px;
         $result = $stmt->get_result();
         $row    = $result->fetch_assoc();	
 		$enc=$this->encrypt_decrypt('encrypt',$posted_value['identity_id']);
-			$url="https://www.qloudid.com/user/index.php/NewPersonal/editDetails/" . $enc;
+			$url="https://www.safeqloud.com/user/index.php/NewPersonal/editDetails/" . $enc;
 			 
 			$surl=getShortUrl($url);
 			
@@ -2453,7 +2453,7 @@ width: 960px;
                            <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
     padding-left: 30px; margin-right: auto;
     margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png"width="45px;" height="45px;" /></div>
+                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png"width="45px;" height="45px;" /></div>
                               <div class="padb0 xxs-padb0 ">
                                  <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Failed</h1>
                               </div>
@@ -2508,7 +2508,7 @@ width: 960px;
 
   <tbody><tr>
 
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center;"><span><a href="https://www.qloudid.com/user/index.php/NewPersonal/editDetails/"' . $enc.'" style="border-radius:3px;color:#fedd32;text-decoration:none;background-color:#fedd32;border-top:14px solid #fedd32;border-bottom:14px solid #fedd32;border-left:14px solid #fedd32;border-right:14px solid #fedd32;display:inline-block;border-radius:3px;color:#000000; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/NewPersonal/editDetails/"' . $enc.'">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center;"><span><a href="https://www.safeqloud.com/user/index.php/NewPersonal/editDetails/"' . $enc.'" style="border-radius:3px;color:#fedd32;text-decoration:none;background-color:#fedd32;border-top:14px solid #fedd32;border-bottom:14px solid #fedd32;border-left:14px solid #fedd32;border-right:14px solid #fedd32;display:inline-block;border-radius:3px;color:#000000; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/NewPersonal/editDetails/"' . $enc.'">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">

@@ -352,7 +352,7 @@
 					</div></td>
 					</tr>
 					<tr>
-					<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
+					<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col"><div style="font-size:14px;">Din kod:  <br />

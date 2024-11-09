@@ -231,7 +231,7 @@
 									<?php
 									} else {
 									  ?>
-									<div class="talc padt20 ffamily_avenir  "> <a href="https://www.qloudid.com/company/index.php/CreateApps/appsAccount/<?php echo strip_tags($data['cid']); ?>" ><input type="button" value="Generate api key" class="forword minhei_55p  fsz18 red_ff2828_bg   ffamily_avenir"></a> </div>		
+									<div class="talc padt20 ffamily_avenir  "> <a href="https://www.safeqloud.com/company/index.php/CreateApps/appsAccount/<?php echo strip_tags($data['cid']); ?>" ><input type="button" value="Generate api key" class="forword minhei_55p  fsz18 red_ff2828_bg   ffamily_avenir"></a> </div>		
 									<?php
 									} ?>
 	
@@ -256,16 +256,16 @@
 
 
 <p class="black_txt   fsz16">First of developer need a user account on Qloudid and he must be a employee of the company on Qloudid for the company he want to generate API URL. Then he needs to go to </p>
- <p class="black_txt   fsz16">https://www.qloudid.com/company/index.php/AppsList/appsAccount/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09 </p>
+ <p class="black_txt   fsz16">https://www.safeqloud.com/company/index.php/AppsList/appsAccount/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09 </p>
 
 <p class="black_txt padt10  padb0"><strong>if developer already have a developer account he will see list of API's created or he will be asked to request a developer account. After approval of suport team he can continue with following </strong></p>
 <ul class="black_txt fsz16 brdb_new martb0 padb10 padl20 xs-tall ">
 <li>If he want to generate new client id he can click on + and go to :</li>
-<li>https://www.qloudid.com/company/index.php/CreateApps/appsAccount/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09 </li>
+<li>https://www.safeqloud.com/company/index.php/CreateApps/appsAccount/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09 </li>
 <li>Here he can select which API URL he wants to generate. App name here must be unique i.e. not used by other user or company. Redirect URL is the one where developer wants to redirect after login or purchase that he have selected will be completed.</li>
 <li>After submitting the data a new Client id and password will be generated for developer and a tiny URL will be provided to him that he can use on their domain to login with Qloudid.</li>
 <li>When a user want to purchase on their web using Qloud ID they click on purchase button. Here user need to provide the API generated for the purchase he want to work on</li>
-<li>https://www.qloudid.com/user/index.php/LoginAccount/loginPurchaseVerify?response_type=code&client_id='.$client_id.'&state=xyz&purchase=1&total=</li>
+<li>https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchaseVerify?response_type=code&client_id='.$client_id.'&state=xyz&purchase=1&total=</li>
 <li>On this link user need to add client id and total purchase amount</li>
 <li>User need to scan the QR code by api on this page and provide his consent for the purchase</li>
 <li>User need to provide his delivery address after providing consent</li>
@@ -273,13 +273,13 @@
 <li>User need to provide card details after invoice address so that purchase is completed</li>
 <li>After successful submission of profile user is redirected to added URL</li>
 <li>On qmathup for now we are redirecting on : http://www.qmatchup.com/beta/user/index.php/Eshop/deliveryAddress </li>
-<li>From Qmatchup user need to send request to https://www.qloudid.com/walk/token.php using client id and secret key to generate access token.</li>
+<li>From Qmatchup user need to send request to https://www.safeqloud.com/walk/token.php using client id and secret key to generate access token.</li>
 <li>Following details are required in request:
 <ul>
 <li>$fields = ['grant_type'=>'authorization_code','code' => $_GET['code'],'client_id'=>$username, 'client_secret'=>$password] here username is client id and password id secret key</li>
 <li>$headers = array('PHP_AUTH_USER' => 'username' , 'PHP_AUTH_PW' => 'password'); here username is client id and password id secret key</li>
 </ul>
-<li> As soon as access tokan is received on qmatchup side they need to send the same to https://www.qloudid.com/walk/resource_purchase.php?purchase=1 using curl request</li>
+<li> As soon as access tokan is received on qmatchup side they need to send the same to https://www.safeqloud.com/walk/resource_purchase.php?purchase=1 using curl request</li>
 <li>Here on this Qmatchup is rechecking before they make user logged that if user is not making a cheat and opening URL directly. So they re-verify from their client id and password and user detail from Qloudid.</li>
 <li>This is two way handshaking process used on Qmatchup and Qloudid domain. So they can verify user login securely. Other domains using our API can work as per their requirement they can use two way handshaking or can make user logged in directly after receiving data from Qloudid.</li>
  <li>Data will be sent in json in below format :

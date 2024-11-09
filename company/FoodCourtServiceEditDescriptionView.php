@@ -386,7 +386,7 @@ moreEventOnRequestExtraFee=1;
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
 					success: function(data1){
 						
-						  window.location.href='https://www.qloudid.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
+						  window.location.href='https://www.safeqloud.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
 					}
 				});
 	 }		
@@ -405,7 +405,7 @@ function deleteRow(id)
 					success: function(data1){
 						if(data1==1)
 						{
-						 window.location.href='https://www.qloudid.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
+						 window.location.href='https://www.safeqloud.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
 						}
 						else
 						{
@@ -435,7 +435,7 @@ function deleteRow(id)
 					success: function(data1){
 						if(data1==1)
 						{
-						 window.location.href='https://www.qloudid.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
+						 window.location.href='https://www.safeqloud.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
 						}
 						
 					}
@@ -1908,7 +1908,7 @@ function deleteRow(id)
 							}
 							else
 							{
-								window.location.href='https://www.qloudid.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
+								window.location.href='https://www.safeqloud.com/company/index.php/FoodCourt/editDishInformation/<?php echo $data['cid']; ?>/<?php echo $data['fid']; ?>';
 								 
 							}
 						}

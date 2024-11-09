@@ -3833,7 +3833,7 @@
 				
 				
 				$enc_id=$this->encrypt_decrypt('encrypt',$id);
-				$url='https://www.qloudid.com/company/index.php/Company/confirmVisit/'.$enc_id;
+				$url='https://www.safeqloud.com/company/index.php/Company/confirmVisit/'.$enc_id;
 				$surl=getShortUrl($url);
 				
 				$stmt = $dbCon->prepare("select country_code,phone_number from company_visitors left join phone_country_code on phone_country_code.country_name=company_visitors.country where company_visitors.id=?");

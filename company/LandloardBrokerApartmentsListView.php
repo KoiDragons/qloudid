@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -220,7 +220,7 @@
               </div>
             <div class="gallery">
               <div class="gallery__list gallery__list_stays">
-                <div class="gallery__preview"><a class="gallery__view" href="https://www.qloudid.com/estorecss/tmp<?php echo $getLandloardBuildingImages[0]['building_photo_path']; ?>.jpg" data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="https://www.qloudid.com/estorecss/tmp<?php echo $getLandloardBuildingImages[0]['building_photo_path']; ?>.jpg" alt="Gallery"></a><a class="button-white button-small gallery__button" href="#">
+                <div class="gallery__preview"><a class="gallery__view" href="https://www.safeqloud.com/estorecss/tmp<?php echo $getLandloardBuildingImages[0]['building_photo_path']; ?>.jpg" data-fancybox="gallery" data-caption="Spectacular views of Queenstown"><img src="https://www.safeqloud.com/estorecss/tmp<?php echo $getLandloardBuildingImages[0]['building_photo_path']; ?>.jpg" alt="Gallery"></a><a class="button-white button-small gallery__button" href="#">
                     <svg class="icon icon-image">
                       <use xlink:href="#icon-image"></use>
                     </svg><span>Show all photos</span></a></div>
@@ -228,7 +228,7 @@
 												{
 													if($i==1){ $i++; continue;} 
 												if($i>4) { break; } ?>
-					<a class="gallery__preview" href="https://www.qloudid.com/estorecss/tmp<?php echo $value['building_photo_path']; ?>.jpg" data-fancybox="gallery"><img src="https://www.qloudid.com/estorecss/tmp<?php echo $value['building_photo_path']; ?>.jpg" alt="Gallery"></a> 
+					<a class="gallery__preview" href="https://www.safeqloud.com/estorecss/tmp<?php echo $value['building_photo_path']; ?>.jpg" data-fancybox="gallery"><img src="https://www.safeqloud.com/estorecss/tmp<?php echo $value['building_photo_path']; ?>.jpg" alt="Gallery"></a> 
 												<?php $i++; } ?>
               </div>
             </div>
@@ -313,7 +313,7 @@
 		<?php   foreach($value['apartment_details'] as $category2 => $value1) { ?>
 		
 		<a class="card card_row" href="javascript:void(0);" style="margin-bottom:24px;">
-                  <div class="card__preview"><img srcset="https://www.qloudid.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" src="https://www.qloudid.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
+                  <div class="card__preview"><img srcset="https://www.safeqloud.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" src="https://www.safeqloud.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" alt="Premium milford sound tour ex Queenstown">
                     <div class="category-blue card__category">best selling</div>
                   </div>
                   <div class="card__body">
@@ -408,7 +408,7 @@
                         <div class="description__preview">
                            
                             <!--<picture>
-							<img src="https://www.qloudid.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" style="width:175px; height:96px;">
+							<img src="https://www.safeqloud.com/estorecss/tmp<?php echo $value1['imageId']; ?>.jpg" style="width:175px; height:96px;">
 							  </picture>-->
 						<div class="description__subtitle"><?php echo $value1['office_apartment_number']; ?></div>	
  

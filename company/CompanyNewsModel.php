@@ -178,7 +178,7 @@ class CompanyNewsModel extends AppModel
 					$to      = $row_request['email'];
 					$subject = "Qloudid : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/companyConnection/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/companyConnection/'.$enc;
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/companyConnection/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/companyConnection/'.$enc;
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt = $dbCon->prepare("select country_code,phone_number  from user_profiles left join phone_country_code on phone_country_code.country_name=user_profiles.country_phone where user_profiles.user_logins_id=?");
@@ -192,7 +192,7 @@ class CompanyNewsModel extends AppModel
 					$phone='+'.trim($row_phone['country_code']).''.trim($row_phone['phone_number']);
 					$subject='Informationen om din vän/anhörig';
 					$to=$phone;
-					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.qloudid.com/user/index.php/PublicUserRequest/companyConnection/'.$enc;
+					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.safeqloud.com/user/index.php/PublicUserRequest/companyConnection/'.$enc;
 					//echo $html.' '.$to;
 					$res=sendSms($subject, $to, $html);
 					$stmt->close();

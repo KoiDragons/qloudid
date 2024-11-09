@@ -22,7 +22,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data['user_id']=$_SESSION['user_id'];
@@ -45,7 +45,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -55,7 +55,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$userSummary    = $model1->userSummary($data);
@@ -80,7 +80,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -90,7 +90,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$userSummary    = $model1->userSummary($data);
@@ -132,7 +132,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -144,7 +144,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$updateAdmin    = $model1->updateAdmin($data);
@@ -174,7 +174,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -184,7 +184,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$updateAdmin    = $model1->updateAdmin($data);
@@ -210,7 +210,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -220,7 +220,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$updateAdmin    = $model1->updateAdmin($data);
@@ -250,7 +250,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -260,7 +260,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$userSummary    = $model1->userSummary($data);
@@ -309,7 +309,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -344,7 +344,7 @@
 				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -354,7 +354,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$updateAdmin    = $model1->updateAdmin($data);
@@ -401,7 +401,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -411,7 +411,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$repairRequest    = $model1->repairRequest($data);
@@ -425,7 +425,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -436,7 +436,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$repairRequest    = $model1->repairRequestDetailInfo($data);
@@ -451,7 +451,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -462,7 +462,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				require_once('../configs/smsMandril.php');
@@ -477,7 +477,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -488,7 +488,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$employeesList    = $model1->employeesList($data);
@@ -502,7 +502,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -514,7 +514,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				require_once('../configs/smsMandril.php');
@@ -529,7 +529,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -540,7 +540,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				require_once('../configs/smsMandril.php');
@@ -554,7 +554,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -564,7 +564,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$propertyList    = $model1->propertyList($data);
@@ -578,7 +578,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -588,7 +588,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$vitechCityList    = $model1->vitechCityList();
@@ -611,7 +611,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -621,7 +621,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$addPropertyApartment    = $model1->addPropertyApartment($data);
@@ -636,7 +636,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -646,7 +646,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$updateAdmin    = $model1->updateAdmin($data);
@@ -685,7 +685,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -695,7 +695,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new CompanySuppliersModel();
 				$updateAdmin    = $model1->updateAdmin($data);
@@ -741,7 +741,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -754,7 +754,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$headQuarterID    = $model1->headQuarterID($data);
 				$data['id']=$headQuarterID;

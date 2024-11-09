@@ -12,7 +12,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new DropInQueueModel();
@@ -27,7 +27,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -41,7 +41,7 @@
 				 
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$queueDetail    = $model->queueDetail($data);
 				$employeeDetail    = $model->employeeDetail($data);
@@ -54,7 +54,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$model       = new DropInQueueModel();
@@ -69,7 +69,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -83,7 +83,7 @@
 				 
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$queueDetail    = $model->queueDetail($data);
 				$addOperator    = $model->addOperator($data);
@@ -96,7 +96,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$model       = new DropInQueueModel();
@@ -111,7 +111,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -125,7 +125,7 @@
 				 
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$queueDetail    = $model->queueDetail($data);
 				$removeOperator    = $model->removeOperator($data);
@@ -140,7 +140,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new DropInQueueModel();
@@ -155,7 +155,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -177,7 +177,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -198,7 +198,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -219,7 +219,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -239,7 +239,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new DropInQueueModel();
@@ -255,7 +255,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -283,7 +283,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -306,7 +306,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new DropInQueueModel();
@@ -322,7 +322,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -349,7 +349,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new DropInQueueModel();
@@ -365,7 +365,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -394,7 +394,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new DropInQueueModel();
@@ -409,7 +409,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -431,7 +431,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new DropInQueueModel();
@@ -446,7 +446,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -469,7 +469,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['qid']=cleanMe($a);
@@ -483,7 +483,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new DropInQueueModel();
@@ -497,7 +497,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -521,7 +521,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new DropInQueueModel();
@@ -535,7 +535,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -550,7 +550,7 @@
 				 
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$queueDetailInfo    = $model->queueDetailInfo($data);
 				
@@ -564,7 +564,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new DropInQueueModel();
@@ -578,7 +578,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -592,7 +592,7 @@
 				 
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$locationDetail    = $model->locationDetail($data);
 				$workingHrs    = $model->workingHrs($data);
@@ -605,7 +605,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new DropInQueueModel();
@@ -620,7 +620,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -634,7 +634,7 @@
 				 
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$queueDetail    = $model->queueDetail($data);
 				$locationDetail    = $model->locationDetail($data);
@@ -650,7 +650,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -666,7 +666,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();
@@ -683,7 +683,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$data=array();

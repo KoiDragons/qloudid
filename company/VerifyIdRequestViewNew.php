@@ -49,7 +49,7 @@
 	
 	 <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 changedText" href="https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" style="
+<a class="header__logo xs-fsz20 changedText" href="https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/<?php echo $data['cid']; ?>" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;

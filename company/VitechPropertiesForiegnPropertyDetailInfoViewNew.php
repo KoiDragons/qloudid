@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
      
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     
     <meta name="msapplication-TileColor" content="#da532c">
@@ -26,11 +26,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
-	<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/keepcss/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/keepcss/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -142,7 +142,7 @@ var optionsDetail='<option value="0">Select</option>';
 				<div class="wi_100 hei_45p xs-pos_fix padt0 padrl10 black_bg" style="background:#ffe500 !important">
 				
 				 
-			<a href="https://qloudid.com/company/index.php/VitechProperties/updateSellInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>/<?php echo $data['request_id']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt">
+			<a href="https://www.safeqloud.com/company/index.php/VitechProperties/updateSellInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>/<?php echo $data['request_id']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt">
 					 Reserve property
 				</div></a>
 			 
@@ -155,7 +155,7 @@ var optionsDetail='<option value="0">Select</option>';
 				<div class="wi_100 hei_45p xs-pos_fix padt0 padrl10 black_bg" style="background:#ffe500 !important">
 				
 				 
-			<a href="https://qloudid.com/company/index.php/VitechProperties/updateSoldInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>/<?php echo $data['request_id']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt">
+			<a href="https://www.safeqloud.com/company/index.php/VitechProperties/updateSoldInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>/<?php echo $data['request_id']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt">
 					Update sold
 				</div></a>
 			 

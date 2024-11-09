@@ -45,7 +45,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 		<script>
 		function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/company/index.php/Landloard/societyInformation/<?php echo $data['cid']; ?>";
+			window.location.href ="https://www.safeqloud.com/company/index.php/Landloard/societyInformation/<?php echo $data['cid']; ?>";
 		}	
 		</script>
 		
@@ -63,7 +63,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
 				 
-                        <a href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 					 
                      </li>
                   </ul>
@@ -94,7 +94,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                <div class="flag_top_menu flefti  padb10 wi_70p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left black_txt" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/company/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left black_txt" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>

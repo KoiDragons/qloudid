@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,7 +55,7 @@
 				<div class="wi_100 hei_45p xs-pos_fix padt0 padrl10 black_bg" style="background:#52D4F4 !important">
 				
 				 
-			<a href="https://www.qloudid.com/company/index.php/InviteEmployee/selectMethod/<?php echo $data['cid']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt" style="font-size:16px;">
+			<a href="https://www.safeqloud.com/company/index.php/InviteEmployee/selectMethod/<?php echo $data['cid']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt" style="font-size:16px;">
 					*** Add New Employee ***
 				</div></a>
 			 
@@ -64,7 +64,7 @@
 		</div>
    <header class="header js-header authorization xs-padt24   padtb20" style="height:93px;  /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo " href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileServices/<?php echo $data['cid']; ?>" style="
+<a class="header__logo " href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileServices/<?php echo $data['cid']; ?>" style="
 background-color: #23262F;
    padding: 15px;
    color: #f67f00;
@@ -219,7 +219,7 @@ background-color: #23262F;
 
 </div></a>
 
- <a href="https://www.qloudid.com/company/index.php/VitechProperties/listProperties/<?php echo $data['cid']; ?>" class="header__item " s=""><div class="header__item_language js-header-item" style="border-left: 0px solid !important; margin-left:0px;">
+ <a href="https://www.safeqloud.com/company/index.php/VitechProperties/listProperties/<?php echo $data['cid']; ?>" class="header__item " s=""><div class="header__item_language js-header-item" style="border-left: 0px solid !important; margin-left:0px;">
 <button class="header__head js-header-head   hidden-xs changedText" fdprocessedid="cth3ip">Objects</button>
 
 </div></a>
@@ -316,7 +316,7 @@ background-color: #23262F;
                   <div class="nav"><a class="nav__link active" href="#">All</a><a class="nav__link" href="#">Connected</a><a class="nav__link" href="#">Pending</a> </div>
                  
                  <div class="sorting__select hidden-xxs">
-               <a href="https://www.qloudid.com/company/index.php/InviteEmployee/selectMethod/<?php echo $data['cid']; ?>">  <button class="button-stroke catalog__button">
+               <a href="https://www.safeqloud.com/company/index.php/InviteEmployee/selectMethod/<?php echo $data['cid']; ?>">  <button class="button-stroke catalog__button">
                   <span>Add employee</span>
                 </button></a>
                 </div>

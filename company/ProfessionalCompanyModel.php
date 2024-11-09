@@ -461,7 +461,7 @@
                                                                                         style="border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);"
                                                                                     >
                                                                                         <a
-                                                                                            href="https://www.qloudid.com/public/index.php/UserProfessionalServiceRequest/receivedbidList/'.$data['job_id'].'"
+                                                                                            href="https://www.safeqloud.com/public/index.php/UserProfessionalServiceRequest/receivedbidList/'.$data['job_id'].'"
                                                                                             style="
                                                                                                 font-family: GT America Medium, Roboto, Helvetica, Arial, sans-serif;
                                                                                                 border-radius: 3px;
@@ -982,7 +982,7 @@ width: 960px;
                            <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
     padding-left: 30px; margin-right: auto;
     margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                              <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                               <div class="padb0 xxs-padb0 ">
                                  <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Request</h1>
                               </div>
@@ -1539,7 +1539,7 @@ width: 960px;
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading changedText" >'.str_ireplace('&','and',html_entity_decode($row['category_name'])).'</span><span class="aprtSubheading changedText" id="service'.$row['id'].'">'.$rowTodoSelectedCount['num'].' services selected</span>
 								</div>

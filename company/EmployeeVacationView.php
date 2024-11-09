@@ -222,7 +222,7 @@
 						
 				</ul>
 			</div>
-			<div class="visible-xs visible-xxs fright marr0 xs-padt10 "> <a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3  lgn_hight_29 fsz14 black_txt">Close</a> </div>
+			<div class="visible-xs visible-xxs fright marr0 xs-padt10 "> <a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3  lgn_hight_29 fsz14 black_txt">Close</a> </div>
 			<div class="clear"></div>
 		</div>
 	</div> 

@@ -13,7 +13,7 @@
 			$stmt->execute();
 			$id=$stmt->insert_id;
 			$encd=$this->encrypt_decrypt('encrypt',$id);		
-			$url="https://www.qloudid.com/public/index.php/QardInvitation/invitationInfo/".$encd;
+			$url="https://www.safeqloud.com/public/index.php/QardInvitation/invitationInfo/".$encd;
 			$surl=getShortUrl($url);
 			
 			$stmt = $dbCon->prepare("select phone_number,d_country,phone,user_logins.email,mobile,title,country_code from user_company_profile   left join user_logins on user_logins.id=user_company_profile.user_login_id left join phone_country_code on user_logins.country_of_residence=phone_country_code.id left join user_profiles on user_profiles.user_logins_id=user_company_profile.user_login_id  where company_id=? and user_login_id=(select user_login_id from employees where id=?)");
@@ -198,7 +198,7 @@
 			$emp= $this -> encrypt_decrypt('encrypt',$_POST['emp_id']);
 			$to=$row['email'];
 			$subject="Business qard generated";
-			$emailContent="Your employee business quard has been generated with Personal code: ".$_POST['quard_id']." and Password : ".$_POST['password']." you can visit your business card <a href='https//www.qloudid.com/public/index.php/PublicEmployeeInfo/listQuardInformation/".$emp."'>here</a>";
+			$emailContent="Your employee business quard has been generated with Personal code: ".$_POST['quard_id']." and Password : ".$_POST['password']." you can visit your business card <a href='https//www.https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/listQuardInformation/".$emp."'>here</a>";
 			sendEmail($subject, $to, $emailContent);
 			//echo $emailContent; die;
 			$stmt->close();
@@ -468,7 +468,7 @@
 																			
 				if($row['user_login_id']==43)
 				{
-					$a='<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>';
+					$a='<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>';
 					$td='<td class="pad5 brdb_new tall">
 																				<div class="padtb5">
 																				<div class="boolean-control boolean-control-small boolean-control-green fright checked" id="'.$row['id'].'" onclick="dontRemove(this);">
@@ -479,7 +479,7 @@
 				}
 				else
 				{
-					$a='<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>';
+					$a='<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>';
 					$td='<td class="pad5 brdb_new tall">
 																				<div class="padtb5">
 																				<div class="boolean-control boolean-control-small boolean-control-green fright checked" id="'.$row['id'].'" onclick="removeEmployeeQuard('.$enc1.');">
@@ -492,7 +492,7 @@
 				}
 				else
 				{
-					$a='<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyQuard/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>';
+					$a='<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyQuard/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>';
 					$td='<td class="pad5 brdb_new tall">
 					<div class="padtb5">
 					<div class="boolean-control boolean-control-small boolean-control-green fright " id="'.$row['id'].'" onclick="generateCode('.$row['id'].',this);">
@@ -507,7 +507,7 @@
 
 																			
 																			<td class="pad5 brdb_new tall nm hidden-xs ">
-																				<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>
+																				<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/'.$encid.'"><div class="padtb5 ">'.$row['name'].'</div></a>
 																			</td>
 																		
 

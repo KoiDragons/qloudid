@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
      
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
-      <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
+      <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -52,7 +52,7 @@
 				<div class="wi_100 hei_45p xs-pos_fix padt0 padrl10 black_bg" style="background:#ffe500 !important">
 				
 				 
-			<a href="https://qloudid.com/company/index.php/VitechProperties/photoInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt">
+			<a href="https://www.safeqloud.com/company/index.php/VitechProperties/photoInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>"> <div class=" talc   padt10 padb0 hei_45p black_txt">
 					 Add photos
 				</div></a>
 			 
@@ -267,7 +267,7 @@
 				 <?php } else { ?>
 					<div class="upload__item imageBorder">
                       
-                     <a href="https://qloudid.com/company/index.php/VitechProperties/photoInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>"> <div class="upload__file" style="  background-image: ../../usercontent/images/default-profile-pic.jpg;">
+                     <a href="https://www.safeqloud.com/company/index.php/VitechProperties/photoInformation/<?php echo $data['cid']; ?>/<?php echo $data['pid']; ?>"> <div class="upload__file" style="  background-image: ../../usercontent/images/default-profile-pic.jpg;">
                        
                         <div class="upload__icon">
                           <svg class="icon icon-upload-file">

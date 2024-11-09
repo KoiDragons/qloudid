@@ -118,7 +118,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 							}
 							else
 							{
-								window.location.href="https://www.qloudid.com/company/index.php/WhitelistIP/ipAccount/<?php echo $data['cid']; ?>";
+								window.location.href="https://www.safeqloud.com/company/index.php/WhitelistIP/ipAccount/<?php echo $data['cid']; ?>";
 							}
 						}
 					});
@@ -166,7 +166,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 							}
 							else
 							{
-								window.location.href="https://www.qloudid.com/company/index.php/WhitelistIP/ipAccount/<?php echo $data['cid']; ?>";
+								window.location.href="https://www.safeqloud.com/company/index.php/WhitelistIP/ipAccount/<?php echo $data['cid']; ?>";
 							}
 						}
 					});
@@ -221,7 +221,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                         <ul class="menulist sf-menu  fsz14">
 
                             <li class="first last" style="margin: 0 30px 0 0;">
-                                <a href="https://www.qloudid.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left"" aria-hidden="true"></i></a>
+                                <a href="https://www.safeqloud.com/company/index.php/Brand/employeeAccount/<?php echo $data['cid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left"" aria-hidden="true"></i></a>
                                  </li>
 
                         </ul>
@@ -229,7 +229,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 
                 </div>
 
-                 <div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.qloudid.com/company/index.php/WhitelistIP/visitorsInformation/<?php echo $data['cid']; ?>" class=" diblock padl7 padr7 brdrad3 fsz30 seggreen_47E2A1_txt"><i class="fas fa-plus " aria-hidden="true"></i></a> </div>
+                 <div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.safeqloud.com/company/index.php/WhitelistIP/visitorsInformation/<?php echo $data['cid']; ?>" class=" diblock padl7 padr7 brdrad3 fsz30 seggreen_47E2A1_txt"><i class="fas fa-plus " aria-hidden="true"></i></a> </div>
                
                 <div class="clear"></div>
 
@@ -320,7 +320,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 												</li>
 												
 											 	<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/company/index.php/CompanyCrowdDetail/crowdInfo/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn ffamily_avenir " >Evacuate</span> 
+													<a href="https://www.safeqloud.com/company/index.php/CompanyCrowdDetail/crowdInfo/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn ffamily_avenir " >Evacuate</span> 
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -366,11 +366,11 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
                                     </a>
                                 </div>
 								<div class="hidden-xs hidden-sm padrl10">
-									<a href="https://www.qloudid.com/company/index.php/WhitelistIP/visitorsInformation/<?php echo $data['cid']; ?>" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt " >
+									<a href="https://www.safeqloud.com/company/index.php/WhitelistIP/visitorsInformation/<?php echo $data['cid']; ?>" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt " >
 										
 										<span class="valm ffamily_avenir"> Registrera </span>
 									</a> 
-									<a href="https://www.qloudid.com/company/index.php/Company/visitorsIP/<?php echo $data['cid']; ?>"><span class="fas fa-sign-in-alt fsz22 padl10 lgn_hight_29 valm"></span></a>
+									<a href="https://www.safeqloud.com/company/index.php/Company/visitorsIP/<?php echo $data['cid']; ?>"><span class="fas fa-sign-in-alt fsz22 padl10 lgn_hight_29 valm"></span></a>
 								</div>
 								
 

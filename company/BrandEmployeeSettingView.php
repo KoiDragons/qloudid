@@ -309,7 +309,7 @@
 					</div>
 					<div class="visible-xs visible-sm fright marr0 padt5 ">  </div>
 					
-					<div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class=" diblock padl10 padr10 brdrad3 fsz30 bg_pink white_txt"><i class="fas fa-times" aria-hidden="true"></i></a> </div>
+					<div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class=" diblock padl10 padr10 brdrad3 fsz30 bg_pink white_txt"><i class="fas fa-times" aria-hidden="true"></i></a> </div>
 					<div class="clear"></div>
 					
 				</div>
@@ -351,7 +351,7 @@
 						 
 						
 						<div class="wi_25-12p marl10">
-						<a href="https://www.qloudid.com/company/index.php/WhitelistIP/ipAccount/<?php echo $data['cid']; ?>" class="fsz30 "> 
+						<a href="https://www.safeqloud.com/company/index.php/WhitelistIP/ipAccount/<?php echo $data['cid']; ?>" class="fsz30 "> 
 						<span class="fa-stack-info">
 																				  <i class=" fa-circle fa-stack-2x circle_bg_apps2" aria-hidden="true" style="border-radius: 10%;background: #fcaf16; color: #fcaf16;"></i>
 																				  <i class="black_txt far fa-envelope fa-stack-1x fab1 pad0" aria-hidden="true"></i>
@@ -359,14 +359,14 @@
 						<p class="fsz13  padt5 grey_new_txt">Visitor</p>
 						</div> 
 						
-						<div class="wi_25-12p marl10  "><a href="https://www.qloudid.com/company/index.php/Parkering/parkingInfo/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
+						<div class="wi_25-12p marl10  "><a href="https://www.safeqloud.com/company/index.php/Parkering/parkingInfo/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
 																				  <i class=" fa-circle fa-stack-2x circle_bg_apps2" aria-hidden="true" style="border-radius: 10%;background: red;color: red;"></i>
 																				  <i class="black_txt fas fa-cogs fa-stack-1x fab1 pad0" aria-hidden="true"></i>
 																				</span></a>
 						<p class="fsz13  padt5 grey_new_txt">Parking</p>
 						</div> 
 						 
-						<div class="wi_25-12p marl10"><a href="https://www.qloudid.com/company/index.php/BudandLeverans/packageInfo/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
+						<div class="wi_25-12p marl10"><a href="https://www.safeqloud.com/company/index.php/BudandLeverans/packageInfo/<?php echo $data['cid']; ?>" class="fsz30 "> <span class="fa-stack-info ">
 																				  <i class=" fa-circle fa-stack-2x circle_bg_apps2" aria-hidden="true" style="border-radius: 10%;background: rgba(53,205,75,1);color: rgba(53,205,75,1);"></i>
 																				  <i class="black_txt far fa-user fa-stack-1x fab1 pad0" aria-hidden="true"></i>
 																				</span></a>
@@ -376,7 +376,7 @@
 			
 <div class="marrl0 wi_500p maxwi_100 dflex xs-fxwrap_w talc padt20 padb20 xxs-white_bg xs-padb0">
 						<div class="wi_25-12p marl10">
-						<a href="https://www.qloudid.com/company/index.php/ChilldCare/helpCenter/<?php echo $data['cid']; ?>" class="fsz30 ">
+						<a href="https://www.safeqloud.com/company/index.php/ChilldCare/helpCenter/<?php echo $data['cid']; ?>" class="fsz30 ">
 						<span class="fa-stack-info">
 																				  <i style="border-radius: 10%;background: #01b7f2; color:#01b7f2;" aria-hidden="true" class=" fa-circle fa-stack-2x circle_bg_apps2"></i>
 																				  <i class="black_txt  fab fa-airbnb fa-stack-1x fab1 pad0" aria-hidden="true"></i>

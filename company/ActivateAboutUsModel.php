@@ -129,7 +129,7 @@
 			$result = $stmt->get_result();
 			
 			$row = $result->fetch_assoc();
-			$link='https://www.qloudid.com/public/index.php/PublicAboutUs/companyAccount/'.$data['cid'];
+			$link='https://www.safeqloud.com/public/index.php/PublicAboutUs/companyAccount/'.$data['cid'];
 			if(empty($row))
 			{
 				$stmt = $dbCon->prepare("INSERT INTO company_aboutus_weblink (company_id, created_on , website,wlink,link_id ) VALUES (?, now(), ?, ?, ?)");

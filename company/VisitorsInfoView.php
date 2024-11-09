@@ -215,7 +215,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						dataType:"text",
 						contentType: "application/x-www-form-urlencoded;charset=utf-8",
 						success: function(data1){
-						window.location.href ="https://www.qloudid.com/company/index.php/Company/visitorsIP/<?php echo $data['cid']; ?>";
+						window.location.href ="https://www.safeqloud.com/company/index.php/Company/visitorsIP/<?php echo $data['cid']; ?>";
 						}
 					});
 				}

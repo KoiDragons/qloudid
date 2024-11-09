@@ -143,7 +143,7 @@ $path1 = "../../../html/usercontent/images/";
 					</div>
 					<div class="fright xs-dnone sm-dnone">
 						<ul class="mar0 pad0">
-							<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Close" data-sw="Close">Close</a> </li>
+							<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Close" data-sw="Close">Close</a> </li>
 						</ul>
 					</div>
 					<div class="top_menu top_menu_custom mart2">
@@ -381,7 +381,7 @@ $path1 = "../../../html/usercontent/images/";
 							</li>
 						</ul>
 					</div>
-					<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
+					<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com/user/index.php/CompanyNews/companyNewsAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
 					<div class="clear"></div>
 				</div>
 			</div>
@@ -760,7 +760,7 @@ $path1 = "../../../html/usercontent/images/";
 												<tr id="<?php echo $i; ?>" class="fsz16">
 													
 													<td class="pad5 brdb tall cn">
-														<a href="https://www.qloudid.com/user/index.php/ManagePermissions/setPermissions/<?php echo $value['encId']; ?>"><div class="padtb5 " ><?php echo $value['first_name']; ?></div></a>
+														<a href="https://www.safeqloud.com/user/index.php/ManagePermissions/setPermissions/<?php echo $value['encId']; ?>"><div class="padtb5 " ><?php echo $value['first_name']; ?></div></a>
 													</td>
 													<td class="pad5 brdb tall nm">
 														<div class="padtb5 "><?php echo $value['last_name']; ?></div>

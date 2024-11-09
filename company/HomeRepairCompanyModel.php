@@ -66,7 +66,7 @@
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen1.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen1.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">Home reapir</span><span class="aprtSubheading">'.$row1['num'].' service selected</span>
 								</div>

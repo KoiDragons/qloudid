@@ -27,7 +27,7 @@
 		{
 			if(id==1)
 			{
-				window.location.href='https://www.qloudid.com/company/index.php/HotelStay/roomsTypeList/<?php echo $data['cid']; ?>/'+id1;
+				window.location.href='https://www.safeqloud.com/company/index.php/HotelStay/roomsTypeList/<?php echo $data['cid']; ?>/'+id1;
 			}
 		}
 			function submitAlarm()

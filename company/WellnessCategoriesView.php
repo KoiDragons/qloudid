@@ -46,7 +46,7 @@
 			
 		  function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/company/index.php/Wellness/categoryDetail/<?php echo $data['cid']; ?>/<?php echo $data['wid']; ?>";
+			window.location.href ="https://www.safeqloud.com/company/index.php/Wellness/categoryDetail/<?php echo $data['cid']; ?>/<?php echo $data['wid']; ?>";
 		}
 			var currentLang = 'sv';
 		</script>

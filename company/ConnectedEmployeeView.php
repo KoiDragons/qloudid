@@ -32,7 +32,7 @@
 		
 		function dontRemove(link)
 		{
-			window.location.href="https://www.qloudid.com/company/index.php/ConnectedEmployee/employeesList/<?php echo $data['cid']; ?>";
+			window.location.href="https://www.safeqloud.com/company/index.php/ConnectedEmployee/employeesList/<?php echo $data['cid']; ?>";
 		}
 		function verifyInformation()
 		{
@@ -61,7 +61,7 @@
 				})
 				.done(function(data){
 										
-					window.location.href="https://www.qloudid.com/company/index.php/ConnectedEmployee/employeesList/<?php echo $data['cid']; ?>";
+					window.location.href="https://www.safeqloud.com/company/index.php/ConnectedEmployee/employeesList/<?php echo $data['cid']; ?>";
 					
 				})
 				.fail(function(){})
@@ -277,7 +277,7 @@
 										
 									</a></div>
 									<div class="hidden-xs hidden-sm padrl10">
-									<a href="https://www.qloudid.com/public/index.php/CompanyOmOss/companyAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt " >
+									<a href="https://www.safeqloud.com/public/index.php/CompanyOmOss/companyAccount/<?php echo $data['cid']; ?>" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt " >
 										
 										<span class="valm"> Företaget </span>
 									</a>
@@ -361,9 +361,9 @@
 																			
 																			<td class="pad5 brdb_new tall nm ">
 																			<?php if($value['personal_code']!="" || $value['personal_code']!=null) { ?>
-																				<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $value['enc']; ?>"><div class="padtb5 "><?php echo $value['name']; ?></div></a>
+																				<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyAccount/<?php echo $value['enc']; ?>"><div class="padtb5 "><?php echo $value['name']; ?></div></a>
 																			<?php } else { ?>
-																			<a href="https://www.qloudid.com/public/index.php/PublicEmployeeInfo/companyQuard/<?php echo $value['enc']; ?>"><div class="padtb5 "><?php echo $value['name']; ?></div></a>
+																			<a href="https://www.safeqloud.com/public/index.php/PublicEmployeeInfo/companyQuard/<?php echo $value['enc']; ?>"><div class="padtb5 "><?php echo $value['name']; ?></div></a>
 																			<?php } ?>
 																			</td>
 																		
@@ -530,7 +530,7 @@
 							</a>
 						</li>
 						<li class="dblock mar0 padrl15 brdb_new">
-							<a href="https://www.qloudid.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+							<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 								<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 								Inform relatives
 							</a>

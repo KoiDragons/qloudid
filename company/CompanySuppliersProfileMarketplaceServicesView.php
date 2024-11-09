@@ -12,11 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
     
-    <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/fleet/css/app.min.pannelNew.css">
-	 <script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
-	<link rel="stylesheet" href="https://www.qloudid.com/html/usercontent/constructor.css">
-	<link rel="stylesheet" href="https://www.qloudid.com/html/usercontent/responsive.css">
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.min.pannelNew.css">
+	 <script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/jquery.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/constructor.css">
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/responsive.css">
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -51,7 +51,7 @@
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 " href="https://www.qloudid.com/company/index.php/ProfessionalCompany/connectedMarketplaces/<?php echo $data['cid']; ?>" style="
+<a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/company/index.php/ProfessionalCompany/connectedMarketplaces/<?php echo $data['cid']; ?>" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -66,7 +66,7 @@
 
 <div class="header__body js-header-body">
 <div class="header__menu"> 
-<a class="header__link" href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout">
+<a class="header__link" href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Logout</a></div>
@@ -217,12 +217,12 @@
 </div></a>
 
 		
-<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" class="header__item hidden"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyEmployeeProfileAction/<?php echo $data['cid']; ?>" class="header__item hidden"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Employee</button>
 
 </div></a>
 
-			<a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="header__item hidden" style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="header__item hidden" style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Logout</button>
 
 </div></a>
@@ -287,22 +287,22 @@
                                       </a>
 									  
 									  
-									  <a class="categories__item bg_E7E7E7 " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/listSelectedCategories/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
+									  <a class="categories__item bg_E7E7E7 " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/listSelectedCategories/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91" style="color:black;">Pricing</div>
                                       </a>
 									  
-									  <a class="categories__item bg_E7E7E7 " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/languageList/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
+									  <a class="categories__item bg_E7E7E7 " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/languageList/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91" style="color:black;">Languages</div>
                                       </a>
 									  
-									  <a class="categories__item bg_E7E7E7 " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/updateAreaInformation/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
+									  <a class="categories__item bg_E7E7E7 " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/updateAreaInformation/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91" style="color:black;">Locations</div>
                                       </a>
 									  
-									   <a class="categories__item bg_E7E7E7 " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/addBookingRules/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
+									   <a class="categories__item bg_E7E7E7 " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/addBookingRules/<?php echo $data['cid']; ?>/<?php echo $data['mid']; ?>" style="background:#ffe500 !important; padding: 20px; font-size:14px; border-radius:6px; "  >
                                        
                                       <div class="changedText categories__subtitle txt_787f91" style="color:black;">Rule</div>
                                       </a>

@@ -17,7 +17,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -29,7 +29,7 @@
 					$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-						header("location:https://www.qloudid.com/error404.php");
+						header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new LandloardModel();
 				$data['app_id']    = $model1->appId();
@@ -38,7 +38,7 @@
 					if($appdownloadStatus==0)
 					{
 						$getPermissionDetail    = $model1->getPermissionDetail($data);
-						header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+						header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 						die;
 					}
 				$unrefinedApartmentDetail    = $model1->unrefinedApartmentDetail($data); 
@@ -57,7 +57,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -69,7 +69,7 @@
 					$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-						header("location:https://www.qloudid.com/error404.php");
+						header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new LandloardModel();
 				$data['app_id']    = $model1->appId();
@@ -78,7 +78,7 @@
 					if($appdownloadStatus==0)
 					{
 						$getPermissionDetail    = $model1->getPermissionDetail($data);
-						header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+						header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 						die;
 					}
 				$updateUnrefineApartment    = $model1->updateUnrefineApartment($data); 
@@ -96,7 +96,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../";
 				$data=array();
@@ -107,7 +107,7 @@
 					$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-						header("location:https://www.qloudid.com/error404.php");
+						header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new LandloardModel();
 				$data['app_id']    = $model1->appId();
@@ -116,7 +116,7 @@
 					if($appdownloadStatus==0)
 					{
 						$getPermissionDetail    = $model1->getPermissionDetail($data);
-						header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+						header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 						die;
 					}
 				$getLandloardApartmentPropertyList    = $model1->getLandloardApartmentPropertyList($data); 
@@ -136,7 +136,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../";
 				$data=array();
@@ -147,7 +147,7 @@
 					$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-						header("location:https://www.qloudid.com/error404.php");
+						header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new LandloardModel();
 				$data['app_id']    = $model1->appId();
@@ -156,7 +156,7 @@
 					if($appdownloadStatus==0)
 					{
 						$getPermissionDetail    = $model1->getPermissionDetail($data);
-						header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+						header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 						die;
 					}
 				$getLandloardApartmentPropertyList    = $model1->getLandloardApartmentReservedPropertyList($data); 
@@ -177,7 +177,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -189,7 +189,7 @@
 					$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-						header("location:https://www.qloudid.com/error404.php");
+						header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new LandloardModel();
 				$data['app_id']    = $model1->appId();
@@ -198,7 +198,7 @@
 					if($appdownloadStatus==0)
 					{
 						$getPermissionDetail    = $model1->getPermissionDetail($data);
-						header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+						header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 						die;
 					}
 				$getLandloardApartmentPropertyList    = $model1->getLandloardApartmentPropertyList($data); 
@@ -218,7 +218,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -230,7 +230,7 @@
 					$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 					if($employeeCheck==1)
 					{
-						header("location:https://www.qloudid.com/error404.php");
+						header("location:https://www.safeqloud.com/error404.php");
 					}
 				$model1       = new LandloardModel();
 				$data['app_id']    = $model1->appId();
@@ -239,7 +239,7 @@
 					if($appdownloadStatus==0)
 					{
 						$getPermissionDetail    = $model1->getPermissionDetail($data);
-						header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+						header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 						die;
 					}
 				$updateReservationApartment    = $model1->updateReservationApartment($data); 
@@ -254,7 +254,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -267,7 +267,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -275,7 +275,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$connectRequestDetailInfo    = $model1->connectRequestDetailInfo($data);
@@ -292,7 +292,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -307,7 +307,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -322,7 +322,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../";
@@ -334,7 +334,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -342,7 +342,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -356,7 +356,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../";
@@ -368,7 +368,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -376,7 +376,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -391,7 +391,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../";
@@ -403,7 +403,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -411,7 +411,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -438,7 +438,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../";
@@ -450,7 +450,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -470,7 +470,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -488,7 +488,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -506,7 +506,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -524,7 +524,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -541,7 +541,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -559,7 +559,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -575,7 +575,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -593,7 +593,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -606,7 +606,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -614,7 +614,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model1->buildingDetailInfo($data);
@@ -630,7 +630,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -645,7 +645,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../../";
@@ -659,7 +659,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -667,7 +667,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model1->buildingDetailInfo($data);
@@ -690,7 +690,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -703,7 +703,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -711,7 +711,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model1->buildingDetailInfo($data);
@@ -735,7 +735,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -748,7 +748,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -756,7 +756,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model1->buildingDetailInfo($data);
@@ -779,7 +779,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -798,7 +798,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -811,7 +811,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -819,7 +819,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -835,7 +835,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../../";
@@ -849,7 +849,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -857,7 +857,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -871,7 +871,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -887,7 +887,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -900,7 +900,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -908,7 +908,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -922,7 +922,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -937,14 +937,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -958,7 +958,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -973,14 +973,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -996,7 +996,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -1011,14 +1011,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -1037,7 +1037,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -1052,14 +1052,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -1077,7 +1077,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1095,7 +1095,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1113,7 +1113,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1129,7 +1129,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1146,7 +1146,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1163,7 +1163,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1180,7 +1180,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1197,7 +1197,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1215,7 +1215,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1232,7 +1232,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -1247,14 +1247,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -1273,7 +1273,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1291,7 +1291,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1307,7 +1307,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1324,7 +1324,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1341,7 +1341,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1358,7 +1358,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1375,7 +1375,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1393,7 +1393,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -1411,7 +1411,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1430,7 +1430,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1449,7 +1449,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1468,7 +1468,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$data=array();
@@ -1482,7 +1482,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				
 				$model1       = new LandloardModel();
@@ -1491,7 +1491,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -1506,7 +1506,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -1519,7 +1519,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -1527,7 +1527,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -1540,7 +1540,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -1553,7 +1553,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -1561,7 +1561,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model1->buildingDetailInfo($data);
@@ -1577,7 +1577,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1598,7 +1598,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 					$model       = new LandloardModel();
 				$path = "../../../../../";
@@ -1611,7 +1611,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new LandloardModel();
 				$model3       = new DaycarePricePlanModel();
@@ -1619,7 +1619,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model1->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$companyDetail    = $model1->companyDetail($data);
@@ -1644,7 +1644,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1664,7 +1664,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -1686,7 +1686,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$result    = $model1->propertyTypeEntranceInfo();
@@ -1699,7 +1699,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -1713,7 +1713,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -1740,7 +1740,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -1754,7 +1754,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -1781,7 +1781,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -1795,7 +1795,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -1824,7 +1824,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -1838,7 +1838,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -1860,7 +1860,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -1874,7 +1874,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -1898,7 +1898,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -1912,7 +1912,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -1935,7 +1935,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -1949,14 +1949,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -1975,7 +1975,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -1989,14 +1989,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2015,7 +2015,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2029,14 +2029,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2057,7 +2057,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2071,14 +2071,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingReservationPriceInfo    = $model->buildingReservationPriceInfo($data);
@@ -2100,7 +2100,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 			} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2114,14 +2114,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2143,7 +2143,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2157,14 +2157,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$addReservationPriceInformation    = $model->addReservationPriceInformation($data);
@@ -2181,7 +2181,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2195,14 +2195,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2223,7 +2223,7 @@
 					$model1       = new LandloardModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 					  
 					 $urlDetail    = $model1->urlDetail($data);
-					header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+					header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2237,14 +2237,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2262,7 +2262,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2276,14 +2276,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$tenantCount    = $model->ownerCount($data);
@@ -2305,7 +2305,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2319,14 +2319,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2342,7 +2342,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -2357,14 +2357,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2382,7 +2382,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2396,14 +2396,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2419,7 +2419,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2433,14 +2433,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2457,7 +2457,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2471,14 +2471,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2494,7 +2494,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -2509,14 +2509,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2532,7 +2532,7 @@
 		$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -2547,14 +2547,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$updateTransectionDetail    = $model->updateTransectionDetail($data);	
@@ -2567,7 +2567,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2581,14 +2581,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2605,7 +2605,7 @@
 		$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model = new LandloardModel();
 				$getOwnerInformation = $model->getOwnerInformation();
@@ -2618,7 +2618,7 @@
 		$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model = new LandloardModel();
 				$data=array();
@@ -2635,7 +2635,7 @@
 		$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model = new LandloardModel();
 				$getEmiInfo = $model->getEmiInfo();
@@ -2649,7 +2649,7 @@
 		$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model = new LandloardModel();
 				$getSelectedObjectInformation = $model->getSelectedObjectInformation();
@@ -2663,7 +2663,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -2680,7 +2680,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -2698,7 +2698,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2712,14 +2712,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$tenantCount    = $model->tenantCount($data);
@@ -2740,7 +2740,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -2755,7 +2755,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2769,14 +2769,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2794,7 +2794,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2808,14 +2808,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2832,7 +2832,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -2847,14 +2847,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2874,7 +2874,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -2889,14 +2889,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -2916,7 +2916,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2930,7 +2930,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				 
 				$addTenant    = $model->addTenant($data);
@@ -2944,7 +2944,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2958,7 +2958,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				 
 				$addOwner    = $model->addOwner($data);
@@ -2971,7 +2971,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -2986,7 +2986,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				 
 				$addTenant    = $model->updateOwner($data);
@@ -3000,7 +3000,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -3015,7 +3015,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				 
 				$addTenant    = $model->updateTenant($data);
@@ -3030,7 +3030,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -3044,14 +3044,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -3068,7 +3068,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3090,7 +3090,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3109,7 +3109,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3126,7 +3126,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3145,7 +3145,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3162,7 +3162,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3181,7 +3181,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3200,7 +3200,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3219,7 +3219,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3240,7 +3240,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3256,7 +3256,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3276,7 +3276,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3295,7 +3295,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -3310,14 +3310,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -3337,7 +3337,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -3352,14 +3352,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -3379,7 +3379,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -3394,14 +3394,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -3422,7 +3422,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -3443,7 +3443,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -3458,14 +3458,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -3486,7 +3486,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -3502,14 +3502,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$apartmentDescriptionDetail    = $model->apartmentDescriptionDetail($data);
@@ -3538,7 +3538,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -3554,14 +3554,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$apartmentDescriptionDetail    = $model->apartmentDescriptionDetail($data);
@@ -3589,7 +3589,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -3605,14 +3605,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$apartmentDescriptionDetail    = $model->apartmentDescriptionDetail($data);
@@ -3652,7 +3652,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3675,7 +3675,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3694,7 +3694,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -3710,14 +3710,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -3770,7 +3770,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3785,7 +3785,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -3801,14 +3801,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -3835,7 +3835,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -3851,14 +3851,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -3890,7 +3890,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3910,7 +3910,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3930,7 +3930,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3946,7 +3946,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3962,7 +3962,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3979,7 +3979,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -3994,7 +3994,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -4009,14 +4009,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -4036,7 +4036,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../";
 				$model       = new LandloardModel();
@@ -4051,14 +4051,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingDetailInfo    = $model->buildingDetailInfo($data);
@@ -4077,7 +4077,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['user_id']=$_SESSION['user_id'];
@@ -4093,7 +4093,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['user_id']=$_SESSION['user_id'];
@@ -4110,7 +4110,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$result    = $model1->updateApartmentNumber();
@@ -4126,7 +4126,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$result    = $model1->updateApartmentType();
@@ -4139,7 +4139,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$result    = $model1->updateApartmentTenant();
@@ -4151,7 +4151,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4170,7 +4170,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4187,7 +4187,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4203,7 +4203,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4219,7 +4219,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				 
@@ -4235,7 +4235,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				
@@ -4249,7 +4249,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				
@@ -4262,7 +4262,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -4276,7 +4276,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -4300,7 +4300,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$model       = new LandloardModel();
@@ -4314,14 +4314,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$buildingPortList    = $model->buildingPortList($data);
@@ -4345,7 +4345,7 @@
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4364,7 +4364,7 @@
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4383,7 +4383,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -4397,7 +4397,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -4419,7 +4419,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -4433,14 +4433,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -4455,7 +4455,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new LandloardModel();
@@ -4469,7 +4469,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -4491,7 +4491,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -4507,7 +4507,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -4524,7 +4524,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -4540,14 +4540,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -4580,7 +4580,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -4596,7 +4596,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
@@ -4604,7 +4604,7 @@
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				
@@ -4639,7 +4639,7 @@
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				}
 				else
 				{
@@ -4657,14 +4657,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$objectDetail    = $model->objectDetail($data);
@@ -4684,7 +4684,7 @@
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				}
 				else
 				{
@@ -4702,14 +4702,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$objectDetail    = $model->objectDetail($data);
@@ -4729,7 +4729,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4748,7 +4748,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4766,7 +4766,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4790,7 +4790,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4808,7 +4808,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4823,7 +4823,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4845,7 +4845,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4865,7 +4865,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4885,7 +4885,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4904,7 +4904,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4921,7 +4921,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4937,7 +4937,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4958,7 +4958,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4976,7 +4976,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -4993,7 +4993,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5009,7 +5009,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -5025,14 +5025,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$objectDetail    = $model->objectDetail($data);
@@ -5065,7 +5065,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -5081,14 +5081,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$objectDetail    = $model->objectDetail($data);
@@ -5127,7 +5127,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../../../";
 				$model       = new LandloardModel();
@@ -5143,14 +5143,14 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model3       = new DaycarePricePlanModel();
 				$appdownloadStatus    = $model3->appdownloadStatus($data);
 				if($appdownloadStatus==0)
 				{
 					$getPermissionDetail    = $model->getPermissionDetail($data);
-					header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+					header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 					die;
 				}
 				$objectDetail    = $model->objectDetail($data);
@@ -5195,7 +5195,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5215,7 +5215,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5236,7 +5236,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5256,7 +5256,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5275,7 +5275,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5292,7 +5292,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5309,7 +5309,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5326,7 +5326,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5343,7 +5343,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5360,7 +5360,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5377,7 +5377,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5394,7 +5394,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5411,7 +5411,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5428,7 +5428,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5445,7 +5445,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();
@@ -5462,7 +5462,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardModel();
 				$data=array();

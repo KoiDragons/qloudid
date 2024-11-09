@@ -52,7 +52,7 @@
 				{
 				$id=$stmt->insert_id;
 				$encd=$this->encrypt_decrypt('encrypt',$id);
-				$url="https://www.qloudid.com/public/index.php/VisitorsQR/visitorAccount/".$encd;	
+				$url="https://www.safeqloud.com/public/index.php/VisitorsQR/visitorAccount/".$encd;	
 				$to      = $_POST['email'];
 				$subject = "Meeting Invitation received";
 				$emailContent ="You are invited to meet ".$row['name']." at ".$row['company_name']." please scan qr code on reception to confirm your visit. Generate QR Code <a href='".$url."'>here</a>";

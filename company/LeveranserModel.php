@@ -460,7 +460,7 @@
 			$result = $stmt->get_result();
 			$row = $result->fetch_assoc();
 			$emp_id= $this -> encrypt_decrypt('encrypt',$_POST['ind']);
-			$url="https://www.qloudid.com/public/index.php/EmployeeQR/employeeAccount/".$emp_id;
+			$url="https://www.safeqloud.com/public/index.php/EmployeeQR/employeeAccount/".$emp_id;
 			$surl=getShortUrl($url);
 			$to      = $row['email'];
 			$subject = "Packet received";

@@ -167,7 +167,7 @@
 						success: function(data1){
 							if(data1==1)
 							{
-								window.location.href ="https://www.qloudid.com/company/index.php/Receptionist/workInfo/<?php echo $data['cid']; ?>";
+								window.location.href ="https://www.safeqloud.com/company/index.php/Receptionist/workInfo/<?php echo $data['cid']; ?>";
 							}
 							else
 							{
@@ -1408,7 +1408,7 @@
 						</div>
 						
 						<div class="wi_50 xs-wi_100 fxshrink_0 order_1 xs-order_2 martb20 marr30 xs-marr0 talc  xs-padr0">
-							<img src="https://www.qloudid.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_100 hidden-xs">
+							<img src="https://www.safeqloud.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_100 hidden-xs">
 							
 							<h4 class="bold fsz25 padb10 tall">Hur det fungerar</h4>
 							

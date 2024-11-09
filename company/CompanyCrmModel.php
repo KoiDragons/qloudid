@@ -738,14 +738,14 @@
 							
 							//$img='../../../'.$imgs;
 																	
-																	 } else { $img='<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://qloudid.com/html/usercontent/images/notavailable.jpg" src="https://qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+																	 } else { $img='<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 																					padding: 20px;
 																					border-radius: 30px;
 																				">
 																				 
 																				</div>'; 
 																	 
-																	$img="https://qloudid.com/html/usercontent/images/notavailable.jpg";
+																	$img="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg";
 																	 }
 				array_push($org,$row);
 				$stmt = $dbCon->prepare("select count(id) as num from employee_identificator_verification_detail where employee_user_id=(select user_login_id from employees where id=?)");

@@ -32,7 +32,7 @@
 			$rowAvailable = $result->fetch_assoc(); 
 			$rank=$rowAvailable['num']+1;
 			$enc_id= $this -> encrypt_decrypt('encrypt',$id);	
-			$url="https://www.qloudid.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
+			$url="https://www.safeqloud.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
 			$surl=getShortUrl($url);
 			$phone="+".trim($row['country_code'])."".trim($row['phone_number']);
 			

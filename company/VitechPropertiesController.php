@@ -17,7 +17,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -28,7 +28,7 @@ class VitechPropertiesController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$companyDetail    = $model->companyDetail($data);
 				
@@ -45,7 +45,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -57,7 +57,7 @@ class VitechPropertiesController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$companyDetail    = $model->companyDetail($data);
 				
@@ -72,7 +72,7 @@ class VitechPropertiesController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -107,7 +107,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -142,7 +142,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -152,7 +152,7 @@ class VitechPropertiesController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model1       = new VitechPropertiesModel();
@@ -173,7 +173,7 @@ class VitechPropertiesController
         $data=array();
 		$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 		$urlDetail    = $model1->urlDetail($data);
-		header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+		header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -184,7 +184,7 @@ class VitechPropertiesController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model1       = new VitechPropertiesModel();
@@ -203,7 +203,7 @@ class VitechPropertiesController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -215,7 +215,7 @@ class VitechPropertiesController
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			require_once('../configs/testMandril.php');
@@ -300,7 +300,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -313,7 +313,7 @@ class VitechPropertiesController
 				
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model      = new VitechPropertiesModel();
@@ -339,7 +339,7 @@ class VitechPropertiesController
 			$proposalTrialInformation    = $model->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			$companyDetail    = $model->companyDetail($data);
 			require_once('VitechPropertiesProposalSetupView.php');
@@ -356,7 +356,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -369,7 +369,7 @@ class VitechPropertiesController
 				
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model      = new VitechPropertiesModel();
@@ -404,7 +404,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -418,7 +418,7 @@ class VitechPropertiesController
 				
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model      = new VitechPropertiesModel();
@@ -446,7 +446,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -460,7 +460,7 @@ class VitechPropertiesController
 				
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model      = new VitechPropertiesModel();
@@ -488,7 +488,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 				$path = "../../../../";
 				$data=array();
@@ -498,7 +498,7 @@ class VitechPropertiesController
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$_SESSION['company_id']=cleanMe($a);
 				$model1       = new VitechPropertiesModel();
@@ -513,7 +513,7 @@ class VitechPropertiesController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path         = "../../";
 				$model = new VitechPropertiesModel();
@@ -529,7 +529,7 @@ class VitechPropertiesController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path         = "../../";
 				$model = new VitechPropertiesModel();
@@ -553,7 +553,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -565,7 +565,7 @@ class VitechPropertiesController
 				
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model      = new VitechPropertiesModel();
@@ -617,7 +617,7 @@ class VitechPropertiesController
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -629,7 +629,7 @@ class VitechPropertiesController
 				
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model      = new VitechPropertiesModel();
@@ -680,7 +680,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -691,7 +691,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				if(!isset($_POST['proposal_data']))
 				{
@@ -716,7 +716,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -727,7 +727,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -749,7 +749,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -759,7 +759,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model1       = new VitechPropertiesModel();
@@ -777,7 +777,7 @@ public static function createPropertyProposal($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -810,7 +810,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -822,13 +822,13 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$fetchPropertiesAddress    = $model1->fetchPropertiesAddress($data);
 				if($data['request_id']=='')
 				{
-					header('location:https://www.qloudid.com/company/index.php/VitechProperties/perNightPricingList/'.$data['cid'].'/'.$data['pid'].'/'.$fetchPropertiesAddress['request_id']);
+					header('location:https://www.safeqloud.com/company/index.php/VitechProperties/perNightPricingList/'.$data['cid'].'/'.$data['pid'].'/'.$fetchPropertiesAddress['request_id']);
 				}
 			$userSummary    = $model1->userSummary($data);
 			$listPricing    = $model1->listPricing($data);
@@ -846,7 +846,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -857,7 +857,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$publishPropertyForRent    = $model1->publishPropertyForRent($data);
@@ -875,7 +875,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -887,7 +887,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$addPricing    = $model1->addPricing($data);
@@ -900,7 +900,7 @@ public static function createPropertyProposal($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../../../";
 			$data=array();
@@ -913,7 +913,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -940,7 +940,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -951,7 +951,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -968,7 +968,7 @@ public static function createPropertyProposal($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -994,7 +994,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1005,7 +1005,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -1022,7 +1022,7 @@ public static function createPropertyProposal($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -1049,7 +1049,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1060,7 +1060,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				if(!isset($_POST['proposal_data']))
 				{
@@ -1080,7 +1080,7 @@ public static function createPropertyProposal($a=null)
 				$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -1106,7 +1106,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1117,7 +1117,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -1135,7 +1135,7 @@ public static function createPropertyProposal($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1147,7 +1147,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			require_once('../configs/testMandril.php');
@@ -1170,7 +1170,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1181,7 +1181,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -1203,7 +1203,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -1215,7 +1215,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -1244,7 +1244,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path = "../../../../../../";
 				$model       = new VitechPropertiesModel();
@@ -1258,21 +1258,21 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				 
 				$model1       = new EmployeeCheckController();
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 				}
 				$displayPhotos    = $model->displayPhotos($data); 
 				$fetchPropertiesAddress    = $model->fetchPropertiesAddress($data);
 				 
 				if($data['request_id']=='')
 				{
-					header('location:https://www.qloudid.com/company/index.php/VitechProperties/photoInformation/'.$data['cid'].'/'.$data['pid'].'/'.$fetchPropertiesAddress['request_id']);
+					header('location:https://www.safeqloud.com/company/index.php/VitechProperties/photoInformation/'.$data['cid'].'/'.$data['pid'].'/'.$fetchPropertiesAddress['request_id']);
 				}
 				$fetchPropertyContacTInfo    = $model->fetchPropertyContacTInfo($data);
 				 
@@ -1290,7 +1290,7 @@ public static function createPropertyProposal($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1307,7 +1307,7 @@ public static function createPropertyProposal($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1324,7 +1324,7 @@ public static function createPropertyProposal($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1341,7 +1341,7 @@ public static function createPropertyProposal($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1358,7 +1358,7 @@ public static function createPropertyProposal($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1376,7 +1376,7 @@ public static function createPropertyProposal($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1399,7 +1399,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1410,7 +1410,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			
@@ -1433,7 +1433,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1444,7 +1444,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			
@@ -1464,7 +1464,7 @@ public static function createPropertyProposal($a=null)
              $path = "../../";
           $model1       = new VitechPropertiesModel();
 				
-				 header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				 header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1475,7 +1475,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			
@@ -1494,7 +1494,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1504,7 +1504,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 				if(!isset($_POST['address']))
@@ -1540,7 +1540,7 @@ public static function createPropertyProposal($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1551,7 +1551,7 @@ public static function createPropertyProposal($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			if(!isset($_POST['address']))
@@ -1571,7 +1571,7 @@ public static function selectService($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1588,7 +1588,7 @@ public static function selectAddedService($a=null,$b=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1605,7 +1605,7 @@ public static function selectAddedService($a=null,$b=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1621,7 +1621,7 @@ public static function selectAddedService($a=null,$b=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1638,7 +1638,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -1654,7 +1654,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1665,7 +1665,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			require_once('../configs/testMandril.php');
@@ -1689,7 +1689,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1699,7 +1699,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$professionalTodoUpdate    = $model1->professionalTodoUpdate($data);
@@ -1713,7 +1713,7 @@ public static function updatePropertyStatus($a=null)
 			$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			 	$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1729,7 +1729,7 @@ public static function updatePropertyStatus($a=null)
 			$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -1744,7 +1744,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1754,7 +1754,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 			$model       = new CompanyCrmModel();
@@ -1796,7 +1796,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -1808,7 +1808,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 $userSummary    = $model1->userSummary($data);
@@ -1826,7 +1826,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1836,7 +1836,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=63; $data['app_id']    = $model1->appId($data);
@@ -1852,7 +1852,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -1878,7 +1878,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1888,7 +1888,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=63; $data['app_id']    = $model1->appId($data);
@@ -1904,7 +1904,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -1929,7 +1929,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1939,7 +1939,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=64; $data['app_id']    = $model1->appId($data);
@@ -1955,7 +1955,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -1981,7 +1981,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -1992,7 +1992,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 $cleanApartment    = $model1->cleanApartment($data);
@@ -2010,7 +2010,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2020,7 +2020,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=63; $data['app_id']    = $model1->appId($data);
@@ -2036,7 +2036,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2062,7 +2062,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2073,7 +2073,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 $checkOutGuest    = $model1->checkOutGuest($data);
@@ -2091,7 +2091,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2101,7 +2101,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 $userSummary    = $model1->userSummary($data);
@@ -2119,7 +2119,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -2130,7 +2130,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 				
@@ -2169,7 +2169,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -2180,7 +2180,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				
 				
@@ -2217,7 +2217,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2227,7 +2227,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$brokerPropertyVerification    = $model1->brokerPropertyVerification($data);   
@@ -2254,7 +2254,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2264,7 +2264,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$brokerPropertyVerification    = $model1->brokerPropertyVerification($data);   
@@ -2300,7 +2300,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2311,7 +2311,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -2329,7 +2329,7 @@ public static function updatePropertyStatus($a=null)
 				$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2371,7 +2371,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2381,7 +2381,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$brokerPropertyVerification    = $model1->brokerPropertyVerification($data);   
@@ -2403,7 +2403,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2414,7 +2414,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -2431,7 +2431,7 @@ public static function updatePropertyStatus($a=null)
 				$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2469,7 +2469,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2480,7 +2480,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -2497,7 +2497,7 @@ public static function updatePropertyStatus($a=null)
 				$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2534,7 +2534,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -2544,7 +2544,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -2561,7 +2561,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2598,7 +2598,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				}
 				else
 				{
@@ -2623,7 +2623,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2656,7 +2656,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -2688,7 +2688,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -2700,7 +2700,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -2717,7 +2717,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2743,7 +2743,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -2755,7 +2755,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$data['fapp_id']=59; $data['app_id']    = $model1->appId($data);
@@ -2771,7 +2771,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2795,7 +2795,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				 
@@ -2816,7 +2816,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -2842,7 +2842,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -2861,7 +2861,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -2887,7 +2887,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -2913,7 +2913,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -2934,7 +2934,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -2967,7 +2967,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -2993,7 +2993,7 @@ public static function updatePropertyStatus($a=null)
 			$proposalTrialInformation    = $model1->proposalTrialInformation($data);
 			if($proposalTrialInformation==0)
 			{
-				header('location:https://www.qloudid.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
+				header('location:https://www.safeqloud.com/company/index.php/DaycarePricePlan/planAccount/'.$data['cid'].'/'.$data['app_id']); die;
 			} 
 			
 			$employeeSkillCount    = $model1->employeeSkillCount($data);
@@ -3019,7 +3019,7 @@ public static function updatePropertyStatus($a=null)
 			if ($valueNew == 0)
 				{
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				}
 				else
 				{
@@ -3049,7 +3049,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -3068,7 +3068,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3080,7 +3080,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 /*$professionalTodoUpdate    = $model1->professionalTodoUpdate($data);
@@ -3116,7 +3116,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../../";
 			$data=array();
@@ -3129,7 +3129,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 /*$professionalTodoUpdate    = $model1->professionalTodoUpdate($data);
@@ -3160,7 +3160,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../../../";
 			$data=array();
@@ -3173,7 +3173,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 /*$professionalTodoUpdate    = $model1->professionalTodoUpdate($data);
@@ -3211,7 +3211,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -3221,7 +3221,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$brokerRequestApprovedCount    = $model1->brokerRequestApprovedCount($data);
@@ -3248,7 +3248,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3260,7 +3260,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3310,7 +3310,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3322,7 +3322,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$fetchPropertiesImages    = $model1->listPhotos($data); 
@@ -3330,7 +3330,7 @@ public static function updatePropertyStatus($a=null)
 			 
 			 	if($data['request_id']=='')
 				{
-					header('location:https://www.qloudid.com/company/index.php/VitechProperties/editPropertyInformation/'.$data['cid'].'/'.$data['pid'].'/'.$fetchPropertiesAddress['request_id']);
+					header('location:https://www.safeqloud.com/company/index.php/VitechProperties/editPropertyInformation/'.$data['cid'].'/'.$data['pid'].'/'.$fetchPropertiesAddress['request_id']);
 				}
 			$fetchPropertyContacTInfo    = $model1->fetchPropertyContacTInfo($data);
 			$fetchPropertiesBuilding    = $model1->fetchPropertiesBuilding($data);
@@ -3352,7 +3352,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3364,7 +3364,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$fetchPropertiesImages    = $model1->listPhotos($data); 
@@ -3383,7 +3383,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3395,7 +3395,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$updateVitechAdddressinforamtion    = $model1->updateVitechAdddressContractInforamtion($data); 
@@ -3416,7 +3416,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3428,7 +3428,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3450,7 +3450,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3462,7 +3462,7 @@ public static function updatePropertyStatus($a=null)
 			$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 			if($employeeCheck==1)
 			{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 			}
 			$model1       = new VitechPropertiesModel();
 			$fetchPropertiesImages    = $model1->listPhotos($data);
@@ -3492,7 +3492,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3504,7 +3504,7 @@ public static function updatePropertyStatus($a=null)
 			$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 			if($employeeCheck==1)
 			{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 			}
 			$model1       = new VitechPropertiesModel();
 			$fetchPropertiesImages    = $model1->listPhotos($data);
@@ -3575,7 +3575,7 @@ public static function updatePropertyStatus($a=null)
             $path = "../../";
           $model1       = new VitechPropertiesModel();
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3586,7 +3586,7 @@ public static function updatePropertyStatus($a=null)
 			$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 			if($employeeCheck==1)
 			{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 			}
 			$model1       = new VitechPropertiesModel();
 			require_once('../configs/testMandril.php');
@@ -3607,7 +3607,7 @@ public static function updatePropertyStatus($a=null)
             $path = "../../";
           $model1       = new VitechPropertiesModel();
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3618,7 +3618,7 @@ public static function updatePropertyStatus($a=null)
 			$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 			if($employeeCheck==1)
 			{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 			}
 			$model1       = new VitechPropertiesModel();
 			require_once('../configs/testMandril.php');
@@ -3640,7 +3640,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3652,7 +3652,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3675,7 +3675,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3687,7 +3687,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$updateArrivalInformation    = $model1->updateArrivalInformation($data);
@@ -3705,7 +3705,7 @@ public static function updatePropertyStatus($a=null)
 				$model1       = new VitechPropertiesModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3717,7 +3717,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3741,7 +3741,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3753,7 +3753,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$updatePropertyBrokerFee    = $model1->updatePropertyBrokerFee($data);
@@ -3768,7 +3768,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3780,7 +3780,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3807,7 +3807,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../../";
 			$data=array();
@@ -3819,7 +3819,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3837,7 +3837,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3857,7 +3857,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3876,7 +3876,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3895,7 +3895,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3915,7 +3915,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3934,7 +3934,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3954,7 +3954,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3965,7 +3965,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -3986,7 +3986,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -3997,7 +3997,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			  
@@ -4012,7 +4012,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4023,7 +4023,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			  
@@ -4038,7 +4038,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4049,7 +4049,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			  
@@ -4064,7 +4064,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4075,7 +4075,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			 
@@ -4092,7 +4092,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4104,7 +4104,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			$updatePropertyPricing    = $model1->updatePropertyPricing($data);
@@ -4117,7 +4117,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4128,7 +4128,7 @@ public static function updatePropertyStatus($a=null)
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new VitechPropertiesModel();
 			require_once('../configs/testMandril.php');
@@ -4144,7 +4144,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4168,7 +4168,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4187,7 +4187,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4206,7 +4206,7 @@ public static function updatePropertyStatus($a=null)
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -4226,7 +4226,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4244,7 +4244,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4262,7 +4262,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4280,7 +4280,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4297,7 +4297,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4313,7 +4313,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4331,7 +4331,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4349,7 +4349,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4368,7 +4368,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4386,7 +4386,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4404,7 +4404,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4422,7 +4422,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4440,7 +4440,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4458,7 +4458,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4476,7 +4476,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4495,7 +4495,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4515,7 +4515,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4536,7 +4536,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
@@ -4556,7 +4556,7 @@ public static function updatePropertyStatus($a=null)
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin"; </script>'; die;
 				} else {
 				$model1       = new VitechPropertiesModel();
 				$data=array();

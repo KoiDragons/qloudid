@@ -132,18 +132,18 @@ border-bottom: 1px solid #e6e8ec;
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Website</button>
 
 </div></a>
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item hidden" style="margin-left:10px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style="
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText hidden" href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" style="
     color: grey;
 ">Sign in</a>
 			
@@ -158,7 +158,7 @@ border-bottom: 1px solid #e6e8ec;
 <header class="header js-header header_border bgcolor_F4B400 xs-padding2424 hidden" style="
     border-bottom: 1px solid #353945;
 ">
-<div class="header__center center"><a class="header__logo" href="https://www.qloudid.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
+<div class="header__center center"><a class="header__logo" href="https://www.safeqloud.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
 <div class="header__wrapper js-header-wrapper">
 <div class="header__item header__item_dropdown js-header-item">
 <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to login using Qloud ID

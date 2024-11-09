@@ -29,7 +29,7 @@ class ManageRequestController
 			$empl    = $model->empVerify($data);
 			if($empl==0)
 			{
-				header("location:https://www.qloudid.com/error404.php");
+				header("location:https://www.safeqloud.com/error404.php");
 			}
 			
 			 $updateAdmin    = $model->updateAdmin($data);

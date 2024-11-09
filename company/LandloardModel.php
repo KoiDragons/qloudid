@@ -1977,7 +1977,7 @@
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen'.$i.'.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen'.$i.'.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">'.$title.'</span><span class="aprtSubheading">'.$row1['num'].' amenities selected</span>
 								</div>
@@ -5051,7 +5051,7 @@
 
       <td style="border:0;border-collapse:collapse;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;font-size:14px;line-height:16px;color:#999999">
     
-            Questions? Visit our support site at <a style="border:0;margin:0;padding:0;color:#556cd6!important;text-decoration:none;white-space:nowrap" href="http://59.email.stripe.com/CL0/http:%2F%2Fsupport.qloudid.com%2F/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/m23LoQ5DNaPIWLd21kwpXZZ6uOdslRA4ChhP5FJootc=261" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://59.email.stripe.com/CL0/http:%252F%252Fsupport.qloudid.com%252F/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/m23LoQ5DNaPIWLd21kwpXZZ6uOdslRA4ChhP5FJootc%3D261&amp;source=gmail&amp;ust=1660225813651000&amp;usg=AOvVaw175S6nQEbT9risn6PaD9aH">http://support.qloudid.com/</a>, contact us at <a style="border:0;margin:0;padding:0;color:#556cd6!important;text-decoration:none;white-space:nowrap" href="mailto:support@qloudid.com" target="_blank">support@qloudid.com</a>, or call us at <a style="border:0;margin:0;padding:0;color:#556cd6!important;text-decoration:none;white-space:nowrap" href="http://59.email.stripe.com/CL0/tel:46101510125/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/o0VH_xQy3XmUzruQDT8XbL5uftyLgyo3g45RCS4Nb80=261" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://59.email.stripe.com/CL0/tel:46101510125/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/o0VH_xQy3XmUzruQDT8XbL5uftyLgyo3g45RCS4Nb80%3D261&amp;source=gmail&amp;ust=1660225813651000&amp;usg=AOvVaw0Nxzf4qyAJ7tKw_8J7wVNl">+46 10 151 01 25</a>.
+            Questions? Visit our support site at <a style="border:0;margin:0;padding:0;color:#556cd6!important;text-decoration:none;white-space:nowrap" href="http://59.email.stripe.com/CL0/http:%2F%2Fsupport.qloudid.com%2F/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/m23LoQ5DNaPIWLd21kwpXZZ6uOdslRA4ChhP5FJootc=261" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://59.email.stripe.com/CL0/http:%252F%252Fsupport.qloudid.com%252F/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/m23LoQ5DNaPIWLd21kwpXZZ6uOdslRA4ChhP5FJootc%3D261&amp;source=gmail&amp;ust=1660225813651000&amp;usg=AOvVaw175S6nQEbT9risn6PaD9aH">http://support.https://www.safeqloud.com/</a>, contact us at <a style="border:0;margin:0;padding:0;color:#556cd6!important;text-decoration:none;white-space:nowrap" href="mailto:support@qloudid.com" target="_blank">support@qloudid.com</a>, or call us at <a style="border:0;margin:0;padding:0;color:#556cd6!important;text-decoration:none;white-space:nowrap" href="http://59.email.stripe.com/CL0/tel:46101510125/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/o0VH_xQy3XmUzruQDT8XbL5uftyLgyo3g45RCS4Nb80=261" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://59.email.stripe.com/CL0/tel:46101510125/1/0101018288050542-e107d7cd-3615-4dd9-95c4-07c40bdaa884-000000/o0VH_xQy3XmUzruQDT8XbL5uftyLgyo3g45RCS4Nb80%3D261&amp;source=gmail&amp;ust=1660225813651000&amp;usg=AOvVaw0Nxzf4qyAJ7tKw_8J7wVNl">+46 10 151 01 25</a>.
       
   </td>
 
@@ -8968,7 +8968,7 @@ You have received a tenant invitation. To check the detail please restore your Q
                             <tbody>
 <tr>
                               <td align="center" valign="center" width="100%" class="Button-primary-wrapper" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; display: table-cell; border-radius: 3px; background-color: rgb(32, 32, 192);">
-                              <a href="https://www.qloudid.com/public/index.php/LandloardInvitation" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;"> Manage your reservation </a>                                </td>
+                              <a href="https://www.safeqloud.com/public/index.php/LandloardInvitation" target="_blank" class="Button-primary" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: &quot;GT America Medium&quot;, &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif; border-radius: 3px; border: 1px solid rgb(32, 32, 192); color: rgb(255, 255, 255); display: block; font-size: 16px; font-weight: 600; padding: 18px; text-decoration: none;"> Manage your reservation </a>                                </td>
                             </tr>
                           </tbody>
 </table>
@@ -9268,7 +9268,7 @@ You have received a tenant invitation. To check the detail please restore your Q
 			$stmt->execute();
 			$result = $stmt->get_result();
 			$rowCode = $result->fetch_assoc();
-			$url='https://www.qloudid.com/public/index.php/LandloardInvitation';
+			$url='https://www.safeqloud.com/public/index.php/LandloardInvitation';
 			$surl=getShortUrl($url);
 			$phone='+'.trim($rowCode['country_code']).''.trim($rowAvailable['mobile_number']);
 			$subject='Invitation';
@@ -9938,7 +9938,7 @@ You have received a tenant invitation. To check the detail please restore your Q
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Amenities</span>

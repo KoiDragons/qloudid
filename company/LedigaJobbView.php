@@ -389,7 +389,7 @@
 									<a href="#" class="diblock padrl20 brd brdrad3 lgtgrey_bg ws_now lgn_hight_29 fsz14 black_txt">
 										
 										<span class="valm"> Anslut </span><a href="../storedInfo/<?php echo $data['cid']; ?>"><span class="fas fa-cog fsz22 padl10 lgn_hight_29 valm"></span></a>
-										<a href="https://www.qloudid.com/public/index.php/PublicCareerDetail/careerAccount/<?php echo $data['cid']; ?>"><span class="fas fa-cog fsz22 red_txt padl10 lgn_hight_29 valm"></span></a>
+										<a href="https://www.safeqloud.com/public/index.php/PublicCareerDetail/careerAccount/<?php echo $data['cid']; ?>"><span class="fas fa-cog fsz22 red_txt padl10 lgn_hight_29 valm"></span></a>
 									</a>
 								</div>
 											

@@ -150,7 +150,7 @@ var dict = {
 							else
 							{
 								
-						window.location.href="https://www.qloudid.com/company/index.php/Parkering/thanksVisiting/<?php echo $data['cid']; ?>";
+						window.location.href="https://www.safeqloud.com/company/index.php/Parkering/thanksVisiting/<?php echo $data['cid']; ?>";
 							}
 						}
 					});

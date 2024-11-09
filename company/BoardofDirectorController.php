@@ -15,7 +15,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -26,14 +26,14 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new BoardofDirectorModel();
 				$updateAdmin   = $model1->updateAdmin($data);
 				$checkPermission    = $model1->checkPermission($data);
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$memberCount   = $model1->memberCount($data);
 				
@@ -63,7 +63,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -74,14 +74,14 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php"); die;
+					header("location:https://www.safeqloud.com/error404.php"); die;
 				}
 				$model1       = new BoardofDirectorModel();
 				$updateAdmin   = $model1->updateAdmin($data);
 				$checkPermission    = $model1->checkPermission($data);
 				if($checkPermission ==0)
 				{
-					header("location:https://www.qloudid.com/user/index.php/NewsfeedDetail");
+					header("location:https://www.safeqloud.com/user/index.php/NewsfeedDetail");
 				}
 				$memberCount   = $model1->memberCount($data);
 				$directorCount   = $model1->directorCount($data);
@@ -100,7 +100,7 @@
 			
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$model = new BoardofDirectorModel();
@@ -119,7 +119,7 @@
 			
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$model = new BoardofDirectorModel();
@@ -138,7 +138,7 @@
 			
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$data=array();
 				$model = new BoardofDirectorModel();

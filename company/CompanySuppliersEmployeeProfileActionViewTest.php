@@ -107,7 +107,7 @@
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 changedText" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style="
+<a class="header__logo xs-fsz20 changedText" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style="
    background-color: #23262F;
    padding: 15px;
    color: #787f91;
@@ -121,35 +121,35 @@
  <div class="header__item header__item_dropdown js-header-item" style="background: #131922">
 
 <div class="header__body js-header-body">
-<div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+<div class="header__menu"><a class="header__link active" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
 <svg class="icon icon-comment">
 <use xlink:href="#icon-comment"></use>
 </svg><span class="changedText">Book today</span></a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
+<a class="header__link  " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectProposalCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Price comparison</span></a>
-<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+<a class="header__link" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/signUpEmailInfo/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
 <svg class="icon icon-home">
 <use xlink:href="#icon-home"></use>
 </svg><span class="changedText">Become supplier</span>
 </a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSubscriptionSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
+<a class="header__link  " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectSubscriptionSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Pricing</span></a>
 
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
+<a class="header__link  " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Create account</span>
 </a>
-<a class="header__link  " href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
+<a class="header__link  " href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/howItWorks/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09" style=" box-shadow: none;">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">How it works</span>
 </a>
-<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+<a class="header__link" href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg><span class="changedText">Sign in</span></a></div>
@@ -312,31 +312,31 @@
                 </svg>
               </button>
               <div class="header__body js-header-body" style="z-index:1;">
-                <div class="header__menu"><a class="header__link active" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+                <div class="header__menu"><a class="header__link active" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
                     <svg class="icon icon-comment">
                       <use xlink:href="#icon-comment"></use>
                     </svg><span class="changedText">Book today</span></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectProposalCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+					<a class="header__link" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectProposalCity/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Price comparison</span></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/signUpEmailInfo/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+					<a class="header__link" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/signUpEmailInfo/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
                     <svg class="icon icon-home">
                       <use xlink:href="#icon-home"></use>
                     </svg><span class="changedText">Become supplier</span></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSubscriptionSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+					<a class="header__link" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectSubscriptionSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Pricing</span></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/selectSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+					<a class="header__link" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/selectSignup/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Create account</span></a>
-					<a class="header__link" href="https://www.qloudid.com/public/index.php/UserCompanySignUp/howItWorks/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
+					<a class="header__link" href="https://www.safeqloud.com/public/index.php/UserCompanySignUp/howItWorks/V2l1eVdrVFdnKzZTQTgzRy96RXEzQT09">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">How it works</span></a>
-					<a class="header__link" href="https://www.qloudid.com/user/index.php/LoginAccount/emailLogin">
+					<a class="header__link" href="https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin">
                     <svg class="icon icon-email">
                       <use xlink:href="#icon-email"></use>
                     </svg><span class="changedText">Sign�in</span></a>
@@ -534,7 +534,7 @@
 <div class="gallery__preview  ">
 <a class="gallery__view" href="<?php echo $path; ?>html/usercontent/images/bg/ipropose.jpeg" data-fancybox="gallery1" data-caption="Spectacular views of Queenstown"><img src="<?php echo $path; ?>html/usercontent/images/bg/ipropose.jpeg" alt="Gallery" style="border-radius: 6px;"></a>
 
-<a class="button-white button-small gallery__button xs-marl105 marl500 xs-marb20" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
+<a class="button-white button-small gallery__button xs-marl105 marl500 xs-marb20" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
  <span>Try for free</span></a></div>
  
 </div>
@@ -542,12 +542,12 @@
 <div class="gallery xs-mar0">
 <div class="gallery__list gallery__list_tour xs-mar0">
 <div class="gallery__preview">
-<a class="gallery__view" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" data-caption="Spectacular views of Queenstown" style="
+<a class="gallery__view" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" data-caption="Spectacular views of Queenstown" style="
     border: 1px solid #23262f;
     border-radius: 6px;
     /* background: #23262f; */
 "></a>
-<a class="button-white button-small gallery__button" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
+<a class="button-white button-small gallery__button" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="background: #52D4F5 !important; padding:0px 25px; border-radius:6px; ">
 <svg class="icon icon-image">
 <use xlink:href="#icon-image"></use>
 </svg>
@@ -565,11 +565,11 @@
     border: 1px solid #23262f;
     border-radius: 6px;
 "></a>
-<a class="gallery__preview" href="https://www.qloudid.com/company/index.php/LandloardBroker/availableLandloard/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="
+<a class="gallery__preview" href="https://www.safeqloud.com/company/index.php/LandloardBroker/availableLandloard/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="
     border: 1px solid #23262f;
     border-radius: 6px;
 "></a>
-<a class="gallery__preview" href="https://www.qloudid.com/company/index.php/VitechProperties/searchRentProperties/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><img src="<?php echo $path; ?>html/usercontent/images/bg/iProrent.jpeg" alt="Gallery" style="
+<a class="gallery__preview" href="https://www.safeqloud.com/company/index.php/VitechProperties/searchRentProperties/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><img src="<?php echo $path; ?>html/usercontent/images/bg/iProrent.jpeg" alt="Gallery" style="
     border: 1px solid #23262f;
     border-radius: 6px;
 "></a>
@@ -596,7 +596,7 @@
 <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 604px; transform: translate3d(0px, 0px, 0px);"><a class="categories__item black_bg slick-slide slick-current slick-active" href="javascript:void(0);" style="padding: 26px 20px; font-size: 14px; border-radius: 6px; width: 270px;" onclick="submitForm(18);" tabindex="0" data-slick-index="0" aria-hidden="false">
                                        
                                       <div class="changedText categories__subtitle  txt_f67f00  ">Developer Hub</div>
-                                      </a><a class="categories__item  bg_E7E7E7 slick-slide slick-active" href="https://www.qloudid.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="padding: 26px 20px; font-size: 14px; border-radius: 6px; width: 270px;" tabindex="0" data-slick-index="1" aria-hidden="false">
+                                      </a><a class="categories__item  bg_E7E7E7 slick-slide slick-active" href="https://www.safeqloud.com/company/index.php/VitechProperties/listPropertyProposal/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09" style="padding: 26px 20px; font-size: 14px; border-radius: 6px; width: 270px;" tabindex="0" data-slick-index="1" aria-hidden="false">
                                        
                                       <div class="changedText categories__subtitle txt_787f91 ">Proposal</div>
                                       </a></div></div></div>
@@ -623,9 +623,9 @@
 <div class="brands__center center" style="padding: 0px 0px;">
 <div class="brands__wrap">
 <div class="brands__list" style="display:flex;">
-				<div class="brands__item" style=""><a href="https://qloudid.com/company/index.php/LandloardBroker/availableLandloard/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Connect With A Developer</div></a></div>
-		<div class="brands__item hidden" style=""><a href="https://www.qloudid.com/company/index.php/VitechProperties/cleaningPendingList/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Clean</div></a></div>
-	<div class="brands__item hidden" style=""><a href="https://www.qloudid.com/company/index.php/VitechProperties/cleaningInspectionPendingList/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Inspect</div></a></div>
+				<div class="brands__item" style=""><a href="https://www.safeqloud.com/company/index.php/LandloardBroker/availableLandloard/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Connect With A Developer</div></a></div>
+		<div class="brands__item hidden" style=""><a href="https://www.safeqloud.com/company/index.php/VitechProperties/cleaningPendingList/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Clean</div></a></div>
+	<div class="brands__item hidden" style=""><a href="https://www.safeqloud.com/company/index.php/VitechProperties/cleaningInspectionPendingList/TlhzV1hrRDNSaWxkTU11VFBwUk1ydz09"><div class="browse_info info fsz24 talc xxs-pad5 changedText" style="font-family: 'Poppins', sans-serif;color: #787f91;font-size: 15px;">Inspect</div></a></div>
 </div>
 </div>
 </div>

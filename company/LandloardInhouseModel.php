@@ -176,7 +176,7 @@
 			$stmt->execute();
 			$result = $stmt->get_result();
 			$row_country = $result->fetch_assoc();
-			$url="https://www.qloudid.com/public/index.php/LandloardBroker/proposerDetail/".$this->encrypt_decrypt('encrypt',$id);
+			$url="https://www.safeqloud.com/public/index.php/LandloardBroker/proposerDetail/".$this->encrypt_decrypt('encrypt',$id);
 			$surl=getShortUrl($url);
 			$subject="Proposal received";
 			$emailContent='Hi '.$_POST['fname'].', I have found great properties for you! Check them out: '.$surl.'. Let me know if you are interested!';

@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      <link rel="stylesheet" type="text/css" media="all" href="https://account.travelnest.com/d566fde/assets/main.css?%20[sm]">
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<script src="https://kit.fontawesome.com/119550d688.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="https://www.qloudid.com/html/fleet/css/app.min.css">
-		<link rel="stylesheet" href="https://www.qloudid.com/html/usercontent/constructor.css">
-	<link rel="stylesheet" href="https://www.qloudid.com/html/usercontent/responsive.css">
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/jquery.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/modules.js"></script>
+    <link rel="stylesheet" media="all" href="https://www.safeqloud.com/html/fleet/css/app.min.css">
+		<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/constructor.css">
+	<link rel="stylesheet" href="https://www.safeqloud.com/html/usercontent/responsive.css">
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/jquery.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/modules.js"></script>
    <script type="text/javascript">
    function updateHeader(id)
 				{
@@ -399,7 +399,7 @@ function drop(ev) {
 					<a href="#" class="close_popup_modal dblock pos_abs top-10p right-10p pad10 nobold txt_0"><span class="fa fa-times dblock"></span></a>
 				</h3>
 				 
-				<div class="lightbox__img-content"><a class="lightbox__img-nav false"></a><img class="lightbox__img" src="https://www.qloudid.com/estorecss/tmpnew0.28547600 1710074969.jpg"></div>
+				<div class="lightbox__img-content"><a class="lightbox__img-nav false"></a><img class="lightbox__img" src="https://www.safeqloud.com/estorecss/tmpnew0.28547600 1710074969.jpg"></div>
 				
 				
 				
@@ -491,20 +491,20 @@ function drop(ev) {
       </div>
     </div>
     <!-- scripts-->
-    <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/slick.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/share-buttons.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/nouislider.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/wNumb.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/moment.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/lib/simpleParallax.min.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/demo.js"></script>
-    <script src="https://www.qloudid.com/html/fleet/js/app.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/slick.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.nice-select.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/share-buttons.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.fancybox.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.rateyo.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/nouislider.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/wNumb.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/moment.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/jquery.daterangepicker.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/lib/simpleParallax.min.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/demo.js"></script>
+    <script src="https://www.safeqloud.com/html/fleet/js/app.js"></script>
     <!-- svg sprite-->
     <div style="display: none"><svg width="0" height="0">
 <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down">

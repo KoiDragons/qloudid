@@ -23,7 +23,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -34,7 +34,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardInhouseModel();
 			 
@@ -55,7 +55,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -65,7 +65,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardInhouseModel();
 			$data['fapp_id']=67; $data['app_id']    = $model1->appId($data);
@@ -75,7 +75,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -83,7 +83,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			 
 			$getLandloardProposalCommunityList    = $model1->getLandloardProposalCommunityList($data); 
@@ -102,7 +102,7 @@
 				$model1       = new LandloardInhouseModel();  $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -112,7 +112,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 			$model1       = new LandloardInhouseModel();
 			$data['fapp_id']=67; $data['app_id']    = $model1->appId($data);
@@ -122,7 +122,7 @@
 				if($appdownloadStatus==0)
 				{
 				$getPermissionDetail    = $model1->getPermissionDetail($data);
-				header('location:https://www.qloudid.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
+				header('location:https://www.safeqloud.com/company/index.php/Brand/productPage/'.$data['cid'].'/'.$getPermissionDetail);
 				die;
 				}
 				 $model3       = new VitechPropertiesModel();	 
@@ -130,7 +130,7 @@
 			$contentDetail    = $model3->contentDetail($data);
 			if($employeeSkillCount==0 || $contentDetail==0)
 			{
-			 header('location:https://www.qloudid.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
+			 header('location:https://www.safeqloud.com/company/index.php/VitechProperties/proposalSetupinformation/'.$data['cid'].'/'.$data['app_id']); die;
 			}
 			 
 			$listProposals    = $model1->listProposals($data); 

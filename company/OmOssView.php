@@ -391,7 +391,7 @@
 											</a></div>
 											<div class="hidden-xs hidden-sm padrl10">
 									<a href="../storedInfo/<?php echo $data['cid']; ?>"><span class="fas fa-cog fsz22 padl10 lgn_hight_29 valm"></span></a>
-									<a href="https://www.qloudid.com/public/index.php/PublicAboutUs/companyAccount/<?php echo $data['cid']; ?>"><span class="fas fa-cog fsz22 red_txt padl10 lgn_hight_29 valm"></span></a>
+									<a href="https://www.safeqloud.com/public/index.php/PublicAboutUs/companyAccount/<?php echo $data['cid']; ?>"><span class="fas fa-cog fsz22 red_txt padl10 lgn_hight_29 valm"></span></a>
 								</div>
 								
 									 

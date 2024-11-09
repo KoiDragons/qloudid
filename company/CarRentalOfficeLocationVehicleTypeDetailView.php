@@ -23,7 +23,7 @@
 		
 		<!-- Scripts -->
 		<script type="text/javascript" src="../../../../../html/usercontent/js/jquery.js"></script>
- <link rel="stylesheet" type="text/css" id="u0" href="https://www.qloudid.com/html/usercontent/js/tinymce/skins/lightgray/skin.min.css">
+ <link rel="stylesheet" type="text/css" id="u0" href="https://www.safeqloud.com/html/usercontent/js/tinymce/skins/lightgray/skin.min.css">
  <script>
  var optionInfo='<option value="0">Select</option>';
 function getCarModelInfo(id)

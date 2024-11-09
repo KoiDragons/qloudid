@@ -109,7 +109,7 @@
 						   
 						    <div class="tab_content active" id="utab_Popular1" style="display: block;">
 							
-							<a href="https://www.qloudid.com/company/index.php/InviteEmployee/employeeInfo/<?php echo $data['lid']; ?>">
+							<a href="https://www.safeqloud.com/company/index.php/InviteEmployee/employeeInfo/<?php echo $data['lid']; ?>">
 												
 												<div class=" white_bg marb10  brdb  " style="">
 										<div class="container padrl10 padb15 padt15   brdrad1 fsz18 dark_grey_txt">
@@ -176,7 +176,7 @@
 										
 																				
 									</div> </a>
-								<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware">
+								<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware">
 												
 												<div class=" white_bg marb10  brdb  " style="">
 										<div class="container padrl10 padb15 padt15   brdrad1 fsz18 dark_grey_txt">

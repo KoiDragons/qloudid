@@ -27,7 +27,7 @@
 		{
 			if(id==1)
 			{
-				window.location.href='https://www.qloudid.com/company/index.php/HotelStay/roomsList/<?php echo $data['cid']; ?>/'+id1;
+				window.location.href='https://www.safeqloud.com/company/index.php/HotelStay/roomsList/<?php echo $data['cid']; ?>/'+id1;
 			}
 		}
 			function submitAlarm()
@@ -58,7 +58,7 @@
 			
 			function changeHeader()
 			{
-			window.location.href='https://www.qloudid.com/company/index.php/FoodCourt/serviceInformation/<?php echo $data['cid']; ?>';
+			window.location.href='https://www.safeqloud.com/company/index.php/FoodCourt/serviceInformation/<?php echo $data['cid']; ?>';
 			}
 			 
 			var currentLang = 'sv';
