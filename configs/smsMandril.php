@@ -2,7 +2,7 @@
 
 //require_once 'external_link/mailin_api/sms_api.php';
 //require_once 'mailin/Mailin.php';
-require_once('../APIv3-php-library-master/vendor/autoload.php');
+require_once('./APIv3-php-library-master/vendor/autoload.php');
 function sendSms($subject, $to, $html, $from = 'QloudID', $trans='transactional')
 {
 $config = SendinBlue\Client\Configuration::getDefaultConfiguration()->setApiKey('api-key', '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');
