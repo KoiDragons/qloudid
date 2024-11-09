@@ -1,7 +1,7 @@
 <?php
 class AppModel{
 
-   /*public static function createConnection()
+  /* public static function createConnection()
    {
    	ini_set('memory_limit', '-1');
    	 	 $username = "root";
@@ -10,7 +10,7 @@ class AppModel{
 		 $dbname = "qloudid";
 		 //$dbcon=@ mysql_connect('localhost', 'root', '','qloudid');
 		 $dbCon = new mysqli($host, $username, $password,$dbname);
-		
+		 
 		if ($dbCon->connect_error) {
    			 die("Connection failed: " . $dbCon->connect_error);
 		} 
@@ -22,17 +22,19 @@ class AppModel{
    }*/
    
    
-   public static function createConnection()
+    public static function createConnection()
    {
-   	ini_set('memory_limit', '-1');
-   	 	 $username = "uzwibh6uamwi41j";
-		 $password = "wwf8Sl@KKTZTy5f7t?UWenE0U";
-	 	 $host = "ne-az-sql-serv1.database.windows.net";
-		 $dbname = "dm2zuwmgnmxsnyf";
-		 //$dbcon=@ mysql_connect('localhost', 'root', '','qloudid');
-		 $dbCon = new mysqli($host, $username, $password,$dbname);
-		
-		if ($dbCon->connect_error) {
+	   
+	   $hostname = 'otmq0v.stackhero-network.com';
+$port = '6263';
+$user = 'root';
+$password = 'XKho88wZzbghzFQmaDEbKzfWHYYu0ppp';
+$database = 'qloudid'; // You shouldn't use the "root" database. This is just for the example. The recommended way is to create a dedicated database (and user) in PhpMyAdmin and use it then here.
+
+$mysqli = mysqli_init();
+$dbCon = new mysqli($hostname, $user, $password, $database, $port);
+ 
+if ($dbCon->connect_error) {
    			 die("Connection failed: " . $dbCon->connect_error);
 		} 
 		else
@@ -40,6 +42,7 @@ class AppModel{
 			
 			return $dbCon;
 		}
+   
 	
    }
    

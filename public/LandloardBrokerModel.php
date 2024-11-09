@@ -148,7 +148,9 @@ class LandloardBrokerModel extends AppModel
 		 function agreementDetailInformation($data)
 		{
 			$dbCon = AppModel::createConnection();
+			 
 			$agreement_id= $this -> encrypt_decrypt('decrypt',$data['agreement_id']);
+			 
 			$stmt = $dbCon->prepare("select * from landloard_apartment_reservation_agreement where id=?");
 			
 			/* bind parameters for markers */

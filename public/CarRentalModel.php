@@ -51,7 +51,7 @@ class CarRentalModel extends AppModel
 		function bookingDetail($data)
 		{
 			$dbCon = AppModel::createConnection();
-			print_r($dbCon); die;
+			 
 			
 			$id= $this -> encrypt_decrypt('decrypt',$data['id']); 
 			$stmt = $dbCon->prepare("select user_id,licencence_updated,car_rental_available_car.car_type_id,checkin_date,checkout_date,is_confirmed,car_registration_number,first_name,last_name,car_rental_booking_information.id,car_model,model_series,car_price,is_available from car_rental_booking_information left join car_rental_available_car on car_rental_available_car.id=car_rental_booking_information.car_id left join  car_rental_available_car_type on car_rental_available_car_type.id=car_rental_available_car.car_type_id left join car_rental_model on car_rental_model.id=car_rental_available_car_type.brand_type left join car_rental_model_series on car_rental_model_series.id=car_rental_available_car_type.model_id left join user_logins on user_logins.id=car_rental_booking_information.user_id  where car_rental_booking_information.id=?");
@@ -69,6 +69,7 @@ class CarRentalModel extends AppModel
 			} 
 			$org=substr($org,0,-1);
 			$row['booking_dates']=$org;
+			
 			$stmt->close();
 			$dbCon->close();
 			return $row;

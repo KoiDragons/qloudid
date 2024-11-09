@@ -71,7 +71,7 @@
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important; /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo xs-fsz20 changedText " href="../../guestReservationDetailInfo/<?php echo $data['cid']; ?>/<?php echo $data['rid']; ?>" style="
+<a class="header__logo xs-fsz20 changedText " href="#" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
