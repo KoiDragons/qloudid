@@ -163,7 +163,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -457,11 +457,11 @@
 			</div></td>
             </tr>
             <tr>
-			<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . '" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Confirm Now</a></td>
+			<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . '" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Confirm Now</a></td>
             </tr>
             <tr>
 			<td align="left" valign="top" scope="col"><div style="font-size:14px;">If the button is not working then copy/paste the link in your browser to confirm your registration <br />
-			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.qloudid.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . ' </a></div></td>
+			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.safeqloud.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . ' </a></div></td>
             </tr>
             <tr>
 			<td align="left" valign="top" scope="col" style="font-size:16px;"><div style="padding-bottom:5px;">Warm regards,</div>
@@ -471,7 +471,7 @@
 			</tr>
 			<tr>
 			<td align="center" valign="top"><div style="padding-top:10px; font-size:11px;">This message was sent to <a href="mailto:#" style="text-decoration:none; color:#3691c0;">' . $company_email . '</a>. If you dont want to receive these emails from Qmatchup.com in the future, <br />
-            please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.qloudid.com"></a> Qmatchup Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
+            please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.safeqloud.com"></a> Qmatchup Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
 			</tr>
 			</table>
 			</div>

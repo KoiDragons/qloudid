@@ -227,7 +227,7 @@ img {vertical-align: middle;}
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt   ffamily_avenir" data-en="Logga out" data-sw="Logga out" style="background-color: #000000;">Logga out</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt   ffamily_avenir" data-en="Logga out" data-sw="Logga out" style="background-color: #000000;">Logga out</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Vår metod</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Om CBD</a></li>
 	 

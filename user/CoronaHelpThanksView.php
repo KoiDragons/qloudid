@@ -109,7 +109,7 @@
 
 						<div class="padt5 xxs-talc talc">
 								
-								<a href="http://www.qloudid.com/user/index.php/CoronaHelp"><button type="button"  class="forword minhei_55p red_ff2828_bg white_txt fsz18 trn ffamily_avenir">Continue</button></a>
+								<a href="http://www.safeqloud.com/user/index.php/CoronaHelp"><button type="button"  class="forword minhei_55p red_ff2828_bg white_txt fsz18 trn ffamily_avenir">Continue</button></a>
 								
 							</div>
 									

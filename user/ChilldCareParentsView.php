@@ -91,7 +91,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/DayCareRequest/daycareWelcome/<?php echo $data['parent_id']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left header_arrow_blue_1e96c3" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/DayCareRequest/daycareWelcome/<?php echo $data['parent_id']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left header_arrow_blue_1e96c3" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -109,7 +109,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/DayCareRequest/daycareWelcome/<?php echo $data['parent_id']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/DayCareRequest/daycareWelcome/<?php echo $data['parent_id']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -910,7 +910,7 @@
 							</a>
 						</li>
 						<li class="dblock mar0 padrl15 brdb_new">
-							<a href="https://www.qloudid.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+							<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 								<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 								Inform relatives
 							</a>

@@ -93,7 +93,7 @@
 			if(isset($_REQUEST['prnumber']) && $_REQUEST['prnumber'] != '' )
 			{
 		
-				$BASE_PATH = '/var/www/html/qloudid.com/public_html/ext/bankid/python/';
+				$BASE_PATH = '/var/www/html/safeqloud.com/public_html/ext/bankid/python/';
 				$path = $BASE_PATH.'bankid_authenticate.py';
 				$userIP = $_SERVER['REMOTE_ADDR'];
 				
@@ -123,7 +123,7 @@
 		{
 			if(isset($_REQUEST['order_ref']) && $_REQUEST['order_ref'] != '' )
 			{
-				$BASE_PATH = '/var/www/html/qloudid.com/public_html/ext/bankid/python/';
+				$BASE_PATH = '/var/www/html/safeqloud.com/public_html/ext/bankid/python/';
 				$path = $BASE_PATH.'bankid_collection.py';
 				$orderRef = $_REQUEST['order_ref'];
 				$output =  exec("$path $orderRef");

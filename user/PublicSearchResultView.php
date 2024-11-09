@@ -42,7 +42,7 @@ function submitForm()
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15">
-				<a href="https://www.qloudid.com"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+				<a href="https://www.safeqloud.com"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
 			</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr30">
 				<div class="languages">
@@ -71,7 +71,7 @@ function submitForm()
     </div>
 			<div class="fright xs-dnone sm-dnone">
 				<ul class="mar0 pad0">
-					<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
+					<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
 				</ul>
 			</div>
 			<div class="top_menu top_menu_custom mart2">

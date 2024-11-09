@@ -126,7 +126,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">All rooms</span>
@@ -311,7 +311,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Balcony</span>
@@ -359,7 +359,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Terrace</span>
@@ -406,7 +406,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Basement</span>
@@ -452,7 +452,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Garage</span>
@@ -499,7 +499,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Kitchen</span>
@@ -546,7 +546,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Entrance</span>
@@ -592,7 +592,7 @@ function updateOtherRoom(id)
 										  <div class="dflex wi_100">
 											<div class="wi_70 dflex">
 											  <span class="css-p2kctj">
-												<img src="https://www.qloudid.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
+												<img src="https://www.safeqloud.com/html/usercontent/images/kitchen2.svg" class="css-z0f999">
 											  </span>
 											  <div>
 												<span class="apartheading">Storage</span>

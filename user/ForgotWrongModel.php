@@ -48,7 +48,7 @@ class ForgotWrongModel extends AppModel
         $to      = $data['email'];
         $subject = "Qloud ID - Rest your password.";
         
-        $url='https://www.qloudid.com/user/index.php/RecoverPassword/recoverPasswordAccount/' . $data['email'] . '/' . $data['rand_hash'];
+        $url='https://www.safeqloud.com/user/index.php/RecoverPassword/recoverPasswordAccount/' . $data['email'] . '/' . $data['rand_hash'];
 		$surl=getShortUrl($url);
         $emailContent = '<html>
    <head>
@@ -114,7 +114,7 @@ class ForgotWrongModel extends AppModel
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -125,7 +125,7 @@ class ForgotWrongModel extends AppModel
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -164,7 +164,7 @@ class ForgotWrongModel extends AppModel
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#ffffff;">Reset</h1>
                                                             </div>
@@ -197,7 +197,7 @@ class ForgotWrongModel extends AppModel
                                                                <table border="0" cellspacing="0" cellpadding="0" align="left">
                                                                   <tbody>
                                                                      <tr>
-                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.qloudid.com/user/index.php/RecoverPassword/recoverPasswordAccount/' . $data['email'] . '/' . $data['rand_hash'] . '" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/RecoverPassword/recoverPasswordAccount/' . $data['email'] . '/' . $data['rand_hash'] . '">Click here</a></span></td>
+                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/RecoverPassword/recoverPasswordAccount/' . $data['email'] . '/' . $data['rand_hash'] . '" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/RecoverPassword/recoverPasswordAccount/' . $data['email'] . '/' . $data['rand_hash'] . '">Click here</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">

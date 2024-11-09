@@ -233,7 +233,7 @@
 			<!-- primary menu -->
 			<div class="tab-content active" id="mob-primary-menu" style="display: block;">
 				<div class="wi_100 dflex alit_s justc_sb talc fsz16 xxs-fsz12">
-					<a href="https://www.qloudid.com/public/index.php/LostandFoundWelcome" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/public/index.php/LostandFoundWelcome" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 						<span>Lost & Found</span>
 					</a>
@@ -247,7 +247,7 @@
 						</a>
 					</div>
 					 
-					<a href="https://www.qloudid.com/public/index.php/HelpPeople" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/public/index.php/HelpPeople" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_26 xxs-lgn_hight_20 fsz32 xxs-fsz24">
 							<span class="fa fa-file-text-o"></span>
 						</div>

@@ -94,7 +94,7 @@ class PrivateSearchResultModel extends AppModel
 												<td class="brdb_new wi_5"><div class="wi_40p xs-wi_50p hei_40p xs-hei_50p fxshrink_0 dflex alit_c justc_c uppercase fsz26 xs-fsz20 yellow_bg_a" ><img src="../../country_flags/'.$row['country_id'].'.png" width="40px;" height="30px;"  style="background-repeat: no-repeat;
 																		background-position: 50%;
 																	border-radius: 10%;"> </div></td>
-												<td class="brdb_new"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb_new"><a href="https://www.safeqloud.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -153,7 +153,7 @@ class PrivateSearchResultModel extends AppModel
 												<td class="brdb_new wi_5"><div class="wi_40p xs-wi_50p hei_40p xs-hei_50p fxshrink_0 dflex alit_c justc_c uppercase fsz26 xs-fsz20 yellow_bg_a" ><img src="../../country_flags/'.$row['country_id'].'.png" width="40px;" height="30px;"  style="background-repeat: no-repeat;
 																		background-position: 50%;
 																	border-radius: 10%;"> </div></td>
-												<td class="brdb_new"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb_new"><a href="https://www.safeqloud.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -267,7 +267,7 @@ class PrivateSearchResultModel extends AppModel
 												<td class="brdb_new wi_5"><div class="wi_40p xs-wi_50p hei_40p xs-hei_50p fxshrink_0 dflex alit_c justc_c uppercase fsz26 xs-fsz20 yellow_bg_a" ><img src="../../country_flags/'.$row['country_id'].'.png" width="40px;" height="30px;"  style="background-repeat: no-repeat;
 																		background-position: 50%;
 																	border-radius: 10%;"> </div></td>
-												<td class="brdb_new"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb_new"><a href="https://www.safeqloud.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -326,7 +326,7 @@ class PrivateSearchResultModel extends AppModel
 												<td class="brdb_new wi_5"><div class="wi_40p xs-wi_50p hei_40p xs-hei_50p fxshrink_0 dflex alit_c justc_c uppercase fsz26 xs-fsz20 yellow_bg_a" ><img src="../../country_flags/'.$row['country_id'].'.png" width="40px;" height="30px;"  style="background-repeat: no-repeat;
 																		background-position: 50%;
 																	border-radius: 10%;"> </div></td> 
-												<td class="brdb_new"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb_new"><a href="https://www.safeqloud.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												
@@ -386,7 +386,7 @@ class PrivateSearchResultModel extends AppModel
 												<td class="brdb_new wi_5"><div class="wi_40p xs-wi_50p hei_40p xs-hei_50p fxshrink_0 dflex alit_c justc_c uppercase fsz26 xs-fsz20 yellow_bg_a" ><img src="../../country_flags/'.$row['country_id'].'.png" width="40px;" height="30px;"  style="background-repeat: no-repeat;
 																		background-position: 50%;
 																	border-radius: 10%;"> </div></td>
-												<td class="brdb_new"><a href="https://www.qloudid.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
+												<td class="brdb_new"><a href="https://www.safeqloud.com/company/index.php/About/employeeVerify/'.$enc.'" class=" dark_grey_txt" data-id="facebook">'.$row['company_name'].'</a>
 												
 												</td>
 												

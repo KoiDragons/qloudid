@@ -33,7 +33,7 @@
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15">
-					<a href="#"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloudid</h3></a>
+					<a href="#"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">safeqloud</h3></a>
 				</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr30">
 				<div class="languages">
@@ -53,7 +53,7 @@
 			
 			<div class="fright xs-dnone sm-dnone">
 				<ul class="mar0 pad0">
-					<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
+					<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga IN</a> </li>
 				</ul>
 			</div>
 			<div class="top_menu top_menu_custom mart2">

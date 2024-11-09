@@ -158,7 +158,7 @@ class SoligahemAppModel extends AppModel
 			$stmt->execute();
 			$result = $stmt->get_result();
 			$row_country = $result->fetch_assoc();
-			$url="https://qloudid.com/public/index.php/VitechProperties/proposerDetail/".$this->encrypt_decrypt('encrypt',$id);
+			$url="https://www.safeqloud.com/public/index.php/VitechProperties/proposerDetail/".$this->encrypt_decrypt('encrypt',$id);
 			$surl=getShortUrl($url);
 		 
 			 
@@ -270,7 +270,7 @@ class SoligahemAppModel extends AppModel
 				 
 						$imgs ='../estorecss/tmp'.$row['imageId'].'.jpg'; 
 						if (file_exists($imgs)) {
-						$imgs=str_replace('../','https://www.qloudid.com/',$imgs);
+						$imgs=str_replace('../','https://www.safeqloud.com/',$imgs);
 						}
 						else
 						{
@@ -639,7 +639,7 @@ class SoligahemAppModel extends AppModel
 				$val=1;
 						$imgs ='../estorecss/tmp'.$row['imageId'].'.jpg'; 
 						 
-						$imgs=str_replace('../','https://www.qloudid.com/',$imgs);
+						$imgs=str_replace('../','https://www.safeqloud.com/',$imgs);
 					 
 						 
 						$row['enc']=$this->encrypt_decrypt('encrypt',$row['id']);
@@ -689,7 +689,7 @@ class SoligahemAppModel extends AppModel
 					$i=0;
 					while($rowImages = $resultImages->fetch_assoc())
 					{
-						$filename="../estorecss/".$rowImages ['vitech_photo_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowImages ['vitech_photo_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImages ['vitech_photo_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {
+						$filename="../estorecss/".$rowImages ['vitech_photo_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowImages ['vitech_photo_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImages ['vitech_photo_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {
 						$imgs=""; }
 						
 						$row['images_info'][$i]['image_path']=$imgs;
@@ -727,7 +727,7 @@ class SoligahemAppModel extends AppModel
 					$resultImages = $stmt->get_result();
 					 
 					$rowImages = $resultImages->fetch_assoc();
-						$filename="../estorecss/".$rowImages ['vitech_photo_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowImages ['vitech_photo_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImages ['vitech_photo_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {
+						$filename="../estorecss/".$rowImages ['vitech_photo_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowImages ['vitech_photo_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImages ['vitech_photo_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {
 						$imgs=""; }
 						
 						$row['imageId']=$imgs;
@@ -767,7 +767,7 @@ class SoligahemAppModel extends AppModel
 					{
 						$imgs ='../estorecss/tmp'.$key.'.jpg'; 
 						if (file_exists($imgs)) {
-						$imgs=str_replace('../','https://www.qloudid.com/',$imgs);
+						$imgs=str_replace('../','https://www.safeqloud.com/',$imgs);
 						}
 						else
 						{
@@ -787,7 +787,7 @@ class SoligahemAppModel extends AppModel
 						curl_close($ch);
 						 $dataImage='data:text/x-base64;base64,'.base64_encode($resultData);
 						 $imgs = $this->base64_to_jpeg( $dataImage, '../estorecss/tmp'.$key.'.jpg' ); 
-						 $imgs=str_replace('../','https://www.qloudid.com/',$imgs);	
+						 $imgs=str_replace('../','https://www.safeqloud.com/',$imgs);	
 						}
 						 				
 					} 	 

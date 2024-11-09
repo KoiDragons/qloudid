@@ -64,7 +64,7 @@
 			{
 				
 				$enc=$this->encrypt_decrypt('encrypt',$row['company_id']);
-				$org=$org.'<a href="https://www.qloudid.com/company/index.php/ViewCompany/landloardAccount/'.$enc.'" class="black_txt"><div class=" white_bg mart20  brdrad3 box_shadow bg_fffbcc_a" style="">
+				$org=$org.'<a href="https://www.safeqloud.com/company/index.php/ViewCompany/landloardAccount/'.$enc.'" class="black_txt"><div class=" white_bg mart20  brdrad3 box_shadow bg_fffbcc_a" style="">
 										<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20  brdrad1 fsz14 dark_grey_txt">
 											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
 												
@@ -75,7 +75,7 @@
 													<div class="fleft wi_30 xs-wi_100 sm-wi_40 xsip-wi_40  marl15 xs-mar0 padb10 xs-padb15"> <span class="trn" data-trn-key="Företag">Företag</span> <span class=" edit-text jain1 dblock brdb brdclr_lgtgrey2 fsz16">'.html_entity_decode($row['company_name']).'</span> </div>
 													<div class="fleft wi_45 xs-wi_100 sm-wi_50 xsip-wi_50 marl15 xs-mar0 padb10 xs-padb15"> <span class="trn" data-trn-key="Adress">Adress</span> <span class=" edit-text jain2 dblock brdb brdclr_lgtgrey2 fsz16">'.$row['address'].'</span> </div>
 													<div class="fright wi_10 padl0 xs-wi_100 sm-wi_100 marl15 fsz40  xs-mar0 padb0 hidden-xs hidden-sm hidden-xsip">
-														<a href="https://www.qloudid.com/company/index.php/ViewCompany/landloardAccount/'.$enc.'" ><span class="fas fa-arrow-alt-circle-right"></span></a>
+														<a href="https://www.safeqloud.com/company/index.php/ViewCompany/landloardAccount/'.$enc.'" ><span class="fas fa-arrow-alt-circle-right"></span></a>
 													</div>
 													
 												</div>

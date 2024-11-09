@@ -213,7 +213,7 @@
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests";
+									window.location.href ="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests";
 								}
 								
 							}
@@ -253,7 +253,7 @@
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests";
+									window.location.href ="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests";
 								}
 								
 							}
@@ -302,7 +302,7 @@
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests";
+									window.location.href ="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests";
 								}
 								
 							}
@@ -399,7 +399,7 @@
                         <ul class="menulist sf-menu  fsz14">
 
                             <li class="first last" style="margin: 0 30px 0 0;">
-                                <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                                <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                                  </li>
 
                         </ul>
@@ -599,7 +599,7 @@
 													<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
 												</th>-->
 												<th class="pad5 brdb_red_ff2828 nobold  tall" >
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/receivedRequests">	<div class="padtb5 black_txt"> Kod / Email</div></a>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/receivedRequests">	<div class="padtb5 black_txt"> Kod / Email</div></a>
 												</th>
 												
 												<th class="pad5 brdb_red_ff2828 nobold hidden-xs tall" >
@@ -625,7 +625,7 @@
 													<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
 												</th>-->
 												<th class="pad5 brdb_red_ff2828 nobold  tall" >
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/receivedRequests">	<div class="padtb5 black_txt">Företag Kod / Email</div></a>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/receivedRequests">	<div class="padtb5 black_txt">Företag Kod / Email</div></a>
 												</th>
 												
 												<th class="pad5 brdb_red_ff2828 nobold hidden-xs tall" >
@@ -739,7 +739,7 @@
 													<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
 												</th>-->
 												<th class="wi_30 pad5 brdb_red_ff2828 nobold  tall" >
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/receivedRequests"><div class="padtb5 black_txt">Kod / Email</div></a>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/receivedRequests"><div class="padtb5 black_txt">Kod / Email</div></a>
 												</th>
 												<th class="visible-xs brdb_red_ff2828 visible-xm"></th>
 												<th class="pad5 brdb_red_ff2828 nobold  tall hidden-xs" >
@@ -916,7 +916,7 @@
 													<div class="padtb5"><input type="checkbox" name="check_all" class="check_all" /></div>
 												</th>-->
 												<th class="pad5 brdb_red_ff2828 nobold  tall" >
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/receivedRequests">	<div class="padtb5 black_txt"> Kod / Email</div></a>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/receivedRequests">	<div class="padtb5 black_txt"> Kod / Email</div></a>
 												</th>
 												
 												<th class="pad5 brdb_red_ff2828 nobold hidden-xs tall" >
@@ -1025,7 +1025,7 @@
 											<tr class="white_bg brdb_red_ff2828 ffamily_avenir">
 												
 												<th class="wi_30  pad5 brdb_red_ff2828 nobold  tall" >
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/receivedRequests"><div class="padtb5 black_txt trn" data-trn-key="Namn">Namn</div></a>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/receivedRequests"><div class="padtb5 black_txt trn" data-trn-key="Namn">Namn</div></a>
 												</th>
 												
 												  

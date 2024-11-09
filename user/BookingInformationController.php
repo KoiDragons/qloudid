@@ -11,7 +11,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../";
 		$data=array();
@@ -29,7 +29,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -39,7 +39,7 @@ class BookingInformationController
 			$getUserActiveStatus    = $model1->getUserActiveStatus($data);
 			if($getUserActiveStatus['address']+$getUserActiveStatus['cards']+$getUserActiveStatus['passport']<3)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/userActiveStatus/'.$data['checkout_id']); die;
+				header('location:https://www.safeqloud.com/public/index.php/PrecheckinInformation/userActiveStatus/'.$data['checkout_id']); die;
 			}
 			$invoiceAddressesUser    = $model1->invoiceAddressesUser($data);
 			 
@@ -52,7 +52,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../";
 		$data=array();
@@ -62,7 +62,7 @@ class BookingInformationController
 			$getUserActiveStatus    = $model1->getUserActiveStatus($data);
 			if($getUserActiveStatus['address']+$getUserActiveStatus['cards']+$getUserActiveStatus['passport']<3)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/userActiveStatus/'.$data['checkout_id']); die;
+				header('location:https://www.safeqloud.com/public/index.php/PrecheckinInformation/userActiveStatus/'.$data['checkout_id']); die;
 			}
 			$invoiceAddressesCompany    = $model1->invoiceAddressesCompany($data);
 			 
@@ -76,7 +76,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -94,7 +94,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../../";
 			$data=array();
@@ -112,7 +112,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../";
 		$data=array();
@@ -122,7 +122,7 @@ class BookingInformationController
 			$getUserActiveStatus    = $model1->getUserActiveStatus($data);
 			if($getUserActiveStatus['address']+$getUserActiveStatus['cards']+$getUserActiveStatus['passport']<3)
 			{
-				header('location:https://www.qloudid.com/public/index.php/PrecheckinInformation/userActiveStatus/'.$data['checkout_id']); die;
+				header('location:https://www.safeqloud.com/public/index.php/PrecheckinInformation/userActiveStatus/'.$data['checkout_id']); die;
 			}
 			$cardsList    = $model1->cardsList($data);
 			require_once('BookingInformationCardsListView.php');
@@ -134,7 +134,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-           header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+           header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../";
 			$data=array();
@@ -153,7 +153,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$path = "../../../../";
 		$data=array();
@@ -173,7 +173,7 @@ class BookingInformationController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 		$path = "../../../../";
 		$data=array();

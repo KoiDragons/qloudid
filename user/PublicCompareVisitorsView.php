@@ -365,7 +365,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 					<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -408,17 +408,17 @@
 				<div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"> <a href="https://www.qloudid.com" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h " data-en="Privat" data-sw="Privat">Privat</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"> <a href="https://www.safeqloud.com" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h " data-en="Privat" data-sw="Privat">Privat</a> </li>
 						
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/PublicNews"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Partners" data-sw="Partners">Partners</a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/PublicNews"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Partners" data-sw="Partners">Partners</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.qmatchup.com/beta/company/index.php/PublicAboutUs/companyAccount/N0ZvS0gycGRubUx4MlpxeTJNY1czZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl20   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 					</ul>
 				</div>
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
 				<div class="clear"></div>
 				
 			</div>
@@ -1654,7 +1654,7 @@
 							
 						</div>
 						<div class="wi_20 xs-wi_100 fsz70 yellow_txt">
-							<a href="https://www.qloudid.com/user/index.php/ManageVisitors"><span class="fas fa-arrow-alt-circle-right"></span></a>
+							<a href="https://www.safeqloud.com/user/index.php/ManageVisitors"><span class="fas fa-arrow-alt-circle-right"></span></a>
 						</div>
 					</div>
 					<div class="dflex xs-dblock justc_c alit_c fsz22 xs-fsz18 darkgrey_txt padrl30  xs-padrl0 padtb40 brdb_new">

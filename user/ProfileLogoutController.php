@@ -33,7 +33,7 @@ if(isset($_GET['action']) or isset($_COOKIE['email']) or isset($_SESSION['user_i
       
 		
 }
- header('location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin');
+ header('location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin');
 }
 
 	public static function changeLanguage()

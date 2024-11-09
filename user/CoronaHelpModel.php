@@ -22,7 +22,7 @@ else
 $stmt = $dbCon->prepare("insert into corona_help_group_members (group_id,member_id,is_approved,created_on,modified_on) values(?, ?, ?, now(),now())");
 $stmt->bind_param("iii", $group_id ,$data['user_id'],$st);
 $stmt->execute();
-$url='https://www.qloudid.com/user/index.php/CoronaHelp/groupStatistics/'.$data['gid'];
+$url='https://www.safeqloud.com/user/index.php/CoronaHelp/groupStatistics/'.$data['gid'];
 $surl=getShortUrl($url);
 $subject       = "Group joined!";
 $to=$row['email'];
@@ -90,7 +90,7 @@ $emailContent='<html>
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -101,7 +101,7 @@ $emailContent='<html>
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -140,7 +140,7 @@ $emailContent='<html>
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#ffffff;">Joined</h1>
                                                             </div>
@@ -173,7 +173,7 @@ $emailContent='<html>
                                                                <table border="0" cellspacing="0" cellpadding="0" align="left">
                                                                   <tbody>
                                                                      <tr>
-                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.qloudid.com/user/index.php/CoronaHelp/groupStatistics/'.$data['gid'].'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/CoronaHelp/groupStatistics/'.$data['gid'].'">Click here</a></span></td>
+                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/CoronaHelp/groupStatistics/'.$data['gid'].'" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/CoronaHelp/groupStatistics/'.$data['gid'].'">Click here</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">
@@ -519,7 +519,7 @@ $row['is_member']=1;
 $row['is_approved']=$row2['is_approved'];
 }	
 $enc=$this->encrypt_decrypt('encrypt',$row['id']);
-$url="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfoMember/".$enc;	
+$url="https://www.safeqloud.com/public/index.php/CoronaHelp/detailInfoMember/".$enc;	
 array_push($org,$row);
 $org[$j]['enc']=$enc;
 $org[$j]['invitation_link']=getShortUrl($url);
@@ -654,7 +654,7 @@ $subject       = "Receive product!";
 $emailContent ="Volunteer ".$row_volunteer['name']." has made a delivery outside your door. Please pick it up.";
 $res=sendSms($subject, $to, $emailContent);
 $to  = $row['email'];
-$url="https://www.qloudid.com/user/index.php/CoronaHelp/listItemsDetailVolunteers";
+$url="https://www.safeqloud.com/user/index.php/CoronaHelp/listItemsDetailVolunteers";
 $surl=getShortUrl($url);
 $emailContent='<html>
    <head>
@@ -720,7 +720,7 @@ $emailContent='<html>
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -731,7 +731,7 @@ $emailContent='<html>
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -770,7 +770,7 @@ $emailContent='<html>
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#ffffff;">Received</h1>
                                                             </div>
@@ -803,7 +803,7 @@ $emailContent='<html>
                                                                <table border="0" cellspacing="0" cellpadding="0" align="left">
                                                                   <tbody>
                                                                      <tr>
-                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.qloudid.com/user/index.php/CoronaHelp/listItemsDetailVolunteers" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/CoronaHelp/listItemsDetailVolunteers">Click here</a></span></td>
+                                                                        <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:center; padding-bottom:15px;"><span><a href="https://www.safeqloud.com/user/index.php/CoronaHelp/listItemsDetailVolunteers" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/CoronaHelp/listItemsDetailVolunteers">Click here</a></span></td>
                                                                      </tr>
                                                                      <tr style="padding-top:20px;">
                                                                         <td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;">
@@ -1155,7 +1155,7 @@ $stmt->bind_param("i", $product_id);
 $stmt->execute();
 $result = $stmt->get_result();
 $row = $result->fetch_assoc(); 
-if($row['image_path']!=null) { $filename="../estorecss/".$row['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  } else { $value_a="url(http://www.qloudid.com/html/usercontent/images/12.png)"; } }  else $value_a="url(http://www.qloudid.com/html/usercontent/images/12.png)";
+if($row['image_path']!=null) { $filename="../estorecss/".$row['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  } else { $value_a="url(http://www.safeqloud.com/html/usercontent/images/12.png)"; } }  else $value_a="url(http://www.safeqloud.com/html/usercontent/images/12.png)";
 $row['img']=$value_a;
 $stmt->close();
 $dbCon->close();

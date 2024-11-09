@@ -461,7 +461,7 @@
 										 
 										  <div class="css-1jcail2 martb15 <?php if($result==0) echo 'hidden'; ?>" id="halfBath">
 									 <div data-testid="did-you-know-half-bathrooms" class="css-1miy8fb">
-									 <img role="presentation" src="https://www.qloudid.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn">
+									 <img role="presentation" src="https://www.safeqloud.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn">
 									 <div class="css-1ai2sgr tall">Any bathrooms that only have a toilet and sink are considered a half bath.</div>
 									 </div>
 									 </div>

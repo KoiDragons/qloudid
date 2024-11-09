@@ -40,7 +40,7 @@
 							dataType:"text",
 							contentType: "application/x-www-form-urlencoded;charset=utf-8",
 							success: function(data1){
-							window.location.href="https://www.qloudid.com/user/index.php/NewPersonal/apartmentEditPricingInfo/<?php echo $data['aid']; ?>/"+data1;	  	 
+							window.location.href="https://www.safeqloud.com/user/index.php/NewPersonal/apartmentEditPricingInfo/<?php echo $data['aid']; ?>/"+data1;	  	 
 								  
 							}
 						});	
@@ -63,7 +63,7 @@
 							contentType: "application/x-www-form-urlencoded;charset=utf-8",
 							success: function(data1){
 								 
-							window.location.href="https://www.qloudid.com/user/index.php/NewPersonal/apartmentPricingInfo/<?php echo $data['aid']; ?>";	  	 
+							window.location.href="https://www.safeqloud.com/user/index.php/NewPersonal/apartmentPricingInfo/<?php echo $data['aid']; ?>";	  	 
 								  
 							}
 						});	
@@ -85,7 +85,7 @@
 							contentType: "application/x-www-form-urlencoded;charset=utf-8",
 							success: function(data1){
 								 
-							window.location.href="https://www.qloudid.com/user/index.php/NewPersonal/apartmentEditPricingInfo/<?php echo $data['aid']; ?>/"+data1;	  
+							window.location.href="https://www.safeqloud.com/user/index.php/NewPersonal/apartmentEditPricingInfo/<?php echo $data['aid']; ?>/"+data1;	  
 							}
 						});	
 		}

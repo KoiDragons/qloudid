@@ -484,7 +484,7 @@
 
                  <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
 
-            <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+            <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
 
         </td>
 
@@ -504,7 +504,7 @@
 
                 <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#ffffff;width:100%;text-align:right">
 
-                 <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                 <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
 
                 </td>
 
@@ -600,12 +600,12 @@
 <br>
 </div></td>
             </tr>
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:left;   padding-bottom:25px;"><span><a href="https://www.qloudid.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/LoginAccount">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:left;   padding-bottom:25px;"><span><a href="https://www.safeqloud.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/LoginAccount">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
 			<td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;"><div style="font-size:16px; text-align:left;">If the button is not working then copy/paste the link in your browser to confirm your registration <br><br>
-			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.qloudid.com/user/index.php/LoginAccount</a></div></td>
+			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.safeqloud.com/user/index.php/LoginAccount</a></div></td>
             </tr>
 			
 			<tr style="padding-top:20px;">
@@ -1082,7 +1082,7 @@
 
                  <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
 
-            <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+            <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
 
         </td>
 
@@ -1102,7 +1102,7 @@
 
                 <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#ffffff;width:100%;text-align:right">
 
-                 <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                 <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
 
                 </td>
 
@@ -1198,12 +1198,12 @@
 <br>
 </div></td>
             </tr>
-    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:left;   padding-bottom:25px;"><span><a href="https://www.qloudid.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.qloudid.com/user/index.php/LoginAccount">Click here</a></span></td>
+    <td align="left" style="font-size:18px;line-height:22px;font-weight:bold; text-align:left;   padding-bottom:25px;"><span><a href="https://www.safeqloud.com/user/index.php/LoginAccount" style="border-radius:3px;color:#ff2828;text-decoration:none;background-color:#ff2828;border-top:14px solid #ff2828;border-bottom:14px solid #ff2828;border-left:14px solid #ff2828;border-right:14px solid #ff2828;display:inline-block;border-radius:3px;color:#ffffff; padding-left:25px; padding-right:25px; font-weight:normal;" target="_blank" data-saferedirecturl="https://www.safeqloud.com/user/index.php/LoginAccount">Click here</a></span></td>
 
   </tr>
 <tr style="padding-top:20px;">
 			<td align="left" valign="top" scope="col" style="padding-top:20px;  padding-bottom:15px;"><div style="font-size:16px; text-align:left;">If the button is not working then copy/paste the link in your browser to confirm your registration <br><br>
-			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.qloudid.com/user/index.php/LoginAccount</a></div></td>
+			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.safeqloud.com/user/index.php/LoginAccount</a></div></td>
             </tr>
 			
 			<tr style="padding-top:20px;">

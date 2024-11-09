@@ -4,13 +4,13 @@
  
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="refresh" content="60;https://www.qloudid.com/user/index.php/ReceivedRequest" />
+	<meta http-equiv="refresh" content="60;https://www.safeqloud.com/user/index.php/ReceivedRequest" />
 	
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Connect Kin.">
     <meta name="author" content="Ansonika">
-    <title>Qloudid</title>
+    <title>safeqloud</title>
 
     <!-- Favicons
     <link rel="shortcut icon" href="<?php echo $path;?>html/kincss/img/favicon.ico" type="image/x-icon">-->
@@ -109,7 +109,7 @@
 
 						<div class="padtb20 xxs-talc talc">
 								
-								<a href="https://www.qloudid.com/user/index.php/ReceivedRequest"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
+								<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
 								
 							</div>
 									

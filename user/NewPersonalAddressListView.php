@@ -47,7 +47,7 @@
 		<script type="text/javascript">
        function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/user/index.php/NewPersonal/deliveryAddressInfo";
+			window.location.href ="https://www.safeqloud.com/user/index.php/NewPersonal/deliveryAddressInfo";
 		}
 				
 				function checkFlag()
@@ -195,7 +195,7 @@
 							 					
 							  
 							    <li class="dblock padrb10">
-                                 <a href="https://www.qloudid.com/user/index.php/VitechProperties/listPropertyRequest" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
+                                 <a href="https://www.safeqloud.com/user/index.php/VitechProperties/listPropertyRequest" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
                                     <span class="valm trn" style="letter-spacing: 2px;">Connection Requests</span> 
                                     <div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
                                  </a>
@@ -221,7 +221,7 @@
                                  </a>
                               </li>	
 									 <li class="dblock padrb10">
-                                 <a href="https://www.qloudid.com/user/index.php/GetVerified/userAccount" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
+                                 <a href="https://www.safeqloud.com/user/index.php/GetVerified/userAccount" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
                                     <span class="valm trn" style="letter-spacing: 2px;">Security setting</span> 
                                     <div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
                                  </a>

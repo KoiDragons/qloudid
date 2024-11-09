@@ -54,7 +54,7 @@ class AboutController
 			}
 			/*else
 			{
-		header("location:https://www.qloudid.com/error404.php");
+		header("location:https://www.safeqloud.com/error404.php");
 			}*/
     require_once('AboutView.php');
 	}

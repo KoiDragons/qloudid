@@ -481,7 +481,7 @@
 						{
 							$to = $row_c['company_email'];
 							$subject = "Telezales - Employee Request";
-							$emailContent =$username['name'].'  is requesting for an employee profile page for '.$row_c['company_name'].'. To approve/reject click on following link :<a href="https://www.qloudid.com/company/index.php/EmployeeRequest/locationShow/'.$c_id.'">Click here</a>';
+							$emailContent =$username['name'].'  is requesting for an employee profile page for '.$row_c['company_name'].'. To approve/reject click on following link :<a href="https://www.safeqloud.com/company/index.php/EmployeeRequest/locationShow/'.$c_id.'">Click here</a>';
 							$from = "admin@telezales.com";
 							$headers = "MIME-Version: 1.0 \r\n";
 							$headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
@@ -496,7 +496,7 @@
 					{
 						$to = $username['email'];
 						$subject = "Telezales - Employee Approval/Rejection";
-						$emailContent ='Your are already a employee of the same company and click following link to view your employee profile page:<a href="https://www.qloudid.com/user_company_detail.php?id='.$c_id.'">Click here</a>';
+						$emailContent ='Your are already a employee of the same company and click following link to view your employee profile page:<a href="https://www.safeqloud.com/user_company_detail.php?id='.$c_id.'">Click here</a>';
 						$from = "admin@telezales.com";
 						$headers = "MIME-Version: 1.0 \r\n";
 						$headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";

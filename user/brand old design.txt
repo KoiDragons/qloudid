@@ -65,7 +65,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
@@ -158,7 +158,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
@@ -212,7 +212,7 @@
 													</div>
 												</a>
 												<div class="minhei_60p pos_rel">
-													<a href="https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=eEFnQmlhS29sYjZHZXVZN01QajNVdz09&state=xyz&login=1" class="wi_100 hei_100_15p dblock pos_abs zi1 top0 left0 activepopup" ></a>
+													<a href="https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=eEFnQmlhS29sYjZHZXVZN01QajNVdz09&state=xyz&login=1" class="wi_100 hei_100_15p dblock pos_abs zi1 top0 left0 activepopup" ></a>
 													<div class="keep-images dflex fxwrap_w alit_c">
 														
 														<div class="keep-image" id="keep-B-image-1" style="width: 59.3258%;">
@@ -254,7 +254,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=eEFnQmlhS29sYjZHZXVZN01QajNVdz09&state=xyz&login=1" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=eEFnQmlhS29sYjZHZXVZN01QajNVdz09&state=xyz&login=1" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
@@ -361,7 +361,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
@@ -457,7 +457,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/user/index.php/LedigaJobb/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/user/index.php/LedigaJobb/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
@@ -548,7 +548,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">
@@ -642,7 +642,7 @@
 															<span class="maxwi_100 dflex alit_c opa1 opa0_ph pos_rel zi1 padtb3 padrl5 txtdec_n">
 																<span class="meta-content maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</span>
-															<a href="https://www.qloudid.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
+															<a href="https://www.safeqloud.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class="wi_100 maxwi_100 hei_100 minwi_0 dflex alit_c opa0 opa1_ph pos_abs top0 left0 zi2 padtb3 padr12 padl5 txtdec_n txt_inh">
 																<span class="maxwi_100 ovfl_hid flex_1 dblock marrl5 ws_now txtovfl_el fsz11">4. Personalhandboken</span>
 															</a>
 															<a href="#" class="keep-meta-delete hei_100 dflex alit_c opa0 xs-opa1 sm-opa1 opa1_ph pos_abs zi3 top0 right0 pad3">

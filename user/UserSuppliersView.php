@@ -110,7 +110,7 @@ function searchUser()
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/UserSuppliers/userSuppliersShow";
+									window.location.href ="https://www.safeqloud.com/user/index.php/UserSuppliers/userSuppliersShow";
 								}
 								
 							}
@@ -150,7 +150,7 @@ function searchUser()
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/UserSuppliers/userSuppliersShow";
+									window.location.href ="https://www.safeqloud.com/user/index.php/UserSuppliers/userSuppliersShow";
 								}
 								
 							}
@@ -199,7 +199,7 @@ function searchUser()
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/UserSuppliers/userSuppliersShow";
+									window.location.href ="https://www.safeqloud.com/user/index.php/UserSuppliers/userSuppliersShow";
 								}
 								
 							}
@@ -418,7 +418,7 @@ function updateTotal(id,id1)
 					
 					if(data==1)
 					{
-						window.location.href ="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow";
+						window.location.href ="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow";
 					}
 					else
 					{
@@ -581,7 +581,7 @@ function updateTotal(id,id1)
 											<ul class="marr20 pad0">
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">One time</span>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">One time</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -592,7 +592,7 @@ function updateTotal(id,id1)
 												</li>
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/ConnectKin/connectAccount" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Next of kin</span>
+													<a href="https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Next of kin</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -612,7 +612,7 @@ function updateTotal(id,id1)
 											<ul class="marr20 pad0">
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/StoreData/userAccount" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Store/Update your data</span>
+													<a href="https://www.safeqloud.com/user/index.php/StoreData/userAccount" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Store/Update your data</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -620,7 +620,7 @@ function updateTotal(id,id1)
 												
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/BoughtProducts" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Events</span>
+													<a href="https://www.safeqloud.com/user/index.php/BoughtProducts" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Events</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -641,7 +641,7 @@ function updateTotal(id,id1)
 												</li>
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/Invitation/invitationShow" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" data-target="#gratis_popup_company_search"> <span class="valm trn">Edit</span>
+													<a href="https://www.safeqloud.com/user/index.php/Invitation/invitationShow" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" data-target="#gratis_popup_company_search"> <span class="valm trn">Edit</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -1030,7 +1030,7 @@ function updateTotal(id,id1)
 				<!-- primary menu -->
 				<div class="tab-content active" id="mob-primary-menu" style="display: block;">
 					<div class="wi_100 dflex alit_s justc_sb talc fsz16 xxs-fsz12">
-						<a href="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 							<span>One time</span>
 						</a>
@@ -1046,11 +1046,11 @@ function updateTotal(id,id1)
 								</div>
 							</a>
 						</div>
-						<a href="https://www.qloudid.com/user/index.php/ConnectKin/connectAccount" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-image"></span></div>
 							<span>Next of kin</span>
 						</a>
-						<a href="https://www.qloudid.com/user/index.php/StoreData/userAccount" class="padtb5 dark_grey_txt dblue_txt_h">
+						<a href="https://www.safeqloud.com/user/index.php/StoreData/userAccount" class="padtb5 dark_grey_txt dblue_txt_h">
 							<div class="hei_40p xxs-hei_30p talc lgn_hight_26 xxs-lgn_hight_20 fsz32 xxs-fsz24">
 								<span class="fa fa-file-text-o"></span>
 							</div>
@@ -1076,7 +1076,7 @@ function updateTotal(id,id1)
 							</a>
 						</li>
 						<li class="dblock mar0 padrl15 brdb">
-							<a href="https://www.qloudid.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+							<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 								<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 								Inform relatives
 							</a>

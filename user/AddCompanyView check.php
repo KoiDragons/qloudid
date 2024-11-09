@@ -9,9 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
-			<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
+			<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/css/modulesnewy_bg.css" />
 		
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">

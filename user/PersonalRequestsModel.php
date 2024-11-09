@@ -1312,7 +1312,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -1531,7 +1531,7 @@
 				$row_sender = $result->fetch_assoc();
 				
 				$to      = $row_sender['email'];
-				$subject = "Qloudid : Update on data access request";
+				$subject = "safeqloud : Update on data access request";
 				
 				$emailContent ='There is an update on your request to access user data.';
 				sendEmail($subject, $to, $emailContent);
@@ -1766,9 +1766,9 @@
 						$stmt->execute();
 						
 						$to      = $row_request['email'];
-						$subject = "Qloudid : Request to access your details";
+						$subject = "safeqloud : Request to access your details";
 						
-						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 						sendEmail($subject, $to, $emailContent);
 						
 						$stmt->close();
@@ -1831,9 +1831,9 @@
 					
 					
 					$to      = $_POST['email_id'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/UserRequestUnregistered/connectAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br> https://www.qloudid.com/user/index.php/UserRequestUnregistered/connectAccount/'.$enc.'';
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/UserRequestUnregistered/connectAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br> https://www.safeqloud.com/user/index.php/UserRequestUnregistered/connectAccount/'.$enc.'';
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt->close();
@@ -1883,9 +1883,9 @@
 					
 					
 					$to      = $_POST['email_id'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt->close();
@@ -1945,7 +1945,7 @@
 					$stmt->execute();
 					$result_phone = $stmt->get_result();
 					$row_phone = $result_phone->fetch_assoc();
-					$url="https://www.qloudid.com/public/index.php/UserRequestUnregistered/connectAccount/".$enc;
+					$url="https://www.safeqloud.com/public/index.php/UserRequestUnregistered/connectAccount/".$enc;
 					$surl=getShortUrl($url);
 					$phone='+'.trim($row_phone['country_code']).''.trim($_POST['phoneno']);
 					$subject='Informationen om din vän/anhörig';
@@ -1998,9 +1998,9 @@
 					$stmt->execute();
 					
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt = $dbCon->prepare("select country_code,phone_number  from user_profiles left join phone_country_code on phone_country_code.country_name=user_profiles.country_phone where user_profiles.user_logins_id=?");
@@ -2010,7 +2010,7 @@
 					$stmt->execute();
 					$result_phone = $stmt->get_result();
 					$row_phone = $result_phone->fetch_assoc();
-					$url="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/".$enc;
+					$url="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/".$enc;
 					$surl=getShortUrl($url);
 					$phone='+'.trim($row_phone['country_code']).''.trim($row_phone['phone_number']);
 					$subject='Informationen om din vän/anhörig';

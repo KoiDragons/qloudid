@@ -124,7 +124,7 @@
 						else
 						{
 							 
-							window.location.href ="https://www.qloudid.com/user/index.php/Travel/hotelAmenities";
+							window.location.href ="https://www.safeqloud.com/user/index.php/Travel/hotelAmenities";
 						}
 					}
 				});

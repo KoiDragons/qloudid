@@ -568,7 +568,7 @@
 			
 			if($dependent['is_ssn_available']==0)
 			{
-			$email=$_POST['id_number'].'@qloudid.com';
+			$email=$_POST['id_number'].'@safeqloud.com';
 			$stmt = $dbCon->prepare("update dependents set ssn=?,email=? where id=?");
 			$stmt->bind_param("ssi",$_POST['id_number'],$email,$d_id);
 			$stmt->execute();	
@@ -602,7 +602,7 @@
 			if($data['is_ssn_available']==1)
 			{
 				$_POST['social_number']=$_POST['social_number'];
-				$email=$_POST['social_number'].'@qloudid.com';
+				$email=$_POST['social_number'].'@safeqloud.com';
 			}
 			else
 			{
@@ -1204,7 +1204,7 @@
 			$encId=$this->encrypt_decrypt('encrypt',$id);
 			$subject='guardian request received';
 			$to=$phone;
-			$url='https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorRequestList';
+			$url='https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorRequestList';
 			$surl=getShortUrl($url);
 			 
 			$html='You have received a guardian request please approve/reject  here:- '.$surl.' after login your account';
@@ -1274,7 +1274,7 @@
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -1285,7 +1285,7 @@
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -1324,7 +1324,7 @@
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/envelopIcon.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:#ffffff;">Requests</h1>
                                                             </div>
@@ -1574,7 +1574,7 @@
 			$encId=$this->encrypt_decrypt('encrypt',$id);
 			$subject='guardian request received';
 			
-			$html='You have received a guardian request from '.$row_user['name'].' please approve <a href="https://www.qloudid.com/user/index.php/Dependents/approveReceivedRequest/'.$encId.'"> here</a> or reject <a href="https://www.qloudid.com/user/index.php/Dependents/rejectReceivedRequest/'.$encId.'">here </a> after login your account';
+			$html='You have received a guardian request from '.$row_user['name'].' please approve <a href="https://www.safeqloud.com/user/index.php/Dependents/approveReceivedRequest/'.$encId.'"> here</a> or reject <a href="https://www.safeqloud.com/user/index.php/Dependents/rejectReceivedRequest/'.$encId.'">here </a> after login your account';
 			//$res=sendSms($subject, $to, $html);
 			$to=$row_guardian_user['email'];
 			sendEmail($subject, $to, $html);

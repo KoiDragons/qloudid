@@ -3,8 +3,8 @@ import sys
 import os
 import bankid
 import json
-cert_and_key = ['/var/www/html/qloudid.com/public_html/ext/bankid/qloudid_cert/cert.pem', '/var/www/html/qloudid.com/public_html/ext/bankid/qloudid_cert/server.key']
-#cert_and_key = ['/var/www/html/qloudid.com/public_html/ext/bankid/qloudid_cert/testcer/certificate.pem', '/var/www/html/qloudid.com/public_html/ext/bankid/qloudid_cert/testcer/key.pem']
+cert_and_key = ['/var/www/html/safeqloud.com/public_html/ext/bankid/safeqloud_cert/cert.pem', '/var/www/html/safeqloud.com/public_html/ext/bankid/safeqloud_cert/server.key']
+#cert_and_key = ['/var/www/html/safeqloud.com/public_html/ext/bankid/safeqloud_cert/testcer/certificate.pem', '/var/www/html/safeqloud.com/public_html/ext/bankid/safeqloud_cert/testcer/key.pem']
 
 
 try:

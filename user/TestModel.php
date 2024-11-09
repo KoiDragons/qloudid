@@ -543,7 +543,7 @@ class TestModel extends AppModel
 				
 				
 				$enc_id=$this->encrypt_decrypt('encrypt',$id);
-				$url='https://www.qloudid.com/company/index.php/Company/confirmVisit/'.$enc_id;
+				$url='https://www.safeqloud.com/company/index.php/Company/confirmVisit/'.$enc_id;
 				$surl=getShortUrl($url);
 				
 				$stmt = $dbCon->prepare("select country_code,phone_number from company_visitors left join phone_country_code on phone_country_code.country_name=company_visitors.country where company_visitors.id=?");
@@ -680,7 +680,7 @@ class TestModel extends AppModel
 				$stmt->execute();
 				$id=$stmt->insert_id;
 				 
-				$url="https://www.qloudid.com/public/index.php/VisitorsQR/visitorFrontDesk/".$location_id;	
+				$url="https://www.safeqloud.com/public/index.php/VisitorsQR/visitorFrontDesk/".$location_id;	
 				if(!empty($data['email']))
 				{
 				$to      = $data['email'];
@@ -4464,7 +4464,7 @@ class TestModel extends AppModel
 			if(!empty($rowInstaBox))
 			{
 				$encId=$this->encrypt_decrypt('encrypt',$row['id']);
-				$url="https://www.qloudid.com/public/index.php/InstaBox/welcome/".$encId;
+				$url="https://www.safeqloud.com/public/index.php/InstaBox/welcome/".$encId;
 				$surl=getShortUrl($url);
 				$subject='Welcome! you have room key available in instabox.';
 				$to      = $rowUser['email'];
@@ -5506,7 +5506,7 @@ class TestModel extends AppModel
 			{
 				 
 				$encId=$this->encrypt_decrypt('encrypt',$row['id']);
-				$url="https://www.qloudid.com/public/index.php/InstaBox/welcome/".$encId;
+				$url="https://www.safeqloud.com/public/index.php/InstaBox/welcome/".$encId;
 				$surl=getShortUrl($url);
 				 
 				$subject='Welcome! you have room key available in instabox.';
@@ -6616,12 +6616,12 @@ class TestModel extends AppModel
 				
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/person-male.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/person-male.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);
 				}
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
 				array_push($org,$row);
@@ -6657,12 +6657,12 @@ class TestModel extends AppModel
 				
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/person-male.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/person-male.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);
 				}
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
 				array_push($org,$row);
@@ -6699,12 +6699,12 @@ class TestModel extends AppModel
 				}
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/person-male.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/person-male.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);
 				}
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
 				array_push($org,$row);
@@ -6741,12 +6741,12 @@ class TestModel extends AppModel
 				}
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/person-male.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/person-male.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);
 				}
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
 				array_push($org,$row);
@@ -7201,7 +7201,7 @@ class TestModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowInfo['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowInfo['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select concat_ws(' ', first_name,last_name) as name,email from user_logins where id = ?");
         
@@ -7269,7 +7269,7 @@ class TestModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowInfo['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowInfo['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select concat_ws(' ', first_name,last_name) as name,email from user_logins where id = ?");
         
@@ -8971,7 +8971,7 @@ class TestModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowInfo['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowInfo['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select concat_ws(' ', first_name,last_name) as name,email from user_logins where id = ?");
         
@@ -9068,7 +9068,7 @@ class TestModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowInfo['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowInfo['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			$stmt = $dbCon->prepare("select concat_ws(' ', first_name,last_name) as name,email from user_logins where id = ?");
         
@@ -10939,8 +10939,8 @@ class TestModel extends AppModel
 			$org=array();
 			while($row = $result->fetch_assoc())
 			{
-			$filename="../estorecss/".$row ['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['image_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } 
-			else {   $imgs= "https://www.qloudid.com/html/usercontent/images/default-profile-pic.jpg"; }
+			$filename="../estorecss/".$row ['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['image_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } 
+			else {   $imgs= "https://www.safeqloud.com/html/usercontent/images/default-profile-pic.jpg"; }
 			$row['child_image']=$imgs;
 			$row['address']=html_entity_decode($row['address'],ENT_NOQUOTES, 'UTF-8'); 
 			$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
@@ -10965,8 +10965,8 @@ class TestModel extends AppModel
 			$org=array();
 			while($row = $result->fetch_assoc())
 			{
-			$filename="../estorecss/".$row ['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['image_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } 
-			else {   $imgs= "https://www.qloudid.com/html/usercontent/images/default-profile-pic.jpg"; }
+			$filename="../estorecss/".$row ['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['image_path'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } 
+			else {   $imgs= "https://www.safeqloud.com/html/usercontent/images/default-profile-pic.jpg"; }
 			$row['child_image']=$imgs;
 			if($row['address']=='' || $row['address']==null)
 			{
@@ -11005,7 +11005,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$rowPhoto['venue_photo_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowPhoto['venue_photo_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowPhoto['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowPhoto['venue_photo_path'].'.jpg' );
 			 
-			$row['image_path1']=str_replace('../','https://www.qloudid.com/',$rowPhoto['image_path1']);
+			$row['image_path1']=str_replace('../','https://www.safeqloud.com/',$rowPhoto['image_path1']);
 			$row['venue_type_details']=array();
 			$a=explode(',',substr($row['venue_type'],0,-1));
 			 
@@ -11217,7 +11217,7 @@ class TestModel extends AppModel
 				$row3['dish_detail']=str_replace('/n','',$row3['dish_detail']);
 				$row3['dish_detail']=strip_tags(trim($row3['dish_detail']));
 				$filename="../estorecss/".$row3 ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row3 ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row3 ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-				$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+				$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 				$row3['dish_image']=$imgs;
 				array_push($org[$j]['menu'],$row3);
 				
@@ -11337,7 +11337,7 @@ class TestModel extends AppModel
 				$row['passport_image']="";
 				$row['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8');
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
-				$row['user_image']='https://www.qloudid.com/html/usercontent/images/bg/hotel1.jpg';
+				$row['user_image']='https://www.safeqloud.com/html/usercontent/images/bg/hotel1.jpg';
 				array_push($org,$row);
 				 
 			}
@@ -11412,7 +11412,7 @@ class TestModel extends AppModel
 			{
 			$rowDishes['dish_detail']=strip_tags(trim($rowDishes['dish_detail']));
 			$filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$rowDishes['dish_image']=$imgs;
 			array_push($org,$rowDishes);
 			}
@@ -11538,7 +11538,7 @@ class TestModel extends AppModel
 			
 			$rowDishes['dish_detail']=strip_tags(trim($rowDishes['dish_detail']));
 			$filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$rowDishes['dish_image']=$imgs;
 			 
 			$stmt->close();
@@ -12132,12 +12132,12 @@ class TestModel extends AppModel
 			{
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/person-male.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/person-male.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);
 				}
 			array_push($org,$row);	
 			}
@@ -12454,7 +12454,7 @@ class TestModel extends AppModel
 				$row['dish_detail']=str_replace('/n','',$row['dish_detail']);
 				$row['dish_detail']=strip_tags(trim($row['dish_detail']));
 				$filename="../estorecss/".$row ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-				$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+				$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 				$row['dish_image']=$imgs;
 				array_push($org,$row);
 				
@@ -12560,7 +12560,7 @@ class TestModel extends AppModel
 				$row['dish_detail']=str_replace('/n','',$row['dish_detail']);
 				$row['dish_detail']=strip_tags(trim($row['dish_detail']));
 				$filename="../estorecss/".$row ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$row['dish_image']=$imgs;
 				array_push($org,$row);
 				
@@ -13158,7 +13158,7 @@ class TestModel extends AppModel
 			
 			
 			$filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$rowDishes['dish_image']=$imgs;
 			 
 			$stmt->close();
@@ -13263,12 +13263,12 @@ class TestModel extends AppModel
 			  
 				if($row['profile_pic']=="" || $row['profile_pic']==null)
 				{
-					$image='https://www.qloudid.com/html/usercontent/images/random/officepng.png';
+					$image='https://www.safeqloud.com/html/usercontent/images/random/officepng.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['profile_pic'].".txt"; $value_a=file_get_contents("../estorecss/".$row['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a); $image = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['profile_pic'].'.jpg' );
-				$image=str_replace('../','https://www.qloudid.com/',$image);	
+				$image=str_replace('../','https://www.safeqloud.com/',$image);	
 				}
 				
 				array_push($org,$row);
@@ -13398,7 +13398,7 @@ class TestModel extends AppModel
 			{
 				$org[$i]['serve_types'][$j]['id']=1;
 				$org[$i]['serve_types'][$j]['serve']='Breakfast';
-				$org[$i]['serve_types'][$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
+				$org[$i]['serve_types'][$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=1");
 			
 				/* bind parameters for markers */
@@ -13415,7 +13415,7 @@ class TestModel extends AppModel
 			{
 				$org[$i]['serve_types'][$j]['id']=2;
 				$org[$i]['serve_types'][$j]['serve']='Brunch';
-				$org[$i]['serve_types'][$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
+				$org[$i]['serve_types'][$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=2");
 			
 				/* bind parameters for markers */
@@ -13433,7 +13433,7 @@ class TestModel extends AppModel
 			{
 				$org[$i]['serve_types'][$j]['id']=3;
 				$org[$i]['serve_types'][$j]['serve']='Lunch';
-				$org[$i]['serve_types'][$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/lunch.jpg";
+				$org[$i]['serve_types'][$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/lunch.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=3");
 			
 				/* bind parameters for markers */
@@ -13451,7 +13451,7 @@ class TestModel extends AppModel
 			{
 				$org[$i]['serve_types'][$j]['id']=4;
 				$org[$i]['serve_types'][$j]['serve']='Dinner';
-				$org[$i]['serve_types'][$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/dinner.jpg";
+				$org[$i]['serve_types'][$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/dinner.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=4");
 			
 				/* bind parameters for markers */
@@ -13469,7 +13469,7 @@ class TestModel extends AppModel
 			{
 				$org[$i]['serve_types'][$j]['id']=5;
 				$org[$i]['serve_types'][$j]['serve']='Beverages';
-				$org[$i]['serve_types'][$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
+				$org[$i]['serve_types'][$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=5");
 			
 				/* bind parameters for markers */
@@ -13523,7 +13523,7 @@ class TestModel extends AppModel
 						$rowDishes['dish_name']=html_entity_decode($rowDishes['dish_name'],ENT_NOQUOTES, 'UTF-8'); 
 						$rowDishes['dish_detail']=html_entity_decode($rowDishes['dish_detail'],ENT_NOQUOTES, 'UTF-8'); 
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs =$this-> base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' ); } else { $value_a="../html/usercontent/images/default-profile-pic.jpg";  $imgs="../html/usercontent/images/default-profile-pic.jpg"; }
-						$imgs=str_replace('../','https://www.qloudid.com/',$imgs);
+						$imgs=str_replace('../','https://www.safeqloud.com/',$imgs);
 						array_push($org[$i]['dishes'],$rowDishes);
 						$org[$i]['dishes'][$k]['dish_image']=$imgs;
 						$k++;
@@ -13572,7 +13572,7 @@ class TestModel extends AppModel
 			{
 				$org[$j]['id']=1;
 				$org[$j]['serve']='Breakfast';
-				$org[$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
+				$org[$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=1");
 			
 				/* bind parameters for markers */
@@ -13589,7 +13589,7 @@ class TestModel extends AppModel
 			{
 				$org[$j]['id']=2;
 				$org[$j]['serve']='Brunch';
-				$org[$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
+				$org[$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=2");
 			
 				/* bind parameters for markers */
@@ -13607,7 +13607,7 @@ class TestModel extends AppModel
 			{
 				$org[$j]['id']=3;
 				$org[$j]['serve']='Lunch';
-				$org[$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/lunch.jpg";
+				$org[$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/lunch.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=3");
 			
 				/* bind parameters for markers */
@@ -13625,7 +13625,7 @@ class TestModel extends AppModel
 			{
 				$org[$j]['id']=4;
 				$org[$j]['serve']='Dinner';
-				$org[$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/dinner.jpg";
+				$org[$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/dinner.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=4");
 			
 				/* bind parameters for markers */
@@ -13643,7 +13643,7 @@ class TestModel extends AppModel
 			{
 				$org[$j]['id']=5;
 				$org[$j]['serve']='Beverages';
-				$org[$j]['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
+				$org[$j]['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
 				$stmt = $dbCon->prepare("select count(id) as num from resturant_available_dishes where resturant_id=? and serve_type=5");
 			
 				/* bind parameters for markers */
@@ -13712,7 +13712,7 @@ class TestModel extends AppModel
 			$rowAvailable = $result->fetch_assoc(); 
 			$rank=$rowAvailable['num']+1;
 			$enc_id= $this -> encrypt_decrypt('encrypt',$id);	
-			$url="https://www.qloudid.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
+			$url="https://www.safeqloud.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
 			$surl=getShortUrl($url);
 			$phone="+".trim($row['country_code'])."".trim($rowUser['phone_number']);
 			
@@ -13933,7 +13933,7 @@ class TestModel extends AppModel
 			$curl = curl_init();
 
 			curl_setopt_array($curl, array(
-			  CURLOPT_URL => 'https://www.qloudid.com/user/index.php/DstrictsApp/orderHotelAppAmenity',
+			  CURLOPT_URL => 'https://www.safeqloud.com/user/index.php/DstrictsApp/orderHotelAppAmenity',
 			  CURLOPT_RETURNTRANSFER => true,
 			  CURLOPT_ENCODING => '',
 			  CURLOPT_MAXREDIRS => 10,
@@ -14302,7 +14302,7 @@ class TestModel extends AppModel
 						$rowDishes['dish_name']=html_entity_decode($rowDishes['dish_name'],ENT_NOQUOTES, 'UTF-8'); 
 						$rowDishes['dish_detail']=html_entity_decode($rowDishes['dish_detail'],ENT_NOQUOTES, 'UTF-8'); 
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs =$this-> base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' ); } else { $value_a="../html/usercontent/images/default-profile-pic.jpg";  $imgs="../html/usercontent/images/default-profile-pic.jpg"; }
-						$imgs=str_replace('../','https://www.qloudid.com/',$imgs);
+						$imgs=str_replace('../','https://www.safeqloud.com/',$imgs);
 						array_push($org[$i]['dishes'],$rowDishes);
 						$org[$i]['dishes'][$k]['dish_image']=$imgs;
 						$k++;
@@ -14466,19 +14466,19 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['big_image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$rowAvailable['big_image']=$rowImages['image_path'];
 				
 			$bigImage=$rowImages['small_image1_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$rowAvailable['small_image']=$rowImages['image_path'];
 			
 			$bigImage=$rowImages['small_image2_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$rowAvailable['small_image2']=$rowImages['image_path'];	
 			
 			
@@ -14507,12 +14507,12 @@ class TestModel extends AppModel
 			{
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/bg/beard.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/bg/beard.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);
 				}
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 	
 				$row['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8'); 
@@ -14543,12 +14543,12 @@ class TestModel extends AppModel
 			{
 				if($row['passport_image']=="" || $row['passport_image']==null)
 				{
-					$row['user_image']='https://www.qloudid.com/html/usercontent/images/random/officepng.png';
+					$row['user_image']='https://www.safeqloud.com/html/usercontent/images/random/officepng.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$row['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $row['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['passport_image'].'.jpg' );
-				$row['user_image']=str_replace('../','https://www.qloudid.com/',$row['passport_image']);	
+				$row['user_image']=str_replace('../','https://www.safeqloud.com/',$row['passport_image']);	
 				}
 				$row['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8');
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
@@ -14581,7 +14581,7 @@ class TestModel extends AppModel
 				$row['passport_image']="";
 				$row['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8');
 				$row['name']=html_entity_decode($row['name'],ENT_NOQUOTES, 'UTF-8'); 
-				$row['user_image']='https://www.qloudid.com/html/usercontent/images/bg/hotel1.jpg';
+				$row['user_image']='https://www.safeqloud.com/html/usercontent/images/bg/hotel1.jpg';
 				array_push($org,$row);
 				 
 			}
@@ -15004,7 +15004,7 @@ class TestModel extends AppModel
 			$rowAvailable = $result->fetch_assoc(); 
 			$rank=$rowAvailable['num']+1;
 			$enc_id= $this -> encrypt_decrypt('encrypt', $data['guest_id']);	
-			$url="https://www.qloudid.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
+			$url="https://www.safeqloud.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
 			$surl=getShortUrl($url);
 			$phone="+".trim($row['country_code'])."".trim($row['phone_number']);
 			
@@ -15039,7 +15039,7 @@ class TestModel extends AppModel
 			$rowAvailable['position_inline']=$rowCount['num']+1;
 			if($rowAvailable['user_id']==null || $rowAvailable['user_id']=='' || $rowAvailable['user_id']==0)
 			{
-			$rowAvailable['user_image']="https://www.qloudid.com/html/usercontent/images/person-male.png";	
+			$rowAvailable['user_image']="https://www.safeqloud.com/html/usercontent/images/person-male.png";	
 			$rowAvailable['user_id']=0;
 			}
 			else
@@ -15051,12 +15051,12 @@ class TestModel extends AppModel
 				$rowPrice = $result->fetch_assoc();
 				if($rowPrice['passport_image']==null || $rowPrice['passport_image']=='')
 				{
-				$rowAvailable['user_image']="https://www.qloudid.com/html/usercontent/images/person-male.png";	
+				$rowAvailable['user_image']="https://www.safeqloud.com/html/usercontent/images/person-male.png";	
 				}
 				else
 				{
 				$filename="../estorecss/".$rowPrice['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$rowPrice['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $rowPrice['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowPrice['passport_image'].'.jpg' );
-				$rowAvailable['user_image']=str_replace('../','https://www.qloudid.com/',$rowPrice['passport_image']);	
+				$rowAvailable['user_image']=str_replace('../','https://www.safeqloud.com/',$rowPrice['passport_image']);	
 				}
 				
 			}
@@ -15091,7 +15091,7 @@ class TestModel extends AppModel
 			$rowAvailable['position_inline']=$rowCount['num']+1;
 			if($rowAvailable['user_id']==null || $rowAvailable['user_id']=='')
 			{
-			$rowAvailable['user_image']="https://www.qloudid.com/html/usercontent/images/person-male.png";	
+			$rowAvailable['user_image']="https://www.safeqloud.com/html/usercontent/images/person-male.png";	
 			}
 			else
 			{
@@ -15101,7 +15101,7 @@ class TestModel extends AppModel
 				$result = $stmt->get_result();
 				$rowPrice = $result->fetch_assoc();
 				$filename="../estorecss/".$rowPrice['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$rowPrice['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $rowPrice['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowPrice['passport_image'].'.jpg' );
-				$rowAvailable['user_image']=str_replace('../','https://www.qloudid.com/',$rowPrice['passport_image']);
+				$rowAvailable['user_image']=str_replace('../','https://www.safeqloud.com/',$rowPrice['passport_image']);
 			}
 			
 			 
@@ -15302,13 +15302,13 @@ class TestModel extends AppModel
 			array_push($org,$row);
 			if($row['image_path']==null || $row['image_path']=='')
 			{
-			$org[$j]['image_path']="https://www.qloudid.com/html/usercontent/images/undraw_queue_qt30.png";	
+			$org[$j]['image_path']="https://www.safeqloud.com/html/usercontent/images/undraw_queue_qt30.png";	
 			}
 			else
 			{
 			$image=$row['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);	
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);	
 			$org[$j]['image_path']=$row['image_path'];	
 			}
 			$j++;	
@@ -15335,13 +15335,13 @@ class TestModel extends AppModel
 			 
 			if($row['image_path']==null || $row['image_path']=='')
 			{
-			$row['image_path']="https://www.qloudid.com/html/usercontent/images/undraw_queue_qt30.png";	
+			$row['image_path']="https://www.safeqloud.com/html/usercontent/images/undraw_queue_qt30.png";	
 			}
 			else
 			{
 			$image=$row['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);	
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);	
 			}
 			if($row['is_serviced']==0)
 			{
@@ -15398,7 +15398,7 @@ class TestModel extends AppModel
 			$rank=$rowAvailable['num']+1;
 			$enc_id= $this -> encrypt_decrypt('encrypt',$id);	
 			$data['lid']= $this -> encrypt_decrypt('encrypt',$rowAddress['location_id']);	
-			$url="https://www.qloudid.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
+			$url="https://www.safeqloud.com/public/index.php/DropinQueue/waitingInformation/".$data['lid'].'/'.$enc_id;
 			$surl=getShortUrl($url);
 			$phone="+".trim($rowUser['country_code'])."".trim($rowUser['phone_number']);
 			
@@ -15831,7 +15831,7 @@ class TestModel extends AppModel
 			$stmt->bind_param("iissssiisisii",$rowWellnessCompany['company_id'],$rowRoomservice['booked_employee_id'],$rowRoomservice['first_name'],$rowRoomservice['email'],$booking_date,$rowRoomservice['work_time'],$vrepeat,$rowRoomservice['country_of_residence'],$rowRoomservice['phone_number'],$rowWellnessCompany['property_id'],$rowRoomservice['booking_date'],$vrepeat,$rowRoomservice['id']);
 			$stmt->execute();
 			$id=$stmt->insert_id;
-			$url="https://www.qloudid.com/public/index.php/VisitorsQR/visitorFrontDesk/".$this->encrypt_decrypt('encrypt',$rowWellnessCompany['property_id']);	
+			$url="https://www.safeqloud.com/public/index.php/VisitorsQR/visitorFrontDesk/".$this->encrypt_decrypt('encrypt',$rowWellnessCompany['property_id']);	
 			$surl=getShortUrl($url);
 		$to      = $rowRoomservice['email'];
 		$subject = "Booking Confirmed";
@@ -20844,7 +20844,7 @@ class TestModel extends AppModel
 			while($row = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['image_path'].'.jpg' );
-			$row['image_path1']=str_replace('../','https://www.qloudid.com/',$row['image_path1']);
+			$row['image_path1']=str_replace('../','https://www.safeqloud.com/',$row['image_path1']);
 			$rowHotel['hotel_images'][$i]['ImageUrl']=$row['image_path1'];
 			$i++;
 			}	
@@ -20852,8 +20852,8 @@ class TestModel extends AppModel
 			else
 			{
 			$rowHotel['hotel_images']=array();	
-			$rowHotel['hotel_images'][0]['ImageUrl']='https://www.qloudid.com/estorecss/tmpnew0.09086000 1600564862.jpg';
-			$rowHotel['hotel_images'][1]['ImageUrl']='https://www.qloudid.com/estorecss/tmpnew0.09086000 1600564862.jpg';
+			$rowHotel['hotel_images'][0]['ImageUrl']='https://www.safeqloud.com/estorecss/tmpnew0.09086000 1600564862.jpg';
+			$rowHotel['hotel_images'][1]['ImageUrl']='https://www.safeqloud.com/estorecss/tmpnew0.09086000 1600564862.jpg';
 			}
 			$rowHotel['inhouse_resturants']=array();
 			$stmt = $dbCon->prepare("select distinct resturant_type as rtype  from resturant_information where id in (select resturant_id from hotel_roomservice_resturant where hotel_roomservice_resturant.hotel_property_id=? and is_inhouse=1 and company_service_info=1) and is_delivery_available=1");
@@ -20917,7 +20917,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$rowPhoto['venue_photo_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowPhoto['venue_photo_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowPhoto['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowPhoto['venue_photo_path'].'.jpg' );
 			 
-			$row['image_path1']=str_replace('../','https://www.qloudid.com/',$rowPhoto['image_path1']);
+			$row['image_path1']=str_replace('../','https://www.safeqloud.com/',$rowPhoto['image_path1']);
 			 
 			array_push($rowHotel['hotel_venues'],$row);
 			}	
@@ -20981,7 +20981,7 @@ class TestModel extends AppModel
 						$rowDishes['serve_type']=1; 
 						 $filename="../estorecss/".$rowDishes ['dimage'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dimage'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dimage'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
 						 
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 						array_push($org[$j]['category'],$rowDishes);
 						$org[$j]['category'][$k]['dish_image']=$imgs;
 						 
@@ -21039,27 +21039,27 @@ class TestModel extends AppModel
 				if($row['serve_type']==1)
 				{
 				$row['serve_info']='Breakfast';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
 				}
 				else if($row['serve_type']==2)
 				{
 				$row['serve_info']='Brunch';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
 				}
 				else if($row['serve_type']==3)
 				{
 				$row['serve_info']='Lunch';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/lunch.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/lunch.jpg";
 				}
 				else if($row['serve_type']==4)
 				{
 				$row['serve_info']='Dinner';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/dinner.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/dinner.jpg";
 				}
 				else if($row['serve_type']==5)
 				{
 				$row['serve_info']='Beverage';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
 				}
 				 
 				array_push($org,$row);
@@ -21084,7 +21084,7 @@ class TestModel extends AppModel
 						$rowDishes['serve_type']=1;
 						 $filename="../estorecss/".$rowDishes ['dimage'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dimage'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dimage'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
 						 
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 						array_push($org[$j]['category'],$rowDishes);
 						$org[$j]['category'][$k]['enc']= $this -> encrypt_decrypt('encrypt',$rowDishes['id']);
 						$org[$j]['category'][$k]['dish_image']=$imgs;
@@ -21142,27 +21142,27 @@ class TestModel extends AppModel
 				if($row['serve_type']==1)
 				{
 				$row['serve_info']='Breakfast';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Breakfast.jpg";
 				}
 				else if($row['serve_type']==2)
 				{
 				$row['serve_info']='Brunch';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Brunch.jpg";
 				}
 				else if($row['serve_type']==3)
 				{
 				$row['serve_info']='Lunch';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/lunch.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/lunch.jpg";
 				}
 				else if($row['serve_type']==4)
 				{
 				$row['serve_info']='Dinner';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/dinner.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/dinner.jpg";
 				}
 				else if($row['serve_type']==5)
 				{
 				$row['serve_info']='Beverage';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/Beverage.jpg";
 				}
 				 
 				array_push($org,$row);
@@ -21217,17 +21217,17 @@ class TestModel extends AppModel
 				if($row['category_id']==1)
 				{
 				$row['serve_info']='Drycleaning';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/drycleaning.jpeg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/drycleaning.jpeg";
 				}
 				else if($row['category_id']==2)
 				{
 				$row['serve_info']='Wash';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/wash.jpeg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/wash.jpeg";
 				}
 				else if($row['category_id']==3)
 				{
 				$row['serve_info']='Ironing';
-				$row['serve_image']="https://www.qloudid.com/html/usercontent/images/roomserviceImages/ironing.jpeg";
+				$row['serve_image']="https://www.safeqloud.com/html/usercontent/images/roomserviceImages/ironing.jpeg";
 				}
 				 
 				 
@@ -21382,7 +21382,7 @@ class TestModel extends AppModel
 					while($rowDishes = $result2->fetch_assoc())
 					{
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 						array_push($org[$j]['category'][$i]['dishes'],$rowDishes);
 						$org[$j]['category'][$i]['dishes'][$k]['enc']= $this -> encrypt_decrypt('encrypt',$rowDishes['id']);
 						$org[$j]['category'][$i]['dishes'][$k]['dish_image']=$imgs;
@@ -21417,7 +21417,7 @@ class TestModel extends AppModel
 					$result2 = $stmt->get_result();
 					$rowDishes = $result2->fetch_assoc();
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 						$rowDishes['dish_image']=$imgs;
 						$k++;
 			$stmt->close();
@@ -21464,7 +21464,7 @@ class TestModel extends AppModel
 						array_push($org,$rowDishes);
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
 						
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 						$org[$i]['enc']= $this -> encrypt_decrypt('encrypt',$rowDishes['id']);
 						$org[$i]['dish_image']=$imgs;
 						$i++;
@@ -21496,7 +21496,7 @@ class TestModel extends AppModel
 					$result2 = $stmt->get_result();
 					$rowDishes = $result2->fetch_assoc();
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-						 $imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+						 $imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 						$rowDishes['dish_image']=$imgs;
 						 
 			$stmt->close();
@@ -21644,7 +21644,7 @@ class TestModel extends AppModel
 			if($data['is_ssn_available']==1)
 			{
 				$data['SocialSecurityNumber']=$data['SocialSecurityNumber'];
-				$email=$data['SocialSecurityNumber'].'@qloudid.com';
+				$email=$data['SocialSecurityNumber'].'@safeqloud.com';
 			}
 			else
 			{
@@ -21657,7 +21657,7 @@ class TestModel extends AppModel
 				
 				$row = $result->fetch_assoc();
 				$data['SocialSecurityNumber']=$row['passport_number'];
-				$email=$row['passport_number'].'@qloudid.com';
+				$email=$row['passport_number'].'@safeqloud.com';
 			}
 			
 			
@@ -21717,15 +21717,15 @@ class TestModel extends AppModel
 			$rowCountry = $result->fetch_assoc();
 			$row['country_name']=$rowCountry['country_name'];
 			$filename="../estorecss/".$row ['image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['image_path'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$row['image_path']=$imgs; 
 			
 			$filename="../estorecss/".$row ['front_image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['front_image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['front_image_path'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$row['front_image_path']=$imgs; 
 			
 			$filename="../estorecss/".$row ['back_image_path'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['back_image_path'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['back_image_path'].'.jpg' );  $imgs='../../../../'.$imgs; } else { $value_a="../../../../../html/usercontent/images/default-profile-pic.jpg";  $imgs="../../../../../html/usercontent/images/default-profile-pic.jpg"; }
-			$imgs=str_replace('../../../../../','https://www.qloudid.com/',$imgs);
+			$imgs=str_replace('../../../../../','https://www.safeqloud.com/',$imgs);
 			$row['back_image_path']=$imgs; 
 			
 			if($row['is_address_same']==1)
@@ -21796,7 +21796,7 @@ class TestModel extends AppModel
 			if($data['is_ssn_available']==1)
 			{
 				$data['SocialSecurityNumber']=$data['SocialSecurityNumber'];
-				$email=$data['SocialSecurityNumber'].'@qloudid.com';
+				$email=$data['SocialSecurityNumber'].'@safeqloud.com';
 			}
 			else
 			{
@@ -21892,7 +21892,7 @@ class TestModel extends AppModel
 			
 			if($dependent['is_ssn_available']==0)
 			{
-			$email=$data['PassportNumber'].'@qloudid.com';
+			$email=$data['PassportNumber'].'@safeqloud.com';
 			$stmt = $dbCon->prepare("update dependents set ssn=?,email=? where id=?");
 			$stmt->bind_param("ssi",$data['PassportNumber'],$email,$data['id']);
 			$stmt->execute();	
@@ -22062,7 +22062,7 @@ class TestModel extends AppModel
 						$rowDishes['dish_name']=html_entity_decode($rowDishes['dish_name'],ENT_NOQUOTES, 'UTF-8'); 
 						$rowDishes['dish_detail']=html_entity_decode($rowDishes['dish_detail'],ENT_NOQUOTES, 'UTF-8'); 
 						 $filename="../estorecss/".$rowDishes ['dish_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$rowDishes ['dish_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs =$this-> base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowDishes ['dish_image'].'.jpg' ); } else { $value_a="../html/usercontent/images/default-profile-pic.jpg";  $imgs="../html/usercontent/images/default-profile-pic.jpg"; }
-						$imgs=str_replace('../','https://www.qloudid.com/',$imgs);
+						$imgs=str_replace('../','https://www.safeqloud.com/',$imgs);
 						array_push($org[$i]['dishes'],$rowDishes);
 						$org[$i]['dishes'][$k]['dish_image']=$imgs;
 						$k++;
@@ -22132,19 +22132,19 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['big_image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$org[0]=$rowImages;
 
 			$bigImage=$rowImages['small_image1_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$org[1]=$rowImages;
 			
 			$bigImage=$rowImages['small_image2_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$org[2]=$rowImages;
 			
 			$stmt->close();
@@ -22202,19 +22202,19 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['big_image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$org[$j]['images'][0]=$rowImages;
 
 			$bigImage=$rowImages['small_image1_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$org[$j]['images'][1]=$rowImages;
 			
 			$bigImage=$rowImages['small_image2_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			$org[$j]['images'][2]=$rowImages;
 			
 			$j++;
@@ -22394,7 +22394,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);
 			 
 			 $stmt = $dbCon->prepare("select min(minimum_price) as price from user_apartment_pricing_info where user_address_id=?");
 			
@@ -22427,7 +22427,7 @@ class TestModel extends AppModel
 			while($row = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['image_path'].'.jpg' );
-			$row['image_path1']=str_replace('../','qloudid.com/',$row['image_path1']);
+			$row['image_path1']=str_replace('../','safeqloud.com/',$row['image_path1']);
 			array_push($org,$row);
 			}
 			return $org;
@@ -22586,7 +22586,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);
 			 
 			 $stmt = $dbCon->prepare("select min(minimum_price) as price from user_apartment_pricing_info where user_address_id=?");
 			
@@ -22823,7 +22823,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -22838,7 +22838,7 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -22899,7 +22899,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -22914,7 +22914,7 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -22975,7 +22975,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -22990,7 +22990,7 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -23614,7 +23614,7 @@ class TestModel extends AppModel
 			$rowImage = $result->fetch_assoc();
 			
 			$filename="../estorecss/".$rowImage['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$rowImage['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $rowImage['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowImage['image_path'].'.jpg' );
-			$rowPrice['image_path']=str_replace('../','https://www.qloudid.com/',$rowImage['image_path']);
+			$rowPrice['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImage['image_path']);
 			
 			
 			
@@ -23680,7 +23680,7 @@ class TestModel extends AppModel
 			 
 			
 			$filename="../estorecss/".$rowPrice['passport_image'].".txt"; $value_a=file_get_contents("../estorecss/".$rowPrice['passport_image'].".txt"); $value_a=str_replace('"','',$value_a); $rowPrice['passport_image'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$rowPrice['passport_image'].'.jpg' );
-			$rowPrice['image_path']=str_replace('../','https://www.qloudid.com/',$rowPrice['passport_image']);
+			$rowPrice['image_path']=str_replace('../','https://www.safeqloud.com/',$rowPrice['passport_image']);
 			
 			
 			
@@ -23820,7 +23820,7 @@ class TestModel extends AppModel
 			while($row = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['image_path'].'.jpg' );
-			$row['image_path1']=str_replace('../','qloudid.com/',$row['image_path1']);
+			$row['image_path1']=str_replace('../','safeqloud.com/',$row['image_path1']);
 			array_push($org,$row);
 			}
 			return $org;
@@ -23877,7 +23877,7 @@ class TestModel extends AppModel
 			 
 			 $filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 $row['enc']= $this -> encrypt_decrypt('encrypt',$row['id']);  
-			$row['image_path']=str_replace('../','https://www.qloudid.com/',$row['image_path']);
+			$row['image_path']=str_replace('../','https://www.safeqloud.com/',$row['image_path']);
 			array_push($org,$row);
 			$org[$j]['images']=array();
 			
@@ -23892,7 +23892,7 @@ class TestModel extends AppModel
 			$bigImage=$rowImages['image_path'];	
 			$filename="../estorecss/".$bigImage.".txt"; $value_a=file_get_contents("../estorecss/".$bigImage.".txt"); $value_a=str_replace('"','',$value_a); $rowImages['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$bigImage.'.jpg' );
 			 
-			$rowImages['image_path']=str_replace('../','https://www.qloudid.com/',$rowImages['image_path']);
+			$rowImages['image_path']=str_replace('../','https://www.safeqloud.com/',$rowImages['image_path']);
 			array_push($org[$j]['images'],$rowImages);	
 			}
 			
@@ -23949,7 +23949,7 @@ class TestModel extends AppModel
 			{
 			$image=$row1['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path']=str_replace('../','https://www.qloudid.com/',$row1['image_path']);	
+			$row1['image_path']=str_replace('../','https://www.safeqloud.com/',$row1['image_path']);	
 			array_push($org[$j]['images'],$row1);			
 			}
 			
@@ -24030,7 +24030,7 @@ class TestModel extends AppModel
 			{
 			$image=$row1['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path']=str_replace('../','https://www.qloudid.com/',$row1['image_path']);	
+			$row1['image_path']=str_replace('../','https://www.safeqloud.com/',$row1['image_path']);	
 			array_push($org[$j]['images'],$row1);			
 			}
 			
@@ -24125,13 +24125,13 @@ class TestModel extends AppModel
 			$row1 = $result1->fetch_assoc();
 			if(empty($row1))
 			{
-				$org[$j]['image_path']="https://www.qloudid.com/estorecss/tmpnew0.09086000 1600564862.jpg";
+				$org[$j]['image_path']="https://www.safeqloud.com/estorecss/tmpnew0.09086000 1600564862.jpg";
 			}
 			else
 			{
 			$image=$row1['image_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['image_path']=str_replace('../','https://www.qloudid.com/',$row1['image_path']);	
+			$row1['image_path']=str_replace('../','https://www.safeqloud.com/',$row1['image_path']);	
 			$org[$j]['image_path']=$row1['image_path'];		
 			}
 					
@@ -24197,7 +24197,7 @@ class TestModel extends AppModel
 			$row1 = $result1->fetch_assoc();
 			$image=$row1['apartment_photo_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['apartment_photo_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['apartment_photo_path']=str_replace('../','https://www.qloudid.com/',$row1['apartment_photo_path']);	
+			$row1['apartment_photo_path']=str_replace('../','https://www.safeqloud.com/',$row1['apartment_photo_path']);	
 			$row['image_path']=$row1['apartment_photo_path'];
 			array_push($org,$row); 
 			
@@ -24245,7 +24245,7 @@ class TestModel extends AppModel
 			$row1 = $result1->fetch_assoc();
 			$image=$row1['apartment_photo_path'];
 			$value_a=file_get_contents("../estorecss/".$image.".txt"); $value_a=str_replace('"','',$value_a); $row1['apartment_photo_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$image.'.jpg' );
-			$row1['apartment_photo_path']=str_replace('../','https://www.qloudid.com/',$row1['apartment_photo_path']);	
+			$row1['apartment_photo_path']=str_replace('../','https://www.safeqloud.com/',$row1['apartment_photo_path']);	
 			$row['image_path']=$row1['apartment_photo_path'];
 			array_push($org,$row); 
 			
@@ -24276,7 +24276,7 @@ class TestModel extends AppModel
 			while($row = $result->fetch_assoc())
 			{
 			 $filename="../estorecss/".$row['image_path'].".txt"; $value_a=file_get_contents("../estorecss/".$row['image_path'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path1'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['image_path'].'.jpg' );
-			$row['image_path1']=str_replace('../','qloudid.com/',$row['image_path1']);
+			$row['image_path1']=str_replace('../','safeqloud.com/',$row['image_path1']);
 			array_push($org,$row);
 			}
 			return $org;
@@ -24335,7 +24335,7 @@ class TestModel extends AppModel
 			$row['hotel_description']=htmlentities(html_entity_decode($row['hotel_description']),ENT_NOQUOTES, 'UTF-8');	
 			 $row['guest_children']=$rowDate['guest_children'];
 			 if($row ['profile_pic']!=null) { $filename="../estorecss/".$row ['profile_pic'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a); $row['image_path'] = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['profile_pic'].'.jpg' ); } else { $row['image_path']="../html/usercontent/images/default-profile-pic.jpg"; } }  else $row['image_path']="../html/usercontent/images/default-profile-pic.jpg";
-			 $row['image_path']=str_replace('../','qloudid.com/',$row['image_path']);
+			 $row['image_path']=str_replace('../','safeqloud.com/',$row['image_path']);
 				$stmt->close();
 				$dbCon->close();
 				 
@@ -24372,12 +24372,12 @@ class TestModel extends AppModel
 		}
 		if($row['passport_image']!=null || $row['passport_image']!="") { 
 						 
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs="https://www.qloudid.com/estorecss/logoXXX.png"; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {   $imgs="https://www.safeqloud.com/estorecss/logoXXX.png"; }
 		$row['image']=$imgs;
 		}
 		else
 		{
-		$row['image']='https://www.qloudid.com/estorecss/logoXXX.png';
+		$row['image']='https://www.safeqloud.com/estorecss/logoXXX.png';
 		}
 						 
 		$row['enc']=$this -> encrypt_decrypt('encrypt',$row['id']);	
@@ -24464,7 +24464,7 @@ class TestModel extends AppModel
 			$row_id = $result->fetch_assoc();
 			$fields=array();
 			$fields=$row_id;
-			$fields['qloudid']=$request_id;
+			$fields['safeqloud']=$request_id;
 			$fields['stat']=$data['stat'];
 			 
 			$url='https://www.qmatchup.com/beta/user/index.php/Invitation/updateQloud';
@@ -24922,7 +24922,7 @@ class TestModel extends AppModel
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -24933,7 +24933,7 @@ class TestModel extends AppModel
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -24972,7 +24972,7 @@ class TestModel extends AppModel
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Success</h1>
                                                             </div>
@@ -25168,7 +25168,7 @@ catch(Exception $e) {
 			$result = $stmt->get_result();
 			$rowId    = $result->fetch_assoc();	
 			
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,qloudid_pay_status=1 where certificate_key=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,safeqloud_pay_status=1 where certificate_key=?");
 			$stmt->bind_param("s", $data['certi']);
 			$stmt->execute();
 			
@@ -25189,7 +25189,7 @@ catch(Exception $e) {
 			}
 			else 
 			{
-			$stmt = $dbCon->prepare("update user_certificates set qloudid_pay_status=2 where certificate_key=?");
+			$stmt = $dbCon->prepare("update user_certificates set safeqloud_pay_status=2 where certificate_key=?");
 			$stmt->bind_param("s", $data['certi']);
 			$stmt->execute();	
 			
@@ -25218,7 +25218,7 @@ catch(Exception $e) {
 			$rowId    = $result->fetch_assoc();	
 			if($rowId['num']==0)
 			{
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=3 where certificate_key=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=3 where certificate_key=?");
 			$stmt->bind_param("s", $data['certi']);
 			$stmt->execute();	
 			$stmt->close();
@@ -25227,7 +25227,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=4 where user_id=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=4 where user_id=?");
 			$stmt->bind_param("i", $data['UserId']);
 			$stmt->execute();
 			$stmt->close();
@@ -25535,12 +25535,12 @@ catch(Exception $e) {
 				
 				if($row['profile_pic']=="" || $row['profile_pic']==null)
 				{
-					$image='https://www.qloudid.com/html/usercontent/images/random/officepng.png';
+					$image='https://www.safeqloud.com/html/usercontent/images/random/officepng.png';
 				}
 				else
 				{
 				$filename="../estorecss/".$row['profile_pic'].".txt"; $value_a=file_get_contents("../estorecss/".$row['profile_pic'].".txt"); $value_a=str_replace('"','',$value_a); $image = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row['profile_pic'].'.jpg' );
-				$image=str_replace('../','https://www.qloudid.com/',$image);	
+				$image=str_replace('../','https://www.safeqloud.com/',$image);	
 				}
 				$row['profile_pic']=$image;
 				$row['company_name']=html_entity_decode($row['company_name'],ENT_NOQUOTES, 'UTF-8');
@@ -26048,7 +26048,7 @@ catch(Exception $e) {
 			$id=$stmt->insert_id;	
 			}
 			
-			$stmt = $dbCon->prepare("update user_certificates set qloudid_pay_status=2 where certificate_key=?");
+			$stmt = $dbCon->prepare("update user_certificates set safeqloud_pay_status=2 where certificate_key=?");
 			$stmt->bind_param("s", $data['CertificateKey']);
 			$stmt->execute();
 			
@@ -26077,7 +26077,7 @@ catch(Exception $e) {
 			$rowId    = $result->fetch_assoc();	
 			if($rowId['num']==0)
 			{
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=3 where certificate_key=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=3 where certificate_key=?");
 			$stmt->bind_param("s", $data['certi']);
 			$stmt->execute();	
 			$stmt->close();
@@ -26086,7 +26086,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=4 where user_id=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=4 where user_id=?");
 			$stmt->bind_param("i", $data['UserId']);
 			$stmt->execute();
 			$stmt->close();
@@ -26301,7 +26301,7 @@ catch(Exception $e) {
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -26312,7 +26312,7 @@ catch(Exception $e) {
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -26351,7 +26351,7 @@ catch(Exception $e) {
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Success</h1>
                                                             </div>
@@ -27052,7 +27052,7 @@ function verifyRestoreOtpPinOld($data)
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:5px;padding-bottom:0;padding-right:0;padding-left:0px" align="left">
-                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">Qloudid</p>
+                                                               <p style="font-size:30px; font-weight:normal; Audiowide;">safeqloud</p>
                                                             </td>
                                                          </tr>
                                                       </tbody>
@@ -27063,7 +27063,7 @@ function verifyRestoreOtpPinOld($data)
                                                       <tbody>
                                                          <tr>
                                                             <td style="padding-top:10px;padding-bottom:0px;padding-left:10px;padding-right:0px;background-color:#f5f7f8;width:100%;text-align:right">
-                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.qloudid.com<u></u></a></strong></p>
+                                                               <p style="Margin-top:0px;margin-bottom:0px;font-size:13px;line-height:16px"><strong><a href="tel:077%20588%2080%2023" style="text-decoration:none;color:#111111" target="_blank">Website: <u></u>www.safeqloud.com<u></u></a></strong></p>
                                                             </td>
                                                          </tr>
                                                          <tr>
@@ -27102,7 +27102,7 @@ function verifyRestoreOtpPinOld($data)
                                                          <div style="height: 250px; width: auto; max-width: 100%; padding-top: 100px; padding-right: 30px;
                                                             padding-left: 30px; margin-right: auto;
                                                             margin-left: auto;  z-index: 5; max-width: 100%; width: auto;">
-                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.qloudid.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
+                                                            <div class="padding-bottom: 40px; text-align: center; font-size: 45px;"><img src="http://www.safeqloud.com/html/usercontent/images/doublecheck.png" width="45px;" height="45px;"></div>
                                                             <div class="padb0 xxs-padb0 ">
                                                                <h1 style="font-size: 50px; font-weight: normal; text-align: center; padding-bottom: 10px; color:white;">Success</h1>
                                                             </div>
@@ -27509,7 +27509,7 @@ catch(Exception $e) {
 			$result = $stmt->get_result();
 			$row = $result->fetch_assoc();
 			$stQ=4;
-			$stmt = $dbCon->prepare("select count(id) as num from user_certificates where user_id = ? and qloudid_pay_status = ?");
+			$stmt = $dbCon->prepare("select count(id) as num from user_certificates where user_id = ? and safeqloud_pay_status = ?");
 				
 						/* bind parameters for markers */
 			$stmt->bind_param("ii", $data['UserId'],$stQ);
@@ -27532,7 +27532,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,qloudid_pay_status=1 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,safeqloud_pay_status=1 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();
 			
@@ -27549,7 +27549,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set qloudid_pay_status=2 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set safeqloud_pay_status=2 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();	
 			
@@ -27565,7 +27565,7 @@ catch(Exception $e) {
 			
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=3 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=3 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();
 			
@@ -27580,7 +27580,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,qloudid_pay_status=4 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,safeqloud_pay_status=4 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();	
 			$row['identificator']=3;
@@ -27592,7 +27592,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,qloudid_pay_status=4 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,safeqloud_pay_status=4 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();	
 			$row['identificator']=3;	
@@ -27716,7 +27716,7 @@ catch(Exception $e) {
 			$stmt->bind_param("iissisissss", $data['UserId'],$data['IdentificatorId'],$data['IdentificatorText'],$a[1],$a[2],$b[1],$b[2],$img_name1,$img_name2,$data['IssueDate'],$data['ExpiryDate']);	
 			$stmt->execute();
 			
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=3 where certificate_key=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=3 where certificate_key=?");
 			$stmt->bind_param("s", $data['certi']);
 			$stmt->execute();
 			
@@ -27781,7 +27781,7 @@ catch(Exception $e) {
 			
 			if($row['is_completed']==1)
 			{
-			$stmt = $dbCon->prepare("update user_certificates set qloudid_pay_status=4 where user_id=?");
+			$stmt = $dbCon->prepare("update user_certificates set safeqloud_pay_status=4 where user_id=?");
 			$stmt->bind_param("i", $data['UserId']);
 			$stmt->execute();	
 			}
@@ -27958,14 +27958,14 @@ catch(Exception $e) {
 		$stmt->execute();
 		$result = $stmt->get_result();
 		$row = $result->fetch_assoc();
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {   $imgs=""; }
 		
 		
 			 
 			if($arry['identificator']==7)
 			{
 			$stQ=4;
-			$stmt = $dbCon->prepare("select count(id) as num from user_certificates where user_id = ? and qloudid_pay_status = ?");
+			$stmt = $dbCon->prepare("select count(id) as num from user_certificates where user_id = ? and safeqloud_pay_status = ?");
 				
 						/* bind parameters for markers */
 			$stmt->bind_param("ii", $data['UserId'],$stQ);
@@ -27989,7 +27989,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,qloudid_pay_status=1 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,safeqloud_pay_status=1 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();
 			
@@ -28006,7 +28006,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set qloudid_pay_status=2 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set safeqloud_pay_status=2 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();	
 			
@@ -28022,7 +28022,7 @@ catch(Exception $e) {
 			
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,qloudid_pay_status=3 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set checkin_required=1,safeqloud_pay_status=3 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();
 			
@@ -28037,7 +28037,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,qloudid_pay_status=4 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,safeqloud_pay_status=4 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();	
 			$arry['identificator']=3;
@@ -28049,7 +28049,7 @@ catch(Exception $e) {
 			}
 			else
 			{
-			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,qloudid_pay_status=4 where id=?");
+			$stmt = $dbCon->prepare("update user_certificates set pay_required=1,checkin_required=1,safeqloud_pay_status=4 where id=?");
 			$stmt->bind_param("i", $id);
 			$stmt->execute();	
 			$arry['identificator']=3;	
@@ -28082,7 +28082,7 @@ catch(Exception $e) {
 		$result = $stmt->get_result();
 		$row = $result->fetch_assoc();
 		
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {   $imgs=""; }
 			 $arry=array();
 			$arry['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8');
 			$arry['last_name']=html_entity_decode($row['last_name'],ENT_NOQUOTES, 'UTF-8');
@@ -28108,7 +28108,7 @@ catch(Exception $e) {
 		$result = $stmt->get_result();
 		$row = $result->fetch_assoc();
 		
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {   $imgs=""; }
 			 $arry=array();
 			$arry['first_name']=html_entity_decode($row['first_name'],ENT_NOQUOTES, 'UTF-8');
 			$arry['last_name']=html_entity_decode($row['last_name'],ENT_NOQUOTES, 'UTF-8');
@@ -28162,7 +28162,7 @@ catch(Exception $e) {
 		$result = $stmt->get_result();
 		$rowCompany = $result->fetch_assoc();
 		
-		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.qloudid.com/'.$imgs; } else {   $imgs=""; }
+		$filename="../estorecss/".$row ['passport_image'].".txt"; if (file_exists($filename)) { $value_a=file_get_contents("../estorecss/".$row ['passport_image'].".txt"); $value_a=str_replace('"','',$value_a);  $imgs = $this->base64_to_jpeg( $value_a, '../estorecss/tmp'.$row ['passport_image'].'.jpg' ); $imgs=str_replace('../','',$imgs); $imgs='https://www.safeqloud.com/'.$imgs; } else {   $imgs=""; }
 			$stmt->close();
 			$dbCon->close();
 			

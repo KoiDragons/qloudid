@@ -79,7 +79,7 @@
 			send_data1.total_price='<?php echo $_GET['total']; ?>';
 				$.ajax({
 					type:"POST",
-					url:"../QloudidApp/checkOrderReference",
+					url:"../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -190,8 +190,8 @@ NewWindow1 = window.open(Site,
 		<div class="column_m pos_rel">
 			
 			<!-- SUB-HEADER loginPurchaseSignin?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&purchase=1&apply=1-->
-			<!--https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&purchase=1&apply=1-->
-			<form action="https://www.qloudid.com/walk/authorize_book.php?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&purchase=1&apply=1" method="POST" name="save_indexing_user" id="save_indexing_user"  accept-charset="ISO-8859-1" autocomplete="off" >
+			<!--https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&purchase=1&apply=1-->
+			<form action="https://www.safeqloud.com/walk/authorize_book.php?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&purchase=1&apply=1" method="POST" name="save_indexing_user" id="save_indexing_user"  accept-charset="ISO-8859-1" autocomplete="off" >
 			
 			<!--<input type="hidden" name="authorized" id="authorized" value="Yes" />-->
 			</form>
@@ -212,13 +212,13 @@ NewWindow1 = window.open(Site,
 							
 							 <div class="padt20 xxs-talc talc visible-xs  hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/<?php echo $verifyIP; ?>/<?php echo $_GET['client_id']; ?>/purchase/1"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="https://www.safeqloud.com/ip/<?php echo $verifyIP; ?>/<?php echo $_GET['client_id']; ?>/purchase/1"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						    
 						     <div class="padt20 xxs-talc talc visible-xs  hidden" id="iOS">
 								
-								<a href="QloudidUrl://<?php echo $verifyIP; ?>/<?php echo $_GET['client_id']; ?>/purchase/1"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="safeqloudUrl://<?php echo $verifyIP; ?>/<?php echo $_GET['client_id']; ?>/purchase/1"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						<div class="padtb0 brdrad3 ">

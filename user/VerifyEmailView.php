@@ -44,7 +44,7 @@
 			function changeHeader()
 			{
 				
-				window.location.href="https://www.qloudid.com/user/index.php/LoginAccountEng";
+				window.location.href="https://www.safeqloud.com/user/index.php/LoginAccountEng";
 				
 			}
 		</script>
@@ -90,7 +90,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -116,7 +116,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/LoginAccount" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -164,7 +164,7 @@
 									
 									</div>
 									<div class="lgtgrey_bg pad15 xs-marb20 marb20  xxs-talc talc ffamily_avenir"> <a href="#" class="black_txt fsz16  xs-fsz16 xxs-talc talc edit-text jain_drop_company trn" data-trn-key="Please confirm that you are the owner of this email address. An email is sent to it."> Please open your email address and activate it. </a></div>
-								 <div class="martb0 talc fsz18 nobold"><a href="https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailSendEmail/<?php echo $data['email']; ?>">Resend activation email</a>
+								 <div class="martb0 talc fsz18 nobold"><a href="https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailSendEmail/<?php echo $data['email']; ?>">Resend activation email</a>
 							</div>
 							 
 				</div>
@@ -195,14 +195,14 @@
 							
 							
 								<div class=" padrl0 talc xs-padrl0">
-									<a href="https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailSendEmail/<?php echo $data['email']; ?>"><input type="button" value="Resend Activation Mail" class="wi_360p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" >
+									<a href="https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailSendEmail/<?php echo $data['email']; ?>"><input type="button" value="Resend Activation Mail" class="wi_360p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" >
 									
 								</div>
 								
 								
 								
 							
-							<div class="martb10 talc fsz18 "><a href="https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailDelete/<?php echo $data['email']; ?>">Delete</a>
+							<div class="martb10 talc fsz18 "><a href="https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailDelete/<?php echo $data['email']; ?>">Delete</a>
 							</div>
 							<div class="martb10 fsz18  talc"><span>Skapa ett konto</span>
 							</div>

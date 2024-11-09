@@ -106,7 +106,7 @@ else
 			send_data1.loginType=1;
 				$.ajax({
 					type:"POST",
-					url:"../QloudidApp/checkOrderReference",
+					url:"../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -178,7 +178,7 @@ NewWindow1 = window.open(Site,
 <div class="outer" style="background: #212b39;">
 <!-- header-->
 <header class="header js-header authorization xs-padt24" style="border-bottom: 1px solid #353945;box-shadow: inset 0 -1px 0 0 #23262F;">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/user/index.php/LoginAccount" style="
     background-color: #3B71FE;
     padding: 10px;
     color: white;
@@ -217,18 +217,18 @@ NewWindow1 = window.open(Site,
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
 			
 </div>
 
@@ -274,7 +274,7 @@ NewWindow1 = window.open(Site,
 <header class="header js-header header_border bgcolor_F4B400 xs-padding2424 hidden" style="
     border-bottom: 1px solid #353945;
 ">
-<div class="header__center center"><a class="header__logo" href="https://www.qloudid.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
+<div class="header__center center"><a class="header__logo" href="https://www.safeqloud.com/public/index.php/CorporateServicesEng"><button class="button button-stroke button-small header__button" style="border-color: #212b3a;background-color: #212b3a;font-size:18px;min-width: 5em !important;">Qloud ID</button></a>
 <div class="header__wrapper js-header-wrapper">
 <div class="header__item header__item_dropdown js-header-item">
 <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to login using Qloud ID
@@ -408,7 +408,7 @@ NewWindow1 = window.open(Site,
 </div><div class="receipt__foot">
 <div class="receipt__free" style="font-size: 15px;">
                   Scan and sign in with your Qloud ID app to get access to your account.</div>
-				<a class="button receipt__button    hidden" href="QloudidUrl://<?php echo $verifyIP; ?>" ><span>Shop online</span>
+				<a class="button receipt__button    hidden" href="safeqloudUrl://<?php echo $verifyIP; ?>" ><span>Shop online</span>
 <svg class="icon icon-bag">
 <use xlink:href="#icon-bag"></use>
 </svg></a>
@@ -416,7 +416,7 @@ NewWindow1 = window.open(Site,
 				
 </div>
 
-<a class=" visible-xs " style="text-decoration:none !important;" href="QloudidUrl://<?php echo $verifyIP; ?>" id="iOS">
+<a class=" visible-xs " style="text-decoration:none !important;" href="safeqloudUrl://<?php echo $verifyIP; ?>" id="iOS">
 <div class="receipt__description talc marrla " style="
     background: #101010;
     border-radius: 50px;
@@ -436,12 +436,12 @@ NewWindow1 = window.open(Site,
 
 </svg>You can download Qloud ID on Appstore or Android marketplace
 </div>
-				<a class="button receipt__button   hidden" href="QloudidUrl://<?php echo $verifyIP; ?>"  ><span>Shop online</span>
+				<a class="button receipt__button   hidden" href="safeqloudUrl://<?php echo $verifyIP; ?>"  ><span>Shop online</span>
 <svg class="icon icon-bag">
 <use xlink:href="#icon-bag"></use>
 </svg></a>
 				
-				<a class="button receipt__button hidden" href="https://qloudid.com/ip/<?php echo $verifyIP; ?>" id="android"><span>Shop online</span>
+				<a class="button receipt__button hidden" href="https://www.safeqloud.com/ip/<?php echo $verifyIP; ?>" id="android"><span>Shop online</span>
 <svg class="icon icon-bag">
 <use xlink:href="#icon-bag"></use>
 </svg></a>

@@ -11,7 +11,7 @@
 			//$valueNew = checkLogin();
 			if(isset($_SESSION['rememberme']))
 			{
-				setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "qloudid.com");
+				setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "safeqloud.com");
 			}
 			else if (checkLogin() == 0) {
 				
@@ -33,7 +33,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				$data['user_id']=$_SESSION['user_id'];
@@ -50,7 +50,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$webModel = new GetStartedNewModel();
 				
@@ -100,7 +100,7 @@
 					if ($result == 0) {
 						
 						$path = "../../../";
-						header("location:https://www.qloudid.com/user/index.php/GetStartedNew");
+						header("location:https://www.safeqloud.com/user/index.php/GetStartedNew");
 					}
 					
 					else {
@@ -108,7 +108,7 @@
 						$path = "../../../";
 						require_once('../configs/testMandril.php');
 						$resultPass = $model->sendCreateCompanyEmail($data);
-						header("location:https://www.qloudid.com/thankyouregistration.php");
+						header("location:https://www.safeqloud.com/thankyouregistration.php");
 					}
 					
 				}
@@ -140,7 +140,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$webModel = new GetStartedNewModel();
 				
@@ -182,7 +182,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -203,7 +203,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -223,7 +223,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path         = "../../../../";
 				

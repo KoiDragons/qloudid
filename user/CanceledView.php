@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
-		<title>Qloudid</title>
+		<title>safeqloud</title>
 		<!-- Styles -->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path; ?>html/signup/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/signup/css/style.css" />
@@ -60,7 +60,7 @@
 						<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 					</div>
 					<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 					</div>
 						<div class="hidden-xs hidden-sm fleft padl20 padr10 brdl">
 			<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">

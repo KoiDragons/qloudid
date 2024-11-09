@@ -15,10 +15,10 @@ class LandloardBrokerController
 				{
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				}
 				else
 				{
@@ -38,10 +38,10 @@ class LandloardBrokerController
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -62,10 +62,10 @@ class LandloardBrokerController
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -88,10 +88,10 @@ class LandloardBrokerController
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -114,10 +114,10 @@ class LandloardBrokerController
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -139,10 +139,10 @@ class LandloardBrokerController
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -165,10 +165,10 @@ public static function invoiceDetail($a=null)
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -190,10 +190,10 @@ public static function invoiceDetail($a=null)
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -215,10 +215,10 @@ public static function invoiceDetail($a=null)
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();
@@ -241,10 +241,10 @@ public static function invoiceDetail($a=null)
 			if ($valueNew == 0) {
 				$model1       = new LandloardBrokerModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 				$path         = "../../../";
 				$data=array();

@@ -9,14 +9,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
-			<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/css/modulesnewy_bg.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/responsive.css" />
+			<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/css/modulesnewy_bg.css" />
 		
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" media="all" href="<?php echo $path; ?>/html/fleet/css/app.min.css">
+    <link rel="stylesheet" media="all" href="<?php echo $path; ?>html/fleet/css/app.min.css">
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	  
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/translateCombine.js"></script>
@@ -120,7 +120,7 @@
 								
 								if(data1==0)
 								{
-									 window.location.href="https://www.qloudid.com/user/index.php/StoreData/addUserSSN";
+									 window.location.href="https://www.safeqloud.com/user/index.php/StoreData/addUserSSN";
 								}
 								else
 								{
@@ -349,30 +349,23 @@ function readURL2(input) {
 	<!-- outer-->
 <div class="outer">
 <!-- header-->
-<header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important; /* border-bottom: 1px solid #e6e8ec; */">
-<div class="header__center center xxs-padrl25">
-<a class="header__logo xs-fsz20 changedText " href="../NewPersonal/userAccount" style="
-   /* background-color: #E91E63;*/
-   padding: 10px;
-   color: #f67f00;
-   border-radius: 5px;
-   font-family: Avenir;
-   font-size: 20PX;
-   line-height:25px !important;
-   border: 2px solid #f67f00;
-   ">Back</a>
-
-  
-
-
-		<div class="header__wrapper js-header-wrapper">
+<header class="header js-header authorization xs-padt24" style="padding: 10px !important; background:#10161d!important; /* border-bottom: 1px solid #e6e8ec; */">
+<div class="header__center center" style="padding:0px 15px;">
+<a class="header__logo xs-fsz25 changedText" href="../NewPersonal/userAccount" style="
+   
+   "><img class="some-icon-dark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1010px-Apple_logo_white.svg.png?20220821122232" alt="Fleet" style="
+    width: 20px;
+"></a>
+ <div class="header__wrapper js-header-wrapper">
+ 	
+		
 <div class="header__item header__item_language js-header-item margin-left0">
-<button class="header__head js-header-head fsz16 " fdprocessedid="9xxkue">
-<svg class="icon icon-globe"  >
+<button class="header__head js-header-head fsz14 " fdprocessedid="9xxkue">
+<svg class="icon icon-globe">
 <use xlink:href="#icon-globe" style="
     fill:#777E90;
 "></use>
-</svg><h4 class="changedText"  >Language</h4>
+</svg><h4 class="changedText">Language</h4>
 </button>
 <div class="header__body js-header-body" style="z-index:1;">
 <div class="header__list">
@@ -500,50 +493,144 @@ function readURL2(input) {
 </div>
 
 
-			
-
-<a href="https://www.pickapro.net/vacantposition.html" class="header__item "><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
-
-
-</div></a>
-
-		
 
 			
  
 
+		
 
-
-			
+		 
 			
 </div>
 
-			
-			
-			
+	 	<a href="../AddCompany" class="header_item " style="margin-left:0px;"><div class="header_item_language js-header-item" style="border-left: 0px solid !important;">
+<button class="header__head js-header-head fsz14 hidden-xs changedText bold" style="color:#777E90">Add workplace</button>
+
+</div></a>
+
+	<div class="header__item header__item_notification js-header-item" >
+            <button class="header__head js-header-head active" fdprocessedid="f1hyis">
+              <svg class="icon icon-notification">
+                <use xlink:href="#icon-notification"></use>
+              </svg>
+            </button>
+            <div class="header__body js-header-body">
+              <div class="header__title changedText">Notification</div>
+              <div class="header__notifications"><a class="header__notification" href="#">
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__details">
+                    <div class="header__subtitle changedText">Kohaku Tora</div>
+                    <div class="header__content changedText">just sent you a message</div>
+                    <div class="header__date changedText">1 minute ago</div>
+                    <div class="header__status" style="background-color: #3B71FE;"></div>
+                  </div></a><a class="header__notification" href="message-center.html">
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__details">
+                    <div class="header__subtitle changedText">Kohaku Tora</div>
+                    <div class="header__content changedText">just sent you a message</div>
+                    <div class="header__date changedText">3 hours ago</div>
+                    <div class="header__status" style="background-color: #3B71FE;"></div>
+                  </div></a></div>
+            </div>
+          </div>
+
+		  <div class="header__item header__item_user js-header-item" style="display:block;">
+            <button class="header__head js-header-head" fdprocessedid="0sxouf" style="margin-right:0px;  "><a class="header__login js-popup-open" href="#" data-effect="mfp-zoom-in" style="display:block; background:transparent; margin-left:0px; padding-top:5px;">
+            <svg class="icon icon-user padtb5" style="width:30px; height:30px; border-radius:50%; border:2px solid #777E90;">
+              <use xlink:href="#icon-user" style="fill:#777E90"></use>
+            </svg></a></button>
+            <div class="header__body js-header-body">
+              <div class="header__group">
+                <div class="header__menu"><a class="header__link" href="#">
+                    <svg class="icon icon-comment">
+                      <use xlink:href="#icon-comment"></use>
+                    </svg><span class="changedText">Messages</span></a><a class="header__link" href="#">
+                    <svg class="icon icon-home">
+                      <use xlink:href="#icon-home"></use>
+                    </svg><span class="changedText">Bookings</span></a><a class="header__link" href="#">
+                    <svg class="icon icon-email">
+                      <use xlink:href="#icon-email"></use>
+                    </svg><span class="changedText">Wishlists</span></a></div>
+                <div class="header__menu">
+				<a class="header__link" href="#">
+                    <svg class="icon icon-building">
+                      <use xlink:href="#icon-building"></use>
+                    </svg><span class="changedText">Company details</span></a>
+					<a class="header__link" href="#">
+                    <svg class="icon icon-flag">
+                      <use xlink:href="#icon-flag"></use>
+                    </svg><span class="changedText">Admin view</span></a></div>
+              </div>
+              <div class="header__btns"> 
+			  <a class="button-stroke button-small header__button changedText" href="#" style="background: #3B71FE; box-shadow: none;">Account</a>
+                <a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
+              </div>
+            </div>
+          </div>
+		  			
 <button class="header__burger js-header-burger"></button>
 </div>
 </header>
 <!-- outer content-->
-<div class="outer__inner mart100 xxs-mart45" >
+<div class="outer__inner mart100" >
+  <div class="section work xs-padrl25 marb80i xs-marb25i hidde hidden-xs" style=" ">
+          <div class="work__center center" style="
+    display: flex !important;
+    align-items: center !important;
+    border-width: 2px !important;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-bottom: 4px solid #282D34 !important;
+    border-image: linear-gradient(45deg, limegreen 0%, yellow 20%, green 40%, teal 60%, royalblue 80%, turquoise 100%) 1 / 1 / 0 stretch !important;
+    max-width: 1132px;
+    ">
+             
+             </div>
+        </div>
 <div class="section-mb80 checkout checkout_stays">
 <div class="checkout__center center xxs-padrl25">
 
-<div class="upload__inner xs-flexD">
-<div class="upload__wrapper  "  >
-<div class="checkout__list">
+<div class="checkout__wrapper  xs-flexD">
+<div class="browse__head wi_50  xs-wi_100">
+
+<div class="travel__subtitle changedText " style="
+                  line-height: 1.2;
+                  font-size: 60px;
+                  
+				  font-weight:100
+                  ">Identificator
+</div>
+            <div class="travel__content changedText xs-fsz27" style=" line-height: 1.4;
+                  color: #787f91;
+				   line-height: 1.4;
+                  font-size: 27px;
+                  ">Please add your adentificator
+</div>
+ <div class="visible-xs">
+ <div class=" xs-product__rating  xs-padb10  visible-xs " style="border-bottom: 4px solid #282D34 !important; display: flex !important;
+        align-items: center !important;
+        margin-right: 200px !important;
+        border-image: linear-gradient(45deg, rgb(255, 172, 84) 0%, rgb(255, 77, 60) 100%) 1 / 1 / 0 stretch !important;
+        border-width: 4px !important; 
+    padding-top: 25px;
+    margin-right: 200px;
+">
+
+</div>
+ </div>
  
- <div class="upload__head" style="margin-bottom:0px;">
-                  <h2 class="upload__title h2">Identify</h2>  
-				  
-                </div>
-				<div class="browse__info info changedText padb40" style="border-bottom: 2px solid #353945;">Please add your identificator</div>
+</div>
+  
+<div class="checkout__inner js-tabs wi_50" style="padding:0px;">
+ 
+<div class="checkout__list">
+  
 <form action="addIndificator" method="POST" id="save_indexing" name="save_indexing" accept-charset="ISO-8859-1">
  
  
   
  
-					 <div class="upload__item" style="margin-top:40px; margin-bottom:0px;">
+					 <div class="upload__item" style="margin-bottom:0px;">
 					 
 					 <div class="checkout__line  " style="margin-bottom:24px;" >
 					   <div class="checkout__subtitle">Type</div>
@@ -554,9 +641,9 @@ function readURL2(input) {
                             <div class="field__label  changedText" style="color:#787f91;">Identificator</div>
                             <div class="field__wrap">
                              <select class=" " id="identificator" name="identificator" style="height: 48px;
-    padding: 0 14px;  border : 2px solid #f67f00;
-    color: grey; border-radius: 12px;
-      background: transparent; width:100%;" onchange="checkIdentificator(this.value);" >
+								padding: 0 14px; border-color: #353945;
+								color: grey; border-radius: 12px;
+								  background: transparent; width:100%;" onchange="checkIdentificator(this.value);" >
 							 <option value="0" class="lgtgrey2_bg">Select</option> 													
 							<option value="1" class="lgtgrey2_bg">Passport</option>
 							<option value="2" class="lgtgrey2_bg">Id number</option>
@@ -740,75 +827,7 @@ function readURL2(input) {
 </form>
   
  
-</div>
  
-
-<div class="upload__preview js-upload-preview">
-<div class="profile" style="background: transparent;">
-                <div class="profile__main">
-                  <div class="profile__avatar"><img src="../../../html/fleet/img/content/avatar-girl.jpg" alt="Avatar"></div><a class="profile__update js-popup-open" href="#popup-avatars" data-effect="mfp-zoom-in">
-                    <svg class="icon icon-pencil">
-                      <use xlink:href="#icon-pencil"></use>
-                    </svg>Update avatar</a>
-                  <div class="profile__man">Kohaku Tora</div>
-                </div>
-                <div class="profile__body">
-                  <div class="profile__parameters">
-                    <div class="profile__parameter">
-                      <svg class="icon icon-tick">
-                        <use xlink:href="#icon-tick"></use>
-                      </svg>Indentity verified
-                    </div>
-                    <div class="profile__parameter">
-                      <svg class="icon icon-star-outline">
-                        <use xlink:href="#icon-star-outline"></use>
-                      </svg>256 reviews
-                    </div>
-                  </div><a class="profile__site" href="#">
-                    <svg class="icon icon-globe">
-                      <use xlink:href="#icon-globe"></use>
-                    </svg>https://ui8.net</a>
-                  <div class="profile__control"><a class="button-stroke button-small profile__button" href="#">Contact</a>
-                    <div class="actions js-actions">
-                      <div class="actions__item actions__item_share js-actions-item">
-                        <button class="button-circle-stroke button-small actions__button js-actions-button" fdprocessedid="wfda4ex">
-                          <svg class="icon icon-share">
-                            <use xlink:href="#icon-share"></use>
-                          </svg>
-                        </button>
-                        <div class="actions__body actions__body_up js-actions-body">
-                          <div class="actions__title">Share link to this page</div>
-                          <div class="actions__list share-btn" data-url="https://ui8.net"><a class="actions__link btn-twitter" data-id="tw"><span>
-                                <svg class="icon icon-twitter">
-                                  <use xlink:href="#icon-twitter"></use>
-                                </svg></span></a><a class="actions__link btn-facebook" data-id="fb"><span>
-                                <svg class="icon icon-facebook">
-                                  <use xlink:href="#icon-facebook"></use>
-                                </svg></span></a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="profile__socials"><a class="profile__social" href="https://twitter.com/ui8" target="_blank">
-                      <svg class="icon icon-twitter">
-                        <use xlink:href="#icon-twitter"></use>
-                      </svg></a><a class="profile__social" href="https://www.instagram.com/ui8net/" target="_blank">
-                      <svg class="icon icon-instagram">
-                        <use xlink:href="#icon-instagram"></use>
-                      </svg></a><a class="profile__social" href="https://www.facebook.com/ui8.net/" target="_blank">
-                      <svg class="icon icon-facebook">
-                        <use xlink:href="#icon-facebook"></use>
-                      </svg></a></div>
-                  <div class="profile__note">Member since Mar 15, 2021</div>
-                  <button class="profile__report" fdprocessedid="35cdyn">
-                    <svg class="icon icon-flag">
-                      <use xlink:href="#icon-flag"></use>
-                    </svg>Report this property
-                  </button>
-                </div>
-              </div>
-</div>
-</div>
 </div>
 </div>
 <!-- footer-->

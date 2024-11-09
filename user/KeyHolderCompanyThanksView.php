@@ -4,13 +4,13 @@
  
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="refresh" content="60;https://www.qloudid.com/user/index.php/KeyHolderCompanySearch/searchCompanies/<?php echo $data['aid']; ?>" />
+	<meta http-equiv="refresh" content="60;https://www.safeqloud.com/user/index.php/KeyHolderCompanySearch/searchCompanies/<?php echo $data['aid']; ?>" />
 	
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Connect Kin.">
     <meta name="author" content="Ansonika">
-    <title>Qloudid</title>
+    <title>safeqloud</title>
 
     <!-- Favicons
     <link rel="shortcut icon" href="<?php echo $path;?>html/kincss/img/favicon.ico" type="image/x-icon">-->

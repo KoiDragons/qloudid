@@ -159,7 +159,7 @@ function submitFormCom()
 									<ul class="marr20 pad0">
 										
 										<li class=" dblock padrb10  padl8">
-											<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
+											<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
 												<span class="fa fa-address-card-o wi_20p dnone_pa"></span>
 												<span class="valm trn">Delade uppgifter </span><span class="counter_position"><?php echo $receivedAllCount; ?></span>
 												<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg  rotate45"></div>
@@ -168,7 +168,7 @@ function submitFormCom()
 										
 										
 										<li class=" dblock padrb10  padl8">
-											<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
+											<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
 												<span class="fa fa-address-card-o wi_20p dnone_pa"></span>
 												<span class="valm trn">Utforska appar </span> 
 												<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg  rotate45"></div>
@@ -316,7 +316,7 @@ function submitFormCom()
 														
 														
 													?> 
-										<a href="https://www.qloudid.com/company/index.php/ViewCompany/landloardAccount/<?php echo $value['enc']; ?>" class="black_txt"><div class=" white_bg mart20  brdrad3 box_shadow bg_fffbcc_a" style="">
+										<a href="https://www.safeqloud.com/company/index.php/ViewCompany/landloardAccount/<?php echo $value['enc']; ?>" class="black_txt"><div class=" white_bg mart20  brdrad3 box_shadow bg_fffbcc_a" style="">
 										<div class="container pad25 padb20 xs-pad10 xs-padt20 xs-padb20  brdrad1 fsz14 dark_grey_txt">
 											<div class="passport signin_bx dflex fxwrap_w xs-alit_c pos_rel tall">
 												
@@ -327,7 +327,7 @@ function submitFormCom()
 													<div class="fleft wi_30 xs-wi_100 sm-wi_40 xsip-wi_40  marl15 xs-mar0 padb10 xs-padb15"> <span class="trn" data-trn-key="Företag">Företag</span> <span class=" edit-text jain1 dblock brdb brdclr_lgtgrey2 fsz16"><?php echo html_entity_decode($value['company_name']); ?></span> </div>
 													<div class="fleft wi_45 xs-wi_100 sm-wi_50 xsip-wi_50 marl15 xs-mar0 padb10 xs-padb15"> <span class="trn" data-trn-key="Adress">Adress</span> <span class=" edit-text jain2 dblock brdb brdclr_lgtgrey2 fsz16"><?php echo $value['address']; ?></span> </div>
 													<div class="fright wi_10 padl0 xs-wi_100 sm-wi_100 marl15 fsz40  xs-mar0 padb0 hidden-xs hidden-sm hidden-xsip">
-														<a href="https://www.qloudid.com/company/index.php/ViewCompany/landloardAccount/<?php echo $value['enc']; ?>" ><span class="fas fa-arrow-alt-circle-right"></span></a>
+														<a href="https://www.safeqloud.com/company/index.php/ViewCompany/landloardAccount/<?php echo $value['enc']; ?>" ><span class="fas fa-arrow-alt-circle-right"></span></a>
 													</div>
 													
 												</div>
@@ -408,7 +408,7 @@ function submitFormCom()
 			<!-- primary menu -->
 			<div class="tab-content active" id="mob-primary-menu" style="display: block;">
 				<div class="wi_100 dflex alit_s justc_sb talc fsz16 xxs-fsz12">
-					<a href="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 						<span>One time</span>
 					</a>
@@ -424,11 +424,11 @@ function submitFormCom()
 							</div>
 						</a>
 					</div>
-					<a href="https://www.qloudid.com/user/index.php/ConnectKin/connectAccount" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-image"></span></div>
 						<span>Next of kin</span>
 					</a>
-					<a href="https://www.qloudid.com/user/index.php/StoreData/userAccount" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/StoreData/userAccount" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_26 xxs-lgn_hight_20 fsz32 xxs-fsz24">
 							<span class="fa fa-file-text-o"></span>
 						</div>
@@ -454,7 +454,7 @@ function submitFormCom()
 						</a>
 					</li>
 					<li class="dblock mar0 padrl15 brdb">
-						<a href="https://www.qloudid.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+						<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 							<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 							Inform relatives
 						</a>

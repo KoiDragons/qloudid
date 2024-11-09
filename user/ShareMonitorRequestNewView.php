@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,7 +53,7 @@
 	  
     <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 changedText" href="https://www.qloudid.com/user/index.php/NewPersonal/addressList" style="
+<a class="header__logo xs-fsz20 changedText" href="https://www.safeqloud.com/user/index.php/NewPersonal/addressList" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -383,7 +383,7 @@
 				  
 			 	<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">
@@ -474,7 +474,7 @@
 	
 		<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">
@@ -553,7 +553,7 @@
 	
 		<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">
@@ -632,7 +632,7 @@
 	
 		<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">
@@ -711,7 +711,7 @@
 	
 		<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">
@@ -790,7 +790,7 @@
 	
 		<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">
@@ -878,7 +878,7 @@
 	
 		<div class="card card_row " style="  border-radius: 20px;margin-bottom: 20px;"  >
  
-<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" src="https://www.qloudid.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
+<div class="card__preview" style="width: 161px;padding: 30px;"><img srcset="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" src="https://www.safeqloud.com/html/usercontent/images/notavailable.jpg" alt="London - Kings Cross" style="
 												padding: 20px;
 												border-radius: 30px;
 											">

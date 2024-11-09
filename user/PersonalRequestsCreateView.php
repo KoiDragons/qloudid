@@ -99,7 +99,7 @@ function checkFlag()
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests";
+									window.location.href ="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests";
 								}
 								
 							}
@@ -137,7 +137,7 @@ function checkFlag()
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests";
+									window.location.href ="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests";
 								}
 								
 							}
@@ -184,7 +184,7 @@ function checkFlag()
 								else
 								{
 									
-									window.location.href ="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests";
+									window.location.href ="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests";
 								}
 								
 							}

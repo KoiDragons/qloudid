@@ -1680,7 +1680,7 @@
 		{
 			$to      = $_POST['email_idc'];
 			$subject = "Employer Invitation";
-			$url="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow";
+			$url="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow";
 			$surl=getShortUrl($url);
 			$emailContent ='Hi, Boss. I am trying to connect to our company at Qloud ID but we are not registered as a company. Its free to register and I hope you can create the company so that I can connect and share my details with you.</br> '.$surl;
 			sendEmail($subject, $to, $emailContent);
@@ -2612,7 +2612,7 @@
 				
 				$to=$row['company_email'];
 				$subject="Student request received";
-				$emailContent="Student request has been received. To approve/reject please click <a href='https://www.qloudid.com/user/index.php/UserStudentCompany/monitorAccount/".$data['cid']."'>here</a>";
+				$emailContent="Student request has been received. To approve/reject please click <a href='https://www.safeqloud.com/user/index.php/UserStudentCompany/monitorAccount/".$data['cid']."'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 			}
 			
@@ -3586,7 +3586,7 @@
 				
 				$to=$row['company_email'];
 				$subject="Tenant request received";
-				$emailContent="Tenant request has been received. To approve/reject please click <a href='https://www.qloudid.com/user/index.php/UserTenantCompany/monitorAccount/".$data['cid']."'>here</a>";
+				$emailContent="Tenant request has been received. To approve/reject please click <a href='https://www.safeqloud.com/user/index.php/UserTenantCompany/monitorAccount/".$data['cid']."'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 			}
 			
@@ -3788,7 +3788,7 @@
 				
 				$to=$row['company_email'];
 				$subject="Supplier request received";
-				$emailContent="Supplier request has been received. To approve/reject please click <a href='https://www.qloudid.com/user/index.php/UserSupplierCompany/monitorAccount/".$data['cid']."'>here</a>";
+				$emailContent="Supplier request has been received. To approve/reject please click <a href='https://www.safeqloud.com/user/index.php/UserSupplierCompany/monitorAccount/".$data['cid']."'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 			}
 			
@@ -4456,7 +4456,7 @@
 				$company_id= $this -> encrypt_decrypt('encrypt',$row['id']);
 				$org='
 				<div class="mart20">
-				<a href="https://www.qloudid.com/company/index.php/ViewCompany/companyAccount/'.$company_id.'"><button type="button" value="Go to" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp">Go to</button></a>
+				<a href="https://www.safeqloud.com/company/index.php/ViewCompany/companyAccount/'.$company_id.'"><button type="button" value="Go to" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp">Go to</button></a>
 				
 				
 				</div>
@@ -4765,9 +4765,9 @@
 						$rsultId=$stmt->insert_id;
 						$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 						$to      = $row_request['email'];
-						$subject = "Qloudid : Request to access your details";
+						$subject = "safeqloud : Request to access your details";
 						
-						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 						sendEmail($subject, $to, $emailContent);
 						
 						$stmt->close();
@@ -4821,9 +4821,9 @@
 					//echo $rsultId; die;
 					$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt->close();
@@ -4871,9 +4871,9 @@
 					//echo $rsultId; die;
 					$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt = $dbCon->prepare("select country_code,phone_number  from user_profiles left join phone_country_code on phone_country_code.country_name=user_profiles.country_phone where user_profiles.user_logins_id=?");
@@ -4887,7 +4887,7 @@
 					$phone='+'.trim($row_phone['country_code']).''.trim($row_phone['phone_number']);
 					$subject='Informationen om din vän/anhörig';
 					$to=$phone;
-					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
 					//echo $html.' '.$to;
 					$res=sendSms($subject, $to, $html);
 					$stmt->close();
@@ -5083,7 +5083,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -5357,11 +5357,11 @@
 			</div></td>
             </tr>
             <tr>
-			<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . '" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Confirm Now</a></td>
+			<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . '" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Confirm Now</a></td>
             </tr>
             <tr>
 			<td align="left" valign="top" scope="col"><div style="font-size:14px;">If the button is not working then copy/paste the link in your browser to confirm your registration <br />
-			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.qloudid.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . ' </a></div></td>
+			<a href="#" style="text-decoration:none; color:#3691c0;">https://www.safeqloud.com/company/index.php/Activation/activateAccount/' . $company_email . '/' . $data['random_hash'] . ' </a></div></td>
             </tr>
             <tr>
 			<td align="left" valign="top" scope="col" style="font-size:16px;"><div style="padding-bottom:5px;">Warm regards,</div>
@@ -5371,7 +5371,7 @@
 			</tr>
 			<tr>
 			<td align="center" valign="top"><div style="padding-top:10px; font-size:11px;">This message was sent to <a href="mailto:#" style="text-decoration:none; color:#3691c0;">' . $company_email . '</a>. If you dont want to receive these emails from Qmatchup.com in the future, <br />
-            please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.qloudid.com"></a> Qmatchup Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
+            please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.safeqloud.com"></a> Qmatchup Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
 			</tr>
 			</table>
 			</div>
@@ -6175,7 +6175,7 @@
 			
 			$fields=array();
 			$fields=$row_id;
-			$fields['qloudid']=$request_id;
+			$fields['safeqloud']=$request_id;
 			$fields['stat']=$data['stat'];
 			//print_r($fields); //die;
 			$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -6490,7 +6490,7 @@
 			
 			$fields=array();
 			$fields=$row_id;
-			$fields['qloudid']=$request_id;
+			$fields['safeqloud']=$request_id;
 			$fields['stat']=$data['stat'];
 			//print_r($fields); //die;
 			$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -6797,7 +6797,7 @@
 				$org=$org.'<tr class="fsz14">
 				
 				<td class="pad5 brdb_new tall cn">
-				<div class="padtb5 " ><a href="https://www.qloudid.com/company/index.php/ViewCompany/companyAccount/'.$enc_id.'" class="black_txt">'.substr(html_entity_decode($row['company_name']),0,25).'...</a></div>
+				<div class="padtb5 " ><a href="https://www.safeqloud.com/company/index.php/ViewCompany/companyAccount/'.$enc_id.'" class="black_txt">'.substr(html_entity_decode($row['company_name']),0,25).'...</a></div>
 				</td>
 				
 				<td class="pad5 brdb_new hidden-xs tall cd">

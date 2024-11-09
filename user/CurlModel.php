@@ -154,7 +154,7 @@
 						$to      = $row['company_email'];
 						$subject = "Invoice info";
 			
-						$emailContent ='Your card has beed charged today for SEK: '.$price.' by Qloudid as per your subscription plan and next date for payment for app is :'.$date;
+						$emailContent ='Your card has beed charged today for SEK: '.$price.' by safeqloud as per your subscription plan and next date for payment for app is :'.$date;
 			
 						sendEmail($subject, $to, $emailContent);
 				}					
@@ -205,9 +205,9 @@
 			
 			$cid=$this->encrypt_decrypt('encrypt',$row['company_id']);
 			$rid=$this->encrypt_decrypt('encrypt',$row['id']);
-			$url='https://www.qloudid.com/company/index.php/Company/updateVisitors/'.$rid.'?visitor=0';
+			$url='https://www.safeqloud.com/company/index.php/Company/updateVisitors/'.$rid.'?visitor=0';
 			$surl=getShortUrl($url);
-			$url='https://www.qloudid.com/company/index.php/Company/updateVisitors/'.$rid.'?visitor=1';
+			$url='https://www.safeqloud.com/company/index.php/Company/updateVisitors/'.$rid.'?visitor=1';
 			$surl1=getShortUrl($url);
 			$to      = $row['employee_email'];
 			$subject = "Confirm visitor";
@@ -590,7 +590,7 @@
 					<div style="font-size:36px;">Welcome</div>
 					<div style="font-size:11px;">' . date("d/m/Y") . '</div>
 					</div></td>
-					<td scope="col" align="right" width="50%" valign="top" style="padding:25px;"><div style="text-align:right"><img src="https://www.qmatchup.com/beta/tabcss/mages/images/qmacthup.png" alt="Qloudid" title="Qloudid" style="font-size:35px; color:#FFFFFF;" /></div></td>
+					<td scope="col" align="right" width="50%" valign="top" style="padding:25px;"><div style="text-align:right"><img src="https://www.qmatchup.com/beta/tabcss/mages/images/qmacthup.png" alt="safeqloud" title="safeqloud" style="font-size:35px; color:#FFFFFF;" /></div></td>
 					</tr>
 					</table></td>
 					</tr>
@@ -610,7 +610,7 @@
 					</div></td>
 					</tr>
 					<tr>
-					<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
+					<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col"><div style="font-size:14px;">Din kod:  <br />
@@ -618,13 +618,13 @@
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col" style="font-size:16px;"><div style="padding-bottom:5px;">Warm regards,</div>
-					<div><b style="color:#6b6f74;">The Qloudid team</b></div></td>
+					<div><b style="color:#6b6f74;">The safeqloud team</b></div></td>
 					</tr>
 					</table></td>
 					</tr>
 					<tr>
-					<td align="center" valign="top"><div style="padding-top:10px; font-size:11px;">This message was sent to <a href="mailto:#" style="text-decoration:none; color:#3691c0;">' . $_POST['email']. '</a>. If you dont want to receive these emails from Qloudid.com in the future, <br />
-					please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.Qloudid.com"></a> Qloudid Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
+					<td align="center" valign="top"><div style="padding-top:10px; font-size:11px;">This message was sent to <a href="mailto:#" style="text-decoration:none; color:#3691c0;">' . $_POST['email']. '</a>. If you dont want to receive these emails from safeqloud.com in the future, <br />
+					please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.safeqloud.com"></a> safeqloud Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
 					</tr>
 					</table>
 					</div>
@@ -714,7 +714,7 @@
 					<div style="font-size:36px;">Welcome</div>
 					<div style="font-size:11px;">' . date("d/m/Y") . '</div>
 					</div></td>
-					<td scope="col" align="right" width="50%" valign="top" style="padding:25px;"><div style="text-align:right"><img src="https://www.qmatchup.com/beta/tabcss/mages/images/qmacthup.png" alt="Qloudid" title="Qloudid" style="font-size:35px; color:#FFFFFF;" /></div></td>
+					<td scope="col" align="right" width="50%" valign="top" style="padding:25px;"><div style="text-align:right"><img src="https://www.qmatchup.com/beta/tabcss/mages/images/qmacthup.png" alt="safeqloud" title="safeqloud" style="font-size:35px; color:#FFFFFF;" /></div></td>
 					</tr>
 					</table></td>
 					</tr>
@@ -734,7 +734,7 @@
 					</div></td>
 					</tr>
 					<tr>
-					<td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
+					<td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Var god och klicka på den gröna knappen </a></td>
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col"><div style="font-size:14px;">Din kod:  <br />
@@ -742,13 +742,13 @@
 					</tr>
 					<tr>
 					<td align="left" valign="top" scope="col" style="font-size:16px;"><div style="padding-bottom:5px;">Warm regards,</div>
-					<div><b style="color:#6b6f74;">The Qloudid team</b></div></td>
+					<div><b style="color:#6b6f74;">The safeqloud team</b></div></td>
 					</tr>
 					</table></td>
 					</tr>
 					<tr>
-					<td align="center" valign="top"><div style="padding-top:10px; font-size:11px;">This message was sent to <a href="mailto:#" style="text-decoration:none; color:#3691c0;">' . $_POST['email']. '</a>. If you dont want to receive these emails from Qloudid.com in the future, <br />
-					please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.Qloudid.com"></a> Qloudid Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
+					<td align="center" valign="top"><div style="padding-top:10px; font-size:11px;">This message was sent to <a href="mailto:#" style="text-decoration:none; color:#3691c0;">' . $_POST['email']. '</a>. If you dont want to receive these emails from safeqloud.com in the future, <br />
+					please click <a href="#" style="text-decoration:none; color:#3691c0;">unsubscribe</a>. <a style="text-decoration:none; color:#6b6f74;" href="https://www.safeqloud.com"></a> safeqloud Outsourcing AB, Stureplan 6, 114 35, Stockholm, Sweden</div></td>
 					</tr>
 					</table>
 					</div>

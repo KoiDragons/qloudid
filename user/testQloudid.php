@@ -6,7 +6,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Qloudid</title>
+	<title>safeqloud</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -109,7 +109,7 @@ window.dataLayer = window.dataLayer || [];
 			function changeHeader()
 			{
 				
-				window.location.href="https://www.qloudid.com/user/index.php/LoginAccountEng";
+				window.location.href="https://www.safeqloud.com/user/index.php/LoginAccountEng";
 				
 			}
 		
@@ -206,18 +206,18 @@ window.dataLayer = window.dataLayer || [];
 				
 				<div class="logo marr15 wi_140p xs-wi_130p ">
 				
-					<a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb0 ffamily_avenir">Qloudid</h3> </a>
+					<a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb0 ffamily_avenir">safeqloud</h3> </a>
 					
 				
 				</div>
 			 <div class="fright xs-dnone sm-dnone padt5 padb0">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.qloudid.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Sign up</a></li>
 	 
-	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Business</a></li>
-		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Private</a></li>					
+	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Business</a></li>
+		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Private</a></li>					
 					</ul>
 				</div>
 				
@@ -233,7 +233,7 @@ window.dataLayer = window.dataLayer || [];
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng" class="lgn_hight_s1  padl10 fsz30 sf-with-ul nobold"><i class="fas fa-home black_txt " aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng" class="lgn_hight_s1  padl10 fsz30 sf-with-ul nobold"><i class="fas fa-home black_txt " aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -248,7 +248,7 @@ window.dataLayer = window.dataLayer || [];
 					<div class="top_menu talc    wi_60i " style="padding-top:5px;">
 				<ul class="menulist sf-menu  fsz25  bold wi_100 sf-js-enabled sf-arrows">
 					<li class="padr10 first last wi_100 talc">
-						<a href="#"><span class="black_txt pred_txt_h ffamily_avenir nobold">Qloudid</span></a>
+						<a href="#"><span class="black_txt pred_txt_h ffamily_avenir nobold">safeqloud</span></a>
 					</li>
 				 	 
        			 	</ul>
@@ -273,10 +273,10 @@ window.dataLayer = window.dataLayer || [];
                   </li>
 				 
 										
-                  <li><a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng" class="fsz20">Personal</a></li>
+                  <li><a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng" class="fsz20">Personal</a></li>
 				   
-                  <li><a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="fsz20">Business</a></li>
-                  <li><a href="https://www.qloudid.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
+                  <li><a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" class="fsz20">Business</a></li>
+                  <li><a href="https://www.safeqloud.com/user/index.php/CreateAccount" class="fsz20">Sign up</a></li>
                    <li><a href="#" class="fsz20">Sign in</a></li> 
                   <li>
                     <div class="line marb10"></div>
@@ -329,7 +329,7 @@ window.dataLayer = window.dataLayer || [];
 					</div>
 					
 					<div class="dflex fxwrap_w xxs-justc_c   marl-10 xxs-marl-15 hidden">
-							<a href="https://www.qloudid.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
+							<a href="https://www.safeqloud.com/public/index.php/CoronaHelp/detailInfo/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_200p hei_45p dflex alit_c justc_c pos_rel zi1 mart15 marl15 brdrad50 txtdec_n xs-padrl15  bold fsz16 xs-fsz16 black_txt " target="_blank" tabindex="0">
 								<div class="wi_100 hei_120 opa0_ph pos_abs zi-1 top5 left0  bglgrad_r_46c8ff_81d37e bg_62cec1 xs-nobrd  xs-bg_62cec1 brdrad50 xs-bglgrad_r_46c8ff_81d37e trans_opa2"></div>
 								<div class="wi_100 hei_120 opa0 opa1_ph pos_abs zi-1 top5 left0 brdrad50 bglgrad_r_46c8ff_81d37e bg_62cec1 trans_opa2"></div>
 								 
@@ -385,13 +385,13 @@ window.dataLayer = window.dataLayer || [];
 						 
 						 <div class="padt20 xxs-talc talc hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/<?php echo $nIp; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="https://www.safeqloud.com/ip/<?php echo $nIp; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						    
 						     <div class="padt20 xxs-talc talc hidden" id="iOS">
 								
-								<a href="QloudidUrl://<?php echo $nIp; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="safeqloudUrl://<?php echo $nIp; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						</fieldset>

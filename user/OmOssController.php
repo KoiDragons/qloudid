@@ -27,7 +27,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$_SESSION['company_id']=cleanMe($a);
 				$model1       = new OmOssModel();
@@ -45,7 +45,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				
 				
@@ -65,7 +65,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				//print_r($_SESSION); die;
 				$data=array();
@@ -131,7 +131,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				
 				//print_r($_POST); die;

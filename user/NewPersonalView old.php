@@ -132,7 +132,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -142,10 +142,10 @@
 				<div class="top_menu fright  padt15 pad0 wi_140p">
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows mart10 marb0">
 					<li class="hidden-xs padr10 padt5">
-						<a href="https://www.qloudid.com/user/index.php/BoughtProducts"><span class="black_txt pred_txt_h ffamily_avenir">History</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/BoughtProducts"><span class="black_txt pred_txt_h ffamily_avenir">History</span></a>
 					</li> 
 					<li class="last first marr10i">
-						<a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
+						<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
 					 </li>
 				</ul>
 			</div>
@@ -155,7 +155,7 @@
 				<div class="top_menu fright  padt15 pad0 wi_140p">
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows mart10 marb0">
 					<li class="hidden-xs padr10 padt5">
-						<a href="https://www.qloudid.com/user/index.php/BoughtProducts"><span class="black_txt pred_txt_h ffamily_avenir">History</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/BoughtProducts"><span class="black_txt pred_txt_h ffamily_avenir">History</span></a>
 					</li> 
 					 
 				</ul>
@@ -172,7 +172,7 @@
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -190,7 +190,7 @@
 				<ul class="menulist sf-menu  fsz14  sf-js-enabled sf-arrows mart10 marb0">
 					 
 					<li class="last first marr10i">
-						<a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
+						<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
 					 </li>
 				</ul>
 			</div>
@@ -289,7 +289,7 @@
 								 
 										 
 									 <li class="dblock padrb10 padt5">
-                                 <a href="https://www.qloudid.com/user/index.php/GetVerified/userAccount" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
+                                 <a href="https://www.safeqloud.com/user/index.php/GetVerified/userAccount" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
                                     <span class="valm trn" style="letter-spacing: 2px;">Security setting</span> 
                                     <div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
                                  </a>

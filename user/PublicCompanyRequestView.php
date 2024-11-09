@@ -279,10 +279,10 @@ if($getInformation ['profile_pic']!=null) { $filename="../estorecss/".$getInform
 		<div class="column_m header xs-header_small bs_bb lgtblue2_bg" id="headerData">
 			<div class="wi_100 hei_45p xs-hei_55p xs-pos_fix pos_fix  padtb5 padrl10 lgtblue2_bg">
 				<div class="logo  marr15 wi_30p xs-wi_50p visible-xs visible-sm">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz27 xs-bold xs-padt5 blue_txt  padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Q</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz27 xs-bold xs-padt5 blue_txt  padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Q</h3> </a>
 				</div>
 				<div class="logo  marr15 wi_140p xs-wi_50p hidden-xs hidden-sm">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz27 xs-bold xs-padt5 grey_txt  padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz27 xs-bold xs-padt5 grey_txt  padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="visible-xs visible-sm fleft">
 					<div class="flag_top_menu flefti  padb10 " style="width: 50px; padding : 5px 0 0 0;">
@@ -440,7 +440,7 @@ if($getInformation ['profile_pic']!=null) { $filename="../estorecss/".$getInform
 			</div>
 			
 			<div class="mart20 talc">
-				<a href="https://www.qloudid.com/user/index.php/PublicUserRequest/companyConnection/<?php echo $data['r_id']; ?>">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
+				<a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/companyConnection/<?php echo $data['r_id']; ?>">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
 				
 			</div>
 		</div><div class="clear"></div>

@@ -1,6 +1,6 @@
 <?php
 require_once('../AppModel.php');
-class IssueQloudidModel extends AppModel
+class IssuesafeqloudModel extends AppModel
 {
   function userSummary($data)
     {

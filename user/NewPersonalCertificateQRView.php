@@ -76,13 +76,13 @@
 							if(timeout>tout)
 							{
 								
-							window.location.href='https://www.qloudid.com/user/index.php/NewPersonal/timeOut/<?php echo $data['certi_id']; ?>';	 
+							window.location.href='https://www.safeqloud.com/user/index.php/NewPersonal/timeOut/<?php echo $data['certi_id']; ?>';	 
 							} 
 							 
 						}
 						 else
 						 {
-							window.location.href='https://www.qloudid.com/user/index.php/NewPersonal/thanksConnect'; 
+							window.location.href='https://www.safeqloud.com/user/index.php/NewPersonal/thanksConnect'; 
 						 }
 						
 					}

@@ -11,7 +11,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new ResturantModel();
@@ -30,7 +30,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$model       = new ResturantModel();
@@ -50,7 +50,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$model       = new ResturantModel();
@@ -68,7 +68,7 @@
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				 
 				$model       = new ResturantModel();

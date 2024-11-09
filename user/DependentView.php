@@ -285,9 +285,9 @@
 			<div class="top_menu frighti padt20 padb10 hidden-xs">
 				<ul class="menulist sf-menu  fsz16 ">
 					<li class="hidden-xs padr10">
-						<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
 					</li>
-				 	<li class="hidden-xs padr10"><a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
+				 	<li class="hidden-xs padr10"><a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
           <ul style="display: none;">
             <li class="hidden-xs">
               <div class="top_arrow"></div>
@@ -323,7 +323,7 @@
                   </li>
 										
 										
-										<li><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
+										<li><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
 										</li>
 									</ol>
 									<div class="clear"></div>
@@ -349,7 +349,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="lgn_hight_s1  padl10 fsz25 sf-with-ul"><i class="fas fa-user" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="lgn_hight_s1  padl10 fsz25 sf-with-ul"><i class="fas fa-user" aria-hidden="true"></i></a>
 								</li>
 								
 								 
@@ -364,9 +364,9 @@
 			<div class="top_menu frighti padt10 padb10" style="width:150px !important;">
 				<ul class="menulist sf-menu  fsz16 ">
 					<li class="hidden-xs padr10">
-						<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
 					</li>
-				 	<li class="hidden-xs padr10"><a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
+				 	<li class="hidden-xs padr10"><a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
           <ul style="display: none;">
             <li class="hidden-xs">
               <div class="top_arrow"></div>
@@ -402,7 +402,7 @@
                   </li>
 										
 										
-										<li><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
+										<li><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
 										</li>
 									</ol>
 									<div class="clear"></div>

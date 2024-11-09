@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path; ?>html/usercontent/images/favicon.ico">
-		<title>Qloudid</title>
+		<title>safeqloud</title>
 		<!-- Styles -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/usercontent/css/font-awesome.min.css" />
@@ -102,7 +102,7 @@
 								
 								if(data1==0)
 								{
-									 window.location.href="https://www.qloudid.com/user/index.php/StoreData/addUserSSN";
+									 window.location.href="https://www.safeqloud.com/user/index.php/StoreData/addUserSSN";
 								}
 								else
 								{
@@ -492,7 +492,7 @@
 										
 										
 										<div class="imgwrap nobrd ">
-								<div class="cropped_image  grey_brd5 " style="background-image: https://www.qloudid.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data" name="image-data"></div>
+								<div class="cropped_image  grey_brd5 " style="background-image: https://www.safeqloud.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data" name="image-data"></div>
 											<div class="subimg_load">
 												<a href="#" class="load_button" style="background: #FFF;color: #999; display:none;">Change</a>
 												
@@ -513,7 +513,7 @@
 										
 										
 										<div class="imgwrap nobrd ">
-								<div class="cropped_image  grey_brd5 " style="background-image: https://www.qloudid.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data2" name="image-data2"></div>
+								<div class="cropped_image  grey_brd5 " style="background-image: https://www.safeqloud.com/html/usercontent/images/default-profile-pic.jpg;" id="image-data2" name="image-data2"></div>
 											<div class="subimg_load">
 												<a href="#" class="load_button" style="background: #FFF;color: #999; display:none;">Change</a>
 												

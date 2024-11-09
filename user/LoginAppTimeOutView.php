@@ -42,7 +42,7 @@
 			{ 
 				$.ajax({
 					type:"POST",
-					url:"../QloudidApp/checkOrderReference",
+					url:"../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -104,18 +104,18 @@
 				
 				<div class="logo marr15 wi_140p xs-wi_130p ">
 				
-					<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng"> <h3 class="marb0 pad0 fsz27 white_txt padt15 padb10 ffamily_avenir">Qloudid</h3> </a>
+					<a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng"> <h3 class="marb0 pad0 fsz27 white_txt padt15 padb10 ffamily_avenir">safeqloud</h3> </a>
 					
 				
 				</div>
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16 sf-js-enabled sf-arrows">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
-	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.qloudid.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 white_txt ffamily_avenir padt5">Sign up</a></li>
-	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Developer</a></li>		
-	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Business</a></li>
-		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Private</a></li>	
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt black_bg ffamily_avenir" data-en="Sign in" data-sw="Sign in">Sign in</a></li>
+	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="https://www.safeqloud.com/user/index.php/CreateAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 white_txt ffamily_avenir padt5">Sign up</a></li>
+	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Developer</a></li>		
+	 <li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Business</a></li>
+		<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 white_txt   ffamily_avenir padt5">Private</a></li>	
 
 	
 					</ul>
@@ -134,7 +134,7 @@
 							<ul class="menulist sf-menu fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="lgn_hight_s1  padl10 fsz25 sf-with-ul white_txt">Qloud ID
+									<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="lgn_hight_s1  padl10 fsz25 sf-with-ul white_txt">Qloud ID
 </a>
 								</li>
 								
@@ -209,7 +209,7 @@
 				<label class="dblock fsz12 fleft">
 				  <span class="marl5 fsz16 xs-fsz16 valm ">Hj&auml;lp</span> </label>
 				</div>
-				<div class="tw_clmn padl10 talr lgn_hight_18 fsz16 wi_70"> <a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng">Cancel</a> </div>
+				<div class="tw_clmn padl10 talr lgn_hight_18 fsz16 wi_70"> <a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng">Cancel</a> </div>
 				</div>
 						</div>
 			 

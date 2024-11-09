@@ -122,7 +122,7 @@
 
 						<div class="padtb20 xxs-talc talc">
 								
-								<a href="https://www.qloudid.com/user/index.php/ConnectKin/welcomeKin"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
+								<a href="https://www.safeqloud.com/user/index.php/ConnectKin/welcomeKin"><button type="button"  class="padrl20 forword hei_55p fsz18 trn t_67cff7_bg  ffamily_avenir">Close</button></a>
 								
 							</div>
 									

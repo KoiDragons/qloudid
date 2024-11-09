@@ -479,7 +479,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -596,9 +596,9 @@
 						$rsultId=$stmt->insert_id;
 						$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 						$to      = $row_request['email'];
-						$subject = "Qloudid : Request to access your details";
+						$subject = "safeqloud : Request to access your details";
 						
-						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 						sendEmail($subject, $to, $emailContent);
 						
 						$stmt->close();
@@ -652,9 +652,9 @@
 					//echo $rsultId; die;
 					$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt->close();
@@ -702,9 +702,9 @@
 					//echo $rsultId; die;
 					$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt = $dbCon->prepare("select country_code,phone_number  from user_profiles left join phone_country_code on phone_country_code.country_name=user_profiles.country_phone where user_profiles.user_logins_id=?");
@@ -718,7 +718,7 @@
 					$phone='+'.trim($row_phone['country_code']).''.trim($row_phone['phone_number']);
 					$subject='Informationen om din vän/anhörig';
 					$to=$phone;
-					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.qloudid.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.safeqloud.com/user/index.php/PublicUserRequest/requestAccount/'.$enc;
 					//echo $html.' '.$to;
 					$res=sendSms($subject, $to, $html);
 					$stmt->close();
@@ -1597,7 +1597,7 @@
 						{
 							$to = $row_c['company_email'];
 							$subject = "Telezales - Employee Request";
-							$emailContent =$username['name'].'  is requesting for an employee profile page for '.$row_c['company_name'].'. To approve/reject click on following link :<a href="https://www.qloudid.com/company/index.php/EmployeeRequest/locationShow/'.$c_id.'">Click here</a>';
+							$emailContent =$username['name'].'  is requesting for an employee profile page for '.$row_c['company_name'].'. To approve/reject click on following link :<a href="https://www.safeqloud.com/company/index.php/EmployeeRequest/locationShow/'.$c_id.'">Click here</a>';
 							$from = "admin@telezales.com";
 							$headers = "MIME-Version: 1.0 \r\n";
 							$headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
@@ -1612,7 +1612,7 @@
 					{
 						$to = $username['email'];
 						$subject = "Telezales - Employee Approval/Rejection";
-						$emailContent ='Your are already a employee of the same company and click following link to view your employee profile page:<a href="https://www.qloudid.com/user_company_detail.php?id='.$c_id.'">Click here</a>';
+						$emailContent ='Your are already a employee of the same company and click following link to view your employee profile page:<a href="https://www.safeqloud.com/user_company_detail.php?id='.$c_id.'">Click here</a>';
 						$from = "admin@telezales.com";
 						$headers = "MIME-Version: 1.0 \r\n";
 						$headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";

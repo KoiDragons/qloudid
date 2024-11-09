@@ -254,9 +254,9 @@ img {vertical-align: middle;}
 		<div class="top_menu frighti padt20 padb10 hidden-xs">
 				<ul class="menulist sf-menu  fsz16  sf-js-enabled sf-arrows">
 					<li class="hidden-xs padr10 first">
-						<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
 					</li>
-				 	<li class="hidden-xs padr10"><a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18"><span class="black_txt fas fa-user" aria-hidden="true"></span></a>
+				 	<li class="hidden-xs padr10"><a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18"><span class="black_txt fas fa-user" aria-hidden="true"></span></a>
           <ul style="display: none;">
             <li class="hidden-xs first last">
               <div class="top_arrow"></div>
@@ -540,20 +540,20 @@ img {vertical-align: middle;}
 <div class="_3BTBTVOM" data-test-target="hero-gallery">
 <div class="_2tXernB8">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.qloudid.com/html/usercontent/images/bg/hotel4.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.safeqloud.com/html/usercontent/images/bg/hotel4.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
 <div class="_2zxhF-Tt">
 <div class="OI7TZU7N">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.qloudid.com/html/usercontent/images/bg/hotel5.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.safeqloud.com/html/usercontent/images/bg/hotel5.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
 <div class="_2busJ7MM">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.qloudid.com/html/usercontent/images/bg/hotel6.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.safeqloud.com/html/usercontent/images/bg/hotel6.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>

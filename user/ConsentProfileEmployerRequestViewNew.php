@@ -33,8 +33,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
     
      
-    <link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/constructor.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://www.qloudid.com/html/usercontent/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/constructor.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.safeqloud.com/html/usercontent/responsive.css" />
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
@@ -171,7 +171,7 @@
 				}
 				function changeHeader()
 				{
-					window.location.href ="https://www.qloudid.com/company/index.php/EmployeeDetail/employeePersonalAccount/<?php echo $data['cid']; ?>/<?php echo $data['eid']; ?>";
+					window.location.href ="https://www.safeqloud.com/company/index.php/EmployeeDetail/employeePersonalAccount/<?php echo $data['cid']; ?>/<?php echo $data['eid']; ?>";
 				}
 			
 		</script>
@@ -181,7 +181,7 @@
  
 <header class="header js-header authorization xs-padt24" style="height:93px;  padding: 22px 0 22px !important;/* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center">
-<a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" style="
+<a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" style="
    /* background-color: #E91E63;*/
    padding: 10px;
    color: #f67f00;
@@ -196,7 +196,7 @@
 
 <div class="header__body js-header-body">
 <div class="header__menu"> 
-<a class="header__link" href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout">
+<a class="header__link" href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout">
 <svg class="icon icon-email">
 <use xlink:href="#icon-email"></use>
 </svg>Logout</a></div>
@@ -348,7 +348,7 @@
 
 		 
 
-			<a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="header__item " style="margin-left:0px;"><div class="header__item_language js-header-item" style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Logout</button>
 
 </div></a>

@@ -66,7 +66,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						success: function(data1){
 							if(data1==1)
 							{
-								window.location.href ="https://www.qloudid.com/user/index.php/Brand/productPageAccess/<?php echo $data['cid']; ?>/<?php echo $data['aid']; ?>";
+								window.location.href ="https://www.safeqloud.com/user/index.php/Brand/productPageAccess/<?php echo $data['cid']; ?>/<?php echo $data['aid']; ?>";
 							}
 							else
 							{
@@ -96,7 +96,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-				<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10 brdr_new" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10 brdr_new" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 			<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -361,7 +361,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-clock-o"></span></div>
 						<span>One time</span>
 					</a>
-					<a href="https://www.qloudid.com/user/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-file-text-o"></span></div>
 						<span>Ongoing</span>
 					</a>
@@ -373,11 +373,11 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 							</div>
 						</a>
 					</div>
-					<a href="https://www.qloudid.com/user/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_40 xxs-lgn_hight_28 fsz32 xxs-fsz24"><span class="fa fa-image"></span></div>
 						<span>Store it</span>
 					</a>
-					<a href="https://www.qloudid.com/user/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
+					<a href="https://www.safeqloud.com/user/index.php/Brand/brandAccount/<?php echo $data['cid']; ?>" class="padtb5 dark_grey_txt dblue_txt_h">
 						<div class="hei_40p xxs-hei_30p talc lgn_hight_26 xxs-lgn_hight_20 fsz32 xxs-fsz24">
 							<span class="fa fa-file-text-o"></span>
 						</div>
@@ -403,7 +403,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						</a>
 					</li>
 					<li class="dblock mar0 padrl15 brdb_new">
-						<a href="https://www.qloudid.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
+						<a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="wi_100 minhei_50p dflex alit_c dark_grey_txt">
 							<span class="fa fa-sticky-note wi_20p marr10 talc fsz18"></span>
 							Inform relatives
 						</a>

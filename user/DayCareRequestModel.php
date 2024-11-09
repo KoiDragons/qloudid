@@ -882,7 +882,7 @@
 			
 			if($dependent['is_ssn_available']==0)
 			{
-			$email=$_POST['id_number'].'@qloudid.com';
+			$email=$_POST['id_number'].'@safeqloud.com';
 			$stmt = $dbCon->prepare("update dependents set ssn=?,email=? where id=?");
 			$stmt->bind_param("ssi",$_POST['id_number'],$email,$child_id);
 			$stmt->execute();	
@@ -914,7 +914,7 @@
 			if($_POST['is_ssn_available']==1)
 			{
 			$_POST['social_number']=$_POST['social_number'];
-			$email=$_POST['social_number'].'@qloudid.com';
+			$email=$_POST['social_number'].'@safeqloud.com';
 			}
 			else
 			{
@@ -926,7 +926,7 @@
 				$result = $stmt->get_result();
 				$row = $result->fetch_assoc();	
 				$_POST['social_number']=$row['passport_number'];
-				$email=$row['passport_number'].'@qloudid.com';
+				$email=$row['passport_number'].'@safeqloud.com';
 			}
 			
 			
@@ -2118,7 +2118,7 @@
 			if(empty($rowD))
 			{
 				$st=1;
-				$email=$row_child['social_number'].'@qloudid.com';
+				$email=$row_child['social_number'].'@safeqloud.com';
 				
 			$stmt = $dbCon->prepare("insert into dependents(dependent_type,first_name,last_name,ssn,created_by,created_on,email,country_id,is_approved)
 			values(?,?,?,?,?,now(),?,?,?)");

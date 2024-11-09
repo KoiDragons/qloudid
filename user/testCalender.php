@@ -65,7 +65,7 @@
 	 </head>
 	 <body class=" "  >
 <header class="header js-header authorization xs-padt24" style="border-bottom: 1px solid #353945;box-shadow: inset 0 -1px 0 0 #23262F;">
-<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.qloudid.com/user/index.php/LoginAccount" style="
+<div class="header__center center"><a class="header__logo xs-fsz20 " href="https://www.safeqloud.com/user/index.php/LoginAccount" style="
     background-color: #3B71FE;
     padding: 10px;
     color: white;
@@ -104,18 +104,18 @@
 
 		
 
-			<a href="https://www.qloudid.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
+			<a href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" class="header__item "><div class=" header__item_language js-header-item " style="border-left: 0px solid !important;">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Business</button>
 
 </div></a>
-<a href="https://www.qloudid.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
+<a href="https://www.safeqloud.com/public/index.php/PublicDocumentationSoftware/loginApiInfo" class="header__item " style="margin-left:10px;"><div class=" header__item_language js-header-item " style="border-left: 0px solid !important; ">
 <button class="header__head js-header-head fsz16 hidden-xs changedText">Developer</button>
 
 </div></a>
 
 <a class="button button-stroke button-small header__button    fsz16 visible-xs hidden changedText" href="#" style="border:2px solid #333; padding-top:10px;">Vacant position</a>
 
-			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.qloudid.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
+			<a class="button button-stroke button-small header__button fsz16 xxs-mart10 changedText" href="https://www.safeqloud.com/user/index.php/LoginAccount/loginapp" style=" border:2px solid #333; ">Sign in</a>
 			
 </div>
 

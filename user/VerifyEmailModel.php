@@ -75,11 +75,11 @@ class VerifyEmailModel extends AppModel
                 </div></td>
             </tr>
             <tr>
-              <td align="left" valign="top" scope="col"><a href="https://www.qloudid.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'] . '" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Confirm Now</a></td>
+              <td align="left" valign="top" scope="col"><a href="https://www.safeqloud.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'] . '" style="display:inline-block; padding:20px 35px; font-weight:bold; color:#FFF; background-color:#6ab743; text-decoration:none; border-radius:3px; -webkit-border-radius:3px; ">Confirm Now</a></td>
             </tr>
             <tr>
               <td align="left" valign="top" scope="col"><div style="font-size:14px;">If the button is not working then copy/paste the link in your browser to confirm your registration <br />
-                  <a href="#" style="text-decoration:none; color:#3691c0;">https://www.qloudid.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'] . ' </a></div></td>
+                  <a href="#" style="text-decoration:none; color:#3691c0;">https://www.safeqloud.com/user/index.php/Activation/activateAccount/' . $data['email'] . '/' . $data['random_hash'] . ' </a></div></td>
             </tr>
             
             <tr>

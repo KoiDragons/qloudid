@@ -206,7 +206,7 @@
 									</div>
 									 
 									 <div class="clear"></div>
-										<div class="css-zp5g9l mart10 tall"><div class="css-1jcail2"><div data-testid="did-you-know-pet-friendly" class="css-1miy8fb"><img role="presentation" src="https://www.qloudid.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn"><div class="css-1ai2sgr">Qloud ID will not collect this tax on your behalf. You are responsible for collecting this tax from guests.</div></div></div></div> 
+										<div class="css-zp5g9l mart10 tall"><div class="css-1jcail2"><div data-testid="did-you-know-pet-friendly" class="css-1miy8fb"><img role="presentation" src="https://www.safeqloud.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn"><div class="css-1ai2sgr">Qloud ID will not collect this tax on your behalf. You are responsible for collecting this tax from guests.</div></div></div></div> 
 										 
 					 
 					 

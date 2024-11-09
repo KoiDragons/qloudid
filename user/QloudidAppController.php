@@ -1,8 +1,8 @@
 <?php
-include 'QloudidAppModel.php';
+include 'safeqloudAppModel.php';
 require_once '../configs/utility.php';
 
-class QloudidAppController
+class safeqloudAppController
 {		
 
 		public static function getServiceInvoiceDetail()
@@ -11,7 +11,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getServiceInvoiceDetail    = $model1->getServiceInvoiceDetail($data);
 				$dataOut=json_encode($getServiceInvoiceDetail,true);
 				echo  $dataOut;
@@ -24,7 +24,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateServiceInvoicePaymentDetail    = $model1->updateServiceInvoicePaymentDetail($data);
 				echo  $updateServiceInvoicePaymentDetail;
 				die;  
@@ -35,7 +35,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addProfessionalCompanyService    = $model1->addProfessionalCompanyService($data);
 				echo  $addProfessionalCompanyService;
 				die;  
@@ -45,7 +45,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateLanguageAvailable    = $model1->updateLanguageAvailable($data);
 				echo  $updateLanguageAvailable;
 				die;  
@@ -56,7 +56,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$suportedLanguagesList    = $model1->suportedLanguagesList($data);
 				$dataOut=json_encode($suportedLanguagesList,true);
 				echo  $dataOut;
@@ -68,7 +68,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateArea    = $model1->updateArea($data);
 				echo  $updateArea;
 				die;  
@@ -79,7 +79,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedAreaDetail    = $model1->selectedAreaDetail($data);
 				$dataOut=json_encode($selectedAreaDetail,true);
 				echo  $dataOut;
@@ -90,7 +90,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$companyMarketplaceList    = $model1->companyMarketplaceList($data);
 				$dataOut=json_encode($companyMarketplaceList,true);
 				echo  $dataOut;
@@ -102,7 +102,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$companyMarketplaceProfessionalCategoryDetail    = $model1->companyMarketplaceProfessionalCategoryDetail($data);
 				$dataOut=json_encode($companyMarketplaceProfessionalCategoryDetail,true);
 				echo  $dataOut;
@@ -114,7 +114,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$companyMarketplaceServiceDetail    = $model1->companyMarketplaceServiceDetail($data);
 				$dataOut=json_encode($companyMarketplaceServiceDetail,true);
 				echo  $dataOut;
@@ -126,7 +126,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$companyMarketplacePricingDetail    = $model1->companyMarketplacePricingDetail($data);
 				$dataOut=json_encode($companyMarketplacePricingDetail,true);
 				echo  $dataOut;
@@ -138,7 +138,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$professionalTodoUpdate    = $model1->professionalTodoUpdate($data);
 				echo  $professionalTodoUpdate;
 				die;  
@@ -149,7 +149,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCategoryServiceTodo    = $model1->updateCategoryServiceTodo($data);
 				echo  $updateCategoryServiceTodo;
 				die;  
@@ -160,7 +160,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$companyInformation    = $model1->companyInformation($data);
 				$dataOut=json_encode($companyInformation,true);
 				echo  $dataOut;
@@ -172,7 +172,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$getProfessionalServiceCompanies    = $model1->getProfessionalServiceCompanies($data);
 				$dataOut=json_encode($getProfessionalServiceCompanies,true);
 				echo  $dataOut;
@@ -182,7 +182,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../configs/smsMandril.php');
 				$sendVerificationCode    = $model1->sendVerificationCode($data);
 				echo  $sendVerificationCode;
@@ -194,7 +194,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$updateOwnerCheckinInfo    = $model1->checkinAparmentOwner($data);
 				echo  $updateOwnerCheckinInfo;
 				die;    
@@ -204,7 +204,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$getProfessionalBookingServices    = $model1->getProfessionalBookingServices($data);
 				$dataOut=json_encode($getProfessionalBookingServices,true);
 				echo  $dataOut;
@@ -215,7 +215,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$companyDetail    = $model1->companyDetail($data);
 				$dataOut=json_encode($companyDetail,true);
 				echo  $dataOut;
@@ -226,7 +226,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictsSelectedServiceInfo    = $model1->dstrictsSelectedServiceInfo($data);
 				$dataOut=json_encode($dstrictsSelectedServiceInfo,true);
 				echo  $dataOut;
@@ -237,7 +237,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$cleaningExtraInclusion    = $model1->cleaningExtraInclusion($data);
 				$dataOut=json_encode($cleaningExtraInclusion,true);
 				echo  $dataOut;
@@ -248,7 +248,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$homeRepairProblemCategoryDetail    = $model1->homeRepairProblemCategoryDetail($data);
 				$dataOut=json_encode($homeRepairProblemCategoryDetail,true);
 				echo  $dataOut;
@@ -259,7 +259,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$homeRepairProblemSubCategoryDetail    = $model1->homeRepairProblemSubCategoryDetail($data);
 				$dataOut=json_encode($homeRepairProblemSubCategoryDetail,true);
 				echo  $dataOut;
@@ -270,7 +270,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$selectedHomeProblemSubpartId    = $model1->selectedHomeProblemSubpartId($data);
 				$dataOut=json_encode($selectedHomeProblemSubpartId,true);
 				echo  $dataOut;
@@ -280,7 +280,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$getSubcategoryIssue    = $model1->getSubcategoryIssue($data);
 				 
 				echo  $getSubcategoryIssue;
@@ -290,7 +290,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$selectedCategoryProblemsInfo    = $model1->selectedCategoryProblemsInfo($data);
 				$dataOut=json_encode($selectedCategoryProblemsInfo,true);
 				echo  $dataOut;
@@ -301,7 +301,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$addProfessionalServiceHomeCleaningRequest    = $model1->addProfessionalServiceHomeCleaningRequest($data);
 				echo  $addProfessionalServiceHomeCleaningRequest;
 				die;    
@@ -311,7 +311,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$addProfessionalHomeRepairRequest    = $model1->addProfessionalHomeRepairRequest($data);
 				echo  $addProfessionalHomeRepairRequest;
 				die;    
@@ -321,7 +321,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$commonTicketRequest    = $model1->commonTicketRequest($data);
 				echo  $commonTicketRequest;
 				die;    
@@ -331,7 +331,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$addProfessionalServiceRequest    = $model1->addProfessionalServiceRequest($data);
 				echo  $addProfessionalServiceRequest;
 				die;    
@@ -341,7 +341,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$addProfessionalServiceWindowCleaningRequest    = $model1->addProfessionalServiceWindowCleaningRequest($data);
 				echo  $addProfessionalServiceWindowCleaningRequest;
 				die;    
@@ -351,7 +351,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$getProfessionalBookingFilteredServices    = $model1->getProfessionalBookingFilteredServices($data);
 				$dataOut=json_encode($getProfessionalBookingFilteredServices,true);
 				echo  $dataOut;
@@ -363,7 +363,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$bookingProfessionalSubCategoryList    = $model1->bookingProfessionalSubCategoryList($data);
 				$dataOut=json_encode($bookingProfessionalSubCategoryList,true);
 				echo  $dataOut;
@@ -374,7 +374,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$bookingServicesProfessionalCategoryList    = $model1->bookingServicesProfessionalCategoryList($data);
 				$dataOut=json_encode($bookingServicesProfessionalCategoryList,true);
 				echo  $dataOut;
@@ -385,7 +385,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$professionalSelectedDomainDetail    = $model1->professionalSelectedDomainDetail($data);
 				$dataOut=json_encode($professionalSelectedDomainDetail,true);
 				echo  $dataOut;
@@ -396,7 +396,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$bookingServicesLocationList    = $model1->bookingServicesLocationList($data);
 				$dataOut=json_encode($bookingServicesLocationList,true);
 				echo  $dataOut;
@@ -406,7 +406,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictResturantTableAvailable    = $model1->dstrictResturantTableAvailable($data);
 				$dataOut=json_encode($dstrictResturantTableAvailable,true);
 				echo  $dataOut;
@@ -417,7 +417,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictRequestTableBooking    = $model1->dstrictRequestTableBooking($data);
 				$dataOut=json_encode($dstrictRequestTableBooking,true);
 				echo  $dataOut;
@@ -429,7 +429,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictRequestBookTable    = $model1->dstrictRequestBookTable($data);
 				$dataOut=json_encode($dstrictRequestBookTable,true);
 				echo  $dataOut;
@@ -440,7 +440,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictResturantWorkInfo    = $model1->resturantWorkInfo($data);
 				$dataOut=json_encode($dstrictResturantWorkInfo,true);
 				echo  $dataOut;
@@ -450,7 +450,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictDinningHallList    = $model1->resturantDiningHall($data);
 				$dataOut=json_encode($dstrictDinningHallList,true);
 				echo  $dataOut;
@@ -460,7 +460,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictListNearByResturant    = $model1->dstrictListNearByResturant($data);
 				$dataOut=json_encode($dstrictListNearByResturant,true);
 				echo  $dataOut;
@@ -471,7 +471,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictFilterNearByResturant    = $model1->dstrictFilterNearByResturant($data);
 				$dataOut=json_encode($dstrictFilterNearByResturant,true);
 				echo  $dataOut;
@@ -481,7 +481,7 @@ class QloudidAppController
 		
 		public static function dstrictProfessionalSubCategoryDetailAreaBased()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$dstrictProfessionalSubCategoryDetailAreaBased    = $model1->dstrictProfessionalSubCategoryDetailAreaBased();
 				$dataOut=json_encode($dstrictProfessionalSubCategoryDetailAreaBased,true);
 				echo  $dataOut;
@@ -492,7 +492,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictProfessionalNonbookableRequest    = $model1->dstrictProfessionalNonbookableRequest($data);
 				echo  $dstrictProfessionalNonbookableRequest;
 				die;  
@@ -502,7 +502,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictProfessionalServiceRequestList    = $model1->dstrictProfessionalServiceRequestList($data);
 				$dataOut=json_encode($dstrictProfessionalServiceRequestList,true);
 				echo  $dataOut;
@@ -512,7 +512,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictProfessionalBookableRequest    = $model1->dstrictProfessionalBookableRequest($data);
 				echo  $dstrictProfessionalBookableRequest;
 				die;  
@@ -521,7 +521,7 @@ class QloudidAppController
 		{
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictProfessionalCompanyList    = $model1->dstrictBookingPrivateCalenderInfo($data);
 				$dataOut=json_encode($dstrictProfessionalCompanyList,true);
 				echo  $dataOut;
@@ -533,7 +533,7 @@ class QloudidAppController
 			 
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 				$dstrictBookingOpenCalenderInfo    = $model1->dstrictBookingOpenCalenderInfo($data);
 				$dataOut=json_encode($dstrictBookingOpenCalenderInfo,true);
 				echo  $dataOut;
@@ -543,7 +543,7 @@ class QloudidAppController
 		
 		 public static function dstrictProfessionalCompanyList()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$dstrictProfessionalCompanyList    = $model1->dstrictProfessionalCompanyList();
 				$dataOut=json_encode($dstrictProfessionalCompanyList,true);
 				echo  $dataOut;
@@ -551,7 +551,7 @@ class QloudidAppController
 		}
 		public static function dstrictProfessionalCompanyServiceList()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$dstrictProfessionalCompanyServiceList    = $model1->dstrictProfessionalCompanyServiceList();
 				$dataOut=json_encode($dstrictProfessionalCompanyServiceList,true);
 				echo  $dataOut;
@@ -560,7 +560,7 @@ class QloudidAppController
 		
 		public static function dstrictProfessionalCompanyEmployeeList()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$dstrictProfessionalCompanyEmployeeList    = $model1->dstrictProfessionalCompanyEmployeeList();
 				$dataOut=json_encode($dstrictProfessionalCompanyEmployeeList,true);
 				echo  $dataOut;
@@ -568,7 +568,7 @@ class QloudidAppController
 		}
 		public static function dstrictProfessionalCategoryDetailAreaBased()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$dstrictProfessionalCategoryDetailAreaBased    = $model1->dstrictProfessionalCategoryDetailAreaBased();
 				$dataOut=json_encode($dstrictProfessionalCategoryDetailAreaBased,true);
 				echo  $dataOut;
@@ -577,7 +577,7 @@ class QloudidAppController
 		
 		public static function selectedProfessionalCategoryDetailInfo()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedProfessionalCategoryDetailInfo    = $model1->selectedProfessionalCategoryDetailInfo();
 				$dataOut=json_encode($selectedProfessionalCategoryDetailInfo,true);
 				echo  $dataOut;
@@ -585,7 +585,7 @@ class QloudidAppController
 		}
 		public static function selectedProfessionalSubCategoryDetailInfo()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedProfessionalSubCategoryDetailInfo    = $model1->selectedProfessionalSubCategoryDetailInfo();
 				$dataOut=json_encode($selectedProfessionalSubCategoryDetailInfo,true);
 				echo  $dataOut;
@@ -593,7 +593,7 @@ class QloudidAppController
 		}
 		public static function jobReviewDetail()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$jobReviewDetail    = $model1->jobReviewDetail();
 				$dataOut=json_encode($jobReviewDetail,true);
 				echo  $dataOut;
@@ -604,7 +604,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getTicketSubTitleIssueInfo    = $model1->getTicketSubTitleIssueInfo($data);
 				$dataOut=json_encode($getTicketSubTitleIssueInfo,true);
 				echo  $dataOut;
@@ -615,7 +615,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
@@ -628,7 +628,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$propertyDetail    = $model1->propertyDetail($data);
 				$dataOut=json_encode($propertyDetail,true);
 				echo  $dataOut;
@@ -639,7 +639,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$employeeProfessionalServiceProposalsDates    = $model1->employeeProfessionalServiceProposalsDates($data);
 				$dataOut=json_encode($employeeProfessionalServiceProposalsDates,true);
 				echo  $dataOut;
@@ -650,7 +650,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$employeeProfessionalServiceProposals    = $model1->employeeProfessionalServiceProposals($data);
 				$dataOut=json_encode($employeeProfessionalServiceProposals,true);
 				echo  $dataOut;
@@ -661,7 +661,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
@@ -674,7 +674,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
@@ -687,7 +687,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userProperty    = $model1->userProperty($data);
 				$dataOut=json_encode($userProperty,true);
 				echo  $dataOut;
@@ -698,7 +698,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$companyListSearch    = $model1->companyListSearch($data);
 				$dataOut=json_encode($companyListSearch,true);
 				echo  $dataOut;
@@ -709,7 +709,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateTicketCategoryAmenities    = $model1->updateTicketCategoryAmenities($data);
 				echo  $updateTicketCategoryAmenities;
 				die;  
@@ -720,7 +720,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateTicketSubcategory    = $model1->updateTicketSubcategory($data);
 				echo  $updateTicketSubcategory;
 				die;  
@@ -730,7 +730,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateAminitySubcategory    = $model1->updateAminitySubcategory($data);
 				echo  $updateAminitySubcategory;
 				die;  
@@ -740,7 +740,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$categoryInfo    = $model1->categoryInfo($data);
 				$dataOut=json_encode($categoryInfo,true);
 				echo  $dataOut;
@@ -751,7 +751,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$amenitiesSubcategoryDetail    = $model1->amenitiesSubcategoryDetail($data);
 				$dataOut=json_encode($amenitiesSubcategoryDetail,true);
 				echo  $dataOut;
@@ -762,7 +762,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$requestedContactDetail    = $model1->requestedContactDetail($data);
 				$dataOut=json_encode($requestedContactDetail,true);
 				echo  $dataOut;
@@ -773,7 +773,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$approveConnectApartmentRequest    = $model1->approveConnectApartmentRequest($data);
 				echo  $approveConnectApartmentRequest;
 				die;  
@@ -783,7 +783,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$rejectConnectApartmentRequest    = $model1->rejectConnectApartmentRequest($data);
 				echo  $rejectConnectApartmentRequest;
 				die;  
@@ -793,7 +793,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentConnectRequestReceived    = $model1->apartmentConnectRequestReceived($data);
 				$dataOut=json_encode($apartmentConnectRequestReceived,true);
 				echo  $dataOut;
@@ -805,7 +805,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentConnectRequestRejected    = $model1->apartmentConnectRequestRejected($data);
 				$dataOut=json_encode($apartmentConnectRequestRejected,true);
 				echo  $dataOut;
@@ -816,7 +816,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getAvailableApartment    = $model1->getAvailableApartment($data);
 				$dataOut=json_encode($getAvailableApartment,true);
 				echo  $dataOut;
@@ -829,7 +829,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkValidEmails    = $model1->checkValidEmails($data);
 				$dataOut=json_encode($checkValidEmails,true);
 				echo  $dataOut;
@@ -842,7 +842,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addNewContactInfo    = $model1->addNewContactInfo($data);
 				echo  $addNewContactInfo;
 				die;  
@@ -853,7 +853,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkValidPhoneNumbers    = $model1->checkValidPhoneNumbers($data);
 				$dataOut=json_encode($checkValidPhoneNumbers,true);
 				echo  $dataOut;
@@ -864,7 +864,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$createUserApartmentTicket    = $model1->createUserApartmentTicket($data);
 				echo  $createUserApartmentTicket;
 				die;  
@@ -874,7 +874,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addUserApartmentTicketImage    = $model1->addUserApartmentTicketImage($data);
 				echo  $addUserApartmentTicketImage;
 				die;  
@@ -885,7 +885,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentTicketList    = $model1->userApartmentTicketList($data);
 				$dataOut=json_encode($userApartmentTicketList,true);
 				echo  $dataOut;
@@ -897,7 +897,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=$_POST;
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentTicketList    = $model1->userApartmentTicketList($data);
 				$dataOut=json_encode($userApartmentTicketList,true);
 				echo  $dataOut;
@@ -910,7 +910,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=$_POST;
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$homeRepairCompaniesList    = $model1->homeRepairCompaniesList($data);
 				$dataOut=json_encode($homeRepairCompaniesList,true);
 				echo  $dataOut;
@@ -921,7 +921,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentProblemDetail    = $model1->userApartmentProblemDetail($data);
 				$dataOut=json_encode($userApartmentProblemDetail,true);
 				echo  $dataOut;
@@ -933,7 +933,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=$_POST;
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentProblemDetail    = $model1->userApartmentProblemDetail($data);
 				$dataOut=json_encode($userApartmentProblemDetail,true);
 				echo  $dataOut;
@@ -945,7 +945,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=$_POST;
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentSubpartProblemDetail    = $model1->userApartmentSubpartProblemDetail($data);
 				$dataOut=json_encode($userApartmentSubpartProblemDetail,true);
 				echo  $dataOut;
@@ -960,7 +960,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentSubpartProblemDetail    = $model1->userApartmentSubpartProblemDetail($data);
 				$dataOut=json_encode($userApartmentSubpartProblemDetail,true);
 				echo  $dataOut;
@@ -974,7 +974,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userApartmentProblemDetail    = $model1->userApartmentProblemDetail($data);
 				$dataOut=json_encode($userApartmentProblemDetail,true);
 				echo  $dataOut;
@@ -985,7 +985,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$identificatorCountDetail    = $model1->identificatorCountDetail($data);
 				$dataOut=json_encode($identificatorCountDetail,true);
 				echo  $dataOut;
@@ -997,7 +997,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$identificatorList    = $model1->identificatorList($data);
 				$dataOut=json_encode($identificatorList,true);
 				echo  $dataOut;
@@ -1010,7 +1010,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentCheckedOutCleeningHistory    = $model1->apartmentCheckedOutCleeningHistory($data);
 				$dataOut=json_encode($apartmentCheckedOutCleeningHistory,true);
 				echo  $dataOut;
@@ -1023,7 +1023,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userAddressBookContactDetails    = $model1->userAddressBookContactDetails($data);
 				$dataOut=json_encode($userAddressBookContactDetails,true);
 				echo  $dataOut;
@@ -1035,7 +1035,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				 
 				if($data['is_user']==0)
 				{
@@ -1055,7 +1055,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$displayKeyPhotos    = $model1->displayKeyPhotos($data);
 				$dataOut=json_encode($displayKeyPhotos,true);
 				echo  $dataOut;
@@ -1066,7 +1066,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addApartmentKeyPhotos    = $model1->addApartmentKeyPhotos($data);
 				echo  $addApartmentKeyPhotos;
 				die;  
@@ -1076,7 +1076,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateApartmentKeyInfo    = $model1->updateApartmentKeyInfo($data);
 				echo  $updateApartmentKeyInfo;
 				die;  
@@ -1086,7 +1086,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../lib/url_shortener.php');
@@ -1099,7 +1099,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$reservationHistoryList    = $model1->reservationHistoryList($data);
 				$dataOut=json_encode($reservationHistoryList,true);
 					echo  $dataOut;
@@ -1111,7 +1111,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$cleaningJobStatusInfo    = $model1->cleaningJobStatusInfo($data);
 				$dataOut=json_encode($cleaningJobStatusInfo,true);
 					echo  $dataOut;
@@ -1123,7 +1123,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCleaningFinalStatus    = $model1->updateCleaningFinalStatus($data);
 				echo  $updateCleaningFinalStatus;
 					die;
@@ -1133,7 +1133,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$startCleaningJob    = $model1->startCleaningJob($data);
 				echo  $startCleaningJob;
 					die;
@@ -1143,7 +1143,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCleaningJobDone    = $model1->updateCleaningJobDone($data);
 				echo  $updateCleaningJobDone;
 					die;
@@ -1153,7 +1153,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$teamLeaderCleaningJobs    = $model1->teamLeaderCleaningJobs($data);
 				$dataOut=json_encode($teamLeaderCleaningJobs,true);
 					echo  $dataOut;
@@ -1165,7 +1165,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$cleaningServiceAvailableTodoDetail    = $model1->cleaningServiceAvailableTodoDetail($data);
 				$dataOut=json_encode($cleaningServiceAvailableTodoDetail,true);
 					echo  $dataOut;
@@ -1177,7 +1177,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$cleanersAssignedList    = $model1->cleanersAssignedList($data);
 				$dataOut=json_encode($cleanersAssignedList,true);
 					echo  $dataOut;
@@ -1189,7 +1189,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateDamagedRentableInfo    = $model1->updateDamagedRentableInfo($data);
 				echo  $updateDamagedRentableInfo;
 					die; 
@@ -1199,7 +1199,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$retriveUserDeliveryAddressesDetail    = $model1->retriveUserDeliveryAddressesDetail($data);
 				$dataOut=json_encode($retriveUserDeliveryAddressesDetail,true);
 					echo  $dataOut;
@@ -1211,7 +1211,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkoutApartmentGuest    = $model1->checkoutApartmentGuest($data);
 				echo  $checkoutApartmentGuest;
 					die; 
@@ -1221,7 +1221,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentCheckedinInfo    = $model1->apartmentCheckedinInfo($data);
 				$dataOut=json_encode($apartmentCheckedinInfo,true);
 					echo  $dataOut;
@@ -1233,7 +1233,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentCheckedOutInfo    = $model1->apartmentCheckedOutInfo($data);
 				$dataOut=json_encode($apartmentCheckedOutInfo,true);
 					echo  $dataOut;
@@ -1245,7 +1245,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateOwnerInfo    = $model1->updateOwnerInfo($data);
 				echo  $updateOwnerInfo;
 					die; 
@@ -1255,7 +1255,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updatePropertyStart    = $model1->updatePropertyStart($data);
 				echo  $updatePropertyStart;
 					die; 
@@ -1265,7 +1265,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentPrecheckinRequiredList    = $model1->apartmentPrecheckinRequiredList($data);
 				$dataOut=json_encode($apartmentPrecheckinRequiredList,true);
 					echo  $dataOut;
@@ -1276,7 +1276,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userIdentificationCount    = $model1->userIdentificationCount($data);
 				echo  $userIdentificationCount;
 					die; 
@@ -1287,7 +1287,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userCardsCount    = $model1->userCardsCount($data);
 				echo  $userCardsCount;
 					die; 
@@ -1303,7 +1303,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../lib/url_shortener.php');
@@ -1316,7 +1316,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../lib/url_shortener.php');
@@ -1333,7 +1333,7 @@ class QloudidAppController
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../lib/url_shortener.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$saveCompanyDetails    = $model1->saveCompanyDetails($data);
 				echo  $saveCompanyDetails;
 					die; 
@@ -1347,7 +1347,7 @@ class QloudidAppController
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				require_once('../lib/url_shortener.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$saveCompanyDetails    = $model1->sendBookingInfo($data);
 				echo  $saveCompanyDetails;
 					die; 
@@ -1360,7 +1360,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$createUser    = $model1->createUser($data);
 				$dataOut=json_encode($createUser,true);
 					echo  $dataOut;
@@ -1375,7 +1375,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkPhoneInfo    = $model1->checkPhoneInfo($data);
 				echo  $checkPhoneInfo;
 					die; 
@@ -1389,7 +1389,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkEmailInfo    = $model1->checkEmailInfo($data);
 				echo  $checkEmailInfo;
 					die; 
@@ -1402,7 +1402,7 @@ class QloudidAppController
 			   
 					$data=array();
 					$data=json_decode(file_get_contents('php://input'), true);
-					$model1       = new QloudidAppModel();
+					$model1       = new safeqloudAppModel();
 					$apartmentBookingList    = $model1->apartmentBookingList($data);
 					$dataOut=json_encode($apartmentBookingList,true);
 					echo  $dataOut;
@@ -1413,7 +1413,7 @@ class QloudidAppController
 			   
 					$data=array();
 					$data=json_decode(file_get_contents('php://input'), true);
-					$model1       = new QloudidAppModel();
+					$model1       = new safeqloudAppModel();
 					$verifyUserUsingPhoneDetail    = $model1->verifyUserUsingPhoneDetail($data);
 					$dataOut=json_encode($verifyUserUsingPhoneDetail,true);
 					echo  $dataOut;
@@ -1424,7 +1424,7 @@ class QloudidAppController
 			   
 					$data=array();
 					$data=json_decode(file_get_contents('php://input'), true);
-					$model1       = new QloudidAppModel();
+					$model1       = new safeqloudAppModel();
 					$checkAvailablityDates    = $model1->checkAvailablityDates($data);
 					echo  $checkAvailablityDates;
 					die; 
@@ -1436,7 +1436,7 @@ class QloudidAppController
 			   
 					$data=array();
 					$data=json_decode(file_get_contents('php://input'), true);
-					$model1       = new QloudidAppModel();
+					$model1       = new safeqloudAppModel();
 					require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
 				require_once('../lib/url_shortener.php');
@@ -1452,7 +1452,7 @@ class QloudidAppController
 			   
 					$data=array();
 					$data=json_decode(file_get_contents('php://input'), true);
-					$model1       = new QloudidAppModel();
+					$model1       = new safeqloudAppModel();
 					require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
 				require_once('../lib/url_shortener.php');
@@ -1470,7 +1470,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentReservationHistoryList    = $model1->apartmentReservationHistoryList($data);
 				$dataOut=json_encode($apartmentReservationHistoryList,true);
 					echo  $dataOut;
@@ -1483,7 +1483,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentReservationConfermationRequiredList    = $model1->apartmentReservationConfermationRequiredList($data);
 				$dataOut=json_encode($apartmentReservationConfermationRequiredList,true);
 					echo  $dataOut;
@@ -1494,7 +1494,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$publishApartmentonChannel    = $model1->publishApartmentonChannel($data);
 				echo  $publishApartmentonChannel;
 				die;  
@@ -1505,7 +1505,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateGetStartedPhotos    = $model1->updateGetStartedPhotos($data);
 				echo  $updateGetStartedPhotos;
 				die;  
@@ -1517,7 +1517,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$displayGetStartedPhotos    = $model1->displayGetStartedPhotos($data);
 				$dataOut=json_encode($displayGetStartedPhotos,true);
 					echo  $dataOut;
@@ -1530,7 +1530,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getBlockedDates    = $model1->getBlockedDates($data);
 				$dataOut=json_encode($getBlockedDates,true);
 					echo  $dataOut;
@@ -1541,7 +1541,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateSelectedBlocked    = $model1->updateSelectedBlocked($data);
 				echo  $updateSelectedBlocked;
 				die;  
@@ -1551,7 +1551,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateSelectedAvailable    = $model1->updateSelectedAvailable($data);
 				echo  $updateSelectedAvailable;
 				die; 
@@ -1561,7 +1561,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateGetStartedDescription    = $model1->updateGetStartedDescription($data);
 				echo  $updateGetStartedDescription;
 				die;  
@@ -1573,7 +1573,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getsratedDetail    = $model1->getsratedDetail($data);
 				$dataOut=json_encode($getsratedDetail,true);
 					echo  $dataOut;
@@ -1584,7 +1584,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateNickname    = $model1->updateNickname($data);
 				echo  $updateNickname;
 				die;  
@@ -1594,7 +1594,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateChannelPublish    = $model1->updateChannelPublish($data);
 				echo  $updateChannelPublish;
 				die;  
@@ -1604,7 +1604,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateRent    = $model1->updateRent($data);
 				echo  $updateRent;
 				die;  
@@ -1614,7 +1614,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updatePublishRentLong    = $model1->updatePublishRentLong($data);
 				echo  $updatePublishRentLong;
 				die;  
@@ -1625,7 +1625,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$changeListing    = $model1->changeListing($data);
 				echo  $changeListing;
 				die;  
@@ -1635,7 +1635,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$changeDescription    = $model1->changeDescription($data);
 				echo  $changeDescription;
 				die;  
@@ -1645,7 +1645,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateSale    = $model1->updateSale($data);
 				echo  $updateSale;
 				die;  
@@ -1655,7 +1655,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateAir    = $model1->updateAir($data);
 				echo  $updateAir;
 				die;  
@@ -1665,7 +1665,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateBookingChannel    = $model1->updateBookingChannel($data);
 				echo  $updateBookingChannel;
 				die;  
@@ -1675,7 +1675,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateExpedia    = $model1->updateExpedia($data);
 				echo  $updateExpedia;
 				die;  
@@ -1685,7 +1685,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateVrbo    = $model1->updateVrbo($data);
 				echo  $updateVrbo;
 				die;  
@@ -1695,7 +1695,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateTrip    = $model1->updateTrip($data);
 				echo  $updateTrip;
 				die;  
@@ -1705,7 +1705,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateTui    = $model1->updateTui($data);
 				echo  $updateTui;
 				die;  
@@ -1715,7 +1715,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getUserAppsDetail    = $model1->getUserAppsDetail($data);
 				$dataOut=json_encode($getUserAppsDetail,true);
 				echo  $dataOut;
@@ -1726,7 +1726,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addCurrency    = $model1->addCurrency($data);
 				echo  $addCurrency;
 				die;  
@@ -1736,7 +1736,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addPricingPeriod    = $model1->addPricingPeriod($data);
 				$dataOut=json_encode($addPricingPeriod,true);
 				echo  $dataOut;
@@ -1747,7 +1747,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$listPricing    = $model1->listPricing($data);
 				$dataOut=json_encode($listPricing,true);
 				echo  $dataOut;
@@ -1758,7 +1758,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$removePricingGap    = $model1->removePricingGap($data);
 				echo  $removePricingGap;
 				die;  
@@ -1768,7 +1768,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$timeInfo    = $model1->timeInfo($data);
 				$dataOut=json_encode($timeInfo,true);
 				echo  $dataOut;
@@ -1780,7 +1780,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$timeHouserulesInfo    = $model1->timeHouserulesInfo($data);
 				$dataOut=json_encode($timeHouserulesInfo,true);
 				echo  $dataOut;
@@ -1791,7 +1791,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateAvailable    = $model1->updateAvailable($data);
 				echo  $updateAvailable;
 				die;  
@@ -1802,7 +1802,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateBlocked    = $model1->updateBlocked($data);
 				echo  $updateBlocked;
 				die;  
@@ -1813,7 +1813,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$propertyType    = $model1->propertyType($data);
 				$dataOut=json_encode($propertyType,true);
 				echo  $dataOut;
@@ -1825,7 +1825,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$floorsInfo    = $model1->floorsInfo($data);
 				$dataOut=json_encode($floorsInfo,true);
 				echo  $dataOut;
@@ -1837,7 +1837,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updatePropertyComposition    = $model1->updatePropertyComposition($data);
 				echo  $updatePropertyComposition;
 				die;  
@@ -1848,7 +1848,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$generatePricing    = $model1->generatePricing($data);
 				echo  $generatePricing;
 				die;  
@@ -1859,7 +1859,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addPricing    = $model1->addPricing($data);
 				echo  $addPricing;
 				die;  
@@ -1870,7 +1870,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$deletePricing    = $model1->deletePricing($data);
 				echo  $deletePricing;
 				die;  
@@ -1881,7 +1881,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updatePricing    = $model1->updatePricing($data);
 				echo  $updatePricing;
 				die;  
@@ -1892,7 +1892,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$pricingDetail    = $model1->pricingDetail($data);
 				$dataOut=json_encode($pricingDetail,true);
 				echo  $dataOut;
@@ -1903,7 +1903,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateApartmentHouseRules    = $model1->updateApartmentHouseRules($data);
 				echo  $updateApartmentHouseRules;
 				die;  
@@ -1913,7 +1913,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateArrival    = $model1->updateArrival($data);
 				echo  $updateArrival;
 				die;  
@@ -1924,7 +1924,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCleening    = $model1->updateCleening($data);
 				echo  $updateCleening;
 				die;  
@@ -1936,7 +1936,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateTouristTax    = $model1->updateTouristTax($data);
 				echo  $updateTouristTax;
 				die;  
@@ -1947,7 +1947,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateSecurity    = $model1->updateSecurity($data);
 				echo  $updateSecurity;
 				die;  
@@ -1958,7 +1958,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateBooking    = $model1->updateBooking($data);
 				echo  $updateBooking;
 				die;  
@@ -1969,7 +1969,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$displayPhotos    = $model1->displayPhotos($data);
 				$dataOut=json_encode($displayPhotos,true);
 				echo  $dataOut;
@@ -1980,7 +1980,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addApartmentPhotos    = $model1->addApartmentPhotos($data);
 				echo  $addApartmentPhotos;
 				die;  
@@ -1990,7 +1990,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateDescription    = $model1->updateDescription($data);
 				echo  $updateDescription;
 				die;  
@@ -2003,7 +2003,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$deleteApartmentPhoto    = $model1->deleteApartmentPhoto($data);
 				echo  $deleteApartmentPhoto;
 				die;  
@@ -2014,7 +2014,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateHeading    = $model1->updateHeading($data);
 				echo  $updateHeading;
 				die;  
@@ -2025,7 +2025,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateOtherRoomInfo    = $model1->updateOtherRoomInfo($data);
 				echo  $updateOtherRoomInfo;
 				die;  
@@ -2037,7 +2037,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$reviewUserAddress    = $model1->reviewUserAddress($data);
 				echo  $reviewUserAddress;
 				die;  
@@ -2049,7 +2049,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateApartmentWifi    = $model1->updateApartmentWifi($data);
 				echo  $updateApartmentWifi;
 				die;  
@@ -2060,7 +2060,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$OtherRoomInfo    = $model1->OtherRoomInfo($data);
 				$dataOut=json_encode($OtherRoomInfo,true);
 				echo  $dataOut;
@@ -2073,7 +2073,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$travelAppAvailableSos    = $model1->travelAppAvailableSos($data);
 				$dataOut=json_encode($travelAppAvailableSos,true);
 				echo  $dataOut;
@@ -2085,7 +2085,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$travelAppCompany    = $model1->travelAppCompany($data);
 				$dataOut=json_encode($travelAppCompany,true);
 				echo  $dataOut;
@@ -2098,7 +2098,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$kinsList    = $model1->kinsList($data);
 				$dataOut=json_encode($kinsList,true);
 				echo  $dataOut;
@@ -2109,7 +2109,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$missingPersonList    = $model1->missingPersonList($data);
 				$dataOut=json_encode($missingPersonList,true);
 				echo  $dataOut;
@@ -2121,7 +2121,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$missingPersonEmergencyList    = $model1->missingPersonEmergencyList($data);
 				$dataOut=json_encode($missingPersonEmergencyList,true);
 				echo  $dataOut;
@@ -2133,7 +2133,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$reportPersonFound    = $model1->reportPersonFound($data);
 				echo  $reportPersonFound;
 				die;  
@@ -2145,7 +2145,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addMissingPersonInfo    = $model1->addMissingPersonInfo($data);
 				echo  $addMissingPersonInfo;
 				die;  
@@ -2156,7 +2156,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateNotificationRequirement    = $model1->updateNotificationRequirement($data);
 				echo  $updateNotificationRequirement;
 				die;  
@@ -2167,7 +2167,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addMissingPersonImages    = $model1->addMissingPersonImages($data);
 				echo  $addMissingPersonImages;
 				die;  
@@ -2179,7 +2179,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$travelAppCompanyLocations    = $model1->travelAppCompanyLocations($data);
 				$dataOut=json_encode($travelAppCompanyLocations,true);
 				echo  $dataOut;
@@ -2190,7 +2190,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$approveTenantRequest    = $model1->approveTenantRequest($data);
 				echo  $approveTenantRequest;
 				die;  
@@ -2200,7 +2200,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$rejectTenantRequest    = $model1->rejectTenantRequest($data);
 				echo  $rejectTenantRequest;
 				die;  
@@ -2210,7 +2210,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$receivedRequestDetailTenants    = $model1->receivedRequestDetailTenants($data);
 				$dataOut=json_encode($receivedRequestDetailTenants,true);
 				echo  $dataOut;
@@ -2221,7 +2221,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentBuildingParkings    = $model1->apartmentBuildingParkings($data);
 				$dataOut=json_encode($apartmentBuildingParkings,true);
 				echo  $dataOut;
@@ -2232,7 +2232,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$buildingParkingAvailable    = $model1->buildingParkingAvailable($data);
 				echo  $buildingParkingAvailable;
 				die; 
@@ -2242,7 +2242,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentBuildingAmenities    = $model1->apartmentBuildingAmenities($data);
 				$dataOut=json_encode($apartmentBuildingAmenities,true);
 				echo  $dataOut;
@@ -2253,7 +2253,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$buildingSelectedParkingInfo    = $model1->buildingSelectedParkingInfo($data);
 				$dataOut=json_encode($buildingSelectedParkingInfo,true);
 				echo  $dataOut;
@@ -2265,7 +2265,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$buildingSelectedAmenitiesInfo    = $model1->buildingSelectedAmenitiesInfo($data);
 				$dataOut=json_encode($buildingSelectedAmenitiesInfo,true);
 				echo  $dataOut;
@@ -2279,7 +2279,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentCommunityParkings    = $model1->apartmentCommunityParkings($data);
 				$dataOut=json_encode($apartmentCommunityParkings,true);
 					echo  $dataOut;
@@ -2293,7 +2293,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$currentCountryDetail    = $model1->currentCountryDetail($data);
 				$dataOut=json_encode($currentCountryDetail,true);
 					echo  $dataOut;
@@ -2307,7 +2307,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$communitySelectedAmenitiesInfo    = $model1->communitySelectedAmenitiesInfo($data);
 				$dataOut=json_encode($communitySelectedAmenitiesInfo,true);
 					echo  $dataOut;
@@ -2321,7 +2321,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$communitySelectedAmenitiesRulesInfo    = $model1->communitySelectedAmenitiesRulesInfo($data);
 				$dataOut=json_encode($communitySelectedAmenitiesRulesInfo,true);
 					echo  $dataOut;
@@ -2337,7 +2337,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyOtpDetail    = $model1->verifyOtpDetail($data);
 				 
 					echo  $verifyOtpDetail;
@@ -2351,7 +2351,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userCountrySummary    = $model1->userCountrySummary($data);
 				echo  $userCountrySummary;
 					die; 
@@ -2364,7 +2364,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 require_once('../configs/smsMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkMobileNumber    = $model1->checkMobileNumber($data);
 				 
 					echo  $checkMobileNumber;
@@ -2378,7 +2378,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCountry    = $model1->updateCountry($data);
 				echo  $updateCountry;
 					die; 
@@ -2391,7 +2391,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addVisitingCountry    = $model1->addVisitingCountry($data);
 				echo  $addVisitingCountry;
 					die; 
@@ -2404,7 +2404,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkPassportInfo    = $model1->checkPassportInfo($data);
 				echo  $checkPassportInfo;
 					die; 
@@ -2417,7 +2417,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addVisitingCountryIdentificatorImages    = $model1->addVisitingCountryIdentificatorImages($data);
 				echo  $addVisitingCountryIdentificatorImages;
 					die; 
@@ -2430,7 +2430,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$societyRulesList    = $model1->societyRulesList($data);
 				$dataOut=json_encode($societyRulesList,true);
 					echo  $dataOut;
@@ -2444,7 +2444,7 @@ class QloudidAppController
 				
 				$data=json_decode(file_get_contents('php://input'), true);
 			 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$tenantInvoiceInfo    = $model1->tenantInvoiceInfo($data);
 				$dataOut=json_encode($tenantInvoiceInfo,true);
 					echo  $dataOut;
@@ -2458,7 +2458,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkinAparmentOwner    = $model1->checkinAparmentOwner($data);
 				echo  $checkinAparmentOwner;
 				die; 
@@ -2471,7 +2471,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$payRentInvoice    = $model1->payRentInvoice($data);
 				echo  $payRentInvoice;
 				die; 
@@ -2484,7 +2484,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$listAddresses    = $model1->listUserDeliveryAddresses($data);
 				$dataOut=json_encode($listAddresses,true);
 					echo  $dataOut;
@@ -2498,7 +2498,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				if($data['update_type']==1)
 				{
 				$result    = $model1->updatePrivate($data);	
@@ -2526,7 +2526,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				if($data['update_type']==1)
 				{
 				$result    = $model1->updateToilet($data);	
@@ -2549,7 +2549,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$result    = $model1->updateOverbath($data);	
 				echo  $result;
 				die; 
@@ -2561,7 +2561,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$bedroomCount    = $model1->bedroomCount($data);
 				$bedroomDetail    = $model1->bedroomDetail($data);
 				$dataOut=json_encode($bedroomDetail,true);
@@ -2577,7 +2577,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$bathroomCount    = $model1->bathroomCount($data);
 				$bathroomDetail    = $model1->bathroomDetail($data);
 				$dataOut=json_encode($bathroomDetail,true);
@@ -2595,7 +2595,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addBathroom    = $model1->addBathroom($data);
 				echo  $addBathroom;
 					die; 
@@ -2612,7 +2612,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$deleteBathroom    = $model1->deleteBathroom($data);
 				echo  $deleteBathroom;
 					die; 
@@ -2628,7 +2628,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$bedroomBedDetail    = $model1->bedroomBedDetail($data);
 				$dataOut=json_encode($bedroomBedDetail,true);
 					echo  $dataOut;
@@ -2640,7 +2640,7 @@ class QloudidAppController
 		
 		public static function bedTypeDetail()
 		{
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$bedTypeDetail    = $model1->bedTypeDetail();
 				$dataOut=json_encode($bedTypeDetail,true);
 					echo  $dataOut;
@@ -2656,7 +2656,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
 				 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$addBedroom=$model->addBedroom($data);
 				echo  $addBedroom;
 				die;
@@ -2668,7 +2668,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$deleteBedroom=$model->deleteBedroom($data);
 				echo  $deleteBedroom;
 				die;
@@ -2680,7 +2680,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$deleteBedroomBedInfo=$model->deleteBedroomBedInfo($data);
 				echo  $deleteBedroomBedInfo;
 				die;
@@ -2693,7 +2693,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$updateBedTypeInfo=$model->updateBedTypeInfo($data);
 				echo  $updateBedTypeInfo;
 				die;
@@ -2706,7 +2706,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$addBedToBedroom=$model->addBedToBedroom($data);
 				echo  $addBedToBedroom;
 				die;
@@ -2718,7 +2718,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$communityAvailableTenantsInfo=$model->communityAvailableTenantsInfo($data);
 				$dataOut=json_encode($communityAvailableTenantsInfo,true);
 				echo  $dataOut;
@@ -2732,7 +2732,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityAmenities=$model->apartmentCommunityAmenities($data);
 				$dataOut=json_encode($apartmentCommunityAmenities,true);
 				echo  $dataOut;
@@ -2746,7 +2746,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getCommunityDetailInfo=$model->getCommunityDetailInfo($data);
 				$dataOut=json_encode($getCommunityDetailInfo,true);
 				echo  $dataOut;
@@ -2759,7 +2759,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$updateApartmentCommunityTicket=$model->updateApartmentCommunityTicket($data);
 				echo  $updateApartmentCommunityTicket;
 				die; 
@@ -2770,7 +2770,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$acceptApartmentCommunityTicket=$model->acceptApartmentCommunityTicket($data);
 				echo  $acceptApartmentCommunityTicket;
 				die; 
@@ -2782,7 +2782,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$finishApartmentCommunityTicket=$model->finishApartmentCommunityTicket($data);
 				echo  $finishApartmentCommunityTicket;
 				die; 
@@ -2794,7 +2794,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$rejectApartmentCommunityTicket=$model->rejectApartmentCommunityTicket($data);
 				echo  $rejectApartmentCommunityTicket;
 				die; 
@@ -2807,7 +2807,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityTicketCreatedCount=$model->apartmentCommunityTicketCreatedCount($data);
 				$dataOut=json_encode($apartmentCommunityTicketCreatedCount,true);
 				echo  $dataOut;
@@ -2820,7 +2820,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityTicketList=$model->apartmentCommunityTicketList($data);
 				$dataOut=json_encode($apartmentCommunityTicketList,true);
 				echo  $dataOut;
@@ -2833,7 +2833,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityPendingTicket=$model->apartmentCommunityPendingTicket($data);
 				$dataOut=json_encode($apartmentCommunityPendingTicket,true);
 				echo  $dataOut;
@@ -2846,7 +2846,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityStartedTicket=$model->apartmentCommunityStartedTicket($data);
 				$dataOut=json_encode($apartmentCommunityStartedTicket,true);
 				echo  $dataOut;
@@ -2859,7 +2859,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityCompletedTicket=$model->apartmentCommunityCompletedTicket($data);
 				$dataOut=json_encode($apartmentCommunityCompletedTicket,true);
 				echo  $dataOut;
@@ -2872,7 +2872,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityCancelledTicket=$model->apartmentCommunityCancelledTicket($data);
 				$dataOut=json_encode($apartmentCommunityCancelledTicket,true);
 				echo  $dataOut;
@@ -2885,7 +2885,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$apartmentCommunityTicketDetail=$model->apartmentCommunityTicketDetail($data);
 				$dataOut=json_encode($apartmentCommunityTicketDetail,true);
 				echo  $dataOut;
@@ -2898,7 +2898,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getCommunityInfo=$model->getCommunityInfo($data);
 				echo  $getCommunityInfo;
 				die; 
@@ -2911,7 +2911,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$addCommunityTicketImage=$model->addCommunityTicketImage($data);
 				echo  $addCommunityTicketImage;
 				die; 
@@ -2924,7 +2924,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$createCommunityTicket=$model->createCommunityTicket($data);
 				echo  $createCommunityTicket;
 				die; 
@@ -2936,7 +2936,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getTicketTitleInfo=$model->getTicketTitleInfo($data);
 				$dataOut=json_encode($getTicketTitleInfo,true);
 				echo  $dataOut;
@@ -2950,7 +2950,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getTicketSubTitleInfo=$model->getTicketSubTitleInfo($data);
 				$dataOut=json_encode($getTicketSubTitleInfo,true);
 				echo  $dataOut;
@@ -2963,7 +2963,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getTicketSubTitleInfo=$model->getTicketSubTitleInfo($data);
 				$dataOut=json_encode($getTicketSubTitleInfo,true);
 				echo  $dataOut;
@@ -2977,7 +2977,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getTicketSubTitleInfo=$model->selectedProblemSubpartId($data);
 				$dataOut=json_encode($getTicketSubTitleInfo,true);
 				echo  $dataOut;
@@ -2991,7 +2991,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$emergencyDetail=$model->emergencyDetail($data);
 				$dataOut=json_encode($emergencyDetail,true);
 				echo  $dataOut;
@@ -3005,7 +3005,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$travelAlarmList=$model->addedAlamrs($data);
 				$dataOut=json_encode($travelAlarmList,true);
 				echo  $dataOut;
@@ -3018,7 +3018,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$travelAlarmList=$model->travelAppCompanyDstricts($data);
 				$dataOut=json_encode($travelAlarmList,true);
 				echo  $dataOut;
@@ -3031,7 +3031,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getTicketSubTitleInfo=$model->getTicketSubTitleIssueInfo($data);
 				$dataOut=json_encode($getTicketSubTitleInfo,true);
 				echo  $dataOut;
@@ -3044,7 +3044,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=$_POST;
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$createBookingUserApartmentTicket=$model->createBookingUserApartmentTicket($data);
 				 
 				echo  $createBookingUserApartmentTicket;
@@ -3057,7 +3057,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getPreCheckinStatus=$model->getPreCheckinStatus($data);
 				$dataOut=json_encode($getPreCheckinStatus,true);
 				echo  $dataOut;
@@ -3070,7 +3070,7 @@ class QloudidAppController
 			
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$updatePreCheckinStatus=$model->updatePreCheckinStatus($data);
 				$dataOut=json_encode($updatePreCheckinStatus,true);
 				echo  $dataOut;
@@ -3082,7 +3082,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentDetailInfoDstrictApp    = $model1->apartmentDetailInfoDstrictApp($data);
 				$dataOut=json_encode($apartmentDetailInfoDstrictApp,true);
 				echo  $dataOut;
@@ -3094,7 +3094,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$apartmentDetailInfoCheckin    = $model1->apartmentDetailInfoCheckin($data);
 				$dataOut=json_encode($apartmentDetailInfoCheckin,true);
 				echo  $dataOut;
@@ -3105,7 +3105,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$getUserActiveStatus    = $model1->getUserActiveStatus($data);
 				$dataOut=json_encode($getUserActiveStatus,true);
 				echo  $dataOut;
@@ -3113,7 +3113,7 @@ class QloudidAppController
 		}
 		public static function getUserStatus()
 		{
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getUserStatus=$model->getUserStatus();
 				echo $getUserStatus;	die;
 		}
@@ -3122,7 +3122,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$getUserStatus=$model->getUserStatusCompanyRequirement($data);
 				echo $getUserStatus;	die;
 		}
@@ -3136,7 +3136,7 @@ class QloudidAppController
 				require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
 				require_once('../lib/url_shortener.php');
-				$model = new QloudidAppModel();
+				$model = new safeqloudAppModel();
 				$inviteVisitor=$model->inviteVisitor($data);
 				echo $inviteVisitor;
 				
@@ -3145,7 +3145,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$invitedVisitorsMeetingList    = $model1->invitedVisitorsMeetingList($data);
 				$dataOut=json_encode($invitedVisitorsMeetingList,true);
 				echo  $dataOut;
@@ -3157,7 +3157,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkedInMeetingList 	 = $model1->checkedInMeetingList($data);
 				$dataOut=json_encode($checkedInMeetingList,true);
 				echo  $dataOut;
@@ -3172,7 +3172,7 @@ class QloudidAppController
 				require_once('../configs/testMandril.php');
 				require_once('../configs/smsMandril.php');
 				require_once('../lib/url_shortener.php'); 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$informEmployee    = $model1->informEmployee($data);
 				echo  $informEmployee;
 				die; 
@@ -3182,7 +3182,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessCartBookingTimeUpdate    = $model1->wellnessCartBookingTimeUpdate($data);
 				$dataOut=json_encode($wellnessCartBookingTimeUpdate,true);
 				echo  $dataOut;
@@ -3194,7 +3194,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingListForFrontDeskCheckin    = $model1->hotelBookingListForFrontDeskCheckin($data);
 				$dataOut=json_encode($hotelBookingListForFrontDeskCheckin,true);
 				echo  $dataOut;
@@ -3206,7 +3206,7 @@ class QloudidAppController
 		{
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$allocateCheckedOutRoomForCleaning    = $model1->allocateCheckedOutRoomForCleaning($data);
 				echo  $allocateCheckedOutRoomForCleaning;
 				die; 
@@ -3218,7 +3218,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelCheckedOutListForHousekeepingIncepectionStaff    = $model1->hotelCheckedOutListForHousekeepingIncepectionStaff($data);
 				$dataOut=json_encode($hotelCheckedOutListForHousekeepingIncepectionStaff,true);
 					echo  $dataOut;
@@ -3231,7 +3231,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$allocateCheckedOutRoomForInspection    = $model1->allocateCheckedOutRoomForInspection($data);
 				echo  $allocateCheckedOutRoomForInspection;
 				die; 
@@ -3242,7 +3242,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../configs/testMandril.php');
 				$updateCheckedOutRoomInspection    = $model1->updateCheckedOutRoomInspection($data);
 				echo  $updateCheckedOutRoomInspection;
@@ -3254,7 +3254,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCheckedOutRoomCleaning    = $model1->updateCheckedOutRoomCleaning($data);
 				echo  $updateCheckedOutRoomCleaning;
 				die; 
@@ -3266,7 +3266,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelCheckedOutListForCleningStaff    = $model1->hotelCheckedOutListForCleningStaff($data);
 				$dataOut=json_encode($hotelCheckedOutListForCleningStaff,true);
 				echo  $dataOut;
@@ -3281,7 +3281,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				require_once('../configs/testMandril.php'); 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$handoverKey    = $model1->handoverKey($data);
 				echo  $handoverKey;
 				die; 
@@ -3297,7 +3297,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				require_once('../configs/testMandril.php'); 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkOutGuest    = $model1->checkOutGuest($data);
 				echo  $checkOutGuest;
 				die; 
@@ -3308,7 +3308,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$allocateRoomForCleaning    = $model1->allocateRoomForCleaning($data);
 				echo  $allocateRoomForCleaning;
 				die; 
@@ -3321,7 +3321,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				require_once('../configs/testMandril.php');
 				$updateRoomCleaning    = $model1->updateRoomCleaning($data);
 				echo  $updateRoomCleaning;
@@ -3334,7 +3334,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingListForFrontDeskCheckout    = $model1->hotelBookingListForFrontDeskCheckout($data);
 				$dataOut=json_encode($hotelBookingListForFrontDeskCheckout,true);
 				echo  $dataOut;
@@ -3347,7 +3347,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingListForCleningStaff    = $model1->hotelBookingListForCleningStaff($data);
 				$dataOut=json_encode($hotelBookingListForCleningStaff,true);
 				echo  $dataOut;
@@ -3359,7 +3359,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingListForFrontDeskKeyhandling    = $model1->hotelBookingListForFrontDeskKeyhandling($data);
 				$dataOut=json_encode($hotelBookingListForFrontDeskKeyhandling,true);
 				echo  $dataOut;
@@ -3371,7 +3371,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingListForFrontDeskReceivedKey    = $model1->hotelBookingListForFrontDeskReceivedKey($data);
 				$dataOut=json_encode($hotelBookingListForFrontDeskReceivedKey,true);
 				echo  $dataOut;
@@ -3383,7 +3383,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingListForKeyGeneration    = $model1->hotelBookingListForKeyGeneration($data);
 				$dataOut=json_encode($hotelBookingListForKeyGeneration,true);
 				echo  $dataOut;
@@ -3397,7 +3397,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$hotelBookingInstaBoxListForKeyGeneration    = $model1->hotelBookingInstaBoxListForKeyGeneration($data);
 				$dataOut=json_encode($hotelBookingInstaBoxListForKeyGeneration,true);
 					echo  $dataOut;
@@ -3413,7 +3413,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkEmployeeReference    = $model1->checkEmployeeReference($data);
             echo  $checkEmployeeReference;
 			die; 
@@ -3427,7 +3427,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);  
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$verifEmployeeInfo    = $model1->verifEmployeeInfo($data);
              
 				echo  $verifEmployeeInfo;
@@ -3442,7 +3442,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);  
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$releaseHotelInstabox    = $model1->releaseHotelInstabox($data);
              
 				echo  $releaseHotelInstabox;
@@ -3457,7 +3457,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);  
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$generateKeyForInstaBox    = $model1->generateKeyForInstaBox($data);
              
 				echo  $generateKeyForInstaBox;
@@ -3473,7 +3473,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$dependentsCheckedInList    = $model1->dependentsCheckedInList($data);
 				$dataOut=json_encode($dependentsCheckedInList,true);
 					echo  $dataOut;
@@ -3489,7 +3489,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addDependentChekin    = $model1->addDependentChekin($data);
 				echo  $addDependentChekin;
 					die; 
@@ -3504,7 +3504,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyDependentChekin    = $model1->verifyDependentChekin($data);
 				echo  $verifyDependentChekin;
 					die; 
@@ -3520,7 +3520,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$guestChildrenRemainingCount    = $model1->guestChildrenRemainingCount($data);
 				echo  $guestChildrenRemainingCount;
 					die; 
@@ -3535,7 +3535,7 @@ class QloudidAppController
 				require_once('../configs/testMandril.php');
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$emailIinviteAdultForCheckin    = $model1->emailIinviteAdultForCheckin($data);
 				echo  $emailIinviteAdultForCheckin;
 				die; 
@@ -3550,7 +3550,7 @@ class QloudidAppController
 				require_once('../configs/smsMandril.php');
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$phoneIinviteAdultForCheckin    = $model1->phoneIinviteAdultForCheckin($data);
 				echo  $phoneIinviteAdultForCheckin;
 				die; 
@@ -3566,7 +3566,7 @@ class QloudidAppController
 				require_once('../configs/smsMandril.php');
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$resendPhoneIinviteAdultForCheckin    = $model1->resendPhoneIinviteAdultForCheckin($data);
 				echo  $resendPhoneIinviteAdultForCheckin;
 				die; 
@@ -3581,7 +3581,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyUserInvitationInfo    = $model1->verifyUserInvitationInfo($data);
 				echo  $verifyUserInvitationInfo;
 				die; 
@@ -3594,7 +3594,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$confirmUserInvitationInfo    = $model1->confirmUserInvitationInfo($data);
 				echo  $confirmUserInvitationInfo;
 				die; 
@@ -3609,7 +3609,7 @@ class QloudidAppController
 				require_once('../configs/smsMandril.php');
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$resendInvitation    = $model1->resendInvitation($data);
 				echo  $resendInvitation;
 				die; 
@@ -3622,7 +3622,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true); 
  			
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$adultsCheckedInList    = $model1->adultsCheckedInList($data);
 				$dataOut=json_encode($adultsCheckedInList,true);
 				echo  $dataOut;
@@ -3633,7 +3633,7 @@ class QloudidAppController
 		public static function countryCode()
 		{
 		   
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$countryCode    = $model1->countryCode();
 				$dataOut=json_encode($countryCode,true);
 					echo  $dataOut;
@@ -3649,7 +3649,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateGuestRecord    = $model1->updateGuestRecord($data);
 				echo  $updateGuestRecord;
 				die; 
@@ -3665,7 +3665,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userDetailsDstricts    = $model1->userDetailsDstricts($data);
 				$dataOut=json_encode($userDetailsDstricts,true);
 					echo  $dataOut;
@@ -3682,7 +3682,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$venueInfomationDetail    = $model1->venueInfomationDetail($data);
 				$dataOut=json_encode($venueInfomationDetail,true);
 					echo  $dataOut;
@@ -3698,7 +3698,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessSearchFollowingCount    = $model1->wellnessSearchFollowingCount($data);
 				 
 					echo  $wellnessSearchFollowingCount;
@@ -3715,7 +3715,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$deleteWellnessAllCartItems    = $model1->deleteWellnessAllCartItems($data);
 				 
 					echo  $deleteWellnessAllCartItems;
@@ -3732,7 +3732,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$countWellnessOneToOneAvailableServices    = $model1->countWellnessOneToOneAvailableServices($data);
 				 
 					echo  $countWellnessOneToOneAvailableServices;
@@ -3749,7 +3749,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedWellnessCategoriesandMenu    = $model1->selectedWellnessCategoriesandMenu($data);
 				$dataOut=json_encode($selectedWellnessCategoriesandMenu,true);
 					echo  $dataOut;
@@ -3766,7 +3766,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessUpdateFollowing    = $model1->wellnessUpdateFollowing($data);
 				 
 					echo  $wellnessUpdateFollowing;
@@ -3782,7 +3782,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessSearchList    = $model1->wellnessSearchList($data);
 				$dataOut=json_encode($wellnessSearchList,true);
 					echo  $dataOut;
@@ -3797,7 +3797,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$resturantPackageComboList    = $model1->resturantPackageComboList($data);
 				$dataOut=json_encode($resturantPackageComboList,true);
 					echo  $dataOut;
@@ -3813,7 +3813,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$resturantPackageCategoryList    = $model1->resturantPackageCategoryList($data);
 				$dataOut=json_encode($resturantPackageCategoryList,true);
 					echo  $dataOut;
@@ -3830,7 +3830,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$resturantPackageCategoryDishesList    = $model1->resturantPackageCategoryDishesList($data);
 				$dataOut=json_encode($resturantPackageCategoryDishesList,true);
 					echo  $dataOut;
@@ -3846,7 +3846,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addPublicServiceToCartApp    = $model1->addPublicServiceToCartApp($data);
 				$dataOut=json_encode($addPublicServiceToCartApp,true);
 					echo  $dataOut;
@@ -3860,7 +3860,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessSelectedServiceInfo    = $model1->wellnessSelectedServiceInfo($data);
 				$dataOut=json_encode($wellnessSelectedServiceInfo,true);
 					echo  $dataOut;
@@ -3877,7 +3877,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$deleteWellnessSharedItems    = $model1->deleteWellnessSharedItems($data);
 				$dataOut=json_encode($deleteWellnessSharedItems,true);
 					echo  $dataOut;
@@ -3894,7 +3894,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$WellnessPrivateCalenderInfo    = $model1->WellnessPrivateCalenderInfo($data);
 				$dataOut=json_encode($WellnessPrivateCalenderInfo,true);
 					echo  $dataOut;
@@ -3911,7 +3911,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessOpenCalenderInfo    = $model1->wellnessOpenCalenderInfo($data);
 				$dataOut=json_encode($wellnessOpenCalenderInfo,true);
 					echo  $dataOut;
@@ -3927,7 +3927,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$cartInfoWellnessListCount    = $model1->cartInfoWellnessListCount($data);
 				$dataOut=json_encode($cartInfoWellnessListCount,true);
 					echo  $dataOut;
@@ -3942,7 +3942,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$UpdateWellnessCartItem    = $model1->UpdateWellnessCartItem($data);
 				$dataOut=json_encode($UpdateWellnessCartItem,true);
 					echo  $dataOut;
@@ -3958,7 +3958,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$cartInfoWellnessList    = $model1->cartInfoWellnessList($data);
 				$dataOut=json_encode($cartInfoWellnessList,true);
 					echo  $dataOut;
@@ -3975,7 +3975,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addServiceToCartApp    = $model1->addServiceToCartApp($data);
 				$dataOut=json_encode($addServiceToCartApp,true);
 					echo  $dataOut;
@@ -3990,7 +3990,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectEmployeeForSelectedServices    = $model1->selectEmployeeForSelectedServices($data);
 				$dataOut=json_encode($selectEmployeeForSelectedServices,true);
 					echo  $dataOut;
@@ -4005,7 +4005,7 @@ class QloudidAppController
 		{
 			
 				$data=array();
-					$model1       = new QloudidAppModel();
+					$model1       = new safeqloudAppModel();
 				$availableDatesForbooking    = $model1->availableDatesForbooking();
 				$dataOut=json_encode($availableDatesForbooking,true);
 					echo  $dataOut;
@@ -4020,7 +4020,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$employeeBookingCalenderInfoApp    = $model1->employeeBookingCalenderInfoApp($data);
 				$dataOut=json_encode($employeeBookingCalenderInfoApp,true);
 					echo  $dataOut;
@@ -4034,7 +4034,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedWellnessCategories    = $model1->selectedWellnessCategories($data);
 				$dataOut=json_encode($selectedWellnessCategories,true);
 					echo  $dataOut;
@@ -4050,7 +4050,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedWellnessBookingAppMenu    = $model1->selectedWellnessBookingAppMenu($data);
 				$dataOut=json_encode($selectedWellnessBookingAppMenu,true);
 					echo  $dataOut;
@@ -4067,7 +4067,7 @@ class QloudidAppController
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedWellnessCategories    = $model1->selectedWellnessCategoriesSelection($data);
 				$dataOut=json_encode($selectedWellnessCategories,true);
 					echo  $dataOut;
@@ -4085,7 +4085,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$wellnessServiceInfoCount    = $model1->wellnessServiceInfoCount($data);
 				$dataOut=json_encode($wellnessServiceInfoCount,true);
 					echo  $dataOut;
@@ -4097,7 +4097,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$selectedWellnessBookingAppMenu    = $model1->selectedWellnessBookingAppMenuSelection($data);
 				$dataOut=json_encode($selectedWellnessBookingAppMenu,true);
 					echo  $dataOut;
@@ -4110,7 +4110,7 @@ class QloudidAppController
 	
 	public static function selectEmployee()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectEmployee    = $model1->selectEmployee();
 		   echo  $selectEmployee;
 					die;
@@ -4120,7 +4120,7 @@ class QloudidAppController
 	 
 	public static function updateBookingTimeInfo()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateBookingTimeInfo    = $model1->updateBookingTimeInfo();
 		   echo  $updateBookingTimeInfo;
 					die;
@@ -4129,7 +4129,7 @@ class QloudidAppController
 	
 	public static function bookingCalenderInfo()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingCalenderInfo    = $model1->bookingCalenderInfo();
 		 echo  $bookingCalenderInfo;
 					die;
@@ -4138,7 +4138,7 @@ class QloudidAppController
     }
 	public static function bookingOpenCalenderInfo()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingCalenderInfo    = $model1->bookingOpenCalenderInfo();
 		 echo  $bookingCalenderInfo;
 					die;
@@ -4148,7 +4148,7 @@ class QloudidAppController
 	
 	public static function bookingPrivateCalenderInfo()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingPrivateCalenderInfo    = $model1->bookingPrivateCalenderInfo();
 		 echo  $bookingPrivateCalenderInfo;
 					die;
@@ -4159,7 +4159,7 @@ class QloudidAppController
 	
 	public static function availableServiceCategories()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$availableServiceCategories    = $model1->availableServiceCategories();
 			$dataOut=json_encode($availableServiceCategories,true);
 					echo  $dataOut;
@@ -4172,7 +4172,7 @@ class QloudidAppController
 		   
 				$data=array();
 				  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addServiceToCart    = $model1->addServiceToCart();
 				$dataOut=json_encode($addServiceToCart,true);
 					echo  $dataOut;
@@ -4190,7 +4190,7 @@ class QloudidAppController
 		   
 				$data=array();
 				  
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addOpenOnetimeServiceToCart    = $model1->addOpenOnetimeServiceToCart();
 				$dataOut=json_encode($addOpenOnetimeServiceToCart,true);
 					echo  $dataOut;
@@ -4206,7 +4206,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedServiceInfo    = $model1->selectedServiceInfo($data);
 			 $dataOut=json_encode($selectedServiceInfo,true);
 					echo  $dataOut;
@@ -4220,7 +4220,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedServiceImages    = $model1->selectedServiceImages($data);
 			 $dataOut=json_encode($selectedServiceImages,true);
 					echo  $dataOut;
@@ -4230,7 +4230,7 @@ class QloudidAppController
 	
 	public static function getServiceCompanies()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getServiceCompanies    = $model1->getServiceCompanies();
 			$dataOut=json_encode($getServiceCompanies,true);
 					echo  $dataOut;
@@ -4239,7 +4239,7 @@ class QloudidAppController
     }
 	public static function getServiceLocations()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getServiceLocations    = $model1->getServiceLocations();
 			$dataOut=json_encode($getServiceLocations,true);
 					echo  $dataOut;
@@ -4249,7 +4249,7 @@ class QloudidAppController
 	
 	public static function getEmployeeLocations()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getEmployeeLocations    = $model1->getEmployeeLocations();
 			$dataOut=json_encode($getEmployeeLocations,true);
 					echo  $dataOut;
@@ -4260,7 +4260,7 @@ class QloudidAppController
 	
 	public static function bookServiceForCheckInUser()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookServiceForCheckInUser    = $model1->bookServiceForCheckInUser();
 			$dataOut=json_encode($bookServiceForCheckInUser,true);
 					echo  $dataOut;
@@ -4271,7 +4271,7 @@ class QloudidAppController
 	
 	public static function bookServiceForPublicUser()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookServiceForPublicUser    = $model1->bookServiceForPublicUser();
 			$dataOut=json_encode($bookServiceForPublicUser,true);
 					echo  $dataOut;
@@ -4281,7 +4281,7 @@ class QloudidAppController
 	
 	public static function getServices()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getServices    = $model1->getServices();
 			$dataOut=json_encode($getServices,true);
 					echo  $dataOut;
@@ -4291,7 +4291,7 @@ class QloudidAppController
 	
 	public static function getOneOnOneServices()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getServices    = $model1->getOneOnOneServices();
 			$dataOut=json_encode($getServices,true);
 					echo  $dataOut;
@@ -4300,7 +4300,7 @@ class QloudidAppController
     }
 	 public static function getLocationInfo()
     {
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getLocationInfo    = $model1->getLocationInfo();
 			$dataOut=json_encode($getLocationInfo,true);
 					echo  $dataOut;
@@ -4312,7 +4312,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateDishStock    = $model1->updateDishStock($data);
 			echo  $updateDishStock;
 			die;
@@ -4323,7 +4323,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$deleteDishItem    = $model1->deleteDishItem($data);
 			echo  $deleteDishItem;
 			die;
@@ -4334,7 +4334,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$availableResturantList    = $model1->availableResturantList($data);
 			$dataOut=json_encode($availableResturantList,true);
 					echo  $dataOut;
@@ -4345,7 +4345,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../configs/testMandril.php');
 			require_once('../configs/smsMandril.php');
 			require_once('../lib/url_shortener.php');
@@ -4360,7 +4360,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$waitlistResturant    = $model1->waitlistResturant($data);
 			$dataOut=json_encode($waitlistResturant,true);
 					echo  $dataOut;
@@ -4373,7 +4373,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$publishedResturantInfo    = $model1->publishedResturantInfo($data);
 			$dataOut=json_encode($publishedResturantInfo,true);
 					echo  $dataOut;
@@ -4387,7 +4387,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelBathroomAppAmenities    = $model1->hotelBathroomAppAmenities($data);
 			$dataOut=json_encode($hotelBathroomAppAmenities,true);
 					echo  $dataOut;
@@ -4400,7 +4400,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelMediaAppAmenities    = $model1->hotelMediaAppAmenities($data);
 			$dataOut=json_encode($hotelMediaAppAmenities,true);
 					echo  $dataOut;
@@ -4413,7 +4413,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelRoomAppAmenities    = $model1->hotelRoomAppAmenities($data);
 			$dataOut=json_encode($hotelRoomAppAmenities,true);
 					echo  $dataOut;
@@ -4426,7 +4426,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelBedAppAmenities    = $model1->hotelBedAppAmenities($data);
 			$dataOut=json_encode($hotelBedAppAmenities,true);
 					echo  $dataOut;
@@ -4439,7 +4439,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedDish    = $model1->selectedDish($data);
 			$dataOut=json_encode($selectedDish,true);
 					echo  $dataOut;
@@ -4451,7 +4451,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedDish    = $model1->selectedDish($data);
 			$data['warning']=$selectedDish['dish_warnings'];
 			$foodTypeInformationSelected    = $model1->foodTypeInformationSelected($data);
@@ -4464,7 +4464,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$editDishDetail    = $model1->editDishDetail($data);
 			echo  $editDishDetail;
 			die;
@@ -4474,7 +4474,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateDishNotAvailable    = $model1->updateDishNotAvailable($data);
 			echo  $updateDishNotAvailable;
 			die;
@@ -4485,7 +4485,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$ResturantMenu    = $model1->ResturantMenu($data);
 			$dataOut=json_encode($ResturantMenu,true);
 					echo  $dataOut;
@@ -4498,7 +4498,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantSearchList    = $model1->resturantSearchList($data);
 			$dataOut=json_encode($resturantSearchList,true);
 					echo  $dataOut;
@@ -4511,7 +4511,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantProfileInfo    = $model1->resturantProfileInfo($data);
 			$dataOut=json_encode($resturantProfileInfo,true);
 					echo  $dataOut;
@@ -4523,7 +4523,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$companyList    = $model1->companyList($data);
 			$dataOut=json_encode($companyList,true);
 					echo  $dataOut;
@@ -4535,7 +4535,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$usersList    = $model1->usersList($data);
 			$dataOut=json_encode($usersList,true);
 					echo  $dataOut;
@@ -4547,7 +4547,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantWorkInfo    = $model1->resturantWorkInfo($data);
 			$dataOut=json_encode($resturantWorkInfo,true);
 					echo  $dataOut;
@@ -4559,7 +4559,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantServeInfo    = $model1->resturantServeInfo($data);
 			$dataOut=json_encode($resturantServeInfo,true);
 					echo  $dataOut;
@@ -4571,7 +4571,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$ResturantServeBasedMenu    = $model1->ResturantServeBasedMenu($data);
 			$dataOut=json_encode($ResturantServeBasedMenu,true);
 					echo  $dataOut;
@@ -4583,7 +4583,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantDetail    = $model1->resturantDetail($data);
 			$dataOut=json_encode($resturantDetail,true);
 					echo  $dataOut;
@@ -4594,7 +4594,7 @@ class QloudidAppController
 	public static function resturantAddedImages()
     {
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantAddedImages    = $model1->resturantAddedImages();
 			$dataOut=json_encode($resturantAddedImages,true);
 					echo  $dataOut;
@@ -4606,7 +4606,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reservationList    = $model1->reservationList($data);
 			$dataOut=json_encode($reservationList,true);
 					echo  $dataOut;
@@ -4618,7 +4618,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantTableAvailable    = $model1->resturantTableAvailable($data);
 			$dataOut=json_encode($resturantTableAvailable,true);
 					echo  $dataOut;
@@ -4630,7 +4630,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$resturantDiningHall    = $model1->resturantDiningHall($data);
 			$dataOut=json_encode($resturantDiningHall,true);
 					echo  $dataOut;
@@ -4642,7 +4642,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$requestTableBooking    = $model1->requestTableBooking($data);
 			 
 					echo  $requestTableBooking;
@@ -4654,7 +4654,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateNoShow    = $model1->updateNoShow($data);
 			 
 					echo  $updateNoShow;
@@ -4666,7 +4666,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateInServicing    = $model1->updateInServicing($data);
 			 
 					echo  $updateInServicing;
@@ -4678,7 +4678,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateCloseService    = $model1->updateCloseService($data);
 			 
 					echo  $updateCloseService;
@@ -4689,7 +4689,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$operatorQueueWaitingCount    = $model1->operatorQueueWaitingCount($data);
 			echo  $operatorQueueWaitingCount;
 			die;
@@ -4702,7 +4702,7 @@ class QloudidAppController
 			require_once('../configs/testMandril.php');
 			require_once('../configs/smsMandril.php');
 			require_once('../lib/url_shortener.php'); 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$alertGuest    = $model1->alertGuest($data);
 			 
 					echo  $alertGuest;
@@ -4714,7 +4714,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$queueGuestDetail    = $model1->queueGuestDetail($data);
 			$dataOut=json_encode($queueGuestDetail,true);
 					echo  $dataOut;
@@ -4726,7 +4726,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$queueServicingGuestDetail    = $model1->queueServicingGuestDetail($data);
 			$dataOut=json_encode($queueServicingGuestDetail,true);
 					echo  $dataOut;
@@ -4739,7 +4739,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$operatorQueueWaitingList    = $model1->operatorQueueWaitingList($data);
 			$dataOut=json_encode($operatorQueueWaitingList,true);
 					echo  $dataOut;
@@ -4751,7 +4751,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$operatorQueueServingList    = $model1->operatorQueueServingList($data);
 			$dataOut=json_encode($operatorQueueServingList,true);
 					echo  $dataOut;
@@ -4763,7 +4763,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$operatorQueueServedList    = $model1->operatorQueueServedList($data);
 			$dataOut=json_encode($operatorQueueServedList,true);
 					echo  $dataOut;
@@ -4775,7 +4775,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$operatorQueueList    = $model1->operatorQueueList($data);
 			$dataOut=json_encode($operatorQueueList,true);
 					echo  $dataOut;
@@ -4786,7 +4786,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../configs/testMandril.php');
 			require_once('../configs/smsMandril.php');
 			require_once('../lib/url_shortener.php');
@@ -4801,7 +4801,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$userQueueList    = $model1->userQueueList($data);
 			$dataOut=json_encode($userQueueList,true);
 					echo  $dataOut;
@@ -4814,7 +4814,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$removeFromList    = $model1->removeFromList($data);
 			 
 					echo  $removeFromList;
@@ -4827,7 +4827,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$userQueueWaitingDetail    = $model1->userQueueWaitingDetail($data);
 			$dataOut=json_encode($userQueueWaitingDetail,true);
 					echo  $dataOut;
@@ -4840,7 +4840,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$avalibleQueueOnTheLocation    = $model1->avalibleQueueOnTheLocation($data);
 			$dataOut=json_encode($avalibleQueueOnTheLocation,true);
 					echo  $dataOut;
@@ -4851,7 +4851,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelCompleteInfo    = $model1->hotelCompleteInfo($data);
 			$dataOut=json_encode($hotelCompleteInfo,true);
 			echo  $dataOut;
@@ -4863,7 +4863,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$cartInfo    = $model1->cartInfo($data);
 			$dataOut=json_encode($cartInfo,true);
 					echo  $dataOut;
@@ -4876,7 +4876,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$cartInfo    = $model1->cartInfoList($data);
 			$dataOut=json_encode($cartInfo,true);
 					echo  $dataOut;
@@ -4889,7 +4889,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$cartAmenityInfoList    = $model1->cartAmenityInfoList($data);
 			$dataOut=json_encode($cartAmenityInfoList,true);
 					echo  $dataOut;
@@ -4900,7 +4900,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$cartItemCount    = $model1->cartItemCount($data);
 			 
 					echo  $cartItemCount;
@@ -4912,7 +4912,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$cartAmenityItemCount    = $model1->cartAmenityItemCount($data);
 			 
 					echo  $cartAmenityItemCount;
@@ -4924,7 +4924,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$cartItemCountInfo    = $model1->cartItemCountInfo($data);
 			 
 					echo  $cartItemCountInfo;
@@ -4937,7 +4937,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedRoomServiceAppMenu    = $model1->selectedRoomServiceAppMenu($data);
 			$dataOut=json_encode($selectedRoomServiceAppMenu,true);
 					echo  $dataOut;
@@ -4950,7 +4950,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedDrycleaningServeBasedAppMenu    = $model1->selectedDrycleaningServeBasedAppMenu($data);
 			$dataOut=json_encode($selectedDrycleaningServeBasedAppMenu,true);
 					echo  $dataOut;
@@ -4963,7 +4963,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedRoomServiceAppServes    = $model1->selectedRoomServiceAppServes($data);
 			$dataOut=json_encode($selectedRoomServiceAppServes,true);
 					echo  $dataOut;
@@ -4977,7 +4977,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedLaundaryCategories    = $model1->selectedLaundaryCategories($data);
 			$dataOut=json_encode($selectedLaundaryCategories,true);
 					echo  $dataOut;
@@ -4991,7 +4991,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedRoomServiceServeBasedAppMenu    = $model1->selectedRoomServiceServeBasedAppMenu($data);
 			$dataOut=json_encode($selectedRoomServiceServeBasedAppMenu,true);
 					echo  $dataOut;
@@ -5004,7 +5004,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$UpdatecartItemCount    = $model1->UpdatecartItemCount($data);
 			 
 					echo  $UpdatecartItemCount;
@@ -5018,7 +5018,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$UpdateAmenitycartItemCount    = $model1->UpdateAmenitycartItemCount($data);
 			 
 					echo  $UpdateAmenitycartItemCount;
@@ -5031,7 +5031,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$UpdatecartItemCountInfo    = $model1->UpdatecartItemCountInfo($data);
 			 
 					echo  $UpdatecartItemCountInfo;
@@ -5044,7 +5044,7 @@ class QloudidAppController
 			//$data=array();
 			$data=file_get_contents('php://input');
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$encryptData    = $model1->encryptData($data);
 			 
 					echo  $encryptData;
@@ -5057,7 +5057,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$decryptData    = $model1->decryptData($data);
 			 
 					echo  $decryptData;
@@ -5073,7 +5073,7 @@ class QloudidAppController
 			require_once('../configs/smsMandril.php'); 
 			require_once('../configs/testMandril.php');
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$payCartItemUsingApp    = $model1->payCartItemUsingApp($data);
 			 
 					echo  $payCartItemUsingApp;
@@ -5085,7 +5085,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentDetailInfo    = $model1->apartmentDetailInfo();
             $dataOut=json_encode($apartmentDetailInfo,true);
 					echo  $dataOut;
@@ -5098,7 +5098,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentAmenitiesDetailInfo    = $model1->apartmentAmenitiesDetailInfo();
             $dataOut=json_encode($apartmentAmenitiesDetailInfo,true);
 					echo  $dataOut;
@@ -5111,7 +5111,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentImages    = $model1->apartmentImages();
             $dataOut=json_encode($apartmentImages,true);
 					echo  $dataOut;
@@ -5123,7 +5123,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentList    = $model1->apartmentList();
             $dataOut=json_encode($apartmentList,true);
 					echo  $dataOut;
@@ -5136,7 +5136,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$userDetails    = $model1->userDetails($data);
 			$dataOut=json_encode($userDetails,true);
 					echo  $dataOut;
@@ -5148,7 +5148,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$resturantList    = $model1->resturantList();
             $dataOut=json_encode($resturantList,true);
@@ -5162,7 +5162,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$resturantCityList    = $model1->resturantCityList();
             $dataOut=json_encode($resturantCityList,true);
@@ -5175,7 +5175,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$resturantImages    = $model1->resturantImages();
             $dataOut=json_encode($resturantImages,true);
@@ -5189,7 +5189,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$resturantInfo    = $model1->resturantInfo();
             $dataOut=json_encode($resturantInfo,true);
@@ -5203,7 +5203,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$completeMenu    = $model1->completeMenu();
             $dataOut=json_encode($completeMenu,true);
@@ -5217,7 +5217,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$longTermApartmentList    = $model1->longTermApartmentList();
             $dataOut=json_encode($longTermApartmentList,true);
 					echo  $dataOut;
@@ -5230,7 +5230,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentForSaleList    = $model1->apartmentForSaleList();
             $dataOut=json_encode($apartmentForSaleList,true);
 					echo  $dataOut;
@@ -5244,7 +5244,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentList    = $model1->apartmentIsAvailable();
            
 					echo  $apartmentList;
@@ -5258,7 +5258,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelBathroomAmenities    = $model1->hotelBathroomAmenities($data);
 			 $dataOut=json_encode($hotelBathroomAmenities,true);
 					echo  $dataOut;
@@ -5270,7 +5270,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedRoomServiceMenu    = $model1->selectedRoomServiceMenu($data);
 			 $dataOut=json_encode($selectedRoomServiceMenu,true);
 					echo  $dataOut;
@@ -5284,7 +5284,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedWellnessServiceMenu    = $model1->selectedWellnessServiceMenu($data);
 			 $dataOut=json_encode($selectedWellnessServiceMenu,true);
 					echo  $dataOut;
@@ -5297,7 +5297,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedRoomServiceMenuItemInfo    = $model1->selectedRoomServiceMenuItemInfo($data);
 			 $dataOut=json_encode($selectedRoomServiceMenuItemInfo,true);
 					echo  $dataOut;
@@ -5310,7 +5310,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedWellnessServiceMenuItemInfo    = $model1->selectedWellnessServiceMenuItemInfo($data);
 			 $dataOut=json_encode($selectedWellnessServiceMenuItemInfo,true);
 					echo  $dataOut;
@@ -5322,7 +5322,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updatePayRequired    = $model1->updatePayRequired($data);
 			  
 					echo  $updatePayRequired;
@@ -5334,7 +5334,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkUsedDependentIdentificator    = $model1->checkUsedDependentIdentificator($data);
 			  
 					echo  $checkUsedDependentIdentificator;
@@ -5346,7 +5346,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$dependentDetail    = $model1->dependentDetail($data);
 			$dataOut=json_encode($dependentDetail,true);
 					echo  $dataOut;
@@ -5358,7 +5358,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$verifyUserBookingExists    = $model1->verifyUserBookingExists($data);
 			  
 					echo  $verifyUserBookingExists;
@@ -5370,7 +5370,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateDependentCheckinIds    = $model1->updateDependentCheckinIds($data);
 			  
 					echo  $updateDependentCheckinIds;
@@ -5382,7 +5382,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkSsn    = $model1->checkSsn($data);
 			  
 					echo  $checkSsn;
@@ -5394,7 +5394,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkDependentSsn    = $model1->checkDependentSsn($data);
 			  
 					echo  $checkDependentSsn;
@@ -5405,7 +5405,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$addDependentImages    = $model1->addDependentImages($data);
 			  
 					echo  $addDependentImages;
@@ -5417,7 +5417,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkPassport    = $model1->checkPassport($data);
 			  
 					echo  $checkPassport;
@@ -5430,7 +5430,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateDependent    = $model1->updateDependent($data);
 			  
 					echo  $updateDependent;
@@ -5443,7 +5443,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$addDependentProfileImages    = $model1->addDependentProfileImages($data);
 			  
 					echo  $addDependentProfileImages;
@@ -5455,7 +5455,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$addDependentPassport    = $model1->addDependentPassport($data);
 			  
 					echo  $addDependentPassport;
@@ -5467,7 +5467,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../lib/url_shortener.php');
 				require_once('../configs/smsMandril.php');
 			$addDependent    = $model1->addDependent($data);
@@ -5482,7 +5482,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$dependentsList    = $model1->dependentsList($data);
 			$dataOut=json_encode($dependentsList,true);
 					echo  $dataOut;
@@ -5495,7 +5495,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$dependentsList    = $model1->dependentsListForCheckin($data);
 			$dataOut=json_encode($dependentsList,true);
 					echo  $dataOut;
@@ -5508,7 +5508,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$dependentsList    = $model1->dependentsListForCheckinDstrict($data);
 			$dataOut=json_encode($dependentsList,true);
 					echo  $dataOut;
@@ -5520,7 +5520,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateCheckRequired    = $model1->updateCheckRequired($data);
 			  
 					echo  $updateCheckRequired;
@@ -5533,7 +5533,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$countPickupAddress    = $model1->countPickupAddress($data);
 			$dataOut=json_encode($countPickupAddress,true);
 					echo  $dataOut;
@@ -5545,7 +5545,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$pickupAddressDetail    = $model1->pickupAddressDetail($data);
 			$dataOut=json_encode($pickupAddressDetail,true);
 					echo  $dataOut;
@@ -5558,7 +5558,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updatePickupDelivery    = $model1->updatePickupDelivery($data);
 			 
 					echo  $updatePickupDelivery;
@@ -5570,7 +5570,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updatePickupAddress    = $model1->updatePickupAddress($data);
 			 
 					echo  $updatePickupAddress;
@@ -5581,7 +5581,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$orderHotelAppAmenity    = $model1->orderHotelAppAmenity($data);
 			 
 					echo  $orderHotelAppAmenity;
@@ -5591,7 +5591,7 @@ class QloudidAppController
 	public static function orderHotelAmenity()
     {
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$orderHotelAmenity    = $model1->orderHotelAmenity($data);
 			  
 					echo  $orderHotelAmenity;
@@ -5603,7 +5603,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelMediaAmenities    = $model1->hotelMediaAmenities($data);
 			 $dataOut=json_encode($hotelMediaAmenities,true);
 					echo  $dataOut;
@@ -5615,7 +5615,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelRoomAmenities    = $model1->hotelRoomAmenities($data);
 			 $dataOut=json_encode($hotelRoomAmenities,true);
 					echo  $dataOut;
@@ -5628,7 +5628,7 @@ class QloudidAppController
     {
 			$data=array();
 			$data=$_POST; 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelBedAmenities    = $model1->hotelBedAmenities($data);
 			 $dataOut=json_encode($hotelBedAmenities,true);
 					echo  $dataOut;
@@ -5641,7 +5641,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkEmployeeAttendence    = $model1->checkEmployeeAttendence($data);
 			 echo $checkEmployeeAttendence; die;
 			 
@@ -5653,7 +5653,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateAttendence    = $model1->updateAttendence($data);
 			 
 			echo $updateAttendence; die;
@@ -5665,7 +5665,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateExit    = $model1->updateExit($data);
 			 
 			echo $updateExit; die;
@@ -5677,7 +5677,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateLeave    = $model1->updateLeave($data);
 			 
 			echo $updateLeave; die;
@@ -5689,7 +5689,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateVacationInfo    = $model1->updateVacationInfo($data);
 			 
 			echo $updateVacationInfo; die;
@@ -5701,7 +5701,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$checkEmployeeTime    = $model1->checkEmployeeTime($data);
             $dataOut=json_encode($checkEmployeeTime,true);
 					echo  $dataOut;
@@ -5715,7 +5715,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			
 			$employerRequestCount    = $model1->employerRequestCount($data);
             echo $employerRequestCount; die;
@@ -5732,7 +5732,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$employerRequestReceived    = $model1->employerRequestReceived($data);
             $dataOut=json_encode($employerRequestReceived,true);
 					echo  $dataOut;
@@ -5745,7 +5745,7 @@ class QloudidAppController
     {
        
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelPayInfo    = $model1->hotelPayInfo();
 			 
             $dataOut=json_encode($hotelPayInfo,true);
@@ -5760,7 +5760,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$contactList    = $model1->contactList($data);
             $dataOut=json_encode($contactList,true);
 			echo  $dataOut;
@@ -5775,7 +5775,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			$data['stat']=1;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$approveEmployerRequest    = $model1->approveEmployerRequest($data);
             $dataOut=json_encode($approveEmployerRequest,true);
 					echo  $dataOut;
@@ -5791,7 +5791,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$daycareRequestCount    = $model1->daycareRequestCount($data);
             $dataOut=json_encode($daycareRequestCount,true);
 					echo  $dataOut;
@@ -5806,7 +5806,7 @@ class QloudidAppController
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
 			$data['stat']=2;  
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$approveEmployerRequest    = $model1->approveEmployerRequest($data);
             $dataOut=json_encode($approveEmployerRequest,true);
 					echo  $dataOut;
@@ -5821,7 +5821,7 @@ class QloudidAppController
 			$data=array();
 			require_once('../lib/url_shortener.php');
 			require_once('../configs/testMandril.php');
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getCheckedInHotel    = $model1->getCheckedInHotel();
             echo  $getCheckedInHotel;
 			die; 
@@ -5832,7 +5832,7 @@ class QloudidAppController
 			$data=array();
 			require_once('../lib/url_shortener.php');
 			require_once('../configs/testMandril.php');
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getFrontDeskCheckedInHotel    = $model1->getFrontDeskCheckedInHotel();
             echo  $getFrontDeskCheckedInHotel;
 			die; 
@@ -5844,7 +5844,7 @@ class QloudidAppController
 			$data=json_decode(file_get_contents('php://input'), true);
 			require_once('../lib/url_shortener.php');
 			require_once('../configs/testMandril.php');
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$isHotel    = $model1->isHotel($data);
             echo  $isHotel;
 			die; 
@@ -5856,7 +5856,7 @@ class QloudidAppController
 			$data=array();
 			 $data['certi']=cleanMe($co);
 			  
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$checkConnect    = $model1->checkConnect($data);
             echo $checkConnect; die;
 			 
@@ -5868,7 +5868,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$lawCompanyDetails    = $model1->lawCompanyDetails();
             $dataOut=json_encode($lawCompanyDetails,true);
 					echo  $dataOut;
@@ -5881,7 +5881,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$lawersInfo    = $model1->lawersInfo();
             $dataOut=json_encode($lawersInfo,true);
 					echo  $dataOut;
@@ -5894,7 +5894,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelList    = $model1->hotelList();
             $dataOut=json_encode($hotelList,true);
 					echo  $dataOut;
@@ -5909,7 +5909,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$availableCarList    = $model1->carRentalList();
             $dataOut=json_encode($availableCarList,true);
 					echo  $dataOut;
@@ -5923,7 +5923,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$availableCarList    = $model1->availableCarSelectedCityList();
             $dataOut=json_encode($availableCarList,true);
 					echo  $dataOut;
@@ -5937,7 +5937,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$availableCarList    = $model1->listAvailableCars();
             $dataOut=json_encode($availableCarList,true);
 					echo  $dataOut;
@@ -5950,7 +5950,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$availableCarList    = $model1->availableCarList();
             $dataOut=json_encode($availableCarList,true);
 					echo  $dataOut;
@@ -5964,7 +5964,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedCarTypeImages    = $model1->selectedCarTypeImages();
             $dataOut=json_encode($selectedCarTypeImages,true);
 					echo  $dataOut;
@@ -5978,7 +5978,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedCarTypeDetail    = $model1->selectedCarTypeDetail();
             $dataOut=json_encode($selectedCarTypeDetail,true);
 					echo  $dataOut;
@@ -5991,7 +5991,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$selectedCarDetail    = $model1->selectedCarDetail();
             $dataOut=json_encode($selectedCarDetail,true);
 					echo  $dataOut;
@@ -6005,7 +6005,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../lib/url_shortener.php');
 			require_once('../configs/testMandril.php');
 			$bookCar    = $model1->bookCar();
@@ -6019,7 +6019,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../lib/url_shortener.php');
 			require_once('../configs/testMandril.php');
 			$bookRentalCar    = $model1->bookRentalCar();
@@ -6034,7 +6034,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$phoneCountryCode    = $model1->phoneCountryCode();
             $dataOut=json_encode($phoneCountryCode,true);
 					echo  $dataOut;
@@ -6048,7 +6048,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updatePreCheckinStatus    = $model1->updatePreCheckinStatus($data);
             $dataOut=json_encode($updatePreCheckinStatus,true);
 					echo  $dataOut;
@@ -6063,7 +6063,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingInformationDetail    = $model1->bookingInformationDetail($data);
             $dataOut=json_encode($bookingInformationDetail,true);
 					echo  $dataOut;
@@ -6077,7 +6077,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingCityDetail    = $model1->bookingCityDetail($data);
             $dataOut=json_encode($bookingCityDetail,true);
 					echo  $dataOut;
@@ -6093,7 +6093,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$marketplaceSelectedDomainList    = $model1->marketplaceSelectedDomainList($data);
             $dataOut=json_encode($marketplaceSelectedDomainList,true);
 					echo  $dataOut;
@@ -6107,7 +6107,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$premiumMarketplaces    = $model1->premiumUnaqasaMarketplaces($data);
             $dataOut=json_encode($premiumMarketplaces,true);
 					echo  $dataOut;
@@ -6123,7 +6123,7 @@ class QloudidAppController
 			$data=array();
 			$data=$_POST;
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			require_once('../configs/testMandril.php');	
 			$sendRequestToCompnay    = $model1->sendRequestToCompnay($data);
              
@@ -6138,7 +6138,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingAdultsCheckedInList    = $model1->bookingAdultsCheckedInList($data);
             $dataOut=json_encode($bookingAdultsCheckedInList,true);
 					echo  $dataOut;
@@ -6152,7 +6152,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingDependentsCheckedInList    = $model1->bookingDependentsCheckedInList($data);
             $dataOut=json_encode($bookingDependentsCheckedInList,true);
 					echo  $dataOut;
@@ -6167,7 +6167,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportMissingChild    = $model1->reportMissingChild($data);
             $dataOut=json_encode($reportMissingChild,true);
 					echo  $dataOut;
@@ -6181,7 +6181,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportFoundChild    = $model1->reportFoundChild($data);
             $dataOut=json_encode($reportFoundChild,true);
 					echo  $dataOut;
@@ -6196,7 +6196,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingMissingAdultsList    = $model1->bookingMissingAdultsList($data);
             $dataOut=json_encode($bookingMissingAdultsList,true);
 					echo  $dataOut;
@@ -6211,7 +6211,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$missingPersonDetail    = $model1->missingPersonDetail($data);
             $dataOut=json_encode($missingPersonDetail,true);
 					echo  $dataOut;
@@ -6226,7 +6226,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportFoundPublicAdult    = $model1->reportFoundPublicAdult($data);
             $dataOut=json_encode($reportFoundPublicAdult,true);
 					echo  $dataOut;
@@ -6240,7 +6240,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportFoundPrivateAdult    = $model1->reportFoundPrivateAdult($data);
             $dataOut=json_encode($reportFoundPrivateAdult,true);
 					echo  $dataOut;
@@ -6254,7 +6254,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportFoundPrivateChild    = $model1->reportFoundPrivateChild($data);
             $dataOut=json_encode($reportFoundPrivateChild,true);
 					echo  $dataOut;
@@ -6268,7 +6268,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportFoundAdult    = $model1->reportFoundAdult($data);
             $dataOut=json_encode($reportFoundAdult,true);
 					echo  $dataOut;
@@ -6282,7 +6282,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportMissingAdult    = $model1->reportMissingAdult($data);
             $dataOut=json_encode($reportMissingAdult,true);
 					echo  $dataOut;
@@ -6296,7 +6296,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportMissingAdultPhoto    = $model1->reportMissingAdultPhoto($data);
             $dataOut=json_encode($reportMissingAdultPhoto,true);
 					echo  $dataOut;
@@ -6310,7 +6310,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$reportMissingChildPhoto    = $model1->reportMissingChildPhoto($data);
             $dataOut=json_encode($reportMissingChildPhoto,true);
 					echo  $dataOut;
@@ -6323,7 +6323,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingGetsratedDetail    = $model1->bookingGetsratedDetail($data);
             $dataOut=json_encode($bookingGetsratedDetail,true);
 					echo  $dataOut;
@@ -6336,7 +6336,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingSelectedGetsratedDetail    = $model1->bookingSelectedGetsratedDetail($data);
             $dataOut=json_encode($bookingSelectedGetsratedDetail,true);
 					echo  $dataOut;
@@ -6349,7 +6349,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$workingHrs    = $model1->workingHrs($data);
             $dataOut=json_encode($workingHrs,true);
 					echo  $dataOut;
@@ -6363,7 +6363,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingApartmentInformationDetail    = $model1->bookingApartmentInformationDetail($data);
             $dataOut=json_encode($bookingApartmentInformationDetail,true);
 					echo  $dataOut;
@@ -6377,7 +6377,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=$_POST;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$apartmentInfo    = $model1->addressDetail($data);
             $dataOut=json_encode($apartmentInfo,true);
 					echo  $dataOut;
@@ -6390,7 +6390,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelRoomTypeList    = $model1->hotelRoomTypeList();
             $dataOut=json_encode($hotelRoomTypeList,true);
 					echo  $dataOut;
@@ -6403,7 +6403,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$hotelRoomTypeCheckinList    = $model1->hotelRoomTypeCheckinList();
             $dataOut=json_encode($hotelRoomTypeCheckinList,true);
@@ -6418,7 +6418,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$data=json_decode(file_get_contents('php://input'), true); 
 			$getAvailableRooms    = $model1->getAvailableRooms($data);
 			 
@@ -6436,7 +6436,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$hotelCheckinList    = $model1->hotelCheckinList();
             $dataOut=json_encode($hotelCheckinList,true);
@@ -6450,7 +6450,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$apartmentPayInfo    = $model1->apartmentPayInfo();
             $dataOut=json_encode($apartmentPayInfo,true);
@@ -6465,7 +6465,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$bookApartment    = $model1->bookApartment();
            $dataOut=json_encode($bookApartment,true);
@@ -6479,7 +6479,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$apartmentCheckedInList    = $model1->apartmentCheckedInList();
             $dataOut=json_encode($apartmentCheckedInList,true);
@@ -6495,7 +6495,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			 
 			$apartmentOwnerCheckedInList    = $model1->apartmentOwnerCheckedInList();
             $dataOut=json_encode($apartmentOwnerCheckedInList,true);
@@ -6514,7 +6514,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelImages    = $model1->hotelImages();
             $dataOut=json_encode($hotelImages,true);
 					echo  $dataOut;
@@ -6527,7 +6527,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelImagesCount    = $model1->hotelImagesCount();
             echo  $hotelImagesCount;
 			die; 
@@ -6539,7 +6539,7 @@ class QloudidAppController
     {
        
 			 
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$bookingDetails    = $model1->bookingDetails();
            $dataOut=json_encode($bookingDetails,true);
 					echo  $dataOut;
@@ -6552,7 +6552,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelDetailInfo    = $model1->hotelDetailInfo();
             $dataOut=json_encode($hotelDetailInfo,true);
 					echo  $dataOut;
@@ -6566,7 +6566,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelDetailRoomTypeInfo    = $model1->hotelDetailRoomTypeInfo();
             $dataOut=json_encode($hotelDetailRoomTypeInfo,true);
 					echo  $dataOut;
@@ -6579,7 +6579,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelRoomTypeInfo    = $model1->hotelRoomTypeInfo();
             $dataOut=json_encode($hotelRoomTypeInfo,true);
 					echo  $dataOut;
@@ -6593,7 +6593,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelRoomTypePriceInfo    = $model1->hotelRoomTypePriceInfo();
             $dataOut=json_encode($hotelRoomTypePriceInfo,true);
 					echo  $dataOut;
@@ -6606,7 +6606,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$hotelRoomTypeImages    = $model1->hotelRoomTypeImages();
             $dataOut=json_encode($hotelRoomTypeImages,true);
 					echo  $dataOut;
@@ -6619,7 +6619,7 @@ class QloudidAppController
     {
        
 			$data=array();
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$languagesKnown    = $model1->languagesKnown();
             $dataOut=json_encode($languagesKnown,true);
 					echo  $dataOut;
@@ -6634,7 +6634,7 @@ class QloudidAppController
 			$data=json_decode(htmlentities(file_get_contents('php://input'),ENT_NOQUOTES, 'UTF-8'), true);
 			//echo html_entity_decode($data['DeliveryAddress'],ENT_NOQUOTES, 'UTF-8');
 			//print_r($data); die;
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$addAddress    = $model1->addAddress($data);
             echo $addAddress; die;
 			 
@@ -6647,7 +6647,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$addNewAddress    = $model1->addNewAddress($data);
             echo $addNewAddress; die;
 			 
@@ -6661,7 +6661,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getPurchaseDetail    = $model1->getPurchaseDetail($data);
              $dataOut=json_encode($getPurchaseDetail,true);
 					echo  $dataOut;
@@ -6677,7 +6677,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$getBookingDetail    = $model1->getBookingDetail($data);
              $dataOut=json_encode($getBookingDetail,true);
 					echo  $dataOut;
@@ -6693,7 +6693,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$verifyCheckinDetail    = $model1->verifyCheckinDetail($data);
              $dataOut=json_encode($verifyCheckinDetail,true);
 					echo  $dataOut;
@@ -6708,7 +6708,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateUserAddress    = $model1->updateUserAddress($data);
             echo $updateUserAddress; die;
 			 
@@ -6721,7 +6721,7 @@ class QloudidAppController
        
 			$data=array();
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$updateCompanyAddress    = $model1->updateCompanyAddress($data);
             echo $updateCompanyAddress; die;
 			 
@@ -6747,7 +6747,7 @@ class QloudidAppController
 		else
 		{
 		$data['card_type']=$cardValue;
-		$model1       = new QloudidAppModel();
+		$model1       = new safeqloudAppModel();
 		$saveCardDetails    = $model1->saveCardDetails($data);
 		echo $saveCardDetails; die;			
 		}	
@@ -6761,7 +6761,7 @@ class QloudidAppController
 			$data=array();
 			 $data['certi']=cleanMe($co);
 			 
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$checkValidity    = $model1->checkValidity($data);
             $dataOut=json_encode($checkValidity,true);
 					echo  $dataOut;
@@ -6778,7 +6778,7 @@ class QloudidAppController
 			$data=array();
 			 $data['certi']=cleanMe($co);
 			 
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$updateLoginStatus    = $model1->updateLoginStatus($data);
             echo $updateLoginStatus; die;
 			 
@@ -6798,7 +6798,7 @@ class QloudidAppController
 				
 				$data['password']=md5($data['password']);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkPassword    = $model1->checkPassword($data);
 				$dataOut=json_encode($checkPassword,true);
 					echo  $dataOut;
@@ -6815,7 +6815,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$userDeliveryInvoiceInfo    = $model1->userDeliveryInvoiceInfo($data);
 				$dataOut=json_encode($userDeliveryInvoiceInfo,true);
 					echo  $dataOut;
@@ -6832,7 +6832,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$listCardDetails    = $model1->listCardDetails($data);
 				$dataOut=json_encode($listCardDetails,true);
 					echo  $dataOut;
@@ -6849,7 +6849,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$certificateExxpiryInfo    = $model1->certificateExxpiryInfo($data);
 				$dataOut=json_encode($certificateExxpiryInfo,true);
 					echo  $dataOut;
@@ -6867,7 +6867,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$listAddresses    = $model1->listAddresses($data);
 				$dataOut=json_encode($listAddresses,true);
 					echo  $dataOut;
@@ -6889,7 +6889,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$listAddresses    = $model1->listDeliveryAddresses($data);
 				$dataOut=json_encode($listAddresses,true);
 					echo  $dataOut;
@@ -6906,7 +6906,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$invoiceAddresses    = $model1->invoiceAddresses($data);
 				$dataOut=json_encode($invoiceAddresses,true);
 					echo  $dataOut;
@@ -6923,7 +6923,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addressDetail    = $model1->addressDetail($data);
 				$dataOut=json_encode($addressDetail,true);
 					echo  $dataOut;
@@ -6939,7 +6939,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addressDetail    = $model1->deliveryAddressDetail($data);
 				$dataOut=json_encode($addressDetail,true);
 					echo  $dataOut;
@@ -6955,7 +6955,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$cardDetail    = $model1->cardDetail($data);
 				$dataOut=json_encode($cardDetail,true);
 					echo  $dataOut;
@@ -6971,7 +6971,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$companyAddressDetail    = $model1->companyAddressDetail($data);
 				$dataOut=json_encode($companyAddressDetail,true);
 					echo  $dataOut;
@@ -6987,7 +6987,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$profileDetail    = $model1->profileDetail($data);
 				$dataOut=json_encode($profileDetail,true);
 					echo  $dataOut;
@@ -7003,7 +7003,7 @@ class QloudidAppController
 		   
 				$data=array();
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addFoodToCart    = $model1->addFoodToCart();
 				$dataOut=json_encode($addFoodToCart,true);
 					echo  $dataOut;
@@ -7019,7 +7019,7 @@ class QloudidAppController
 		   
 				$data=array();
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addFoodToCart    = $model1->addFoodDetailToCart();
 				$dataOut=json_encode($addFoodToCart,true);
 					echo  $dataOut;
@@ -7034,7 +7034,7 @@ class QloudidAppController
 		   
 				$data=array();
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addDrycleaningItemToCart    = $model1->addDrycleaningItemToCart();
 				$dataOut=json_encode($addDrycleaningItemToCart,true);
 					echo  $dataOut;
@@ -7049,7 +7049,7 @@ class QloudidAppController
 		{
 		   
 				$data=array();
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$removeItemFromCart    = $model1->removeItemFromCart();
 				$dataOut=json_encode($removeItemFromCart,true);
 					echo  $dataOut;
@@ -7062,7 +7062,7 @@ class QloudidAppController
 		{
 		   
 				$data=array();
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$removeBookingFromCart    = $model1->removeBookingFromCart();
 				$dataOut=json_encode($removeBookingFromCart,true);
 					echo  $dataOut;
@@ -7076,7 +7076,7 @@ class QloudidAppController
 		{
 		   
 				$data=array();
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$removeAmenityFromCart    = $model1->removeAmenityFromCart();
 				 
 					echo  $removeAmenityFromCart;
@@ -7093,7 +7093,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$createNewAccount    = $model1->createNewAccount($data);
 				$dataOut=json_encode($createNewAccount,true);
 					echo  $dataOut;
@@ -7112,7 +7112,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$createEmailAccount    = $model1->createEmailAccount($data);
 				$dataOut=json_encode($createEmailAccount,true);
 					echo  $dataOut;
@@ -7130,7 +7130,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$restoreAccount    = $model1->restoreAccount($data);
 				$dataOut=json_encode($restoreAccount,true);
 					echo  $dataOut;
@@ -7149,7 +7149,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyEmailOtpPin    = $model1->verifyEmailOtpPin($data);
 				$dataOut=json_encode($verifyEmailOtpPin,true);
 					echo  $dataOut;
@@ -7168,7 +7168,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyRestoreOtpPin    = $model1->verifyRestoreOtpPin($data);
 				$dataOut=json_encode($verifyRestoreOtpPin,true);
 					echo  $dataOut;
@@ -7186,7 +7186,7 @@ class QloudidAppController
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/smsMandril.php');
 				
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				 
 				$verifyRestoreOtpPin    = $model1->verifyRestoreOtpPinWithMobile($data);
 				$dataOut=json_encode($verifyRestoreOtpPin,true);
@@ -7205,7 +7205,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyPhoneOtpPin    = $model1->verifyPhoneOtpPin($data);
 				$dataOut=json_encode($verifyPhoneOtpPin,true);
 					echo  $dataOut;
@@ -7224,7 +7224,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyPhoneOtpPin    = $model1->verifyPhoneOtpPinWithId($data);
 				$dataOut=json_encode($verifyPhoneOtpPin,true);
 					echo  $dataOut;
@@ -7245,7 +7245,7 @@ class QloudidAppController
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyAddMobileOtp    = $model1->verifyAddMobileOtp($data);
 				$dataOut=json_encode($verifyAddMobileOtp,true);
 					echo  $dataOut;
@@ -7265,7 +7265,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addIdentificator    = $model1->addIdentificator($data);
 				$dataOut=json_encode($addIdentificator,true);
 					echo  $dataOut;
@@ -7281,7 +7281,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$identificatorDetail    = $model1->identificatorDetail($data);
 				$dataOut=json_encode($identificatorDetail,true);
 					echo  $dataOut;
@@ -7300,7 +7300,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addIdentificator    = $model1->addIdentificatorName($data);
 				$dataOut=json_encode($addIdentificator,true);
 					echo  $dataOut;
@@ -7319,7 +7319,7 @@ class QloudidAppController
 				 
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$addIdentificatorImages    = $model1->addIdentificatorImages($data);
 				$dataOut=json_encode($addIdentificatorImages,true);
 					echo  $dataOut;
@@ -7339,7 +7339,7 @@ class QloudidAppController
 				$data=json_decode(file_get_contents('php://input'), true);
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/testMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				 
 				$generateCertificate    = $model1->generateCertificate($data);
 				$dataOut=json_encode($generateCertificate,true);
@@ -7359,7 +7359,7 @@ class QloudidAppController
 				 
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/smsMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$verifyUserMobile    = $model1->verifyUserMobile($data);
 				$dataOut=json_encode($verifyUserMobile,true);
 					echo  $dataOut;
@@ -7378,7 +7378,7 @@ class QloudidAppController
 				  
 				require_once('../lib/url_shortener.php');
 				require_once('../configs/smsMandril.php');
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$checkMobileAvailability    = $model1->checkMobileAvailability($data);
 				$dataOut=json_encode($checkMobileAvailability,true);
 					echo  $dataOut;
@@ -7394,7 +7394,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$purchaseDetail    = $model1->purchaseDetail($data);
 				 
 					echo  $purchaseDetail;
@@ -7411,7 +7411,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$updateCardPurchaseDetail    = $model1->updateCardPurchaseDetail($data);
 				 
 					echo  $updateCardPurchaseDetail;
@@ -7428,7 +7428,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$savePurchaseCardDetails    = $model1->savePurchaseCardDetails($data);
 				 
 					echo  $savePurchaseCardDetails;
@@ -7446,7 +7446,7 @@ class QloudidAppController
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
 				 
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$savePurchaseCardDetails    = $model1->saveUpdatedPurchaseCardDetails($data);
 				 
 					echo  $savePurchaseCardDetails;
@@ -7462,7 +7462,7 @@ class QloudidAppController
 		   
 				$data=array();
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$confirmPurchase    = $model1->confirmPurchase($data);
 				echo  $confirmPurchase;
 				die; 
@@ -7475,7 +7475,7 @@ class QloudidAppController
 				$data=array();
 				 
 				$data=json_decode(file_get_contents('php://input'), true);
-				$model1       = new QloudidAppModel();
+				$model1       = new safeqloudAppModel();
 				$purchaseDetailUpdate    = $model1->purchaseDetailUpdate($data);
 				 
 					$dataOut=json_encode($purchaseDetailUpdate,true);
@@ -7500,7 +7500,7 @@ class QloudidAppController
 			
 			$data['certi']=cleanMe($co);
 			 
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$verifyPassword    = $model1->verifyPassword($data);
             
 				echo  $verifyPassword;
@@ -7520,7 +7520,7 @@ class QloudidAppController
 			$data=json_decode(file_get_contents('php://input'), true);
 			
 			$data['password']=md5($data['password']);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$verifyPassword    = $model1->verifyInterAppPassword($data);
             $dataOut=json_encode($verifyPassword,true);
 					echo  $dataOut;
@@ -7537,7 +7537,7 @@ class QloudidAppController
 			 
 			
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$verifyInterAppSession    = $model1->verifyInterAppSession($data);
             $dataOut=json_encode($verifyInterAppSession,true);
 					echo  $dataOut;
@@ -7554,7 +7554,7 @@ class QloudidAppController
 			 
 			
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$verifyAdmin    = $model1->verifyAdmin($data);
             $dataOut=json_encode($verifyAdmin,true);
 					echo  $dataOut;
@@ -7572,7 +7572,7 @@ class QloudidAppController
 			 
 			
 			$data=json_decode(file_get_contents('php://input'), true);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$companyDownloadedApps    = $model1->companyDownloadedApps($data);
             $dataOut=json_encode($companyDownloadedApps,true);
 					echo  $dataOut;
@@ -7594,7 +7594,7 @@ class QloudidAppController
 			
 			$data['certi']=$data['certificate'];
 			 
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$verifyUserConsent    = $model1->verifyUserConsent($data);
             
 				$dataOut=json_encode($verifyUserConsent,true);
@@ -7611,7 +7611,7 @@ class QloudidAppController
        
 			$data=array();
 			$data['certi']=cleanMe($co);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$clearIps    = $model1->clearIps($data);
             
 				echo  $clearIps;
@@ -7627,7 +7627,7 @@ class QloudidAppController
        
 			$data=array();
 			$data['certi']=cleanMe($co);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$clearLogin    = $model1->clearLogin($data);
             
 				echo  $clearLogin;
@@ -7642,7 +7642,7 @@ class QloudidAppController
        
 			$data=array();
 			$data['certi']=cleanMe($co);
-			$model1       = new QloudidAppModel();
+			$model1       = new safeqloudAppModel();
 			$clearCertificate    = $model1->clearCertificate($data);
             
 				echo  $clearCertificate;
@@ -7658,7 +7658,7 @@ class QloudidAppController
        
 			$data=array();
 			 
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$checkOrderReference    = $model1->checkOrderReference($data);
              
 				echo  $checkOrderReference;
@@ -7673,7 +7673,7 @@ class QloudidAppController
        
 			$data=array();
 			 
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$getUserId    = $model1->getUserId($data);
              
 				echo  $getUserId;
@@ -7692,7 +7692,7 @@ class QloudidAppController
 			
 			$data['certi']=cleanMe($co);
 			
-            $model1       = new QloudidAppModel();
+            $model1       = new safeqloudAppModel();
 			$updateLoginIp    = $model1->updateLoginIp($data);
              echo $updateLoginIp; die;
 			 

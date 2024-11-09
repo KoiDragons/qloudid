@@ -208,7 +208,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -225,7 +225,7 @@
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -237,7 +237,7 @@
 				
 					</div>
 					
-					<div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="diblock padl15 padr10 brdrad3 fsz30" style="color: #d9e7f0;"><i class="far fa-edit" aria-hidden="true"></i></a> </div>
+					<div class="visible-xs visible-sm fright marr0 padt5 "> <a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="diblock padl15 padr10 brdrad3 fsz30" style="color: #d9e7f0;"><i class="far fa-edit" aria-hidden="true"></i></a> </div>
 					 
                 <div class="clear"></div>
 
@@ -286,7 +286,7 @@
 						 
 						
 						 	<div class="wi_25-12p marl123 xxs-mar87">
-						<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" class="fsz30 ">
+						<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class="fsz30 ">
 						<span class="fa-stack-info">
 																				  <i style="border-radius: 10%;background: #e4e4e4; color: #e4e4e4" aria-hidden="true" class=" fa-circle fa-stack-2x circle_bg_apps2"></i>
 																				  <i class="black_txt fab fa-airbnb fa-stack-1x fab1 bold pad0" aria-hidden="true" style="color:#fcaf16;"></i>
@@ -296,7 +296,7 @@
 						 
 						<div class="wi_25-12p marl10">
 					<?php if($data['user_id']==43) { ?>
-						<a href="<?php if($checkEmployerAvailable==0) echo 'javascript:void(0);'; else echo 'https://www.qloudid.com/user/index.php/Arbetsplats/minArbetsplats'; ?>" class="fsz30 ">
+						<a href="<?php if($checkEmployerAvailable==0) echo 'javascript:void(0);'; else echo 'https://www.safeqloud.com/user/index.php/Arbetsplats/minArbetsplats'; ?>" class="fsz30 ">
 				<?php 	} else { ?>
 				<a href="#" class="fsz30 " onclick="showError();">
 				<?php } ?>
@@ -315,7 +315,7 @@
 						<?php if($data['user_id']!=43) { ?>
 						 <div class="talc fsz20 hidden padb20 red_txt" id="ErrorMsg">This is a paid feature</div> 
 						<?php } ?>
-						<a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="hidden-xs"><div class="talc fsz20">Edit details</div></a>
+						<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="hidden-xs"><div class="talc fsz20">Edit details</div></a>
 						
 					</div>
 					

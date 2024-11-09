@@ -21,7 +21,7 @@
 		
 		<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 		<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-		<!--<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-qloudid/90min');return false;">Schedule time with me</a>-->
+		<!--<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-safeqloud/90min');return false;">Schedule time with me</a>-->
 		
 		<script type="text/javascript" src="<?php echo $path;?>html/signup/login/html/js/jquery.js"></script>
 		
@@ -366,7 +366,7 @@
 					function changeHeader()
 					{
 						
-						window.location.href="https://www.qloudid.com/user/index.php/InformRelativesEng";
+						window.location.href="https://www.safeqloud.com/user/index.php/InformRelativesEng";
 						
 					}
 					function changeClass(link)
@@ -405,7 +405,7 @@
 								}
 								else 
 								{
-									window.location.href ="https://www.qloudid.com/user/index.php/InformRelatives";
+									window.location.href ="https://www.safeqloud.com/user/index.php/InformRelatives";
 								}
 							}
 						});
@@ -602,7 +602,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 					<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -644,8 +644,8 @@
 				
 				<div class="top_menu_qloud fright padt20 padb0 hidden-xs" style="width:580px;">
 						<ul class="menulist sf-menu fsz16 black_txt">
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/QloudidPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/safeqloudPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue ">
 								<a href="#" class="translate brdb_b_pink hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 pink_txt ">Partners</a>
 								<ul >
@@ -659,11 +659,11 @@
 											
 												<li class="fsz14 valm padb10 ">
 													
-													<div class="padl20 padtb10 brdb_new"> <a href="https://www.qloudid.com/user/index.php/PublicNews" class="fsz16 black_txt"  >  Våra partners</a> </div>
+													<div class="padl20 padtb10 brdb_new"> <a href="https://www.safeqloud.com/user/index.php/PublicNews" class="fsz16 black_txt"  >  Våra partners</a> </div>
 												</li>
 												<li>
 													
-													<div class="padl20 padtb10 valm"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" class="fsz16 black_txt" data-value="en" >  Kalender </a> </div>
+													<div class="padl20 padtb10 valm"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="fsz16 black_txt" data-value="en" >  Kalender </a> </div>
 												</li>
 												</ol>
 											
@@ -673,9 +673,9 @@
 								</ul>
 							</li>
 							
-								<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.qloudid.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+								<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.safeqloud.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 							
 							</ul>
 					</div>
@@ -683,7 +683,7 @@
 				
 			
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
 				<div class="clear"></div>
 				
 			</div>
@@ -783,7 +783,7 @@
 											
 											<div class=" dblock_siba  padb0 ">
 												<div class="mart0 talc">
-													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-qloudid/60min');return false;">
+													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-safeqloud/60min');return false;">
 													
 												</div>
 												
@@ -849,7 +849,7 @@
 											
 											<div class=" dblock_siba  padb0 ">
 												<div class="mart0 talc">
-													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-qloudid/90min');return false;">
+													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-safeqloud/90min');return false;">
 													
 												</div>
 												
@@ -919,7 +919,7 @@
 											
 											<div class=" dblock_siba  padb0 ">
 												<div class="mart0 talc">
-													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-qloudid/15min');return false;">
+													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-safeqloud/15min');return false;">
 													
 												</div>
 												
@@ -988,7 +988,7 @@
 											
 											<div class=" dblock_siba  padb0 ">
 												<div class="mart0 talc">
-													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp"  onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-qloudid/introduktionsmote-kund');return false;">
+													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp"  onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-safeqloud/introduktionsmote-kund');return false;">
 													
 												</div>
 												
@@ -1058,7 +1058,7 @@
 											
 											<div class=" dblock_siba  padb0 ">
 												<div class="mart0 talc">
-													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-qloudid/introduktionsmote');return false;">
+													<input type="button" value="Register" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" onclick="Calendly.showPopupWidget('https://calendly.com/robert-ghirmai-safeqloud/introduktionsmote');return false;">
 													
 												</div>
 												

@@ -124,7 +124,7 @@
 				<label class="dblock fsz12 fleft">
 				  <span class="marl5 fsz16 xs-fsz16 valm ">Hj&auml;lp</span> </label>
 				</div>
-				<div class="tw_clmn padl10 talr lgn_hight_18 fsz16 wi_70"> <a href="https://www.qloudid.com/public/index.php/QloudidPersonalEng">Cancel</a> </div>
+				<div class="tw_clmn padl10 talr lgn_hight_18 fsz16 wi_70"> <a href="https://www.safeqloud.com/public/index.php/safeqloudPersonalEng">Cancel</a> </div>
 				</div>
 						</div>
 			 

@@ -1785,7 +1785,7 @@
 				<div class="padtb5 "><a href="javascript:void();" onclick="setDisconnect('.$org2.');">Disconnect</a></div>
 				</td>
 				<td class="pad5 brdb_new tall cd">
-				<a href="https://www.qloudid.com/user/index.php/ManagePermissions/setPermissions/'.$org1.'" class="load_more_results  marrl5">Permission</a>
+				<a href="https://www.safeqloud.com/user/index.php/ManagePermissions/setPermissions/'.$org1.'" class="load_more_results  marrl5">Permission</a>
 				</td>
 				
 				

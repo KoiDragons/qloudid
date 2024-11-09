@@ -102,18 +102,18 @@
 					if(data1==1)
 					{
 				$("#warning").html('');
-				var msg="User does not exist.<a href='https://www.qloudid.com/user/index.php/CreateAccount'>Sign up</a>";
+				var msg="User does not exist.<a href='https://www.safeqloud.com/user/index.php/CreateAccount'>Sign up</a>";
 				$("#warning").html(msg);
 				}
 					else if(data1==5)
 					{
 				$("#warning").html('');
-				var msg="Wrong password. <a href='https://www.qloudid.com/user/index.php/ForgotPswd'>Forgot password?</a>";
+				var msg="Wrong password. <a href='https://www.safeqloud.com/user/index.php/ForgotPswd'>Forgot password?</a>";
 				$("#warning").html(msg);
 				}	
 					else if(data1==2 || data1==3 || data1==4)
 					{
-				window.location.href='https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests?rid=<?php echo $data['r_id']; ?>';
+				window.location.href='https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests?rid=<?php echo $data['r_id']; ?>';
 					}
 					
 					else 
@@ -145,7 +145,7 @@
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-				<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr30">
 			<div class="languages">

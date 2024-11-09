@@ -90,7 +90,7 @@
 									<ul class="marr20 pad0">
 										
 										<li class=" dblock padrb10  padl8">
-											<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
+											<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
 												<span class="fa fa-address-card-o wi_20p dnone_pa"></span>
 												<span class="valm trn">Delade uppgifter </span><span class="counter_position"><?php echo $receivedAllCount; ?></span>
 												<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg  rotate45"></div>
@@ -99,7 +99,7 @@
 										
 										
 										<li class=" dblock padrb10  padl8">
-											<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
+											<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class=" lgtgrey_bg hei_26p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
 												<span class="fa fa-address-card-o wi_20p dnone_pa"></span>
 												<span class="valm trn">Utforska appar </span> 
 												<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg  rotate45"></div>
@@ -183,23 +183,23 @@
 											<ul class="marr20 pad0">
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn" data-trn-key="Verifiera ID">Verifiera ID </span> <span class="counter_position"><?php echo $receivedRequestsUser; ?></span>
+													<a href="https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn" data-trn-key="Verifiera ID">Verifiera ID </span> <span class="counter_position"><?php echo $receivedRequestsUser; ?></span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/ConnectKin/connectAccount" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Anhöriga </span> <span class="counter_position"><?php echo $connectAccountReceivedCount; ?></span>
+													<a href="https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Anhöriga </span> <span class="counter_position"><?php echo $connectAccountReceivedCount; ?></span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/ForloratOchUpphittat" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn" >Värdesaker</span>
+													<a href="https://www.safeqloud.com/user/index.php/ForloratOchUpphittat" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn" >Värdesaker</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/BoughtProducts" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn" data-trn-key="Historik">Historik</span>
+													<a href="https://www.safeqloud.com/user/index.php/BoughtProducts" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn" data-trn-key="Historik">Historik</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>

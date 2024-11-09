@@ -21,7 +21,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				/*if(!isset($_POST['total_value']))
@@ -45,7 +45,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				if(isset($_POST['search']))
 				{ 
@@ -72,7 +72,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$path="../../../";
 				$model = new VerifyCompanyModel();

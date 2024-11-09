@@ -762,7 +762,7 @@
                <div id="spacer" spacing="standard" class="css-vqlgan"></div>
                <div class="css-1jcail2">
                   <div data-testid="did-you-know-min-stay" class="css-1miy8fb">
-                     <img role="presentation" src="https://www.qloudid.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn">
+                     <img role="presentation" src="https://www.safeqloud.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn">
                      <div class="css-1ai2sgr">A minimum stay of 1 or 2 nights will increase your chances of getting booked</div>
                   </div>
                </div>

@@ -35,7 +35,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -45,7 +45,7 @@
 				$employeeCheck    = $model->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$model1       = new UserSupplierCompanyModel();
 				$country    = $model1->countryList($data);
@@ -68,7 +68,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -85,7 +85,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$path         = "../../../../";
 				$data=array();
@@ -102,7 +102,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -117,7 +117,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);
@@ -131,7 +131,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$data['cid']=cleanMe($a);

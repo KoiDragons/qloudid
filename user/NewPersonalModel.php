@@ -792,7 +792,7 @@
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen'.$i.'.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen'.$i.'.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">'.$title.'</span><span class="aprtSubheading">'.$row1['num'].' amenities selected</span>
 								</div>
@@ -2482,7 +2482,7 @@
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen'.$j.'.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen'.$j.'.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">'.$row['amenitiy_category'].'</span><span class="aprtSubheading">'.$row['amenity_count'].' amenities selected</span>
 								</div>
@@ -6100,7 +6100,7 @@ $i++;
 								<a href="#profile1" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
 									 
-								<span class="css-nacvcm hidden-xs"><img src="https://www.qloudid.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
+								<span class="css-nacvcm hidden-xs"><img src="https://www.safeqloud.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">Additional calendar features</span><span class="aprtSubheading">Select a larger date range and view calendar sync</span>
 								</div>
@@ -6314,7 +6314,7 @@ $i++;
 								<a href="#profile1" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
 									 
-								<span class="css-nacvcm hidden-xs"><img src="https://www.qloudid.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
+								<span class="css-nacvcm hidden-xs"><img src="https://www.safeqloud.com/html/usercontent/images/Cog.cda5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">Additional calendar features</span><span class="aprtSubheading">Select a larger date range and view calendar sync</span>
 								</div>
@@ -9599,6 +9599,8 @@ House rules
 			define('UPLOAD_DIR','../estorecss/'); // image dir path
 			$img_name2="new".microtime();
 			file_put_contents(UPLOAD_DIR.$img_name2.".txt", $data2);
+			$_POST['issue_date']=1;
+			$_POST['expiry_date']=1;
 			$issue_date=$_POST['issue_date'].'/'.$_POST['issue_month'].'/'.$_POST['issue_year'];
 			$expiry_date=$_POST['expiry_date'].'/'.$_POST['expiry_month'].'/'.$_POST['expiry_year'];
 		   	$stmt = $dbCon->prepare("update user_identification set issue_month=?,issue_year=?,expiry_month=?, expiry_year=?,front_image_path=?, back_image_path=?,is_completed=1,issue_date=?,expiry_date=? where id=?
@@ -11722,7 +11724,7 @@ House rules
 						{
 							$to = $row_c['company_email'];
 							$subject = "Telezales - Employee Request";
-							$emailContent =$username['name'].'  is requesting for an employee profile page for '.$row_c['company_name'].'. To approve/reject click on following link :<a href="https://www.qloudid.com/company/index.php/EmployeeRequest/locationShow/'.$c_id.'">Click here</a>';
+							$emailContent =$username['name'].'  is requesting for an employee profile page for '.$row_c['company_name'].'. To approve/reject click on following link :<a href="https://www.safeqloud.com/company/index.php/EmployeeRequest/locationShow/'.$c_id.'">Click here</a>';
 							$from = "admin@telezales.com";
 							$headers = "MIME-Version: 1.0 \r\n";
 							$headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
@@ -11737,7 +11739,7 @@ House rules
 					{
 						$to = $username['email'];
 						$subject = "Telezales - Employee Approval/Rejection";
-						$emailContent ='Your are already a employee of the same company and click following link to view your employee profile page:<a href="https://www.qloudid.com/user_company_detail.php?id='.$c_id.'">Click here</a>';
+						$emailContent ='Your are already a employee of the same company and click following link to view your employee profile page:<a href="https://www.safeqloud.com/user_company_detail.php?id='.$c_id.'">Click here</a>';
 						$from = "admin@telezales.com";
 						$headers = "MIME-Version: 1.0 \r\n";
 						$headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";

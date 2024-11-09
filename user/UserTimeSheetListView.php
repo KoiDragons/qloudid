@@ -25,7 +25,7 @@
 		 <script>
 		function changeHeader()
 		{
-			window.location.href ="https://www.qloudid.com/user/index.php/UserTimeSheetInfo/taskInformation";
+			window.location.href ="https://www.safeqloud.com/user/index.php/UserTimeSheetInfo/taskInformation";
 		}	
 		</script>
 		 

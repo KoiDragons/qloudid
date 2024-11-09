@@ -344,7 +344,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -355,7 +355,7 @@
 				<ul class="menulist sf-menu  fsz14  sf-js-enabled sf-arrows mart10 marb0">
 					 
 					<li class="last first marr10i">
-						<a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
+						<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
 					 </li>
 				</ul>
 			</div>
@@ -372,7 +372,7 @@
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -390,7 +390,7 @@
 				<ul class="menulist sf-menu  fsz14  sf-js-enabled sf-arrows mart10 marb0">
 					 
 					<li class="last first marr10i">
-						<a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
+						<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1 fsz30" ><span class="fa fa-qrcode  " aria-hidden="true"></span></a>
 					 </li>
 				</ul>
 			</div>
@@ -480,7 +480,7 @@
                            <ul class="dblock marr20  padl10 fsz16">
 							 					
 							   <li class="dblock padrb10 ">
-                                 <a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
+                                 <a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="hei_26p dflex alit_c padb10 pos_rel padr10  brdwi_3 grey_txt">
                                     <span class="valm trn" style="letter-spacing: 2px;">My profile</span> 
                                     <div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
                                  </a>
@@ -1742,7 +1742,7 @@
 															
 															<div class="clear"></div>
 															
-															<div class="mart20 padb10 xs-padrl0" > <a href="https://www.qloudid.com/user/index.php/NotifyFamilyFriends#" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 blue_bgn  fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0" >Meddela med BankID</a> </div>
+															<div class="mart20 padb10 xs-padrl0" > <a href="https://www.safeqloud.com/user/index.php/NotifyFamilyFriends#" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 blue_bgn  fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0" >Meddela med BankID</a> </div>
 															
 															
 															

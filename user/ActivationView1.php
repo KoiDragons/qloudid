@@ -57,7 +57,7 @@
 	<div class="column_m header header_small padrl10 white_bg brdb">
 		<div class="padtb5">
 			<div class="logo hidden-xs hidden-sm marr15">
-				<a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount"> <h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3>  </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount"> <h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3>  </a>
 			</div>
 			<div class="fleft padl10">
 				<div class="languages">

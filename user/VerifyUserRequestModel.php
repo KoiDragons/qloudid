@@ -22,7 +22,7 @@
 				$row_sender = $result->fetch_assoc();
 				
 				$to      = $row_sender['email'];
-				$subject = "Qloudid : Update on data access request";
+				$subject = "safeqloud : Update on data access request";
 				
 				$emailContent ='There is an update on your request to access user data.';
 				sendEmail($subject, $to, $emailContent);

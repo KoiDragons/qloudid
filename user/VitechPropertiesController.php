@@ -11,10 +11,10 @@ class VitechPropertiesController
 			if ($valueNew == 0) {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 			$path = "../../../";
 			$data=array();
@@ -34,10 +34,10 @@ class VitechPropertiesController
 			if ($valueNew == 0) {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 			$path = "../../../";
 			$data=array();
@@ -56,10 +56,10 @@ class VitechPropertiesController
 			if ($valueNew == 0) {
 				$model1       = new VitechPropertiesModel();
 				$data=array();
-				 $data['REQUEST_URI']='https://www.qloudid.com'.$_SERVER['REQUEST_URI'];
+				 $data['REQUEST_URI']='https://www.safeqloud.com'.$_SERVER['REQUEST_URI'];
 				  
 				 $urlDetail    = $model1->urlDetail($data);
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/emailLogin?redirect=".$urlDetail);
 				} else {
 			$path = "../../../";
 			$data=array();

@@ -17,7 +17,7 @@
 			// echo $valueNew; die;
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$model = new InvitationModel();
@@ -200,7 +200,7 @@
 			 $valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
             $data=array();
 			
@@ -223,7 +223,7 @@
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$webModel = new InvitationModel();
 			
@@ -244,7 +244,7 @@
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$model = new InvitationModel();
 			if (isset($_POST['company_email'])) {
@@ -273,7 +273,7 @@
 				if ($result == 0) {
 					
 					$path = "../../../";
-					header("location:https://www.qloudid.com/user/index.php/Invitation/invitationShow");
+					header("location:https://www.safeqloud.com/user/index.php/Invitation/invitationShow");
 				}
 				
 				else {
@@ -281,7 +281,7 @@
 					$path = "../../../";
 					require_once('../configs/testMandril.php');
 					$resultPass = $model->sendCreateCompanyEmail($data);
-					header("location:https://www.qloudid.com/thankyouregistration.php");
+					header("location:https://www.safeqloud.com/thankyouregistration.php");
 				}
 				
 			}
@@ -313,7 +313,7 @@
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
         } else {
 			$webModel = new InvitationModel();
 			

@@ -67,7 +67,7 @@
 			function changeHeader()
 			{
 				
-				window.location.href="https://www.qloudid.com/user/index.php/CorporateServicesEng";
+				window.location.href="https://www.safeqloud.com/user/index.php/CorporateServicesEng";
 				
 			}
 			
@@ -95,7 +95,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 					<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -138,9 +138,9 @@
 				
 				<div class="top_menu_qloud fright padt10 padb10" style="width:580px;">
 						<ul class="menulist sf-menu fsz16 black_txt">
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.qloudid.com" class="hei_30pi dblock padrl10   lgn_hight_30  ">Privat</a></li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.safeqloud.com" class="hei_30pi dblock padrl10   lgn_hight_30  ">Privat</a></li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" id="usermenu_singin" class="hei_30pi dblock padrl10 brdb_b_pink  lgn_hight_30 pink_txt " data-en="Företag" data-sw="Företag">Företag</a> </li>
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.qloudid.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.safeqloud.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue ">
 								<a href="#" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Partners</a>
 								<ul >
@@ -154,11 +154,11 @@
 											
 												<li class="fsz14 valm padb10 ">
 													
-													<div class="padl20 padtb10 brdb_new"> <a href="https://www.qloudid.com/user/index.php/PublicNews" class="fsz16 black_txt"  >  Våra partners</a> </div>
+													<div class="padl20 padtb10 brdb_new"> <a href="https://www.safeqloud.com/user/index.php/PublicNews" class="fsz16 black_txt"  >  Våra partners</a> </div>
 												</li>
 												<li>
 													
-													<div class="padl20 padtb10 valm"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" class="fsz16 black_txt" data-value="en" >  Kalender </a> </div>
+													<div class="padl20 padtb10 valm"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="fsz16 black_txt" data-value="en" >  Kalender </a> </div>
 												</li>
 												</ol>
 											
@@ -168,9 +168,9 @@
 								</ul>
 							</li>
 							
-								<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.qloudid.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+								<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.safeqloud.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 							
 							</ul>
 					</div>
@@ -181,7 +181,7 @@
 						
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"> <a href="#" class="translate hei_30pi dblock padrl20 brdb_b_pink  lgn_hight_30 pink_txt " data-en="Privat" data-sw="Privat">Privat</a> </li>
 						
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/CorporateServices" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Företag" data-sw="Företag">Företag</a> </li>
 						
 						
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="javascript:void(0);"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Partners" data-sw="Partners" onclick="togglePopup1();">Partners</a> 
@@ -193,11 +193,11 @@
 											<ol>
 												<li class="fsz14">
 													
-													<div class="mail_content padt10 "> <a href="https://www.qloudid.com/user/index.php/PublicNews" class="fsz14 black_txt" data-value="sv" >  Våra partners</a> </div>
+													<div class="mail_content padt10 "> <a href="https://www.safeqloud.com/user/index.php/PublicNews" class="fsz14 black_txt" data-value="sv" >  Våra partners</a> </div>
 												</li>
 												<li>
 													
-													<div class="mail_content padt10 "> <a href="https://www.qloudid.com/user/index.php/InformRelatives" class="fsz14 black_txt" data-value="en" >  Kalender </a> </div>
+													<div class="mail_content padt10 "> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="fsz14 black_txt" data-value="en" >  Kalender </a> </div>
 												</li>
 												
 											</ol>
@@ -207,13 +207,13 @@
 								</ul>
 						
 						</li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.qmatchup.com/beta/company/index.php/PublicAboutUs/companyAccount/N0ZvS0gycGRubUx4MlpxeTJNY1czZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl20   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 					</ul>
 				</div>
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
 				<div class="clear"></div>
 				
 			</div>
@@ -225,7 +225,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 					<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -266,9 +266,9 @@
 				</div>
 				<div class="top_menu_qloud fright padt20 padb0" style="width:580px;">
 						<ul class="menulist sf-menu fsz16 black_txt">
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/QloudidPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/safeqloudPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl20 brdb_b_pink  lgn_hight_30 pink_txt " data-en="Företag" data-sw="Företag">Företag</a> </li>
-							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.qloudid.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
+							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue first"><a href="https://www.safeqloud.com/public/index.php/PublicAppStore" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Store</a></li>
 							<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue ">
 							
 								<a href="#" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h">Partners</a>
@@ -283,11 +283,11 @@
 											
 												<li class="fsz14 valm padb10 ">
 													
-													<div class="padl20 padtb10 brdb_new"> <a href="https://www.qloudid.com/user/index.php/PublicNews" class="fsz16 black_txt"  >  Våra partners</a> </div>
+													<div class="padl20 padtb10 brdb_new"> <a href="https://www.safeqloud.com/user/index.php/PublicNews" class="fsz16 black_txt"  >  Våra partners</a> </div>
 												</li>
 												<li>
 													
-													<div class="padl20 padtb10 valm"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" class="fsz16 black_txt" data-value="en" >  Kalender </a> </div>
+													<div class="padl20 padtb10 valm"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" class="fsz16 black_txt" data-value="en" >  Kalender </a> </div>
 												</li>
 												</ol>
 											
@@ -297,26 +297,26 @@
 								</ul>
 							</li>
 							
-								<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.qloudid.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+								<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="sos" data-sw="sos">NOTIFY <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20 "> <a href="https://www.safeqloud.com/public/index.php/PublicAboutUs/companyAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl10   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 last"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl10 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 							
 							</ul>
 					</div>
 				<div class="fright xs-dnone sm-dnone padt10 padb10 hidden">
 					<ul class="mar0 pad0 sf-menu fsz16">
 						
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/QloudidPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/safeqloudPersonal" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Privat" data-sw="Privat">Privat</a> </li>
 						
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl20 brdb_b_pink  lgn_hight_30 pink_txt " data-en="Företag" data-sw="Företag">Företag</a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.qloudid.com/user/index.php/PublicNews"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Partners" data-sw="Partners">Partners</a> </li>
-						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.qloudid.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h " data-en="sos" data-sw="sos">SOS <span class="fa fa-heart red_txt"></span> F&F </a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="https://www.safeqloud.com/user/index.php/PublicNews"  class="ranslate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h" data-en="Partners" data-sw="Partners">Partners</a> </li>
+						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue hidden"> <a href="https://www.safeqloud.com/user/index.php/InformRelatives" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt white_txt_h " data-en="sos" data-sw="sos">SOS <span class="fa fa-heart red_txt"></span> F&F </a> </li>
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel brd2 brdclr_lgrey2 lgtgrey2_bg brdrad5 marl20"> <a href="https://www.qmatchup.com/beta/company/index.php/PublicAboutUs/companyAccount/N0ZvS0gycGRubUx4MlpxeTJNY1czZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl20   lgn_hight_25 black_txt black_txt_h" data-en="About" data-sw="About">About</a> </li>
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h  lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Logga in" data-sw="Logga in">Logga in</a> </li>
 					</ul>
 				</div>
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3 "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Login</a> </div>
 				<div class="clear"></div>
 				
 			</div>
@@ -415,7 +415,7 @@
 					</div>
 					
 					<div class="xs-wi_100 wi_25 fleft bs_bb pad8 talc ">
-						<a href="https://www.qloudid.com/user/index.php/ManageVisitors" class="style_base hei_60p dblock bs_bb pad0  brdclr_seggreen_h brdrad4 trans_all2 white_bg bxsh_0_trans_0_trans_02150_0_3_ph opbxsh_0004_6f_sibc brdrad2 trans_bxsh1">
+						<a href="https://www.safeqloud.com/user/index.php/ManageVisitors" class="style_base hei_60p dblock bs_bb pad0  brdclr_seggreen_h brdrad4 trans_all2 white_bg bxsh_0_trans_0_trans_02150_0_3_ph opbxsh_0004_6f_sibc brdrad2 trans_bxsh1">
 							<div class="trf_y-12p_ph trans_all2">
 								
 								
@@ -428,7 +428,7 @@
 					</div>
 					
 					<div class="xs-wi_100 wi_25 fleft bs_bb pad8 talc ">
-						<a href="https://www.qloudid.com/user/index.php/LoginAccount" class="style_base hei_60p dblock bs_bb pad0  brdclr_seggreen_h brdrad4 trans_all2 white_bg bxsh_0_trans_0_trans_02150_0_3_ph opbxsh_0004_6f_sibc brdrad2 trans_bxsh1">
+						<a href="https://www.safeqloud.com/user/index.php/LoginAccount" class="style_base hei_60p dblock bs_bb pad0  brdclr_seggreen_h brdrad4 trans_all2 white_bg bxsh_0_trans_0_trans_02150_0_3_ph opbxsh_0004_6f_sibc brdrad2 trans_bxsh1">
 							<div class="trf_y-12p_ph trans_all2">
 								
 								
@@ -470,7 +470,7 @@
 					</div>
 					
 					<div class="xs-wi_100 wi_25 fleft bs_bb pad8 talc ">
-						<a href="https://www.qloudid.com/user/index.php/Appstore" class="style_base hei_60p dblock bs_bb pad0  brdclr_seggreen_h brdrad4 trans_all2 white_bg bxsh_0_trans_0_trans_02150_0_3_ph opbxsh_0004_6f_sibc brdrad2 trans_bxsh1">
+						<a href="https://www.safeqloud.com/user/index.php/Appstore" class="style_base hei_60p dblock bs_bb pad0  brdclr_seggreen_h brdrad4 trans_all2 white_bg bxsh_0_trans_0_trans_02150_0_3_ph opbxsh_0004_6f_sibc brdrad2 trans_bxsh1">
 							<div class="trf_y-12p_ph trans_all2">
 								
 								
@@ -658,7 +658,7 @@
 								<div class="lgn_hight_30 fsz22 xs-fsz18">Vi har samlat alla smarta företagslösningar på ett ställe, utvecklade av både oss och våra samarbetspartners. I Qloud ID App Market hittar du smarta verktyg du behöver för att starta, driva och utveckla ditt företag, lokalt och globalt.</div>
 								
 								<div class="mart20 tall "> 
-									<a href="https://www.qloudid.com/user/index.php/Appstore"><input type="button" value="Mer om App Market" class="padl20 nobrd wi_60 maxwi_500p minhei_50p dflex  alit_c opa90_h brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+									<a href="https://www.safeqloud.com/user/index.php/Appstore"><input type="button" value="Mer om App Market" class="padl20 nobrd wi_60 maxwi_500p minhei_50p dflex  alit_c opa90_h brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 								</div>
 							</div>
 							
@@ -702,7 +702,7 @@
 							
 						</div>
 						<div class="wi_20 xs-wi_100 fsz70 yellow_txt">
-							<a href="https://www.qloudid.com/user/index.php/ManageVisitors"><span class="fas fa-arrow-alt-circle-right"></span></a>
+							<a href="https://www.safeqloud.com/user/index.php/ManageVisitors"><span class="fas fa-arrow-alt-circle-right"></span></a>
 						</div>
 					</div>
 					<div class="dflex xs-dblock justc_c alit_c fsz22 xs-fsz18 darkgrey_txt padrl30  xs-padrl0 padtb40 brdb_new">
@@ -1428,7 +1428,7 @@
 										<h4 class="bold fsz25 padt10 xs-tall">Clean Data Business</h4>
 										<p class="padtb15 xs-tall">Med ditt Business ID kan tilldela personliga ID till dina anställda med rättigheter baserat på deras roll på bolaget. Kommunicera, meddela, erbjud förmåner, och samverka i en sluten digital miljö tillsammans.  
 											
-											<a href="https://www.qloudid.com/user/index.php/PublicAboutQmatchupOmOss"><h3>Läs mer</h3></a>
+											<a href="https://www.safeqloud.com/user/index.php/PublicAboutQmatchupOmOss"><h3>Läs mer</h3></a>
 										</p>
 										
 									</div>
@@ -1450,7 +1450,7 @@
 										<h4 class="bold fsz25 padt10 xs-tall">NOFF Business</h4>
 										<p class="padtb15 xs-tall">Med NOFF Business kan du och ditt företag arbeta systematiskt med att minska omfattningen av en krissituation, både före, under och efter att den har inträffat genom att skapa krisberedskap med rutiner och arbetssätt som gör det möjligt för er att hantera krisen på ett effektivt sätt.
 											
-											<a href="https://www.qloudid.com/user/index.php/PublicAboutQmatchup"><h3>Läs mer</h3></a>
+											<a href="https://www.safeqloud.com/user/index.php/PublicAboutQmatchup"><h3>Läs mer</h3></a>
 										</p>
 										
 									</div>
@@ -1771,7 +1771,7 @@
 							<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40 tall">Verifiera ID</h2>
 							<div class="lgn_hight_30">Verifieria äktheten på 7,5 miljoner  privatpersoner när de handlar hos dig via BankID på under 2 min.   </div>
 							<div class="mart20 tall"> 
-								<a href="https://www.qloudid.com/user/index.php/PublicVerifyID"><input type="button" value="Mer om Verifiera ID" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+								<a href="https://www.safeqloud.com/user/index.php/PublicVerifyID"><input type="button" value="Mer om Verifiera ID" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 							</div>
 						</div>
 					</div>
@@ -1787,7 +1787,7 @@
 							<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40">Hantera besök...</h2>
 							<div class="lgn_hight_30">Ett webbaserat besökssystem som förenklar hantering av besökare, höjer säkerheten och förmedlar ett professionellt första intryck. </div>
 							<div class="mart20 tall"> 
-								<a href="https://www.qloudid.com/user/index.php/ManageVisitors"><input type="button" value="Mer om Besökssysstem" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+								<a href="https://www.safeqloud.com/user/index.php/ManageVisitors"><input type="button" value="Mer om Besökssysstem" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 							</div>
 						</div>
 					</div>
@@ -1802,7 +1802,7 @@
 							<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40 tall">Få färska uppgifter...</h2>
 							<div class="lgn_hight_30">Erhåll uppdaterade uppgifter om dina anställda och kunder i realtid. Fullständig GDPR anpassad och levererbar till de flesta affärssystemen    </div>
 							<div class="mart20 tall"> 
-								<a href="https://www.qloudid.com/user/index.php/PublicAboutQmatchupOmOss"><input type="button" value="Mer om Qlean Data" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+								<a href="https://www.safeqloud.com/user/index.php/PublicAboutQmatchupOmOss"><input type="button" value="Mer om Qlean Data" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 							</div>
 						</div>
 					</div>
@@ -1817,7 +1817,7 @@
 							<h2 class="padb15 bold fsz40 xs-fsz22 darkgrey_txt lgn_hight_40">Hantera kriser...</h2>
 							<div class="lgn_hight_30">Ett system som förbereder ditt företag att kunna hantera en oväntad incident snabbt, korrekt och med hänsyn till personalen</div>
 							<div class="mart20 tall"> 
-								<a href="https://www.qloudid.com/user/index.php/PublicAboutQmatchup"><input type="button" value="Mer om Krishantering" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
+								<a href="https://www.safeqloud.com/user/index.php/PublicAboutQmatchup"><input type="button" value="Mer om Krishantering" class="padl20 nobrd wi_100 maxwi_500p minhei_50p dflex  alit_c opa90_h marrla brdrad3 panlyellow_bg fsz20 xs-fsz16 darkgrey_txt trans_all2 tall"></a>
 							</div>
 						</div>
 					</div>

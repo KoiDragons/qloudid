@@ -86,7 +86,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-					<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+					<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 					<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -131,11 +131,11 @@
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" class="translate hei_30pi dblock lgn_hight_30 black_txt  white_txt_h fsz20" >Ring 010-1510125</a> </li>
 						
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.qloudid.com/user/index.php/CorporateServices#" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.safeqloud.com/user/index.php/CorporateServices#" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg_h uppercase lgn_hight_30 black_txt  white_txt_h  brdl" data-en="Close" data-sw="Close">Close</a> </li>
 					</ul>
 				</div>
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/CorporateServices#" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com/user/index.php/CorporateServices#" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 				<div class="clear"></div>
 				
 			</div>
@@ -162,7 +162,7 @@
 						
 						<div class="dflex xs-dblock fxwrap_w padb0 xs-padt0 xs-padb0">
 							<div class="wi_50 xs-wi_100 order_2 padrl10">
-								<img src="https://www.qloudid.com/html/smartappcss/images/smart/design-1.png" width="642" height="439" class="maxwi_100 hei_auto">
+								<img src="https://www.safeqloud.com/html/smartappcss/images/smart/design-1.png" width="642" height="439" class="maxwi_100 hei_auto">
 							</div>
 							<div class="wi_50 xs-wi_100 padtb0 sm-padtb55 md-padtb70 lg-padtb90 padr20 txt_708198">
 							<h2 class="bold marb30 pad0 tall xs-talc fntwei_300 fsz55 sm-fsz32 md-fsz36 lg-fsz40 black_txt xs-fsz30">Ett webbaserat besökssystem<div class="wi_50p maxwi_100 hei_4p mart5 xs-marrla black_bg"></div>

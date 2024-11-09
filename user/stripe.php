@@ -20,8 +20,8 @@
       // Note that it is not guaranteed your customers will be redirected to this
       // URL *100%* of the time, it's possible that they could e.g. close the
       // tab between form submission and the redirect.
-      successUrl: 'https://www.qloudid.com/success',
-      cancelUrl: 'https://www.qloudid.com/canceled',
+      successUrl: 'https://www.safeqloud.com/success',
+      cancelUrl: 'https://www.safeqloud.com/canceled',
     })
     .then(function (result) {
       if (result.error) {

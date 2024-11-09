@@ -1,15 +1,15 @@
 <?php
-require_once 'QloudidPersonalEngModel.php';
+require_once 'safeqloudPersonalEngModel.php';
 require_once '../configs/utility.php';
 require_once('../AppModel.php');
-class QloudidPersonalEngController
+class safeqloudPersonalEngController
 {
     
     
     public static function index()
     {
 		$path = "../../";
-    require_once('QloudidPersonalEngView.php');
+    require_once('safeqloudPersonalEngView.php');
 	
 	}
 	

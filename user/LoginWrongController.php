@@ -36,11 +36,11 @@
 					if(isset($_GET['apply']))
 					{
 						if($_GET['apply']==1){
-							header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=1");
+							header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=1");
 						}
 						else
 						{
-							header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=2&job_id=".$_GET['job_id']);
+							header("location:https://www.safeqloud.com/walk/authorize_user.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=2&job_id=".$_GET['job_id']);
 						}
 						die;
 					}
@@ -140,11 +140,11 @@
 					if(isset($_GET['apply']))
 					{
 						if($_GET['apply']==1){
-							header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=1");
+							header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=1");
 						}
 						else
 						{
-							header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=2");
+							header("location:https://www.safeqloud.com/walk/authorize_user.php?response_type=code&client_id=".$_GET['next']."&state=xyz&apply=2");
 						}
 						
 						die;
@@ -152,13 +152,13 @@
 					else if(isset($_GET['purchase']))
 					
 					{
-						header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&purchase=1");
+						header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&purchase=1");
 						die;
 					}
 					else if(isset($_GET['login']))
 					
 					{
-						header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&login=1");
+						header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=".$_GET['next']."&state=xyz&login=1");
 						die;
 					}
 					else
@@ -174,7 +174,7 @@
 				} else if ($result['result'] == 4) {
 				$warning = warning(2);
 				
-				header("location:https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailAccount/".$data['email']);
+				header("location:https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailAccount/".$data['email']);
 				
 				} else if ($result['result'] == 5) {
 				$warning = warning(3);

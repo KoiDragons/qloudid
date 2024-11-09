@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<!--<meta http-equiv="refresh" content="10;https://www.qloudid.com/user/index.php/CoronaHelp/listItemsDetailDelivered" />-->
+		<!--<meta http-equiv="refresh" content="10;https://www.safeqloud.com/user/index.php/CoronaHelp/listItemsDetailDelivered" />-->
 			<meta name="viewport" content="width=device-width,initial-scale=1">
 				 
 				<title>Qmatchup</title>
@@ -76,7 +76,7 @@ function closePop()
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -96,7 +96,7 @@ function closePop()
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left " aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left " aria-hidden="true"></i></a>
 								</li>
 								
 								

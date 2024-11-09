@@ -294,7 +294,7 @@ class KeyHolderCompanySearchModel extends AppModel
 								<div class="marrl0 padb10   fsz16 white_bg tall padt20">
 								<a href="#profile'.$j.'" class="expander-toggler dark_grey_txt xs-fsz16 tall bold"><div class="dflex wi_100">
 									<div class="wi_70 dflex">
-								<span class="css-p2kctj"><img src="https://www.qloudid.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
+								<span class="css-p2kctj"><img src="https://www.safeqloud.com/html/usercontent/images/kitchen5.svg" class="css-z0f999"></span> 
 								<div>
 								<span class="apartheading">'.$row['service_type_name'].'</span></span>
 								</div>
@@ -381,7 +381,7 @@ class KeyHolderCompanySearchModel extends AppModel
 			   
 				$rowInfo = $result->fetch_assoc();
 				
-				$url="https://www.qloudid.com/company/index.php/UserKeyHolderCompany/receivedAccount/".$data['cid'];
+				$url="https://www.safeqloud.com/company/index.php/UserKeyHolderCompany/receivedAccount/".$data['cid'];
 				$surl=getShortUrl($url);
 				
 				$to=$rowCompany['company_email'];
@@ -1667,7 +1667,7 @@ catch(Exception $e) {
 			   
 				$rowInfo = $result->fetch_assoc();
 				
-				$url="https://www.qloudid.com/company/index.php/UserKeyHolderCompany/receivedAccount/".$data['cid'];
+				$url="https://www.safeqloud.com/company/index.php/UserKeyHolderCompany/receivedAccount/".$data['cid'];
 				$surl=getShortUrl($url);
 				
 				$to=$rowCompany['company_email'];
@@ -2634,7 +2634,7 @@ catch(Exception $e) {
 			   
 				$rowInfo = $result->fetch_assoc();
 				
-				$url="https://www.qloudid.com/company/index.php/CleaningCompany/receivedCleaningRequest/".$data['cid'];
+				$url="https://www.safeqloud.com/company/index.php/CleaningCompany/receivedCleaningRequest/".$data['cid'];
 				$surl=getShortUrl($url);
 				
 				$to=$rowCompany['company_email'];
@@ -3600,7 +3600,7 @@ function sendConnectRequest($data)
 			   
 				$rowInfo = $result->fetch_assoc();
 				
-				$url="https://www.qloudid.com/company/index.php/Landloard/apartmentConnectRequest/".$data['cid'];
+				$url="https://www.safeqloud.com/company/index.php/Landloard/apartmentConnectRequest/".$data['cid'];
 				$surl=getShortUrl($url);
 				
 				$to=$rowCompany['company_email'];

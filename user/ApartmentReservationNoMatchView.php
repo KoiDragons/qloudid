@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
-		<title>Qloudid</title>
+		<title>safeqloud</title>
 		<!-- Styles -->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path; ?>html/signup/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/signup/css/style.css" />

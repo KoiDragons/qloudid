@@ -55,7 +55,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/ConnectKin/welcomeKin" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true" style="color:#e02680;"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/ConnectKin/welcomeKin" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true" style="color:#e02680;"></i></a>
                      </li>
                   </ul>
                </div>
@@ -74,7 +74,7 @@
 							<ul class="menulist sf-menu  fsz14">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/ConnectKin/welcomeKin" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/ConnectKin/welcomeKin" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -156,7 +156,7 @@
 										</li>
 										
 										<li class=" dblock padr10  padl8">
-											<a href="https://www.qloudid.com/user/index.php/NotifyFamilyFriends" class=" lgtgrey_bg hei_35p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
+											<a href="https://www.safeqloud.com/user/index.php/NotifyFamilyFriends" class=" lgtgrey_bg hei_35p dflex alit_c pos_rel padrl10  brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a" >
 												<span class="fa fa-address-card-o wi_20p dnone_pa"></span>
 												<span class="valm trn">Notify</span>
 												<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg  rotate45"></div>

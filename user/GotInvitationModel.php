@@ -138,7 +138,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");

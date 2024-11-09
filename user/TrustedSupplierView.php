@@ -47,7 +47,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15">
-					<a href="https://www.qloudid.com"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloudid</h3></a>
+					<a href="https://www.safeqloud.com"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">safeqloud</h3></a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10">
 					<div class="languages">
@@ -69,7 +69,7 @@
 					<ul class="mar0 pad0">
 						<li class="dblock hidden-xs hidden-sm fleft pos_rel  brdclr_dblue"> <a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25  uppercase lgn_hight_30 black_txt black_txt_h" data-en="About us" data-sw="About us">About us</a> </li>
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue marl20 "> <a href="https://www.qloudid.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga In</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue marl20 "> <a href="https://www.safeqloud.com/user/index.php/LoginAccount" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg uppercase lgn_hight_30 white_txt white_txt_h" data-en="Logga In" data-sw="Logga In">Logga In</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart2">
@@ -761,7 +761,7 @@
 						<div class="dflex fxdir_col justc_sb alit_c talc brdrad5 lgtgrey2_bg marrl10" id="c1">
 					
 							<a href="#" class="wi_100 dblock red_bg_a lgn_hight_40 talc dark_grey_txt" onclick="changeBg('c1');">
-								<span class="dnone_pa">Purchase with Qloudid</span>
+								<span class="dnone_pa">Purchase with safeqloud</span>
 								<span class="dnone dblock_pa">Unsubscribe</span>
 							</a>
 						</div>

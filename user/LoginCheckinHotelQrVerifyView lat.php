@@ -84,7 +84,7 @@ if( ios ) {
 			send_data1.booking_id='<?php echo $data['id']; ?>';
 				$.ajax({
 					type:"POST",
-					url:"../../QloudidApp/checkOrderReference",
+					url:"../../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -127,10 +127,10 @@ if( ios ) {
 							ios = /iphone|ipod|ipad/.test( userAgent );
 
 				if( ios ) {
-					window.open('https://www.qloudid.com/user/index.php/LoginAccount/loginPurchase');
+					window.open('https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchase');
 					document.getElementById("save_indexing_user").submit();
 				} else {
-				  window.open('https://www.qloudid.com/user/index.php/LoginAccount/loginPurchase');
+				  window.open('https://www.safeqloud.com/user/index.php/LoginAccount/loginPurchase');
 				  document.getElementById("save_indexing_user").submit();
 				}
 					*/		a=setInterval(dataSubmit, timeInterval1);
@@ -200,7 +200,7 @@ if( ios ) {
 			
 			<!-- SUB-HEADER -->
 			
-			<form action="https://www.qloudid.com/walk/authorize_book.php?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&checkin=1" method="POST" name="save_indexing_user" id="save_indexing_user"  accept-charset="ISO-8859-1" autocomplete="off" >
+			<form action="https://www.safeqloud.com/walk/authorize_book.php?response_type=code&client_id=<?php echo $_GET['client_id']; ?>&state=xyz&checkin=1" method="POST" name="save_indexing_user" id="save_indexing_user"  accept-charset="ISO-8859-1" autocomplete="off" >
 			<!--<input type="hidden" value="Yes" name="authorized" id="authorized" class="wi_100 maxwi_100 brdrad3 hei_50p diblock nobrd trans_bg fsz18 red_txt curp"/>-->
 			 
 			</form>
@@ -212,7 +212,7 @@ if( ios ) {
 					<!-- Center content -->
 					<div class="wi_400p maxwi_100 pos_rel zi5 marrla pad35   xxsi-box_shadow_00000070  box_shadow_00000070 xxs-box_shadow_00000070">
 						<div class="padb0 xxs-padb0 ">		
-							<div class="padb0 talc fsz60 padt20"><img src="https://www.qloudid.com/html/usercontent/images/bg/60x60.png"/></div>
+							<div class="padb0 talc fsz60 padt20"><img src="https://www.safeqloud.com/html/usercontent/images/bg/60x60.png"/></div>
 									<h1 class="marb0  mart20 xxs-talc talc fsz25 xs-fsz20  padb0 black_txt trn ffamily_avenir"  >Logga in</h1>
 									</div>
 									<div class="mart20 marb35 xxs-talc talc   xs-marb20 xs-mart0"> <a href="#" class="black_txt fsz18  xs-fsz16 xxs-talc talc edit-text jain_drop_company trn lgn_hight_20" >Starta BankID-appen på din telefon. Tryck sedan på QR-kod i appen och skanna QR-koden på den här sidan</a></div>
@@ -221,13 +221,13 @@ if( ios ) {
 						<div class="padtb0 brdrad3 ">
 						 <div class="padt20 xxs-talc talc visible-xs hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['id']; ?>/checkin/1<?php if(isset($_GET['client_id'])) echo '/'.$_GET['client_id']; ?>"><button type="button" name="forward" class="forword minhei_55p bluergb_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="https://www.safeqloud.com/ip/<?php echo $verifyIP; ?>/<?php echo $data['id']; ?>/checkin/1<?php if(isset($_GET['client_id'])) echo '/'.$_GET['client_id']; ?>"><button type="button" name="forward" class="forword minhei_55p bluergb_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						    
 						     <div class="padt20 xxs-talc talc visible-xs  hidden" id="iOS">
 								
-								<a href="QloudidUrl://<?php echo $verifyIP; ?>/<?php echo $data['id']; ?>/checkin/1<?php if(isset($_GET['client_id'])) echo '/'.$_GET['client_id']; ?>"><button type="button" name="forward" class="forword minhei_55p bluergb_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="safeqloudUrl://<?php echo $verifyIP; ?>/<?php echo $data['id']; ?>/checkin/1<?php if(isset($_GET['client_id'])) echo '/'.$_GET['client_id']; ?>"><button type="button" name="forward" class="forword minhei_55p bluergb_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 							<div class="padb10  talc padt20 hidden-xs">

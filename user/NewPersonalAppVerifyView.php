@@ -75,7 +75,7 @@ if( ios ) {
 			send_data1.loginType=1;
 				$.ajax({
 					type:"POST",
-					url:"../QloudidApp/checkOrderReference",
+					url:"../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -117,7 +117,7 @@ if( ios ) {
 						}
 						else 
 						{
-							window.open('https://www.qloudid.com/user/index.php/NewPersonal/verifyAppInfo');
+							window.open('https://www.safeqloud.com/user/index.php/NewPersonal/verifyAppInfo');
 							document.getElementById("save_indexing_user").submit();
 							
 							
@@ -198,19 +198,19 @@ if( ios ) {
 							<div class="padb0 talc fsz60 padt20"><i class="fas fa-first-aid red_ff2828_txt"></i></div>
 									<h1 class="marb0  mart20 xxs-talc talc fsz25 xs-fsz20  padb0 black_txt trn ffamily_avenir"  >Verify</h1>
 									</div>
-									<div class="mart20 marb35 xxs-talc talc   xs-marb20 xs-mart0"> <a href="#" class="black_txt fsz18  xs-fsz16 xxs-talc talc edit-text jain_drop_company trn lgn_hight_20" >Please open Qloudid app and verify yourself</a></div>
+									<div class="mart20 marb35 xxs-talc talc   xs-marb20 xs-mart0"> <a href="#" class="black_txt fsz18  xs-fsz16 xxs-talc talc edit-text jain_drop_company trn lgn_hight_20" >Please open safeqloud app and verify yourself</a></div>
 					 
 							<div class="wi_400p maxwi_100   pos_rel zi5 marrla    padrl10  brdrad3 padb80">
 							
 							 <div class="padt20 xxs-talc talc visible-xs  hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/<?php echo $verifyIP.'_'.$row_summary['enc']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="https://www.safeqloud.com/ip/<?php echo $verifyIP.'_'.$row_summary['enc']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						    
 						     <div class="padt20 xxs-talc talc visible-xs  hidden" id="iOS">
 								
-								<a href="QloudidUrl://<?php echo $verifyIP.'_'.$row_summary['enc']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="safeqloudUrl://<?php echo $verifyIP.'_'.$row_summary['enc']; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						<div class="padtb0 brdrad3 ">

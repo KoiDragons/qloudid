@@ -178,7 +178,7 @@
 						else 
 						{
 					
-							window.location.href ="https://www.qloudid.com/user/index.php/NotifyFamilyFriends/thanksForTheInformation";
+							window.location.href ="https://www.safeqloud.com/user/index.php/NotifyFamilyFriends/thanksForTheInformation";
 						}
 					}
 				});

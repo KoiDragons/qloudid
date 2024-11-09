@@ -238,7 +238,7 @@
 			$stmt->execute();
 			$result = $stmt->get_result();
 			$row_country = $result->fetch_assoc();
-			$email=$_POST['cid'].'.'.$row_country['country_code'].'@qloudid.com';
+			$email=$_POST['cid'].'.'.$row_country['country_code'].'@safeqloud.com';
 			$web='';
 			$st=1;
 			$stmt = $dbCon->prepare("insert into companies(company_type,o_type,country_id,user_login_id,company_name,company_email,website,hash_code,created_date,email_verification_status,created_by,user_role) 
@@ -460,7 +460,7 @@
 				$fields['country_name']=$row_country['country_name'];
 				$fields['property_id_qloud']=$property_id;
 				$fields['company_email']=$email;
-				$fields['web']='www.qloudid.com';
+				$fields['web']='www.safeqloud.com';
 				$fields['user_email']=$userrow['email'];
 				$fields['is_admin']=$user_admin;
 				$fields['hash_code']=$hash_code;

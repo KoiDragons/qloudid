@@ -259,7 +259,7 @@ var timeout=0;
 						}
 						else 
 						{
-							window.location.href="http://www.qloudid.com/user/index.php/NewPersonal/userAccount"
+							window.location.href="http://www.safeqloud.com/user/index.php/NewPersonal/userAccount"
 						}
 					}
 				});

@@ -17,7 +17,7 @@ class LoginAccountController
         else
         {
 
-            header("location:https://www.qloudid.com/company/index.php/NoffaAlarm/listChildren/" . $data['cid']);
+            header("location:https://www.safeqloud.com/company/index.php/NoffaAlarm/listChildren/" . $data['cid']);
         }
     }
 
@@ -37,7 +37,7 @@ class LoginAccountController
         {
             start_Session($result['id']);
             $data['user_id'] = $result['id'];
-            header("location:https://www.qloudid.com/company/index.php/NoffaAlarm/listChildren/" . $data['cid']);
+            header("location:https://www.safeqloud.com/company/index.php/NoffaAlarm/listChildren/" . $data['cid']);
 
         }
 
@@ -95,11 +95,11 @@ class LoginAccountController
                 {
                     if ($_GET['apply'] == 1)
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
                     }
                     else
                     {
-                        header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
+                        header("location:https://www.safeqloud.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
                     }
 
                     die;
@@ -176,11 +176,11 @@ class LoginAccountController
                 {
                     if ($_GET['apply'] == 1)
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
                     }
                     else
                     {
-                        header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
+                        header("location:https://www.safeqloud.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
                     }
 
                     die;
@@ -188,24 +188,24 @@ class LoginAccountController
                 else if (isset($_GET['purchase']))
 
                 {
-                    header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
+                    header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
                     die;
                 }
 				else if (isset($_GET['signin']))
 
                 {
-                    header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&signin=1");
+                    header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&signin=1");
                     die;
                 }
                 else if (isset($_GET['login']))
 
                 {
-                    header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&login=1");
+                    header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&login=1");
                     die;
                 }
                 else
                 {
-                    header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz");
+                    header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz");
                     die;
                 }
 
@@ -265,7 +265,7 @@ class LoginAccountController
 				$listEmployers = $model->listEmployers($data); 
 			if(count($listEmployers)==1)
 			{
-				header('location:https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileAction/'.$listEmployers[0]['enc']); die;
+				header('location:https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileAction/'.$listEmployers[0]['enc']); die;
 			}
 				require_once ('LoginAccountEmployerView.php');
             }
@@ -515,11 +515,11 @@ public static function verifyEmailAccount($a=null)
             $path = "../../../../../";
             $model = new LoginAccountModel();
             $loginPurchaseSignin = $model->loginPurchaseSignin();
-           header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['client_id']."&state=xyz&purchase=1&apply=1"); die;
+           header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=".$_GET['client_id']."&state=xyz&purchase=1&apply=1"); die;
         }
 		else
 		{
-			 header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=".$_GET['client_id']."&state=xyz&purchase=1&apply=1"); die;
+			 header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=".$_GET['client_id']."&state=xyz&purchase=1&apply=1"); die;
 		}
       }
 	  
@@ -566,7 +566,7 @@ public static function verifyEmailAccount($a=null)
 			  
             if ($loginPurchaseAccount['result'] == 0)
             {
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/purchasetimeout?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/purchasetimeout?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
                         die;
                
 			
@@ -685,11 +685,11 @@ public static function verifyEmailAccount($a=null)
                     {
                         if ($_GET['apply'] == 1)
                         {
-                            header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
+                            header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
                         }
                         else
                         {
-                            header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
+                            header("location:https://www.safeqloud.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
                         }
 
                         die;
@@ -697,30 +697,30 @@ public static function verifyEmailAccount($a=null)
                     else if (isset($_GET['purchase']))
 
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
                         die;
                     }
                     else if (isset($_GET['login']))
 
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&login=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&login=1");
                         die;
                     }
 					else if (isset($_GET['login']))
 
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&hotel=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&hotel=1");
                         die;
                     }
 					else if (isset($_GET['signin']))
 
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&signin=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&signin=1");
                         die;
                     }
                     else
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz");
                         die;
                     }
 
@@ -739,11 +739,11 @@ public static function verifyEmailAccount($a=null)
                     {
                         if ($_GET['apply'] == 1)
                         {
-                            header("location:https://www.qloudid.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&apply=1");
+                            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&apply=1");
                         }
                         else
                         {
-                            header("location:https://www.qloudid.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
+                            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&apply=2&job_id=" . $_GET['job_id']);
                         }
 
                         die;
@@ -751,24 +751,24 @@ public static function verifyEmailAccount($a=null)
                     else if (isset($_GET['purchase']))
 
                     {
-                        header("location:https://www.qloudid.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&purchase=1");
+                        header("location:https://www.safeqloud.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&purchase=1");
                         die;
                     }
                     else if (isset($_GET['login']))
 
                     {
-                        header("location:https://www.qloudid.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&login=1");
+                        header("location:https://www.safeqloud.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&login=1");
                         die;
                     }
 					 else if (isset($_GET['signin']))
 
                     {
-                        header("location:https://www.qloudid.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&signin=1");
+                        header("location:https://www.safeqloud.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz&signin=1");
                         die;
                     }
                     else
                     {
-                        header("location:https://www.qloudid.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz");
+                        header("location:https://www.safeqloud.com/user/index.php/LoginAccount/timeout?next=" . $_GET['next'] . "&state=xyz");
                         die;
                     }
 
@@ -802,7 +802,7 @@ public static function verifyEmailAccount($a=null)
 		else
         {
 
-            header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp?demo=true");
+            header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp?demo=true");
         }
     }
 
@@ -915,7 +915,7 @@ public static function verifyEmailAccount($a=null)
             {
                 if (isset($_SESSION['rememberme']))
                 {
-                    setcookie('rememberme', $_SESSION['rememberme'], time() + (30 * 60 * 60 * 24) , '/', "qloudid.com");
+                    setcookie('rememberme', $_SESSION['rememberme'], time() + (30 * 60 * 60 * 24) , '/', "safeqloud.com");
                 }
                 echo 1;
                 //die;
@@ -1039,11 +1039,11 @@ public static function verifyEmailAccount($a=null)
                 {
                     if ($_GET['apply'] == 1)
                     {
-                        header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
+                        header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=1");
                     }
                     else
                     {
-                        header("location:https://www.qloudid.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2");
+                        header("location:https://www.safeqloud.com/walk/authorize_user.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&apply=2");
                     }
 
                     die;
@@ -1051,13 +1051,13 @@ public static function verifyEmailAccount($a=null)
                 else if (isset($_GET['purchase']))
 
                 {
-                    header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
+                    header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&purchase=1");
                     die;
                 }
                 else if (isset($_GET['login']))
 
                 {
-                    header("location:https://www.qloudid.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&login=1");
+                    header("location:https://www.safeqloud.com/walk/authorize.php?response_type=code&client_id=" . $_GET['next'] . "&state=xyz&login=1");
                     die;
                 }
                 else
@@ -1088,7 +1088,7 @@ public static function verifyEmailAccount($a=null)
         {
             $warning = warning(2);
 
-            header("location:https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailAccount/" . $data['email']);
+            header("location:https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailAccount/" . $data['email']);
             //setcookie('rememberme', $result['cookie'],$expire, '/'); exit(0);
             
         }
@@ -1131,7 +1131,7 @@ public static function verifyEmailAccount($a=null)
         {
             $warning = warning(2);
 
-            header("location:https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailAccount/" . $data['email']);
+            header("location:https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailAccount/" . $data['email']);
             //setcookie('rememberme', $result['cookie'],$expire, '/'); exit(0);
             
         }

@@ -13,10 +13,10 @@
 						<div class="wi_20 marb40">
 							<h3 class="marb20 pad0 uppercase letspc_15 bold fsz14 txt_787e89">PAGES</h3>
 							<ul class="mar0 pad0 fsz14">
-								<li class="dblock lgn_hight_35"><a href="https://www.qloudid.com/user/index.php/QloudidPersonal" class="txt_787e89">Qloud ID Privat</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://www.qloudid.com/user/index.php/CorporateServices" class="txt_787e89">Qloud ID Business</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://www.qloudid.com/user/index.php/Appstore" class="txt_787e89">App Market</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://www.qloudid.com/user/index.php/PublicNews" class="txt_787e89">Partners</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/safeqloudPersonal" class="txt_787e89">Qloud ID Privat</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/CorporateServices" class="txt_787e89">Qloud ID Business</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/Appstore" class="txt_787e89">App Market</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.safeqloud.com/user/index.php/PublicNews" class="txt_787e89">Partners</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Developers</a></li>
 							</ul>
 						</div>
@@ -24,8 +24,8 @@
 							<h3 class="marb20 pad0 uppercase letspc_15 bold fsz14 txt_787e89">SOCIAL MEDIA</h3>
 							<ul class="mar0 pad0 fsz14">
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Magazine</a></li>
-								<li class="dblock lgn_hight_35"><a href="https://www.instagram.com/qloudid/" class="txt_787e89">Instagram<img src="<?php echo $path; ?>html/usercontent/images/icon-invaders-animated.gif"></a></li>
-								<li class="dblock lgn_hight_35"><a href="https://www.facebook.com/QloudID/" class="txt_787e89">FacebooK</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.instagram.com/safeqloud/" class="txt_787e89">Instagram<img src="<?php echo $path; ?>html/usercontent/images/icon-invaders-animated.gif"></a></li>
+								<li class="dblock lgn_hight_35"><a href="https://www.facebook.com/safeqloud/" class="txt_787e89">FacebooK</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Twitter</a></li>
 								<li class="dblock lgn_hight_35"><a href="https://www.linkedin.com/company/18707810/admin/" class="txt_787e89">Linkedin</a></li>
 							</ul>
@@ -33,7 +33,7 @@
 						<div class="wi_20 marb40">
 							<h3 class="marb20 pad0 uppercase letspc_15 bold fsz14 txt_787e89">Help</h3>
 							<ul class="mar0 pad0 fsz14">
-								<li class="dblock lgn_hight_35"><a href="https://support.qloudid.com" class="txt_787e89">Help Center</a></li>
+								<li class="dblock lgn_hight_35"><a href="https://support.safeqloud.com" class="txt_787e89">Help Center</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Status</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">FAQs</a></li>
 								<li class="dblock lgn_hight_35"><a href="#" class="txt_787e89">Chat</a></li>

@@ -170,7 +170,7 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 				<div class="wi_100 xs-hei_40p hei_65p pos_fix padtb5 padrl10">
 					
 					<div class="logo  marr15 wi_140p xs-wi_80p">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 					</div>
 					<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 " style="width: 50px; padding : 5px 0 0 0;">
@@ -338,8 +338,8 @@ if($companyDetail ['profile_pic']!=null) { $filename="../estorecss/".$companyDet
 						
 						<div class="padb10 xs-padrl0"> <a href="../visitors/<?php echo $data['cid']; ?>/T3E0MjFwcGhVNlhSYlRvL2t1ZXQ2Zz09" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0">Besökare </a> </div>
 						
-						<div class="padb10 xs-padrl0"> <a href="https://www.qloudid.com/company/index.php/Parkering/plateInfo/<?php echo $data['cid']; ?>" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0">Parkering </a> </div>
-						<div class="padb10 xs-padrl0"> <a href="https://www.qloudid.com/company/index.php/Leveranser/pickupInfo/<?php echo $data['cid']; ?>" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0">Leverans </a> </div>
+						<div class="padb10 xs-padrl0"> <a href="https://www.safeqloud.com/company/index.php/Parkering/plateInfo/<?php echo $data['cid']; ?>" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0">Parkering </a> </div>
+						<div class="padb10 xs-padrl0"> <a href="https://www.safeqloud.com/company/index.php/Leveranser/pickupInfo/<?php echo $data['cid']; ?>" class="wi_100 maxwi_500p xs-maxwi_250p minhei_50p dflex justc_c alit_c opa90_h marrla brdrad3 white_bg panlyellow_bg_h  xs-panlyellow_bg_a xs-panlyellow_bg_h fsz18 xs-fsz16 black_txt trans_all2 xs-marrl0">Leverans </a> </div>
 						
 						<?php if($data['comp_id']!=0) { ?>
 						<p class="padt20 xs-padt10 xs-padb20 talc fsz18 xs-fsz16 padb0  maxwi_100 col-xs-12 col-sm-12 pos_rel zi5 marrla xs-marb10 white_txt">Bemannad av <?php echo $data['comp_name']; ?></p>

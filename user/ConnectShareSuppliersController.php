@@ -18,7 +18,7 @@
 			// echo $valueNew; die;
 			if ($valueNew == 0) {
 				$path = "../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$model = new ConnectShareSuppliersModel();
@@ -52,7 +52,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$path         = "../../../../";
@@ -82,7 +82,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../../../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				$data=array();
 				$path         = "../../../../../";
@@ -94,7 +94,7 @@
 				$employeeCheck    = $model1->checkUserAccount($data['user_id'],$data['cid']);
 				if($employeeCheck==1)
 				{
-					header("location:https://www.qloudid.com/error404.php");
+					header("location:https://www.safeqloud.com/error404.php");
 				}
 				$data['limit1']=cleanMe($b);
 				
@@ -119,7 +119,7 @@
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$data=array();
 				

@@ -84,7 +84,7 @@
 					$row = $result->fetch_assoc();
 					
 					$subject       = "Connect request received!";
-					$url="https://www.qloudid.com/public/index.php/ConnectUnregistered/connectAccount/".$encd;
+					$url="https://www.safeqloud.com/public/index.php/ConnectUnregistered/connectAccount/".$encd;
 					$surl=getShortUrl($url);
 					$emailContent =$row['name']." has sent you request to connect.Please connect here: ".$surl;
 					$res=sendSms($subject, $to, $emailContent);
@@ -167,7 +167,7 @@
 				
 				$to            = '+'.trim($row_phone['country_code']).''.trim($_POST[$search_phone]);
 				$subject       = "Connect request received!";
-				$url="https://www.qloudid.com/user/index.php/ConnectKin/receivedAccount";
+				$url="https://www.safeqloud.com/user/index.php/ConnectKin/receivedAccount";
 				$surl=getShortUrl($url);
 				$emailContent =$row['name']." has sent you request to connect.Please connect here: ".$surl;
 				$res=sendSms($subject, $to, $emailContent);
@@ -175,7 +175,7 @@
 				$to            = $row_connect['email'];
 				$subject       = "Connect request received!";
 				
-				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.qloudid.com/user/index.php/ConnectKin/receivedAccount'>here</a>";
+				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.safeqloud.com/user/index.php/ConnectKin/receivedAccount'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 				
 			 
@@ -791,7 +791,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -908,9 +908,9 @@
 						$rsultId=$stmt->insert_id;
 						$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 						$to      = $row_request['email'];
-						$subject = "Qloudid : Request to access your details";
+						$subject = "safeqloud : Request to access your details";
 						
-						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 						sendEmail($subject, $to, $emailContent);
 						
 						$stmt->close();
@@ -964,9 +964,9 @@
 					//echo $rsultId; die;
 					$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'';
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'';
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt->close();
@@ -1014,9 +1014,9 @@
 					//echo $rsultId; die;
 					$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 					$to      = $row_request['email'];
-					$subject = "Qloudid : Request to access your details";
+					$subject = "safeqloud : Request to access your details";
 					
-					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br>https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc;
 					sendEmail($subject, $to, $emailContent);
 					
 					$stmt = $dbCon->prepare("select country_code,phone_number  from user_profiles left join phone_country_code on phone_country_code.country_name=user_profiles.country_phone where user_profiles.user_logins_id=?");
@@ -1030,7 +1030,7 @@
 					$phone='+'.trim($row_phone['country_code']).''.trim($row_phone['phone_number']);
 					$subject='Informationen om din vän/anhörig';
 					$to=$phone;
-					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.qloudid.com/public/index.php/PublicUserRequest/requestAccount/'.$enc;
+					$html='Du har blivit ombedd att identifiera dig. Qloud ID https://www.safeqloud.com/public/index.php/PublicUserRequest/requestAccount/'.$enc;
 					//echo $html.' '.$to;
 					$res=sendSms($subject, $to, $html);
 					$stmt->close();
@@ -1097,7 +1097,7 @@
 					
 					$subject       = "Connect request received!";
 					
-					$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.qloudid.com/public/index.php/ConnectUnregistered/connectAccount/".$encd."'>here</a>";
+					$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.safeqloud.com/public/index.php/ConnectUnregistered/connectAccount/".$encd."'>here</a>";
 					sendEmail($subject, $to, $emailContent);
 					$org='<div id="search_new">
 					<h3 class="pos_rel  pad15  bold fsz20 dark_grey_txt">
@@ -1339,7 +1339,7 @@
 					$row = $result->fetch_assoc();
 					
 					$subject       = "Connect request received!";
-					$url="https://www.qloudid.com/user/index.php/ConnectUnregistered/connectAccount/".$encd;
+					$url="https://www.safeqloud.com/user/index.php/ConnectUnregistered/connectAccount/".$encd;
 					$surl=getShortUrl($url);
 					$emailContent =$row['name']." has sent you request to connect.Please connect here: ".$surl;
 					$res=sendSms($subject, $to, $emailContent);
@@ -1602,7 +1602,7 @@
 					$row = $result->fetch_assoc();
 					
 					$subject       = "Connect request received!";
-					$url="https://www.qloudid.com/user/index.php/ConnectUnregistered/connectAccount/".$encd;
+					$url="https://www.safeqloud.com/user/index.php/ConnectUnregistered/connectAccount/".$encd;
 					$surl=getShortUrl($url);
 					$emailContent =$row['name']." has sent you request to connect.Please connect here: ".$surl;
 					//$res=sendSms($subject, $to, $emailContent);
@@ -1611,7 +1611,7 @@
 					
 					$subject       = "Connect request received!";
 					
-					$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.qloudid.com/user/index.php/ConnectUnregistered/connectAccount/".$encd."'>here</a>";
+					$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.safeqloud.com/user/index.php/ConnectUnregistered/connectAccount/".$encd."'>here</a>";
 					//sendEmail($subject, $to, $emailContent);
 					
 					$stmt->close();
@@ -2163,7 +2163,7 @@
 				
 				$subject       = "Connect request received!";
 				
-				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.qloudid.com/user/index.php/ConnectKin/connectAccount'>here</a>";
+				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 				$stmt->close();
 				$dbCon->close();
@@ -2249,12 +2249,12 @@
 				
 				$subject       = "Connect request received!";
 				
-				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.qloudid.com/public/index.php/ConnectKin/connectAccount'>here</a>";
+				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.safeqloud.com/public/index.php/ConnectKin/connectAccount'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 				
 				$to            = trim($_POST['phno']);
 				$subject       = "Connect request received!";
-				$url="https://www.qloudid.com/public/index.php/ConnectUnregistered/connectAccount/".$encd;
+				$url="https://www.safeqloud.com/public/index.php/ConnectUnregistered/connectAccount/".$encd;
 				$surl=getShortUrl($url);
 				$emailContent =$row['name']." has sent you request to connect.Please connect here: ".$surl;
 				$res=sendSms($subject, $to, $emailContent);
@@ -2323,7 +2323,7 @@
 				
 				$to            = trim($_POST['phno']);
 				$subject       = "Connect request received!";
-				$url="https://www.qloudid.com/user/index.php/ConnectUnregistered/connectAccount/".$encd;
+				$url="https://www.safeqloud.com/user/index.php/ConnectUnregistered/connectAccount/".$encd;
 				$surl=getShortUrl($url);
 				$emailContent =$row['name']." has sent you request to connect.Please connect here: ".$surl;
 				$res=sendSms($subject, $to, $emailContent);
@@ -2331,7 +2331,7 @@
 				$to            = $row_connect['email'];
 				$subject       = "Connect request received!";
 				
-				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.qloudid.com/user/index.php/ConnectKin/connectAccount'>here</a>";
+				$emailContent =$row['name']." has sent you request to connect.Please connect <a href='https://www.safeqloud.com/user/index.php/ConnectKin/connectAccount'>here</a>";
 				sendEmail($subject, $to, $emailContent);
 				$stmt->close();
 				$dbCon->close();

@@ -45,7 +45,7 @@
                <div class="flag_top_menu flefti  padb10 wi_80p " style=" padding : 10px 0 0 0;">
                   <ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
                      <li class="first last" style="margin: 0 30px 0 0;">
-                        <a href="https://www.qloudid.com/user/index.php/KeyHolderCompanySearch/searchCompanies/<?php echo $data['aid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                        <a href="https://www.safeqloud.com/user/index.php/KeyHolderCompanySearch/searchCompanies/<?php echo $data['aid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
@@ -71,7 +71,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/KeyHolderCompanySearch/searchCompanies/<?php echo $data['aid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/KeyHolderCompanySearch/searchCompanies/<?php echo $data['aid']; ?>" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
 								</li>
 								
 								
@@ -118,7 +118,7 @@
 									<div class="mart20  marb20 xxs-talc talc"> <a href="#" class="black_txt fsz25  xs-fsz20 xxs-talc talc edit-text jain_drop_company trn ffamily_avenir" >You have already sent connect request to other company. So you are not allowed to send the request again to the selected company.</a></br>
 									
 									</div>
-									<div class="lgtgrey_bg pad15 xs-marb20 marb20  xxs-talc talc ffamily_avenir"> <a href="#" class="black_txt fsz16  xs-fsz16 xxs-talc talc edit-text jain_drop_company trn" data-trn-key="Please confirm that you are the owner of this email address. An email is sent to it."> For more information please contact support team or email at support@qloudid.com </a></div>
+									<div class="lgtgrey_bg pad15 xs-marb20 marb20  xxs-talc talc ffamily_avenir"> <a href="#" class="black_txt fsz16  xs-fsz16 xxs-talc talc edit-text jain_drop_company trn" data-trn-key="Please confirm that you are the owner of this email address. An email is sent to it."> For more information please contact support team or email at support@safeqloud.com </a></div>
 								  
 							 
 				</div>

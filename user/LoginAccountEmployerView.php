@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="<?php echo $path;?>html/usercontent/js/jquery.js"></script>
 	 
 	<script src="<?php echo $path;?>html/usercontent/js/Duplicate.js"></script>
-	<script type="text/javascript" src="https://www.qloudid.com/html/usercontent/js/translateCombine.js"></script>
+	<script type="text/javascript" src="https://www.safeqloud.com/html/usercontent/js/translateCombine.js"></script>
     <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
@@ -238,14 +238,14 @@
             <div class="header__body js-header-body">
               <div class="header__title changedText">Notification</div>
               <div class="header__notifications"><a class="header__notification" href="#">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
                     <div class="header__date changedText">1 minute ago</div>
                     <div class="header__status" style="background-color: #3B71FE;"></div>
                   </div></a><a class="header__notification" href="message-center.html">
-                  <div class="header__avatar"><img src="https://www.qloudid.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
+                  <div class="header__avatar"><img src="https://www.safeqloud.com/html/fleet/img/content/avatar-1.jpg" alt="Avatar"></div>
                   <div class="header__details">
                     <div class="header__subtitle changedText">Kohaku Tora</div>
                     <div class="header__content changedText">just sent you a message</div>
@@ -284,7 +284,7 @@
               </div>
               <div class="header__btns"> 
 			  <a class="button-stroke button-small header__button changedText" href="#" style="background: #3B71FE; box-shadow: none;">Account</a>
-                <a href="https://www.qloudid.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
+                <a href="https://www.safeqloud.com/user/index.php/ProfileLogout?action=logout" class="button-stroke button-small header__button changedText">Log out</a>
               </div>
             </div>
           </div>
@@ -368,7 +368,7 @@ foreach($listEmployers as $category => $value)
  
 <div class="checkout__controls">
  
-<a href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileAction/<?php echo $value['enc']; ?>"><button class="checkout__edit"  >
+<a href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileAction/<?php echo $value['enc']; ?>"><button class="checkout__edit"  >
 <svg class="icon icon-arrow-next">
 <use xlink:href="#icon-arrow-next" style="fill:#52d4f4;"></use>
 </svg>
@@ -384,7 +384,7 @@ foreach($listEmployers as $category => $value)
 </div>
 
 </div>
- <a class="card card_row " style="border: 2px solid #353945;border-radius: 20px;margin-bottom: 20px; display:none;"  href="https://www.qloudid.com/company/index.php/CompanyCrm/adminAccount/<?php echo $value['enc']; ?>">
+ <a class="card card_row " style="border: 2px solid #353945;border-radius: 20px;margin-bottom: 20px; display:none;"  href="https://www.safeqloud.com/company/index.php/CompanyCrm/adminAccount/<?php echo $value['enc']; ?>">
   
   
 <div class="card__body pad2435 xs-pad24" style="background: #131922;padding-left: 0px;">

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-     <link rel="shortcut icon" type="image/x-icon" href="https://www.qloudid.com/html/usercontent/images/favicon.ico">
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.safeqloud.com/html/usercontent/images/favicon.ico">
      
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -63,7 +63,7 @@
 		</div>
    <header class="header js-header authorization xs-padt24   padtb20" style="height:93px;  /* border-bottom: 1px solid #e6e8ec; */">
 <div class="header__center center xxs-padrl25">
-<a class="header__logo " href="https://www.qloudid.com/company/index.php/CompanySuppliers/companyProfileServices/<?php echo $data['cid']; ?>" style="
+<a class="header__logo " href="https://www.safeqloud.com/company/index.php/CompanySuppliers/companyProfileServices/<?php echo $data['cid']; ?>" style="
   background-color: #23262F;
     padding: 15px;
     color: #f67f00;
@@ -469,7 +469,7 @@
                   </svg><?php echo date('Y-m-d',strtotime($value['created_on'])); ?></div>
                 
               </div>
-                         <a href="https://www.qloudid.com/public/index.php/VitechProperties/propertyProposalDetail/<?php echo $value['enc']; ?>" style="text-decoration:none;" target="blank">
+                         <a href="https://www.safeqloud.com/public/index.php/VitechProperties/propertyProposalDetail/<?php echo $value['enc']; ?>" style="text-decoration:none;" target="blank">
 						 <div class="card__price" style="color:#f67f00; box-shadow: none; padding:0px;">
                          
                         <div class="card__actual"><svg class="icon icon-home" style="width:24px; height:24px">

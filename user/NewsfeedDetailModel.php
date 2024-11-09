@@ -414,7 +414,7 @@
 				
 				$fields=array();
 				$fields=$row_id;
-				$fields['qloudid']=$request_id;
+				$fields['safeqloud']=$request_id;
 				$fields['stat']=1;
 				//print_r($fields); die;
 				$stmt= $dbCon->prepare("delete from  invitation where invited_user_id= ?");
@@ -625,9 +625,9 @@
 						$rsultId=$stmt->insert_id;
 						$enc=$this -> encrypt_decrypt('encrypt',$rsultId);
 						$to      = $row_request['email'];
-						$subject = "Qloudid : Request to access your details";
+						$subject = "safeqloud : Request to access your details";
 						
-						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.qloudid.com/user/index.php/VerifyUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br> https://www.qloudid.com/user/index.php/VerifyUserRequest/requestAccount/'.$enc.'';
+						$emailContent =$row_user['first_name'].' '.$row_user['last_name'].' has requested to access your personal data. Click <a href="https://www.safeqloud.com/user/index.php/VerifyUserRequest/requestAccount/'.$enc.'">here</a> to take action </br> If above link does not work, please copy the following link in your browser. </br> https://www.safeqloud.com/user/index.php/VerifyUserRequest/requestAccount/'.$enc.'';
 						sendEmail($subject, $to, $emailContent);
 					}
 					$stmt->close();

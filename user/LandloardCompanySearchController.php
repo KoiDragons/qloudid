@@ -10,7 +10,7 @@ class LandloardCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../";
 				$data=array();
@@ -34,7 +34,7 @@ class LandloardCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -53,7 +53,7 @@ class LandloardCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				 
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../";
 				$data=array();
@@ -71,7 +71,7 @@ class LandloardCompanySearchController
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardCompanySearchModel();
 				$data=array();
@@ -88,7 +88,7 @@ class LandloardCompanySearchController
 			 $valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+				echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$model1       = new LandloardCompanySearchModel();
 				$data=array();

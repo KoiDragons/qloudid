@@ -167,7 +167,7 @@
 											<div id="spacer" spacing="standard" class="css-vqlgan"></div>
 											<div class="css-1jcail2">
 											   <div data-testid="did-you-know-description" class="css-1miy8fb">
-												  <img role="presentation" src="https://www.qloudid.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn">
+												  <img role="presentation" src="https://www.safeqloud.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn">
 												  <div class="css-1ai2sgr">We can generate a description based on market insights so your property stands out to guests.</div>
 											   </div>
 											</div>

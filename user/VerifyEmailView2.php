@@ -9,16 +9,16 @@
 </head>
 <body class="blue_bg">
 <div class="page_401">
-<div class="pad15 talc"><a href="https://www.qloudid.com/"><img src="<?php echo $path; ?>html/signup/images/qmatchup_logo.png" width="154" height="40" alt="Qmatchup" /></a></div>
+<div class="pad15 talc"><a href="https://www.safeqloud.com/"><img src="<?php echo $path; ?>html/signup/images/qmatchup_logo.png" width="154" height="40" alt="Qmatchup" /></a></div>
 <div class="clear"></div>
 <div class="error_bx">
 <div class="talc">
 <h1 class="fsz48 white_txt talc padtrl30">Not Activated</h1>
 <p class="fsz14 padrbl30">Please activate to accees your account</p>
 </div>
-<div class="pad5 talc"><a href="https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailSendEmail/<?php echo $data['email']; ?>" class="green_btn dblock">Resend Activation Mail</a></div>
+<div class="pad5 talc"><a href="https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailSendEmail/<?php echo $data['email']; ?>" class="green_btn dblock">Resend Activation Mail</a></div>
 
-<div class="pad10 talc"><a href="https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailDelete/<?php echo $data['email']; ?>" class="red_btn dblock">Delete</a></div>
+<div class="pad10 talc"><a href="https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailDelete/<?php echo $data['email']; ?>" class="red_btn dblock">Delete</a></div>
 
 <div class="clear"></div>
 </div>

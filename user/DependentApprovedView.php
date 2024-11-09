@@ -220,9 +220,9 @@ function checkFlag()
 			<div class="top_menu frighti padt20 padb10 hidden-xs">
 				<ul class="menulist sf-menu  fsz16 ">
 					<li class="hidden-xs padr10">
-						<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
 					</li>
-				 	<li class="hidden-xs padr10"><a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
+				 	<li class="hidden-xs padr10"><a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
           <ul style="display: none;">
             <li class="hidden-xs">
               <div class="top_arrow"></div>
@@ -258,7 +258,7 @@ function checkFlag()
                   </li>
 										
 										
-										<li><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
+										<li><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
 										</li>
 									</ol>
 									<div class="clear"></div>
@@ -282,7 +282,7 @@ function checkFlag()
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1  padl10 fsz25 sf-with-ul"><i class="fas fa-user" aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/NewPersonal/userInfo" class="lgn_hight_s1  padl10 fsz25 sf-with-ul"><i class="fas fa-user" aria-hidden="true"></i></a>
 								</li>
 								
 								 
@@ -297,9 +297,9 @@ function checkFlag()
 			<div class="top_menu frighti padt10 padb10" style="width:150px !important;">
 				<ul class="menulist sf-menu  fsz16 ">
 					<li class="hidden-xs padr10">
-						<a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
+						<a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow"><span class="black_txt pred_txt_h ffamily_avenir">Consents</span></a>
 					</li>
-				 	<li class="hidden-xs padr10"><a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
+				 	<li class="hidden-xs padr10"><a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount" class="black_txt lgn_hight_s1 fsz18 sf-with-ul"><span class="black_txt fas fa-user"></span></a>
           <ul style="display: none;">
             <li class="hidden-xs">
               <div class="top_arrow"></div>
@@ -335,7 +335,7 @@ function checkFlag()
                   </li>
 										
 										
-										<li><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
+										<li><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
 										</li>
 									</ol>
 									<div class="clear"></div>
@@ -386,7 +386,7 @@ function checkFlag()
 
                                         </div>
 					 
-										 <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail">
+										 <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail">
 										<div class="column_m container  marb5   fsz14 dark_grey_txt">
 												<div class=" white_bg marb0   bg_fffbcc_a" style="">
 																<div class="container padrl10 padtb15    brdrad1 fsz18 dark_grey_txt">
@@ -427,7 +427,7 @@ function checkFlag()
 															</div>
 															</div>
 															</a>
-										<a href="https://www.qloudid.com/user/index.php/Dependents/dependentList">
+										<a href="https://www.safeqloud.com/user/index.php/Dependents/dependentList">
 										<div class="column_m container  marb5   fsz14 dark_grey_txt">
 												<div class=" lgtgrey_bg marb0   bg_fffbcc_a" style="">
 																<div class="container padrl10 padtb15    brdrad1 fsz18 dark_grey_txt">
@@ -468,7 +468,7 @@ function checkFlag()
 															</div>
 															</div>
 															</a>
-															<a href="https://www.qloudid.com/user/index.php/Arbetsplats/minArbetsplats">
+															<a href="https://www.safeqloud.com/user/index.php/Arbetsplats/minArbetsplats">
 															<div class="column_m container  marb5   fsz14 dark_grey_txt">
 												<div class=" white_bg marb0   bg_fffbcc_a" style="">
 																<div class="container padrl10 padtb15    brdrad1 fsz18 dark_grey_txt">
@@ -599,7 +599,7 @@ function checkFlag()
 												
 												
 													<div class="clear"></div>
-												<div class="martb10 talc fsz18 hidden"><a href="https://www.qloudid.com/user/index.php/Dependents/dependentList" class="txt_cfdbea trans_bg brdb blue_btn  tb_67cff7_bg    trn xxs-brd_width ">Manage</a>
+												<div class="martb10 talc fsz18 hidden"><a href="https://www.safeqloud.com/user/index.php/Dependents/dependentList" class="txt_cfdbea trans_bg brdb blue_btn  tb_67cff7_bg    trn xxs-brd_width ">Manage</a>
 											</div>
 											</div>
 											

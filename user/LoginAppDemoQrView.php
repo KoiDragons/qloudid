@@ -120,7 +120,7 @@ else
 			send_data1.loginType=1;
 				$.ajax({
 					type:"POST",
-					url:"../QloudidApp/checkOrderReference",
+					url:"../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -181,7 +181,7 @@ NewWindow1 = window.open(Site,
     <div class="outer">
       <!-- header-->
       <header class="header js-header header_border bgcolor_F4B400 xs-padding2424">
-        <div class="header__center center"><a class="header__logo" href="https://www.qloudid.com/public/index.php/CorporateServicesEng" ><button class="button button-stroke button-small header__button" style="border-color:#ff0000; background-color:#ff0000; box-shadow: 0 0 0 2px #ff0000 inset; font-size:18px; min-width: 5em !important;">Close</button></a>
+        <div class="header__center center"><a class="header__logo" href="https://www.safeqloud.com/public/index.php/CorporateServicesEng" ><button class="button button-stroke button-small header__button" style="border-color:#ff0000; background-color:#ff0000; box-shadow: 0 0 0 2px #ff0000 inset; font-size:18px; min-width: 5em !important;">Close</button></a>
           <div class="header__wrapper js-header-wrapper">
             <div class="header__item header__item_dropdown js-header-item">
               <button class="header__head js-header-head" style="color:#000000; font-size:20px;">This is a demo for how to login using Qloud ID
@@ -292,12 +292,12 @@ NewWindow1 = window.open(Site,
                     
                   </svg>You can download Qloud ID on Appstore or Android marketplace
                 </div>
-				<a class="button receipt__button visible-xs  hidden" href="QloudidUrl://<?php echo $verifyIP; ?>" id="iOS"><span>Shop online</span>
+				<a class="button receipt__button visible-xs  hidden" href="safeqloudUrl://<?php echo $verifyIP; ?>" id="iOS"><span>Shop online</span>
                   <svg class="icon icon-bag">
                     <use xlink:href="#icon-bag"></use>
                   </svg></a>
 				  
-				  <a class="button receipt__button visible-xs  hidden" href="https://qloudid.com/ip/<?php echo $verifyIP; ?>" id="android"><span>Shop online</span>
+				  <a class="button receipt__button visible-xs  hidden" href="https://www.safeqloud.com/ip/<?php echo $verifyIP; ?>" id="android"><span>Shop online</span>
                   <svg class="icon icon-bag">
                     <use xlink:href="#icon-bag"></use>
                   </svg></a>

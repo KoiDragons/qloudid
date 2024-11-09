@@ -6,7 +6,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Qloudid</title>
+	<title>safeqloud</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 

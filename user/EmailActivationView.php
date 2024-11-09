@@ -16,7 +16,7 @@
 
 <div class="column_m header blue_bg">
   <div class="wrap">
-    <div class="logo padt10"><a href="https://www.qloudid.com/user/index.php/NewPersonal/userAccount"><img src="<?php echo $path;?>html/signup/images/qmatchup_logo.png" alt="Qmatchup" title="Qmatchup" /></a></div>
+    <div class="logo padt10"><a href="https://www.safeqloud.com/user/index.php/NewPersonal/userAccount"><img src="<?php echo $path;?>html/signup/images/qmatchup_logo.png" alt="Qmatchup" title="Qmatchup" /></a></div>
       <div class="clear"></div>
   </div>
 </div>

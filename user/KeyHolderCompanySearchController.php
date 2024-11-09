@@ -11,7 +11,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -32,7 +32,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -52,7 +52,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				
@@ -74,7 +74,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -98,7 +98,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				
@@ -130,7 +130,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				
@@ -154,7 +154,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -172,7 +172,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -190,7 +190,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				
@@ -214,7 +214,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -234,7 +234,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-			  echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+			  echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -252,7 +252,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -280,7 +280,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../../";
 				$data=array();
@@ -299,7 +299,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				
@@ -323,7 +323,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount/loginapp");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount/loginapp");
 				} else {
 				
 				
@@ -349,7 +349,7 @@ class KeyHolderCompanySearchController
 			$valueNew = checkLogin();
 			if ($valueNew == 0) {
 				$path = "../../";
-				header("location:https://www.qloudid.com/user/index.php/LoginAccount");
+				header("location:https://www.safeqloud.com/user/index.php/LoginAccount");
 				} else {
 				$path = "../../../../";
 				$data=array();
@@ -367,7 +367,7 @@ class KeyHolderCompanySearchController
 		$valueNew = checkLogin();
         if ($valueNew == 0) {
             $path = "../../";
-            echo '<script> window.location.href="https://www.qloudid.com/user/index.php/LoginAccount"; </script>'; die;
+            echo '<script> window.location.href="https://www.safeqloud.com/user/index.php/LoginAccount"; </script>'; die;
         } else {
 		
 			$model = new KeyHolderCompanySearchModel();

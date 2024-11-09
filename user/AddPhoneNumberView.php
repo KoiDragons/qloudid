@@ -164,7 +164,7 @@
 			<div class="column_m header xs-header  bs_bb lgtgrey2_bg" id="headerData">
 				<div class="wi_100 xs-hei_40p hei_65p pos_fix padtb5 padrl10  lgtgrey2_bg">
 					<div class="logo  marr15 wi_140p xs-wi_80p">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 					</div>
 					<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 " style="width: 50px; padding : 5px 0 0 0;">
@@ -276,7 +276,7 @@
 					<div class="fright xs-dnone sm-dnone">
 						<ul class="mar0 pad0">
 							<div class="hidden-xs hidden-sm padtrl10">
-								<a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt">
+								<a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt">
 									
 									<span class="valm">Logout</span>
 								</a>
@@ -286,7 +286,7 @@
 							
 						</ul>
 					</div>
-					<div class="visible-xs visible-sm fright marr0 padr0 "> <a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Logout</a> </div>
+					<div class="visible-xs visible-sm fright marr0 padr0 "> <a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Logout</a> </div>
 					<div class="clear"></div>
 					
 				</div>

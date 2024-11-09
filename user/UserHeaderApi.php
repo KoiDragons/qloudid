@@ -35,7 +35,7 @@ function checkFlag()
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15 wi_140p">
-				<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10 brdr_new" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail"> <h3 class="marb0 pad0 fsz27 black_txt padt10 padb10 brdr_new" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr10 ">
 			<div class="flag_top_menu flefti padt20 padb10 hidden-xs" style="width: 50px; ">
@@ -92,7 +92,7 @@ function checkFlag()
 			
 		<div class="fright xs-dnone sm-dnone padt10">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl "> <a href="https://www.qloudid.com/user/index.php/Brand/brandAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl "> <a href="https://www.safeqloud.com/user/index.php/Brand/brandAccount/M0xvUmVVa1BXQUpmc1FpQ3lydWJXZz09" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
 					</ul>
 				</div>
 			<!--sf-js-enabled sf-arrows hidden-xs-->

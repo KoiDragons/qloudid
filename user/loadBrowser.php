@@ -6,7 +6,7 @@
 <script>
 function closeme()
 {
-	  window.close ("https://www.qloudid.com/user/ExitWindow.php"); 
+	  window.close ("https://www.safeqloud.com/user/ExitWindow.php"); 
 }
 </script>
  </head>

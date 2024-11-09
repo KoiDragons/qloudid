@@ -5,7 +5,7 @@
 <html>
    <head>
       <meta charset="utf-8">
-    <!--  <meta http-equiv="refresh" content="10;https://www.qloudid.com/user/index.php/CoronaHelp/listPeople" /> -->
+    <!--  <meta http-equiv="refresh" content="10;https://www.safeqloud.com/user/index.php/CoronaHelp/listPeople" /> -->
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <title>Qmatchup</title>
       <!-- Styles -->

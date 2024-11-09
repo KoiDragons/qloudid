@@ -171,7 +171,7 @@
 						else 
 						{
 					
-							window.location.href ="https://www.qloudid.com/user/index.php/NotifyFamilyFriends";
+							window.location.href ="https://www.safeqloud.com/user/index.php/NotifyFamilyFriends";
 						}
 					}
 				});
@@ -539,7 +539,7 @@
 			<div class="wi_100 hei_65p xs-pos_fix pos_fix  padtb5 padrl10 white_bg">
 				
 				<div class="logo  marr15 wi_140p xs-wi_80p">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 					</div>
 					<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 " style="width: 50px; padding : 5px 0 0 0;">
@@ -651,13 +651,13 @@
 				<div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz14">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.qloudid.com" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg uppercase lgn_hight_30 white_txt  white_txt_h  brdl" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20"> <a href="https://www.safeqloud.com" id="usermenu_singin" class="translate hei_30pi dblock padrl20 blue_bg uppercase lgn_hight_30 white_txt  white_txt_h  brdl" data-en="Close" data-sw="Close">Close</a> </li>
 						
 						<li class="dblock hidden-xs hidden-sm fright pos_rel  brdclr_dblue marl20 "> <a href="#"  class="translate hei_30pi dblock padrl20   lgn_hight_30 black_txt show_popup_modal   " data-target="#om_mina" data-en="Om mina uppgifter" data-sw="Om mina uppgifter">Om mina uppgifter</a> </li>
 					</ul>
 				</div>
 				
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 				<div class="clear"></div>
 				
 			</div>
@@ -698,7 +698,7 @@
 								</div>
 						
 						<div class="mart20 talc">
-					<a href="https://www.qloudid.com/user/index.php/NotifyFamilyFriends">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
+					<a href="https://www.safeqloud.com/user/index.php/NotifyFamilyFriends">	<input type="button" value="Pröva igen" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
 						
 					</div>
 					</div><div class="clear"></div>
@@ -722,7 +722,7 @@
 								
 								<div class="padb0 xxs-pad0 ">
 								<div class="visible-xs visible-sm talc">
-									<img src="https://www.qloudid.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_75 ">	
+									<img src="https://www.safeqloud.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_75 ">	
 								</div>	
 								<h4 class="bold fsz40 padb10 tall xs-fsz35 xs-talc ">Meddela anhöriga...</h4>
 									<h3 class="fsz25 xs-fsz20 padb10 padt10 xs-padt0 brdb_new tall  lgn_hight_30 xs-talc">Gratis tjänst till anhöriga</h3>
@@ -1296,7 +1296,7 @@
 								
 							</div>
 							<div class="wi_50 xs-wi_100 fxshrink_0 order_1 xs-order_2 martb20 marr30 xs-marr0 talc  xs-padr0">
-								<img src="https://www.qloudid.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_100 hidden-xs">
+								<img src="https://www.safeqloud.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_100 hidden-xs">
 								
 								<h4 class="bold fsz25 padb10 tall">Hur det fungerar</h4>
 								

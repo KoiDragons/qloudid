@@ -127,7 +127,7 @@
 					//$("#keep-selected").addClass("active");
 					//keepGlobal=keepGlobal+1;
 					//$("#keep-selected-count").text(keepGlobal);
-					window.location.href = "https://www.qloudid.com/user/index.php/StoreData/userAccount";
+					window.location.href = "https://www.safeqloud.com/user/index.php/StoreData/userAccount";
 				})
 				.fail(function(){})
 				.always(function(){});
@@ -306,7 +306,7 @@
 				<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 			</div>
 			<div class="logo hidden-xs hidden-sm marr15">
-					<a href="#"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">Qloudid</h3></a>
+					<a href="#"><h3 class="marb0 pad0 fsz22 black_txt " style="font-family: 'Audiowide', sans-serif;">safeqloud</h3></a>
 				</div>
 			<div class="hidden-xs hidden-sm fleft padl10 padr30">
 				<div class="languages">

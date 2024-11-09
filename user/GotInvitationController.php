@@ -11,7 +11,7 @@ class GotInvitationController
         //$valueNew = checkLogin();
 		if(isset($_SESSION['rememberme']))
 		{
-		setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "qloudid.com");
+		setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "safeqloud.com");
 		}
         else if (checkLogin() == 0) {
            
@@ -40,7 +40,7 @@ class GotInvitationController
         //$valueNew = checkLogin();
 		if(isset($_SESSION['rememberme']))
 		{
-		setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "qloudid.com");
+		setcookie('rememberme', $_SESSION['rememberme'], time()+ (30*60*60*24), '/', "safeqloud.com");
 		}
         else if (checkLogin() == 0) {
            

@@ -82,18 +82,18 @@ function changeBg(id)
 					if(data1==1)
 					{
 				$("#warning").html('');
-				var msg="User does not exist.<a href='https://www.qloudid.com/user/index.php/CreateAccount'>Sign up</a>";
+				var msg="User does not exist.<a href='https://www.safeqloud.com/user/index.php/CreateAccount'>Sign up</a>";
 				$("#warning").html(msg);
 				}
 					else if(data1==5)
 					{
 				$("#warning").html('');
-				var msg="Wrong password. <a href='https://www.qloudid.com/user/index.php/ForgotPswd'>Forgot password?</a>";
+				var msg="Wrong password. <a href='https://www.safeqloud.com/user/index.php/ForgotPswd'>Forgot password?</a>";
 				$("#warning").html(msg);
 				}	
 					else if(data1==2 || data1==3 || data1==4)
 					{
-				window.location.href='https://www.qloudid.com/user/index.php/PersonalRequests/sentRequests?rid=<?php echo $data['r_id']; ?>';
+				window.location.href='https://www.safeqloud.com/user/index.php/PersonalRequests/sentRequests?rid=<?php echo $data['r_id']; ?>';
 					}
 					
 					else 
@@ -118,7 +118,7 @@ function changeBg(id)
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15">
-					<a href="https://www.qloudid.com/"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+					<a href="https://www.safeqloud.com/"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10">
 					<div class="languages">
@@ -139,7 +139,7 @@ function changeBg(id)
 				</div>
 				<div class="fright xs-dnone sm-dnone">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.qloudid.com" id="usermenu_singin" class="translate hei_30pi dblock padrl25  uppercase lgn_hight_30 white_txt white_txt_h bg_f80" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel brdl brdclr_dblue"> <a href="https://www.safeqloud.com" id="usermenu_singin" class="translate hei_30pi dblock padrl25  uppercase lgn_hight_30 white_txt white_txt_h bg_f80" data-en="Close" data-sw="Close">Close</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart2">
@@ -377,7 +377,7 @@ function changeBg(id)
 						</li>
 					</ul>
 				</div>
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>

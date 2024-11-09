@@ -158,7 +158,7 @@
                          submitFlag = 1;
                      } else {
          
-                         window.location.href = "https://www.qloudid.com/user/index.php/Dependents/requestGuardian/" + data1;
+                         window.location.href = "https://www.safeqloud.com/user/index.php/Dependents/requestGuardian/" + data1;
          
                          submitFlag = 0;
          

@@ -48,7 +48,7 @@ class VerifyEmailController
 			 $data['random_hash'] = $result['email_verification_code'];
 			 require_once('../configs/testMandril.php');
 			   $result              = $model->verifyEmailSendEmail($data);
-			    header("location:https://www.qloudid.com/user/index.php/VerifyEmail/verifyEmailAccount/".$data['email']);
+			    header("location:https://www.safeqloud.com/user/index.php/VerifyEmail/verifyEmailAccount/".$data['email']);
 		}
         
     }
@@ -63,7 +63,7 @@ class VerifyEmailController
 			$data['email']=cleanMe($a);
 			  
 			   $result              = $model->verifyEmailDelete($data);
-			    header("location:https://www.qloudid.com/user/index.php/Signup");
+			    header("location:https://www.safeqloud.com/user/index.php/Signup");
 		}
         
     }

@@ -83,7 +83,7 @@ function submitFormCom()
                     return false;
                     }
                     
-					$.get("https://www.qloudid.com/user/index.php/ChangePassword/checkPassword/"+cpass+"/"+user,function(data1,status){
+					$.get("https://www.safeqloud.com/user/index.php/ChangePassword/checkPassword/"+cpass+"/"+user,function(data1,status){
 							   
 								  if(data1==0)
 									{
@@ -105,7 +105,7 @@ function submitFormCom()
 	<div class="column_m header xs-header xsip-header xsi-header bs_bb lgtgrey2_bg">
 				<div class="wi_100 hei_65p xs-pos_fix padtb5 padrl10 lgtgrey2_bg">
 								<div class="logo marr15 wi_140p xs-wi_80p xxxs-wi_140p">
-				<a href="https://www.qloudid.com"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 			</div>
 			<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 padt5 xxxs-padt20 xs-padt10" style="width: 50px;">
@@ -215,7 +215,7 @@ function submitFormCom()
 			
 				<div class="fright xs-dnone visible-si padt10">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs visible-si fright pos_rel brdl "> <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
+						<li class="dblock hidden-xs visible-si fright pos_rel brdl "> <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" id="usermenu_singin" class="translate hei_30pi dblock padrl25 blue_bg_h uppercase lgn_hight_30 black_txt white_txt_h" data-en="Stäng sidan" data-sw="Stäng sidan">Stäng sidan</a> </li>
 					</ul>
 				</div>
 				<!--sf-js-enabled sf-arrows hidden-xs-->
@@ -229,7 +229,7 @@ function submitFormCom()
 						
 					</ul>
 				</div>
-				<div class="visible-xs hidden-si fright marr0 padr0 xs-padt5"> <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
+				<div class="visible-xs hidden-si fright marr0 padr0 xs-padt5"> <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 black_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>

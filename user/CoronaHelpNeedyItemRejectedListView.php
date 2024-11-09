@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<!--<meta http-equiv="refresh" content="10;https://www.qloudid.com/user/index.php/CoronaHelp/listItemsDetailRejected" />-->
+		<!--<meta http-equiv="refresh" content="10;https://www.safeqloud.com/user/index.php/CoronaHelp/listItemsDetailRejected" />-->
 			<meta name="viewport" content="width=device-width,initial-scale=1">
 				<title>Qmatchup</title>
 				<!-- Styles -->
@@ -73,7 +73,7 @@
 							<div class="column_m header xs-hei_55p  bs_bb lgtgrey2_bg xs-white_bg hidden-xs" id="headerData"  >
 				<div class="wi_100 xs-hei_55p hei_65p pos_fix padtb5 padrl10 lgtgrey2_bg xs-white_bg">
 					<div class="logo  marr15 wi_140p xs-wi_80p hidden-xs hidden-sm visible-xxs">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 grey_txt padt10 padb10 logofamily"  >Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 grey_txt padt10 padb10 logofamily"  >Qloud ID</h3> </a>
 					</div>
 				 
 					<div class="hidden-xs hidden-sm fleft padl20 padr10 ">
@@ -133,7 +133,7 @@
 					<div class="fright xs-dnone sm-dnone">
 						<ul class="mar0 pad0">
 							<div class="hidden-xs hidden-sm padtrl10">
-								<a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class=" diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt" >
+								<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class=" diblock padrl20  ws_now lgn_hight_29 fsz16 black_txt" >
 									
 									<span class="valm ffamily_avenir">Close</span>
 								</a>
@@ -158,7 +158,7 @@
 							<ul class="menulist sf-menu fsz14 sf-js-enabled sf-arrows">
 								 
 								<li class="first last" style="margin: 0 30px 0 0;">
-									<a href="https://www.qloudid.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left " aria-hidden="true"></i></a>
+									<a href="https://www.safeqloud.com/user/index.php/ReceivedRequest" class="lgn_hight_s1  padl10 fsz30 sf-with-ul"><i class="fas fa-long-arrow-alt-left " aria-hidden="true"></i></a>
 								</li>
 								
 								

@@ -144,7 +144,7 @@
 							
 							if(data1)
 							{
-								window.location.href ="https://www.qloudid.com/user/index.php/CompanyConsentPlatform/companyAccount/<?php echo $data['cid']; ?>";
+								window.location.href ="https://www.safeqloud.com/user/index.php/CompanyConsentPlatform/companyAccount/<?php echo $data['cid']; ?>";
 							}
 							
 						}

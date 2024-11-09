@@ -228,7 +228,7 @@ img {vertical-align: middle;}
 			 <div class="fright xs-dnone sm-dnone padt10 padb10">
 					<ul class="mar0 pad0 sf-menu fsz16">
 						
-						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt   ffamily_avenir" data-en="Logga out" data-sw="Logga out" style="background-color: #000000;">Logga out</a></li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel   first"><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" id="usermenu_singin" class="translate hei_30pi dblock padrl25  padtb5  lgn_hight_30 white_txt   ffamily_avenir" data-en="Logga out" data-sw="Logga out" style="background-color: #000000;">Logga out</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel padr20"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25 lgn_hight_30 black_txt ffamily_avenir padt5">Vår metod</a></li>
 	<li class="dblock hidden-xs hidden-sm fright pos_rel   last"><a href="#" id="usermenu_singin" class="translate hei_30pi dblock padrl25    lgn_hight_30 black_txt   ffamily_avenir padt5">Om CBD</a></li>
 	 
@@ -508,20 +508,20 @@ img {vertical-align: middle;}
 <div class="_3BTBTVOM" data-test-target="hero-gallery">
 <div class="_2tXernB8">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.qloudid.com/html/usercontent/images/bg/hotel1.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.safeqloud.com/html/usercontent/images/bg/hotel1.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
 <div class="_2zxhF-Tt">
 <div class="OI7TZU7N">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.qloudid.com/html/usercontent/images/bg/hotel2.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.safeqloud.com/html/usercontent/images/bg/hotel2.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>
 <div class="_2busJ7MM">
 <button class="_1iw-atL9" aria-label="Visa alla bilder">
-<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.qloudid.com/html/usercontent/images/bg/hotel3.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
+<div class="ZVAUHZqh" style="background-image: url(&quot;https://www.safeqloud.com/html/usercontent/images/bg/hotel3.jpg&quot;); background-size: cover; height: 100%; width: 100%;">
 </div>
 </button>
 </div>

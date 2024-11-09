@@ -83,7 +83,7 @@ function submitFormCom()
                     return false;
                     }
                     
-					$.get("https://www.qloudid.com/user/index.php/ChangePassword/checkPassword/"+cpass+"/"+user,function(data1,status){
+					$.get("https://www.safeqloud.com/user/index.php/ChangePassword/checkPassword/"+cpass+"/"+user,function(data1,status){
 							   
 								  if(data1==0)
 									{
@@ -106,7 +106,7 @@ function submitFormCom()
 		<div class="wi_100 hei_65p   padtb5 padrl10 lgtblue2_bg">
 			
 			<div class="logo wi_140p xs-wi_80p xxxs-wi_140p">
-				<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10 ffamily_avenir" >Qloud ID</h3> </a>
+				<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail"> <h3 class="brdr_new marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt10 black_txt padt10 padb10 ffamily_avenir" >Qloud ID</h3> </a>
 			</div>
 			<div class="visible-xs visible-sm fleft">
 							<div class="flag_top_menu flefti  padb10 padt5 xxxs-padt20 xm-padt10" style="width: 50px;">
@@ -214,7 +214,7 @@ function submitFormCom()
 			</div>
 			</div>
 			<div class="search xs-search padtb5 hidden-xs ">
-			<form action="https://www.qloudid.com/user/index.php/PrivateSearchResult" method="POST" id="save_indexingcs" name="save_indexingcs" accept-charset="ISO-8859-1">
+			<form action="https://www.safeqloud.com/user/index.php/PrivateSearchResult" method="POST" id="save_indexingcs" name="save_indexingcs" accept-charset="ISO-8859-1">
       <div class="fleft">
         <input type="text" name="message" id="message" class="search_fld xs-search_fld  wi_537p xs-wi_200p brdrad5" style="height: 44px;">
       </div>
@@ -327,7 +327,7 @@ function submitFormCom()
                   </li>
 										
 										
-										<li><a href="https://www.qloudid.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
+										<li><a href="https://www.safeqloud.com/user/index.php/UserLogout?action=logout" class="trn">Logga ut</a>
 										</li>
 									</ol>
 									<div class="clear"></div>
@@ -360,7 +360,7 @@ function submitFormCom()
 						
 					</div>
 				
-				<form action="https://www.qloudid.com/user/index.php/ChangePassword/changePassword" method="POST" id="loginform1">
+				<form action="https://www.safeqloud.com/user/index.php/ChangePassword/changePassword" method="POST" id="loginform1">
 				<div class="padb10">
 						
 						<div class="pos_rel ">

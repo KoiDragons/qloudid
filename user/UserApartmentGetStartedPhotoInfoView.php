@@ -516,7 +516,7 @@ function updateAvailableStarted()
 
 
 									<div class="clear"></div>
-									<div class="css-1jcail2"><div data-testid="did-you-know-headline-info" class="css-1miy8fb"><img role="presentation" src="https://www.qloudid.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn"><div class="css-1ai2sgr">Improve your listing with professional photos. Book your property photoshoot now.</div></div></div>
+									<div class="css-1jcail2"><div data-testid="did-you-know-headline-info" class="css-1miy8fb"><img role="presentation" src="https://www.safeqloud.com/html/usercontent/images/paintbrush-ladder.68ee.svg" class="css-1p436cn"><div class="css-1ai2sgr">Improve your listing with professional photos. Book your property photoshoot now.</div></div></div>
 									</div>	
 						</div>
 						<div class="css-hayuge  <?php if($selectedGetSratedDetail['is_available']==0) echo 'hidden'; ?>" id="photoDisplay">

@@ -25,7 +25,7 @@ if($requestDetail ['passport_image']!=null) { $filename="../estorecss/".$request
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>html/usercontent/images/favicon.ico">
-		<title>Qloudid</title>
+		<title>safeqloud</title>
 		<!-- Styles -->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $path; ?>html/signup/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>html/signup/css/style.css" />
@@ -78,7 +78,7 @@ if($requestDetail ['passport_image']!=null) { $filename="../estorecss/".$request
 				<div class="wi_100 xs-hei_40p hei_65p pos_fix padtb5 padrl10  white_bg">
 					
 					<div class="logo  marr15 wi_140p xs-wi_80p">
-						<a href="https://www.qloudid.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
+						<a href="https://www.safeqloud.com"> <h3 class="marb0 pad0 fsz27 xs-fsz16 xs-bold xs-padt5 black_txt padt10 padb10" style="font-family: 'Audiowide', sans-serif;">Qloud ID</h3> </a>
 					</div>
 					
 						<div class="visible-xs visible-sm fleft">
@@ -235,13 +235,13 @@ if($requestDetail ['passport_image']!=null) { $filename="../estorecss/".$request
 									
 								</div>
 									<div class="mart20 tall">
-						<a href="https://www.qloudid.com/user/index.php/LoginAccount"><input type="button" value="Logga in eller skapa ett konto" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
+						<a href="https://www.safeqloud.com/user/index.php/LoginAccount"><input type="button" value="Logga in eller skapa ett konto" class="wi_320p maxwi_100 brdrad3 hei_50p diblock nobrd panlyellow_bg fsz18 black_txt curp" ></a>
 						
 					</div>
 								
 							</div>
 							<div class="wi_50 xs-wi_100 fxshrink_0 order_1 xs-order_2 marb20  xs-marr0 talc  xs-padr0 hidden-xs">
-								<img src="https://www.qloudid.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_450p xs-wi_347p">
+								<img src="https://www.safeqloud.com/html/omworkplace/images/random/undraw_gradma_wanr.png" class="wi_450p xs-wi_347p">
 							</div>
 							
 						</div>

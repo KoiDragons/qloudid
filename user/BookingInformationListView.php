@@ -242,7 +242,7 @@
 												</a>
 
 												<?php } else if($value['reservation_confirmed']==1 && $value['precheckin_status']==0)
-												{ ?> <a href="https://www.qloudid.com/public/index.php/PrecheckinInformation/precheckedinInfo/<?php echo $value['enc']; ?>">	
+												{ ?> <a href="https://www.safeqloud.com/public/index.php/PrecheckinInformation/precheckedinInfo/<?php echo $value['enc']; ?>">	
 											<div class="column_m container  marb5 mart5   fsz14 dark_grey_txt">
 												<div class="lgtgrey_bg  bg_fffbcc_a ">
 										<div class="container padtb15  brdrad1 fsz14 dark_grey_txt padrl10">

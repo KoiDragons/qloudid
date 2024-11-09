@@ -6,7 +6,7 @@ class AppModel{
    	 	 $username = "root";
 		 $password = "";
 	 	 $host = "localhost";
-		 $dbname = "qloudid";
+		 $dbname = "safeqloud";
 		 $dbCon = new mysqli($host, $username, $password,$dbname);
 		
 		if ($dbCon->connect_error) {

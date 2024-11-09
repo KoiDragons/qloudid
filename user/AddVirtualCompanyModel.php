@@ -20,7 +20,7 @@
 			{
 				//print_r($row_company); 
 			$country=201;
-			$web='www.qloudid.com';
+			$web='www.safeqloud.com';
 			$st=1;
 			$stmt = $dbCon->prepare("insert into companies(o_type,country_id,user_login_id,company_name,company_email,website,hash_code,created_date,email_verification_status,created_by,user_role) 
 			values(?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ?)");
@@ -93,7 +93,7 @@
 				{
 					$row_company['address']=$row_company['zipcode'].','.$row_company['city'].','.$row_company['country_name'];
 				}
-				$stmt = $dbCon->prepare("INSERT INTO property_location (company_id,property_id,visiting_address,created_on, is_headquarter,qloudid_property_id) VALUES ( ?, ?, ?, now(), ?, ?)");
+				$stmt = $dbCon->prepare("INSERT INTO property_location (company_id,property_id,visiting_address,created_on, is_headquarter,safeqloud_property_id) VALUES ( ?, ?, ?, now(), ?, ?)");
 				$stmt->bind_param("iisii", $id,$property_id,$row_company['address'],$is_headquarter,$id);
 				$stmt->execute();
 				$property_id=$stmt->insert_id;

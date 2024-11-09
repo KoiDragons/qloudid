@@ -36,7 +36,7 @@
 					if(data1)
 					{
 					 
-						window.location.href="https://www.qloudid.com/user/index.php/Travel/emergencyListing";
+						window.location.href="https://www.safeqloud.com/user/index.php/Travel/emergencyListing";
 					}
 				}
 				});

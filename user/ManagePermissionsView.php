@@ -83,7 +83,7 @@
 				</div>
 				<div class="fright xs-dnone sm-dnone">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs hidden-sm fright pos_rel "> <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" id="usermenu_singin" class="translate hei_30pi dblock padrl25 red_bg uppercase lgn_hight_30 white_txt white_txt_h brdrad3" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel "> <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" id="usermenu_singin" class="translate hei_30pi dblock padrl25 red_bg uppercase lgn_hight_30 white_txt white_txt_h brdrad3" data-en="Close" data-sw="Close">Close</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart2">
@@ -321,7 +321,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/NewsfeedDetail" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>
@@ -398,7 +398,7 @@
 												</li>
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" data-id="scroll-section-1" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pred2_h brdclr_pred2_a pred2_bg_h pred2_bg_a black_txt white_txt_h white_txt_a"> <span class="valm trn">Om oss</span>
+													<a href="https://www.safeqloud.com/user/index.php/OmOss/companyAccount/<?php echo $data['cid']; ?>" data-id="scroll-section-1" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pred2_h brdclr_pred2_a pred2_bg_h pred2_bg_a black_txt white_txt_h white_txt_a"> <span class="valm trn">Om oss</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -410,7 +410,7 @@
 											</li>
 											
 											<li class="dblock padrb10">
-												<a href="https://www.qloudid.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Aterförsäljare</span>
+												<a href="https://www.safeqloud.com/user/index.php/Aterforsaljare/companyAccount/<?php echo $data['cid']; ?>" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Aterförsäljare</span>
 													<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 												</a>
 											</li>
@@ -422,7 +422,7 @@
 											<h4 class="padb5 uppercase ff-sans black_txt trn">Verify</h4>
 											<ul class="marr0 pad0">
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/IssueQloudid/qloudAccount/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Become verified</span>
+													<a href="https://www.safeqloud.com/user/index.php/Issuesafeqloud/qloudAccount/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Become verified</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
@@ -434,18 +434,18 @@
 											<h4 class="padb5 uppercase ff-sans black_txt trn">Share & Monitor</h4>
 											<ul class="marr0 pad0">
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/company/index.php/ManageRequest/requestAccount/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Employees</span>
+													<a href="https://www.safeqloud.com/company/index.php/ManageRequest/requestAccount/<?php echo $data['cid']; ?>" class="hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Employees</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Suppliers</span>
+													<a href="https://www.safeqloud.com/user/index.php/CompanySuppliers/companyAccount/<?php echo $data['cid']; ?>" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Suppliers</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>
 												
 												<li class="dblock padrb10">
-													<a href="https://www.qloudid.com/user/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Customers</span>
+													<a href="https://www.safeqloud.com/user/index.php/CompanyCustomers/companyAccount/<?php echo $data['cid']; ?>" class=" hei_26p dflex alit_c pos_rel padrl10 brdl brdwi_3 brdclr_hgrey brdclr_pblue2_h brdclr_pblue2_a pblue2_bg_h pblue2_bg_a black_txt white_txt_h black_txt_a"> <span class="valm trn">Customers</span>
 														<div class="wi_20p hei_20p hide dblock_pa xs-dnone_i sm-dnone_i pos_abs top3p right-8p pblue2_bg rotate45"></div>
 													</a>
 												</li>

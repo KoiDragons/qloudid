@@ -60,7 +60,7 @@
 			
 			if(isset($_POST['prnumber']) && $_POST['prnumber'] != '' )
 			{
-				$BASE_PATH = '/mnt/persist/www/docroot_qloudid/public_html/ext/bankid/python/';
+				$BASE_PATH = '/mnt/persist/www/docroot_safeqloud/public_html/ext/bankid/python/';
 				$path = $BASE_PATH.'bankid_authenticate.py';
 				$userIP = $_SERVER['REMOTE_ADDR'];
 				$personalNumber = $_POST['prnumber'];
@@ -86,10 +86,10 @@
 		static public static function addPy()
 		{
 			
-				$BASE_PATH = '/mnt/persist/www/docroot_qloudid/public_html/user/';
-				$path = '/var/www/html/qloudid.com/public_html/user/add.py';
+				$BASE_PATH = '/mnt/persist/www/docroot_safeqloud/public_html/user/';
+				$path = '/var/www/html/safeqloud.com/public_html/user/add.py';
 				
-				$output =  shell_exec("python /var/www/html/qloudid.com/public_html/user/add.py 2>&1");
+				$output =  shell_exec("python /var/www/html/safeqloud.com/public_html/user/add.py 2>&1");
 				print_r($output);
 		}
 		
@@ -182,7 +182,7 @@
 			if(isset($_REQUEST['prnumber']) && $_REQUEST['prnumber'] != '' )
 			{
 		
-				$BASE_PATH = '/mnt/persist/www/docroot_qloudid/public_html/ext/bankid/python/';
+				$BASE_PATH = '/mnt/persist/www/docroot_safeqloud/public_html/ext/bankid/python/';
 				$path = $BASE_PATH.'bankid_authenticate.py';
 				$userIP = $_SERVER['REMOTE_ADDR'];
 				
@@ -212,7 +212,7 @@
 		{
 			if(isset($_REQUEST['order_ref']) && $_REQUEST['order_ref'] != '' )
 			{
-				$BASE_PATH = '/mnt/persist/www/docroot_qloudid/public_html/ext/bankid/python/';
+				$BASE_PATH = '/mnt/persist/www/docroot_safeqloud/public_html/ext/bankid/python/';
 				$path = $BASE_PATH.'bankid_collection.py';
 				$orderRef = $_REQUEST['order_ref'];
 				$output =  shell_exec("python $path $orderRef 2>&1");
@@ -238,7 +238,7 @@
 		{
 			if(isset($_POST['orderRef']))
 			{
-				$BASE_PATH = '/mnt/persist/www/docroot_qloudid/public_html/ext/bankid/python/';
+				$BASE_PATH = '/mnt/persist/www/docroot_safeqloud/public_html/ext/bankid/python/';
 				$path = $BASE_PATH.'bankid_collection.py';
 				$orderRef = $_POST['orderRef'];
 				$output =  shell_exec("python $path $orderRef 2>&1");

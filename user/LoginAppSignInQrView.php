@@ -53,7 +53,7 @@ if( ios ) {
 			send_data1.loginType=3;
 				$.ajax({
 					type:"POST",
-					url:"../QloudidApp/checkOrderReference",
+					url:"../safeqloudApp/checkOrderReference",
 					data:send_data1,
 					dataType:"text",
 					contentType: "application/x-www-form-urlencoded;charset=utf-8",
@@ -172,13 +172,13 @@ if( ios ) {
 							
 							 <div class="padt20 xxs-talc talc visible-xs  hidden" id="android">
 								
-								<a href="https://qloudid.com/ip/<?php echo $verifyIP; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="https://www.safeqloud.com/ip/<?php echo $verifyIP; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						    
 						     <div class="padt20 xxs-talc talc visible-xs  hidden" id="iOS">
 								
-								<a href="QloudidUrl://<?php echo $verifyIP; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
+								<a href="safeqloudUrl://<?php echo $verifyIP; ?>"><button type="button" name="forward" class="forword minhei_55p red_ff2828_bg fsz18 padrl80" >Sign in</button></a>
 								
 							</div>
 						<div class="padtb0 brdrad3 ">

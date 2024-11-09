@@ -238,7 +238,7 @@
 					}
 					if(data==1)
 					{
-						window.location.href ="https://www.qloudid.com/user/index.php/Invitation/invitationShow";
+						window.location.href ="https://www.safeqloud.com/user/index.php/Invitation/invitationShow";
 					}
 					else
 					{
@@ -321,7 +321,7 @@
 					<a href="#" class="class-toggler dblock bs_bb talc fsz30 dark_grey_txt " data-target="#scroll_menu" data-classes="hidden-xs hidden-sm" data-toggle-type="separate"> <span class="fa fa-bars dblock"></span> </a>
 				</div>
 				<div class="logo hidden-xs hidden-sm marr15">
-					<a href="https://www.qloudid.com/user/index.php/NewsfeedDetail"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
+					<a href="https://www.safeqloud.com/user/index.php/NewsfeedDetail"> <img src="<?php echo $path; ?>html/usercontent/images/qmatchup_logo_blue2.png" alt="Qmatchup" title="Qmatchup" class="valb" /> </a>
 				</div>
 				<div class="hidden-xs hidden-sm fleft padl10">
 					<div class="grey_languages">
@@ -340,7 +340,7 @@
 				</div>
 				<div class="fright xs-dnone sm-dnone">
 					<ul class="mar0 pad0">
-						<li class="dblock hidden-xs hidden-sm fright pos_rel "> <a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" id="usermenu_singin" class="translate hei_30pi dblock padrl25 red_bg uppercase lgn_hight_30 white_txt white_txt_h brdrad3" data-en="Close" data-sw="Close">Close</a> </li>
+						<li class="dblock hidden-xs hidden-sm fright pos_rel "> <a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" id="usermenu_singin" class="translate hei_30pi dblock padrl25 red_bg uppercase lgn_hight_30 white_txt white_txt_h brdrad3" data-en="Close" data-sw="Close">Close</a> </li>
 					</ul>
 				</div>
 				<div class="top_menu top_menu_custom mart2">
@@ -578,7 +578,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.qloudid.com/user/index.php/ShareMonitor/shareMonitorShow" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
+				<div class="visible-xs visible-sm fright marr10 padr10 brdr brdwi_3"> <a href="https://www.safeqloud.com/user/index.php/ShareMonitor/shareMonitorShow" class="diblock padrl20 brdrad3 pred2_bg lgn_hight_29 fsz14 white_txt">Close</a> </div>
 				<div class="clear"></div>
 			</div>
 		</div>
